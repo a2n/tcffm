@@ -229,3 +229,22 @@
 20:35 < guildwar> 可是這樣不方便啊，想用某個軟體時就沒得用
 20:36 < guildwar> 除非你有很多台機器可用，弄一台很精簡的 ok，否則像我只有一台 notebook 時，若弄成那種環境，不就很多東東無法做
 20:37 < guildwar> 要嘛就一開始很精簡，要用什麼就裝什麼，幾個月後又一樣變很肥了 :)
+20:42 <@haroldwu> 哈哈我是要用小筆電
+20:43 <@haroldwu> 不過，如果是 tinyX 的話，arch不是也有類似的東西？
+20:44 < guildwar> 其實你現在想用什麼程式，直接寫在 ~/.xsession 中，如只要 firefox 就 exec firefox 就好，這樣一進入Ｘ 什麼 WM 都不會執行，只會有 firefox
+20:44 < guildwar> 我查了一下 aur 中並沒有 tinyX 咧
+20:45 <@haroldwu> 真的嗎？？這樣就不需要 WM 了哦XDD 那我寫個 exec google-chrome 是不是可以唬人說這是 chromeOS了 XDD
+20:46 <@haroldwu> 啊，剛剛講的不清楚，「如果是 tinyX 的話，"那也可以用arch當基礎"，arch不是也有類似"debootstrap"的東西？」
+20:46 < guildwar> 你用看看，沒 WM 有夠難用的
+20:47 <@haroldwu> ""內的內容被我省略了
+20:47 < guildwar> 理論上可以，沒問題
+20:49 <@haroldwu> tinyX 感覺太麻煩了...跟 dwm、evilvte 是一樣的東西，要自己改源碼的 .h 檔案做設定
+20:49 < guildwar> 所以放棄吧，直接用 dwm 或 小 WM 就好啦，不要太挑了 XD
+20:52 < guildwar> 你現在是覺得哪部份太耗資源， Xorg、WM、kernel　還是什麼?
+20:54 < guildwar> 如果要小的，可試試 slitaz http://www.slitaz.org/
+20:55 < guildwar> 這個 kernel 很小，但還是用 Xorg
+20:57 <@haroldwu> 後來發現最耗資源的是瀏覽器XDDDD
+20:57 < guildwar> 對啊，所以其實都還好，因為都要跑瀏覽器 :)
+21:00 < guildwar> 不然你去試用 java 寫的 X :) http://www.jcraft.com/weirdx/
+21:03 <@haroldwu> 用java寫的QQ
+21:07 < guildwar> 如果不要用 X 可以用 DirectFB，但應用程式不足 http://www.directfb.org/
