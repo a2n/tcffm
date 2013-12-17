@@ -84,3 +84,148 @@
 09:45 < a2n> 有新朋友呀. :)
 09:50 < Ronmi-at-work> ._./
 11:14 < OtomeSound> @_@
+12:16 < bearlin> @@
+12:39 < guildwar> 昨天聚會有二位新朋友 Ronmi 及 bearlin，他們是 max 從星期五的 ctlug 中拉過來的，除了星期五的聚會外，也可以來和我們一起喇賽 XD
+12:39 < bearlin> 大家早安
+12:40 < guildwar> 午安了吧 :)
+12:40 < bearlin> 對學生來講這是早安
+12:40 < guildwar> 也是 XD
+12:41 < guildwar> 對了，稍微說一下，在這個 irc 上的所有對話，都會被記錄
+12:41 < bearlin> 我知道
+12:41 < bearlin> 公共空間
+12:42 < bearlin> 那私人聊天會紀錄嗎？？？
+12:42 < guildwar> 如果有不想被記錄的段落，請在最前面加上 [off]
+12:42 < guildwar> 私人聊天不會
+12:42 < bearlin> p
+12:42 < bearlin> 嗯
+12:42 < bearlin> 應該不用太care這個
+12:43 < guildwar> 這還是要說一下，因為還有其他人不了解 :)
+12:43 < bearlin> 嗯
+12:43 < bearlin> 不過我TCFFM官網進不去
+12:44 < bearlin> 好像是宿舍網管把他弄掉了
+12:44 < guildwar> 是指 http://forum.twgogo.org ?
+12:44 < bearlin> ...
+12:44 < bearlin> http://tcffm.twgogo.org
+12:44 < guildwar> 是喔，現在呢？ 我可以連耶
+12:44 < bearlin> 我完全連不上
+12:45 < bearlin> ping只出現一行就卡住了
+12:45 < guildwar> 那只好請你自行翻牆了 XD
+12:45 < bearlin> 真囧
+12:46 < guildwar> 另外，irc log 暫時在 http://tcffm.rr.nu:8080/irclog/tcffm/
+12:46 < guildwar> 有可能過不久就會換了，到時再通知
+12:46 < bearlin> tor vpn goagent 效果差很多嗎？？？
+12:46 < bearlin> 嗯
+12:46 < guildwar> 還有一個統計頁面 http://tcffm.rr.nu:8080/irclog/tcffm/pisg.html 滿有趣的
+12:46 < guildwar> tor 慢到爆 XD
+12:47 < bearlin> 我也決的超慢
+12:47 < bearlin> 根本就20KB/S上下
+12:47 < guildwar> 不過用途不同，tor 以隱私為主
+12:47 < bearlin> 可是聽說tor也是有危險
+12:48 < guildwar> 是啊
+12:48 < guildwar> 聽說被 NSA 控制了一大部份
+12:48 < bearlin> ...
+12:48 < bearlin> 嗯
+12:48 < guildwar> 用途不同咩
+12:49 < guildwar> 譬如我只是不想讓某個網站知道我從哪裡來，那 tor 就很好用
+12:50 < guildwar> 然後, ssh 也可以透過 tor 來隱匿自己來的地方
+12:50 < bearlin> ssh之前找到好像可以破解
+12:50 < bearlin> 一個工具的樣子
+12:50 < bearlin> ...
+12:51 < guildwar> 什麼工具，應該還不至於啦，可能是漏洞還沒更新之類的
+12:51 < guildwar> 或是未知漏洞
+12:52 < bearlin> 應該是暴力破解
+12:52 < bearlin> ...
+12:53 < guildwar> 那就沒關係了
+12:53 < guildwar> 將 password 認證給關了，看你怎麼暴力
+12:53 < bearlin> 嗯...
+12:57 < guildwar> 不然用 knockd 來做門禁控管也行
+12:58 < guildwar> http://is.gd/create.php
+12:58 < guildwar> http://is.gd/pL2SMT　　錯了，這個才對　XD
+13:08 < bearlin> ...
+13:08 < bearlin> 嗯
+13:50 < brli> 請愛用 vpngate.net :p
+13:51 < brli> 假如只是想翻牆的話
+13:52 < bearlin> 嗯
+13:53 < guildwar> linux 下要用什麼 L2TP/IPsec client 呢?
+13:55 < guildwar> 看來 linux 下恐怕還是要用 openvpn 比較方便一些
+13:58 < guildwar> 哇，台灣排名 vpn 流量全世界第三耶，好屌 XD
+13:58 < bearlin> 我之前是使用www.securitykiss.com/
+13:58 < bearlin> 使用pptp
+13:58 < bearlin> ...
+13:58 < bearlin> 有點low
+13:58 < bearlin> ...
+13:59 < guildwar> 不對啊，不是以流量排名
+13:59 < guildwar> pptp 不安全 :)
+13:59 < bearlin> 嗯...
+13:59 < bearlin> 這下麻煩了
+13:59 < bearlin> 不過我就是用他註冊dota2的
+14:00 < bearlin> 不安全的地方在？？？
+14:00 < guildwar> https://www.schneier.com/pptp.html 我也不懂，不過知道不安全就不用了 XD
+14:01 < bearlin> 嗯
+14:01 < bearlin> 好
+14:01 < bearlin> 我先上課
+14:31 < Ronmi-at-work> Louie > END USER的話 密碼設強一點就還好 第五點講對PPTP SERVER的攻擊 這就尷尬了
+14:31 < guildwar> Louie 是誰啊
+14:32 < Ronmi-at-work> 唔 貼錯XD
+14:33 < Ronmi-at-work> 把另一個視窗的人名貼過來了
+14:33 < Ronmi-at-work> 應該是guildwar
+14:34 < guildwar> 呵呵，重點是我是 anti-microsoft　ＸＤ
+14:35 < Ronmi-at-work> guildwar > GJ
+15:42 < hmchen> guildwar: 剛剛試了 bambuser, 最低解析度 latency 超短, 但解析度稍微拉高 320x240, 800x480 後, 很不流暢, latency 也明顯增加很多
+15:43 < guildwar> 了解，那就不要用了 :)，因為之前用 meego 手機沒得選擇，只有 bambuser XD
+15:43 < hmchen> 應該是營運規模小, 頻寬不足吧; http://www.ustream.tv/channel/live-ipcam 這台 raspberry pi 應該會放在線上一陣子, 今天 demo 給客戶看
+15:44 < hmchen> 推 1920x1080 , 5Mbps 相當流暢啊~~~ ustream 水管超大
+15:45 < hmchen> 但這樣我對外頻寬就快吃滿了, 現在改成 1280x720, 1.5Mbps
+15:46 < brli> 外面風好大0.0
+15:46 < guildwar> 也好，不然我的 notebook 也會被操掛 :)  1080p 光看就很吃力
+15:47 < hmchen> pi camera 的預設對焦距離很短, 拍遠景有點糊
+15:48 < guildwar> 這樣效果不錯了
+15:52 < hmchen> 有被問到錄影的問題, ustream 的 rtmp 路徑似乎也不能直接取得, 類似 youtube 那樣得用程式去 parsing html 內容拼湊出來
+15:53 < guildwar> 不懂 :)
+15:53 < hmchen> 同時也表示路徑的算法可能會改版
+15:53 < guildwar> 不是直接 stream 之後，就會留一份在 server 上了嗎?
+15:54 < guildwar> 之前用 bambuser，後續可以將連結給朋友，讓他們直接看我錄的影片
+15:54 < hmchen> 如果可以拿到 rtmp://.... 這串 URL, 觀眾可以用 vlc 或 rtmpdump 之類的工具錄起來
+15:55 < hmchen> 你說的是保存影片
+15:55 < guildwar> ok， 是客戶要自己錄下來
+15:55 < hmchen> ustream 得是付費會員才能保存影片
+15:55 < guildwar> 了解
+15:55 < hmchen> 恩, 畢竟到時候要擺進 ip camera 裡頭
+15:55 < guildwar> ok
+15:55 < hmchen> 有保存證據需求
+17:19  * tcffm_logger_bot is logging
+17:53 <@haroldwu> 大家好...來了
+17:53 <@haroldwu> 上了整天的課~！
+17:53 <@haroldwu> 發現了一個有趣的東西XDD
+17:53 < bearlin> 好
+17:53 < bearlin> 替人上課還是自己上課？？？
+17:54 < bearlin> 對了
+17:54 < bearlin> id可以調中文嗎
+17:54 < bearlin> 很難便是
+17:54 < bearlin> 辨識
+17:54 < bearlin> ...
+17:54 <@haroldwu> 不行的樣子？你可以試試
+17:54 <@haroldwu> 測試
+17:54 <@haroldwu> 不行 lol
+17:54 <@haroldwu> https://github.com/alk/elisp-regex-dsl
+17:54 < bearlin> ...
+17:55 <@haroldwu> 這個工具，可以用 S-expression 來表示 regular expression
+17:55 <@haroldwu> 讚，這樣寫起來比較容易懂。反正我要的正則通常不複雜 XD
+17:56 <@haroldwu> 中文是 Erroneous Nickname
+17:56 < bearlin> 嗯
+17:56 < bearlin> 看不懂
+17:56 < bearlin> emacs？？？
+17:57 <@haroldwu> 嗯嗯
+18:00 < bearlin> 嗯
+18:00 < bearlin> 不太懂
+18:00 < bearlin> 哈哈
+19:21 < guildwar> nick 中文
+20:31 <@haroldwu> 研究 debootstrap 中
+20:31 <@haroldwu> 好像不錯~！:P
+20:32 < guildwar> 是啊，你要幹嘛，裝另一個系統?
+20:33 <@haroldwu> http://blog.csdn.net/Juix/article/details/1444060
+20:33 <@haroldwu> 看起來他的需求跟我類似
+20:33 <@haroldwu> 开机后直接启动firefox进行网络浏览，X尽可能的小
+20:35 < guildwar> 可是這樣不方便啊，想用某個軟體時就沒得用
+20:36 < guildwar> 除非你有很多台機器可用，弄一台很精簡的 ok，否則像我只有一台 notebook 時，若弄成那種環境，不就很多東東無法做
+20:37 < guildwar> 要嘛就一開始很精簡，要用什麼就裝什麼，幾個月後又一樣變很肥了 :)
