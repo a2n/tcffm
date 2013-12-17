@@ -1,0 +1,85 @@
+--- Log opened 二 12月 17 00:00:33 2013
+00:15 < lin> helllo ha
+00:15 < lin> 請問下
+00:16 < lin> 怎麼register
+00:16 < guildwar> http://tcffm.rr.nu:8080/irclog/tcffm/2013-11-12.html#T21-14-26 先看看
+00:16 < lin> 多謝
+00:17 < guildwar> 我沒註冊過，若不行，等 haroldwu 來回答 :)
+00:17 < ronmi> 打 /nickserv register 想要的密碼 你的email
+00:18 < ronmi> 然後收信 會有一段 /msg nickserv啥的文字，貼到IRC視窗，就註冊好了
+00:19 < ronmi> 下次連線後打  /nickserv identify 你的密碼    就可以
+00:20 < lin> 多謝各位
+00:23 <@haroldwu> 來了~
+00:24 <@haroldwu> 這是已經註冊好了的意思嗎！？XD
+00:24 <@haroldwu> guildwar 發的這個是已經註冊的帳號如何取得 ip 遮罩
+00:25 <@haroldwu> lin: 如果你已經註冊好了，信箱那邊的步驟也 ok 後，去 #freenode
+00:26 <@haroldwu> 發個 Excuse me, may I have a cloak
+00:26 <@haroldwu> 一會兒就會有志工會你說幫你加好了
+00:27 < lin> 嗯
+00:27 < lin> 等等
+00:33  * haroldwu 愛睏了，睡也
+00:45 < lin> 現在看得到我的ip嗎？？？
+00:46 < guildwar> 還是可以 :)
+00:46 < lin> ...
+00:46 < guildwar> 可能目前志工在忙吧 XD
+00:47 < lin> 嗯
+00:47 < guildwar> 搞不好明天再連上來就好了
+00:47 < lin> ok
+00:48 < lin> 我就先睡了
+00:48 < lin> 88
+00:48 < guildwar> bye
+00:58 < jamespanda> 之前亂打
+00:58 < jamespanda> 突然發現
+00:58 < jamespanda> 註冊了新的帳號
+00:58 < jamespanda> 可以看到ip？？？
+00:58 < jamespanda> You are now identified for jamespanda.
+00:58 < jamespanda> 他有出現這個
+00:59 < jamespanda> ？？？
+00:59 <@haroldwu> 對
+00:59 < jamespanda> 可以看到？？？
+00:59 <@haroldwu> 然後接着到 #freenode 照剛剛講的步驟獲得一個隱形披風啊
+01:00 < jamespanda> 還以為打指令
+01:00 < jamespanda> ...
+01:00 <@haroldwu> 沒，指令是認證你跟帳號的關係
+01:01 <@haroldwu> 至於帳號的ip是由freenode 那邊替你隱藏的
+01:01 < jamespanda> 好煩
+01:01 < jamespanda> 還要溝通
+01:01 <@haroldwu> XDD 一次而已
+01:01 <@haroldwu> 以後就不用了
+01:05 < jamespanda> 嗯
+01:07 < jamespanda> gg
+01:08 <@haroldwu> ??
+01:16 < bearlin> 好煩
+01:16 < bearlin> 還要等
+01:16 < bearlin> 我又註冊了
+01:16 < bearlin> 這次肯定ok
+01:17 < bearlin> 果然kde的預設套件好用
+01:18 < guildwar> 怎麼說好用?
+01:18 < bearlin> konversation
+01:18 < guildwar> ok,了解 :)
+01:18 < bearlin> 登入比較直觀
+01:20 < guildwar> 閃人,bye
+01:20 < bearlin> 嗯
+01:20 < bearlin> 8
+01:23 < bearlin> 8
+01:23 < bearlin> ...
+01:23 < bearlin> 打錯
+01:23 < bearlin> 有看到ip嗎
+01:23 < bearlin> ？？？
+01:24 < bearlin> oh my god
+01:24 < bearlin> 我快瘋了
+01:33 < bearlin> 要等兩週
+01:33 < bearlin> ...
+01:49 < bearlin> 終於阿
+01:50 < bearlin> 大吵大鬧
+01:53 < brli> ?
+01:54 < bearlin> 終於拿到隱身了
+01:54 < brli> lol
+01:55 < bearlin> low
+09:45 [Users #tcffm]
+09:45 [@haroldwu] [ brli_away  ] [ guildwar] [ op_logbot_] [ Ronmi-at-work   ] 
+09:45 [ a2n     ] [ darkx      ] [ hmchen  ] [ OtomeSou1d] [ tcffm_bot_new   ] 
+09:45 [ a2n_    ] [ dominicletz] [ Luxun   ] [ ronmi     ] [ tcffm_logger_bot] 
+09:45 -!- Irssi: #tcffm: Total of 15 nicks [1 ops, 0 halfops, 0 voices, 14 normal]
+09:45 < a2n> 有新朋友呀. :)
+09:50 < Ronmi-at-work> ._./

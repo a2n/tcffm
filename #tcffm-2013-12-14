@@ -1,0 +1,116 @@
+--- Log opened 六 12月 14 00:00:29 2013
+14:35 < haroldwu_> 來去加入什麼中台灣Linux使用者聚會的irc瞧瞧他們到底要幹嘛
+14:37 < brli> 求頻道www
+14:37 < haroldwu_> #ctlug.tw
+14:38 < haroldwu_> 不過不知道他們會如何發展？XD
+14:38 < haroldwu_> 那邊頻道人不多...加上我算第四個而已
+14:38 < haroldwu_> 喔現在是五個了
+14:38 < haroldwu_> 我昨天跑去他們臉書上問IRC頻道
+14:39 < brli> wwww
+14:39 < haroldwu_> 於是他們就創立了一個新的 XD
+14:39 < brli> 看起來是異鄉遊子XD
+14:39 < haroldwu_> 可惜是周五，我周五都得回家...也許之後有機會周六還在台中的話，可以過去繞繞
+14:41 < haroldwu_> 發展中的社群www 這樣看來咱 tcffm 已經略完善了，有論壇、有G+、有部落格、還有IRC bot 跟 log
+14:42 < brli> 想辦法吸納他們wwwww
+14:43 < haroldwu_> 以 LUG 為名 氣勢應該強一點
+14:44 < haroldwu_> 聚會上倒是蠻多不用 linux 的人阿
+14:44 < haroldwu_> 如 Steve ，忠實的 mac 使用者
+14:44 < haroldwu_> 還有脫團了的三秒緯大大
+14:46 < darkx> brli: 來台中啊 A_A
+14:47 < brli> darkx: 港都人不入魔都XDD
+14:48 < darkx> brli: 魔都很棒的
+14:52 < brli> boxhost的管理介面豪恐怖...居然是http
+14:53 < brli> 雖然對流量跟空間很慷慨，但是讓人不禁懷疑是否是在釣魚...
+14:55 < brli> 時間搭不上邊XD
+14:55 < brli> 也是可以喔，有空有車的話XDD
+15:06 < haroldwu_> 連線斷斷續續的:P
+15:24 < guildwar> 啊那邊 #ctlug 有沒有 log 可看啊
+15:28 < brli> wordpress居然也搞UI平面化(眼神死
+18:39  * tcffm_logger_bot is logging
+18:45  * tcffm_logger_bot is logging
+18:50  * tcffm_logger_bot is logging
+18:51 < brli> hi tcffm_logger_bot
+18:55  * tcffm_logger_bot is logging
+18:57 < guildwar> hi tcffm_logger_bot
+18:59 < haroldwu_> guildwar: 你的機器人又炸掉了嗎XD
+18:59 < guildwar> 奇怪，應該修好了啊，怎麼又會被 brli 給弄掉了 XD
+19:00 < haroldwu_> hi tcffm_logger_bot
+19:00 < haroldwu_> ping tcffm_logger_bot
+19:00  * brli 裝無辜
+19:00 < haroldwu_> 耶炸掉了
+19:00  * tcffm_logger_bot is logging
+19:00  * guildwar 只好繼續 debug  XD
+19:01 < haroldwu_> 如果做單純紀錄應該就沒事?
+19:02 < guildwar> 再撐一陣子，max大大在弄新的了，到時就可以轉過去
+19:02 < haroldwu_> 有喔 XD
+19:03 < haroldwu_> 是要自動發文到官網去嗎
+19:04 < guildwar> 我也不知道 max大大會選擇什麼方式耶
+19:04 < haroldwu_> Yehlu Huang , Davidou
+19:04 < haroldwu_> 這兩個是誰呢？沒大頭貼不好認阿~
+19:05 < guildwar> Yehlu Huang 是帶網樂通借我的人 XD
+19:05 < haroldwu_> 話說似乎twgogo那個drupal系統沒有暱稱可以設？只記得暱稱，不記得人名
+19:05 < haroldwu_> 喔喔，那另外一個呢？
+19:05  * tcffm_logger_bot is logging
+19:05 < guildwar> 另一個我就不知道了
+19:06 < haroldwu_> 最近看了夏日大作戰，想要來寫一個大頭貼素材生成器
+19:07 < haroldwu_> 類似 RPG 那種角色創造，只是有各種類型的可選。3D的、平面馬賽克風格的或卡通風格的
+19:08 < haroldwu_> max大不在，不知道有沒有辦法在首頁顯示今天更新的貼文
+19:08 < haroldwu_> twgogo 那個
+19:10  * tcffm_logger_bot is logging
+19:10 < haroldwu_> tcffm_logger_bot: 測試測試
+19:10 < tcffm_logger_bot> I'm logging. I don't understand '測試測試', haroldwu_.  Try /msg tcffm_logger_bot help
+19:11 < haroldwu_> tcffm_logger_bot:
+19:11 < tcffm_logger_bot> I'm logging. I don't understand '', haroldwu_.  Try /msg tcffm_logger_bot help
+19:14 < guildwar> 更新的貼文是指什麼地方更新?
+19:17 < haroldwu_> 當天有人編輯過的意思
+19:18 < guildwar> 最新文章或最新回應之類的?
+19:18 < haroldwu_> 算是，不過限於當天的
+19:18 < guildwar> 當天的就要看看了，不過有最新回應就是
+19:19 < guildwar> 及最新文章的選項
+19:22 < haroldwu_> 恩，若能限定是當天的到是不錯
+19:25  * tcffm_logger_bot is logging
+19:30  * tcffm_logger_bot is logging
+19:30 < haroldwu_> 狂 xuit
+19:30 < haroldwu_> * quit
+19:31 < guildwar> 奇怪了，到底哪裡出槌 XD
+19:35  * tcffm_logger_bot is logging
+19:40  * tcffm_logger_bot is logging
+19:41 < haroldwu_> 如果在訊息裡面提到自己的名字就會崩潰，意思是這樣吧?
+19:44 < guildwar> 不是，是每５分鐘自動重跑　XD
+19:44 < guildwar> 我加了 "最新回應"，你看一下
+19:44 < haroldwu_> guildwar: 能幫忙掛個 #ctlug.tw ?我明天才有辦法上線添加頻道到我的 irssi ... :P
+19:44 < haroldwu_> 好
+19:45  * tcffm_logger_bot is logging
+19:45 < haroldwu_> 你說 http://tcffm.twgogo.org/forum/forum/active ?
+19:46 < haroldwu_> 哦看到了，側邊那個
+19:46 < haroldwu_> 無魚，蝦也好 XDD
+19:48 < guildwar> 還有一個 "活躍的討論版主題" 需要嗎?
+19:49 < haroldwu_> 這個只是按照最後回文的時間點排的嘛..好吧應該也差不多拉 XD
+19:49 < haroldwu_> 我是希望首頁就看得到，不用在額外點
+19:50 < guildwar> 這個不就進首頁就看得到了
+19:50 < haroldwu_> 我問下，網站 RSS 是甚麼的 RSS？
+19:50  * tcffm_logger_bot is logging
+19:50 < haroldwu_> 所有發文與回應的RSS，還是只是發文本身的 RSS
+19:51 < guildwar> 預設只有發文的 rss，有額外加外掛有另一個回應的 rss
+19:52 < guildwar> 但目前那個連結是 max 大大使用外部服務將二個合而為一的
+19:52 < haroldwu_> ok
+19:53 < guildwar> 理論上應該有方法不用外部服務就可以合併，但是太複雜了，搞不出來 XD
+21:26 < guildwar> hi tcffm_logger_bot
+21:50 < guildwar> hi tcffm_bot_new
+21:55 < guildwar> hi tcffm_bot_new
+22:03 < guildwar> hi tcffm_logger_bot
+22:03 < guildwar> hi tcffm_bot_new
+22:30 < haroldwu_> guildwar: 看起來你的機器人又修補好了一個漏洞
+22:30 < haroldwu_> 要向上游回報嗎XDD
+22:31 < guildwar> 沒有，直接不監控了，無法修復
+22:32 < guildwar> 不知為什麼 urlwatch 在二台機器上的運作方式不用，一台沒問題，一台就不行
+22:32 < guildwar> 版本都一模一樣，指令一樣
+22:33 < haroldwu_> 什麼意思，機器人本來有監控什麼嗎？
+22:33 < guildwar> 因為是用 urlwatch 來監控遠端網頁有沒有 bot quit 的訊息，有就 restart
+22:34 < guildwar> 結果一台很正常，另一台就每下一次 urlwatch，又變成新的，有點複雜，不好講解 XD
+22:35 < guildwar> 反正等新的 log server 來就直接換，搞這個鳥問題久了還是很頭痛的 :)
+22:35 < haroldwu_> 這是輪流監控對方 quit  然後互相重起的概念嗎 @@
+22:35 < haroldwu_> 百萬小學堂：換我換我換我
+22:36 < guildwar> yes, 但問題卡在 urlwatch 上
+22:37 < haroldwu_> 哈
+--- Log closed 日 12月 15 00:00:30 2013
