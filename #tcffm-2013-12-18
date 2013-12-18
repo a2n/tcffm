@@ -149,3 +149,4 @@
 20:52 < guildwar> 若手動跑 lxc 是非常麻煩的，就好像 libvirt 去跑 kvm 和手動跑 kvm 參數一堆的狀況
 20:53 < bot_tcffm> bot_tcffm tcffm 頻道熱烈歡迎您的登入！！
 20:53 < a2n> guildwar: docker.io guide 是 vagrant，只是去下載 VDI，然後控制 vbox 的參數。
+20:53 < a2n> https://github.com/a2n/tcffm/blob/master/%23tcffm-2013-12-18 #test
