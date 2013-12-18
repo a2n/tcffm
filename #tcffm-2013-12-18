@@ -128,3 +128,4 @@
 20:43  * a2n 需要測試下一天是否正常
 20:43 < a2n> git 沒有 onChanging hook.
 20:43 < bearlin> 嗯...
+20:44 < a2n> guildwar: 請問你用 docker.io 嗎？
