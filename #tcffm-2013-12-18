@@ -323,3 +323,4 @@
 21:37 < a2n> 但是 irc /msg 是針對 id 的，要留言只能 /msg BOT User1 Hello
 21:37 < guildwar> 這樣就可以將簡報放在 tcffm.twgogo.org，不用放去 google docs
 21:38 <@haroldwu> 我源碼還留着，你可以去 haroldwu/ircbot 裏面看下，給點建議
+21:38 < a2n> haroldwu: copied that.
