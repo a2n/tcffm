@@ -171,3 +171,4 @@
 21:00 < guildwar> 可以，就是一個 chroot 環境，加上一個設定檔
 21:01 < guildwar> 原本 chroot 只分隔 filesystem，現在 lxc 除了 filesystem 以外，還有 memory, network 等等，可有獨立 ip
 21:02 < guildwar> 還有 cpu
+21:03 < guildwar> 是使用 cgroup
