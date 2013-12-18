@@ -169,3 +169,4 @@
 20:58 < guildwar> 很多公司都這麼做，要多一個 node 立刻生一個出來，環境都一致，回家也可以連上來
 21:00 < a2n> lxc 也能管理自己生成的 vm?
 21:00 < guildwar> 可以，就是一個 chroot 環境，加上一個設定檔
+21:01 < guildwar> 原本 chroot 只分隔 filesystem，現在 lxc 除了 filesystem 以外，還有 memory, network 等等，可有獨立 ip
