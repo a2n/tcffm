@@ -468,3 +468,4 @@
 22:15 < guildwar> 那個 github irc log 更新的還滿快的，不錯 :)
 22:16 < a2n> guildwar: 即時的呢～ :D
 22:16 < guildwar> cron ??
+22:16 < a2n> guildwar: no, inotifywait 監看
