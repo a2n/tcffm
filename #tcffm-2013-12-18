@@ -129,3 +129,4 @@
 20:43 < a2n> git 沒有 onChanging hook.
 20:43 < bearlin> 嗯...
 20:44 < a2n> guildwar: 請問你用 docker.io 嗎？
+20:45 < guildwar> 有用過，但不是主要的，主要還是 libvirt+lxc 或 libvirt+kvm
