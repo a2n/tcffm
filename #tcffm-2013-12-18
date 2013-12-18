@@ -207,3 +207,4 @@
 21:12 < guildwar> 但在 vt-d 的部份，kvm 好像還沒有很好
 21:13 < guildwar> vt-d 就是可將pci 或 pci-e　顯示卡弄到虛擬機器裡，並驅動他，達到 3D 或計算功能
 21:13 < a2n> 我看 xen 上面有支援 Solaris，商業版沒有開源，怎麼裝 xen kernel？
+21:14 < guildwar> solaris 我不確定，你之前有個 open 印地安那的 project 是 opensolaris 的
