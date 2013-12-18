@@ -105,3 +105,4 @@
 20:40 <@haroldwu> 用於 irc 聊天室呀
 20:40 < a2n> haroldwu: regex 應該是 <title>(.*)</title> 然後取 \1
 20:40 < guildwar> 用於不要點到病毒或 NSFW 的東東 :)
+20:40 < a2n> back ref
