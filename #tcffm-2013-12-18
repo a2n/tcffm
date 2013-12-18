@@ -1,0 +1,71 @@
+--- Log opened 三 12月 18 00:00:34 2013
+00:15 <@haroldwu> 發現 openshift 可以 login！！
+00:15 <@haroldwu> 不過還在研究不是用諸如 django 框架寫的 python 如何部署
+00:15 <@haroldwu> 誰有經驗呢？
+00:21 < harobot_return_t> brli 歡迎登入！！
+00:21 < brli> kik
+00:21 < brli> lol
+00:34 <@haroldwu> brli 嚇到嗎？XDD
+00:34 < brli> 有點XD
+00:34 < brli> 不過還算OK XD
+00:35 <@haroldwu> 其他功能測試中...這個詭異的問候會拿掉XD
+00:59 < harobot_return_t> op_logbot_ 歡迎登入！！
+01:01 < harobot_return_t> brli 歡迎登入！！
+01:01 < harobot_return_t> brli 歡迎登入！！
+02:14 < OtomeSound> haroldwu: 既然可以做歡迎登入，那有沒有辦法做解析網址的動作呢？
+02:14 < OtomeSound> 看到#g0v.tw的頻道就有這功能
+02:16 < OtomeSound> 還可以用python的# tag來決定要不要解析這網址(這點不見得需要）
+12:12 < guildwar> http://tcffm.rr.nu:8080/irclog/nextvod.pdf 網樂通改機簡報檔
+12:12 < guildwar> 先撐著，本想放上 drupal，但裝了 pdf 模組，找不到地方可上傳，求救 max大大中 XD
+12:13 < guildwar> drupal 真的不是人用的 :)
+15:14 < harobot_tcffm> 歡迎登入！！
+15:15 <@haroldwu> 我試試
+15:47 < harobot_tcffm> 歡迎登入！！
+15:47 < harobot_tcffm> 歡迎登入！！
+16:08 < harobot_tcffm> 歡迎登入！！
+19:31 < bot_tcffm> bot_tcffm歡迎登入！！
+19:34 < haroldwu_> 準備測試一些網址取得title的服務
+19:35 < haroldwu> nick怎麼變了@@
+19:35 -!- mode/#tcffm [+o haroldwu] by ChanServ
+19:35 < bot_tcffm> haroldwu歡迎登入！！
+19:36 < guildwar> http://is.gd/rG4aRj
+19:36 < guildwar> 沒有啊
+19:38 < guildwar> 用瀏覽器玩的 3D 遊戲
+19:40 <@haroldwu> 還在寫
+19:40 <@haroldwu> 我要知道 irc server 送來的訊息:P
+19:40 < guildwar> XD
+19:40 <@haroldwu> http://www.36kr.com/p/208480.html
+19:41 < guildwar> http://metamark.net/bot
+19:41 <@haroldwu> [13-12-18]/[19:38:34]:guildwar!~guildwar@ec2-54-242-237-115.compute-1.amazonaws.com PRIVMSG #tcffm :用瀏覽器玩的 3D 遊戲
+19:41 <@haroldwu> 先解讀出 PRIVMSG
+19:42 <@haroldwu> 知道是送往那個頻道，然後區分他的訊息，:後面那些
+19:42 < brli> https://github.com/ProgVal/Limnoria
+19:49 <@haroldwu> 恩，發現一個問題，就是如果在句子中使用 irc 訊息，如 PRIVMSG
+19:50 <@haroldwu> 我的程式會出錯
+19:50 < brli> haroldwu: ^^看下那個bot lol
+19:50 <@haroldwu> 因爲是單純用 split 來區分字串
+19:51 <@haroldwu> 看啦，但是我沒要那麼多功能的bot...
+19:51 < brli> haroldwu: 多的可以砍，少的不好加阿XD
+20:19 < bot_tcffm> bot_tcffm歡迎登入！！
+20:19 <@haroldwu> http://www.gnu.org/software/emacs/manual/html_node/emacs/Useless-Whitespace.html
+20:21 < bot_tcffm> bot_tcffm歡迎登入！！
+20:21 <@haroldwu> http://www.36kr.com/p/208494.html
+20:21 < bot_tcffm> 輸入的網址是http://www.36kr.com/p/208494.html
+20:22 <@haroldwu> http://pypix.com/tools-and-tips/python-functions/ 網址後加一些註解測試
+20:22 < bot_tcffm> 輸入的網址是http://pypix.com/tools-and-tips/python-functions/
+20:22 <@haroldwu> 網址前加一些註解測試 http://ergoemacs.org/emacs/emacs_macro_example.html
+20:22 < bot_tcffm> 輸入的網址是http://ergoemacs.org/emacs/emacs_macro_example.html
+20:23  * haroldwu 爽，兩行搞定，洗衣服去
+20:23  * haroldwu 回來再加上取得title的功能，拿 regexp 來做，這樣就不用裝什麼美麗湯了
+20:24 < guildwar> http://www.debian.org
+20:24 < bot_tcffm> 輸入的網址是http://www.debian.org
+20:24 < guildwar> :)
+20:24 < brli> haroldwu: 加個空白鍵吧？這樣 https不會被解析到耶
+20:24 < guildwar> www.debian.org
+20:24 < brli> s/https/通訊協定
+20:24 <@haroldwu> 噢豪
+20:24 <@haroldwu> 好
+20:25 <@haroldwu> 沒有 http 就不會動咯
+20:25 < guildwar> ok
+20:25 <@haroldwu> 我假設大家是從瀏覽器copy
+20:26 < bot_tcffm> bot_tcffm歡迎登入！！
