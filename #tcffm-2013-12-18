@@ -202,3 +202,4 @@
 21:10 < a2n> xen 硬是用軟體模擬嗎？
 21:10 < guildwar> 叫 para-virtualization，效能比 full virtualization 好
 21:10 < a2n> 好厲害的技術！
+21:11 < guildwar> xen 的 para 不是模擬硬體，而是修改 linux kernel　來達到需求，所以 para 不支援不可改的 os,　如 windows
