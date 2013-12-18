@@ -103,3 +103,4 @@
 20:39 < guildwar> 有人輸入一個網址，bot 會去抓標題回來，這樣不用點進去就能知道是什麼連結
 20:40 < bearlin> 用於rss？？？
 20:40 <@haroldwu> 用於 irc 聊天室呀
+20:40 < a2n> haroldwu: regex 應該是 <title>(.*)</title> 然後取 \1
