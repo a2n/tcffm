@@ -144,3 +144,4 @@
 20:51 < a2n> https://github.com/a2n/tcffm/blob/master/%23tcffm-2013-12-18 #test
 20:51 < a2n> nono
 20:51 < guildwar> a2n: docker.io 底層就是 lxc 啊，docker 是用來簡化 lxc 的安裝、佈署
+20:51 <@haroldwu> 唔...@@
