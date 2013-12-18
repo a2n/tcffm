@@ -166,3 +166,4 @@
 20:55 < bearlin> 嗯
 20:56 < a2n> guildwar: 我的需求想打造一個 osx 上使用 docker 開一個開發環境，和 production server 環境相同
 20:57 < guildwar> 這應該沒問題才對
+20:58 < guildwar> 很多公司都這麼做，要多一個 node 立刻生一個出來，環境都一致，回家也可以連上來
