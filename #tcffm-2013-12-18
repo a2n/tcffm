@@ -127,3 +127,4 @@
 20:43 < bot_tcffm> 輸入的網址是https://github.com/a2n/tcffm/blob/master/%23tcffm-2013-12-18
 20:43  * a2n 需要測試下一天是否正常
 20:43 < a2n> git 沒有 onChanging hook.
+20:43 < bearlin> 嗯...
