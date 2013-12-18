@@ -253,3 +253,145 @@
 21:43  * a2n test
 21:45  * a2n test
 21:49  * a2n test
+21:50  * a2n test
+22:01 <@haroldwu> haro_bot_return_: 你好
+22:03 <@haroldwu> 奇怪，悄悄話功能不會動了
+22:04 < guildwar> 搞不好系統有升級了什麼
+22:10 <@haroldwu> 沒，可能代碼錯了QQ
+22:12 < guildwar> https://github.com/paullik/IRC-Bot 這個 bot 用 python 寫的，可以查天氣 :)
+22:13 < guildwar> 不過好像只能私訊給他，所以只有自己能看到
+22:13 < guildwar> <PPyBot> Taipei, Taiwan - 61° F (16° C) - light rain - Provided by: Weather Underground, Inc.
+22:17 <@haroldwu> 這個有趣，我來看看
+22:18 <@haroldwu> 其實我是想找/寫個庫，可以讓我直接收、送訊息
+22:18 <@haroldwu> 訊息交換跟pong server 就由庫進行
+22:18 < guildwar> 這個應該可以參考看看
+22:27 <@haroldwu> 開了
+22:27 <@haroldwu> PPyBot: 這隻
+22:28 <@haroldwu> !google: tcffm
+22:28 <@haroldwu> PPyBot: !google: tcffm
+22:29 < guildwar> 行嗎?
+22:30 <@haroldwu> 媽的，不理我
+22:30 <@haroldwu> !help
+22:30 < PPyBot> 14 available commands: wiki about task help twitter uptime weather google answer so mball channels quit join
+22:30 <@haroldwu> 奇怪，這個就可以
+22:30 <@haroldwu> !weather Taichung
+22:30 <@haroldwu> !about
+22:30 < PPyBot> Author: Paullik @ http://github.com/paullik
+22:30 <@haroldwu> !uptime
+22:30 < PPyBot> Uptime: 0:03:47
+22:30 < guildwar> ok, 等等，應該掛了，我重啟
+22:31 <@haroldwu> 那個？？可是我看得到東西耶？
+22:31 < guildwar> 自己停了
+22:31 <@haroldwu> 我敲 !uptime !help !about 都有回應我
+22:32 <@haroldwu> 你沒看到嗎？難道這個不是 public message
+22:32 < guildwar> !about
+22:32 < PPyBotknapm> Author: Paullik @ http://github.com/paullik
+22:32 < PPyBot> Author: Paullik @ http://github.com/paullik
+22:32 < guildwar> 有啦，有看到　
+22:32 <@haroldwu> 打架了
+22:32 <@haroldwu> !twitter ZaticWu
+22:32 < PPyBotknapm> This user doesn't exist!
+22:32 < guildwar> !weather taipei
+22:32 < PPyBotknapm> Taipei, Taiwan - 61° F (16° C) - light rain - Provided by: Weather Underground, Inc.
+22:32 <@haroldwu> 換我的掛了XD
+22:32 < guildwar> !weather taichung
+22:33 < PPyBotknapm> Taichung, Taiwan - 61° F (16° C) - Rain - Provided by: Weather Underground, Inc.
+22:33 < guildwar> 怎麼可能，台中和台北一樣溫度 XD
+22:33 <@haroldwu> 誒，你的可以，我的怎麼不會動QQ
+22:33 <@haroldwu> !weather Yunlin
+22:33 < PPyBotknapm> Inexistent location: Yunlin
+22:33 < guildwar> 去命令列看，應該停了
+22:33 <@haroldwu> 還在
+22:33 <@haroldwu> 怪 @@
+22:33 < bearlin> ???
+22:33 <@haroldwu> !twitter zaticwu
+22:33 < PPyBotknapm> This user doesn't exist!
+22:33 < guildwar> 重連了啦
+22:34 <@haroldwu> 連我的帳號都抓不到 QAQ 我的 twitter 存在感好低 XD
+22:34 < guildwar> 是不是 twitter 帳號和 nick 要一樣才行
+22:34 < guildwar> !uptime
+22:34 < PPyBot> Uptime: 0:07:51
+22:34 < PPyBotknapm> Uptime: 0:03:34
+22:35 <@haroldwu> 有啊，那麼我的怎麼會對溫度沒反映？
+22:35 < guildwar> !weather taichung
+22:35 < PPyBotknapm> Taichung, Taiwan - 61° F (16° C) - Rain - Provided by: Weather Underground, Inc.
+22:35 <@haroldwu> !help
+22:35 < PPyBot> 14 available commands: wiki about task help twitter uptime weather google answer so mball channels quit join
+22:35 < PPyBotknapm> 14 available commands: wiki about task help twitter uptime weather google answer so mball channels quit join
+22:35 < guildwar> 看命令列，有沒有寫少什麼模組之類的
+22:36 < guildwar> 不對啊，你的有，PPyBotknapm　是你的 ??
+22:36 <@haroldwu> ？我的是PPyBot
+22:37 < guildwar> ok，亂了
+22:37  * haroldwu PPyBotnapm 是誰弄起來的？快出來自首，不然我要把它 kick XDDDD
+22:38 <@haroldwu> PPyBotknapm: !list
+22:38 < guildwar> 就我的啊
+22:38 <@haroldwu> 哈哈
+22:38 <@haroldwu> 好吧，怪詭異的 @@
+22:39 < guildwar> 那可以改一下變 parse url 的看看 :)
+22:39 <@haroldwu> 恩，原始碼又臭又長...
+22:39 < guildwar> 是喔，大致看一下如何寫的，自己再寫過 XD
+22:40 < guildwar> !mball
+22:41 < PPyBotknapm> Magic Ball says: Yes
+22:42 < brli> !mball
+22:43 < brli> 毫無反應XDD
+22:45 < bearlin> ...
+22:45 <@haroldwu> !mbal
+22:45 <@haroldwu> !mball
+22:45 <@haroldwu> 好像會看 owner
+22:45 < guildwar> 對，可設 owner
+22:46 < guildwar> 現在沒半隻了啦
+22:46 <@haroldwu> 還可以添加的樣子XD
+22:46 <@haroldwu> 哪有沒半隻，bot好多呢
+22:46 <@haroldwu> !mball
+22:46 < PPyBot> Magic Ball says: It is decidedly so
+22:46 <@haroldwu> 耶！我的機器人會認我的 nick
+22:46 < guildwar> !mball
+22:46 < PPyBot> Magic Ball says: Outlook good
+22:46 <@haroldwu> 額...
+22:47 <@haroldwu> 好吧，立刻發現這不是 owner 專屬的
+22:47 < brli> !mball
+22:47 < PPyBot> Magic Ball says: You may rely on it
+22:47 < guildwar> 我看設定裡能設成若主人不在，就不能跑
+22:47 <@haroldwu> 我來寫個可以跟我電腦的 fortune 互動的
+22:47 <@haroldwu> 不可能啊，我都掛着
+22:48 <@haroldwu> !twitter zaticwu
+22:49 <@haroldwu> !twitter 6second_bot
+22:49 <@haroldwu> !twitter @6second_bot
+22:51 <@haroldwu> hello: haro_bot_return_
+22:52 <@haroldwu> hello haro_bot_return_
+22:52 <@haroldwu> :hello haro_bot_return
+22:52 <@haroldwu> hello haro_bot_return
+22:52 <@haroldwu> 都不回應=.=
+22:55 < guildwar> !channels
+22:55 < PPyBot> This command can be run only by the owners!
+22:56 < guildwar> 果然會認人 :)
+22:56 <@haroldwu> !channels
+22:56 < PPyBot> PPyBot is connected to: #tcffm
+22:56 <@haroldwu> 呵呵 XDDDDDD
+22:57 <@haroldwu> 換句話說，如果某人沒註冊的話，又偶爾離線，那就GG了啊
+22:57 < guildwar> 可以同時加好幾個 channel 喔
+22:57 < guildwar> 應該可以改成不要認人，像 weather 之類的
+22:58 <@haroldwu> 可以噢
+22:58 <@haroldwu> 可是這樣會對那些頻道原有的bot造成干擾？
+22:59 < guildwar> 對喔
+22:59 < guildwar> !uptime
+22:59 < PPyBot> Uptime: 0:13:39
+22:59 < PPyBot_guildwar> Uptime: 0:00:46
+22:59 < guildwar> !quit
+22:59 < PPyBot> This command can be run only by the owners!
+22:59 < PPyBot_guildwar> This command can be run only by the owners!
+23:01 <@haroldwu> 你控制不了你的 bot 噢XD
+23:02 <@haroldwu> 他不認你
+23:02 <@haroldwu> !quit
+23:02 < PPyBot_guildwar> This command can be run only by the owners!
+23:02 <@haroldwu> 我的 quit 了
+23:02 < guildwar> 因為我的主人設成 guildwar_  :)
+23:04 < guildwar> 慢慢玩，我的網樂通簡報還在奮鬥
+23:04  * guildwar writing NextVod presentation 
+23:05  * haroldwu GJ
+23:08 < haro_bot_return_> 歡迎登入！！
+23:08 <@haroldwu> 很好
+23:08 <@haroldwu> sendmsg() 功能正常
+23:57 < harobot_return_t> harobot_return_t 歡迎登入！！
+23:57 <@haroldwu> 恩...
+--- Log closed 三 12月 18 00:00:34 2013
