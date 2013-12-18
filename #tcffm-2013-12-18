@@ -209,3 +209,4 @@
 21:13 < a2n> 我看 xen 上面有支援 Solaris，商業版沒有開源，怎麼裝 xen kernel？
 21:14 < guildwar> solaris 我不確定，你之前有個 open 印地安那的 project 是 opensolaris 的
 21:14 < guildwar> 那個有支援 xen，可以改 kernel
+21:14 < brli> cgroup 到底是什麼阿@@
