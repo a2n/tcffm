@@ -259,3 +259,4 @@
 21:24 < bearlin> 嗯...
 21:24 < a2n> 今天在公司遇到一個怪問題，xen host, ntp server (client A), win2012 (client B)。client A 時間準確，xen & client B 都對 client A 校時，結果都慢了兩秒。原本假設是沒有 hwclock 寫入，導致 client B 後面數秒讀取 bios 時間錯誤導致。後來調整 host 時間加快，結果沒有出來。
 21:25 < bearlin> 所以要開linux server 建議用xen？？？
+21:25 < bearlin> xen的kernel會xen好嗎？？？
