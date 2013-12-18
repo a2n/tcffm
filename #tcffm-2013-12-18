@@ -197,3 +197,4 @@
 21:08 < guildwar> 現在 kvm 有追上來了，差別沒有很大
 21:09 <@haroldwu> http://guildwar23.blogspot.tw/2013/01/linux-control-group.html
 21:09 < guildwar> 但 xen 有一個 kvm 沒有的特點，就是機器不用支援 virtualization 就可以跑
+21:09 < bot_tcffm> <
