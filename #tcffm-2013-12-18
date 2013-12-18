@@ -95,3 +95,4 @@
 20:38 <@haroldwu> 我知道，我已經弄了一個 regexp 在試了
 20:38 < guildwar> bearlin: 在寫解析網址的 bot
 20:38 <@haroldwu> <title>([^<]+)</title>
+20:38 < bearlin> 嗯
