@@ -515,3 +515,4 @@
 23:40 <@haroldwu> 應該可以用了，我把用法po下
 23:40 < guildwar> ok
 23:42 <@haroldwu> 離線留言，使用方式： /msg botnick offm: user_id: Your_Message
+23:43 <@haroldwu> 例如，我要留言給guildwar ，使用方式： /msg bot_tcffm offm: guildwar: 上線的時候注意下 blablabla
