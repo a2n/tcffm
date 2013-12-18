@@ -488,3 +488,4 @@
 22:38 < a2n> guildwar: 原以為用 git hook 能解決，結果沒有類似 onChanging hook，只好借助其他工具。
 22:39 < guildwar> 了解
 22:39 < guildwar> 你要用 swatch 也行啊 :)
+22:40 < guildwar> 不過有 inotify-tools 就夠了
