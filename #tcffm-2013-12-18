@@ -172,3 +172,4 @@
 21:01 < guildwar> 原本 chroot 只分隔 filesystem，現在 lxc 除了 filesystem 以外，還有 memory, network 等等，可有獨立 ip
 21:02 < guildwar> 還有 cpu
 21:03 < guildwar> 是使用 cgroup
+21:03 < bot_tcffm> bot_tcffm tcffm 頻道熱烈歡迎您的登入！！
