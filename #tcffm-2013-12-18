@@ -516,3 +516,4 @@
 23:40 < guildwar> ok
 23:42 <@haroldwu> 離線留言，使用方式： /msg botnick offm: user_id: Your_Message
 23:43 <@haroldwu> 例如，我要留言給guildwar ，使用方式： /msg bot_tcffm offm: guildwar: 上線的時候注意下 blablabla
+23:43 <@haroldwu> 可以先 /msg bot_tcffm 開一個新的聊天區塊，這樣的話，只要對他打 offm: guildwar: 上線的時候注意下
