@@ -519,3 +519,5 @@
 23:43 <@haroldwu> 可以先 /msg bot_tcffm 開一個新的聊天區塊，這樣的話，只要對他打 offm: guildwar: 上線的時候注意下
 23:44 <@haroldwu> 就可了
 23:44 < guildwar> ok
+23:44 <@haroldwu>    1. 注意本機器人是以「: 」半形冒號與空白區分字串
+23:44 <@haroldwu>    2. 出錯會返回警告訊息。
