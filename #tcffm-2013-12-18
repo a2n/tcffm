@@ -188,3 +188,4 @@
 21:06  * guildwar cgroup 讚啦
 21:07 < a2n> guildwar: 用過 xen 嗎？底層是 libvirt？
 21:07 < guildwar> 有用 xen，底層就是 xen
+21:07 < guildwar> libvirt 是個 frontend 之類的
