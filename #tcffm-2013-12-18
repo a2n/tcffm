@@ -151,3 +151,4 @@
 20:53 < a2n> guildwar: docker.io guide 是 vagrant，只是去下載 VDI，然後控制 vbox 的參數。
 20:53 < a2n> https://github.com/a2n/tcffm/blob/master/%23tcffm-2013-12-18 #test
 20:53 < bot_tcffm> tcffm/#tcffm-2013-12-18 at master · a2n/tcffm · GitHub
+20:53 < a2n> 我反而覺得 lxc 挺簡單的
