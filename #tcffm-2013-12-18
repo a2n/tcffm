@@ -263,3 +263,4 @@
 21:26 < guildwar> a2n: 看看 host 的 xen.independent_wallclock=1
 21:26 < guildwar> 不確定，要試試
 21:27 < a2n> guildwar: 好，明天找 SA 繼續測。
+21:27 < guildwar> bearlin:　看用途，個人用 libvirt+lxc 已夠了
