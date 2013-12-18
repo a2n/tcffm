@@ -261,3 +261,4 @@
 21:25 < bearlin> 所以要開linux server 建議用xen？？？
 21:25 < bearlin> xen的kernel會xen好嗎？？？
 21:26 < guildwar> a2n: 看看 host 的 xen.independent_wallclock=1
+21:26 < guildwar> 不確定，要試試
