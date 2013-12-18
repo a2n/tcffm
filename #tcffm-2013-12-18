@@ -321,3 +321,4 @@
 21:36 < a2n> haroldwu: bot 提供離線留言挺好的點子耶！登入一次發送，或是可以看歷史訊息。
 21:37 < guildwar> drupal 的模組，名叫 pdf，可開 pdf, odp, xxxxxx 一堆格式
 21:37 < a2n> 但是 irc /msg 是針對 id 的，要留言只能 /msg BOT User1 Hello
+21:37 < guildwar> 這樣就可以將簡報放在 tcffm.twgogo.org，不用放去 google docs
