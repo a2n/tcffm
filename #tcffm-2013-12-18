@@ -485,3 +485,4 @@
 22:36 < bot_tcffm> guildwar - a2n/tcffm · GitHub
 22:37 < a2n> guildwar: 明早要驗收切日是否正常，正常後再說吧。
 22:37 < guildwar> ok
+22:38 < a2n> guildwar: 原以為用 git hook 能解決，結果沒有類似 onChanging hook，只好借助其他工具。
