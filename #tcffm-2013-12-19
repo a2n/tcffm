@@ -33,3 +33,4 @@
 11:37 <@haroldwu> 你說網頁內容內的\n 嗎？
 11:37 < a2n> 但是那個 imgur 還有 \s，也要先拿掉。
 11:37 <@haroldwu> ok
+11:37 < a2n> haroldwu: <title>\n\s\s\s\s</title>
