@@ -39,3 +39,4 @@
 11:42 <@haroldwu> 我用python的strip來去掉他們噢
 11:43 < a2n> yes
 11:44 < a2n> 先洗淨在比對 :D
+11:48 <@haroldwu> return regex.search(urllib2.urlopen(url).read().strip('\n').strip('\s').group()[7:-8]
