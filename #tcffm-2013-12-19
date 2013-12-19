@@ -218,3 +218,4 @@
 20:34 < bot_tcffm> haroldwu - DevDocs — API Documentation Browser
 20:47 < a2n> XXX 不知道代表什麼意思，色情網站域名也有 .xxx XD
 20:49 <@haroldwu> 大致這樣，本來想寫成 一個 libirc 之類的東西，可是原本的形式就是一個不好改造的類型
+20:49 <@haroldwu> 所有的東西功能都是集中在 command() 下，不算是很好的架構
