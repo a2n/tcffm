@@ -38,3 +38,4 @@
 11:41 < a2n> 你把 <title> ... </title> 複製到 editor 觀察，共有四行，Line 2 & 3 是空白和換行組成的，這個可以拿掉。
 11:42 <@haroldwu> 我用python的strip來去掉他們噢
 11:43 < a2n> yes
+11:44 < a2n> 先洗淨在比對 :D
