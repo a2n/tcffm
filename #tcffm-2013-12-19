@@ -212,3 +212,4 @@
 19:13 < haroldwu_> http://bit.ly/tcffm-irc-logs
 19:13 < bot_tcffm> haroldwu_ - TCFFM forum IRC Chat Logs for index
 20:30 < a2n> haroldwu: 這次案例是維護性展示，我撰碼的習慣會隨時說明，深怕自己以後看不懂。
+20:31 < a2n> 最常加的應該是 TODO, FIXME, XXX editor 會將此記號亮光
