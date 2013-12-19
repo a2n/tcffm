@@ -34,3 +34,4 @@
 11:37 < a2n> 但是那個 imgur 還有 \s，也要先拿掉。
 11:37 <@haroldwu> ok
 11:37 < a2n> haroldwu: <title>\n\s\s\s\s</title>
+11:38 <@haroldwu> 額，不太懂
