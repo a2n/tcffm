@@ -6,3 +6,4 @@
 07:54 <@haroldwu> 怎麼會這樣？XDD
 07:58 < OtomeSound> 這我也好奇ww
 07:58 < a2n> 可是 CloudFlare 還是返回 200 OK，也有回覆 html，怎麼會抓不到？
+07:58 < a2n> 這樣深入 python code 了解抓到是什麼東西
