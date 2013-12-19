@@ -61,3 +61,4 @@
 12:07 <@haroldwu> I was inspired by my girlfriend on this one! - Imgur
 12:07 <@haroldwu> </title>
 12:08 <@haroldwu> 恩，如果把斷行符號去掉應該就好才對
+12:10 <@haroldwu> 原本有個 <title>([^<]+)</title> 跟你的差異在哪呢？
