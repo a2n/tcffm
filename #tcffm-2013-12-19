@@ -53,3 +53,4 @@
 11:53 <@haroldwu> a2n: No Good, Bob.
 11:59 < a2n> haroldwu: 先把 return regex.search(urllib2.urlopen(url).read().strip('\n').strip('\s')) 印出來
 11:59  * a2n 不熟 python syntax
+12:06 <@haroldwu> 嗯嗯，我在思考是哪裏有問題，我來看看imgur的html
