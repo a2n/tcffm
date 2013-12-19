@@ -159,3 +159,4 @@
 17:45 <@haroldwu> 使用 re.compile() 建立一個過濾器，再用 regex.search
 17:46 <@haroldwu> 過濾器 regex
 17:46 <@haroldwu> 不過如果可以這樣的話，那就不用在多一個 regex 物件啦 XDD
+17:48 <@haroldwu>  return re.search('<title>([\s\S]*)</title>', urllib2.urlopen(url).read().replace('\n','')).group()[7:-8].strip()
