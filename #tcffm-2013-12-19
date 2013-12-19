@@ -63,3 +63,4 @@
 12:08 <@haroldwu> 恩，如果把斷行符號去掉應該就好才對
 12:10 <@haroldwu> 原本有個 <title>([^<]+)</title> 跟你的差異在哪呢？
 13:20 < guildwar> a2n: 我研究了一下昨天說的 docker.io 的 vagrant 及 virtualbox
+13:21 < guildwar> docker.io 的確是只支援 lxc，而當中說的 vagrant 及 virtualbox 是用來在 ubuntu 上準備一個 docker 的環境來使用而已
