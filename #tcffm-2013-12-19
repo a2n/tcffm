@@ -129,3 +129,4 @@
 16:43 < a2n> haroldwu: 不是，是先用 python regex 去掉空白行，接著在取出目標
 16:43 <@haroldwu> 這樣速度會不會變慢 :P
 17:15 < a2n> 是啊，多慢呢？2 ns :P
+17:16 <@haroldwu> 好吧 XD 我試試
