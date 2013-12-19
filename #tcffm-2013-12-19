@@ -118,3 +118,4 @@
 15:55 <@haroldwu> 大概 bash script 可以跟正則爭下效率提升之王的寶座
 15:58 < brli> bash vs python 何？
 15:59 <@haroldwu> 我自己是都用 python 作 bash 的事...
+15:59 <@haroldwu> 不過我決定論簡潔的話，perl 更適合拿來替代 bash
