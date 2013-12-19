@@ -91,3 +91,4 @@
 13:46 < bot_tcffm> brli - Systemd-Nspawn is Chroot on Steroids - Lennart Poettering, Red Hat - YouTube
 13:46 < brli> 不過扯的有點遠而且抓不到重點就是了XD
 13:47 < guildwar> 收到，來研究看看，感謝
+15:01 < guildwar> 我想到了，systemd-nspawn 是不是用來讓同一台電腦，第二個人登入，進入一個隔離環境，比較安全，不像之前用 guest 帳號登入，還是在同一系統
