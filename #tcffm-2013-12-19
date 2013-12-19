@@ -80,3 +80,4 @@
 13:41 < guildwar> 不錯玩的樣子 :)
 13:41 < brli> 看一些文章是說甚至可以做成對ssh-socket反應而自動開機的systemd.service，這樣可以拿來當隔離host的web server
 13:42 < brli> 而且因為沒反應就關機，有反應就開機，也可以降低系統的負載之類的
+13:42 < brli> ↑以上是花俏應用
