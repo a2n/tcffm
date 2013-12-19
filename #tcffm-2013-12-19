@@ -29,3 +29,4 @@
 11:32 <@haroldwu> a2n: 結果是這樣噢
 11:32 <@haroldwu> http://yfwu.github.io/%E6%8A%80%E8%A1%93/2013/12/16/python-script-useful-features.html
 11:32 < bot_tcffm> haroldwu - 有助於撰寫 python 腳本(script)的技巧
+11:36 < a2n> haroldwu: 新方法；先把 \n 移除，接著用昨天的 regex 取 \1。\n 在這裡沒用處，拿掉算了
