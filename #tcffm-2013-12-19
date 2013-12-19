@@ -223,3 +223,4 @@
 20:51 <@haroldwu> 不過他那個 lib 的作者寫的機器人服務於 #coscup ... 不能比啊~！
 20:53 < a2n> 要接收 command 是一個特徵，可以拆解成命令生成、執行、結果返回、結果解析
 20:58 <@haroldwu> 什麼意思？
+20:59 <@haroldwu> 我看了下，bot 有三個實體組成，分別是底下負責 socket 連線的 ircsock，負責循環接受訊息的 while 迴圈及裏面的分類器，已經最後的 command()
