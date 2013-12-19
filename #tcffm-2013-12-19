@@ -114,3 +114,4 @@
 15:51 <@haroldwu> 唔，所以改成 <title>s/^(\s)+$//g</title> 嗎？
 15:51 <@haroldwu> 唉，正則不懂，做事不利
 15:52 < guildwar> 中肯
+15:53 < guildwar> 正則一出，誰與爭鋒
