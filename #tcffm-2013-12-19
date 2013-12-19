@@ -135,3 +135,4 @@
 17:26 <@haroldwu> 例如這裏是 re.sub('^(\s)+$/','',urllib2.open(url).read()) 取得完整的，沒有空行的文本
 17:26 <@haroldwu> 然後去除 \n 的話，用 replace，所以組合起來是
 17:27 <@haroldwu> regexp.search(re.sub('^(\s)+$/','',urllib2.open(url).read()).replace('\n','').group()[7,-9]
+17:27  * haroldwu 不寫註解的話，半年後光我自己就看不懂這是三小了 XDD
