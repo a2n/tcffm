@@ -1,0 +1,14 @@
+--- Log opened 四 12月 19 00:00:04 2013
+--- Day changed 四 12月 19 2013
+00:00 < guildwar> 只是前面多了一些空白吧
+00:00 < guildwar> <title>
+00:00 <@haroldwu> 不對啊，這樣正則應該會抓到
+00:00 <@haroldwu> (.*)不是所有東西的意思？
+00:00 < guildwar> [ ]*
+00:00 <@haroldwu> 不過你可以立刻留言給 max 大了
+00:01 < guildwar> 我也不確定 :)
+00:10 < guildwar> 對喔，來留言
+00:11 < guildwar> 不對，我先試試再說 :)
+00:16 < guildwar> 還是打指令方便 XD
+00:58 <@haroldwu> http://yfwu.github.io/%E6%8A%80%E8%A1%93/2013/12/16/python-script-useful-features.html
+00:58 < bot_tcffm> haroldwu - 有助於撰寫 python 腳本(script)的技巧
