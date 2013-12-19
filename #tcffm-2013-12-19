@@ -111,3 +111,4 @@
 15:22 <@haroldwu> 算了，能顯示就好 :P
 15:23 < guildwar> 也是 :)  just work
 15:46 < a2n> s/^(\s)+$//g 把空白行去掉
+15:51 <@haroldwu> 唔，所以改成 <title>s/^(\s)+$//g</title> 嗎？
