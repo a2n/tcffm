@@ -66,3 +66,4 @@
 13:21 < guildwar> docker.io 的確是只支援 lxc，而當中說的 vagrant 及 virtualbox 是用來在 ubuntu 上準備一個 docker 的環境來使用而已
 13:22 < guildwar> 因為 docker 有用到 aufs，而 aufs 一直沒無法進 linus 官方 kernel tree，所以要準備一個 docker 的環境還是有點麻煩
 13:23 < guildwar> 所以教大家在 ubuntu 下裝個 virtualbox 虛擬機器來試用 docker.io
+13:24 < guildwar> http://docs.docker.io/en/latest/installation/vagrant/
