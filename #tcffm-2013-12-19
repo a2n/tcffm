@@ -35,3 +35,4 @@
 11:37 <@haroldwu> ok
 11:37 < a2n> haroldwu: <title>\n\s\s\s\s</title>
 11:38 <@haroldwu> 額，不太懂
+11:41 < a2n> 你把 <title> ... </title> 複製到 editor 觀察，共有四行，Line 2 & 3 是空白和換行組成的，這個可以拿掉。
