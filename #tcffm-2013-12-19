@@ -93,3 +93,4 @@
 13:47 < guildwar> 收到，來研究看看，感謝
 15:01 < guildwar> 我想到了，systemd-nspawn 是不是用來讓同一台電腦，第二個人登入，進入一個隔離環境，比較安全，不像之前用 guest 帳號登入，還是在同一系統
 15:03 < guildwar> 是指實體 console 前的登入
+15:13 <@haroldwu> bot_tcffm: 你好
