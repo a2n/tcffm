@@ -42,3 +42,4 @@
 11:48 <@haroldwu> return regex.search(urllib2.urlopen(url).read().strip('\n').strip('\s').group()[7:-8]
 11:48 <@haroldwu> 少了一個)
 11:48 <@haroldwu> return regex.search(urllib2.urlopen(url).read().strip('\n').strip('\s')).group()[7:-8]
+11:52 <@haroldwu> bot_tcffm: 你好
