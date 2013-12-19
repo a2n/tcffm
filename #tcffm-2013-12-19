@@ -14,3 +14,4 @@
 00:58 < bot_tcffm> haroldwu - 有助於撰寫 python 腳本(script)的技巧
 09:17 < a2n> haroldwu: 昨天的 regex 失效，還沒想出正確的方式。 :P
 09:18 < a2n> haroldwu: 試試 <title>([\s\S]*)</title>
+09:18 < a2n> 也是取 \1
