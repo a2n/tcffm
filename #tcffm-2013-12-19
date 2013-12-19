@@ -154,3 +154,4 @@
 17:41 <@haroldwu> code 在此，這個能 pull request 嗎 XDD
 17:41 <@haroldwu> 還是我幫他建個 repo 好了
 17:43 < brli> myid.tw掛了= =
+17:44 < a2n> haroldwu: re.search(pattern, string, flags=0) 長這樣，但是你的怎麼只有一個參數，要他對什麼抓？
