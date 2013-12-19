@@ -78,3 +78,4 @@
 13:39 < guildwar> brli: 是什麼功用呢?
 13:40 < brli> 做出一個OS容器，然後在host直接開機進去
 13:41 < guildwar> 不錯玩的樣子 :)
+13:41 < brli> 看一些文章是說甚至可以做成對ssh-socket反應而自動開機的systemd.service，這樣可以拿來當隔離host的web server
