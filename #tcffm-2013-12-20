@@ -5,3 +5,4 @@
 06:43 < OtomeSound> 果然，有CloudFlare當屏障就不行了ww
 07:54 <@haroldwu> 怎麼會這樣？XDD
 07:58 < OtomeSound> 這我也好奇ww
+07:58 < a2n> 可是 CloudFlare 還是返回 200 OK，也有回覆 html，怎麼會抓不到？
