@@ -172,3 +172,4 @@
 17:52 < brli> 用openid登入的壞處就是來源伺服器掛了以後就無法登入啦XDDD
 17:53 < guildwar> 還好還有 persona :)
 17:53 < a2n> haroldwu: 可以讓我看看代碼樣子嗎？
+17:55 < a2n> haroldwu: http://pastebin.com/c7quSsV4 我寫了一個不標準的 python code，重構後大概長這樣
