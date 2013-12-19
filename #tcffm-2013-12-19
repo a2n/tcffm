@@ -134,3 +134,4 @@
 17:23 <@haroldwu> 有了，在python 中要是用正則替換，用 re.sub(條件,目標,對象)
 17:26 <@haroldwu> 例如這裏是 re.sub('^(\s)+$/','',urllib2.open(url).read()) 取得完整的，沒有空行的文本
 17:26 <@haroldwu> 然後去除 \n 的話，用 replace，所以組合起來是
+17:27 <@haroldwu> regexp.search(re.sub('^(\s)+$/','',urllib2.open(url).read()).replace('\n','').group()[7,-9]
