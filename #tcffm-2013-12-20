@@ -162,3 +162,9 @@
 21:48 < supybot> haroldwu_home: Error: The "URL" plugin is loaded, but there is no command named "http://irc-wiki.org/Supybot" in it.  Try "list URL" to see the commands in the "URL" plugin.
 21:48 < bot_tcffm> haroldwu_home - Supybot - IRC Wiki
 21:48 < bot_tcffm> supybot - 發生錯誤，機器人不能處理
+21:48 < supybot> bot_tcffm: Error: "-" is not a valid command.
+21:48 < bot_tcffm> supybot 我是你的好朋友，一隻機器人
+21:48 < supybot> bot_tcffm: Error: "我是你的好朋友，一隻機器人" is not a valid command.
+21:48 < bot_tcffm> supybot 我是你的好朋友，一隻機器人
+21:48 < supybot> bot_tcffm: Error: "我是你的好朋友，一隻機器人" is not a valid command.
+21:48 < bot_tcffm> supybot 我是你的好朋友，一隻機器人
