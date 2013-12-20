@@ -104,3 +104,4 @@
 21:04 < haroldwu_> 預設是stdin
 21:04 < haroldwu_> 打錯
 21:04 < haroldwu_> stdout
+21:04 < guildwar>  &> /tmp/xxxx.txt
