@@ -217,3 +217,4 @@
 22:17 < guildwar> 我的 supybot 不用穿，直接從外太空來 XD
 22:18 < ronmi> 這讓我想到MIB2裡面郵局裡的那台分信機
 22:19 < guildwar> bot_tcffm: 我還得得到你的 ip 啊，不小心穿到國王的新衣喔
+22:19 < bot_tcffm> 我知道了，只要加一句話說，若從socket 收到的訊號為空，就重新執行自己
