@@ -146,3 +146,4 @@
 21:35 < guildwar> 有，我有設一些有開，一些沒開
 21:35 < ronmi> 其他我就不清楚了
 21:36 < ronmi> supybot: list
+21:36 < supybot> ronmi: Admin, Channel, ChannelLogger, Config, Herald, Later, Misc, Note, Owner, Plugin, QuoteGrabs, RSS, Status, Time, Todo, URL, and User
