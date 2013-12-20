@@ -148,3 +148,4 @@
 21:36 < ronmi> supybot: list
 21:36 < supybot> ronmi: Admin, Channel, ChannelLogger, Config, Herald, Later, Misc, Note, Owner, Plugin, QuoteGrabs, RSS, Status, Time, Todo, URL, and User
 21:36 < ronmi> supybot: help register
+21:36 < supybot> ronmi: (register <name> <password>) -- Registers <name> with the given password <password> and the current hostmask of the person registering. You shouldn't register twice; if you're not recognized as a user but you've already registered, use the hostmask add command to add another hostmask to your already-registered user, or use the identify command to identify just for a session. This (1 more message)
