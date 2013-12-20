@@ -132,3 +132,5 @@
 21:33 < haroldwu_home> supybot: help
 21:33 < supybot> haroldwu_home: (help [<plugin>] [<command>]) -- This command gives a useful description of what <command> does. <plugin> is only necessary if the command is in more than one plugin.
 21:33 < guildwar> 不知道，沒有 man page，要看網頁 XD
+21:33 < haroldwu_home> supybot: help math
+21:33 < supybot> haroldwu_home: Error: There is no command "math".
