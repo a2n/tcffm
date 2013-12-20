@@ -13,3 +13,4 @@
 08:14 < bot_tcffm> a2n - python - urllib2.HTTPError: HTTP Error 403: Forbidden - Stack Overflow
 08:59 < OtomeSound> 我的返回值是None...（畢竟我只有最基本的
 09:05 < a2n> OtomeSound: status code 是 None o_O?
+09:07 < OtomeSound> 更正確的說法是他直接炸掉了= =
