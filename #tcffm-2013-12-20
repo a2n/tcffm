@@ -8,3 +8,4 @@
 07:58 < a2n> 可是 CloudFlare 還是返回 200 OK，也有回覆 html，怎麼會抓不到？
 07:58 < a2n> 這樣深入 python code 了解抓到是什麼東西
 08:00 < OtomeSound> 我是使用urllib在python3.3上實作，可惜我沒抓成功...
+08:13 < a2n> OtomeSound: 返回值多少？
