@@ -16,3 +16,4 @@
 09:07 < OtomeSound> 更正確的說法是他直接炸掉了= =
 09:07 < OtomeSound> raise HTTPError(req.full_url, code, msg, hdrs, fp)
 09:07 < OtomeSound> urllib.error.HTTPError: HTTP Error 403: Forbidden
+09:08 < a2n> 403 就對了，能改 UA 重下嗎？ :)
