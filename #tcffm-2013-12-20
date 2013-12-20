@@ -224,3 +224,4 @@
 22:23 < guildwar> 我在想，不知道 bot 可以做到直接取代 irssi 的功能，像我現在有一個 guildwar, 一個 supybot，我能不能不要用 irssi，只有 supybot，然後別人跟 supybot 講話，我可以透過 supybot 回應，不知道能這樣嗎?
 22:23 < bot_tcffm> 我也在這樣想
 22:24 < ronmi> 裝pidgin吧
+22:24 < bot_tcffm> 不過嚴格說來可以直接把功能寫成irssi外掛取代bot
