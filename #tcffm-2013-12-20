@@ -75,3 +75,4 @@
 17:54 < guildwar> ok, 感謝
 18:01 < maxwux> 可以連嗎？
 18:01 < guildwar> 可以，沒問題
+18:24 < guildwar> maxwux: ftp 上傳都用哪一套，試了 ncftp 好像不支援整個目錄上傳，lftp 傳到一半又會卡住?
