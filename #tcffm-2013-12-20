@@ -77,3 +77,4 @@
 18:01 < guildwar> 可以，沒問題
 18:24 < guildwar> maxwux: ftp 上傳都用哪一套，試了 ncftp 好像不支援整個目錄上傳，lftp 傳到一半又會卡住?
 18:24 < maxwux> 他是建議用 filezilla
+18:25 < guildwar> ok
