@@ -106,3 +106,4 @@
 21:04 < haroldwu_> stdout
 21:04 < guildwar>  &> /tmp/xxxx.txt
 21:04 < guildwar> 導到某一個檔案
+21:05 < guildwar> 應該不會把記憶體吃光才對吧，log　檔會很大?
