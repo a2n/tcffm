@@ -35,3 +35,4 @@
 10:21 < a2n> CF 有提供 hosting？不是只有提供 cdn?
 10:30 < OtomeSound> 我們是在國外珠了一個伺服器，然後用CloudFlare做cdn
 10:35 <@haroldwu> 哦，所以要設 useragent =.= 來僞裝成 IE 之類的 XDD
+10:41 <@haroldwu> 我研究下~！
