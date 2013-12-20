@@ -328,3 +328,4 @@
 23:38 < ronmi> http://zh.wikipedia.org/wiki/XMPP  看「與其他協議互聯」條目
 23:39 < guildwar> 看來他有 irc 外掛
 23:39 < ronmi> 這是一定要的東西 >_^
+23:41 <@haroldwu> 我知道 #archlinux-cn 有一隻 python 寫的 xmppbot，然後這隻機器人負責 xmpp多對一對多irc 的轉送
