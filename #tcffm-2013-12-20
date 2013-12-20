@@ -151,3 +151,4 @@
 21:36 < supybot> ronmi: (register <name> <password>) -- Registers <name> with the given password <password> and the current hostmask of the person registering. You shouldn't register twice; if you're not recognized as a user but you've already registered, use the hostmask add command to add another hostmask to your already-registered user, or use the identify command to identify just for a session. This (1 more message)
 21:37 < guildwar> ronmi: 被你搶了 XD
 21:38 < ronmi> 啊?
+21:39 < ronmi> 設定的時候不是會設ADMIN的名稱和密碼?  直接密他 identify 帳號 密碼    就會取得權限了 別人搶不走的
