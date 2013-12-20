@@ -182,3 +182,4 @@
 21:54 < ronmi> 新一點的BOT應該都有設命令字首的功能 比如前面加@才會當做是命令
 21:55 < ronmi> 這種就不會互TAG了
 21:56 < guildwar> supybot 我是你的好朋友，一隻機器人
+21:56 < supybot> guildwar: Error: "我是你的好朋友，一隻機器人" is not a valid command.
