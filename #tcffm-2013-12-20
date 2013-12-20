@@ -25,3 +25,4 @@
 09:41 [@haroldwu] [ bot_tcffm] [ darkx      ] [ guildwar] [ op_logbot_] [ tcffm_bot_new   ] 
 09:41 [ a2n     ] [ brli_away] [ dominicletz] [ Luxun   ] [ OtomeSound] [ tcffm_logger_bot] 
 09:41 -!- Irssi: #tcffm: Total of 12 nicks [1 ops, 0 halfops, 0 voices, 11 normal]
+09:48 < OtomeSound> 解決了...原來是要用user agent先偽裝成瀏覽器的意思嗎？
