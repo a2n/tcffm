@@ -130,3 +130,4 @@
 21:32 < haroldwu_home> 話說我看到 supybot 了
 21:32 < haroldwu_home> 有甚麼指令可用呢?
 21:33 < haroldwu_home> supybot: help
+21:33 < supybot> haroldwu_home: (help [<plugin>] [<command>]) -- This command gives a useful description of what <command> does. <plugin> is only necessary if the command is in more than one plugin.
