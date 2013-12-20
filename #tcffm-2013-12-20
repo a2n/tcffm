@@ -262,3 +262,4 @@
 23:12 < guildwar> 你都有現成的 openshift 機器，直接像我一樣，用 ssh tunnel 上 freenode 就好啊
 23:13 < guildwar> ssh -L localhost:6667:irc.freenode.net:6667 -Nf openshift_host
 23:13 < guildwar> 然後 irssi -n nick -c localhost 就好
+23:13 <@haroldwu> 不太理解第二步
