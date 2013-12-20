@@ -259,3 +259,4 @@
 23:11 <@haroldwu> 我開tmux嘛，其中一個緩衝區就跑著那個bot
 23:11 <@haroldwu> 隱是隱我這個 haroldwu nick
 23:11 <@haroldwu> 機器人到是沒有隱形
+23:12 < guildwar> 你都有現成的 openshift 機器，直接像我一樣，用 ssh tunnel 上 freenode 就好啊
