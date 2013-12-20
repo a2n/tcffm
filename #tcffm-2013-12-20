@@ -99,3 +99,4 @@
 21:00 < haroldwu_> bot_tcffm: 看到你還活著真好 QAQ
 21:00 < bot_tcffm> haroldwu_ 我是你的好朋友，一隻機器人
 21:02 < haroldwu_> guildwar: 不知道怎麼處理，因為主架構是一個 while true 的迴圈，一當掉就會開始瘋狂輸出時間把訊息洗掉
+21:03 < guildwar> 只要有關鍵字，swatch 會瞬間抓到，就算再被洗掉應該也可以
