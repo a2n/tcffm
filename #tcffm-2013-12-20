@@ -17,3 +17,4 @@
 09:07 < OtomeSound> raise HTTPError(req.full_url, code, msg, hdrs, fp)
 09:07 < OtomeSound> urllib.error.HTTPError: HTTP Error 403: Forbidden
 09:08 < a2n> 403 就對了，能改 UA 重下嗎？ :)
+09:13 < OtomeSound> 不好意思我是新手，不了解你所謂的UA是指哪個...
