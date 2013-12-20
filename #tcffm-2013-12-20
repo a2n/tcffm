@@ -157,3 +157,4 @@
 21:40 < guildwar> 不用啦，我 localhost 有一個 ngircd 可測
 21:40 < ronmi> 帥氣
 21:48 < haroldwu_home> supybot: list
+21:48 < supybot> haroldwu_home: Admin, Channel, ChannelLogger, Config, Herald, Later, Misc, Note, Owner, Plugin, QuoteGrabs, RSS, Status, Time, Todo, URL, and User
