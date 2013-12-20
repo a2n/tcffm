@@ -159,3 +159,5 @@
 21:48 < haroldwu_home> supybot: list
 21:48 < supybot> haroldwu_home: Admin, Channel, ChannelLogger, Config, Herald, Later, Misc, Note, Owner, Plugin, QuoteGrabs, RSS, Status, Time, Todo, URL, and User
 21:48 < haroldwu_home> supybot: url http://irc-wiki.org/Supybot
+21:48 < supybot> haroldwu_home: Error: The "URL" plugin is loaded, but there is no command named "http://irc-wiki.org/Supybot" in it.  Try "list URL" to see the commands in the "URL" plugin.
+21:48 < bot_tcffm> haroldwu_home - Supybot - IRC Wiki
