@@ -60,3 +60,4 @@
 15:48 < bot_tcffm> haroldwu - Cuptime智能水杯 点名时间 - 中国最大众筹平台! 支持创新的力量
 15:51 <@haroldwu> fcitx-rime 掛了=。=
 15:51 <@haroldwu> 唉，等上游修正
+15:52 <@haroldwu> 我大概知道我的機器人的問題了，就是 socket 失效了
