@@ -122,3 +122,4 @@
 21:29 < haroldwu_home> guildwar: 能否用 swatch 幫監控下我那隻 bot？ https://gist.github.com/yfwu/8021938 可以把你pi上舊的那隻刷掉，那個 repo 我砍掉了
 21:29 < bot_tcffm> haroldwu_home - 簡易的IRC bot。原本的 socket 部分是抄自某網頁的範本（出處我再找）。取得網址分析的部分是我目前試作的成品。
 21:29 < haroldwu_home> 家裡 =.= 是中華的3G
+21:29 < guildwar> ok
