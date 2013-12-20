@@ -266,3 +266,4 @@
 23:14 < guildwar> 第一行是先建立 ssh 通道到 openshift，並 listen localhost:6667 指向 irc.freenode.net:6667
 23:15 < guildwar> 第二行直接連到 localhost:6667 即可
 23:15 < guildwar> 就代表透過 ssh 通道連到 irc.freenode.net:6667 了
+23:15 < guildwar> 當然就是從 openshift 的 ip 啦
