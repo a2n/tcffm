@@ -103,3 +103,5 @@
 15:15 < supy> haroldwu: Error: "Owner" is not a valid command.
 15:15 <@haroldwu> @help
 15:15 < supy> haroldwu: (help [<plugin>] [<command>]) -- This command gives a useful description of what <command> does. <plugin> is only necessary if the command is in more than one plugin.
+15:15 <@haroldwu> @RSS
+15:15 < supy> haroldwu: (rss <url> [<number of headlines>]) -- Gets the title components of the given RSS feed. If <number of headlines> is given, return only that many headlines.
