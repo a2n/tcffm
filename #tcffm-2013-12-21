@@ -77,3 +77,4 @@
 14:29 < supy> guildwar: (rss <url> [<number of headlines>]) -- Gets the title components of the given RSS feed. If <number of headlines> is given, return only that many headlines.
 14:29 < guildwar> @rss http://tcffm.twgogo.org/forum/rss.xml   5
 14:29 < supy> guildwar: 什麼是 persona ? || 2013/12/16 網樂通、podcast || 讓網站能上傳並閱讀簡報檔 || 能在本論壇首頁顯示今日更新的主題嗎？ || 12/16 自由軟體聚會
+14:30 < haroldwu> 恩，我的概念是這樣，紀錄最新的一個，然後下次去讀的時候從上次紀錄到的地方開始讀
