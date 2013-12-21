@@ -74,3 +74,4 @@
 14:29 < haroldwu> 我有稍為搜尋了下
 14:29 < guildwar> 我試了 supybot 的 rss 功能，好像只能列出最近幾個，但沒辧法分辨出已讀過的就不要
 14:29 < guildwar> @rss
+14:29 < supy> guildwar: (rss <url> [<number of headlines>]) -- Gets the title components of the given RSS feed. If <number of headlines> is given, return only that many headlines.
