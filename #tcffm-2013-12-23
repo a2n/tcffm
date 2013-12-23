@@ -110,3 +110,4 @@
 21:16 <@haroldwu> 我記得top不是可以看到執行了幾時積分？
 21:17 < guildwar> 那個是 cputime，不是已執行了多久
 21:27 < hmchen> 找到了, ps -eo pid,cmd,etime
+21:28 < guildwar> 水喔
