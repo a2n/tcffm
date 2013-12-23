@@ -85,3 +85,4 @@
 20:53 < hmchen> 看文件說, openmeetings 其實是 red5 環境下的一個應用程式
 20:54 < hmchen> 現在是可以從 ffmpeg 把影像送到 red5, 然後再從網頁播放 live 影像
 20:55 < hmchen> 但我是直接改現有 demo page 中的 url, 對於怎樣配置完全不了解...
+21:02 < guildwar> 我也不懂，當初只是架起來用，但是後來實際測試滿耗資源的，notebook 開一下子就卡住，所以就沒再試下去 :)
