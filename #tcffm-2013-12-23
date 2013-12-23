@@ -16,3 +16,4 @@
 13:31 < hmchen> 以前還搞到安裝開發工具到另一組 RedHat9 骨灰,  再把檔案 copy 回來工作機
 14:39 < guildwar> hmchen: 那如果裝 ubuntu server 呢? 也會有那些亂七包糟的東西嗎?
 14:40 < hmchen> server 版預設不裝 x, 應該沒差
+14:41 < hmchen> https://fixubuntu.com/
