@@ -103,3 +103,4 @@
 21:09 -!- mode/#tcffm [+o haroldwu] by ChanServ
 21:14 <@haroldwu> 那麼，如何看一個程式跑了多久？
 21:15 < guildwar> ps -ef |grep your_app
+21:15 < guildwar> 可看到幾點幾分跑的，但隔天就看不到了
