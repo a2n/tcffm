@@ -120,3 +120,4 @@
 21:29 <@haroldwu>  1387 python2 harobot.py tcffm bo  2-06:21:17
 21:30 <@haroldwu> 算了，還會動就好
 21:31 < hmchen> ps -p YOUR_PID -o lstart=
+21:31 < hmchen> 真是一堆沒用過的指令
