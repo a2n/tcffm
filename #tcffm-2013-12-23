@@ -98,3 +98,4 @@
 21:06 < guildwar> 機器人沒問題
 21:06 <@haroldwu> 對了，問下，tmux 如何捲動看上面的東西？
 21:07 < guildwar> ctrl-b [
+21:07 < guildwar> 再按 上、下　或 ctrl-u ctrl-d 捲動
