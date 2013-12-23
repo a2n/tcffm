@@ -15,3 +15,4 @@
 13:29 < hmchen> 運氣好的, 安裝時可以下參數忽略套件, 運氣不好的
 13:31 < hmchen> 以前還搞到安裝開發工具到另一組 RedHat9 骨灰,  再把檔案 copy 回來工作機
 14:39 < guildwar> hmchen: 那如果裝 ubuntu server 呢? 也會有那些亂七包糟的東西嗎?
+14:40 < hmchen> server 版預設不裝 x, 應該沒差
