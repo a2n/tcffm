@@ -40,3 +40,4 @@
 21:36 < hmchen> http://dr.waynehuang.cc/2013/12/nsa-rsa-backdoor.html?m=1
 21:36 < hmchen> 這則新聞還蠻驚悚的
 21:37 < hmchen> 不知道 openssh / openssl 預設的亂數演算法是哪個
+21:42 < guildwar> http://arstechnica.com/security/2013/12/we-cannot-trust-intel-and-vias-chip-based-crypto-freebsd-developers-say/
