@@ -20,3 +20,4 @@
 19:44 < guildwar> 這麼倒霉 XD
 19:44 < hmchen> 接 10/100M switch 抓不到, 多串個 10M hub 就有亮燈
 19:45 < hmchen> 但還是沒好, 每 3 秒發一次 dhcp request, IP 分享器 assign IP 後, 燈滅掉又重來, 無窮迴圈中
+19:46 < guildwar> 是喔，那台能登進嗎? :)
