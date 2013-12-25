@@ -9,3 +9,4 @@
 16:19 < guildwar> 有用過，不過沒轉 port 耶 :)
 16:20 < guildwar> noip.biz 是你申請的名稱吧，直接就在 Internet 了，幹嘛還轉 port
 16:21 < brli> 因為我的server是在NAT後面
+16:23 < guildwar> 那就要設定 router 啦，有些 router 像 openwrt 直接支援 noip 的設定
