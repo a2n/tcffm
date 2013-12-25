@@ -22,3 +22,4 @@
 00:45 <@haroldwu> 高強駭客植入的什麼東西...應該會掛在某個程序上面跑吧，例如，zsh 的漏洞之類的
 00:45 < guildwar> 應該沒有吧
 00:45 < guildwar> 要是進入了，直接換掉 pstree 就好 XD
+00:47 < guildwar> 其實 arch 的 aur 還滿危險的，隨便找一個包動手腳還比較方便，加上 patch 之類的
