@@ -159,3 +159,4 @@
 17:37 < guildwar> 設定多個 virtualhost 應該就好了
 17:38 < guildwar> 不對啊，跟 http server 應該沒關係才對
 17:40 < brli> 忙課業去了@@
+17:40 < guildwar> 第二行設嚴謹一點，加上 -d 127.0.0.1
