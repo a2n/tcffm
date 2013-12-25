@@ -86,3 +86,4 @@
 17:01 < brli> 主機防火牆也開路了
 17:02 < guildwar> 低於 1024 要 root 權限
 17:02 < brli> 有了
+17:03 < brli> :8443 0.0.0.0:* LISTEN VirtualBox
