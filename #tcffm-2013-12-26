@@ -11,3 +11,4 @@
 00:26 <@haroldwu> 如果有成功的話QQ
 00:26 <@haroldwu> 剛剛沒試成
 00:31 <@haroldwu> polkitd 這個程序是幹嘛的呢？
+00:33 < guildwar> 我也不是很了解，但知道要做某些事，要有在 polkit 設定 rule 才可以用
