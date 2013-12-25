@@ -15,3 +15,4 @@
 00:38 <@haroldwu> 我用pstree 畫出系統現在的狀態，程序還蠻少的（所有的firefox算成一個的話XD）
 00:39 <@haroldwu> 但是有些我叫不出名字，其中一個是 plokitd，另一個是 at-spi-bus-laun
 00:39 <@haroldwu> 其他都知道 XD
+00:39 <@haroldwu> crond、sshd、dhcpcd、upowerd 諸如此類的
