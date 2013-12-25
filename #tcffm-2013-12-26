@@ -13,3 +13,4 @@
 00:31 <@haroldwu> polkitd 這個程序是幹嘛的呢？
 00:33 < guildwar> 我也不是很了解，但知道要做某些事，要有在 polkit 設定 rule 才可以用
 00:38 <@haroldwu> 我用pstree 畫出系統現在的狀態，程序還蠻少的（所有的firefox算成一個的話XD）
+00:39 <@haroldwu> 但是有些我叫不出名字，其中一個是 plokitd，另一個是 at-spi-bus-laun
