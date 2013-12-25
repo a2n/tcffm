@@ -210,3 +210,4 @@
 22:03 < hmchen> 有另一種土砲作法, 先輸出成 .ps, 再轉 pdf
 22:04 < hmchen> ps 保證埋不了中文字型, 所以會轉成 ps 向量圖
 22:04 < guildwar> ok, 我先看看，聽說 libreoffice 4.1 有支援 :)
+22:14 < guildwar> 現在 libreoffice 已支援將字型崁入文件，但不支援 pdf export XD
