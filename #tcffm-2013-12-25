@@ -97,3 +97,4 @@
 17:04 < guildwar> Forwarding host ports < 1024 impossible:
 17:04 < guildwar> On Unix-based hosts (e.g. Linux, Solaris, Mac OS X) it is not possible to bind to ports below 1024 from applications that are not run by root. As a result, if you try to configure such a port forwarding, the VM will refuse to start.
 17:05 < guildwar> 看來不行，只能用 root 跑了
+17:06 < guildwar> ok, 不要從 virtualbox 去動，而是用 iptables nat table 中的 PREROUTING
