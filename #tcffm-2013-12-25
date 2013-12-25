@@ -17,3 +17,4 @@
 16:28 < guildwar> 喔，不用，你都有指定 443 轉送了，不用 DNAT
 16:29 < guildwar> 那問題在哪裡，我不懂?
 16:29 < brli> 問題出在我要連到我的網頁得打https://noip.biz:port才能上Orz
+16:30 < brli> https://noip.biz:12345
