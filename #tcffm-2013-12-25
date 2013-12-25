@@ -64,3 +64,4 @@
 16:47 < guildwar> 能做的儘量做，其他的就看老天啦
 16:55 < brli> ping的到brli.no-ip.biz
 16:55 < brli> 可是網頁失敗XD
+16:56 < guildwar> 你看一下，主機 listen 80 是 0.0.0.0:80 或是 x.x.x.x:80
