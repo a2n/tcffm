@@ -169,3 +169,4 @@
 19:42 < guildwar> 應該就是變成付 "從市話打一次手機" 的錢就好，不用再額外給中華電信轉接費 吧
 19:52 < guildwar> 話說昨天看到可以從瀏覽器免費打電話到手機，有興趣的可以看看，不知道台灣的行不行就是
 19:52 < guildwar> http://danielpocock.com/free-calling-from-browser-to-mobile
+21:32 < hmchen> guildwar: spa3000 會先嘗試撥打 voip (手機裝 sip 軟體), voip 端應答後, 才會把市話線路接起來, 所以從 spa3000 到手機是不用錢的
