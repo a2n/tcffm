@@ -186,3 +186,4 @@
 21:38 < hmchen> 比如用 sip 從 PC 撥給手機, 只要手機有跟 sip server 註冊就行了
 21:38 < hmchen> 我原本還以為需要連到同一組 sip server 的才能互打
 21:38 < hmchen> 原來不註冊的也可以打出去
+21:39 < guildwar> 但那是因為現在是智慧型手機，sip client 隨我們裝，之前還滿困難的吧
