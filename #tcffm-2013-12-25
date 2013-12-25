@@ -184,3 +184,4 @@
 21:36 < hmchen> 以前的認知有錯
 21:37 < guildwar> 我也不瞭解，只是不知不覺就請了二、三個 voip 帳號 :)
 21:38 < hmchen> 比如用 sip 從 PC 撥給手機, 只要手機有跟 sip server 註冊就行了
+21:38 < hmchen> 我原本還以為需要連到同一組 sip server 的才能互打
