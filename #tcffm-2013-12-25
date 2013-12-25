@@ -143,3 +143,4 @@
 17:28 < guildwar> 有解耶，要不要試試，因為 PREROUTING 不管 loopback interface，所以要加 OUTPUT
 17:29 < guildwar> 等等，我先試，成功再說
 17:29 < guildwar> http://serverfault.com/questions/211536/iptables-port-redirect-not-working-for-localhost
+17:30 < guildwar> yes ，可以
