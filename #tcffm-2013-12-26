@@ -21,3 +21,4 @@
 00:44 <@haroldwu> 會有什麼程序可以逃過 pstree 嗎
 00:45 <@haroldwu> 高強駭客植入的什麼東西...應該會掛在某個程序上面跑吧，例如，zsh 的漏洞之類的
 00:45 < guildwar> 應該沒有吧
+00:45 < guildwar> 要是進入了，直接換掉 pstree 就好 XD
