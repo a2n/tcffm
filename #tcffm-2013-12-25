@@ -128,3 +128,4 @@
 17:22 < guildwar> 不然用行號也可以
 17:22 < guildwar> iptables --list -nv -t nat --line-number
 17:22 < guildwar> 再用 iptables -t nat -D xx
+17:22 < guildwar> 看要刪第幾行
