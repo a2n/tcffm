@@ -36,3 +36,4 @@
 00:56 <@haroldwu> 應該是 60 行（個包）。後面是什麼？
 00:56 <@haroldwu> 最後面字數？
 00:56 < guildwar> bytes 及 chars
+00:58 < guildwar> 錯了，是 lines, words, chars
