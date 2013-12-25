@@ -36,3 +36,4 @@
 16:36 < guildwar> 因為主機 listen 哪個 port，網址就要加
 16:36 < guildwar> 所以你主機要 listen 80 及 443 才行
 16:37 < brli> 那這樣跟直接對應80to80 443to443好像就沒差別了？
+16:37 < guildwar> 從 Internet 連到主機 12345 導進 vbox 443 這樣對吧
