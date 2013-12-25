@@ -34,3 +34,4 @@
 16:35 < guildwar> 不對啊，那你這樣一定要加 port number
 16:36 < brli> XDrz
 16:36 < guildwar> 因為主機 listen 哪個 port，網址就要加
+16:36 < guildwar> 所以你主機要 listen 80 及 443 才行
