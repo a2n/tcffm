@@ -71,3 +71,4 @@
 16:57 < brli> 從哪裡看監聽哪阿？= =
 16:58 < guildwar> netstat -nap 之類的
 16:58 < guildwar> 在主機上
+16:58 < guildwar> 若不是 0.0.0.0 則在 virtualbox 設定裡要修改
