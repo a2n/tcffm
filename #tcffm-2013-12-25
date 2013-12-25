@@ -130,3 +130,4 @@
 17:22 < guildwar> 再用 iptables -t nat -D xx
 17:22 < guildwar> 看要刪第幾行
 17:23 < brli> iptables: Bad rule (does a matching rule exist in that chain?).
+17:24 < guildwar> 完整指令?
