@@ -207,3 +207,4 @@
 21:55 < guildwar> 但是在本機用 firefox 內建的 pdf.js 中文字又正常
 21:56 < guildwar> 是因為 pdf 內沒有含字型嗎? 那如何將字型也崁入 pdf?
 22:03 < hmchen> 以前用Adobe的PDF printer時可以選擇把TTF嵌進pdf, 但檔案會變肥
+22:03 < hmchen> 有另一種土砲作法, 先輸出成 .ps, 再轉 pdf
