@@ -205,3 +205,4 @@
 21:53 < hmchen> 或許是我沒裝啥軟體吧, 通常就開 line, gmail, google+, facebook
 21:55 < guildwar> 對了，有人看過我之前放上網站的網樂通改機 PDF 簡報嗎？ 中文字是否正常，因為發現在網站上用 pdf.js 看那個簡報，中文字都變框框
 21:55 < guildwar> 但是在本機用 firefox 內建的 pdf.js 中文字又正常
+21:56 < guildwar> 是因為 pdf 內沒有含字型嗎? 那如何將字型也崁入 pdf?
