@@ -27,3 +27,4 @@
 16:32 < guildwar> Unable to connect
 16:33 < guildwar> 你檢查一下主機，iptables 有打開 443 嗎?
 16:33 < guildwar> 主機上有 listen 443?
+16:34 < guildwar> 感覺 firewall 有開，但沒 listen 443
