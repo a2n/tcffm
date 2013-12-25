@@ -25,3 +25,4 @@
 16:31 < guildwar> 那我幫你測　　ＸＤ
 16:31 < brli> https://brli.no-ip.biz
 16:32 < guildwar> Unable to connect
+16:33 < guildwar> 你檢查一下主機，iptables 有打開 443 嗎?
