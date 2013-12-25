@@ -8,3 +8,4 @@
 16:06 < brli> 我想要轉ip:port到noip.biz上可是怎麼就是無法
 16:19 < guildwar> 有用過，不過沒轉 port 耶 :)
 16:20 < guildwar> noip.biz 是你申請的名稱吧，直接就在 Internet 了，幹嘛還轉 port
+16:21 < brli> 因為我的server是在NAT後面
