@@ -100,3 +100,4 @@
 17:06 < guildwar> ok, 不要從 virtualbox 去動，而是用 iptables nat table 中的 PREROUTING
 17:07 < guildwar> /sbin/iptables -t nat -A PREROUTING -i eth0 -p tcp --dport 443 -j REDIRECT --to-port 8443
 17:07 < guildwar> 在主機上跑，將進來主機 443 的封包轉到本機 8443，這樣等於進入 vbox 機器，試試
+17:12 < brli> 算了
