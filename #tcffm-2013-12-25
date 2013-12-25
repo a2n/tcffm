@@ -12,3 +12,4 @@
 16:23 < guildwar> 那就要設定 router 啦，有些 router 像 openwrt 直接支援 noip 的設定
 16:24 < brli> erg...VBox使用者表示不知在說啥XD
 16:24 < guildwar> 你的機器透過哪台機器出 Internet，那台你可以控管嗎?
+16:26 < brli> 我的server是在vbox內，透過我的主機用NAT模式上網，有設定https跟http的埠轉送(443接到主機的12345, 80接到主機的12344這樣
