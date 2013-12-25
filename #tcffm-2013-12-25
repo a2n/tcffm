@@ -145,3 +145,4 @@
 17:29 < guildwar> http://serverfault.com/questions/211536/iptables-port-redirect-not-working-for-localhost
 17:30 < guildwar> yes ，可以
 17:30 < brli> ?
+17:30 < guildwar> 二行，剛才那行再加上 iptables -t nat -A OUTPUT -p tcp --dport 443 -j REDIRECT --to-port 8443
