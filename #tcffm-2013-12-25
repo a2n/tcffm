@@ -88,3 +88,4 @@
 17:02 < brli> 有了
 17:03 < brli> :8443 0.0.0.0:* LISTEN VirtualBox
 17:03 < brli> :8443    0.0.0.0:*               LISTEN      22179/VirtualBox
+17:03 < brli> tcp
