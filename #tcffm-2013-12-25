@@ -140,3 +140,4 @@
 17:26 < guildwar> 反正自己能接受就好
 17:28 < brli_away> 只是覺得網址多了port好醜XD
 17:28 < brli_away> 但是剛剛那個設定做成對外服務時事有用的
+17:28 < guildwar> 有解耶，要不要試試，因為 PREROUTING 不管 loopback interface，所以要加 OUTPUT
