@@ -52,3 +52,4 @@
 13:36 <@haroldwu> 裝完然後ln ?
 13:36 <@haroldwu> 你的aur partition
 13:52 < guildwar> 用 mount --bind
+13:52 < guildwar> 寫在 /etc/fstab 中自動掛載
