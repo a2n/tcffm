@@ -11,3 +11,4 @@
 02:38 <@haroldwu> 補丁失敗，不能編譯=.= 寫下我的做法好了
 02:39 <@haroldwu> 1. 到官網載了補丁（這裏例子是dwm-6.0-xft.diff）
 02:40 <@haroldwu> 2. 因爲源碼我用abs 拉到/var/abs/community/dwm 在 cp 到家目錄（參考archwiki），所以原始碼在 ~/dwm/src/dwm-6.0 中
+02:40 <@haroldwu> 3. 把剛剛載的 diff 放到 ~/dwm/src/dwm-6.0/ 中
