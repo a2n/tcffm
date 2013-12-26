@@ -84,3 +84,4 @@
 18:08 < guildwar> 要從外面連到 owncloud, 佔掉 443，所以 vbox 裡的就必須跳開，無法共同一個 port
 18:08 < brli> bluekant: Internet Relay Chat, 期望他能有什麼其他好用的功能呢^^？
 18:09 < guildwar> 解決方法，只要在主機上的 apache　設定檔中加上 proxy 及 proxy_http 模組，設定好 virtualhost 就可以
+18:10 < guildwar> http://www.linuxjournal.com/content/protect-your-ports-reverse-proxy
