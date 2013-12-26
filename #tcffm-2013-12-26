@@ -92,3 +92,4 @@
 18:13 < guildwar> 我已設定好了，你可以試試     http://manstalk.rr.nu:8080 及 http://tcffm.rr.nu:8080 二個，用 host 解析其實是同一台機器，但用不同的 virtualhost 連，可將他導向不同機器
 18:14 < brli> 前面那個網址~科科XDD
 18:15 < guildwar> 那個是 mans talk 啦，別想歪 XD
+18:15 < brli> 主機因為是個人工作用電腦，為了單純即安全的理由，不想動apache(webserver)
