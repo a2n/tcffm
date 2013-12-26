@@ -101,3 +101,4 @@
 18:17 < brli> 不過他有用是必然的
 18:17 < brli> 否則就不會存在
 18:18 < guildwar> 但光原本的 virtualhost 只能在同一台主機上，要配合 proxy module 才可以到別台吧
+18:18 < guildwar> 不確定
