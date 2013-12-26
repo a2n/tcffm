@@ -85,3 +85,4 @@
 18:08 < brli> bluekant: Internet Relay Chat, 期望他能有什麼其他好用的功能呢^^？
 18:09 < guildwar> 解決方法，只要在主機上的 apache　設定檔中加上 proxy 及 proxy_http 模組，設定好 virtualhost 就可以
 18:10 < guildwar> http://www.linuxjournal.com/content/protect-your-ports-reverse-proxy
+18:10 < brli> guildwar: 是，host 443是標準的https port, 應該多少會有軟體/人走這條路，vbox裡也是，但因為我有用server，所以變成拿來走https的wordpress
