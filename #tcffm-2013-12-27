@@ -9,3 +9,4 @@
 01:49 <@haroldwu> 才能顯示。一般的英文字體好像不行
 02:18 <@haroldwu> 有systray 跟xft patch，期末考完再來打上去...patch 跟diff還不太會用
 02:38 <@haroldwu> 補丁失敗，不能編譯=.= 寫下我的做法好了
+02:39 <@haroldwu> 1. 到官網載了補丁（這裏例子是dwm-6.0-xft.diff）
