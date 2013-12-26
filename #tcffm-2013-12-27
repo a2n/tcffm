@@ -13,3 +13,4 @@
 02:40 <@haroldwu> 2. 因爲源碼我用abs 拉到/var/abs/community/dwm 在 cp 到家目錄（參考archwiki），所以原始碼在 ~/dwm/src/dwm-6.0 中
 02:40 <@haroldwu> 3. 把剛剛載的 diff 放到 ~/dwm/src/dwm-6.0/ 中
 02:40 <@haroldwu> 4. patch < dwm-6.0-xft.diff
+02:40 <@haroldwu> 步驟是這樣，是哪裏出錯了嗎？
