@@ -153,3 +153,5 @@
 23:23 < hmchen> 不知為何 GTK+DirectFB 在比較 low-end 的 arm 平台效能不彰
 23:23 < bluekant> http://qt-project.org/
 23:23 < hmchen> 在看 Qt 的時候有喵到 QML
+23:23 < bluekant> 是這個 QT 吧
+23:23 < hmchen> yes
