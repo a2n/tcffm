@@ -78,3 +78,4 @@
 18:05 < guildwar> brli: 我找到解決你的 wordpress 和 owncloud 相衝的方法了 :)
 18:05 < brli> ?!
 18:05 < guildwar> 你昨天不是說那個 wordpress 和 owncloud 相衝
+18:07 < guildwar> 我先搞清楚，你的主機上已有 443 port，是 owncloud，你的 vbox 中有 443 port，是 wordpress　？
