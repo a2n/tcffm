@@ -14,3 +14,4 @@
 02:40 <@haroldwu> 3. 把剛剛載的 diff 放到 ~/dwm/src/dwm-6.0/ 中
 02:40 <@haroldwu> 4. patch < dwm-6.0-xft.diff
 02:40 <@haroldwu> 步驟是這樣，是哪裏出錯了嗎？
+02:43 <@haroldwu> 哦對，露了5. 回到 ~/dwm，用makepkg -g >> PKGBUILD 修改 md5sum
