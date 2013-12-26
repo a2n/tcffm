@@ -56,3 +56,4 @@
 13:53 < guildwar> 另一種是直接改 aur 路徑，我是用 yaourt，是去讀 /etc/makepkg.conf
 13:54 < guildwar> 改 BUILDDIR=/media/share/arch/tmp/makepkg 及 TMPDIR=/media/share/arch/tmp
 13:55 < guildwar> 還有 PKGDEST SRCDEST SRCPKGDEST，所以直接用 mount --bind 會比較方便，不用改那麼多
+15:03 <@haroldwu> 瞭解~！
