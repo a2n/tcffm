@@ -150,3 +150,4 @@
 23:21 < hmchen> http://zh.wikipedia.org/zh-tw/QML
 23:21 < hmchen> javascript
 23:22 < hmchen> 原本的專案有打算從 GTK 逃命到 QT
+23:23 < hmchen> 不知為何 GTK+DirectFB 在比較 low-end 的 arm 平台效能不彰
