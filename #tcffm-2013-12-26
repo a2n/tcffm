@@ -91,3 +91,4 @@
 18:12 < brli> bluekant: 不過他本身就已經有點複雜了，有很多/開頭的指令可以玩，也有幾個freenode提供的service機器人可以玩，各個軟體也會有自己的plugin可以玩
 18:13 < guildwar> 我已設定好了，你可以試試     http://manstalk.rr.nu:8080 及 http://tcffm.rr.nu:8080 二個，用 host 解析其實是同一台機器，但用不同的 virtualhost 連，可將他導向不同機器
 18:14 < brli> 前面那個網址~科科XDD
+18:15 < guildwar> 那個是 mans talk 啦，別想歪 XD
