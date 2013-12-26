@@ -87,3 +87,4 @@
 18:10 < guildwar> http://www.linuxjournal.com/content/protect-your-ports-reverse-proxy
 18:10 < brli> guildwar: 是，host 443是標準的https port, 應該多少會有軟體/人走這條路，vbox裡也是，但因為我有用server，所以變成拿來走https的wordpress
 18:10 < bluekant> 了解!!!
+18:11 < brli> btw, vbox為了單純點，已經把DM關掉了，現在是開機直接進tty
