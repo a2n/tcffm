@@ -73,3 +73,4 @@
 21:26 < guildwar> fbturbo 討論串在這 http://is.gd/Yl8dXv  直接拉到約中間再下面幾面，日期為 12/10 的
 21:33 < hmchen> 只靠 dma 效果應該有限
 21:34 < hmchen> 通常 dma 設計都很簡單, 設定 src, dest 跟 length, 複製完畢發中斷
+21:34 < hmchen> 有點像 memcpy
