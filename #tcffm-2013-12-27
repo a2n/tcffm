@@ -60,3 +60,4 @@
 20:54 < hmchen> 感覺就是把 data flow 倒灌回 kernel 再從 /dev/video0 餵出來
 20:54 < guildwar> 對啊，有 /dev/video0 就 ok，原有的 app 都不用動吧
 20:55 < hmchen> yes
+20:55 < hmchen> 感覺這個 uv4l 用途還蠻廣的
