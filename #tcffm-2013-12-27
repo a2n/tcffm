@@ -61,3 +61,4 @@
 20:54 < guildwar> 對啊，有 /dev/video0 就 ok，原有的 app 都不用動吧
 20:55 < hmchen> yes
 20:55 < hmchen> 感覺這個 uv4l 用途還蠻廣的
+20:56 < hmchen> 做實驗很方便, 理論上可以用資料檔做成虛擬 camera
