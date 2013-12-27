@@ -76,3 +76,4 @@
 21:34 < hmchen> 有點像 memcpy
 21:35 < hmchen> 只是純 hw 驅動
 21:36 < hmchen> 但桌面的 window 畫素是不連續的, 比如 windows size = 400x300, 頂多用 dma 分 300 次搬
+21:37 < hmchen> cpu  其實會很忙碌的再處理中斷訊號
