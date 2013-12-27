@@ -16,3 +16,4 @@
 02:40 <@haroldwu> 步驟是這樣，是哪裏出錯了嗎？
 02:43 <@haroldwu> 哦對，露了5. 回到 ~/dwm，用makepkg -g >> PKGBUILD 修改 md5sum
 02:44 <@haroldwu> 6. makepkg -efi 安裝
+11:51 < guildwar> haroldwu: 有試過 dwm-pango 嗎?
