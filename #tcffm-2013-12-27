@@ -34,3 +34,4 @@
 20:34 < guildwar> 那可以當 desktop 了嗎 :)
 20:35 < hmchen> 有 2d acceleration 應該就可以
 20:35 < hmchen> 有 v4l2 就不用外接 usb
+20:35 < hmchen> 一般的 video application 就可以直接吃 camera module 了
