@@ -74,3 +74,4 @@
 21:33 < hmchen> 只靠 dma 效果應該有限
 21:34 < hmchen> 通常 dma 設計都很簡單, 設定 src, dest 跟 length, 複製完畢發中斷
 21:34 < hmchen> 有點像 memcpy
+21:35 < hmchen> 只是純 hw 驅動
