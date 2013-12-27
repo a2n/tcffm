@@ -110,3 +110,4 @@
 23:09 < hmchen> rpi 有 gpu 加速的 webm decoder, 嚴格來說不算純硬解
 23:10 < hmchen> 是類似 gpgpu 方式, 讓 gpu 軟解的
 23:11 < hmchen> h.264 就是純 hw decode
+23:11 < hmchen> 今天太冷, 要去床上縮起來了
