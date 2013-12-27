@@ -41,3 +41,4 @@
 20:39 < guildwar> 水喔，有 v4l2 支援，這下子大部份程式都可以用了
 20:39 < hmchen> 衰, 剛剛打翻咖啡... NB 差點中獎
 20:40 < hmchen> 看文章裡頭說的, 應該是類似 uvc
+20:40 < hmchen> /dev/video0  可以直接輸出 h.264 bitstream 的樣子
