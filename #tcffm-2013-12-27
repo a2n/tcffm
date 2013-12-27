@@ -83,3 +83,4 @@
 21:54 < hmchen> fbturbo 很順
 21:54 < hmchen> 但連續快速拖動 windows 的 cpu loading 還是有 50% 左右
 21:55 < hmchen> 純 fbdev 當然就卡卡的, cpu 100%
+21:55 < hmchen> 畢竟不是真的透過 gpu
