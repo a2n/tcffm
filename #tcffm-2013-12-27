@@ -107,3 +107,4 @@
 23:08 < hmchen> 加上 rpi 也有 vp6 (webm)
 23:09 < hmchen> 解析度有限制就是了
 23:09 < guildwar> 我在想目前應該就可以播 webm 了吧
+23:09 < hmchen> rpi 有 gpu 加速的 webm decoder, 嚴格來說不算純硬解
