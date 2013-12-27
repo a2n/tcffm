@@ -54,3 +54,4 @@
 20:47 < guildwar> 算啦，弄個鐵絲塑形一下，比較快 :)
 20:50 < hmchen> 原來還有 uv4l 這種東西 http://www.linux-projects.org/modules/sections/index.php?op=viewarticle&artid=9
 20:51 < hmchen> user space video4linux driver core
+20:51 < hmchen> 越來越多 driver 用 user space 實作, 很像 micro kernel
