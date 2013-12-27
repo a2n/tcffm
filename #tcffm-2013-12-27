@@ -45,3 +45,4 @@
 20:40 < guildwar> 反正有 /dev/video0 就一堆程式可用了吧
 20:40 < hmchen> 這樣很嗨啊
 20:41 < hmchen> 對需要資料壓縮的 app 就不用再過 ffmpeg/libavcodec 靠 cpu 壓縮
+20:42 < guildwar> 看來可以來買個 pi camera 玩看看了，一直都還沒買
