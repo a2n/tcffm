@@ -43,3 +43,4 @@
 20:40 < hmchen> 看文章裡頭說的, 應該是類似 uvc
 20:40 < hmchen> /dev/video0  可以直接輸出 h.264 bitstream 的樣子
 20:40 < guildwar> 反正有 /dev/video0 就一堆程式可用了吧
+20:40 < hmchen> 這樣很嗨啊
