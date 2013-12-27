@@ -56,3 +56,4 @@
 20:51 < hmchen> user space video4linux driver core
 20:51 < hmchen> 越來越多 driver 用 user space 實作, 很像 micro kernel
 20:53 < hmchen> 很妙啊, /dev/video0 出現了
+20:53 < guildwar> http://www.graspinghand.com/
