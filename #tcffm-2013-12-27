@@ -85,3 +85,4 @@
 21:55 < hmchen> 純 fbdev 當然就卡卡的, cpu 100%
 21:55 < hmchen> 畢竟不是真的透過 gpu
 21:56 < hmchen> 只是開啟 dma 而已
+21:56 < guildwar> 了解
