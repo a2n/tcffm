@@ -1,3 +1,4 @@
 --- Log opened 日 12月 29 00:00:49 2013
 02:07 < guildwar> 試了好幾個播放 youtube 的程式都沒成功，不過最後終於有一個可以，是 console 下的，叫 whitey，是一個 mplayer 及 omxplayer 的 UI，有些 bug, 但最後還是能播就是，做法如下:
 02:07 < guildwar> http://pastie.org/8583023
+02:08 < guildwar> 按 s 可搜尋，但不支援中文就是
