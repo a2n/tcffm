@@ -14,3 +14,4 @@
 13:31 < guildwar> 看 max大大那裡能不能架一個，mumble server (umurmur）很小，不怎麼耗系統資源
 13:35 < guildwar> 另外，raspberrypi 除了console 下播 youtube 之外，也試了 midori 來播，照著 http://lin.jojen.de/play-html-5-video-raspberry-pi-in-midori-chrome 的作法，可以成功的播放 youtube 的影片，雖然在開影片前要等一下，但在播放時就很正常，比起要手動用 youtube-dl 下載回來再自已播，已經算是方便的了
 14:08 < guildwar> 發現一個問題，在 midori 播放了第一個影片後，再播第二個時，頁面上是第二個影片，但影片卻是第一個 XD，解決方法，將影片開在新分頁即可
+14:21 < guildwar> 做法大致如下:  http://pastie.org/8584334
