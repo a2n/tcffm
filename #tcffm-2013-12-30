@@ -1,2 +1,3 @@
 --- Log opened 一 12月 30 00:00:51 2013
 00:41 < ronmi> 香港朋友來沒空了兩天，來報告一下steamOS的安裝已經解析好了，但來不及做投影片，不過要當場live install的關係，所以請容許我後補完整installation guide
+00:42 < ronmi> 為保證安裝時不會破壞現有的partition，所以明天分享的安裝方式會是解析steam installer裡的各項設定後，用debootstrap手動完成安裝
