@@ -1,3 +1,9 @@
 --- Log opened 一 12月 30 00:00:51 2013
 00:41 < ronmi> 香港朋友來沒空了兩天，來報告一下steamOS的安裝已經解析好了，但來不及做投影片，不過要當場live install的關係，所以請容許我後補完整installation guide
 00:42 < ronmi> 為保證安裝時不會破壞現有的partition，所以明天分享的安裝方式會是解析steam installer裡的各項設定後，用debootstrap手動完成安裝
+01:16 -!- Topic for #tcffm: 部落格：郵件列表: http://bit.ly/tcffm-forum | IRC-log：https://github.com/a2n/tcffm/ | 論壇：http://tcffm.twgogo.org/
+01:16 -!- Topic set by haroldwu [~haroldwu@unaffiliated/haroldwu] [Thu Dec 26 21:47:38 2013]
+01:16 [Users #tcffm]
+01:16 [ a2n  ] [ erhandsome] [ Luxun     ] [ OtomeSound] 
+01:16 [ darkx] [ guildwar  ] [ op_logbot_] 
+01:16 -!- Irssi: #tcffm: Total of 7 nicks [0 ops, 0 halfops, 0 voices, 7 normal]
