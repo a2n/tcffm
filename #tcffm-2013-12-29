@@ -16,3 +16,4 @@
 14:08 < guildwar> 發現一個問題，在 midori 播放了第一個影片後，再播第二個時，頁面上是第二個影片，但影片卻是第一個 XD，解決方法，將影片開在新分頁即可
 14:21 < guildwar> 做法大致如下:  http://pastie.org/8584334
 14:53 < guildwar> 呵呵，試了 hackpad，還不錯用耶，滿新奇的，剛編完頁面找不到儲存按鈕，才突然想到不用按儲存 :)
+14:53 < guildwar> https://tcffm.hackpad.com/Play-html5-video-with-midori-on-raspberrypi-pjRl34okyXg
