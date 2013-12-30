@@ -12,3 +12,4 @@
 00:28 < guildwar> 因為是放在桌子前端，才不會拍到人
 00:30 < guildwar> 真的手機沒法用 ipad，不行才考慮 notebook
 00:30 < hmchen> 要注意 codec, 如果 soc 沒有支援 h/w h.264 encode , 解析度可能拉不上去
+00:30 < hmchen> 或者電池很快會耗盡
