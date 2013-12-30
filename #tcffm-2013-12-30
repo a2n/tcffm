@@ -81,3 +81,4 @@
 18:06 < guildwar> 可以啊，你高興用哪個就用哪個
 18:06 < guildwar> firefox -P profile_name
 18:06 < guildwar> 或裝 profile manager 來切換
+18:07 < guildwar> 理論上有二個 profile 以上時，啟動 firefox 會出現 profile 選擇視窗
