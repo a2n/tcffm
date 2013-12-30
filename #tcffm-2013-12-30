@@ -79,3 +79,4 @@
 17:55 <@haroldwu> 我試過更新arch，可以下載速度可達 2MB/s
 18:06 <@haroldwu> firefox 成功，不過原本的profile 就不能跑了不是嗎 QQ 不能兩個實體真悲劇
 18:06 < guildwar> 可以啊，你高興用哪個就用哪個
+18:06 < guildwar> firefox -P profile_name
