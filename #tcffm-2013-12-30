@@ -45,3 +45,4 @@
 13:51 < guildwar> 放在 /usr/lib 的話，都會讀到
 13:54 < haroldwu> 你是怎麼裝的？
 13:54 < haroldwu> 自己下載、解壓縮？
+13:55 < guildwar> 對啊，下載 .tgz 解開 libflashplayer.so 就好
