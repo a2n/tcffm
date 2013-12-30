@@ -42,3 +42,4 @@
 13:50 < haroldwu> 什麼意思？
 13:51 < haroldwu> 其中一個 profile 不讓他載入這個 plugin 的意思嗎XD
 13:51 < guildwar> 對，因為我的 flash plugin 是放在 ~/.mozilla 中，所以可以
+13:51 < guildwar> 放在 /usr/lib 的話，都會讀到
