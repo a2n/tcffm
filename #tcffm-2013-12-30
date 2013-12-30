@@ -240,3 +240,4 @@
 22:24 < hmchen> 頻寬問題應該是我帶的 axis 低照度時, bitrate 壓不下來, ustream 官方的說法, android app 大約是 300~ 500kbps 跳動
 22:25 < hmchen> 根據會面內容而定
 22:25 < hmchen> 如果是白天, pi camera 640x360, 256kbps 畫質就蠻不錯的了
+22:26 < maxwux> 其實我也覺得真人互動是必要的，我也喜歡現場的氣氛
