@@ -13,3 +13,4 @@
 00:30 < guildwar> 真的手機沒法用 ipad，不行才考慮 notebook
 00:30 < hmchen> 要注意 codec, 如果 soc 沒有支援 h/w h.264 encode , 解析度可能拉不上去
 00:30 < hmchen> 或者電池很快會耗盡
+00:31 < guildwar> 了解，所以先試看看了，手機會插著 usb
