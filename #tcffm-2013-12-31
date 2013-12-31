@@ -42,3 +42,4 @@
 22:07 <@haroldwu> 這樣不錯，我只要export http_proxy 就能在 wget 跟 curl 中用 proxy
 22:09 <@haroldwu> http://www.lulu.com/shop/rapha%C3%ABl-hertzog-and-roland-mas/the-debian-administrators-handbook-debian-wheezy-from-discovery-to-mastery/paperback/product-21368852.html
 22:09 <@haroldwu> The Debian Book，要價 50 美金 orz
+22:09 < guildwar> 對啊，這方法好用，debian 也是如此用
