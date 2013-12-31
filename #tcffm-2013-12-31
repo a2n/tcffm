@@ -28,3 +28,4 @@
 20:46 <@haroldwu> 研究讓 pacman 走 proxy
 20:47 <@haroldwu> 網路給的是先啓用 pacman + wegt (改 /etc/pacman.conf)
 20:47 <@haroldwu> 然後再從wgetrc去設Proxy
+20:47 <@haroldwu> 可是因爲 pacman 是 sudo 權限，似乎不吃user的環境變數，必須寫在 /etc/wgetrc
