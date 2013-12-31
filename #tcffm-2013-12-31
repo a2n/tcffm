@@ -27,3 +27,4 @@
 20:44 <@haroldwu> (預祝
 20:46 <@haroldwu> 研究讓 pacman 走 proxy
 20:47 <@haroldwu> 網路給的是先啓用 pacman + wegt (改 /etc/pacman.conf)
+20:47 <@haroldwu> 然後再從wgetrc去設Proxy
