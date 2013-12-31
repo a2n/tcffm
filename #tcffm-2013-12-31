@@ -35,3 +35,4 @@
 20:52 <@haroldwu> man pacman 沒寫
 20:53 < guildwar> sudo 有參數可以保留變數，我看看
 20:53 <@haroldwu> 噢！如果有的話，我就不用寫到wgetrc了
+20:54 < guildwar> -E, --preserve-env
