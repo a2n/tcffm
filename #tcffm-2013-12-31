@@ -37,3 +37,4 @@
 20:53 <@haroldwu> 噢！如果有的話，我就不用寫到wgetrc了
 20:54 < guildwar> -E, --preserve-env
 20:54 <@haroldwu> 我有寫兩個bash，一個 proxy.sh，一個 unproxy.sh 可以設定環境變數 http_proxy
+20:54 <@haroldwu> 好哦，來試試看
