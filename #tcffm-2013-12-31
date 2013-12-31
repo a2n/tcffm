@@ -31,3 +31,4 @@
 20:47 <@haroldwu> 可是因爲 pacman 是 sudo 權限，似乎不吃user的環境變數，必須寫在 /etc/wgetrc
 20:48 <@haroldwu> 有什麼改善方法嗎？
 20:48 < guildwar> 這麼複雜喔，我以為改個 pacman.conf 就搞定了耶，我看看
+20:52 <@haroldwu> pacman 沒有設proxy的功能
