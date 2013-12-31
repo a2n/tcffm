@@ -39,3 +39,4 @@
 20:54 <@haroldwu> 我有寫兩個bash，一個 proxy.sh，一個 unproxy.sh 可以設定環境變數 http_proxy
 20:54 <@haroldwu> 好哦，來試試看
 22:07 <@haroldwu> 成功~！
+22:07 <@haroldwu> 這樣不錯，我只要export http_proxy 就能在 wget 跟 curl 中用 proxy
