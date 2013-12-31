@@ -33,3 +33,4 @@
 20:48 < guildwar> 這麼複雜喔，我以為改個 pacman.conf 就搞定了耶，我看看
 20:52 <@haroldwu> pacman 沒有設proxy的功能
 20:52 <@haroldwu> man pacman 沒寫
+20:53 < guildwar> sudo 有參數可以保留變數，我看看
