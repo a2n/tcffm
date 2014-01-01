@@ -60,3 +60,4 @@
 01:23 < guildwar> 竟然要將 gzip 移除，換上 gzip-rsyncable，那這個要考慮一下了
 01:24 <@haroldwu> 改下pkgbuild就好啦
 01:25 < guildwar> 不用，直接安裝會自動替換，是說有點擔心其他程式的相容問題
+01:29 < guildwar> 理論上應該要完全相容才行
