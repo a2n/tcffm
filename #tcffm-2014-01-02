@@ -15,3 +15,4 @@
 00:41 < ronmi> 以前smtp的s2s一般是plaintext transpot，國家要從中讀取也不是很難的事，現在的我不清楚有沒有加ssl或tls
 00:42 <@haroldwu> 如果雙方都用mutt類的東西讀，經過 gmail 應該還好？
 00:43 <@haroldwu> 還是GnuPG 對NSA來說家常便飯
+00:43 < ronmi> 沒吧，GPG雖然不是不可能破，但NSA應該不是從connection下手
