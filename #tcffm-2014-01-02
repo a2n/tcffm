@@ -71,3 +71,4 @@
 01:56 < brli> Warning: in_array() expects parameter 2 to be array, null given in openid_complete() (line 378 of /home/u739897258/public_html/forum/modules/openid/openid.module).
 01:56 < brli> OpenID 登入失敗
 01:56 < brli> 嘖嘖XD
+01:57 < guildwar> 我可以登入
