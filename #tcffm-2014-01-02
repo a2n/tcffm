@@ -13,3 +13,4 @@
 00:40 < ronmi> 他是說自架比較安全 但實際上，如果別人是從GMAIL寄來或是你寄到GMAIL去，那一樣沒用
 00:41 < guildwar> 當然，都自己架了，就不能再和 gmail 通，不然就白搭
 00:41 < ronmi> 以前smtp的s2s一般是plaintext transpot，國家要從中讀取也不是很難的事，現在的我不清楚有沒有加ssl或tls
+00:42 <@haroldwu> 如果雙方都用mutt類的東西讀，經過 gmail 應該還好？
