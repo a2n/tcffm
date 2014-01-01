@@ -67,3 +67,4 @@
 01:41 <@haroldwu> 中文噢，倒是還沒試:P
 01:44 <@haroldwu> 試了，我的可以
 01:45 <@haroldwu> 首頁大標題的部分會不至中
+01:56 < brli> Notice: Undefined variable: uris in openid_complete() (line 378 of /home/u739897258/public_html/forum/modules/openid/openid.module).
