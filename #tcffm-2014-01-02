@@ -17,3 +17,4 @@
 00:43 <@haroldwu> 還是GnuPG 對NSA來說家常便飯
 00:43 < ronmi> 沒吧，GPG雖然不是不可能破，但NSA應該不是從connection下手
 00:43 < guildwar> pgp 目前來說是安全的
+00:44 < ronmi> 要看你用多長的KEY 4096bit目前應該是沒辦法解 但是用2048以下就難講了
