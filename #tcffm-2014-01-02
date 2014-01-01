@@ -57,3 +57,4 @@
 01:08 <@haroldwu> 就在tcffm報告，可以考慮用這個工具
 01:08 <@haroldwu> 超讚
 01:19 < guildwar> 剛你給的連結看到 rsyncrypto，讚喔，來試試
+01:23 < guildwar> 竟然要將 gzip 移除，換上 gzip-rsyncable，那這個要考慮一下了
