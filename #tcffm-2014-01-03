@@ -64,3 +64,4 @@
 01:06 < guildwar> /var/spool/cron 中
 01:07 < guildwar> cat filename | crontab -
 01:08 <@haroldwu> 沒辦法耶，/var/spool/cron 沒有我的名字
+01:08 < guildwar> 那你用 crontab -l 有看到東東?
