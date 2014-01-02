@@ -101,3 +101,4 @@
 01:40 <@haroldwu> 不對也，是要這樣
 01:40 <@haroldwu> bash <(curl -s http://mywebsite.com/myscript.txt)
 01:42 < guildwar> ok
+01:49 < guildwar> http://pastie.org/8594020 大致上是如此，這時用 ssh 登入後，不會留下 log，但用 ps 或 netstat 還是看得到
