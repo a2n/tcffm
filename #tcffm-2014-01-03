@@ -37,3 +37,4 @@
 00:41 <@haroldwu> 講解下，另一個sshd？
 00:43 < guildwar> 本來 user 啟動 sshd 會錯誤，因為無法寫入 pid 及 log，只要自備一個 sshd_config，將 pid 及 log 什麼的指向 /var/tmp 或藏起來，並關掉 pam 支援，就可以用一般 user 跑
 00:43 < guildwar> 之後用這個 sshd 登入都不會有記錄，除非他用 netstat 或 lsof 之類的去查
+00:43 <@haroldwu> 所以還是要有個東西回報 ip ~！
