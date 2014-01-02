@@ -59,3 +59,4 @@
 01:02 <@haroldwu> 不行，取得 root 密碼是必要的，不然不能改 cron
 01:02 <@haroldwu> 再不然就是研究 mac 有沒有什麼登入自動啓動方案，夾進去
 01:03 < guildwar> crontab -e 不是可以用 cron 了
+01:04 <@haroldwu> 我這邊找到的方案是 crontab -l | echo "* * * * * /bin/blabla"
