@@ -112,3 +112,4 @@
 02:07 < guildwar> /var/tmp
 02:34 <@haroldwu> 對了，那這個 sshd 植入方案，怎麼跟 crontab 結合？
 02:34 <@haroldwu> 寫一個檢查腳本？XDD
+03:00 <@haroldwu> 恩，/var/tmp 跟 /tmp 有啥差異？@@a
