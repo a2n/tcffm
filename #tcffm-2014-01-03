@@ -61,3 +61,4 @@
 01:03 < guildwar> crontab -e 不是可以用 cron 了
 01:04 <@haroldwu> 我這邊找到的方案是 crontab -l | echo "* * * * * /bin/blabla"
 01:06 <@haroldwu> 欸對也，crontab -e 可以開耶，那這個會存在哪裏？
+01:06 < guildwar> /var/spool/cron 中
