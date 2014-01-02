@@ -68,3 +68,4 @@
 01:08 < guildwar> 先用 crontab -e 建一個
 01:09 <@haroldwu> 插入失敗咯，no crontab for haroldwu
 01:09 <@haroldwu> 噢
+01:09 < guildwar> echo "0 * * * * /bin/ls" | tee crontab -
