@@ -63,3 +63,4 @@
 01:06 <@haroldwu> 欸對也，crontab -e 可以開耶，那這個會存在哪裏？
 01:06 < guildwar> /var/spool/cron 中
 01:07 < guildwar> cat filename | crontab -
+01:08 <@haroldwu> 沒辦法耶，/var/spool/cron 沒有我的名字
