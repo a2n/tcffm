@@ -8,3 +8,4 @@
 00:25 <@haroldwu> http://yfwu.logdown.com/posts/171820-fantasy-invasion-of-mac-computer
 00:28 < brli> 最近的蚊子愈來愈猖狂了...都飛好慢
 00:29 < brli> haroldwu: 學校有限網路流量喔？
+00:29 <@haroldwu> 嘻嘻，漏洞很多，例如觀察到自己電腦突然多了個 .ssh/authorized_keys，或者有在檢查 /usr/bin 的人，或者把 port 22 關起來的人，或者乾脆把 sshd 不執行的人
