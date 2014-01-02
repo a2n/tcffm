@@ -85,3 +85,4 @@
 01:16 < guildwar> cat << EOF > $tempfile
 01:16 < guildwar> 0 * * * * /bin/ls
 01:16 < guildwar> EOF
+01:16 < guildwar> cat $tempfile | crontab -
