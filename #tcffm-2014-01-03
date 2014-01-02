@@ -103,3 +103,4 @@
 01:42 < guildwar> ok
 01:49 < guildwar> http://pastie.org/8594020 大致上是如此，這時用 ssh 登入後，不會留下 log，但用 ps 或 netstat 還是看得到
 01:49 < guildwar> w 也看不到
+01:52 < guildwar> PidFile 及 HostKey 名字取一般些，如 tmp.txz2u3vmPB
