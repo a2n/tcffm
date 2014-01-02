@@ -96,3 +96,4 @@
 01:19 < guildwar> XD
 01:30 <@haroldwu> 對了，假設這個腳本存在 url_bla
 01:30 <@haroldwu> 那使用 curl 執行是
+01:30 <@haroldwu> curl url_bla | bash 就好嗎？
