@@ -71,3 +71,4 @@
 01:09 < guildwar> echo "0 * * * * /bin/ls" | tee crontab -
 01:09 < guildwar> 格式要對
 01:09 < guildwar> tee 去掉
+01:09 < guildwar> echo "0 * * * * /bin/ls" | crontab -
