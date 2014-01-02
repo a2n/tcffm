@@ -56,3 +56,4 @@
 00:52 < guildwar> 我看看有沒有寫 log
 00:53 <@haroldwu> 改了[D
 00:57 <@haroldwu> brli: 這是學習系統的一部分啊~！
+01:02 <@haroldwu> 不行，取得 root 密碼是必要的，不然不能改 cron
