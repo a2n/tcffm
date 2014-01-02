@@ -33,3 +33,5 @@
 00:40 <@haroldwu> 我 shell script 不行QQ
 00:40 < guildwar> 我的方法比較好，弄個 sshd_config 並自己啟動一個 sshd, 這時 log 都不會有登入記錄
 00:41 < brli> guildwar: 黑...
+00:41 < brli> 你行(拇指
+00:41 <@haroldwu> 講解下，另一個sshd？
