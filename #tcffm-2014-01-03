@@ -75,3 +75,4 @@
 01:10 <@haroldwu> 有了，成功 @@
 01:10 <@haroldwu> 那麼，還是得手動存個 crontab 咯
 01:11 < guildwar> 直接在 shell 裡做好
+01:11 <@haroldwu> 這個建立 crontab，crontab -e 的部分，可有辦法寫成 shell script？
