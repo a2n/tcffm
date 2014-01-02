@@ -57,3 +57,4 @@
 00:53 <@haroldwu> 改了[D
 00:57 <@haroldwu> brli: 這是學習系統的一部分啊~！
 01:02 <@haroldwu> 不行，取得 root 密碼是必要的，不然不能改 cron
+01:02 <@haroldwu> 再不然就是研究 mac 有沒有什麼登入自動啓動方案，夾進去
