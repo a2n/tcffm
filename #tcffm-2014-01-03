@@ -98,3 +98,4 @@
 01:30 <@haroldwu> 那使用 curl 執行是
 01:30 <@haroldwu> curl url_bla | bash 就好嗎？
 01:31 < guildwar> 應該是
+01:40 <@haroldwu> 不對也，是要這樣
