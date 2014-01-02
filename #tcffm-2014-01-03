@@ -110,3 +110,4 @@
 01:56 <@haroldwu> 好黑QQ
 02:00 < brli> 可是/tmp的東西會因為系統機制自己清掉要注意
 02:07 < guildwar> /var/tmp
+02:34 <@haroldwu> 對了，那這個 sshd 植入方案，怎麼跟 crontab 結合？
