@@ -77,3 +77,4 @@
 01:11 < guildwar> 直接在 shell 裡做好
 01:11 <@haroldwu> 這個建立 crontab，crontab -e 的部分，可有辦法寫成 shell script？
 01:11 <@haroldwu> 看看 man
+01:11 < guildwar> cat << EOF
