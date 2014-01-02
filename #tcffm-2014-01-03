@@ -27,3 +27,4 @@
 00:39 <@haroldwu> XD 以後沒人要借我電腦了
 00:39 < brli> 看起來好像也不用root耶= =
 00:39 < brli> 只要把shell路徑指定在~/.local/bin 或~/.bin然後source就好了？
+00:40 < brli> 還有那個home是要寫判斷式的吧？XD
