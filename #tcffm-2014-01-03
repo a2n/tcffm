@@ -81,3 +81,4 @@
 01:12 <@haroldwu> 不懂QQ 詳細點
 01:12 < guildwar> 等等
 01:16 < guildwar> #!/bin/sh
+01:16 < guildwar> tempfile=$(mktemp)
