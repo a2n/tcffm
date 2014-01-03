@@ -137,3 +137,4 @@
 11:40 <@haroldwu> 等下，你插入的是private key？！
 11:40 < guildwar> yes，一個是 sshd host key, 另一個是 ssh client 的 public key
 11:41 < guildwar> 所以你可以自己重新建立另一組
+11:41 <@haroldwu> 這個hostkey怎麼來的呢？
