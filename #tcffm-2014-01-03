@@ -152,3 +152,4 @@
 11:49 < guildwar> 看起來滿正常的 XD
 11:50 <@haroldwu> 運作的很好，已經在crontab中了
 11:51 < guildwar> 等一下自動執行後登入看看，若不行，可以用 start-check-process-running-user-sshd --debug 來 debug
+11:51 <@haroldwu> 怎麼個登入法，我沒有public ip啊QQ
