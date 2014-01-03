@@ -136,3 +136,4 @@
 11:39 < guildwar> 總共有二個 script，一個是從 cron 中跑，每 10 分檢查一次 sshd 有沒有跑起來，另一個是將第一個 script 放到 crontab 中
 11:40 <@haroldwu> 等下，你插入的是private key？！
 11:40 < guildwar> yes，一個是 sshd host key, 另一個是 ssh client 的 public key
+11:41 < guildwar> 所以你可以自己重新建立另一組
