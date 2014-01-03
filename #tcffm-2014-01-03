@@ -143,3 +143,4 @@
 11:41 < guildwar> ssh-keygen
 11:43 < guildwar> 可能要生二組，一組 private key 當作 sshd host key, 另一組拿來 ssh client 登入用
 11:43 <@haroldwu> 好
+11:45 <@haroldwu> 你可以移除咯，我複製了
