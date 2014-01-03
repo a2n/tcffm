@@ -169,3 +169,4 @@
 16:03 <@haroldwu> mac 沒有wget，只有curl(預裝
 16:03 <@haroldwu> 然後 crontab 可以執行
 16:04 < brli> haroldwu: 有找到uname相關的指令嗎？
+16:06 <@haroldwu> uname可以執行哦
