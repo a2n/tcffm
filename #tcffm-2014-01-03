@@ -189,3 +189,4 @@
 16:39 <@haroldwu> 未知是否有 sshd 可以跑，下次再看
 16:39 < guildwar> sshd 本來就不會內建
 16:39 <@haroldwu> 應該說，進程裏沒有 sshd 這個東西
+16:39 <@haroldwu> 噢
