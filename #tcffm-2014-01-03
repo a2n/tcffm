@@ -156,3 +156,4 @@
 11:52 < guildwar> 當然要先自己產生好 key，將 start-check-process-running-user-sshd 裡的 private key 及 public key 換成自己的
 11:53 <@haroldwu> 好
 11:57 <@haroldwu> 欸，那個亂碼的部分，能自己生成嗎？
+11:57 <@haroldwu> tmp.blablabla
