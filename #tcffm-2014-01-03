@@ -115,3 +115,4 @@
 03:00 <@haroldwu> 恩，/var/tmp 跟 /tmp 有啥差異？@@a
 03:01 <@haroldwu> guildwar: 我知道，腳本有一個部分就是插入 public key
 03:01 <@haroldwu> 如果使用者會去檢查 authorized_keys 就沒效了XD
+09:56 < hmchen> 囧... 重裝 debian 後 lxde 選單不見了
