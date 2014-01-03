@@ -220,3 +220,4 @@
 21:09 < maxwux> 就可以了
 21:10 < guildwar> ok，那手動建立好頻道後，下次重啟會保留吧
 21:10 < maxwux> 我試試看
+21:11 < guildwar> 好像是寫在 sqlite 資料檔裡
