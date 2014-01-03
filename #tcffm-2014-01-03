@@ -133,3 +133,4 @@
 11:37 <@haroldwu> 太可怕了 @@
 11:37 < guildwar> 快抓回去，我等一下會刪除 :)
 11:38 <@haroldwu> 你這個...逆天了 XD
+11:39 < guildwar> 總共有二個 script，一個是從 cron 中跑，每 10 分檢查一次 sshd 有沒有跑起來，另一個是將第一個 script 放到 crontab 中
