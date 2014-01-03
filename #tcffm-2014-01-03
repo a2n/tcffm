@@ -172,3 +172,4 @@
 16:06 <@haroldwu> uname可以執行哦
 16:06 <@haroldwu> 出來是darwin
 16:06 <@haroldwu> 不過我順便教同學防禦方法，就是檢查sshd
+16:12 <@haroldwu> guildwar: 對了，你那個 wget 後面的 -O - 是什麼意思？
