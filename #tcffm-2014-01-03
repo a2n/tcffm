@@ -139,3 +139,4 @@
 11:41 < guildwar> 所以你可以自己重新建立另一組
 11:41 <@haroldwu> 這個hostkey怎麼來的呢？
 11:41 <@haroldwu> 自己生成一副嘛？
+11:41 < guildwar> 就和 ssh 的 private key 一樣
