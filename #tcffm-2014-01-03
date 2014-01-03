@@ -188,3 +188,4 @@
 16:39 <@haroldwu> 不過我看了看，同學的 mac 本來就沒有 sshd 了
 16:39 <@haroldwu> 未知是否有 sshd 可以跑，下次再看
 16:39 < guildwar> sshd 本來就不會內建
+16:39 <@haroldwu> 應該說，進程裏沒有 sshd 這個東西
