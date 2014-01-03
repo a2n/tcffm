@@ -186,3 +186,4 @@
 16:37 <@haroldwu> see
 16:38 <@haroldwu> curl 不會哦，另外就是 wget 不是內建的東西（mac上
 16:39 <@haroldwu> 不過我看了看，同學的 mac 本來就沒有 sshd 了
+16:39 <@haroldwu> 未知是否有 sshd 可以跑，下次再看
