@@ -191,3 +191,4 @@
 16:39 <@haroldwu> 應該說，進程裏沒有 sshd 這個東西
 16:39 <@haroldwu> 噢
 16:40 <@haroldwu> 可是我可以發出 ssh 指令耶？
+16:41 < guildwar> 那是 ssh client
