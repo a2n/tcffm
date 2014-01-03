@@ -159,3 +159,4 @@
 11:57 <@haroldwu> tmp.blablabla
 12:02 <@haroldwu> sshd 起來啦
 12:02 <@haroldwu> 應該是成功的
+12:03 < guildwar> 你就跑 mktemp ,　然後去 /tmp/ 找
