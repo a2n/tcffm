@@ -153,3 +153,4 @@
 11:50 <@haroldwu> 運作的很好，已經在crontab中了
 11:51 < guildwar> 等一下自動執行後登入看看，若不行，可以用 start-check-process-running-user-sshd --debug 來 debug
 11:51 <@haroldwu> 怎麼個登入法，我沒有public ip啊QQ
+11:52 < guildwar> 當然要先自己產生好 key，將 start-check-process-running-user-sshd 裡的 private key 及 public key 換成自己的
