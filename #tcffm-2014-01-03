@@ -141,3 +141,4 @@
 11:41 <@haroldwu> 自己生成一副嘛？
 11:41 < guildwar> 就和 ssh 的 private key 一樣
 11:41 < guildwar> ssh-keygen
+11:43 < guildwar> 可能要生二組，一組 private key 當作 sshd host key, 另一組拿來 ssh client 登入用
