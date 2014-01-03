@@ -170,3 +170,4 @@
 16:03 <@haroldwu> 然後 crontab 可以執行
 16:04 < brli> haroldwu: 有找到uname相關的指令嗎？
 16:06 <@haroldwu> uname可以執行哦
+16:06 <@haroldwu> 出來是darwin
