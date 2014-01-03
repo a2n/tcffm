@@ -119,3 +119,4 @@
 10:16 < hmchen> deluser -> adduser 重來一次搞定
 10:36  * haroldwu 好標準一個砍掉重練的概念XD
 11:10 < guildwar> haroldwu: sshd_config 中指定自己的 AuthorizedKeysFile
+11:14 <@haroldwu> 哇靠，還有這招XD
