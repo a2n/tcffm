@@ -123,3 +123,4 @@
 11:14  * haroldwu guildwar 黑黑黑....
 11:14 < guildwar> 結果後來測試，發現無法放在 /tmp 及 /var/tmp 因為這二個目錄有設 sticky bit 的關係吧，所以還是藏在 ~/.config/ssh 或 .local/share/xxx 中比較好
 11:14 < guildwar> ~/.local/share/xxx
+11:15 <@haroldwu> ok
