@@ -161,3 +161,4 @@
 12:02 <@haroldwu> 應該是成功的
 12:03 < guildwar> 你就跑 mktemp ,　然後去 /tmp/ 找
 12:04 < guildwar> ok, script 裡直接做掉會比較好
+12:04 < guildwar> ./start-check-process-running-user-sshd stop 可將目前在背景跑的 sshd 砍掉
