@@ -178,3 +178,4 @@
 16:16 <@haroldwu> 還有防衛方法
 16:35 < guildwar> -O - 就是 wget 回來的東西輸出到 stdout 去
 16:36 <@haroldwu> ok
+16:36 < guildwar> 然後 sh 再從 stdin 收東西回來執行
