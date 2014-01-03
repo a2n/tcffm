@@ -171,3 +171,4 @@
 16:04 < brli> haroldwu: 有找到uname相關的指令嗎？
 16:06 <@haroldwu> uname可以執行哦
 16:06 <@haroldwu> 出來是darwin
+16:06 <@haroldwu> 不過我順便教同學防禦方法，就是檢查sshd
