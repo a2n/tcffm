@@ -192,3 +192,4 @@
 16:39 <@haroldwu> 噢
 16:40 <@haroldwu> 可是我可以發出 ssh 指令耶？
 16:41 < guildwar> 那是 ssh client
+16:41 < guildwar> sshd 是 ssh server
