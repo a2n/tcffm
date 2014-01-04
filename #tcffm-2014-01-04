@@ -73,3 +73,4 @@
 22:33 < guildwar> 直接來裝 unstable 的 mumble 看看能不能用
 22:35 < guildwar> 可以耶，先打開 unstable 裝好再關掉 XD
 22:36 < hmchen_> 好樣的
+22:36 < guildwar> 有要加什麼編譯參數嗎？ 若沒有，直接從 unstable 中抓 deb 裝就好
