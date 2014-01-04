@@ -55,3 +55,4 @@
 22:11 < guildwar> 不過這個 package 沒差，可以裝在 testing
 22:11 < guildwar> 直接抓 deb 裝起來
 22:14 < guildwar> 要抓四個 package，果然有點麻煩 :)
+22:22 < hmchen_> slice2cpp --checksum -I/usr/local/share/Ice -I/usr/share/Ice/slice -I/usr/share/slice -I/usr/share/Ice-3.4.1/slice/ -I/usr/share/Ice-3.3.1/slice/ -I/usr/share/Ice-3.4.2/slice/ Murmur.ice
