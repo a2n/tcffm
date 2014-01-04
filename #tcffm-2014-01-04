@@ -59,3 +59,4 @@
 22:22 < hmchen_> /home/hmchen/tmp/mumble-1.2.4/src/murmur/Murmur.ice:9: error: Can't open include file "Ice/SliceChecksumDict.ice"
 22:22 < hmchen_> 有點麻煩了
 22:23 < guildwar> 好慘
+22:24 < guildwar> 是用 debian 裡的 mumble source 還是　mumble 官方的？
