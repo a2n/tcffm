@@ -28,3 +28,4 @@
 20:32 < maxwux> 不錯不錯
 20:32 < guildwar> 對啊，滿實用的
 20:32 < guildwar> 我是看這篇 http://de.mcbf.net/david/guide-for-music-in-mumble-using-a-linux-server/
+20:34 < guildwar> 我沒有 mpd， icrt 是用 mplayer -ao pulse 去放，所以只建立一個　mumble_null sink，並將 mumble 中的 audio output 改成 mumble_null sink 而已
