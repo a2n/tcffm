@@ -62,3 +62,4 @@
 22:24 < guildwar> 是用 debian 裡的 mumble source 還是　mumble 官方的？
 22:25 < hmchen_> http://mumble.sourceforge.net/BuildingLinux
 22:25 < hmchen_> 應該也是 stable 跟 unstable 適用
+22:27 < guildwar> ok, 那直接用 unstable 的來編看看好了，我來試試
