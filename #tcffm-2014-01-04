@@ -32,3 +32,4 @@
 20:36 < guildwar> 另外，用 mumble -m 二次，可以開啟二個 mumble，一個 streaming，另一個用麥克風講話
 20:38 < guildwar> 可惜 mumble client 一定要 X，所以有人在 server 上開了 vnc server，然後再開 mumble client 來 24 小時 streaming audio.
 20:39 < maxwux> 不過我覺得你剛剛的音質還挺不好的耶
+20:39 < maxwux> 就像透過麥克風錄音進去的
