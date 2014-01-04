@@ -50,3 +50,4 @@
 22:07 < guildwar> ok, 看來被移除了
 22:07 < guildwar> 那搞不好直接拿 unstable 的來裝也可以 :)
 22:09 < guildwar> 奇怪，剛移除的樣子，用 apt-file 還可以找得到
+22:09 < guildwar> ok, 我不知道什麼時候加了 unstable 的 source list ＸＤ
