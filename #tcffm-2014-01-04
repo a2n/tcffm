@@ -58,3 +58,4 @@
 22:22 < hmchen_> slice2cpp --checksum -I/usr/local/share/Ice -I/usr/share/Ice/slice -I/usr/share/slice -I/usr/share/Ice-3.4.1/slice/ -I/usr/share/Ice-3.3.1/slice/ -I/usr/share/Ice-3.4.2/slice/ Murmur.ice
 22:22 < hmchen_> /home/hmchen/tmp/mumble-1.2.4/src/murmur/Murmur.ice:9: error: Can't open include file "Ice/SliceChecksumDict.ice"
 22:22 < hmchen_> 有點麻煩了
+22:23 < guildwar> 好慘
