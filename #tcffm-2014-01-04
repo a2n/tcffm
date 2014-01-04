@@ -53,3 +53,4 @@
 22:09 < guildwar> ok, 我不知道什麼時候加了 unstable 的 source list ＸＤ
 22:10 < hmchen_> 果然啊
 22:11 < guildwar> 不過這個 package 沒差，可以裝在 testing
+22:11 < guildwar> 直接抓 deb 裝起來
