@@ -39,3 +39,4 @@
 20:41 < guildwar> 若不用 pulse, 而改用 alsa 應該就 ok 吧，我來試試
 20:43 < guildwar> 不知道怎麼用 alsa streaming，來研究一下
 22:01 < hmchen_> debian 那種不便利的感覺又回來了, 試著要編譯 mumble, 結果找不到 slice2cpp 套件
+22:03 < guildwar> 在 ice34-translators 或 icee-translators
