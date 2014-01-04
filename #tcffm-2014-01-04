@@ -36,3 +36,4 @@
 20:39 < maxwux> 不是串流
 20:40 < guildwar> 應該是 pulse audio 的問題，還要再研究
 20:40 < guildwar> 原本的 icrt　　mplayer -vo null -ao pulse -prefer-ipv4 -cache 500 -cache-min 99 http://bcr.media.hinet.net/RA000038
+20:41 < guildwar> 若不用 pulse, 而改用 alsa 應該就 ok 吧，我來試試
