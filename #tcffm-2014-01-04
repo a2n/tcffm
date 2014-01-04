@@ -30,3 +30,4 @@
 20:32 < guildwar> 我是看這篇 http://de.mcbf.net/david/guide-for-music-in-mumble-using-a-linux-server/
 20:34 < guildwar> 我沒有 mpd， icrt 是用 mplayer -ao pulse 去放，所以只建立一個　mumble_null sink，並將 mumble 中的 audio output 改成 mumble_null sink 而已
 20:36 < guildwar> 另外，用 mumble -m 二次，可以開啟二個 mumble，一個 streaming，另一個用麥克風講話
+20:38 < guildwar> 可惜 mumble client 一定要 X，所以有人在 server 上開了 vnc server，然後再開 mumble client 來 24 小時 streaming audio.
