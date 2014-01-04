@@ -66,3 +66,4 @@
 22:28 < guildwar> 你是要 mumble client 吧
 22:30 < guildwar> 哇，好慘，一堆 -dev 的 package 也都沒了
 22:31 < hmchen_> yes
+22:31 < hmchen_> 加 backports 有救?
