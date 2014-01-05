@@ -54,3 +54,4 @@
 16:20 < darkx> wow cool!
 20:26 <@haroldwu> guildwar: 我想到了，沒有sshd也沒關係....
 20:26 <@haroldwu> http://pentestmonkey.net/cheat-sheet/shells/reverse-shell-cheat-sheet (好邪惡）
+20:27 <@haroldwu> 不過，還需要有一個第三方轉接器，因爲我沒 public ip。考完來寫個轉接的程式扔在 openshift 上
