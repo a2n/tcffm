@@ -5,3 +5,4 @@
 13:06 < darkx> 就我自己的經驗，kernel 本身直接一直升上去的話沒出過問題
 13:06 < darkx> 有的話都是 dkms 額外掛的東西出包
 13:06 < guildwar> 了解，有用 lvm
+13:07 < darkx> mkinitcpio.conf 裏面有 hook 他嘛?
