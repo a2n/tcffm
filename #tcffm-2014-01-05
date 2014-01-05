@@ -3,3 +3,4 @@
 13:01 < guildwar> darkx: 驅動什麼，音效卡？使用用建 snd_hda_intel
 13:06 < darkx> 我的意思是，有動到額外的東西
 13:06 < darkx> 就我自己的經驗，kernel 本身直接一直升上去的話沒出過問題
+13:06 < darkx> 有的話都是 dkms 額外掛的東西出包
