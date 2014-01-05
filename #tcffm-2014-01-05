@@ -15,3 +15,4 @@
 13:11 < darkx> 對，就是我的意思是 開機的時候沒有去找 root=/dev/volum
 13:12 < darkx> * root=/dev/mapper/vg-lv
 13:12 < darkx> 之類的東西
+13:12 < guildwar> grub 是我手動維護的，沒什麼問題
