@@ -6,3 +6,4 @@
 13:06 < darkx> 有的話都是 dkms 額外掛的東西出包
 13:06 < guildwar> 了解，有用 lvm
 13:07 < darkx> mkinitcpio.conf 裏面有 hook 他嘛?
+13:09 < darkx> https://wiki.archlinux.org/index.php/LVM#Add_lvm_hook_to_mkinitcpio.conf
