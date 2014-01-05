@@ -13,3 +13,4 @@
 13:11 < darkx> 我印象中某些時候 update grub 的時候會不小心把這個選項幹掉然後就 load 不到 lvm
 13:11 < guildwar> 開不起來的狀況，我看訊息是沒抓到硬碟，不知道 sata 的硬碟有沒有像 usb 一樣的 boot delay 參數之類的
 13:11 < darkx> 對，就是我的意思是 開機的時候沒有去找 root=/dev/volum
+13:12 < darkx> * root=/dev/mapper/vg-lv
