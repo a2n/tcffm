@@ -60,3 +60,4 @@
 20:30 < guildwar> 看起來用 python 最方便了，幾乎都會裝，不然依我來說，用 nc 最方便
 20:30 <@haroldwu> 沒，我可能用 python 來寫
 20:30 <@haroldwu> perl 應該才是都會裝的？
+20:30 <@haroldwu> arch 的 meta 包 base 裏面就有 perl，但是沒 python
