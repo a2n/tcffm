@@ -9,3 +9,4 @@
 13:09 < darkx> https://wiki.archlinux.org/index.php/LVM#Add_lvm_hook_to_mkinitcpio.conf
 13:09 < guildwar> HOOKS="base udev archlogo plymouth autodetect modconf block lvm2 resume filesystems keyboard fsck"
 13:10 < darkx> 對，那應該沒問題
+13:10 < darkx> kernel option 有加上 dolvm 嘛?
