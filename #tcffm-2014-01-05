@@ -35,3 +35,4 @@
 13:22 < darkx> guildwar: 一般說來，有 dependency 的才有影響，不過這個 pacman 照理說會幫你處理好好的
 13:22 < darkx> 我自己的升級頻率大約是 1/week
 13:23 < guildwar> 我是只要有裝 package 前就一定升級，官方說只支援這種 :)
+13:24 < darkx> 不過是有什麼需求需要每天都裝新的 package 阿
