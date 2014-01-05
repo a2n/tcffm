@@ -63,3 +63,4 @@
 20:30 <@haroldwu> arch 的 meta 包 base 裏面就有 perl，但是沒 python
 20:32 < guildwar> 但 mac 上會有 python ?
 20:32 < guildwar> debian 有 perl
+20:32 <@haroldwu> mac 上有 python 喔，不過我不確定版本
