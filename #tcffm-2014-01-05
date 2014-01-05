@@ -33,3 +33,4 @@
 13:21 < guildwar> 可是我有看，archlinux 要使用者在安裝 package 前都要做升級，因為我幾乎每天都有裝新的 package
 13:22 < darkx> 這篇教學寫的不錯，很多建議是很有幫助的
 13:22 < darkx> guildwar: 一般說來，有 dependency 的才有影響，不過這個 pacman 照理說會幫你處理好好的
+13:22 < darkx> 我自己的升級頻率大約是 1/week
