@@ -10,3 +10,4 @@
 13:09 < guildwar> HOOKS="base udev archlogo plymouth autodetect modconf block lvm2 resume filesystems keyboard fsck"
 13:10 < darkx> 對，那應該沒問題
 13:10 < darkx> kernel option 有加上 dolvm 嘛?
+13:11 < darkx> 我印象中某些時候 update grub 的時候會不小心把這個選項幹掉然後就 load 不到 lvm
