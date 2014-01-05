@@ -24,3 +24,4 @@
 13:15 < darkx> 這XDDDDD
 13:16 < darkx> 我自己沒有很多用 lvm ，手邊機器用 md 比較多
 13:16 < darkx> 不過一般常見的問題都是 initramfs 沒生好 (沒 hook) 、kernel option 和 root 找不到
+13:18 < guildwar> 在 archlinux 會多一個問題，就是升級，之前遇到好幾次，一次是全部 binary 搬到 /usr/bin 那次，就要用 debian 來修復
