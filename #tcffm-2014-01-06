@@ -1,3 +1,4 @@
 --- Log opened 一  1月 06 00:00:00 2014
 00:15 < hmchen> 顯然是用 mac 開發  mac applications
 09:48 <@haroldwu> 也是，xcode 綁 ios 版本，mac 綁 xcode 版本
+09:48 <@haroldwu> 所以要開發 ios7 ，一定要 Mountain lion 以上的版本才行的樣子
