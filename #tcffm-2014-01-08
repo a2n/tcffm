@@ -15,3 +15,4 @@
 10:19 < darkx> haroldwu: 我自己習慣是都丟 github 有私人信息的只在自己各機器的 .bashrc 內
 10:19 < darkx> 當然每次有更新的時候都要比較麻煩的自己 vimdiff merge 啦..
 10:20 < darkx> 但是要 deploy 到其他機器就方便很多，因為有一份是 public 可以直接看的裡面也沒有秘密
+10:36  * ronmi gitolite萬歲
