@@ -15,3 +15,4 @@
 13:37 < hmchen> 有人做 raspbian 版的 boot image, 但我猜 media acceleration driver 沒整進去, 也就是當成沒有多媒體功能的 RPi
 13:37 < guildwar> 這種版本有什麼作用?
 13:37 < hmchen> 翻桌... 早知道買 beaglebone black 還強大的多
+13:38 < hmchen> 就 very low end android 桌機
