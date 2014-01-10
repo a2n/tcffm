@@ -13,3 +13,4 @@
 13:34 < hmchen> 沒啥搞頭 蠻失望的 =.=
 13:36 < guildwar> 看了一下，GPU 是整合的，效能應該不好
 13:37 < hmchen> 有人做 raspbian 版的 boot image, 但我猜 media acceleration driver 沒整進去, 也就是當成沒有多媒體功能的 RPi
+13:37 < guildwar> 這種版本有什麼作用?
