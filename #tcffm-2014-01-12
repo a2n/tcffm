@@ -6,3 +6,4 @@
 19:48 -!- ServerMode/#tcffm [+o haroldwu] by asimov.freenode.net
 22:54 < guildwar> 有點進展，在建立自己 tune 過的 boot.img 時要額外下參數(用 file 檢查 boot.img 及 my-boot.img 時看到不同)
 22:54 < guildwar> mkbootimg --base 0x00200000 --kernel boot.img-kernel.gz --ramdisk initramfs.cpio.gz --cmdline "androidboot.hardware=qcom loglevel=1" --pagesize 4096 -o boot.img
+--- Log closed 一  1月 13 00:00:10 2014
