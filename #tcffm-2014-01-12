@@ -2,3 +2,4 @@
 13:59 < guildwar> https://www.youtube.com/watch?v=Q5okb9Vc8SY    以後玩遊戲不能罵髒話了 XD
 14:20 < guildwar> 最近發現有人將 android 手機改成先從外接 sdcard 上的 debian 開機，接著再將控制權交給 chroot 底下的 android，這個方法看起來實在太棒了，因為是先開進 debian，所以在 debian 中可以啟動一些 daemon，如 openssh server，有的沒的，可是在照著文章中的方法做了之後，卡在中間，不知道有沒有人試過?
 14:20 < guildwar> http://whiteboard.ping.se/Android/Debian
+14:27 < guildwar> 開機開到 debian 中的 /etc/init.stage2 時，在 log 中顯示完 "Waiting on Android to mount /dev" 後，就永遠卡在迴圈中，不會再繼續下去
