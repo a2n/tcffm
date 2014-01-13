@@ -35,3 +35,4 @@
 19:20 < hmchen> 我還是用鍵盤好了, mumble 就聽就好
 19:21 < guildwar> ok
 19:22 < hmchen> http://www.geforce.com.tw/hardware/technology/adaptive-vsync/technology
+19:23 < hmchen> 垂直同步鎖定, 會限制 3D 效能到 60fps, 因為通常 LCD 沒辦法超過該更新速率, 二來可以避免刷新畫面的破圖
