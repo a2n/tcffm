@@ -101,3 +101,4 @@
 20:22 < darkx> command & control
 20:27 < s8321414> 每個月第二個禮拜二
 20:37 < darkx> grub-mkconfig
+20:38 < darkx> 基本上就 initramfs 和 kernel 找到就 ok 惹 @@
