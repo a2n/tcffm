@@ -43,3 +43,4 @@
 19:29 < hmchen>  會破圖
 19:30 < hmchen> http://www.tweakguides.com/Graphics_9.html
 19:30 < hmchen> 這邊有範例
+19:31 < hmchen> 通常是 vsync 鎖定成螢幕更新率同步
