@@ -1,2 +1,3 @@
 --- Log opened 一  1月 13 00:00:10 2014
 00:05 < guildwar> oh，yes，成功啟動 debian 的 openssh server :)
+15:35 < guildwar> http://packages.debian.org/search?keywords=docker.io    docker.io 進入 debian sid 了
