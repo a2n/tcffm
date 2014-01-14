@@ -25,3 +25,4 @@
 13:44 < hmchen> XD
 15:30 < guildwar> 發現 arch 裡的 fdisk 可以直接操作 GPT，而 debian 裡的不行
 16:16 < hmchen> http://www.raspberrypi.org/archives/5672
+16:17 < hmchen> Pi Camera 有 Python 的 binding 了
