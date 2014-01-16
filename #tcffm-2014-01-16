@@ -88,3 +88,4 @@
 23:45 < guildwar> 還是直接用舊的 15吋淘汰的 LCD 就好 :)
 23:47 < hmchen_> 如果要做到 demo 影片中, 自帶電池+cam+LCD+wifi, 尺寸跟電源就很重要
 23:47 < guildwar> 了解
+23:48 < hmchen_> 之前做過一個類似的案子, 用別家的 soc, 但改成 usb 3G 網卡, 變成手持行動 ip camera
