@@ -79,3 +79,5 @@
 22:24 < guildwar> ok, 了解
 23:41 < hmchen_> http://learn.adafruit.com/adafruit-pitft-28-inch-resistive-touchscreen-display-raspberry-pi/overview
 23:41 < hmchen_> 有 Pi 用的 320x240 LCD
+23:43 < guildwar> 看起來不錯耶，不知道要多少錢 :)
+23:43 < hmchen_> 略貴, 走 SPI 介面所以畫面更新率應該不高, 但畫質比類比的好很多
