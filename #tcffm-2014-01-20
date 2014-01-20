@@ -4,3 +4,4 @@
 20:53 < guildwar> :)
 23:19 < haroldwu> 遇到超奇怪的事
 23:19 < haroldwu> usb_modeswitch 似乎變化不了模式
+23:20 < haroldwu> 搞得我 wvdial 找不到 /dev/ttyUSB0
