@@ -6,3 +6,4 @@
 23:19 < haroldwu> usb_modeswitch 似乎變化不了模式
 23:20 < haroldwu> 搞得我 wvdial 找不到 /dev/ttyUSB0
 23:20 < haroldwu> 不過先進 windows 上網成功後在回來就可以了
+23:20 < haroldwu> 兩種狀況下，lsusb 出來的結果不太一樣
