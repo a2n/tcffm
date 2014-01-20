@@ -1,3 +1,4 @@
 --- Log opened 二  1月 21 00:00:21 2014
 00:05 < petercommand> 應該是driver有bug?
 00:09 < hmchen> 也不是, 遇過要先 mount usb cdrom, 然後再 umount 的網卡
+00:09 < hmchen> 然後過幾秒鐘 ttyUSB0 才會出現
