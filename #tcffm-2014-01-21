@@ -5,3 +5,4 @@
 00:11 < hmchen> windows 版的 driver 會先幫你切換好工作模式,  3g dongle 只要不斷電是不會從 modem 模式切回 cdrom 模式的
 00:13 < hmchen> https://wiki.debian.org/Huawei/E220
 00:13 < hmchen> 這邊有華為 E220 的實例, 我當時就用這隻, usb_modswitch 無效
+00:14 < hmchen> 先 modprobe usb-storage, 然後 rmmod , 再 modprobe usb-serial
