@@ -7,3 +7,4 @@
 23:20 < haroldwu> 搞得我 wvdial 找不到 /dev/ttyUSB0
 23:20 < haroldwu> 不過先進 windows 上網成功後在回來就可以了
 23:20 < haroldwu> 兩種狀況下，lsusb 出來的結果不太一樣
+23:21 < haroldwu> 什麼都不做的話，ID 12d1:1446
