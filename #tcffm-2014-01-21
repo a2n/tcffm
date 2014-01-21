@@ -37,3 +37,4 @@
 16:41 < hmchen> 如果是常用文件就比較妙了
 16:44 < guildwar> 看了一下，支援很多外掛，也可以支援直接打 hostname 而 ssh 過去 :)
 16:45 < guildwar> 所以也會去讀 ~/.ssh/config 中的資料
+16:55 < ronmi> 他是吃Zeitgeist 所以用gnome的話預設狀況能找到的更多，也能把常用的放到第一個
