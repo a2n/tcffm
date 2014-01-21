@@ -6,3 +6,4 @@
 00:13 < hmchen> https://wiki.debian.org/Huawei/E220
 00:13 < hmchen> 這邊有華為 E220 的實例, 我當時就用這隻, usb_modswitch 無效
 00:14 < hmchen> 先 modprobe usb-storage, 然後 rmmod , 再 modprobe usb-serial
+10:32 < haroldwu> 好哦，來試試看
