@@ -29,3 +29,4 @@
 16:28 < hmchen> synapse 只列出單一候選程式/文件
 16:29 < hmchen> 例如我輸入 'gc' , 只會顯示 gcin , 但我想要找的是 gcal
 16:30 < hmchen> unity 的 hud 就會列出前幾個最接近候選者
+16:33 < hmchen> 有了, 要按 page down 列出其他候選者
