@@ -35,3 +35,4 @@
 16:41 < hmchen> 我換成 shift-space, 沒在用全形空白
 16:41 < hmchen> 對 applications 搜尋, 有無 index 應該只是效率問題
 16:41 < hmchen> 如果是常用文件就比較妙了
+16:44 < guildwar> 看了一下，支援很多外掛，也可以支援直接打 hostname 而 ssh 過去 :)
