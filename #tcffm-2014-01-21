@@ -16,3 +16,4 @@
 15:45 < hmchen> lxde 很快, 不想換
 15:47 < hmchen> 不過 lxde 的延伸桌面有點麻煩, 預設是 mirror , 得手動下 xrandr
 15:54 < guildwar> 沒用過 hud，在 ubuntu 的 hud 是什麼，unity 嗎?
+16:12 < hmchen> hud (head up display) 是 unity 專用的工具, 就打幾個字他會幫你列出符合的 applications
