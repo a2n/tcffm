@@ -8,3 +8,4 @@
 00:14 < hmchen> 先 modprobe usb-storage, 然後 rmmod , 再 modprobe usb-serial
 10:32 < haroldwu> 好哦，來試試看
 10:32 < haroldwu> http://www.makezine.com.tw/1/post/2014/01/intel-edisonsd.html
+10:32 < haroldwu> 然後把這個SD小電腦插在pi上 ==> 獲得雙核心的 pi
