@@ -36,3 +36,4 @@
 15:08 < guildwar> ok, 所以難怪這台是用 uclinux
 15:08 < hmchen> 最直接的說法就是, blackfin 不支援 swap 功能, 記憶體管理也比較危險
 15:09 < guildwar> 了解
+15:09 < hmchen> 論計算能力是真的嚇嚇叫, 用純軟體就可以做 h.264 720x480 30 frames/sec
