@@ -67,3 +67,4 @@
 15:48 < guildwar> ok，沒問題，因我不寫 code，所以沒什麼用到 :)
 15:49 < codyliu> guildwar:  公司是先有 perforce ，但是一些比較潮的team因為這幾年git很熱門，所以也開始用git開發。但是公司管build的部門只接受從perforce出build。 所以才會有兩套~
 15:49 < guildwar> 原來如此，了解
+15:50 < guildwar> 那跟 gitlab.org 有關係嗎?
