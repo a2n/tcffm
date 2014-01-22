@@ -41,3 +41,4 @@
 15:11 < hmchen> 當年算很強大, 但沒 mmu 這件事真的是很大條, 以前遇過要把 gspca (mjpeg webcam) 移植到 arm7 (一樣沒mmu) 就踢到鐵板了
 15:11 < codyliu> 各位前輩~應該都是在台中工作吧？
 15:11 < guildwar> codylin: 歡迎啊，改天有聚會時，有空就過來參加啊
+15:12 < codyliu> guildwar: 沒問題 :)
