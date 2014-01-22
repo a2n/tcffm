@@ -35,3 +35,4 @@
 15:07 < hmchen> blackfin 當 dsp 被 TI C6000 打趴, 作 application processor 又缺 MMU, 只能跑 uclinux 架構
 15:08 < guildwar> ok, 所以難怪這台是用 uclinux
 15:08 < hmchen> 最直接的說法就是, blackfin 不支援 swap 功能, 記憶體管理也比較危險
+15:09 < guildwar> 了解
