@@ -61,3 +61,4 @@
 15:43 < codyliu> 但是要出build 還是從 perforce 出。
 15:44 < codyliu> 平常開發用git，等要出build的時侯再推到perforce裡.
 15:44 < guildwar> 沒有比較多耶，因為沒有統計過，有人喜歡 KDE，有人用 LXDE，也有人只用 Window Manager
+15:45 < guildwar> 對 git 不是很熟，聽不懂 :)
