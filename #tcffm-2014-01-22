@@ -33,3 +33,4 @@
 15:06 < hmchen> 居然是用 ADI 的 blackfin
 15:07 < guildwar> 太專業了，完全聽不懂 :)
 15:07 < hmchen> blackfin 當 dsp 被 TI C6000 打趴, 作 application processor 又缺 MMU, 只能跑 uclinux 架構
+15:08 < guildwar> ok, 所以難怪這台是用 uclinux
