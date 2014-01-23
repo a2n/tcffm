@@ -77,3 +77,4 @@
 16:32 < ronmi> xp的pxe基本上和從遠端載入live cd開機的意思差不多 :P
 16:32 < petercommand> guildwar: 像是?
 16:32 < hmchen> 但用 pxe / tftp 傳一堆檔案 (micro kernel + driver)? 應該用第3方工具把這些檔案打包才能傳
+16:32 < guildwar> 好多年前玩的，忘光了啦 XDF
