@@ -75,3 +75,4 @@
 16:31 < hmchen> 用 pxe, tftp 把單一 linux 核心載入後, 帶入 nfsboot 參數就搞定了,
 16:31 < guildwar> 對，那個 windows image 應該要做些手腳
 16:32 < ronmi> xp的pxe基本上和從遠端載入live cd開機的意思差不多 :P
+16:32 < petercommand> guildwar: 像是?
