@@ -50,3 +50,4 @@
 16:19 < joewang> 底下就是無硬碟的電腦
 16:19 < joewang> 全部連過去
 16:19 < hmchen> winxp / win7 可以用 PXE 網路開機?
+16:19 < petercommand> network boot灌image再load
