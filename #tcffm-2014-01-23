@@ -52,3 +52,4 @@
 16:19 < hmchen> winxp / win7 可以用 PXE 網路開機?
 16:19 < petercommand> network boot灌image再load
 16:19 < hmchen> 我知道 linux cluster 可以這樣玩
+16:20 < petercommand> 應該可以啊
