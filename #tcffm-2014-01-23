@@ -79,3 +79,4 @@
 16:32 < hmchen> 但用 pxe / tftp 傳一堆檔案 (micro kernel + driver)? 應該用第3方工具把這些檔案打包才能傳
 16:32 < guildwar> 好多年前玩的，忘光了啦 XDF
 16:33 < guildwar> 好像是 aoe
+16:33 < guildwar> http://www.etherboot.org/wiki/sanboot/winnt_aoe
