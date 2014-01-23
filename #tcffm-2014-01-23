@@ -101,3 +101,4 @@
 22:05 < petercommand> pin tab是會全部載入 非pin tab則是選擇後才載入
 22:06 < petercommand> pin tab大約20個
 22:06 < petercommand> 其他都沒pin
+22:07 < guildwar> 是喔，那我以前測時可能出問題，因為我用 netstat 看，firefox 一開，就有一堆連線送出
