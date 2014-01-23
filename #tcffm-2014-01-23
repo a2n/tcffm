@@ -71,3 +71,4 @@
 16:25 < joewang> 恩恩
 16:25 < joewang> 對
 16:27 < guildwar> linux 的話就簡單，已經有 drbl server 可以無磁碟開機
+16:30 < hmchen> 我覺得 win32 沒有第3方軟體的情況下, 不可能支援 PXE 模式開機, winxp/win7 是 microkernel, 一堆 drivers 都是零散的小檔案
