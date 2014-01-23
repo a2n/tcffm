@@ -59,3 +59,7 @@
 16:22 < ronmi> 看來是可以 http://www.ccboot.com/pxe-boot-windows.htm 有產品代表有解法 /thumb
 16:22 < joewang> 有誰知道 HP thin client 大概多少
 16:23 < guildwar> drbl server 可以做到，但以前是用 windows xp，現在 windows 7 就不知道了
+16:23 < guildwar> client 電腦用 pxe 開機，從網路上透過 tftp 抓回 windows xp 的 image，然後開機
+16:23 < guildwar> 不過只能本地端
+16:23 < guildwar> 就是區網　
+16:23 < guildwar> 不過用 windows 就是麻煩啦，每一台要有不同的 key 什麼的，麻煩一堆，linux 就沒差
