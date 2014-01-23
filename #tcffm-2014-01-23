@@ -26,3 +26,4 @@
 16:13 < joewang> 就是用戶端打開就是一個系統
 16:14 < joewang> 但那個系統在server上
 16:14 < guildwar> 那用 x2go 滿適合的
+16:14 < joewang> 譬如說 如果有50個用戶 那server上就會有50個vm再跑
