@@ -1,0 +1,8 @@
+--- Log opened 六  1月 25 00:00:28 2014
+--- Day changed 六  1月 25 2014
+00:00 < brli> 恩
+00:00 < guildwar> 不然換個方式，如何將 machine-child01.scope 給移掉
+00:00 < brli> 15765?
+00:00 < brli> 不知道
+00:01 < brli> 我是在容器內下poweroff來關掉程序的
+00:01 < guildwar> 我也試過進去再 poweroff，結果一樣，開不了耶

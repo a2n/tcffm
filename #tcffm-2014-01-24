@@ -14,3 +14,34 @@
 20:36 < guildwar> https://thejollablog.wordpress.com/2014/01/22/watch-sailfish-os-ported-to-nexus-4/
 22:06 < guildwar> 剛看了一下， 27 日的 tcffm 聚會取消了，別到時候跑去沒看到半個人 XD
 22:07 < guildwar> 應該說是因為過年的關係，暫停一次
+22:34 < guildwar> 在 dotcloud (就是 docker.io 的公司)，看到有趣的文章
+22:34 < guildwar> 什麼是 kernel namespaces   http://blog.dotcloud.com/under-the-hood-linux-kernels-on-dotcloud-part
+22:35 < guildwar> 什麼是 cgroups    http://blog.dotcloud.com/kernel-secrets-from-the-paas-garage-part-24-c
+22:38 < guildwar> cgroups 之前在 tcffm 有介紹過，可參考 http://guildwar23.blogspot.tw/2013/01/linux-control-group.html
+23:35 < guildwar> brli: 上次你有提到 systemd-nspawn，這幾天玩了一下，發現一台機器只能跑一次，第二次就會 Failed to register machine: Input/output error，有遇過嗎?
+23:35 < brli> guildwar: 你是用哪種方法nspawn?systemctl service還是直接呼叫？
+23:36 < brli> 可以藉由對container命名來開啟複數個
+23:36 < brli> (前提是使用 -b 選項來「開機」而不是直接進入shell
+23:36 < guildwar> 啟動二種都試過， nspawn-start child01 或是 systemd-nspawn -bD child01
+23:37 < brli> 一個container本來就只能啟動一個
+23:37 < brli> 是這個問題嗎？
+23:37 < guildwar> 我有用 systemctl stop machined-child01.scope，再啟動一次就不行
+23:38 < guildwar> 第一次沒問題，shutdown 後再一次就不行
+23:40 < brli> 可以等等嗎？我正在忙碌中@@
+23:40 < guildwar> ok, 你忙，沒關係
+23:41 < guildwar> 這個不重要
+23:56 < brli> guildwar: 可以重新敘述一下嗎？
+23:56 < guildwar> ok
+23:57 < brli> 我這邊是直接呼叫systemd-nspawn -b然後跳出接近一般系統開機的過程，進入tty然後登入
+23:57 < guildwar> 我重新開機後，第一次下 sudo systemd-nspawn -D /srv/subarch/child01 -b 會開 child01
+23:57 < brli> p
+23:57 < brli> 恩
+23:58 < guildwar> 然後用 systemctl stop machine-child01.scope 來將 child01 關機
+23:58 < guildwar> 接著再下一次 sudo systemd-nspawn -D /srv/subarch/child01 -b
+23:58 < guildwar> 就會失敗，出現 Failed to register machine: Input/output error
+23:58 < guildwar> 只能重新開機才有辦法解決
+23:59 < brli> systemctl stop machine-child01.scope 確定有關機嗎？
+23:59 < guildwar> 有, 用 systemctl status machine-child01.scope 看有關
+23:59 < brli> 印象中第一次nspawn會跳初一個提示此程序的pid碼
+23:59 < guildwar> Init process in the container running as PID 15766.
+--- Log closed 六  1月 25 00:00:28 2014
