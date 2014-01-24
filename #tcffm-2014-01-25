@@ -14,3 +14,8 @@
 00:04 < brli> systemd版本？
 00:05 < guildwar> 208-10
 00:05 < guildwar> kernel 3.12.7-2-ARCH
+00:05 < brli> 我還在204
+00:05 < brli> 有沒有可能是systemd自己炸了@@？
+00:05 < guildwar> ok,那差很多
+00:06 < brli> (顯示為亂推托
+00:06 < guildwar> 我去查，208 有 patch 一些東東
