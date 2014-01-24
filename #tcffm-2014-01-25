@@ -9,3 +9,4 @@
 00:02 < guildwar> 所以你沒遇過就是，真奇怪
 00:03 < brli> screen sudo systemd-nspawn -jbD $PWD/${_chroot}/chroot/ -M ${_chroot_branch}
 00:03 < brli> 我是用這個指令進去容器的
+00:04 < brli> guildwar: 你是在Arch?
