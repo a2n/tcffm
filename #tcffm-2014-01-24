@@ -4,3 +4,4 @@
 19:11 <@haroldwu> try to manually upgrade archlinux-keyring package first, i.e. pacman -S archlinux-keyring
 19:30 < erhandsome> 哈哈
 19:30 < erhandsome> 我就用i3
+19:31 < erhandsome> 这个应该是arch包管理器的签名问题吧
