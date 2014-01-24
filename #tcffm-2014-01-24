@@ -1,3 +1,4 @@
 --- Log opened 五  1月 24 00:00:50 2014
 19:10 <@haroldwu> 這裏除了我應該沒有用i3的人...剛剛遇到簽名錯誤，查了一下怎麼解決
 19:11 <@haroldwu> Signature from "User <email@gmail.com>" is unknown trust, installation failed
+19:11 <@haroldwu> try to manually upgrade archlinux-keyring package first, i.e. pacman -S archlinux-keyring
