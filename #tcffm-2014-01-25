@@ -10,3 +10,5 @@
 00:03 < brli> screen sudo systemd-nspawn -jbD $PWD/${_chroot}/chroot/ -M ${_chroot_branch}
 00:03 < brli> 我是用這個指令進去容器的
 00:04 < brli> guildwar: 你是在Arch?
+00:04 < guildwar> 對
+00:04 < brli> systemd版本？
