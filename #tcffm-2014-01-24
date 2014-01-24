@@ -3,3 +3,4 @@
 19:11 <@haroldwu> Signature from "User <email@gmail.com>" is unknown trust, installation failed
 19:11 <@haroldwu> try to manually upgrade archlinux-keyring package first, i.e. pacman -S archlinux-keyring
 19:30 < erhandsome> 哈哈
+19:30 < erhandsome> 我就用i3
