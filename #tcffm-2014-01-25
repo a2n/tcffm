@@ -7,3 +7,4 @@
 00:01 < brli> 我是在容器內下poweroff來關掉程序的
 00:01 < guildwar> 我也試過進去再 poweroff，結果一樣，開不了耶
 00:02 < guildwar> 所以你沒遇過就是，真奇怪
+00:03 < brli> screen sudo systemd-nspawn -jbD $PWD/${_chroot}/chroot/ -M ${_chroot_branch}
