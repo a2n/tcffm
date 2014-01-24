@@ -8,3 +8,4 @@
 19:31 <@haroldwu> 恩啊，不過剛剛更新了 archlinux-keyring，還是有問題 orz
 19:32 < erhandsome> 把pacman配置文件里签名部分改成never呢
 19:32 <@haroldwu> 哦，好
+19:32 < erhandsome> 我之前用啊arch的时候就是这样不用签名...
