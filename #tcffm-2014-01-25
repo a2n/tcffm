@@ -33,3 +33,4 @@
 15:59 < guildwar> 預設用什麼桌面?
 16:01 <@haroldwu> LMDE 嗎？是 mate
 16:01 < guildwar> ok
+17:49 < guildwar> 又仔細試了 systemd-nspawn，發現只要在 container 裡 poweroff，再下 systemctl stop machine-child01.scope，這樣就可以，下次再啟動就沒問題
