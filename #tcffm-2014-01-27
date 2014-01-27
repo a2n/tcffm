@@ -19,3 +19,4 @@
 17:25 < guildwar> 對啊，所以我也搞不清楚為什麼不將那些 plugin 弄好些
 17:25 < hmchen> 不搞多媒體的話, BeagleBone Black 要強大的多
 18:01 < hmchen> OpenELEC 比較流暢
+18:04 < guildwar> 應該也是，因為剛看了官方網站，說 raspbmc 是一個完整 distribution, 但 openelec 則是只有需要的元件，應該比較省資源
