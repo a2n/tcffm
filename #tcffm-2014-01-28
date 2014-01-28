@@ -25,3 +25,4 @@
 15:52 < guildwar> 了解
 15:53 < hmchen> tcp_window_scaling 這個即便 = 0,  應該也要能到 65535 bytes
 15:53 < guildwar> 對啊
+15:53 < hmchen> tcp_window_scaling = 1 對應到 rfc1323 (window size > 65535)
