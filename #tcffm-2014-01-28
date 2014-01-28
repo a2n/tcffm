@@ -18,3 +18,4 @@
 15:38 < hmchen> tcp window scaling 應該會隨著傳輸, 慢慢從 1k, 2k, 4k, ... 慢慢變大
 15:40 < hmchen> 基本的 tcp 可以到 64kb, 如果支援 rfc1323 tcp extension 還可以更大
 15:40 < hmchen> 但我 ftp 連到 nas 傳一個 300MB 的檔案, window size  頂多到 3000~4000bytes
+15:48 < guildwar> 有試著調 tcp_rmem 之類的?
