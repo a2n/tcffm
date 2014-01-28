@@ -20,3 +20,4 @@
 15:40 < hmchen> 但我 ftp 連到 nas 傳一個 300MB 的檔案, window size  頂多到 3000~4000bytes
 15:48 < guildwar> 有試著調 tcp_rmem 之類的?
 15:49 < guildwar> 不過我的預設就是 212k 了
+15:50 < guildwar> ttp://systembash.com/content/tweaking-tcp-for-fast-100mbps-connections-and-transfers-on-linux/
