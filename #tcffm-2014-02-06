@@ -4,3 +4,4 @@
 17:26 < haroldwu_> 有個界面可以輸入帳號密碼
 17:26 < haroldwu_> 那個是怎麼做到的呢？
 17:26  * haroldwu_ 我絕對不是要玩 man in the middle
+20:58 < a2n> haroldwu_: apache htaccess ?
