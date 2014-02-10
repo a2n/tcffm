@@ -72,3 +72,4 @@
 17:19 < guildwar_> 在台灣這種人會無法出頭的，除非去外商公司
 17:55 < hmchen> match旁邊的小7待命中
 17:56 < hmchen> guildwar_: rpi 要作到類似功能要補上一些東西, 第一個問題就是沒有 mic input, 得用 usb audio card 擴充
+17:56 < hmchen> 二來是用 pwm 做亮度控制的話, rpi 只剩一隻腳可以做 pwm
