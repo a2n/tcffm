@@ -99,3 +99,4 @@
 23:37 < guildwar_> http://www.ipv6.hinet.net/installGuide.htm
 23:38 < guildwar_> 中華電信試用申請頁面 http://www.ipv6.hinet.net/serviceIntro.htm
 23:40 < guildwar_> 不對啊，這個好像是 ipv6 tunnel 到 ipv4，而不是 ipv6 to ipv6
+23:41 < hmchen> 這個 tunnel 應該是只負責通到中華電信機房
