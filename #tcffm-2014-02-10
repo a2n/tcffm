@@ -75,3 +75,4 @@
 17:56 < hmchen> 二來是用 pwm 做亮度控制的話, rpi 只剩一隻腳可以做 pwm
 18:08 < guildwar_> 是喔，可惜了， usb audio 是比較簡單，一般 webcam 有的有含麥克風
 18:10 < hmchen> 高階的 soc 比較少用到 pwm, 我看過的通常只有 1 ～2 pin
+18:10 < hmchen> rpi 其實有兩組 pwm, 但其中一組被 audio output 遮蔽 (共用腳位)
