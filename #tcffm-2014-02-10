@@ -77,3 +77,4 @@
 18:10 < hmchen> 高階的 soc 比較少用到 pwm, 我看過的通常只有 1 ～2 pin
 18:10 < hmchen> rpi 其實有兩組 pwm, 但其中一組被 audio output 遮蔽 (共用腳位)
 18:11 < guildwar_> 原來如此
+20:12 <@haroldwu> 2/17 才開學...orz
