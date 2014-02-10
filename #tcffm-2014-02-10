@@ -112,3 +112,4 @@
 23:51 < guildwar> 這邊有外國使用在 linux 的例子，可參考一下
 23:51 < guildwar> https://wiki.archlinux.org/index.php/IPv6_-_Tunnel_Broker_Setup
 23:54 < hmchen> 試試看能不能用 linux + hinet 建 tunnel
+23:59 < hmchen> 還真有點麻煩啊, 得用 host 直接連線 + 固定 ipv4, 像我現在過 ip 分享器就葛屁了
