@@ -39,3 +39,4 @@
 18:45 < guildwar> 怪的是，我的 umask 是 0027 啊，而別的 package 好像也不會，就某幾個才會
 18:45 < guildwar> $ yaourt -S kings-quest-1-agd-remake
 18:46 < guildwar> 搞了好久，將此目錄砍了再一次，yaourt 又將它變成 000
+18:52 < guildwar> 手動建立目錄是 755，但經過 makepkg 後就變 000，實在詭異，有人遇過嗎?
