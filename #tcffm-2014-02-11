@@ -33,3 +33,4 @@
 16:38 < hmchen> 不到 40 秒, 苦主說比上酒店還貴...
 16:38 < guildwar> 了解，這個要注意一下
 16:38 < guildwar> XD
+18:44 < guildwar> 遇到 trouble，在 archlinux 上使用 yaourt 時，安裝某些 package 時，會遇到 mkdir: cannot create directory ‘/tmp/makepkg/kings-quest-1-agd-remake/pkg’: Permission denied 這種訊息，去檢查這個目錄權限，發現是 000
