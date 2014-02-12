@@ -2,3 +2,4 @@
 08:54 < maxwux> guildwar: 會不會是那個 package 的安裝 script 沒寫好的關係？
 14:57 < maxwux> debian 要投靠 systemd 了 http://lwn.net/Articles/585363/
 16:48 < guildwar> maxwux: 有可能是沒寫好，但是想知道怎麼寫才不會變如此 XD
+16:49 < guildwar> debian 投靠 systemd 真是大消息，不知道 debian/kFreebsd 及 debian/Hurd 怎麼解決 systemd 的問題 :)
