@@ -14,3 +14,4 @@
 20:13 < guildwar> journal-triggerd   http://is.gd/e70tE5
 20:17 < hmchen> 所以非純文字的 log 會有整合上的困擾, 確實用過幾個會 parse log file 的工具
 20:17 < guildwar> 對啊，要全部重寫吧
+20:20 < hmchen> 如果目的是要在 arm 上面做到快速開機, systemd 有很大幫助嗎?
