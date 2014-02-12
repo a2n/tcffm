@@ -9,3 +9,4 @@
 17:31 < guildwar> 對啊，像我目前都要額外開一個 rsyslog XD
 17:33 < guildwar> 不過既然都決定改 systemd，也只能想辦法解決之後的問題了 :)
 19:25 < petercommand> binary log......
+19:37 < hmchen> 所以 binary log 有附帶工具檢視嗎?
