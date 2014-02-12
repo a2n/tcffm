@@ -22,3 +22,4 @@
 21:26 < guildwar> 找了一台 kvm 機器試了一下，debian wheezy
 21:27 < guildwar> http://pastie.org/8726030   原本 sysv-rc
 21:27 < guildwar> http://pastie.org/8726034   改成 systemd
+21:31 < guildwar> http://pastie.org/8726048    使用 systemd 時的 systemd-analyze blame 結果
