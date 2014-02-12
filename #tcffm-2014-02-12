@@ -6,3 +6,4 @@
 17:02 < guildwar> 用了一陣子 arch，不得不承認 systemd 真的不錯用，但對 debian 來說不見得適合，因為還有 kFreebsd 及 Hurd，這都還無法使用 systemd 吧，有一陣子沒去 follow 了。
 17:19 < guildwar> 似乎 systemd 在其他平台上有解，只是願不願意接受 http://homepage.ntlworld.com/jonathan.deboynepollard/Softwares/nosh.html
 17:26 < brli> systemd把log變成binary以後就很感冒...Orz
+17:31 < guildwar> 對啊，像我目前都要額外開一個 rsyslog XD
