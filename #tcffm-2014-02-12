@@ -17,3 +17,4 @@
 20:20 < hmchen> 如果目的是要在 arm 上面做到快速開機, systemd 有很大幫助嗎?
 20:21 < guildwar> 這個應該有吧，我自己的 notebook 還快滿多的就是
 20:23 < guildwar> http://pastie.org/8725857
+20:24 < guildwar> 指令為  $ sudo systemd-analyze blame
