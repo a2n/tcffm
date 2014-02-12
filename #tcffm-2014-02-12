@@ -3,3 +3,4 @@
 14:57 < maxwux> debian 要投靠 systemd 了 http://lwn.net/Articles/585363/
 16:48 < guildwar> maxwux: 有可能是沒寫好，但是想知道怎麼寫才不會變如此 XD
 16:49 < guildwar> debian 投靠 systemd 真是大消息，不知道 debian/kFreebsd 及 debian/Hurd 怎麼解決 systemd 的問題 :)
+17:02 < guildwar> 用了一陣子 arch，不得不承認 systemd 真的不錯用，但對 debian 來說不見得適合，因為還有 kFreebsd 及 Hurd，這都還無法使用 systemd 吧，有一陣子沒去 follow 了。
