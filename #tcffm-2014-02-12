@@ -7,3 +7,4 @@
 17:19 < guildwar> 似乎 systemd 在其他平台上有解，只是願不願意接受 http://homepage.ntlworld.com/jonathan.deboynepollard/Softwares/nosh.html
 17:26 < brli> systemd把log變成binary以後就很感冒...Orz
 17:31 < guildwar> 對啊，像我目前都要額外開一個 rsyslog XD
+17:33 < guildwar> 不過既然都決定改 systemd，也只能想辦法解決之後的問題了 :)
