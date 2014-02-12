@@ -21,3 +21,4 @@
 20:30 < guildwar> debian 也可以試用 systemd   https://wiki.debian.org/systemd，可和 sysvinit 同時存在，開機時 grub 指定 init=/lib/systemd/systemd 即可，不過還沒整合完成就是
 21:26 < guildwar> 找了一台 kvm 機器試了一下，debian wheezy
 21:27 < guildwar> http://pastie.org/8726030   原本 sysv-rc
+21:27 < guildwar> http://pastie.org/8726034   改成 systemd
