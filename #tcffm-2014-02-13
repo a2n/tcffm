@@ -28,3 +28,4 @@
 14:49 < guildwar> --mode
 14:50 < brli> hah
 14:50 < haroldwu_> 看了一下沒看到甚麼奇怪的問題 :P
+14:50 < guildwar> 明明就寫 755，但實際上出來的卻是 000
