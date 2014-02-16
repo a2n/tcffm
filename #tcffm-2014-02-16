@@ -30,3 +30,4 @@
 22:25 < guildwar> openarena 可以喔，我來試試
 22:51 < guildwar> 我試 openarena 回不來耶，該不會你不是設定 fullscreen mode
 22:53 < guildwar> 按 super + tab 沒反應，就算設成 fullscreen off，一旦滑鼠點進 openarena 視窗，focus 就再也出不來，除非關閉 openarena
+22:54 <@haroldwu> focus在所有 DE 跟 WM 下都會出不來...
