@@ -5,3 +5,4 @@
 14:08 <@haroldwu> 而且到處都會看到同樣的人 XD 例如 jjhuang
 14:11 <@haroldwu> guildwar: 可以來弄個 awebuntu 之類的 XD
 15:23 < brli> 有辦法做到本機server嗎？
+15:24 < brli> 像是nginx或apache只開放讓本機的應用程式連線，外部進來的一律拒絕？
