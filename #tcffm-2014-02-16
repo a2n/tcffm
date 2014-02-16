@@ -13,3 +13,4 @@
 16:15 < guildwar> brli: 我 man 了一下 firewalld，可以直接設定吧
 16:22 < guildwar> 又看了一下你的問題，只本機連不就 listen 127.0.0.1 就好，外面的也連不進來
 16:29 < brli> 對！
+16:29 < brli> 好主意耶！
