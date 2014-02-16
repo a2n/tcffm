@@ -9,3 +9,4 @@
 16:10 < guildwar> brli: 以前是要用 L7-filter，不知道現在是否整合到 iptables 中了 http://l7-filter.sourceforge.net/
 16:11 < guildwar> 現在好像直接用 firewalld 就可以直接控制哪個應用程式可連出去  http://fedorahosted.org/firewalld
 16:12 < brli> 看起來還是得靠其他設定呢
+16:13 < guildwar> haroldwu: 我對 buntu 沒興趣啦，不過最近改用你之前介紹的 herbstluftwm，配合 trayer 還不錯用，目前遇到唯一困難是在遊戲進入全螢幕模式後，若再切回一般視窗，再也回不去遊戲了，只能 kill 再重啟遊戲
