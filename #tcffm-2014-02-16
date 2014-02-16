@@ -7,3 +7,4 @@
 15:23 < brli> 有辦法做到本機server嗎？
 15:24 < brli> 像是nginx或apache只開放讓本機的應用程式連線，外部進來的一律拒絕？
 16:10 < guildwar> brli: 以前是要用 L7-filter，不知道現在是否整合到 iptables 中了 http://l7-filter.sourceforge.net/
+16:11 < guildwar> 現在好像直接用 firewalld 就可以直接控制哪個應用程式可連出去  http://fedorahosted.org/firewalld
