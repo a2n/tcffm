@@ -15,3 +15,4 @@
 11:26 < a2n> brli: 有好洞不打嗎？技術樂趣，不考慮道德。 :P
 11:26 < a2n> http://blog.cloudflare.com/technical-details-behind-a-400gbps-ntp-amplification-ddos-attack 放大器
 11:30 < a2n> 這些 udp 的協定普遍存在這種瑕疵設計
+14:56 < guildwar> 在我的 rpi 上試了指令 ntpq -c rv 192.0.2.1 ，沒回應，還好沒中標
