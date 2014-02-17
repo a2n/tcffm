@@ -21,3 +21,4 @@
 15:15 < guildwar> http://openntpproject.org/
 15:15 < guildwar> 測試自己的 ntp server 是否中標的方法
 15:16 < guildwar> 一般我們的因為沒對外開放，應該不致於中標
+15:18 < guildwar> 喔，我誤會你的意思，我不清楚 rv 的用意，我講的"不是" 是因為 ip 是 192.0.2.1，不是 192.0.2.1
