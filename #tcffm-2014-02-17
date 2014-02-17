@@ -35,3 +35,4 @@
 22:25 < guildwar> 懶得動，改成台灣以外的應該就可以吧
 22:25 <@haroldwu> 什麼意思？
 22:25 < guildwar> 不是改 mirrorlist 就好
+22:25 < guildwar> /etc/pacman.d/mirrorlist
