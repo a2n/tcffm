@@ -18,3 +18,4 @@
 14:56 < guildwar> 在我的 rpi 上試了指令 ntpq -c rv 192.0.2.1 ，沒回應，還好沒中標
 15:12 < a2n> guildwar: rv 192.0.2.1 的意思是回覆給 192.168.2.1 嗎？
 15:15 < guildwar> 不是耶，我是看你那個連結再連到 openntpproject.org，裡面寫的
+15:15 < guildwar> http://openntpproject.org/
