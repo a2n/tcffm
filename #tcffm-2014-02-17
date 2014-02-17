@@ -25,3 +25,4 @@
 15:19 < guildwar> 是 192.0.2.1 不是 192.168.2.1 XD
 15:30 < guildwar> 另外，剛看到這個軟體 spoofer(http://spoofer.cmand.org/)，看看自己到 Internet 的路徑上的機器，是否允許 spoofed source address，手癢很想跑，不過會不會被網管罵啊?
 15:38 < a2n> guildwar: 公用的 ntp service 都是大水管，不小心就會成為幫兇，而且真的很兇啊！ 400Gbps
+15:39  * a2n 我 ip 打錯 :D
