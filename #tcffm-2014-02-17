@@ -14,3 +14,4 @@
 11:24 < brli> 純粹服務性質的東西也要打
 11:26 < a2n> brli: 有好洞不打嗎？技術樂趣，不考慮道德。 :P
 11:26 < a2n> http://blog.cloudflare.com/technical-details-behind-a-400gbps-ntp-amplification-ddos-attack 放大器
+11:30 < a2n> 這些 udp 的協定普遍存在這種瑕疵設計
