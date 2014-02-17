@@ -11,3 +11,4 @@
 11:22 < a2n> @haroldwu dns 查詢請求時可以指定返回的位址，對眾多 dns server 請求，返回到同一部機器，形成 dns attach。有的站台已經補了這個洞，不給 by-pass。
 11:22 < a2n> 最近流行的是 ntp attack
 11:24 < brli> ntp也能attck= =這什麼世道
+11:24 < brli> 純粹服務性質的東西也要打
