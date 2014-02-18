@@ -6,3 +6,4 @@
 00:25 < guildwar> 有啦 https://www.archlinux.org/feeds/news/
 10:35 <@haroldwu> 重灌 arch 成功XD
 13:48 < guildwar> 為什麼要重灌，哪裡出問題了?
+19:08 <@haroldwu> dropbox 啓動後抓不到連線，然後另一個類似的服務 copy 則是出現 Sqlite Error
