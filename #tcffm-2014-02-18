@@ -14,3 +14,4 @@
 21:01 < brli> 還是直接開ubuntuVM內方便一點
 21:12 < guildwar> 是喔，不都是 apache2 嗎? 設定不同?
 21:14 < brli> Chakra的apache超級預設的，連httpd.conf都要找一堆東西改寫
+21:14 < guildwar> 了解
