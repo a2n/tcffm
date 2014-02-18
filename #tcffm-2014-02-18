@@ -15,3 +15,4 @@
 21:12 < guildwar> 是喔，不都是 apache2 嗎? 設定不同?
 21:14 < brli> Chakra的apache超級預設的，連httpd.conf都要找一堆東西改寫
 21:14 < guildwar> 了解
+21:14 < brli> 還要自己開module，php.ini也是一樣，mariadb也是
