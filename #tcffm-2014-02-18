@@ -16,3 +16,4 @@
 21:14 < brli> Chakra的apache超級預設的，連httpd.conf都要找一堆東西改寫
 21:14 < guildwar> 了解
 21:14 < brli> 還要自己開module，php.ini也是一樣，mariadb也是
+21:14 < brli> 然後弄一弄就非常的不爽@@
