@@ -16,3 +16,4 @@
 20:20 <@haroldwu> 我開了 noscript 結果所有網站都跑不起來XD gmail 跟 facebook 什麼的都直接停在 loading 畫面 :P
 20:22 <@haroldwu> midori 還有管理個別 cookie 功能（翻譯叫餅訊管理員）
 20:22 < guildwar> 對啊，就是如此 :) 變得比較麻煩，可以弄成 whitelist，以後這個網站就直接允許
+20:23 < guildwar> 這樣就算有時連到不明惡意網站也不會直接中標，不過相對麻煩了些
