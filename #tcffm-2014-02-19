@@ -22,3 +22,4 @@
 20:30 <@haroldwu> tor + no-flash + no-script + adb ... 夠不夠呢
 20:30 < guildwar> http://ip-check.info/?lang=en
 20:31 < guildwar> 再加個 https-everywhere, cookie monster
+20:32 < guildwar> 若還不夠，可再加 RequestPolicy, Smart Referer
