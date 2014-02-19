@@ -21,3 +21,4 @@
 20:29 <@haroldwu> guildwar: 你之前有貼過一個什麼測瀏覽器安全的網站，叫什麼啊？
 20:30 <@haroldwu> tor + no-flash + no-script + adb ... 夠不夠呢
 20:30 < guildwar> http://ip-check.info/?lang=en
+20:31 < guildwar> 再加個 https-everywhere, cookie monster
