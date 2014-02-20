@@ -21,3 +21,4 @@
 13:45 < guildwar> 你試試看
 13:46 < guildwar> 你要讓你 notebook 上的什麼 service RemoteForward 到 openshift 主機?
 13:50 <@haroldwu> django server...
+13:51 <@haroldwu> openshift 應該沒有這麼豪爽吧
