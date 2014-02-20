@@ -10,3 +10,4 @@
 13:35 < guildwar> http://pastie.org/8750884
 13:36 < guildwar> 因為 openshift 的主機有時也會不穩定，所以 ssh 通道會斷掉，可配合 autossh 在斷線後自動重連
 13:42 < guildwar> 其實就是 openshift 講的 port forwarding 一樣的東東，只是 openshift 主要是由你的 notebook 連到 openshift 主機的 localhost 的 mysql server，而現在是由 notebook 連到 openshift 主機，再對外連去 irc.freenode.net 而已
+13:42 <@haroldwu> 如果打算逆向，行嗎
