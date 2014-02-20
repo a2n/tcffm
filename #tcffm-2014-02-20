@@ -12,3 +12,4 @@
 13:42 < guildwar> 其實就是 openshift 講的 port forwarding 一樣的東東，只是 openshift 主要是由你的 notebook 連到 openshift 主機的 localhost 的 mysql server，而現在是由 notebook 連到 openshift 主機，再對外連去 irc.freenode.net 而已
 13:42 <@haroldwu> 如果打算逆向，行嗎
 13:42 < guildwar> 可以
+13:42 < guildwar> RemoteForward
