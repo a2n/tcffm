@@ -39,3 +39,4 @@
 16:59 < guildwar> 我是由 font="-*-fixed-medium-*-*-*-12-*-*-*-*-*-*-*" 改成 font="-*-*-medium-*-*-*-12-*-*-*-*-*-*-*" 這樣就能套用更多的字型
 16:59 < guildwar> 我指 fixed 改成 *，原本只能用 fixed 類的，現在全部都可以用
 17:05 < guildwar> 原本 X 字型都是這樣指定的，只是都改用 alias 比較人性化吧
+17:06 < guildwar> 第二個 * 裡面指的是字型的 family
