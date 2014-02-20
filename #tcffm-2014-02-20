@@ -4,3 +4,4 @@
 10:35 < guildwar> 那改用　freenet 好了，剛發現的新大陸，稍微玩了一下，有點類似 tor 的 hidden service, 也類以 retroshare 一樣是自成一個封閉的系統，可以完全匿名，不受監控，目前提供 mail, microblogging, forum and instant messaging(irc)，任何 freenet 的東東，所有 service 都是存取 127.0.0.1 來達成，最適合像中國大陸那種被完全監控的環境
 10:46 < guildwar> 可參考 Freenet Social Networking Guide  http://freesocial.draketo.de/  直接按右上方 Step x 看主題
 10:49 < guildwar> 若是有固定的朋友至少５位以上加入，可將權限設定成只連朋友，而不讓任何人連，那就更安全
+13:28 <@haroldwu> guildwar: 你之前有說過你的 irssi 是通過 openshift 轉接出去的，可以詳細的講一下，或貼個鏈接嗎
