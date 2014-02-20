@@ -27,3 +27,4 @@
 13:52 < guildwar> openshift 不支援 django server 嗎?
 13:53 < guildwar> 看來有支援啊 https://www.openshift.com/quickstarts/django
 14:46 <@haroldwu> 我要 python3 的...他那個只能跑 python2，然後社羣版的每次都建立失敗...QQ
+15:03 < guildwar> 可是那個網頁寫 Uses python-2 or python-3 with code from
