@@ -19,3 +19,4 @@
 13:44 < guildwar> 問題是，openshift 是無法用的耶
 13:45 < guildwar> 一般的主機可以
 13:45 < guildwar> 你試試看
+13:46 < guildwar> 你要讓你 notebook 上的什麼 service RemoteForward 到 openshift 主機?
