@@ -32,3 +32,4 @@
 16:15 < guildwar> ok
 16:15 < guildwar> 可能 bug 吧，有去 #openshift 問嗎?
 16:33 < guildwar> 那個 herbstluftwm 標題變亂碼的問題，只要在 panel.sh 加上 export LANG=zh_TW.UTF-8 就解決了
+16:46 <@haroldwu> 哇噢@@
