@@ -34,3 +34,4 @@
 16:33 < guildwar> 那個 herbstluftwm 標題變亂碼的問題，只要在 panel.sh 加上 export LANG=zh_TW.UTF-8 就解決了
 16:46 <@haroldwu> 哇噢@@
 16:47 <@haroldwu> 好讚的解法XD
+16:47 < guildwar> 不過可能 font 也要改一下，不然會變很大很醜
