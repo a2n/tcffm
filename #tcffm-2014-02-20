@@ -25,3 +25,4 @@
 13:51 < guildwar> 就算你 forward 到 openshift 主機去，別人也無法從外面連，你要直接用 openshift 提供的方式在 oepnshfit 本機上弄吧
 13:51 <@haroldwu> 只好另找方法了 :P
 13:52 < guildwar> openshift 不支援 django server 嗎?
+13:53 < guildwar> 看來有支援啊 https://www.openshift.com/quickstarts/django
