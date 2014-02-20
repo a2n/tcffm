@@ -17,3 +17,4 @@
 13:43 <@haroldwu> openshift 那邊要作任何設定嗎
 13:44 < guildwar> 完全不用，只要 openshift 那裡確定 2223 service 有起來，等 ssh 連線後，再確定本機也有 listen 2223 即可
 13:44 < guildwar> 問題是，openshift 是無法用的耶
+13:45 < guildwar> 一般的主機可以
