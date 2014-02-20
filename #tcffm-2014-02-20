@@ -8,3 +8,4 @@
 13:28 < guildwar> ok
 13:28 <@haroldwu> 我搜 openshift port forwarding 都是 rhc 提供給開發者用的，鏈接 remote 跟 local 服務的，不是我想象的那種orz
 13:35 < guildwar> http://pastie.org/8750884
+13:36 < guildwar> 因為 openshift 的主機有時也會不穩定，所以 ssh 通道會斷掉，可配合 autossh 在斷線後自動重連
