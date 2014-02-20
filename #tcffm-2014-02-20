@@ -41,3 +41,4 @@
 17:05 < guildwar> 原本 X 字型都是這樣指定的，只是都改用 alias 比較人性化吧
 17:06 < guildwar> 第二個 * 裡面指的是字型的 family
 17:06 < guildwar> 可裝 xorg-xfontsel 來看看有哪些 family 可選
+17:07 <@haroldwu> ok，原來如此...
