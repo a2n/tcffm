@@ -65,3 +65,4 @@
 01:28 < brli> ntfsfix
 01:29 < guildwar> 對，應該是 ntfsfix
 01:36 < guildwar> 想要試 deepin 的人，到這裡 http://tcffm.rr.nu:8080/irclog/  抓回 8 個  .xz 檔
+01:37 < guildwar> 可能還會有滿些相依性，不過應該都是 package 了，直接裝，不用再自己編吧
