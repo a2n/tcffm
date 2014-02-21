@@ -32,3 +32,4 @@
 01:17 < guildwar> ok,本來也用 packer, 但後來出了個 packer.io 硬把 packer 給弄掉 XD
 01:18 < guildwar> 現在換來不及，一換又要編 3　小時 XD
 01:19 < guildwar> package 叫 packer-io
+01:19 < brli> 把PKGBUILD抓回來makepkg -R就好了
