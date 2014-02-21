@@ -78,3 +78,4 @@
 01:56 < brli> lubuntu在512M單核心之下(雖然是VM)居然飛快@@
 01:57 < guildwar> 應該會有點麻煩，因為檔名被我改過，所以無法用 yaourt 直接裝，要用 yaourt -U，但 yaourt -U 好像只吃一個參數
 01:57 <@haroldwu> 抓好了~
+01:57 < guildwar> brli: 是用 docker ?
