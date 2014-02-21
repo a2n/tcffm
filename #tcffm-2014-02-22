@@ -38,3 +38,4 @@
 01:20 < brli> :3
 01:20 < guildwar> 理論上直接用 tar Jcvf 打包起來應該也可以吧
 01:20 < brli> 你會缺.PKGINFO跟.MFTREE
+01:20 < guildwar> 我去 $pkgdir 底下看有 .PKGINFO 及 .MTREE
