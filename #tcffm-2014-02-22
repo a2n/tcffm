@@ -33,3 +33,4 @@
 01:18 < guildwar> 現在換來不及，一換又要編 3　小時 XD
 01:19 < guildwar> package 叫 packer-io
 01:19 < brli> 把PKGBUILD抓回來makepkg -R就好了
+01:19 < guildwar> 對啊，但有好幾個 packages，正在找
