@@ -12,3 +12,4 @@
 00:44 < brli> com....piz.....
 00:46 < guildwar> 有進來了，但怪怪
 00:47 < guildwar> 滑鼠看不到啦，真機車
+00:51 < guildwar> 直接下 gnome-session --session=deepin 即可，會自動呼叫 compiz，不過怪怪的，滑鼠看不到，但會動，可能少裝了什麼東東　
