@@ -26,3 +26,4 @@
 01:04 <@haroldwu> 好吧XD
 01:05 < guildwar> 那個 *.xz 砍了，只賸下 $pkgdir 中未包成 tar.xz　檔的
 01:15 < guildwar> 有了，先用 yaourt -G deepin-session 抓回 PKGBUILD, 再用 makepkg --repackage 包成 .tar.xz
+01:15 < guildwar> 還是直接用 tar 包起來比較快
