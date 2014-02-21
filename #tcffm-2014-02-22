@@ -41,3 +41,4 @@
 01:20 < guildwar> 我去 $pkgdir 底下看有 .PKGINFO 及 .MTREE
 01:21 < brli> 那應該可以
 01:21 < brli> 不過反正其實你可以先把檔案co出來
+01:21 < brli> 然後叫pacaur去抓
