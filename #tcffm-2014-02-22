@@ -3,3 +3,4 @@
 00:10 < guildwar> http://is.gd/4PTnVi
 00:36 < brli> guildwar: X正常使用中？
 00:36 < brli> 居然沒有直接fail dump?xD
+00:37 < guildwar> 一開始先用 xephyr 試，下 /usr/bin/gnome-session --session=deepin 有啟動，但沒有 window manager
