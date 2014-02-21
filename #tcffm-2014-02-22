@@ -48,3 +48,4 @@
 01:22 < guildwar> 算了，用 yaourt + makepkg 好了，比較熟 XD
 01:22 < brli> w
 01:24 < guildwar> 用 tar Jcvf ../aa.tar.xz * .PKGINFO  .MTREE 弄出來的，可以用 yaourt -U aa.tar.xz 來安裝，不錯
+01:26 < brli> 同學遇到ntfs磁區全檔案變成唯讀模式
