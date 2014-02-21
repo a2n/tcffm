@@ -83,3 +83,4 @@
 01:57 < guildwar> 用 kvm 的話，因為有 virtio ，所以效能不錯
 01:57 < brli> guildwar: vbox
 01:58 < guildwar> vbox 現在支援 virtio 了嗎?
+01:58 < brli> 直接在live模式下pacman好了XD
