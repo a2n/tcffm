@@ -80,3 +80,4 @@
 01:57 <@haroldwu> 抓好了~
 01:57 < guildwar> brli: 是用 docker ?
 01:57 <@haroldwu> 喔還有一個webkit的
+01:57 < guildwar> 用 kvm 的話，因為有 virtio ，所以效能不錯
