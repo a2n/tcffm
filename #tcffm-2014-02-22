@@ -53,3 +53,4 @@
 01:26 < guildwar> 用 ntfs-3g
 01:27 < brli> 就是用了ntfs-3g掛資料碟
 01:27 < brli> 我試想live進去看看能不能改
+01:27 < guildwar> 強制 remount,rw 呢
