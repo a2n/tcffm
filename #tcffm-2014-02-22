@@ -50,3 +50,4 @@
 01:24 < guildwar> 用 tar Jcvf ../aa.tar.xz * .PKGINFO  .MTREE 弄出來的，可以用 yaourt -U aa.tar.xz 來安裝，不錯
 01:26 < brli> 同學遇到ntfs磁區全檔案變成唯讀模式
 01:26 < brli> 不知道要怎麼修
+01:26 < guildwar> 用 ntfs-3g
