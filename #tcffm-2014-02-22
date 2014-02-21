@@ -51,3 +51,4 @@
 01:26 < brli> 同學遇到ntfs磁區全檔案變成唯讀模式
 01:26 < brli> 不知道要怎麼修
 01:26 < guildwar> 用 ntfs-3g
+01:27 < brli> 就是用了ntfs-3g掛資料碟
