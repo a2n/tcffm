@@ -54,3 +54,4 @@
 01:27 < brli> 就是用了ntfs-3g掛資料碟
 01:27 < brli> 我試想live進去看看能不能改
 01:27 < guildwar> 強制 remount,rw 呢
+01:27 < brli> 可是他後來強制在Windows下也是無法= =
