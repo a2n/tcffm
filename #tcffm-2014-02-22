@@ -56,3 +56,4 @@
 01:27 < guildwar> 強制 remount,rw 呢
 01:27 < brli> 可是他後來強制在Windows下也是無法= =
 01:27 < brli> 現在已經變成隔空抓要了
+01:28 < guildwar> 是不是 filesystem 沒有正常 umount 才會如此呢?
