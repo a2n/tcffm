@@ -28,3 +28,4 @@
 01:15 < guildwar> 有了，先用 yaourt -G deepin-session 抓回 PKGBUILD, 再用 makepkg --repackage 包成 .tar.xz
 01:15 < guildwar> 還是直接用 tar 包起來比較快
 01:16 < brli> 用packer的話會留安裝包
+01:17 < brli> 或許pacaur是放在/var/cache/pacman/pkg裡？
