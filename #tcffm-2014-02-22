@@ -104,3 +104,4 @@
 15:32 < guildwar> 了解，因為我之前就裝很多 packages，所以裝 deepin 時不用再裝，那跑起來如何，有看到滑鼠游標?
 15:38 <@haroldwu> 唔，gnome-session --session=deepin 不會動
 15:38 <@haroldwu> 卡住了
+15:38 <@haroldwu> 要放在 .xinitrc 裏面？
