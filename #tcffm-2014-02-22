@@ -156,3 +156,4 @@
 17:07 < maxwux> 剛看到這個，好像用 ffmpeg 就可以做到了 https://trac.ffmpeg.org/wiki/StreamingGuide#HTTPLiveStreamingandStreamingwithmultiplebitrates
 17:12 < guildwar> 不錯喔，你是想有自己的 video streaming server 嗎? 線上教學?
 17:13 < guildwar> 不然直接用 ustream tv 或 twitch tv 不就好了
+17:17 < maxwux> 沒有，只是因為看到 FB 上有人問，剛好我們公司又在做跟電視節目有關的服務，再加上之前有碰過 wowza 這個東西
