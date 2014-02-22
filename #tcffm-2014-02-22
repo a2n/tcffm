@@ -107,3 +107,4 @@
 15:38 <@haroldwu> 要放在 .xinitrc 裏面？
 15:38 <@haroldwu> 那我再試一次
 15:41 < guildwar> 對，在 .xinitrc 中，前面要加 exec
+15:41 <@haroldwu> 有了，一樣沒有滑鼠
