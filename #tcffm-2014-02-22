@@ -179,3 +179,4 @@
 18:05 < guildwar> ttf-unifont 嗎?
 18:10 < op8867555___> http://support.mozilla.org/zh-TW/questions/947228
 18:14 < maxwux> GitHub icons are font icons, using a custom Octicons font face. Below are the classes to use for triggering the icons as well as their UTF codes. We use the Private Use (Unicode) range to avoid conflicts with actual letters.
+18:16 < maxwux> https://github.com/styleguide/css/7.0
