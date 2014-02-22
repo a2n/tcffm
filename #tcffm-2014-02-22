@@ -165,3 +165,4 @@
 17:22 < guildwar> client side
 17:23 < maxwux> 其實比較麻煩的是 server 端
 17:23 < guildwar> 可是 ffmpeg 都支援 server 端了，還有問題?
+17:26 < maxwux> server 端除了自動 encode 各種 bitrate 的影片之外，應該還需要 drm 的保護
