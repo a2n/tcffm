@@ -98,3 +98,4 @@
 15:11 <@haroldwu> 共 53 個包，gnome 相依性蠻重的 :P
 15:14  * brli 完全沒有gnome
 15:20 <@haroldwu> brli: chakra...
+15:21 <@haroldwu> 我後來受不了了，把驅動從 nouveau 換成 nvidia
