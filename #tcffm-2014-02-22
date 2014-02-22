@@ -109,3 +109,4 @@
 15:41 < guildwar> 對，在 .xinitrc 中，前面要加 exec
 15:41 <@haroldwu> 有了，一樣沒有滑鼠
 15:42 <@haroldwu> 你一定是少編了什麼 @@ icon 也怪怪的
+15:43 <@haroldwu> deepin-cursor-theme
