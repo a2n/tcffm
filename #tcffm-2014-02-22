@@ -158,3 +158,4 @@
 17:13 < guildwar> 不然直接用 ustream tv 或 twitch tv 不就好了
 17:17 < maxwux> 沒有，只是因為看到 FB 上有人問，剛好我們公司又在做跟電視節目有關的服務，再加上之前有碰過 wowza 這個東西
 17:17 < guildwar> 這個 MPEG-DASH 只要 server 及 client 有支援就好吧，會自己依網路狀況去調整，我們應該不用手動調整?
+17:18 < maxwux> 但我不知道有沒有 linux open source 的解決方案
