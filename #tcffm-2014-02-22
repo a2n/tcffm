@@ -154,3 +154,4 @@
 16:59 < maxwux> 底下的討論串有提到這個東西
 16:59 < guildwar> 了解
 17:07 < maxwux> 剛看到這個，好像用 ffmpeg 就可以做到了 https://trac.ffmpeg.org/wiki/StreamingGuide#HTTPLiveStreamingandStreamingwithmultiplebitrates
+17:12 < guildwar> 不錯喔，你是想有自己的 video streaming server 嗎? 線上教學?
