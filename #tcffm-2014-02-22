@@ -167,3 +167,4 @@
 17:23 < guildwar> 可是 ffmpeg 都支援 server 端了，還有問題?
 17:26 < maxwux> server 端除了自動 encode 各種 bitrate 的影片之外，應該還需要 drm 的保護
 17:27 < guildwar> ok
+17:52 < guildwar> 對了，有人知道為什麼我開 github 網頁時都會有奇怪的圖示嗎？要怎麼解決，像最左上角那個 F092
