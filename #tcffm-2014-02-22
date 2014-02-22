@@ -105,3 +105,4 @@
 15:38 <@haroldwu> 唔，gnome-session --session=deepin 不會動
 15:38 <@haroldwu> 卡住了
 15:38 <@haroldwu> 要放在 .xinitrc 裏面？
+15:38 <@haroldwu> 那我再試一次
