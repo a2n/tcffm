@@ -153,3 +153,4 @@
 16:58 < maxwux> 上次在FB上看到有人發問 https://www.facebook.com/groups/ubuntu.zh.hant/permalink/622781724443820/?stream_ref=2
 16:59 < maxwux> 底下的討論串有提到這個東西
 16:59 < guildwar> 了解
+17:07 < maxwux> 剛看到這個，好像用 ffmpeg 就可以做到了 https://trac.ffmpeg.org/wiki/StreamingGuide#HTTPLiveStreamingandStreamingwithmultiplebitrates
