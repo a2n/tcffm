@@ -160,3 +160,4 @@
 17:17 < guildwar> 這個 MPEG-DASH 只要 server 及 client 有支援就好吧，會自己依網路狀況去調整，我們應該不用手動調整?
 17:18 < maxwux> 但我不知道有沒有 linux open source 的解決方案
 17:18 < guildwar> 了解，這是很好的解決方法
+17:18 < maxwux> 對，是自動的，所以我才在想有沒有這種東西的解決方案
