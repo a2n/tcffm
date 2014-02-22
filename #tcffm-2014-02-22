@@ -207,3 +207,4 @@
 18:38 < guildwar> 全砍了 rm -rf .mozilla 然後 firefox --no-remote --safe-mode 還是沒有
 18:38 < guildwar> 在想可能是 tiling WM 在作怪，換一個 blackbox 試試
 18:38 < maxwux> 這麼神奇？
+18:38 < guildwar> 可能一部份看不到
