@@ -17,3 +17,4 @@
 23:06 <@haroldwu> a2n: 可以問你 github 自動 push 是怎麼辦到的嗎？@@ 是設一個空白的 ssh 密鑰對？
 23:15 < guildwar> 理論上也可以用 expect
 23:36 < guildwar> a2n 沒看到人，我講我知道的方法好了，不要產生空白的 ssh key，而是配合 ssh-agent 來使用
+23:41 < guildwar> 或 keychain 之類的工具
