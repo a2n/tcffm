@@ -14,3 +14,4 @@
 22:56 < guildwar> emacs 沒有這種功能嗎？ 為什麼還要 meld
 22:58 <@haroldwu> 沒啊，看到了轉貼下XD emacs 有 ediff 可用
 22:58 < guildwar> ok :)
+23:06 <@haroldwu> a2n: 可以問你 github 自動 push 是怎麼辦到的嗎？@@ 是設一個空白的 ssh 密鑰對？
