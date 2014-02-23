@@ -15,3 +15,4 @@
 22:58 <@haroldwu> 沒啊，看到了轉貼下XD emacs 有 ediff 可用
 22:58 < guildwar> ok :)
 23:06 <@haroldwu> a2n: 可以問你 github 自動 push 是怎麼辦到的嗎？@@ 是設一個空白的 ssh 密鑰對？
+23:15 < guildwar> 理論上也可以用 expect
