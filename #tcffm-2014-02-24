@@ -1,0 +1,2 @@
+--- Log opened 一  2月 24 00:00:33 2014
+10:15 < a2n> haroldwu: 使用 inotifywait 監控，監控的機器 ssh public key 已經加入 ssh trust keychain。
