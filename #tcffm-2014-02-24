@@ -1,3 +1,4 @@
 --- Log opened 一  2月 24 00:00:33 2014
 10:15 < a2n> haroldwu: 使用 inotifywait 監控，監控的機器 ssh public key 已經加入 ssh trust keychain。
 10:16  * a2n 最近才發現 bitbucket 不接受兩個帳號加入同一個 ssh public key。公司的電腦混著使用私人與公司的帳號使用，加入同一部機器 public key 就被說不接受。
+10:16  * a2n 我猜 github 也是這個原則。
