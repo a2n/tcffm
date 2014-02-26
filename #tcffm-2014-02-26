@@ -23,3 +23,4 @@
 22:28 < haroldwu> 來土法鍊鋼 postgresql 資料庫
 22:53  * a2n 菲律賓網路慢到耐心全無，裝了 mosh 明顯改善
 23:10 < guildwar> mosh 讚
+23:11 < guildwar> 不過有個滿麻煩的缺點，若是 client 沒正常結束，就再也連不上了，還得 ssh 進去 kill mosh 才行 XD
