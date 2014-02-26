@@ -25,3 +25,4 @@
 23:10 < guildwar> mosh 讚
 23:11 < guildwar> 不過有個滿麻煩的缺點，若是 client 沒正常結束，就再也連不上了，還得 ssh 進去 kill mosh 才行 XD
 23:58 < haroldwu> guildwar: 我像問一下，要在 postgresql 新增一個欄位，假設叫 foo，格式是單浮點
+23:59 < haroldwu> ALTER TABLE stockdb ADD foo REAL
