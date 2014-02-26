@@ -6,3 +6,4 @@
 00:14 < haroldwu> 膽戰心驚
 00:15 < guildwar> https://dev.mysql.com/doc/refman/5.1/en/alter-table-examples.html 參考看看吧
 00:20 < guildwar> 看起來你的指令應該沒問題
+00:25 < haroldwu> 不知道有沒有更好的表格設計，我目前的表格是張這樣：
