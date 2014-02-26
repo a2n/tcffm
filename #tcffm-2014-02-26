@@ -27,3 +27,4 @@
 23:58 < haroldwu> guildwar: 我像問一下，要在 postgresql 新增一個欄位，假設叫 foo，格式是單浮點
 23:59 < haroldwu> ALTER TABLE stockdb ADD foo REAL
 23:59 < haroldwu> 這樣對嗎？
+--- Log closed 四  2月 27 00:00:21 2014
