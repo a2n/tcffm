@@ -8,3 +8,4 @@
 00:20 < guildwar> 看起來你的指令應該沒問題
 00:25 < haroldwu> 不知道有沒有更好的表格設計，我目前的表格是張這樣：
 00:25 < haroldwu> date | 股票名稱 | 股票名稱 | ....
+00:26 < haroldwu> date 是 yy/mm/dd
