@@ -36,3 +36,4 @@
 09:24 -!- mode/#tcffm [+o haroldwu] by ChanServ
 10:01 <@haroldwu> http://goo.gl/lhQmYD 目前的設計
 10:21 < a2n> haroldwu: StockInfo 的資料看起來挺好的，但是和股價的關聯是？能預測未來走勢嗎？
+10:27 <@haroldwu> 恩，作指標的時候會用到
