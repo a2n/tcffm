@@ -51,3 +51,4 @@
 14:16 <@haroldwu> 他說我語法錯了，哪裏錯了？
 14:17 <@haroldwu> 喲，最後一個 column 多了一個 ","
 14:28 <@haroldwu> http://yfwu.logdown.com/posts/181207-postgresql-stock-database-records <-- 目前的筆記，持續更新，求建議
+15:16 < a2n> haroldwu: 我看了筆記，深深體會什麼叫「資料保存」的重點。因為 twse 的資料也是很糟... :( 所以現在我都把 raw data 塞在 db
