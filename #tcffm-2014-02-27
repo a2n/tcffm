@@ -45,3 +45,4 @@
 13:56 <@haroldwu> 兩個問題
 13:57 <@haroldwu> foreign key 可以之後再設嗎？還是那個母表必須一開始就存在？
 14:15 < a2n> haroldwu: 母表要存在
+14:15 <@haroldwu> ok，那我先建一個母表。
