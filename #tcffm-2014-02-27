@@ -32,3 +32,4 @@
 07:50 < a2n> 我用 sqlite 裝資料 http://sqlite.org/speed.html
 09:23 < haroldwu_> 等等喔我貼一下
 09:23 < haroldwu_> 話說用 postgresql 的原因是因爲倒是這批資料想連同程式放在 redhat 的 openshift 上，
+09:24 < haroldwu_> 似乎沒有支援 sqlite
