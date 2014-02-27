@@ -46,3 +46,4 @@
 13:57 <@haroldwu> foreign key 可以之後再設嗎？還是那個母表必須一開始就存在？
 14:15 < a2n> haroldwu: 母表要存在
 14:15 <@haroldwu> ok，那我先建一個母表。
+14:15 <@haroldwu> CREATE TABLE Profile ( No INTEGER PRIMARY KEY, MarketNo TEXT, MarketName TEXT,
