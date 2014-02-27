@@ -48,3 +48,4 @@
 14:15 <@haroldwu> ok，那我先建一個母表。
 14:15 <@haroldwu> CREATE TABLE Profile ( No INTEGER PRIMARY KEY, MarketNo TEXT, MarketName TEXT,
 14:15 <@haroldwu> );
+14:16 <@haroldwu> 他說我語法錯了，哪裏錯了？
