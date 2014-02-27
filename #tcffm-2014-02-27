@@ -38,3 +38,4 @@
 10:21 < a2n> haroldwu: StockInfo 的資料看起來挺好的，但是和股價的關聯是？能預測未來走勢嗎？
 10:27 <@haroldwu> 恩，作指標的時候會用到
 10:29 <@haroldwu> 現在是 crawler 都沒問題了，單純是想要存下來離線用而已。話說什麼是 transaction
+10:31 < a2n> haroldwu: 批次處理，一次新增十萬筆資料，比十萬次一筆快上很多。
