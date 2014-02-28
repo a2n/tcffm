@@ -4,3 +4,4 @@
 09:38 [@haroldwu] [ darkx   ] [ op_logbot__ ] [ petercommand11] 
 09:38 [ a2n     ] [ guildwar] [ petercom1and] 
 09:38 -!- Irssi: #tcffm: Total of 7 nicks [1 ops, 0 halfops, 0 voices, 6 normal]
+09:51 < a2n> 看了昨天 syslog，貌似有異常連線，一秒開了 595 條連線。有沒有一種工具可以監聽 port 打開後，寫入詳細的 lsof(1) 資訊？
