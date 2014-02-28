@@ -7,3 +7,4 @@
 09:51 < a2n> 看了昨天 syslog，貌似有異常連線，一秒開了 595 條連線。有沒有一種工具可以監聽 port 打開後，寫入詳細的 lsof(1) 資訊？
 13:25 < guildwar> 目前只想到用 ossec hids，可以 regex 來監控 log，持續發生幾次後，自動觸發 active response，而 active response 則可以自己寫
 13:38 < a2n> guildwar: 多謝～
+13:40 < guildwar> 不過，由於是監控 log，不知道這時再去做 lsof 還看得到開了什麼檔案嗎？可能還是要從 snort 或 psad 那邊著手吧 :)
