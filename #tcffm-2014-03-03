@@ -8,3 +8,4 @@
 16:58 < a2n> haroldwu: 擋 ip 的方式很容易，用 iptables recent 就能擋了。
 17:02 < a2n> haroldwu: 抓哪個站台，方便給看嗎？
 17:04 <@haroldwu> goodinfo.com <-- 這個
+17:07 <@haroldwu> tor 是會動，不過比沒 tor 去大概多了兩到三倍
