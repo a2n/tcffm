@@ -39,3 +39,4 @@
 22:24 -!- mode/#tcffm [+o haroldwu] by ChanServ
 23:29 < hmchen> 關機(主SoC)時, 還保有鬧鐘功能, 就需要另一顆低功耗 MCU (單價通常不到 1USD)
 23:31 < hmchen> 或許廠商只是認為, android 手機都沒在關的. 我把網路功能全關掉後, 純通話待機其實還蠻省電的
+23:35 < guildwar> 也是，現在都沒在關機的
