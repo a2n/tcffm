@@ -37,3 +37,4 @@
 21:57 -!- Channel #tcffm created Fri Aug  9 21:35:26 2013
 21:59 -!- Irssi: Join to #tcffm was synced in 132 secs
 22:24 -!- mode/#tcffm [+o haroldwu] by ChanServ
+23:29 < hmchen> 關機(主SoC)時, 還保有鬧鐘功能, 就需要另一顆低功耗 MCU (單價通常不到 1USD)
