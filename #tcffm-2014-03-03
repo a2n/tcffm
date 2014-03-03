@@ -1,3 +1,4 @@
 --- Log opened 一  3月 03 00:00:27 2014
 16:47 <@haroldwu> 去爬網站狂被擋...有沒有什麼好的解決辦法？目前是寫了一個可以跑在 tor 上的鏈接器
 16:49 < a2n> haroldwu: 他怎麼擋知道嗎？user agent or ip ?
+16:55 <@haroldwu> 應該是ip，因爲瀏覽器也打不開
