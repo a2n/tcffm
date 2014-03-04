@@ -34,3 +34,4 @@
 20:10 < guildwar> 手動解開嗎？這樣太不人性化了啊 XD
 20:12 <@haroldwu> 對啊，我在問問
 20:13 < guildwar> 應該是想辦法讓 s48.org 將 tarball 不要用 soft link
+20:14 < guildwar> 不然對其他 bsd 的 os 都還得裝 gnu tar 才能解，這很機車
