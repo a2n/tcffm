@@ -27,3 +27,4 @@
 19:52 < guildwar> 只要改 PKGBUILD 中，hg clone 那行 改成 hg clone "$_hgroot/$_hgrepo" build ，再將 patch 那行去掉，新版的不用 patch 了
 19:59 <@haroldwu> 好，我試試
 20:06 <@haroldwu> 有人回答了
+20:07 <@haroldwu> 因爲它在包裏面用了 soft link 的關係
