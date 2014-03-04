@@ -28,3 +28,4 @@
 19:59 <@haroldwu> 好，我試試
 20:06 <@haroldwu> 有人回答了
 20:07 <@haroldwu> 因爲它在包裏面用了 soft link 的關係
+20:09 <@haroldwu> makepkg 有個參數 noextract
