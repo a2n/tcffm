@@ -36,3 +36,4 @@
 20:13 < guildwar> 應該是想辦法讓 s48.org 將 tarball 不要用 soft link
 20:14 < guildwar> 不然對其他 bsd 的 os 都還得裝 gnu tar 才能解，這很機車
 20:20 <@haroldwu> 各種衝突...
+20:20 <@haroldwu> https://wiki.archlinux.org/index.php/PKGBUILD#noextract
