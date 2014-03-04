@@ -10,3 +10,4 @@
 14:01 <@haroldwu> 不是喔，在問 arch 的 pkg 打包問題
 14:22 < a2n> haroldwu: 這樣啊... :P
 14:29 <@haroldwu> 查了一下，好像是要改用什麼 GNU tar
+15:59 < guildwar> 奇怪的是，為什麼會去呼叫 bsdtar 而不是 tar 呢?
