@@ -33,3 +33,4 @@
 20:09 < guildwar> 若用 noextract 那要怎麼編，要手動來?
 20:10 < guildwar> 手動解開嗎？這樣太不人性化了啊 XD
 20:12 <@haroldwu> 對啊，我在問問
+20:13 < guildwar> 應該是想辦法讓 s48.org 將 tarball 不要用 soft link
