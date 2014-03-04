@@ -24,3 +24,4 @@
 18:38 < guildwar> 找不到 s48 repository
 18:53 <@haroldwu> 恩，看來問題挺多的
 19:51 < guildwar> haroldwu: 你還想裝 scheme48-hg 嗎?
+19:52 < guildwar> 只要改 PKGBUILD 中，hg clone 那行 改成 hg clone "$_hgroot/$_hgrepo" build ，再將 patch 那行去掉，新版的不用 patch 了
