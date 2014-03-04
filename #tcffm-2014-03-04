@@ -41,3 +41,4 @@
 20:27 <@haroldwu> 好了，但是編譯時出錯了=.=
 20:30 <@haroldwu> https://gist.github.com/yfwu/9345663
 20:32 <@haroldwu> 看來又要幫他打patch了？QQ
+20:33 <@haroldwu> make: *** No rule to make target 'c/scheme48write-barrier.h', needed by 'c/scheme48vm-64.o'.  Stop.
