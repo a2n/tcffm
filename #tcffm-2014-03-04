@@ -15,3 +15,4 @@
 16:09 < guildwar> 解到一半會失敗，這就是原因吧
 17:14 <@haroldwu> 搞不好是我裝的tar不一樣？
 17:27 < guildwar> 不是，看來是 www.s48.org 官方的 tarball 有問題，無法用 bsdtar 解出來，但 makepkg 又找不到參數可以改用 gnu tar
+17:31 <@haroldwu> 這個有點麻煩...來寫信問一下好了 QQ
