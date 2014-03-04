@@ -45,3 +45,4 @@
 20:34 <@haroldwu> 奇怪，手動 ./configure --pre=/usr 就沒問題啊
 23:23  * haroldwu 已經改好了~！成功
 23:25 <@haroldwu> guildwar: 剛剛去 aur 傳新包，發現 scheme48-hg 之前變成孤兒也是被我撿來維護...
+23:43 <@haroldwu> 不過 scheme48-hg 人氣不旺，先擺著:P
