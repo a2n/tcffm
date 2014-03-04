@@ -12,3 +12,4 @@
 14:29 <@haroldwu> 查了一下，好像是要改用什麼 GNU tar
 15:59 < guildwar> 奇怪的是，為什麼會去呼叫 bsdtar 而不是 tar 呢?
 16:08 < guildwar> 看了其他 package 也是用 bsdtar 來解，沒問題，但那個 scheme48-1.9.1.tgz 就無法用 bsdtar 來解
+16:09 < guildwar> 解到一半會失敗，這就是原因吧
