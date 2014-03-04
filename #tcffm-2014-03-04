@@ -43,3 +43,4 @@
 20:32 <@haroldwu> 看來又要幫他打patch了？QQ
 20:33 <@haroldwu> make: *** No rule to make target 'c/scheme48write-barrier.h', needed by 'c/scheme48vm-64.o'.  Stop.
 20:34 <@haroldwu> 奇怪，手動 ./configure --pre=/usr 就沒問題啊
+23:23  * haroldwu 已經改好了~！成功
