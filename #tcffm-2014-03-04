@@ -37,3 +37,4 @@
 20:14 < guildwar> 不然對其他 bsd 的 os 都還得裝 gnu tar 才能解，這很機車
 20:20 <@haroldwu> 各種衝突...
 20:20 <@haroldwu> https://wiki.archlinux.org/index.php/PKGBUILD#noextract
+20:20 <@haroldwu> 這裏有解決辦法啦，來試試
