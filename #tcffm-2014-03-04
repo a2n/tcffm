@@ -30,3 +30,4 @@
 20:07 <@haroldwu> 因爲它在包裏面用了 soft link 的關係
 20:09 <@haroldwu> makepkg 有個參數 noextract
 20:09 <@haroldwu> 唔，但是這個要怎麼隨着 pkgbuild 發佈呢@@
+20:09 < guildwar> 若用 noextract 那要怎麼編，要手動來?
