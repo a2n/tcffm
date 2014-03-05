@@ -2,3 +2,4 @@
 15:01 < guildwar> 對喔，都沒想到用 noextract，然後在 PKGBUILD 中用 gnu tar 解開 :)
 18:29 <@haroldwu> 恩，又學到一課XD 還有就是他那個 makefile 終於不用再打 patch 了...
 19:26  * haroldwu 锟斤拷
+19:38 < guildwar> haroldwu: 這什麼東東?
