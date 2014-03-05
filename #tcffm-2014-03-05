@@ -1,3 +1,4 @@
 --- Log opened 三  3月 05 00:00:30 2014
 15:01 < guildwar> 對喔，都沒想到用 noextract，然後在 PKGBUILD 中用 gnu tar 解開 :)
 18:29 <@haroldwu> 恩，又學到一課XD 還有就是他那個 makefile 終於不用再打 patch 了...
+19:26  * haroldwu 锟斤拷
