@@ -1,2 +1,3 @@
 --- Log opened 一  3月 10 00:00:37 2014
 23:03 < hmchen> uefi + grub 還真難救援
+23:06 < hmchen> 想說測試一下 ubuntu 安裝在 usb flash 的開機速度, 結果 usb 拔走之後 grub 就開不起來了
