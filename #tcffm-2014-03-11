@@ -6,3 +6,4 @@
 16:05 < hmchen> 躲不掉啊
 16:09 < hmchen> 一開始的 uefi 載入 os kernel image 還得有數位簽章 (secure boot) 也就是 windows 限定, 後來硬體廠商受到壓力, 就把 secure boot 選項變成可開關, 也允許使用者更新 uefi 數位簽章
 16:10 < hmchen> 所以會看到有些 linux kernel image 有多個 'signed' 字樣, 這是給 secure boot 模式用的
+16:20 < guildwar> 反正幾年內還不會買新電腦，再說吧 :)
