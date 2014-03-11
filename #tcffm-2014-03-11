@@ -2,3 +2,4 @@
 15:15 < guildwar> 還沒用過 uefi 耶，應該要配合 gpt 吧，到現在都還在用古早的 mbr :)
 15:55 < hmchen> guildwar: gpt 是小事, 只是方便突破 4 primary partitions; 頭大的是, uefi 有自己的開機管理架構, 反而 grub 要被 uefi 管
 15:57 < hmchen> 傳統 bios 架構只要進到 grub 起碼都還有開機選單, 有什麼設定不對的, 進 shell 小改一下通常就能開
+16:04 < guildwar> 了解，真麻煩，以後新買的機器都一定有 uefi 吧
