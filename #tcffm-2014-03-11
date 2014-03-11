@@ -4,3 +4,4 @@
 15:57 < hmchen> 傳統 bios 架構只要進到 grub 起碼都還有開機選單, 有什麼設定不對的, 進 shell 小改一下通常就能開
 16:04 < guildwar> 了解，真麻煩，以後新買的機器都一定有 uefi 吧
 16:05 < hmchen> 躲不掉啊
+16:09 < hmchen> 一開始的 uefi 載入 os kernel image 還得有數位簽章 (secure boot) 也就是 windows 限定, 後來硬體廠商受到壓力, 就把 secure boot 選項變成可開關, 也允許使用者更新 uefi 數位簽章
