@@ -1,2 +1,3 @@
 --- Log opened 二  3月 11 00:00:38 2014
 15:15 < guildwar> 還沒用過 uefi 耶，應該要配合 gpt 吧，到現在都還在用古早的 mbr :)
+15:55 < hmchen> guildwar: gpt 是小事, 只是方便突破 4 primary partitions; 頭大的是, uefi 有自己的開機管理架構, 反而 grub 要被 uefi 管
