@@ -10,3 +10,4 @@
 16:54 < hmchen> http://chinese.engadget.com/2014/03/11/raspberry-pi-wolfson-audio-card/
 16:54 < hmchen> RPi 用的音效卡模組, 33USD/1000NTD, 有點小貴
 16:55 < hmchen> 似乎是 SPI 介面, 可以節省寶貴的 USB port
+16:56 < guildwar> 了解，用 SPI 才有意義
