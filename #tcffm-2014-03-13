@@ -18,3 +18,4 @@
 23:08 < hmchen> 而是先用 SHA 或 MD5 先得到資料量少的 hash 值, 再用個人的 private key 加密放到信尾
 23:08 < haroldwu> 但是我自己 local 也有一份 list，這個 keyring 是存在哪裏呢？
 23:09 < guildwar> ~/.gnupg/pubring.gpg
+23:09 < hmchen> 信件本文 + signed (加密過的 hash) , 整段用收件人的 public key 加密一次
