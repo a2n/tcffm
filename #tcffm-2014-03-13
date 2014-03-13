@@ -23,3 +23,4 @@
 23:11 < guildwar> arch 的放在 /etc/pacman.d/gnupg/
 23:12 < haroldwu> 所以加密不一定簽署就對了
 23:12 < haroldwu> 兩回事
+23:12 < guildwar> 對，是二回事
