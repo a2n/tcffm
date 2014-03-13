@@ -50,3 +50,4 @@
 23:49 < guildwar> 不過在 arch 上 signing-party-svn 編不出來，而 caff-svn 跑不起來，真慘
 23:52 < haroldwu> 還有這種套件XD
 23:54 < guildwar> 就那個 gpg-key2ps 指令在裡面
+23:56 < guildwar> 直接下載回去用即可 http://anonscm.debian.org/viewvc/pgp-tools/trunk/gpg-key2ps/
