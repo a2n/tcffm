@@ -3,3 +3,4 @@
 00:07 < guildwar> 所以可以跟 28 人交換 pgp key XD
 00:20 < haroldwu> key 跟 fingerprint
 00:22 < haroldwu> 這是什麼版本管理啊？怎麼編譯 gpg-key2ps
+00:27 < guildwar> 不用編，直接抓回來，加上可執行權限即可(在 arch 上先安裝 signing-party-svn，就會將相依性補足，否則可能無法 run)
