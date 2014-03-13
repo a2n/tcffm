@@ -21,3 +21,4 @@
 23:09 < hmchen> 信件本文 + signed (加密過的 hash) , 整段用收件人的 public key 加密一次
 23:10 < guildwar> 不是啦，arch 的不是放在 ~
 23:11 < guildwar> arch 的放在 /etc/pacman.d/gnupg/
+23:12 < haroldwu> 所以加密不一定簽署就對了
