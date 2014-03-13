@@ -53,3 +53,4 @@
 23:56 < guildwar> 直接下載回去用即可 http://anonscm.debian.org/viewvc/pgp-tools/trunk/gpg-key2ps/
 23:56 < haroldwu> gpg --armor --output 00AA11BB-signedBy-1A2B3C4D.asc --export 00AA11BB <=== 這個是什麼意思？
 23:57 < guildwar> 就是將 00AA11BB key 匯出到 00AA11BB-signedBy-1A2B3C4D.asc  檔案，格式是文字檔吧
+23:58 < guildwar> 這是在沒有 key server 的狀況直接可以用 email 寄 public key 給對方
