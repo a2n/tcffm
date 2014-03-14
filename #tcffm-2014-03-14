@@ -13,3 +13,4 @@
 23:00 < guildwar> 最近試用了 cinnamon 及 gnome3，發現他們都不受 xrandr 控制了，譬如我用小 WM 時，在 notebook 外接一個螢幕，平常都用 xrandr --output LVDS1 --off 來將原本 notebook 的螢幕關閉，只使用外接的
 23:01 < guildwar> 但在 cinnamon 及 gnome3 下，無法用 xrandr 來將螢幕關掉，真是滿討厭的
 23:02 < guildwar> 這樣逼得大家一定要用他們提供的工具才行
+23:48 < haroldwu> xfce 還是聽 xrandr 的話 XD
