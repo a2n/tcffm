@@ -23,3 +23,4 @@
 13:02 < haroldwu> 可是我 lscpi 出來的是 nvidia ...
 13:06 < haroldwu> http://p.vim-cn.com/cbwC
 13:06 < haroldwu> 詳細 alsa 資訊
+13:27 < brli> 你覺得用modprobe黑名單的方式直接關掉snd_hda_intel會有幫助嗎？
