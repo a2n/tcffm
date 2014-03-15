@@ -41,3 +41,4 @@
 17:02 < haroldwu> 哇啊連原本的擴音也沒了XD
 17:02 < guildwar> 先 modprobe -r snd_hda_codec_realtek
 17:02 < guildwar> 所以要一個一個試，看有沒有一個正常的 XD
+17:04 < haroldwu> is in use！
