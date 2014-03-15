@@ -20,3 +20,4 @@
 12:46 < haroldwu> 換到 console 也是一樣，所以我想應該不是 DE 的問題
 13:01 < haroldwu> 我發先我若 cat /proc/asound/module
 13:01 < haroldwu> 出來的是  0 snd_hda_intel
+13:02 < haroldwu> 可是我 lscpi 出來的是 nvidia ...
