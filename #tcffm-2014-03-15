@@ -26,3 +26,4 @@
 13:27 < brli> 你覺得用modprobe黑名單的方式直接關掉snd_hda_intel會有幫助嗎？
 13:27 < brli> 或者是直接讓alsa不使用那個module?
 13:28 < haroldwu> 關掉應該沒有用？正確的 mod 還是沒起來？
+13:41 < brli> 我猜正確的是snd_hda_codec這個w
