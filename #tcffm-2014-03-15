@@ -47,3 +47,4 @@
 17:05 < guildwar> 那不管，直接 modprobe -r snd-hda-intel，確定沒掛就好
 17:08 < haroldwu> 加 -f 強制移除使用中 module
 17:13 < haroldwu> 感覺亂掉了，重啓看看
+17:13 < guildwar> 沒那麼誇張啦，不用重開
