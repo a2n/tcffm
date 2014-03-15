@@ -58,3 +58,4 @@
 19:22 < guildwar> 那這個呢? modprobe snd-hda-intel model=auto position_fix=1 再不行就沒輒了
 20:00 < haroldwu> 好
 20:00 < haroldwu> alsamixer 試過了 @@ 通通開到最大聲也不行
+20:09 < guildwar> 真是詭異，是 arch 沒錯吧
