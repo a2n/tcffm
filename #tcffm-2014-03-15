@@ -29,3 +29,4 @@
 13:41 < brli> 我猜正確的是snd_hda_codec這個w
 13:51 < haroldwu> 怎麼弄呢？
 16:43 < guildwar_> 如果 modprobe snd-hda-intel model=3stack-6ch  行不行（記得先 unload 模組)
+16:50 < haroldwu> 好
