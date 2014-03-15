@@ -35,3 +35,4 @@
 16:55 < guildwar> 或是 model=asus
 16:56 < guildwar> 這裡有幾個參數，若剛才的不行，一個個試看看 http://alsa.opensrc.org/Hda
 17:00 < haroldwu> 沒用耶
+17:00 < haroldwu> unload 模組是 modprobe -r 嗎？
