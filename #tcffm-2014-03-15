@@ -27,3 +27,4 @@
 13:27 < brli> 或者是直接讓alsa不使用那個module?
 13:28 < haroldwu> 關掉應該沒有用？正確的 mod 還是沒起來？
 13:41 < brli> 我猜正確的是snd_hda_codec這個w
+13:51 < haroldwu> 怎麼弄呢？
