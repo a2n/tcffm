@@ -45,3 +45,4 @@
 17:04 < guildwar> 我的同一台機器，以前要下 model=hp，後來改 model=3stack-dig，這幾年又完全不用下
 17:05 < haroldwu> module in use 怎麼強制把他關了呢？
 17:05 < guildwar> 那不管，直接 modprobe -r snd-hda-intel，確定沒掛就好
+17:08 < haroldwu> 加 -f 強制移除使用中 module
