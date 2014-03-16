@@ -1,3 +1,4 @@
 --- Log opened 一  3月 17 00:00:47 2014
 05:18 < haroldwu> http://www.slideshare.net/chenkaie/tmux-rocks
 05:19 < haroldwu> 雖然比較喜歡用 GNU 授權的軟體...不過 tmux 看來比 screen 強太多了 XD
+05:21  * haroldwu emacs 操作完全有能力超越 tmux，不過有時候在跑一些東西時（如更新套件）會鎖住其他操作，故放棄
