@@ -111,3 +111,5 @@
 20:02 <@haroldwu> 應該是
 20:03 < guildwar> gpg --send-keys xxxxxx 就上傳了
 20:03 <@haroldwu> 喔原來是這樣
+20:03 <@haroldwu> 我試試
+20:03 < guildwar> --keyserver pgp.mit.edu
