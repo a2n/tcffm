@@ -19,3 +19,4 @@
 17:21 < guildwar> tmux powerline 是 vim 的外掛? 和 tmux 有關係嗎?
 17:24 < guildwar> 應該是沒寫 code 的關係，沒額外裝任何 vim 外掛，也沒有需求 XD
 18:28 <@haroldwu> 好像可以替換 tmux 底下的模樣？
+18:29 <@haroldwu> 我沒有 .tmux.conf
