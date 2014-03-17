@@ -58,3 +58,4 @@
 19:19 < guildwar> 最主要是那個 2EF2F6F8
 19:19 <@haroldwu> 還是可以用同樣的 public key 寄信到你新的信箱
 19:21 < guildwar> 那個都還好，最麻煩的是若換 gpg key 主 key，之前簽署過的都要再重新請別人再簽一次
+19:22 < guildwar> 若只換 sub key 就沒差
