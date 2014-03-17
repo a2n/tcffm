@@ -57,3 +57,4 @@
 19:18 <@haroldwu> 所以 revoke 之後上傳，大家就知道你換信箱了 XDD
 19:19 < guildwar> 最主要是那個 2EF2F6F8
 19:19 <@haroldwu> 還是可以用同樣的 public key 寄信到你新的信箱
+19:21 < guildwar> 那個都還好，最麻煩的是若換 gpg key 主 key，之前簽署過的都要再重新請別人再簽一次
