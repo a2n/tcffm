@@ -17,3 +17,4 @@
 16:58 < guildwar> 是不是因為你已有自己設定檔的關係 ~/.tmux.conf
 17:01 < guildwar> 不對啊，我有 ~/.tmux.conf，但在跑 byobu 時，是會出現 byobu 的配置
 17:21 < guildwar> tmux powerline 是 vim 的外掛? 和 tmux 有關係嗎?
+17:24 < guildwar> 應該是沒寫 code 的關係，沒額外裝任何 vim 外掛，也沒有需求 XD
