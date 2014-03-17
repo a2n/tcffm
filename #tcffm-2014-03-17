@@ -132,3 +132,4 @@
 20:24 < guildwar> 暴力沒辦法啦，使用者密碼太簡單就能進入
 20:26 < guildwar> 直接用 fail2ban 或 ossec-hids 就好
 20:27 < guildwar> 而且那個 script 有點副作用 /etc/init.d/iptables restart
+20:27 < guildwar> 在重啟 iptables 的過程，會讓正在跑的 service 卡住
