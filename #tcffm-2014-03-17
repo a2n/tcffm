@@ -36,3 +36,4 @@
 18:51 < guildwar> https://unix.stackexchange.com/questions/31996/how-are-the-gpg-usage-flags-defined-in-the-key-details-listing
 18:58 <@haroldwu> 喔，所以單純拿來加密的？
 18:59 <@haroldwu> 恩，那我的 pubkey 沒有 E，能夠加密的意思是？
+18:59 < guildwar> 不是，在你用 gpg 來做加密動作時，會自動以 sub 來做加密，若是簽署，則會用 pub
