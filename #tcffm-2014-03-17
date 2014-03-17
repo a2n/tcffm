@@ -143,3 +143,4 @@
 23:06 < guildwar> grep -n 可看到行數
 23:07 < guildwar> 若是大量檔案，用 ack
 23:11 < guildwar> http://betterthangrep.com/
+23:42 <@haroldwu> 聽過 ack 但沒用過，來試試
