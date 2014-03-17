@@ -137,3 +137,4 @@
 20:32 <@haroldwu> 哦哦，原來是這樣
 20:32 <@haroldwu> 改規則也要重啓喔？
 20:35 < guildwar> 若是改 /etc/xxx 裡的 iptables rules，常然要重啟才會生效，若是直接下 iptables 指令就不用
+22:43 <@haroldwu> 問一下唷
