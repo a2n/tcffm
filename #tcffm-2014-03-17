@@ -16,3 +16,4 @@
 16:54 <@haroldwu> 殘念，似乎沒辦法讓他用自己的主題
 16:58 < guildwar> 是不是因為你已有自己設定檔的關係 ~/.tmux.conf
 17:01 < guildwar> 不對啊，我有 ~/.tmux.conf，但在跑 byobu 時，是會出現 byobu 的配置
+17:21 < guildwar> tmux powerline 是 vim 的外掛? 和 tmux 有關係嗎?
