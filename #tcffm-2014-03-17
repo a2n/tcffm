@@ -21,3 +21,4 @@
 18:28 <@haroldwu> 好像可以替換 tmux 底下的模樣？
 18:29 <@haroldwu> 我沒有 .tmux.conf
 18:29 < guildwar> 那本來 tmux status line 就可以自己調整，為什麼還需要 tmux powerline？
+18:30 < guildwar> 實在搞不清楚狀況
