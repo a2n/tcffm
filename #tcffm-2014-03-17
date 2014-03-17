@@ -96,3 +96,4 @@
 19:47 < guildwar> 而且那個 revoke 好像沒用，因為 key 還可以用?
 19:49 <@haroldwu> 不是 revoke key 嘛，是 revoke id
 19:49 <@haroldwu> 好像沒有改的選項啊？
+19:49 <@haroldwu> 只有 adduid / revuid / deluid
