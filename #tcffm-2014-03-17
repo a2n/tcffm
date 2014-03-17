@@ -38,3 +38,4 @@
 18:59 <@haroldwu> 恩，那我的 pubkey 沒有 E，能夠加密的意思是？
 18:59 < guildwar> 不是，在你用 gpg 來做加密動作時，會自動以 sub 來做加密，若是簽署，則會用 pub
 19:00 < guildwar> gpg 會自己 handle
+19:10 <@haroldwu> http://www.wil.cx/~willy/keysigning/gnupg-exercises.html
