@@ -8,3 +8,4 @@
 09:42 < a2n> haroldwu: tmux & emacs 如何比較？
 12:24 <@haroldwu> 喔我指窗口切割的部分 :P
 12:24 <@haroldwu> 在 emacs 中可以開終端
+13:52 < guildwar> vim 也可以切割畫面啊，但因為還有很多其他程式要用，所以還是得用 screen 或 tmux 的功能
