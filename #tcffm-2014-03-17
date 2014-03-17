@@ -34,3 +34,4 @@
 18:47 < guildwar> ok，用 gpg --edit-key XXXXXXXX 可看到一個 pub usage: SC，第二個 sub usage: E
 18:50 < guildwar> S -> for signing  E -> for encrypting
 18:51 < guildwar> https://unix.stackexchange.com/questions/31996/how-are-the-gpg-usage-flags-defined-in-the-key-details-listing
+18:58 <@haroldwu> 喔，所以單純拿來加密的？
