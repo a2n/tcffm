@@ -101,3 +101,4 @@
 19:50 < guildwar> 以前只有 revoke key 而己 XD
 19:52 < guildwar> 用 revuid
 19:52 <@haroldwu> 還是我眼誤，其實沒有 sign 過你？
+19:53 <@haroldwu> 喔不對，確實 singkey 這個動作應該要定義爲 sign ID
