@@ -49,3 +49,4 @@
 19:14 < guildwar> 要玩之前，先備份 ~/.gnupg
 19:14 <@haroldwu> 喔好
 19:16 < guildwar> revoke 是先建好 revoke key，改天若不小心 硬碟毀了，private key 不見時，就可以使用 revoke key 來將這個 key 廢止，所以 revoke key 要另外保存
+19:17 < guildwar> 若是純綷被 hack 或 key 被偷，因為 private key 還在，所以還可以產生出 revoke key
