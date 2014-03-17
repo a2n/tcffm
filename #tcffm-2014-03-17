@@ -32,3 +32,4 @@
 18:41 <@haroldwu> 今天跟學弟研究如何互簽的時候注意到
 18:42 < guildwar> sub key 我也不是很懂 XD，只知道一個專門用來加密，一個用來認證之類的，之前研究 retroshare 時有看到，要再找一下
 18:47 < guildwar> ok，用 gpg --edit-key XXXXXXXX 可看到一個 pub usage: SC，第二個 sub usage: E
+18:50 < guildwar> S -> for signing  E -> for encrypting
