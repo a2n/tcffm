@@ -135,3 +135,4 @@
 20:27 < guildwar> 在重啟 iptables 的過程，會讓正在跑的 service 卡住
 20:28 < guildwar> 這個指令在 production run 的環境最好不要下，要的話只下要動的部份就好，或是更換成 firewalld
 20:32 <@haroldwu> 哦哦，原來是這樣
+20:32 <@haroldwu> 改規則也要重啓喔？
