@@ -89,3 +89,4 @@
 23:09 < haroldwu> 對呀，但是跑不動...啊，有可能是因爲這些句子內又有 「"」
 23:09 < haroldwu> 這個真麻煩， Lisp 裏面，「'」代表 quote，所以也不能用 'a' 取代 "a"
 23:59 < haroldwu> http://www.omgubuntu.co.uk/2014/03/gog-com-games-heading-linux-autumn
+23:59 < haroldwu> GOG.com To Bring 100 Classic PC Games to Linux this Autumn
