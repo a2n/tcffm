@@ -13,3 +13,4 @@
 00:15 < haroldwu> 查到 session manager ，但是不太管用的樣子=.=
 00:15 < brli> haroldwu: 用分頁群組，那樣子關掉重開就不會把分頁都載進去
 00:31 < guildwar> 今天才發現可以將 firefox 打開 vdpau 支援，結果原本開 youtube 像那個反服貿之夜，螢幕 1280x1024，原本小 window 是 640x360，放到全螢幕時，沒開 vdpau 只會到 854x480，但開了 vdpau 後，會自動開到 1280x720
+00:33 < brli> guildwar: 詳細希望
