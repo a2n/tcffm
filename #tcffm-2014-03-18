@@ -5,3 +5,4 @@
 14:11 < a2n> guildwar: iptables 更新用 iptables-apply (8) 會不會比較好？
 14:12 < a2n> haroldwu: gnu grep -E, --with-filename 我的 alias 是 grep --mmap -EHin --colour=auto
 14:13 < guildwar> 一樣吧，這應該是先天的限制，我之前有看到一篇 fedora 為什麼要用 firewalld 的文章，有提到 firewalld 就是就是為了克服這點才產生的，但我找不到那篇文章 :)
+14:15 < guildwar> 應該是因為 /etc/init.d/iptables restart 這樣會重啟幾百、幾千行的 rules, 但 firewalld 只會針對必須重跑的那幾行來運作
