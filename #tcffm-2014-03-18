@@ -82,3 +82,4 @@
 22:59 < a2n> haroldwu: 要跳就跳囉 :D
 22:59 < haroldwu> XD
 23:04 < haroldwu> 在寫 parser，要把 html 轉成 clojure 自己的數據結構
+23:04 < haroldwu> 結果那個程式遇到不匹配的 <meta> 就不動了=.=
