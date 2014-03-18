@@ -10,3 +10,4 @@
 14:19 < guildwar> Why A Firewall Daemon 那裡
 14:21 < guildwar> 之前在用 rhel 5 的時候一直有這問題，而且沒辦法解決，直到看到這篇文章才知道會卡住是正常的
 14:30 < guildwar> 應該是移除模組這個動作導致問題發生 The unload of the modules is breaking stateful firewalling and established connections.
+18:10 <@haroldwu> nftables 有解決類似的問題嗎？
