@@ -87,3 +87,4 @@
 23:04 < haroldwu> <meta.*>應該可以包含所有的 <meta xxxxx> 句子把？
 23:07 < a2n> <meta.*> 包含 <meta xxxxx>
 23:09 < haroldwu> 對呀，但是跑不動...啊，有可能是因爲這些句子內又有 「"」
+23:09 < haroldwu> 這個真麻煩， Lisp 裏面，「'」代表 quote，所以也不能用 'a' 取代 "a"
