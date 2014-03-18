@@ -86,3 +86,4 @@
 23:04 < haroldwu> 氣死了
 23:04 < haroldwu> <meta.*>應該可以包含所有的 <meta xxxxx> 句子把？
 23:07 < a2n> <meta.*> 包含 <meta xxxxx>
+23:09 < haroldwu> 對呀，但是跑不動...啊，有可能是因爲這些句子內又有 「"」
