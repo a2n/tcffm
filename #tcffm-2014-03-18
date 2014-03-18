@@ -12,3 +12,4 @@
 14:30 < guildwar> 應該是移除模組這個動作導致問題發生 The unload of the modules is breaking stateful firewalling and established connections.
 18:10 <@haroldwu> nftables 有解決類似的問題嗎？
 18:11 < guildwar> 沒用過 nftables 耶 XD
+18:13 < guildwar> 記起來了， nftables 是要來取代 iptables 的，未來都會改成 nftables XD
