@@ -15,3 +15,4 @@
 18:13 < guildwar> 記起來了， nftables 是要來取代 iptables 的，未來都會改成 nftables XD
 18:16 < guildwar> firewalld 是只是去呼叫 iptables 及 ebtables 而已，所以和 iptables 或 nftables 是不同性質的，至於 nftables 有沒有解決那問題，要等有用過的人回答，而且現在 nftables 還無法用來 production run 吧
 18:17 <@haroldwu> 瞭解
+18:17 <@haroldwu> 對了 firefox 就是指右邊那個搜尋欄
