@@ -81,3 +81,4 @@
 22:58 < haroldwu> \ 不用跳脫嗎？
 22:59 < a2n> haroldwu: 要跳就跳囉 :D
 22:59 < haroldwu> XD
+23:04 < haroldwu> 在寫 parser，要把 html 轉成 clojure 自己的數據結構
