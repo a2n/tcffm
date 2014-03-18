@@ -8,3 +8,4 @@
 14:15 < guildwar> 應該是因為 /etc/init.d/iptables restart 這樣會重啟幾百、幾千行的 rules, 但 firewalld 只會針對必須重跑的那幾行來運作
 14:18 < guildwar> 找到了，fedora 18 的 https://fedoraproject.org/wiki/Features/firewalld-default
 14:19 < guildwar> Why A Firewall Daemon 那裡
+14:21 < guildwar> 之前在用 rhel 5 的時候一直有這問題，而且沒辦法解決，直到看到這篇文章才知道會卡住是正常的
