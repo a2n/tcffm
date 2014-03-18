@@ -63,3 +63,4 @@
 22:06 < guildwar> 看來應該是前一陣子 youtube 改了影音的儲存方式(影音分離)導致很多工具都不能用，剛一開始執行 smtube 也是只有小店長能抓，但更新 youtube code 後，就能用了
 22:07 < guildwar> 所以其他工具應該在近期內更新之後也能夠用才對
 22:11 < guildwar> 有人知道在 github 上，如何看像是本地的 git log 資訊?
+22:12 < guildwar> ok, 應該就點 Commits 看到的就是
