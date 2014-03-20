@@ -16,3 +16,4 @@
 20:21 < haroldwu> (prn (map #(-> % :attrs :title) ($x "//book" *some-xml*))) ===> 花費大量力氣才理解，數據結構有點變態...雖然用 python 寫出來堆在一起也是可以長這樣，但是會長不少
 21:41 < haroldwu> 遇到的狀況是這個 SAXParseException 文件中根元素前的標記必須格式正確
 21:41 < haroldwu> 不確定是什麼東西造成的 =.=
+22:37 < haroldwu> 文件內有一個結構是 <ins class="foo"></ins>。我用 <ins.*ins> 怎麼篩不出來呢？
