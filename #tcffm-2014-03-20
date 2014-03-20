@@ -7,3 +7,4 @@
 13:54 < haroldwu> 是 firefox 啦 XD
 13:55 < haroldwu> parser 的話，我再想是不是 xml 解析器不能用到 html 上，畢竟 xml 似乎嚴格些，不允許想 <br> 這樣單一的結點出現
 15:08 < a2n> haroldwu: xpath 用上了嗎？
+18:15 < haroldwu> clojure 有函數可以把 xml 轉成資料結構...但是 html 似乎解析不出來 QQ
