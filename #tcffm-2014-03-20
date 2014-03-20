@@ -20,3 +20,4 @@
 22:42 < a2n> haroldwu: 我這邊測試正常。 $ echo "<ins class=\"foo\"></ins>" | grep -E "<ins(.*)ins>"
 22:45 < haroldwu> 要掛號啊...
 22:48 < haroldwu> 括號 :P
+22:51 < haroldwu> a2n: 我知道問題在哪了，要把文本中的 \n 去掉=.=
