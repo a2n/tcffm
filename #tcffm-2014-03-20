@@ -23,3 +23,4 @@
 22:51 < haroldwu> a2n: 我知道問題在哪了，要把文本中的 \n 去掉=.=
 22:51 < haroldwu> echo "<ins class=\"foo\">\nbar</ins>" | grep -E "<ins(.*)ins>"
 22:52 < haroldwu> 這樣就沒有結果...
+23:01 < haroldwu> 查了，原來：正则表达式中，“.”(点符号)匹配的是除了换行符“\n”以外的所有字符。
