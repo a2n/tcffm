@@ -6,3 +6,4 @@
 13:39 < a2n> haroldwu: 你的 parser 會讓系統卡住？原因找到了嗎？
 13:54 < haroldwu> 是 firefox 啦 XD
 13:55 < haroldwu> parser 的話，我再想是不是 xml 解析器不能用到 html 上，畢竟 xml 似乎嚴格些，不允許想 <br> 這樣單一的結點出現
+15:08 < a2n> haroldwu: xpath 用上了嗎？
