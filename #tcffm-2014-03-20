@@ -9,3 +9,4 @@
 15:08 < a2n> haroldwu: xpath 用上了嗎？
 18:15 < haroldwu> clojure 有函數可以把 xml 轉成資料結構...但是 html 似乎解析不出來 QQ
 18:16 < haroldwu> 因爲文件頭文件是 <meta title="foo"> 之類的，可是沒有 </meta>
+19:19 < a2n> haroldwu: https://github.com/kyleburton/clj-xpath 有人做 :D
