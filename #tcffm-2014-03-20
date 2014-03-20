@@ -11,3 +11,4 @@
 18:16 < haroldwu> 因爲文件頭文件是 <meta title="foo"> 之類的，可是沒有 </meta>
 19:19 < a2n> haroldwu: https://github.com/kyleburton/clj-xpath 有人做 :D
 20:05 < haroldwu> 這我有查到，可是已經六個月沒更新了 @@
+20:05 < haroldwu> 姑且用之
