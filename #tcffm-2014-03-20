@@ -17,3 +17,4 @@
 21:41 < haroldwu> 遇到的狀況是這個 SAXParseException 文件中根元素前的標記必須格式正確
 21:41 < haroldwu> 不確定是什麼東西造成的 =.=
 22:37 < haroldwu> 文件內有一個結構是 <ins class="foo"></ins>。我用 <ins.*ins> 怎麼篩不出來呢？
+22:42 < a2n> haroldwu: 我這邊測試正常。 $ echo "<ins class=\"foo\"></ins>" | grep -E "<ins(.*)ins>"
