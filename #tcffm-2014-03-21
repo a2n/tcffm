@@ -94,3 +94,4 @@
 23:06 < guildwar> 檔案小速度會快一些
 23:32 < guildwar> https://sqlite.org/faq.html#q12
 23:37 < guildwar> 看了半天，還是搞不懂 VACUUM 怎麼用 XD
+23:40 < guildwar> ok, 原來是在 sqlite> 命令列下跑
