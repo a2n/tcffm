@@ -40,3 +40,4 @@
 22:29 < hmchen> 但已經習慣用 firefox 了
 22:29 < hmchen> chrome 我總覺得有一種癡肥的感覺
 22:30 < brli> hmchen: 可以直接把那個sqlite放到dropbox然後軟聯結到profiles裡
+22:32 < hmchen> 嗯, 剛剛有查到這個方法
