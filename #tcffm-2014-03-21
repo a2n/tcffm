@@ -80,3 +80,4 @@
 22:59 < guildwar> 耶，找到方法的樣子 sqlite3 places.sqlite ".backup /tmp/places.sqlite" 檔案由 10M 變 8M
 23:00 < hmchen> 這樣算手動重建是吧
 23:00 < guildwar> 應該算吧，不過不知會不會有後遺症
+23:02 < brli> 10M→1.2M
