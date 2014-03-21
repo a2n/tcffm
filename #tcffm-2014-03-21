@@ -38,3 +38,5 @@
 22:28 < hmchen> 內建的 sync, chrome 試做的不錯
 22:28 < hmchen> 全部都用單一帳號存取
 22:29 < hmchen> 但已經習慣用 firefox 了
+22:29 < hmchen> chrome 我總覺得有一種癡肥的感覺
+22:30 < brli> hmchen: 可以直接把那個sqlite放到dropbox然後軟聯結到profiles裡
