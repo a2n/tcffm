@@ -41,3 +41,9 @@
 22:29 < hmchen> chrome 我總覺得有一種癡肥的感覺
 22:30 < brli> hmchen: 可以直接把那個sqlite放到dropbox然後軟聯結到profiles裡
 22:32 < hmchen> 嗯, 剛剛有查到這個方法
+22:32 < guildwar> brli: 是哪一個檔案? places.sqlite?
+22:32 < hmchen> yes
+22:32 < guildwar> ok
+22:32 < guildwar> 我的有 10M 了 :)
+22:32 < brli> 該不會...我密錯人了0.0?XD
+22:33 < guildwar> 沒錯，我亂入啦 :)
