@@ -8,3 +8,4 @@
 21:49 < guildwar> 以後就變成一個帳號全部服務都可以用，資料就可能會被 mozilla 給全部收集了，不過還好，因為至少 mozilla 目前還是很重視個人隱私的，而且 mozilla 是個自由軟體公司 :)
 21:49 < guildwar> https://bugzilla.mozilla.org/show_bug.cgi?id=949446
 22:10 < hmchen> 把 firefox 設定資料夾放到 dropbox ?
+22:11 < guildwar> 不好吧，這樣應該變很慢吧，一般不是都還將設定資料夾放到 /dev/shm 去來增加速度?
