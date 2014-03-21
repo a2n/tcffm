@@ -55,3 +55,4 @@
 22:36 < guildwar> 可能是格式的關係吧
 22:36 < brli> 積了十年←瞬間想歪的我(ry
 22:37 < guildwar> 好樣的 XD
+22:39 < guildwar> 我的有 12276 行    sqlite3 places.sqlite "select * from moz_bookmarks" |wc -l
