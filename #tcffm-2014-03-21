@@ -56,3 +56,7 @@
 22:36 < brli> 積了十年←瞬間想歪的我(ry
 22:37 < guildwar> 好樣的 XD
 22:39 < guildwar> 我的有 12276 行    sqlite3 places.sqlite "select * from moz_bookmarks" |wc -l
+22:42 < hmchen> 我還蠻吃驚的, 除了 google 以外還有其他軟體在默默的收集我資料
+22:42 < brli> ?
+22:42 < guildwar> 誰啊？
+22:42 < hmchen> places.sqlite ...
