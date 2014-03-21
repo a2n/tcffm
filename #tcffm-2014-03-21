@@ -66,3 +66,5 @@
 22:44 < guildwar> 這些都是 ok 的吧，像我查了我的 moz_historyvisits，裡面是空的，因為我都用 private mode，所以完全沒記錄
 22:44 < guildwar> 都有依照設定來記錄啊
 22:45 < hmchen> 所以真的只有書籤?
+22:45 < guildwar> 你自己用 sqlite3 指令來檢查 places.sqlite 的內容就知道
+22:46 < hmchen> ok
