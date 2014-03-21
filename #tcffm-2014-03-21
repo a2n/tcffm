@@ -78,3 +78,4 @@
 22:54 < hmchen> 清掉了, 但還是 20MB ... XD
 22:55 < hmchen> 應該是效能考量吧, 不會隨意增減檔案大小, 得重排才能減肥
 22:59 < guildwar> 耶，找到方法的樣子 sqlite3 places.sqlite ".backup /tmp/places.sqlite" 檔案由 10M 變 8M
+23:00 < hmchen> 這樣算手動重建是吧
