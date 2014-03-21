@@ -96,3 +96,4 @@
 23:37 < guildwar> 看了半天，還是搞不懂 VACUUM 怎麼用 XD
 23:40 < guildwar> ok, 原來是在 sqlite> 命令列下跑
 23:42 < guildwar> 用 vacuum 由 10M -> 7.2M :)
+--- Log closed 六  3月 22 00:00:54 2014
