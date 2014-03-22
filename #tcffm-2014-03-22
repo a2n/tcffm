@@ -10,3 +10,4 @@
 22:10 < haroldwu_> 耶， clojure 機器人上線咯～
 22:11 < haroldwu_> harobot: 尚未提供迴應功能，不過看來很簡單
 22:12 < harobot> 手動發送訊息
+22:13 < haroldwu_> 成功，只要加上一個filter就能送上 heroku
