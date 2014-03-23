@@ -19,3 +19,4 @@
 11:52 < harobot> http://clojure.github.io/clojure/clojure.string-api.html
 11:53 < haroldwu_> 參考： http://nakkaya.com/2010/02/10/a-simple-clojure-irc-client/ 原始程式碼，其實跟我上一隻 python 的差不多架構
 11:53 < harobot> http://nakkaya.com/2010/02/10/a-simple-clojure-irc-client/
+11:59 < haroldwu_> 回臺中後在把之前寫的 parser 挪過來，應該蠻容易的
