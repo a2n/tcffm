@@ -41,3 +41,4 @@
 19:27 < guildwar> HTTP/1.1 200 OK
 19:27 < guildwar> Date: Sun, 23 Mar 2014 11:26:30 GMT
 19:27 < guildwar> Server: Apache
+19:27 < guildwar> X-XRDS-Location: http://www.gamebase.com.tw/etc/api/ibo_openod_xrds.php
