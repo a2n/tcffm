@@ -21,3 +21,4 @@
 11:53 < harobot> http://nakkaya.com/2010/02/10/a-simple-clojure-irc-client/
 11:59 < haroldwu_> 回臺中後在把之前寫的 parser 挪過來，應該蠻容易的
 14:40 < brli> gpg加密的壓縮檔一般而言應該很安全？
+14:41 < brli> 在私鑰確定安全的情況下
