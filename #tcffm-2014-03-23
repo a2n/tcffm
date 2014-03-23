@@ -37,3 +37,4 @@
 19:23 < guildwar> 該不會是我的 ISP 吧
 19:26 < a2n> guildwar: curl -I www.gamebase.com.tw 貼來看看
 19:26 < guildwar> X-XRDS-Location: http://www.gamebase.com.tw/etc/api/ibo_openod_xrds.php
+19:27 < a2n> 第一行是 HTTP/1.1 200 OK ?
