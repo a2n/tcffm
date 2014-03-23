@@ -40,3 +40,4 @@
 19:27 < a2n> 第一行是 HTTP/1.1 200 OK ?
 19:27 < guildwar> HTTP/1.1 200 OK
 19:27 < guildwar> Date: Sun, 23 Mar 2014 11:26:30 GMT
+19:27 < guildwar> Server: Apache
