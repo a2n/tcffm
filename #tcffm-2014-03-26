@@ -107,3 +107,4 @@
 23:45 < guildwar> 用 users 參數，應該任何人都能存取
 23:48 < erhandsome> flush - The vfat option to flush data more often, thus making copy dialogs or progress bars to stay up until all data is written.
 23:49 < erhandsome> 其实我是google抄来的，然后自己改了几个参数 0.0
+23:55 < haroldwu> guildwar: udisks 的 user 參數嗎？
