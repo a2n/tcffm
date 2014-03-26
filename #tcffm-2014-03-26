@@ -32,3 +32,4 @@
 21:37 < guildwar> 直接試了就知道，用過的都說讚 XD
 21:40 < brli> ff29 ++
 21:58 < guildwar> RPi 上更新的 daemon 卡住，而且卡死了，用 kill -9 也砍不掉，試了 -1, -3, -8, -9, -15 都砍不掉，導致目前無法自動更新及用 apt-get 安裝新 package，除了重開機外，還有沒有其他方法呢?
+21:58 < guildwar> root     12785     1  0 Mar22 ?        00:00:00 /usr/bin/python /usr/bin/unattended-upgrade
