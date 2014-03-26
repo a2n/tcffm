@@ -110,3 +110,4 @@
 23:55 < haroldwu> guildwar: udisks 的 user 參數嗎？
 23:55 < guildwar> 不是，mount 的，不過我剛試了 vfat ，用 users 好像沒效果
 23:56 < guildwar> 要多人共用，還是用 udev 寫好 rules, mode 改成 755 之類的比較方便，udisks 比較適合自己用
+--- Log closed 四  3月 27 00:00:01 2014
