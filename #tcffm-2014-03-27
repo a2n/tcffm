@@ -3,3 +3,4 @@
 00:08 < guildwar> ok, 試了剛才 erhandsome 的 udev rule, 只要將 uid 及 gid 改成你的環境就可以讓多人使用
 00:09 < guildwar> 不過 umount 還是要 root，可配合 pumount 來讓一般使用者也能 unmount
 00:09 < haroldwu> 好喔，這樣應該容易點
+00:17 < haroldwu> 現在有隻我寫的新機器人在 #cmutalk
