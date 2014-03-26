@@ -1,3 +1,4 @@
 --- Log opened 四  3月 27 00:00:01 2014
 00:05 < haroldwu> 明天試試，再回報各位結果
 00:08 < guildwar> ok, 試了剛才 erhandsome 的 udev rule, 只要將 uid 及 gid 改成你的環境就可以讓多人使用
+00:09 < guildwar> 不過 umount 還是要 root，可配合 pumount 來讓一般使用者也能 unmount
