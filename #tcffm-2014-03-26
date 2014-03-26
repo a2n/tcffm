@@ -96,3 +96,4 @@
 23:36 < guildwar> udev 要用 root 才能掛，udisks 或 udisksctl 用一般 user 即可
 23:37 < erhandsome> udev可以写规则，普通用户也能用
 23:38 < guildwar> 但是寫規則要用 root 寫 XD
+23:39 < erhandsome> 哈哈
