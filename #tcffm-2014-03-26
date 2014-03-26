@@ -93,3 +93,4 @@
 23:33 < haroldwu> 對，就是 udev
 23:33 < haroldwu> 感謝
 23:35 < guildwar> udisks
+23:36 < guildwar> udev 要用 root 才能掛，udisks 或 udisksctl 用一般 user 即可
