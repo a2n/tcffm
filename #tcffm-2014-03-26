@@ -106,3 +106,4 @@
 23:44 < haroldwu> 用 ubuntu 的 nautilus 掛的話，另外一個無法存取
 23:45 < guildwar> 用 users 參數，應該任何人都能存取
 23:48 < erhandsome> flush - The vfat option to flush data more often, thus making copy dialogs or progress bars to stay up until all data is written.
+23:49 < erhandsome> 其实我是google抄来的，然后自己改了几个参数 0.0
