@@ -7,3 +7,4 @@
 00:17 < haroldwu> 大家可以去玩弄看看
 01:02 < guildwar> 用 udevil 也不錯，一般 user 可 mount 及 umount(setuid)，配合 devmon daemon,　可自動掛載
 01:03 < guildwar> https://bbs.archlinux.org/viewtopic.php?id=112502
+01:03 < guildwar> http://ignorantguru.github.io/udevil/
