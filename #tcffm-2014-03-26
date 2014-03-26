@@ -46,3 +46,4 @@
 22:07 < haroldwu> erhandsome: 我是用 aurora 美國版，放在家目錄下，會自動更新蠻不錯的 :P
 22:08 < erhandsome> haroldwu: 总觉得用包管理器心里舒服...
 22:10 < haroldwu> XDD 我各種脫離包管理了，像 python 我都是在 virtualenv 下辦事
+22:11 < haroldwu> 包管理缺點就是都要等人更新，好處是有測試過的源比較穩定
