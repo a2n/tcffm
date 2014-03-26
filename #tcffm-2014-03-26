@@ -38,3 +38,4 @@
 22:00 < guildwar> E: Could not get lock /var/lib/dpkg/lock - open (11: Resource temporarily unavailable)
 22:01 < brli> rm /var/lib/dpkg/lock ?
 22:01 < guildwar> 試試
+22:02 < erhandsome> gentoo稳定版firefox最高还是27...
