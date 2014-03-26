@@ -37,3 +37,4 @@
 22:00 < guildwar> 下 apt-get update 最後會出現
 22:00 < guildwar> E: Could not get lock /var/lib/dpkg/lock - open (11: Resource temporarily unavailable)
 22:01 < brli> rm /var/lib/dpkg/lock ?
+22:01 < guildwar> 試試
