@@ -5,3 +5,4 @@
 00:09 < haroldwu> 好喔，這樣應該容易點
 00:17 < haroldwu> 現在有隻我寫的新機器人在 #cmutalk
 00:17 < haroldwu> 大家可以去玩弄看看
+01:02 < guildwar> 用 udevil 也不錯，一般 user 可 mount 及 umount(setuid)，配合 devmon daemon,　可自動掛載
