@@ -34,3 +34,4 @@
 21:58 < guildwar> RPi 上更新的 daemon 卡住，而且卡死了，用 kill -9 也砍不掉，試了 -1, -3, -8, -9, -15 都砍不掉，導致目前無法自動更新及用 apt-get 安裝新 package，除了重開機外，還有沒有其他方法呢?
 21:58 < guildwar> root     12785     1  0 Mar22 ?        00:00:00 /usr/bin/python /usr/bin/unattended-upgrade
 21:58 < guildwar> 其實本來有二個 unattended-upgrade processes，但其中一個被我用 -9 砍了，這一個就砍不掉
+22:00 < guildwar> 下 apt-get update 最後會出現
