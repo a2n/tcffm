@@ -41,3 +41,4 @@
 22:02 < erhandsome> gentoo稳定版firefox最高还是27...
 22:02 < guildwar> 直接 mozilla.org 下載，裝在家目錄下試就好 XD
 22:04 < guildwar> brli: 砍了 lock 檔後，apt-get 就可以用了，不過那個 zombie process 還卡在那裡，砍不掉有點不爽 XD
+22:04 < erhandsome> 改进也不是太大，没多大必要
