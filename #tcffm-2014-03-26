@@ -35,3 +35,4 @@
 21:58 < guildwar> root     12785     1  0 Mar22 ?        00:00:00 /usr/bin/python /usr/bin/unattended-upgrade
 21:58 < guildwar> 其實本來有二個 unattended-upgrade processes，但其中一個被我用 -9 砍了，這一個就砍不掉
 22:00 < guildwar> 下 apt-get update 最後會出現
+22:00 < guildwar> E: Could not get lock /var/lib/dpkg/lock - open (11: Resource temporarily unavailable)
