@@ -89,3 +89,4 @@
 23:26 < haroldwu> 問一下，一些檔案管理器可以把硬碟分割區掛到 /media
 23:26 < haroldwu> 這個服務叫什麼名字呀？
 23:27 < erhandsome> udev?
+23:27 < erhandsome> 我用udev规则挂载usb
