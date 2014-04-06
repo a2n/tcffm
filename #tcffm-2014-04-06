@@ -1,3 +1,4 @@
 --- Log opened 日  4月 06 00:00:34 2014
 11:49 < guildwar> haroldwu: ok, 下次有空來去看看好了
 11:56 < guildwar> 最近將 kernel 換成了 linux-libre (由 gnu patch 過的完全 free 版本的 kernel)，http://www.fsfla.org/ikiwiki/selibre/linux-libre/
+12:02 < guildwar> 在使用上沒什麼問題，但前二天發現無線網卡很不穩定，會一下子卡住，一下子又恢復，實在無法正常使用，但又不想放棄使用 linux-libre，所以裝了 broadcom-wl-dkms 來使用 broadcom 官方的 firmware，就可以正常使用了
