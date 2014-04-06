@@ -5,3 +5,4 @@
 12:04 < guildwar> 說錯，wl 是 broadcom 官方的 driver
 12:05 < guildwar> 原本是配合 open source 的 b43 driver，會有問題
 12:55 < guildwar> 試了 3.10.x 及 3.12.x 都一樣，改天再來試 3.13 及 3.14 好了
+22:47 <@haroldwu> 拿到 github 那個編輯器 atom，結果只支援 Mac
