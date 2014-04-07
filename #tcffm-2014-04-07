@@ -2,3 +2,4 @@
 10:14 -!- mode/#tcffm [+o haroldwu] by ChanServ
 15:17 < a2n> 最近看到同事用 chown user0. DIR0 變更 DIR0 擁有者為用戶 user0 和預設群組，沒見過 '.' 的用法。翻了手冊才知道這是舊系統的設計，新的鼓勵使用 ':'。所以，如果使用 chown user0: DIR0 也有同樣效果。 *長知識*
 15:22 < a2n> gnu coreutils 8.13 是 posix 1003.1-2001，而 freebsd 是 posix 1003.1-1992。2001 已經沒有強致規定，但是 gnu 做了相容 :)
+16:14 < a2n> names
