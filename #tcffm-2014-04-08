@@ -19,3 +19,4 @@
 14:42 < macint0sh> gentoo好像也有
 14:42 < macint0sh> 上班走了
 15:10 < guildwar> 看起來 gentoo 應該還沒更新 openssl，  http://www.gentoo.org/security/en/glsa/ 最新到 2014-04-05
+15:45 < hmchen> 各位有遇過 traceroute 會到, 但 ping 跟實際連線卻不通的狀況嗎?
