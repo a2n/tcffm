@@ -11,3 +11,4 @@
 07:53 [ a2n ] [ darkx   ] [ haroldwu  ] [ petercommand11] 
 07:53 [ brli] [ guildwar] [ op_logbot_] 
 07:53 -!- Irssi: #tcffm: Total of 7 nicks [0 ops, 0 halfops, 0 voices, 7 normal]
+07:55 < a2n> 英譯：如果在 tmux.conf 打開 xterm-keys，還需要建立一個客制的 terminfo，否則程式無法得知終端資訊。
