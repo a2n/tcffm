@@ -6,3 +6,4 @@
 16:16 < haroldwu> 唔，這樣好多東西都要重弄了 XD
 16:37 < guildwar> 沒辦法，不然你跟他拚看看嘛，搞不好小站沒人來偷你的 private key XD
 16:50 < guildwar> 用這個來檢查你的 web server 是否有這漏洞  https://github.com/FiloSottile/Heartbleed
+16:52 < guildwar> 用 sudo lsof +c 0 | grep -w DEL | awk '1 { print $1 ": " $NF }' | grep ssl  來檢查目前系統上要重啟的 services
