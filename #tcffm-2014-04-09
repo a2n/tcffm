@@ -22,3 +22,4 @@
 22:47 < haroldwu> 例如原本我按 Ctrl-<right> 變成 M-[ D
 22:48 < haroldwu> 查了一下，好像要用下面的設定（寫在 .tmux.conf）
 22:48 < haroldwu> set-window-option -g xterm-keys on
+--- Log closed 四  4月 10 00:00:39 2014
