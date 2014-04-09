@@ -14,3 +14,4 @@
 20:13 < haroldwu> 喔那跟我就沒關係了...
 20:13 < haroldwu> 再說我只有交出 pubkey 應該沒差？
 20:14 < guildwar> 有 ssh server 在網路上可登入就有差
+20:42 < haroldwu> 瞭解，那我還是換一個 ssh key pair
