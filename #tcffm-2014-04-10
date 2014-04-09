@@ -6,3 +6,4 @@
 01:02 < guildwar> erhandsome: 還在研究中 XD
 01:03 < guildwar> 試不出個所以然 :)
 01:03 < erhandsome> guildwar: 看英文没看懂...
+01:03 < erhandsome> If you enable xterm-keys in your tmux.conf, then you need to build a custom terminfo to declare the new escape codes or applications will not know about them.
