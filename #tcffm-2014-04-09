@@ -2,3 +2,4 @@
 15:52 < haroldwu> 除更新OpenSSL外，因這次漏洞有洩漏key疑慮，強烈建議有用到OpenSSL函式庫重要服務（ssh、https、smtp、．．．）的key也要處理，有用ssh登入過的重要機器最好重設密碼
 15:52 < haroldwu> 這個的意思是什麼？（從別人的網頁看到的）
 15:54 < brli> haroldwu: 簡單講，就是要使用者全部重新產生新key，重設信任鑰匙圈之類的吧？
+15:58 < guildwar> 因為連 private key 都會被取得了，當然所有都偠重置了
