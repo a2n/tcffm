@@ -8,3 +8,4 @@
 16:50 < guildwar> 用這個來檢查你的 web server 是否有這漏洞  https://github.com/FiloSottile/Heartbleed
 16:52 < guildwar> 用 sudo lsof +c 0 | grep -w DEL | awk '1 { print $1 ": " $NF }' | grep ssl  來檢查目前系統上要重啟的 services
 17:10 < haroldwu> 我沒有 webserver XDD
+17:10 < haroldwu> 唔，github 那邊的公鑰得換一個
