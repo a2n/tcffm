@@ -7,3 +7,7 @@
 01:03 < guildwar> 試不出個所以然 :)
 01:03 < erhandsome> guildwar: 看英文没看懂...
 01:03 < erhandsome> If you enable xterm-keys in your tmux.conf, then you need to build a custom terminfo to declare the new escape codes or applications will not know about them.
+07:53 [Users #tcffm]
+07:53 [ a2n ] [ darkx   ] [ haroldwu  ] [ petercommand11] 
+07:53 [ brli] [ guildwar] [ op_logbot_] 
+07:53 -!- Irssi: #tcffm: Total of 7 nicks [0 ops, 0 halfops, 0 voices, 7 normal]
