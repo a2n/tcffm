@@ -3,3 +3,4 @@
 00:54 < guildwar> 原來 tmux 可以設定 xterm-keys，害我目前做法是在最後面 unbind Up，將上下左右 unbind，來試試 xterm-keys
 00:56 < erhandsome> inxi很棒的
 01:02 < erhandsome> guildwar: 这个xterm-keys有什么用
+01:02 < guildwar> erhandsome: 還在研究中 XD
