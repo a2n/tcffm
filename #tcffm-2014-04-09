@@ -4,3 +4,4 @@
 15:54 < brli> haroldwu: 簡單講，就是要使用者全部重新產生新key，重設信任鑰匙圈之類的吧？
 15:58 < guildwar> 因為連 private key 都會被取得了，當然所有都偠重置了
 16:16 < haroldwu> 唔，這樣好多東西都要重弄了 XD
+16:37 < guildwar> 沒辦法，不然你跟他拚看看嘛，搞不好小站沒人來偷你的 private key XD
