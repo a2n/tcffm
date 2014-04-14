@@ -62,3 +62,4 @@
 22:59 < guildwar> 那就應該不用了，我想位置放不同地方
 22:59 < guildwar> find /lib/modules/ -name "nvidia.ko*"
 23:00 < guildwar> 搞不好已經掛了  lsmod |grep nvidia
+23:00 < haroldwu> 也沒有
