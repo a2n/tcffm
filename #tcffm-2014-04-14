@@ -116,3 +116,4 @@
 23:18 < erhandsome> 我现在倒是能进入dota，就是整个屏幕都是灰色的...
 23:18 < erhandsome> 人物只有鼠标移到身上时才有绿色
 23:19 < guildwar> https://wiki.archlinux.org/index.php/Intel_Graphics 裡面有
+23:19 < guildwar> Option      "AccelMethod"  "uxa"
