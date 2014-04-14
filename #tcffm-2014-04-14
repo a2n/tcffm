@@ -77,3 +77,7 @@
 23:03 < haroldwu> 我瞧瞧
 23:04 < haroldwu> 我直接貼了喔，不另開 pastebin
 23:04 < haroldwu> -> % tail /var/log/Xorg.0.log
+23:04 < haroldwu> [    71.541] (II) NVIDIA(0): Setting mode "NULL"
+23:04 < haroldwu> [    72.661] (II) NVIDIA(0): Setting mode "VGA-0: nvidia-auto-select @1920x1080 +0+0 {ViewPortIn=1920x1080, ViewPortOut=1920x1080+0+0}"
+23:04 < guildwar> 你查一下 nvdia 所有的包，要有 64 bit 的，然後要有相對應的 32 bit 的包
+23:04 < haroldwu> [ 17556.403] (II) NVIDIA(GPU-0): Display (Acer P236HL (CRT-0)) does not support NVIDIA 3D
