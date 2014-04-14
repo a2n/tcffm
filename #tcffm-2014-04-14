@@ -46,3 +46,4 @@
 22:49 < guildwar> 我沒在 arch 裝過 nvidia 就是，試試看 XD
 22:49 < haroldwu> nvidia.ko 怎麼看？
 22:50 < guildwar> find /lib/modules/`uname -r`/ -name "nvidia.ko*"
+22:50 < haroldwu> 沒有這東西耶 @@
