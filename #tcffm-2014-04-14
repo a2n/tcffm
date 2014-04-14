@@ -68,3 +68,4 @@
 23:01 < haroldwu> drm                   237667  2 nvidia
 23:01 < haroldwu> i2c_core               24824  4 drm,nvidia,i2c_nforce2,videodev
 23:01 < haroldwu> 這是輸出
+23:01 < guildwar> 有啊 nvidia 就是
