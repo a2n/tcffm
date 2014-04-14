@@ -73,3 +73,4 @@
 23:01 < guildwar> 是遊戲不能開，還是很慢?
 23:02 < haroldwu> 不能開
 23:02 < haroldwu> 他說沒有 opengl 志願
+23:02 < guildwar> post /var/log/Xorg.0.log
