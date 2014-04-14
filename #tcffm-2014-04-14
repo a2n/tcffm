@@ -118,3 +118,4 @@
 23:19 < guildwar> https://wiki.archlinux.org/index.php/Intel_Graphics 裡面有
 23:19 < guildwar> Option      "AccelMethod"  "uxa"
 23:23 < erhandsome> gentoo 只要加个uxa的use就好了 0.0
+23:23 < guildwar> 了解，可是要重編滿久的吧 :)
