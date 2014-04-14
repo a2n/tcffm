@@ -6,3 +6,4 @@
 00:12 < haroldwu> 射擊類的比較帶勁
 00:40 < guildwar> haroldwu: 我裝了 nvidia driver 可以玩耶
 00:41 < guildwar> 你 steam  packages 是裝什麼？ steam-runtime ?
+00:42 < guildwar> 我有將 nouveau 給 blacklist 起來就是，這樣開機才不會載入
