@@ -64,3 +64,6 @@
 23:00 < guildwar> 搞不好已經掛了  lsmod |grep nvidia
 23:00 < haroldwu> 也沒有
 23:00 < haroldwu> lsmod 我應該預期看到什麼？
+23:01 < haroldwu> nvidia              10736308  41
+23:01 < haroldwu> drm                   237667  2 nvidia
+23:01 < haroldwu> i2c_core               24824  4 drm,nvidia,i2c_nforce2,videodev
