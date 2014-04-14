@@ -60,3 +60,4 @@
 22:56 < guildwar> 水喔
 22:59 < haroldwu> nvidia-dkms 跟 nvidia 衝突 @@
 22:59 < guildwar> 那就應該不用了，我想位置放不同地方
+22:59 < guildwar> find /lib/modules/ -name "nvidia.ko*"
