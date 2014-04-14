@@ -48,3 +48,4 @@
 22:50 < guildwar> find /lib/modules/`uname -r`/ -name "nvidia.ko*"
 22:50 < haroldwu> 沒有這東西耶 @@
 22:51 < guildwar> 那就要裝 nvidia-dkms ，然後編出 nvidia.ko.gz
+22:52 < haroldwu> 我只是想玩個 steam 呀... QQ
