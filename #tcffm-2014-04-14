@@ -38,3 +38,4 @@
 22:45 < haroldwu> 來問一下 lib32 + nvidia + opengl 要怎麼弄
 22:46 < haroldwu> lib32-nvidia-304xx-utils 已裝
 22:46 < guildwar> 64bit 的也要裝
+22:47 < haroldwu> 64 bit 的我有 extra/nvidia 334.21-4
