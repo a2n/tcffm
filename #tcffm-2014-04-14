@@ -86,3 +86,4 @@
 23:04 < haroldwu> [ 17556.403] (II) NVIDIA(GPU-0): Display (Chi Mei Optoelectronics corp. (DFP-0)) does not
 23:04 < haroldwu> [ 17556.404] (II) NVIDIA(GPU-0):     support NVIDIA 3D Vision stereo.
 23:04 < haroldwu> [ 21519.923] (II) NVIDIA(GPU-0): Display (Acer P236HL (CRT-0)) does not support NVIDIA 3D
+23:04 < haroldwu> [ 21519.923] (II) NVIDIA(GPU-0):     Vision stereo.
