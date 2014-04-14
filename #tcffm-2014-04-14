@@ -53,3 +53,4 @@
 22:53 < haroldwu> 那個效能有點差 :P
 22:53 < guildwar> 我目前也是用 nouveau 就可以玩了說
 22:53 < haroldwu> 好吧，dkms aur 有包
+22:54 < guildwar> 要用 nvidia driver, 那就一定要編 nvidia.ko 才行啦
