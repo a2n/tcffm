@@ -11,3 +11,4 @@
 00:43 < guildwar> 可能是你沒將 nouveau 給 blacklist 吧
 19:42 < haroldwu> 我沒裝 nouveau
 19:48 < haroldwu> 我裝 mutlilib/steam
+19:58 < guildwar> 要不要將完整 /var/log/Xorg.0.log 弄來看看
