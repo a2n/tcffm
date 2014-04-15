@@ -37,3 +37,4 @@
 20:36 < s8321414> 結果是版本問題嗎...囧
 20:38 < guildwar> 哦，lib32 的版本不合啦 :)
 20:42 < guildwar> 很好奇，為什麼你的 nouveau 沒自動掛載，我的有耶，還要手動 blacklist nouveau 才行
+--- Log closed 三  4月 16 00:00:48 2014
