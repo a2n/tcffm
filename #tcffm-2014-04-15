@@ -13,3 +13,4 @@
 19:48 < haroldwu> 我裝 mutlilib/steam
 19:58 < guildwar> 要不要將完整 /var/log/Xorg.0.log 弄來看看
 20:00 < haroldwu> 好，我弄到 pastebin
+20:03 < guildwar> 我說的 nouveau 是核心模組，預設應該是有掛載，lsmod|grep nouveau 看看
