@@ -30,3 +30,4 @@
 20:22 < haroldwu> guildwar: 我的 nvidia 安裝 http://p.vim-cn.com/cby8
 20:23 < s8321414> 安裝部份都照上面的應該不會有問題...
 20:23 < haroldwu> 是顯卡驅動的部分
+20:25 < s8321414> 是不是因為lib32的驅動跟64bit的驅動版本不同的原因?
