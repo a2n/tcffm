@@ -16,3 +16,4 @@
 20:03 < guildwar> 我說的 nouveau 是核心模組，預設應該是有掛載，lsmod|grep nouveau 看看
 20:05 < haroldwu> http://p.vim-cn.com/cby7
 20:05 < haroldwu> 空的，沒有 nouveau
+20:06 < guildwar> ok, 沒有就好
