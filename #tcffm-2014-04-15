@@ -10,3 +10,4 @@
 00:43 < guildwar> 總共裝了 nvidia, nvidia-libgl, nvidia-utils, lib32-nvidia-libgl, lib32-nvidia-utils
 00:43 < guildwar> 可能是你沒將 nouveau 給 blacklist 吧
 19:42 < haroldwu> 我沒裝 nouveau
+19:48 < haroldwu> 我裝 mutlilib/steam
