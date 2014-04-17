@@ -38,3 +38,4 @@
 14:01 < haroldwu> debian 到底怎麼安裝還是一頭霧水 XD 網站超亂的
 14:01 < guildwar> 拜託，現在 debian 也有圖形化安裝介面了啊 XD
 14:03 < guildwar> https://lists.debian.org/debian-devel-announce/2014/03/msg00004.html
+14:04 < guildwar> 至於 debian squeeze 為什麼要有 LTS，有一部份原因是因為之前 debian 上太空了，那些太空人需要 support :)
