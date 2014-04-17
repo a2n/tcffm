@@ -41,3 +41,4 @@
 14:04 < guildwar> 至於 debian squeeze 為什麼要有 LTS，有一部份原因是因為之前 debian 上太空了，那些太空人需要 support :)
 14:08 < haroldwu> XDD
 14:08 < haroldwu> 不是，我的意思是要載什麼東西？liveDVD？
+14:09 < guildwar> 一般我都用 network-install image, 沒網路就用 CD-1 第一片即可
