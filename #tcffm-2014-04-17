@@ -44,3 +44,26 @@
 14:09 < guildwar> 一般我都用 network-install image, 沒網路就用 CD-1 第一片即可
 14:09 < guildwar> live 是另一種的，不過 live 都會比正式的安裝片慢一陣子
 14:20 < haroldwu> 瞭解
+--- Log opened 四  4月 17 21:36:49 2014
+21:36 -!- Topic for #tcffm: 臺中自由軟體愛好者聚會 TcFFM 郵件列表: http://bit.ly/tcffm-forum | IRC-log：https://github.com/a2n/tcffm/ | 論壇：http://tcffm.twgogo.org/
+21:36 -!- Topic set by haroldwu [~haroldwu@unaffiliated/haroldwu] [Fri Jan  3 11:35:31 2014]
+21:36 [Users #tcffm]
+21:36 [ a2n ] [ darkx     ] [ guildwar ] [ mosiwang  ] [ petercommand11] 
+21:36 [ brli] [ erhandsome] [ haroldwu^] [ op_logbot_] [ s8321414      ] 
+21:36 -!- Irssi: #tcffm: Total of 10 nicks [0 ops, 0 halfops, 0 voices, 10 normal]
+21:36 -!- Channel #tcffm created Fri Aug  9 21:35:26 2013
+21:36 -!- Irssi: Join to #tcffm was synced in 8 secs
+21:59 -!- mode/#tcffm [+o haroldwu] by ChanServ
+21:59 <@haroldwu> 回來了 XD
+22:01 < guildwar> 準備要開始戰 doa2 了 XD
+22:02 < guildwar> 來看人家 live 打的狀況 :)
+22:03 < guildwar> 可惡，看人打要買 ticket 喔，算了，不看
+22:04 < guildwar> 有些不用 ticket
+22:11 <@haroldwu> 那是什麼？
+22:11 <@haroldwu> 我今天不能打，明天有考試
+22:11 <@haroldwu> 週日再戰
+22:11 < guildwar> 就是看別人的對戰
+22:11 <@haroldwu> XDDD
+22:47 <@haroldwu> 裝 pandoc，各種困難 :P
+22:48 <@haroldwu> 最後選擇用 haskell 的包管理器 cabal 裝，不用以 git/svn/hg 當來源的 aur
+--- Log closed 五  4月 18 00:00:49 2014
