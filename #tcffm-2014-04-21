@@ -1,2 +1,3 @@
 --- Log opened 一  4月 21 00:00:53 2014
 06:23 <@haroldwu> 終於知道 xterm-keys 跟 screen-256color 是什麼意思跟差別了 @@
+06:24 <@haroldwu> 已經編了 xterm-screen-256color，這樣就不怕 tmux 攔截我的按鍵了
