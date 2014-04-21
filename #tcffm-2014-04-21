@@ -97,3 +97,4 @@
 22:22 < haroldwu> inactive 的
 22:22 < guildwar> 還是搞不懂， minecraft 裡要填的是 server ip，所以你現在只是當 vpn client?
 22:23 < guildwar> 你的 iptables rule 預設 output 應該是全開，只有出去應該沒問題
+22:23 < guildwar> 有沒有 server ip 可 ping 看看通了沒?
