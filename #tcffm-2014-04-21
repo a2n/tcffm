@@ -12,3 +12,4 @@
 14:51 < guildwar> 用分散式的 XMPP + otr 比較適合 :)
 14:57 < guildwar> 之前的 tox 應該也是 p2p 的吧
 14:59 < guildwar> 看來目前最有望的應該是 webRTC 了
+15:14 < guildwar> 這二天發現 debian jessie 的 apt 升到 1.0，現在有一個指令叫 apt，統一常用的 apt-get 及 apt-cache 指令，方便了不少，一般人比較不會搞不清什麼時候用 apt-get、什麼時候用 apt-cache
