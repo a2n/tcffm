@@ -3,3 +3,4 @@
 06:24 <@haroldwu> 已經編了 xterm-screen-256color，這樣就不怕 tmux 攔截我的按鍵了
 06:24 <@haroldwu> 唔，還是會...QAQ
 13:52 < a2n> haroldwu: 攔截哪些按鍵？
+14:47 < haroldwu> Ctrl+上下左右
