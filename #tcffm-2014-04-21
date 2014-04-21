@@ -127,3 +127,4 @@
 22:55 < Joey___> guildwar: thx
 22:56 < guildwar> 只聽過同一個相同的檔案，不同 mirror 間都有，可用支援 FISH protocol 的程式來抓，但沒聽過同一個 server 的同一個檔案可以同時讓人不同 ip 切半抓的
 22:57 < haroldwu> Joey___: aria2 只能存取一個進程存取一個檔案
+22:58 < guildwar> 有工具像 flashget 一樣，同一個檔可分段抓，抓完再組回去，但是同一個 ip 出去
