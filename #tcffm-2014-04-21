@@ -112,3 +112,4 @@
 22:49 < guildwar> Joey___: 後來想了一下，因為二條路徑是不同 ip，對 server 來說，沒辦法同一個檔案讓二個 ip 同時下載吧，所以只能用在不同程式間同時使用才對
 22:50 < haroldwu> 我後來也是試 25.179.186.153，但 connection time out
 22:51 < haroldwu> 我猜應該是要同意連入才能進去？
+22:51 < guildwar> ok
