@@ -94,3 +94,4 @@
 22:19 < guildwar> ok
 22:20 < haroldwu> iptables 關
 22:20 < guildwar> 沒錯，因為 iptables 裡沒有讓 ham0 通過
+22:22 < haroldwu> inactive 的
