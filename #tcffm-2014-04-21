@@ -101,3 +101,4 @@
 22:27 < guildwar> 等等來試試 eth0 + wlan0 看會不會動 XD
 22:29 < haroldwu> hamachi list
 22:29 < haroldwu> 出現了一個 network 跟一個可以 ping 的 server ip
+22:30 < haroldwu> 但是那個 server ip 不能連
