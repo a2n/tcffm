@@ -41,3 +41,4 @@
 15:56 < guildwar> https://archwomen.org/media/project_classroom/classlogs/2014-04-19-pkgbuilds_16%3a00-UTC.txt
 16:14 < guildwar> hmchen: 你之前有試將 places.sqlite 放到另一台電腦底下去用可行嗎？ 我前二天有試，丟進去，但看書籤並沒有變新的，還有哪裡要動嗎?
 16:32 < guildwar> 沒事，我現在試可以，直接取代原本的 places.sqlite，之前可能快睡著了 :)
+16:33 < guildwar> 不對，有點怪怪的，書籤內容不是最新的，看來還是要用 backup 及 restore 才好
