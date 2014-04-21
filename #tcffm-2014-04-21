@@ -93,3 +93,4 @@
 22:19 < haroldwu> 認知上是要把 ham0 的 ip 填入 minecraft 的 ip 裏面？
 22:19 < guildwar> ok
 22:20 < haroldwu> iptables 關
+22:20 < guildwar> 沒錯，因為 iptables 裡沒有讓 ham0 通過
