@@ -46,3 +46,4 @@
 23:39 < haroldwu> 它大部分的功能都是用 emacs lisp 寫的，解釋器會把這些功能編成 bytecode 方便快速執行
 23:39 < haroldwu> arch 應該可以
 23:39 < haroldwu> 你知道，PKGBUILD 可以設定 conflict
+23:39 < guildwar> 沒 aur 的話，package 太少了
