@@ -3,3 +3,4 @@
 11:08 < guildwar> Joey___: 可以用 nick 來將名稱改成不要有三個底線 :)
 11:10 < guildwar> Joey___: 參考這篇四樓的題外話，基本上這方法不會超過原本頻寬才對，http://www.ubuntu-tw.org/modules/newbb/viewtopic.php?post_id=141202
 11:11 < guildwar> 倒是可以考慮用 bonding 的方式，不過要 switch 有支援就是，不便宜
+14:17 < guildwar> 剛才知道 ubuntu, kubuntu 14.04 support 5 年，但 lubuntu 和 xubunbu 只有 3 年，本來以為都一樣 5 年說
