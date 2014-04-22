@@ -62,3 +62,4 @@
 23:49 < guildwar> 相依性原本維護者設什麼就是什麼，不變啊，只做最佳化
 23:50 < haroldwu> 哦哦，等於重編？
 23:50 < guildwar> 是，之前有 apt-build 可用，但後來沒人維護了
+23:52 < guildwar> 可是這樣剛好相反，我想預設是 source，趕時間才裝 binary
