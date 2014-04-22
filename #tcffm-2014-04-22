@@ -58,3 +58,4 @@
 23:46 < guildwar> make 在編 package 時的 gcc 參數啊，可下某些對什麼 sse4.1 最佳化什麼的
 23:47 < guildwar> 錯了，是 CFLAGS 在 arch 的 /etc/makepkg 裡也有，但預設是 -mtune=generic 而已
 23:48 < guildwar> 還有 CXXFLAGS
+23:49 < haroldwu> 不是，我問的是相依的問題
