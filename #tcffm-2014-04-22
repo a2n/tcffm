@@ -68,3 +68,4 @@
 23:54 < haroldwu> archwiki 不是有一篇在教如何在別的 distribution 用 pacman？
 23:54 < haroldwu> 你可以 gentoo + pacman
 23:54 < guildwar> 不喜歡，還是用原生的比較沒問題啦
+23:55 < guildwar> 之前在 redhat 上用 apt，裝到後來垃圾殘留一堆
