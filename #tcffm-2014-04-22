@@ -41,3 +41,4 @@
 23:35 < guildwar> 你乾脆改裝 emacs-git 好了，隨時體驗最新的 :)
 23:35 < guildwar> 不過要編滿久的吧
 23:38 < haroldwu> 大概 3 hr
+23:38 < haroldwu> emacs 其實核心不大，就一個 lisp 解釋器
