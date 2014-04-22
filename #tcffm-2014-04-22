@@ -63,3 +63,4 @@
 23:50 < haroldwu> 哦哦，等於重編？
 23:50 < guildwar> 是，之前有 apt-build 可用，但後來沒人維護了
 23:52 < guildwar> 可是這樣剛好相反，我想預設是 source，趕時間才裝 binary
+23:52 < guildwar> 或是少數太大像 libreoffice 之類的就不編了
