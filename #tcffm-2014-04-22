@@ -1,3 +1,4 @@
 --- Log opened 二  4月 22 00:00:54 2014
 11:07 < guildwar> 試了 eth0+wlan0，設 net.ipv4.conf.all.rp_filter=0，使用 lftp pget 來分５段抓一個 iso，用 iftop 看有看到３段是走 eth0，２段走 wlan0，但 lftp 所看到的總頻寬是 3.73MB (約 29.84Mbit)，結論，不知道是我的網頻寬限制的關係還是怎樣，並沒有比較快，大致上和原本只走 eth0 是一樣的
 11:08 < guildwar> Joey___: 可以用 nick 來將名稱改成不要有三個底線 :)
+11:10 < guildwar> Joey___: 參考這篇四樓的題外話，基本上這方法不會超過原本頻寬才對，http://www.ubuntu-tw.org/modules/newbb/viewtopic.php?post_id=141202
