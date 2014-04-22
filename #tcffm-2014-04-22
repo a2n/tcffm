@@ -59,3 +59,4 @@
 23:47 < guildwar> 錯了，是 CFLAGS 在 arch 的 /etc/makepkg 裡也有，但預設是 -mtune=generic 而已
 23:48 < guildwar> 還有 CXXFLAGS
 23:49 < haroldwu> 不是，我問的是相依的問題
+23:49 < guildwar> 相依性原本維護者設什麼就是什麼，不變啊，只做最佳化
