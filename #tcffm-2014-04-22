@@ -51,3 +51,4 @@
 23:40 < haroldwu> 例如你想要自己編、優化 libc
 23:40 < haroldwu> 但是 一堆包依賴的是 libc 不是 libc-guildwar XD
 23:41 < guildwar> 只要動 CCFLAGS 就好啊，其他不要動
+23:41 < guildwar> gentoo 就是如此啊
