@@ -65,3 +65,4 @@
 23:52 < guildwar> 可是這樣剛好相反，我想預設是 source，趕時間才裝 binary
 23:52 < guildwar> 或是少數太大像 libreoffice 之類的就不編了
 23:53 < haroldwu> 瞭解，不然就是 hack 一個 pacman
+23:54 < haroldwu> archwiki 不是有一篇在教如何在別的 distribution 用 pacman？
