@@ -47,3 +47,4 @@
 23:39 < haroldwu> arch 應該可以
 23:39 < haroldwu> 你知道，PKGBUILD 可以設定 conflict
 23:39 < guildwar> 沒 aur 的話，package 太少了
+23:40 < haroldwu> 欸，可是這有一個問題，相依的軟體會很麻煩
