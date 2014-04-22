@@ -44,3 +44,4 @@
 23:38 < haroldwu> emacs 其實核心不大，就一個 lisp 解釋器
 23:39 < guildwar> 一直夢想有一個 distribution，預設是從 source 編出來，由於是在自己機器上編的，除了最佳化，也最穩定，但趕時間時，可以直接裝相對應的 binary package，不知道有沒有這種的 XD
 23:39 < haroldwu> 它大部分的功能都是用 emacs lisp 寫的，解釋器會把這些功能編成 bytecode 方便快速執行
+23:39 < haroldwu> arch 應該可以
