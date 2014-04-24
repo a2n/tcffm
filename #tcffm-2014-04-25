@@ -9,3 +9,4 @@
 00:18 < haroldwu> 但是 h g f 是按照順序作用的，h() 沒結束前，f() 不會啓動
 00:19 < guildwar> ok, 然後?
 00:20 < haroldwu> 他舉的例子是 cat | sh
+00:20 < haroldwu> 就在 shell 裏面，f() g() h() 是同時運作的
