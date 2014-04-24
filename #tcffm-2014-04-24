@@ -59,3 +59,4 @@
 21:55 < guildwar> 下課
 22:01 < haroldwu> /us/bin/env 的源碼去哪兒找呢...
 22:01 < haroldwu> guildwar: environment variable 跟 shell 有關嗎？
+22:01 < haroldwu> 還是 shell 在啓動的時候會修改 environment variable 的值？
