@@ -11,3 +11,4 @@
 00:20 < haroldwu> 他舉的例子是 cat | sh
 00:20 < haroldwu> 就在 shell 裏面，f() g() h() 是同時運作的
 00:20 < haroldwu> 只是如果 h() 有輸出，會被送到 g() 的輸入去
+00:21 < guildwar> ok
