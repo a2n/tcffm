@@ -16,3 +16,4 @@
 00:37 < haroldwu> 其實我有看了最初的 sh
 00:38 < haroldwu> unix6 的 Thomsphen Shell
 00:38 < haroldwu> 代碼並不長，大概 2/3 是語法解析器，負責把命令轉換成某個內部結構，然後橋接數據流
+00:39 < haroldwu> 再來就是幾個特殊小函數了，例如 err() 重導向這種
