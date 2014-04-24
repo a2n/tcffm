@@ -77,3 +77,4 @@
 23:27 < guildwar> 不懂啦，你自己想辦法 XD，用 ps e 可看到某個程式有設定哪些環境變數
 23:29 < haroldwu> 環境變數的問題基本上已解決
 23:30 < guildwar> ok
+23:30 < haroldwu> 因爲那個呼叫起其他程式的 java 功能有個 env 參數 XD
