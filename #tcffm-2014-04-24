@@ -1,3 +1,4 @@
 --- Log opened 四  4月 24 00:00:57 2014
 13:36 < guildwar> 發現 pdf 檔 version 1.5 (用 file 檢查得到) 的在 linux 上無法開啟，用 evince 及 xpdf 都開不起來，有人遇過? 而 version 1.4 的可以
 13:39 < guildwar> 不對咧，有些 version 1.5 的還是開得起來，應該是這個檔案有問題
+14:43 < haroldwu> okular ?
