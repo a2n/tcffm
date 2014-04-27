@@ -36,3 +36,4 @@
 13:37 < guildwar> 錯了，-e 是非對稱式，-c 是對稱式才對 XD
 13:37 < brli> 對稱式的兩者都要一樣的私鑰，which is security thread!
 13:38 < brli> guildwar: :P
+13:38 < guildwar> 對稱式的就不用私鑰了，直接給對方 passphrase 就好
