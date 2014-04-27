@@ -2,3 +2,4 @@
 13:23 < brli> hi
 13:23 < guildwar> hi
 13:23 < brli> 問gpg問題：要怎麼加密檔案傳給別人？
+13:24 < guildwar> gpg -e
