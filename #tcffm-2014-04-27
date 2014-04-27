@@ -11,3 +11,4 @@
 13:26 < brli> 而不是大家都能看到，鑰匙只是拿來比對確認說這個檔案是我發的
 13:27 < guildwar> 先 tar 起來
 13:27 < brli> 那種比較像是Arch的repo的方法
+13:27 < guildwar> 資料夾乾脆用 encfs
