@@ -12,3 +12,4 @@
 13:27 < guildwar> 先 tar 起來
 13:27 < brli> 那種比較像是Arch的repo的方法
 13:27 < guildwar> 資料夾乾脆用 encfs
+13:28 < guildwar> 不過要讓別人也能存取，要再用其他方式 export 出去(如 nfs, sshfs 之類的)
