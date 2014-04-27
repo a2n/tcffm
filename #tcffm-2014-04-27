@@ -32,3 +32,4 @@
 13:34 < macint0sh> brli: 我还没安装
 13:35 < brli> 嗯
 13:35 < guildwar> brli: gnupg 可做二種加密方式，用 -e 加密配合 passphrase 是對稱式的，另外一種非對稱式的就是用對方公鑰加密，對方用私鑰解密
+13:36 < guildwar> 應該是吧，我再看仔細一點 XD
