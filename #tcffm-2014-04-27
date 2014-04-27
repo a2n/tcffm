@@ -15,3 +15,4 @@
 13:28 < guildwar> 不過要讓別人也能存取，要再用其他方式 export 出去(如 nfs, sshfs 之類的)
 13:28 < brli> 我覺得tar感覺不錯
 13:29 < brli> 現在有試著產生一個.zip.sig
+13:29 < brli> 要用我的phrase才能解壓縮
