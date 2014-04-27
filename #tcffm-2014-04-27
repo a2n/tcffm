@@ -27,3 +27,4 @@
 13:33 < brli> http://wiki.utshop.tw/doku.php/linux:encrypt:gpg
 13:33 < brli> 看來Arch那個比較像是簽名而不是加密！
 13:33 < macint0sh> guildwar: 找到了 谢谢
+13:34 < brli> macint0sh: ls -Al /usr/bin/gpg
