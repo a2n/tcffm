@@ -18,3 +18,4 @@
 00:25 < guildwar> 另外，shaarli 支援 rss，可讓朋友直接訂閱，就知道有新書籤
 00:27 <@haroldwu> shaarli 怎麼放到 openshift 上 @@
 00:27 <@haroldwu> 完全沒有碰過 php
+00:29 < guildwar> php 寫的，我是直接用 rhc 上傳的吧，有點忘了，查一下
