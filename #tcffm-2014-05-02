@@ -22,3 +22,4 @@
 00:34 < guildwar> 應該是類似這樣吧 rhc app create -a shaarli -t php-5.3 --from-code=https://github.com/sebsauvage/Shaarli.git
 00:52 <@haroldwu> 不用 mysql 嗎？
 00:52 < guildwar> 不用
+00:53 < guildwar> 直接放在 datastore.php 檔中，有編碼過吧
