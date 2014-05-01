@@ -20,3 +20,4 @@
 00:27 <@haroldwu> 完全沒有碰過 php
 00:29 < guildwar> php 寫的，我是直接用 rhc 上傳的吧，有點忘了，查一下
 00:34 < guildwar> 應該是類似這樣吧 rhc app create -a shaarli -t php-5.3 --from-code=https://github.com/sebsauvage/Shaarli.git
+00:52 <@haroldwu> 不用 mysql 嗎？
