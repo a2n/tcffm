@@ -23,3 +23,4 @@
 00:52 <@haroldwu> 不用 mysql 嗎？
 00:52 < guildwar> 不用
 00:53 < guildwar> 直接放在 datastore.php 檔中，有編碼過吧
+00:54 <@haroldwu> 都不知道 XD 我完全沒有 LAMP 部署的經驗
