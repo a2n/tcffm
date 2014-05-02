@@ -81,3 +81,4 @@
 13:51 < guildwar> XDMCP 之類的
 13:51 <@haroldwu> 對啊，我也是這樣想
 13:52 <@haroldwu> 歷史包袱也蠻大的，舊有的 code 不好重寫啊，疊床架屋
+13:53 < guildwar> 沒錯，不過以後大家都改 wayland 後，底層的 X 就比較可以動了吧 :)
