@@ -74,3 +74,4 @@
 13:48 <@haroldwu> 應該沒有，設定檔兩邊的都會生效
 13:48 < guildwar> ~/.Xresources 和 ~/.Xclients
 13:48 <@haroldwu> 是 xrdb 的問題
+13:48 < guildwar> ok
