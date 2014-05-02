@@ -55,3 +55,4 @@
 01:21 <@haroldwu> 因為需要一個 loadURI() 的撇步
 12:02 < guildwar> 試了 custom buttons，依照 loadURI 範例寫好，真的超好用的。一開始搞不定，按了沒反應，後來才發現必須暫時將 noscript 將目前網頁 temporarily allow 才能用，不過原本 bookmarklet 上的按鈕不需要就是。
 12:11 <@haroldwu> 喔對，你有 noscript
+12:11 <@haroldwu> 我也來裝個 noscript 用好了 -> 其實一般網頁應該用 w3m 之類的開，連 CSS 載入都省了 XD 反正只是要看字而已
