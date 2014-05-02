@@ -53,3 +53,4 @@
 01:08  * haroldwu 也是開源的
 01:21 <@haroldwu> Ps: Here's a tutorial: tinyurl.com/k2ufnq8
 01:21 <@haroldwu> 因為需要一個 loadURI() 的撇步
+12:02 < guildwar> 試了 custom buttons，依照 loadURI 範例寫好，真的超好用的。一開始搞不定，按了沒反應，後來才發現必須暫時將 noscript 將目前網頁 temporarily allow 才能用，不過原本 bookmarklet 上的按鈕不需要就是。
