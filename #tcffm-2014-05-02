@@ -66,3 +66,4 @@
 13:41 < guildwar> 見鬼了，不知道是 firefox 29 還是不支援 firefox，填好資料 Sign up 的按鈕按不下去，可惜
 13:46 <@haroldwu> .xresources 跟 .xdefaults
 13:46 <@haroldwu> 差在哪啊，我 urxvt 設定檔放 .xresources 然後 xrdb，無效
+13:46 <@haroldwu> 放 .xdefaults 就可以
