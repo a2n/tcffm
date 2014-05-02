@@ -80,3 +80,4 @@
 13:50 < guildwar> 考慮比較多吧，像早期的 terminal client 連到別台 terminal server 機器去跑程式
 13:51 < guildwar> XDMCP 之類的
 13:51 <@haroldwu> 對啊，我也是這樣想
+13:52 <@haroldwu> 歷史包袱也蠻大的，舊有的 code 不好重寫啊，疊床架屋
