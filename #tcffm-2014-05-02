@@ -67,3 +67,4 @@
 13:46 <@haroldwu> .xresources 跟 .xdefaults
 13:46 <@haroldwu> 差在哪啊，我 urxvt 設定檔放 .xresources 然後 xrdb，無效
 13:46 <@haroldwu> 放 .xdefaults 就可以
+13:47 <@haroldwu> 色彩主題越改越差，氣死人了
