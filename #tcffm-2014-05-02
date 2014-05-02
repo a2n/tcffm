@@ -68,3 +68,4 @@
 13:46 <@haroldwu> 差在哪啊，我 urxvt 設定檔放 .xresources 然後 xrdb，無效
 13:46 <@haroldwu> 放 .xdefaults 就可以
 13:47 <@haroldwu> 色彩主題越改越差，氣死人了
+13:47 < guildwar> 也不知道咧，反正弄一個，另一個用 soft link 就好
