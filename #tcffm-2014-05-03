@@ -1,3 +1,4 @@
 --- Log opened 六  5月 03 00:00:10 2014
 16:12 -!- ServerMode/#tcffm [+o haroldwu] by dickson.freenode.net
 17:26 < hmchen> 升級到 ubuntu 14.04, 開機架構變成 sysytemd, 結果 /etc/init.d/xxxx restart 這種老招不能用了, 得改用 service xxxx restart
+19:15 < guildwar_> 乾脆一次到位改 systemctl restart xxx 好了 XD
