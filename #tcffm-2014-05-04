@@ -1,0 +1,2 @@
+--- Log opened 日  5月 04 00:00:11 2014
+09:33 < hmchen> ubuntu 如果要把 /etc/init.d/ 下的檔案留著, 應該做成 wrap script 轉換成 systemd 的對應指令
