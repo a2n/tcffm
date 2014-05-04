@@ -4,3 +4,4 @@
 11:18 < guildwar> 了解，試了 debian jessie，用 /etc/init.d/ssh restart 也可以，會寫 [ok] Starting ssh (via systemctl): ssh.service
 11:19 < darkx> hmchen: 所以現在的 Ubuntu 14.04 已經換成 systemd 了?
 11:19 < hmchen> yes
+11:19 < darkx> ohoh
