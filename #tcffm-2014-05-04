@@ -1,3 +1,4 @@
 --- Log opened 日  5月 04 00:00:11 2014
 09:33 < hmchen> ubuntu 如果要把 /etc/init.d/ 下的檔案留著, 應該做成 wrap script 轉換成 systemd 的對應指令
 09:34 < hmchen> 昨天搞 /etc/init.d/tftpd-hpa restart, 搞了老半天 netstat 都看不見 port 69, 到最後才突然想起 systemd 這件事
+11:18 < guildwar> 了解，試了 debian jessie，用 /etc/init.d/ssh restart 也可以，會寫 [ok] Starting ssh (via systemctl): ssh.service
