@@ -8,3 +8,4 @@
 11:19 < darkx> 好快
 11:20 < darkx> 因為印象中好像有看到說 Ubuntu 決定放棄自己弄的那個，跟上 systemd 是 release 不久前的新聞
 11:22 < guildwar> 查了一下，2012/01 systemd 就在 ubuntu 中，只是沒有預設啟動罷了 https://wiki.ubuntu.com/systemd
+11:23 < hmchen> 現在應該要用 init-select 切換 systemd 或傳統 init
