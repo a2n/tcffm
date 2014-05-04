@@ -10,3 +10,4 @@
 11:22 < guildwar> 查了一下，2012/01 systemd 就在 ubuntu 中，只是沒有預設啟動罷了 https://wiki.ubuntu.com/systemd
 11:23 < hmchen> 現在應該要用 init-select 切換 systemd 或傳統 init
 11:23 < hmchen> 這應該是 ubuntu 把 /etc/init.d/ 下檔案留下的原因
+11:26 < darkx> 了解
