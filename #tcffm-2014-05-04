@@ -15,3 +15,4 @@
 11:27 < hmchen> 我是中毒太深了
 11:32 < guildwar> 昨天看到一篇 gentoo 文章，說 gnome 3.8 以後，一定要配合 systemd，哪有人桌面環境綁 systemd 的，真是的 http://www.gentoo.org/doc/en/handbook/handbook-amd64.xml?part=1&chap=6#doc_chap3
 11:32 < guildwar> If you want to use systemd instead, or are planning to use Gnome 3.8 and later (which requires systemd)
+11:33 < guildwar> 難怪很多 distribution 都轉到 systemd 了，因為沒得選擇
