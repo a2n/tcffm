@@ -3,3 +3,4 @@
 08:25 <@haroldwu> 以後去別的學校就不用擔心沒網路了，讚
 08:31 < guildwar> 水喔，去中研院也可以用吧
 09:02 <@haroldwu> 問一下一個 sed 的問題
+09:02 <@haroldwu> sed -n -e 's/highlight lisp/highlight clisp/g' filename 輸出的內容
