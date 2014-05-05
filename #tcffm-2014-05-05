@@ -14,3 +14,4 @@
 12:32 < darkx> 除非是確定就那樣改的東西，、已經驗證過然後要寫成 script 的時候我自己才會寫 -i
 12:44 <@haroldwu> 沒，我單純替換而已，例如 lisp => clisp
 12:44 < darkx> 喔喔
+12:44 < darkx> 那應該用 in place 就還好
