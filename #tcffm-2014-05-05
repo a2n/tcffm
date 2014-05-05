@@ -6,3 +6,4 @@
 09:02 <@haroldwu> sed -n -e 's/highlight lisp/highlight clisp/g' filename 輸出的內容
 09:02 <@haroldwu> 怎麼存回原檔案？
 09:03 <@haroldwu> 用 >> 嗎？
+09:04 <@haroldwu> 搜到了，用 -i
