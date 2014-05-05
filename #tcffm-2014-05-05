@@ -17,3 +17,4 @@
 12:44 < darkx> 那應該用 in place 就還好
 12:44 <@haroldwu> sed 指令跟 vim 不是互通嘛
 12:45 < darkx> 哪裡互通 @@
+12:48 <@haroldwu> 就那個行操作啊，例如回到行頭之類的
