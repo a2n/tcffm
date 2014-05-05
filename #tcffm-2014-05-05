@@ -11,3 +11,4 @@
 12:31 < darkx> haroldwu: 賀！
 12:31 < darkx> haroldwu: 通常不會寫回原檔案啦... 都是做個備份XD
 12:32 < darkx> in place 很抖
+12:32 < darkx> 除非是確定就那樣改的東西，、已經驗證過然後要寫成 script 的時候我自己才會寫 -i
