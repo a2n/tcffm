@@ -15,3 +15,4 @@
 12:44 <@haroldwu> 沒，我單純替換而已，例如 lisp => clisp
 12:44 < darkx> 喔喔
 12:44 < darkx> 那應該用 in place 就還好
+12:44 <@haroldwu> sed 指令跟 vim 不是互通嘛
