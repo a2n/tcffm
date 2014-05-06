@@ -10,3 +10,4 @@
 00:20 < guildwar> 要 echo -e "a\nb\nc" | dmenu 才行
 00:21 <@haroldwu> 不行？我們不是都是 arch 一樣的 pacman -S dmenu 嗎 XDDD
 00:21 <@haroldwu> echo -e 差別在？
+00:22 < guildwar> 我也不知道，亂試的 XD
