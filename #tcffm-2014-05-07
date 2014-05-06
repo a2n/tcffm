@@ -3,3 +3,4 @@
 00:13 <@haroldwu> *受到 # 今天打錯第三次了QQ
 00:15 < guildwar> :) 剛看到 dmenu2 是 dmenu 加上一些 height 有的沒有的參數而成
 00:17 <@haroldwu> 該不會我裝得是 dmenu 而不是 dmenu2
+00:17 <@haroldwu> -x -w 兩個參數一直報錯
