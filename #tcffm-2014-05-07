@@ -40,3 +40,4 @@
 00:53 < guildwar> 而且還不確是他搞的鬼 :)
 00:59 <@haroldwu> 查了 archwiki，原來可以把想要在背景跑得東西
 01:00 <@haroldwu> 弄成 systemd 的載入檔
+01:01 < guildwar> 沒錯啊，自己寫 service 啟動檔，之前 max 大大有介紹過了，都在打嗑睡 XD
