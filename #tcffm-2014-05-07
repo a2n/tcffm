@@ -75,3 +75,4 @@
 01:18 <@haroldwu> *抄
 01:31 < guildwar> 果然是 systemd-crontab-generator 在搞鬼，換回 cronie 時間就回來了
 01:32 <@haroldwu> 賀
+01:41 < guildwar> 唉，不對，時間還是有問題，放棄
