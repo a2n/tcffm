@@ -14,3 +14,4 @@
 00:23 < guildwar> 下 -e 後 \n 才會生效吧
 00:24 < guildwar> 試了 dsh 及 zsh 都可以，就 bash 不行
 00:34 <@haroldwu> 難怪，我是 zsh
+00:34 <@haroldwu> 那麼，還是 -e 好了，畢竟 bash 最通用
