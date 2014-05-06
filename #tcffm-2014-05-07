@@ -74,3 +74,4 @@
 01:18 <@haroldwu> 弄了一個不錯的東西，dmenu-recent，按照最近使用的指令排序
 01:18 <@haroldwu> *抄
 01:31 < guildwar> 果然是 systemd-crontab-generator 在搞鬼，換回 cronie 時間就回來了
+01:32 <@haroldwu> 賀
