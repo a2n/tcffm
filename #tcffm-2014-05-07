@@ -62,3 +62,4 @@
 01:09 <@haroldwu> fedora 有點難用...yum 是不是不會自動去掉不需要的包 XD
 01:09 < guildwar> 去掉是啥意思?
 01:09 < guildwar> 裝好的 rpm 會自動清除掉
+01:10 <@haroldwu> 對啊，autoremove的意思
