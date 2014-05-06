@@ -6,3 +6,4 @@
 00:17 <@haroldwu> -x -w 兩個參數一直報錯
 00:18 <@haroldwu> 摸索 dmenu 中，目前已知 echo "a\nb\nc" | dmenu 可以改變選單
 00:19 <@haroldwu> 然後回傳 a b c 其中一個
+00:19 < guildwar> 耶，我的不行咧
