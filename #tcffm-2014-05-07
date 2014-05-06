@@ -15,3 +15,4 @@
 00:24 < guildwar> 試了 dsh 及 zsh 都可以，就 bash 不行
 00:34 <@haroldwu> 難怪，我是 zsh
 00:34 <@haroldwu> 那麼，還是 -e 好了，畢竟 bash 最通用
+00:34 <@haroldwu> 我在建立一個 github repo 叫 dmenu-hack collection
