@@ -8,3 +8,4 @@
 00:19 <@haroldwu> 然後回傳 a b c 其中一個
 00:19 < guildwar> 耶，我的不行咧
 00:20 < guildwar> 要 echo -e "a\nb\nc" | dmenu 才行
+00:21 <@haroldwu> 不行？我們不是都是 arch 一樣的 pacman -S dmenu 嗎 XDDD
