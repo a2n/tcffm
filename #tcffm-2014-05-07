@@ -30,3 +30,4 @@
 00:48 <@haroldwu> 是有什麼東西會改 log 啊
 00:48 < guildwar> 前陣子裝了個 systemd-crontab-generator，用來取代 cronie 的，有嫌疑
 00:49 <@haroldwu> 哪兒裝得？aur？
+00:49 < guildwar> 對，aur
