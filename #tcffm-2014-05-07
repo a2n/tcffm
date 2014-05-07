@@ -96,3 +96,4 @@
 13:23 < darkx> back
 14:33 < guildwar> ok, 終於解決了，將 syslog-ng 的 source src {} 設成 source src { internal(); file("/proc/kmsg"); unix-dgram("/run/systemd/journal/syslog"); }; 即可配合 journald 來運作
 14:34 < guildwar> 之前舊的是設成 source src { internal(); system(); }; 這樣會有問題
+19:07 <@haroldwu> 放棄玩 dmenu QQ
