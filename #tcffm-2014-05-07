@@ -159,3 +159,4 @@
 22:12 < darkx> 可是 linux 的世界就是建築在 dbus 上阿...
 22:12 < guildwar> 真麻煩
 22:13 < darkx> 暱這個是哪邊的 log 阿? journalctl?
+22:14 < guildwar> syslog-ng 的，不過 journalctl 裡也有
