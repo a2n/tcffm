@@ -161,3 +161,4 @@
 22:13 < darkx> 暱這個是哪邊的 log 阿? journalctl?
 22:14 < guildwar> syslog-ng 的，不過 journalctl 裡也有
 22:15 < guildwar> 因為 journalctl -b 會看不到第二行的訊息 XF
+22:15 < guildwar> XD
