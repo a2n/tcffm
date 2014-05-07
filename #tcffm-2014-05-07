@@ -153,3 +153,4 @@
 21:59 < guildwar> 了解，有 hackpad 就夠了
 22:02 < guildwar> dclee9: 看到 5/1 會議記錄，virt-manager 支援 lxc/xen/kvm, not docker.io :)
 22:09 < guildwar> darkx: dbus 真的滿討厭的，現在我的 log 裡一堆錯誤訊息有關 network manager 的
+22:10 < guildwar> http://pastie.org/9150020  問題是我跟本不想啟動 network manager 啊，又不能移除 network manager
