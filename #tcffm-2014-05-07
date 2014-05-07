@@ -90,3 +90,4 @@
 13:12 < darkx> 可是有在底下w
 13:12 < guildwar> 所以很奇怪
 13:12  * darkx AFK
+13:20 < guildwar> 後來找到時間不對是因為 suspend 及 resume 所導致，在 resume 後，時間自動調回符合目前，journal log 的時間都正確，但 syslog-ng 所產生的 log 則有問題。
