@@ -165,3 +165,4 @@
 22:27 < guildwar> 發現這個訊息是開 firefox 時才會產生
 22:34 < darkx> @@
 22:34 < darkx> 也就是 firefox 會企圖用 dbus 去找 nm XDD
+23:07 < guildwar> 可是我試了將 /etc/dbus-1/system.d/org.freedesktop.NetworkManager.conf 給移走了，重開機，還是會出現，內建的 rule 嗎?
