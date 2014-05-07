@@ -155,3 +155,4 @@
 22:09 < guildwar> darkx: dbus 真的滿討厭的，現在我的 log 裡一堆錯誤訊息有關 network manager 的
 22:10 < guildwar> http://pastie.org/9150020  問題是我跟本不想啟動 network manager 啊，又不能移除 network manager
 22:11 < guildwar> 看來只好將 /etc/dbus-1/system.d/org.freedesktop.NetworkManager.conf 給移除了才行吧
+22:11 < darkx> guildwar: 我也超討厭 dbus
