@@ -168,3 +168,4 @@
 23:07 < guildwar> 可是我試了將 /etc/dbus-1/system.d/org.freedesktop.NetworkManager.conf 給移走了，重開機，還是會出現，內建的 rule 嗎?
 23:14 < guildwar> 將 networkmanager 給移除後就不會有這訊息了
 23:36 < guildwar> 將 /usr/share/dbus-1/system-services/org.freedesktop.NetworkManager.service 給移走就 ok 了
+--- Log closed 四  5月 08 00:00:17 2014
