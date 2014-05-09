@@ -2,3 +2,4 @@
 00:59 < darkx> 昨天有看到日本 hacker 說他成功在 ubuntu 上面編出來
 01:01 < darkx> https://twitter.com/mattn_jp/status/464081231571738625/photo/1
 01:09 < guildwar> 執行 script/bootstrap 發現 python 版本不合，太新了 gyp ERR! stack Error: Python executable "python" is v3.4.0, which is not supported by gyp.
+01:09 < guildwar> 來試試 virtualenv 用 2.7 好了
