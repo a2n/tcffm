@@ -9,3 +9,4 @@
 23:53 < guildwar> 對啊
 23:53 < hmchen> linux 版好像還在準備中
 23:53 < hmchen> 雖說是 open source
+23:54 < guildwar> 是喔，從 git 下載後， scripts/build 到一半，一直 npm ERR 訊息，看來再過幾天再試好了
