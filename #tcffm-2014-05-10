@@ -8,3 +8,4 @@
 12:37 <@haroldwu> guildwar: aur 有檔喔，atom-editor 跟 atom-editor-git
 12:37 <@haroldwu> 似乎有稍微改過，不是直接弄官方的 repo
 12:41 < guildwar> 了解，昨天試 atom-editor，後來將 /usr/bin/python 直接連結成 python2 就不會說版本有問題，但最後還是卡在某些package 無法下載，github.com 連不上的訊息，想說過幾天再試，來試試 atom-editor-git 看看
+14:02 < guildwar> 直接裝 atom-editor-git 就 ok 了，也不用改 /usr/bin/python，不用 virtualenv，可能是 code 改好了吧
