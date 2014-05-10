@@ -11,3 +11,4 @@
 14:02 < guildwar> 直接裝 atom-editor-git 就 ok 了，也不用改 /usr/bin/python，不用 virtualenv，可能是 code 改好了吧
 14:07 < guildwar> 讚喔，看起來不錯，裝了 vim mode package，滿順手的，不過左邊的檔案瀏覽視窗看不到 soft link 的檔案
 14:12 < guildwar> 有啦，看得到 soft link，只是跑到最下面就是
+15:35 < guildwar> 唉，開個 6 萬行的文字檔就卡死了，永不回應 XD
