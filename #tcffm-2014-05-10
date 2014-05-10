@@ -4,3 +4,4 @@
 01:09 < guildwar> 執行 script/bootstrap 發現 python 版本不合，太新了 gyp ERR! stack Error: Python executable "python" is v3.4.0, which is not supported by gyp.
 01:09 < guildwar> 來試試 virtualenv 用 2.7 好了
 01:22 < guildwar> 算了，在 virtualenv 中編，但還是說 python3.4 不支援，放棄 XD
+12:36 <@haroldwu> 我昨天本來要編，結果一直抓不下包
