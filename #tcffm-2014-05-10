@@ -24,3 +24,4 @@
 15:52 < hmchen> 如果外掛有支援變數/函數名稱 indexing,  我猜行數放大後效能都不會太好
 15:53 < guildwar> 好吧，就讓有在真正 coding 的人去試吧
 15:53 < hmchen> 每次 git 切換 branch 後, eclipse 重建變數 index 都要等老半天
+15:54 < hmchen> 等有好心人事編好套件後再來試
