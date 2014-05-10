@@ -36,3 +36,4 @@
 16:05 < hmchen> atom 正不斷的爬我的硬碟,  似乎在 indexing 某些東西, 按滑鼠右鍵有 'Goto Declairation' 但沒作用
 16:06 < hmchen> 不然就是不能跨 source files
 16:10 < hmchen> 我想他所謂 hackable editor 的特色, 應該是讓 user 追加/開發自己想要的 plugin
+16:10 < hmchen> 類似 zsh 吧, 剛裝玩的 atom 應該就像什麼都沒有的 zsh
