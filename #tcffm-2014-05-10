@@ -68,3 +68,4 @@
 18:50 <@haroldwu> 自由隱私跟開放是老玩意了
 18:51 <@haroldwu> 也有一說是 sitcon 現場以寫 ruby 的居多，而大部分 ruby 開發者又都是用 Mac，工具鏈比較齊全
 19:10 <@haroldwu> hmchen: 我只是好奇 atom 廣告這麼大不知道有沒有名副其實 XD
+19:12 <@haroldwu> 我現在是 emacs + evil-mode (提供完整的 vim 模擬)，這樣到沒有 emcas 的地方也能順利操作
