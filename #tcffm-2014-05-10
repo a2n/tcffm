@@ -41,3 +41,4 @@
 16:11 < hmchen> plugin  可以用 javascript 開發
 16:12 < hmchen> node.js
 16:13 < hmchen> 很妙啊, 概念跟 eclipse 有點像, 都是可擴充的架構, eclipse 當然得用 java 寫外掛, atom 就用 node.js
+16:14 < hmchen> 顯然後者好入門多了
