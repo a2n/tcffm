@@ -5,3 +5,4 @@
 01:09 < guildwar> 來試試 virtualenv 用 2.7 好了
 01:22 < guildwar> 算了，在 virtualenv 中編，但還是說 python3.4 不支援，放棄 XD
 12:36 <@haroldwu> 我昨天本來要編，結果一直抓不下包
+12:37 <@haroldwu> guildwar: aur 有檔喔，atom-editor 跟 atom-editor-git
