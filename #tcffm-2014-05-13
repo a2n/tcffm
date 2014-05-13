@@ -68,3 +68,4 @@
 22:17 < guildwar> http://cdimage-search.debian.org/ 這個好用，看看你要的 package 在 debian cd 或 dvd 中的第幾片，像我找 lxde-core，在 cd 第四片，在 dvd 第一片
 22:20 <@haroldwu> 有網路的話應該就不用了把
 22:20 < guildwar> 對啊
+22:20 <@haroldwu> 直接 apt-get install XDD
