@@ -12,3 +12,4 @@
 13:05 < guildwar> 有啊，我看 4.9 版 2014-01-23 才出耶
 17:56 < hmchen> 剛剛要跟客戶 skype con-call, 才發現 ubuntu 沒抓到 mic input, 一整個悲劇
 17:57 < hmchen> alsamixer 有 capture , 但 pulse 沒有顯示
+18:01 < guildwar> 用pavucontrol 看得比較詳細
