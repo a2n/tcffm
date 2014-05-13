@@ -10,3 +10,4 @@
 00:58 < guildwar> ok
 00:58 < guildwar> 由於原始網站不見了，目前是抓 debian 的 source 來編
 00:59 <@haroldwu> 讚
+01:00 < guildwar> 其實現在有其他替代方案，像 ascii.io, shotterm.io, asciinema.org，若是不想上傳，可用 TermRecord，https://github.com/theonewolf/TermRecord
