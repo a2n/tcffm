@@ -14,3 +14,4 @@
 17:57 < hmchen> alsamixer 有 capture , 但 pulse 沒有顯示
 18:01 < guildwar> 用pavucontrol 看得比較詳細
 18:01 < guildwar> 雖然變得很複雜
+18:23 < hmchen> pavucontrol 裝了, 有顯示前置麥克風, 講話也有音量進來, 但標記為 unplugged
