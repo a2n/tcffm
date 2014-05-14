@@ -19,3 +19,4 @@
 11:58 <@haroldwu> 我現在把同學借我的光碟專程 flac
 12:30 < hmchen> 推 flac, ape 是封閉格式, 以前還得用 wine 跑 foobar2000, 一氣之下就把 ape 全轉成 flac
 12:31 <@haroldwu> 如果有光碟要保存，推 sound-juicer。本來要用 rhythmbox ，可是他要一個詭異的 ID3 tag muxer
+12:31 <@haroldwu> 網路上說裝 gstreamer-ugly，可是我裝了也沒用
