@@ -4,3 +4,4 @@
 15:49 < dclee9> 7：00
 17:04 < guildwar> linux kernel 漏洞又來了，一般 user 可取得 root 權限
 17:04 < guildwar> http://www.openwall.com/lists/oss-security/2014/05/12/3
+17:05 < guildwar> 我在 archlinux 3.14.0 上測試，可取得 root 沒問題
