@@ -53,3 +53,4 @@
 23:42 < JoeyXiao_> 請問debian 8 64bity怎摸安裝i386的包？？
 23:43 < JoeyXiao_> 找不到ia32-libs* 只有lib32z1 lib32ncurses5 lib32bz2-1.0
 23:43 < guildwar> 改了，要用新方法
+23:45 < guildwar> https://wiki.debian.org/Multiarch/HOWTO
