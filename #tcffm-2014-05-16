@@ -12,3 +12,4 @@
 14:48 <@haroldwu> 昨天把他的 sourcelist 改成 jessie
 14:49 <@haroldwu> wheezy 太「穩定」了
 14:50 < guildwar> 舊版的方式和 arch 比較像，一堆 lib32* 的 package，但新的方式和 redhat 比較像，除了原本 x86_64 平台，又額外加了一個 i686
+14:50 < guildwar> 對啊，太穩定好無趣，和人一樣 XD，我喜歡更新時看到有新東東
