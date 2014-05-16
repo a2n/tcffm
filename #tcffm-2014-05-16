@@ -7,3 +7,4 @@
 14:48 <@haroldwu> debian 有 multiarch 的設定方式嗎？
 14:48 <@haroldwu> 像 arch 那個 multilib 那樣
 14:48 < guildwar> 就昨天 post 的連結就是
+14:48 < guildwar> https://wiki.debian.org/Multiarch/HOWTO
