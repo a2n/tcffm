@@ -1,0 +1,2 @@
+--- Log opened 五  5月 16 00:00:28 2014
+12:45 < guildwar> 查了一下，目前 lib32* 的 packages 還是有人在維護，跟 64bit 的 library 有同步，看來可以繼續用舊方法，裝上 libc6-i386 來取代 ia32-libs
