@@ -2,3 +2,4 @@
 12:45 < guildwar> 查了一下，目前 lib32* 的 packages 還是有人在維護，跟 64bit 的 library 有同步，看來可以繼續用舊方法，裝上 libc6-i386 來取代 ia32-libs
 12:46 < guildwar> 但若是改天沒人維護，或是要用的 libbrary 沒有包成 lib32* 的，只能用 multiarch 的新方法了
 14:46 <@haroldwu> Joey 不在線上 XD
+14:46 <@haroldwu> 我再叫她來看 log
