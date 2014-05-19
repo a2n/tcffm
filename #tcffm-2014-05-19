@@ -105,3 +105,4 @@
 23:03 <@haroldwu> 亂碼啦！！
 23:03 < guildwar> 改 utf8 就好
 23:05 < guildwar> 看了一下 script，沒什麼特別的啊，就是將原本在 lftp 中能下的指令，直接寫成 script 而已
+23:05 < guildwar> http://www.howtoforge.com/forums/showthread.php?t=26556
