@@ -8,3 +8,4 @@
 21:51 < a2n> haroldwu: rsync -ae ssh --progress user@host:REMOTE_PATH LOCAL_PATH
 22:09 < haroldwu> 好
 22:10 < haroldwu> 有了，原來是沒動靜，以為它壞掉了
+--- Log closed 三  5月 21 00:00:35 2014
