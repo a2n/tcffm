@@ -2,3 +2,4 @@
 20:07 < a2n> haroldwu: 如果是我的機器，可以用 rsync -ae ssh user@host:REMOTE_PATH LOCAL_PATH
 20:44 < haroldwu> 哦哦！這臺有跑 rsync 呀！
 20:44 < haroldwu> a2n: thx
+21:30 < haroldwu> 額，不會動耶 QQ
