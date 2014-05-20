@@ -6,3 +6,4 @@
 21:30 < haroldwu> 完全沒同步
 21:51 < a2n> haroldwu: 我給的那個指令是在 ssh 之上傳輸。都沒動靜嗎？ 加 --progress 看看
 21:51 < a2n> haroldwu: rsync -ae ssh --progress user@host:REMOTE_PATH LOCAL_PATH
+22:09 < haroldwu> 好
