@@ -1,0 +1,2 @@
+--- Log opened 二  5月 20 00:00:34 2014
+20:07 < a2n> haroldwu: 如果是我的機器，可以用 rsync -ae ssh user@host:REMOTE_PATH LOCAL_PATH
