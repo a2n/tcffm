@@ -20,3 +20,4 @@
 22:16 < guildwar> 可能要再配合 swatch, 可監控 log 而觸發事件，如可設在二小時內，不管觸發幾次，只做一次動作，下次動作會等到二小時後再觸發
 22:20 < hmchen> guildwar: 這樣是避免不必要的 build 次數, 但不能決定 build 的時間?
 22:20 < hmchen> 我第一個想到是 crond 是因為可以設定半夜閒置的時候才執行 build script
+22:22 < guildwar> 那就不管啦，每天固定時間就 build 一次不是最簡單，用 crond 就好
