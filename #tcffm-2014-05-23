@@ -13,3 +13,4 @@
 22:07 < a2n> hooks script 可以串 building, ftp upload, news publish
 22:08 < hmchen> 那如果一天 commit 很多次, 可以設定成半夜才 build ? 或是每次 commit 都會觸發?
 22:09 < a2n> commit 都是即時觸發的
+22:10 < hmchen> 之前跟客戶討論時, 對方說, 如果每天睡醒都有新的 firmware 就太美好了
