@@ -11,3 +11,4 @@
 22:04 < hmchen> a2n: hooks 是事件觸發的意思嗎? 當有新的 commit 時, 觸發 script 半夜自動 build ?
 22:07 < a2n> hmchen: BINGO
 22:07 < a2n> hooks script 可以串 building, ftp upload, news publish
+22:08 < hmchen> 那如果一天 commit 很多次, 可以設定成半夜才 build ? 或是每次 commit 都會觸發?
