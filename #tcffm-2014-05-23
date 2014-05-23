@@ -22,3 +22,4 @@
 22:20 < hmchen> 我第一個想到是 crond 是因為可以設定半夜閒置的時候才執行 build script
 22:22 < guildwar> 那就不管啦，每天固定時間就 build 一次不是最簡單，用 crond 就好
 22:24 < hmchen> thanks  先下線
+22:35 < a2n> hmchen: 在 hooks script 檢查時間，如果是半夜就 build，其餘時段略過。
