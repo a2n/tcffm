@@ -9,3 +9,4 @@
 19:51 < hmchen> 把編好東西打包往 ftp 丟
 21:23 < a2n> hmchen: 不要用 crond，很沒效率。git hooks 才好用
 22:04 < hmchen> a2n: hooks 是事件觸發的意思嗎? 當有新的 commit 時, 觸發 script 半夜自動 build ?
+22:07 < a2n> hmchen: BINGO
