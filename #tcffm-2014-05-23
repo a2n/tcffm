@@ -15,3 +15,4 @@
 22:09 < a2n> commit 都是即時觸發的
 22:10 < hmchen> 之前跟客戶討論時, 對方說, 如果每天睡醒都有新的 firmware 就太美好了
 22:11 < hmchen> 確實每次要打包 firmware 給客戶, 是件很費時又很規律的事情
+22:12 < hmchen> 如果有 script 半夜檢查 git 有無新 commit, 然後在我睡覺的時候 build firmware image
