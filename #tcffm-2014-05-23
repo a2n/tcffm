@@ -6,3 +6,4 @@
 17:27 -!- Irssi: #tcffm: Total of 10 nicks [1 ops, 0 halfops, 0 voices, 9 normal]
 17:28 < a2n> hmchen: 是 buildbot 嗎？沒經驗，但感興趣。 :D
 19:50 < hmchen> a2n: 類似 buildbot 但不需要很強大的功能, 我腦袋想到的作法其實是 git + build script + crond
+19:51 < hmchen> 把編好東西打包往 ftp 丟
