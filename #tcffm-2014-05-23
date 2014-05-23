@@ -17,3 +17,4 @@
 22:11 < hmchen> 確實每次要打包 firmware 給客戶, 是件很費時又很規律的事情
 22:12 < hmchen> 如果有 script 半夜檢查 git 有無新 commit, 然後在我睡覺的時候 build firmware image
 22:12 < hmchen> 這樣就省事多了
+22:16 < guildwar> 可能要再配合 swatch, 可監控 log 而觸發事件，如可設在二小時內，不管觸發幾次，只做一次動作，下次動作會等到二小時後再觸發
