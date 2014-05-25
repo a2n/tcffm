@@ -3,3 +3,4 @@
 01:05 < guildwar> 另外，有 web 介面可以觀看 build 成功或失敗，或手動 rebuild
 20:49 < guildwar> 發現 i3 及 synergy 是用 buildbot 自動編的
 20:49 < guildwar> http://i3wm.org/docs/buildbot.html
+20:49 < guildwar> http://synergy-project.org/wiki/Buildbot
