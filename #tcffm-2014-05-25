@@ -1,3 +1,4 @@
 --- Log opened 日  5月 25 00:00:41 2014
 01:03 < guildwar> 稍微試了 buildbot，還真不錯用。除了可像 cron 一樣自動排程去檢查是否有新的 source 並 pull 回來之外、結合 ircbot 來做通知；厲害的還可以在開發程式時，先試著將未 commit 的 code，直接 "try" 編譯看看，如果沒問題再 commit 上去
 01:05 < guildwar> 另外，有 web 介面可以觀看 build 成功或失敗，或手動 rebuild
+20:49 < guildwar> 發現 i3 及 synergy 是用 buildbot 自動編的
