@@ -14,3 +14,4 @@
 20:37 < hmchen> 我的 build script 沒幾分鐘就跑完了
 20:38 < guildwar> 還有多平台支援，不同平台由不同人管理時
 20:39 < guildwar> 不過我覺得，光 try schedulers 這項就值得一用了，在 commit 之前先編譯，沒問題再將 source commit 上去，以免客戶拿到無法使用的 binary
+20:39 < hmchen> 其實最近省下最多工作時間的, 居然是 ccache
