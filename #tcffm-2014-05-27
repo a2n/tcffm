@@ -6,3 +6,4 @@
 17:26 < hmchen> 已經安裝 linuxmint17 跟 ubuntu 14.04 雙重啟動了
 17:26 < hmchen> 為何感覺 mint 比 ubuntu unity 順暢許多? 錯覺嗎?
 20:06 < hmchen> 簡單的 daily build 的需求, 用 crontab 似乎就很夠用了, 搭配手寫的 script 使用沒啥大問題
+20:07 < hmchen> buildbot 這樣的系統應該是比較注重整合測試跟通知功能吧
