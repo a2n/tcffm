@@ -12,3 +12,4 @@
 20:37 < hmchen> 感覺比較適合大型專案, 編譯很花時間的那種
 20:37 < guildwar> http://docs.buildbot.net/current/manual/cfg-schedulers.html
 20:37 < hmchen> 我的 build script 沒幾分鐘就跑完了
+20:38 < guildwar> 還有多平台支援，不同平台由不同人管理時
