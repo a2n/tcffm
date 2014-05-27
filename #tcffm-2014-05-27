@@ -35,3 +35,4 @@
 23:39 < hmchen> 確實也是在一個 arm 專案中發現這問題
 23:42 < hmchen> 寫 c code 時我很依賴 eclipse 的 indexer, 成員變數自動補完, 滑鼠點在變數/函數名稱上自動列出 data type, 函數原型這些功能
 23:42 < hmchen> 缺點是太過癡肥...
+--- Log closed 三  5月 28 00:00:46 2014
