@@ -29,3 +29,4 @@
 22:28 < hmchen> 請問有慣用 eclipse 的朋友嗎? 最近升級到 ubuntu 14.04 後, 官方包的 eclipse-cdt 就怪怪的, 比如 gcc -c -DMYDEF foo.c 原本 indexer 在編譯後可以正確判斷 #ifdef MYDEF 區塊中的內容 (ubuntu 12.04), 現在完全不行...
 23:33 <@haroldwu> http://click.pocoo.org/ 好套件
 23:33 <@haroldwu> hmchen: 幫不上忙 orz
+23:37 < hmchen> 剛剛試著調整 makefile 似乎找到原因了, command line 的 -D define macro, eclipse 依賴 GCC output parser 解析 console 訊息後, 才能讓 indexer 解析 macro
