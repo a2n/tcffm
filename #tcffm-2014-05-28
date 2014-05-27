@@ -3,3 +3,4 @@
 00:09 <@haroldwu> clang 聽說不錯
 00:14 < hmchen> https://www.youtube.com/watch?v=SHhToo3XGXg
 00:14 < hmchen> 有 demo 短片
+00:20 < hmchen> eclipse cdt 設定解決了, 確實是 compiler command pattern 變更的關係
