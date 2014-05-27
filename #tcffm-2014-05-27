@@ -9,3 +9,5 @@
 20:07 < hmchen> buildbot 這樣的系統應該是比較注重整合測試跟通知功能吧
 20:31 < guildwar> buildbot 功能比較完整，可以讓不同平台的 slave 都連到同一個 master，來編出如 linux, mac os, freebsd 的 binary，然後編出的 binary 再上傳到 ftp 去就好
 20:37 < guildwar> 我覺得另外強項在那些 schedulers，如 try schedulers，nightly schedulers 等等
+20:37 < hmchen> 感覺比較適合大型專案, 編譯很花時間的那種
+20:37 < guildwar> http://docs.buildbot.net/current/manual/cfg-schedulers.html
