@@ -11,3 +11,4 @@
 20:37 < guildwar> 我覺得另外強項在那些 schedulers，如 try schedulers，nightly schedulers 等等
 20:37 < hmchen> 感覺比較適合大型專案, 編譯很花時間的那種
 20:37 < guildwar> http://docs.buildbot.net/current/manual/cfg-schedulers.html
+20:37 < hmchen> 我的 build script 沒幾分鐘就跑完了
