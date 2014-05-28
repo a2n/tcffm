@@ -5,3 +5,4 @@
 00:14 < hmchen> 有 demo 短片
 00:20 < hmchen> eclipse cdt 設定解決了, 確實是 compiler command pattern 變更的關係
 00:22 < hmchen> 新的 cdt 預設值為 (gcc)|([gc]\+\+)|(clang), 改成 (.*gcc)|(.*[gc]\+\+)|(clang) 就可以在 cross compile 時正確 indexing 了
+--- Log closed 四  5月 29 00:00:47 2014
