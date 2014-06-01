@@ -14,3 +14,4 @@
 22:24 < hmchen> 如果要穩應該還是用 X
 22:25 < hmchen> Mir 網路上看到的文章大多是 ubuntu 13.10 或更早之前的版本
 22:27 < hmchen> Mir 跟 wayland 是功能類似卻獨立的專案, 不了解為何 ubuntu 棄 wayland 選 Mir  的原因, wayland 應該相對比較成熟
+22:51 < guildwar> 目前當然還是 X.org 的效能比較好，但是漸漸的還是會被 wayland 之類的來取代，想想在 rpi 不用開 X 一樣能跑桌面環境，這樣應該省了不少資源吧 XD
