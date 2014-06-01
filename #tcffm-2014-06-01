@@ -3,3 +3,4 @@
 15:24 < guildwar> 遇到幾個問題，無法用 wine 玩 diablo2，一玩就 crash，但可以玩 supertuxkart
 15:31 < guildwar> 還有就是 firefox 在左鍵使用上怪怪的，在網頁中都沒問題，但在 firefox 本身介面上，如書籤，按左鍵點下去，卻不會動，有點像是 focus 跳掉了，解決方法是用鍵盤 Enter 來選擇
 15:33 < guildwar> 還有就是 firefox 標題上方中文變亂碼，但在網頁中的中文字是正常的，這個應該是 weston 的問題
+15:34 < guildwar> 基本上已經堪用，在等改天有出 wayland 的 tiling window manager，就可以跳過去了
