@@ -17,3 +17,4 @@
 22:51 < guildwar> 目前當然還是 X.org 的效能比較好，但是漸漸的還是會被 wayland 之類的來取代，想想在 rpi 不用開 X 一樣能跑桌面環境，這樣應該省了不少資源吧 XD
 22:52 < guildwar> darkx: 我現在也是用 X + awesome，因為 awesome 還不支援 wayland，所以我也還不會換，純粹嚐鮮，換別的 WM 或 DE 又用不慣
 23:36 < darkx> 是啊
+23:36 < darkx> 我自己是沒有很大的想要跳 wayland 的想法，畢竟看到大多的介紹都是還不夠成熟
