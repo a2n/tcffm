@@ -1,2 +1,3 @@
 --- Log opened 日  6月 01 00:00:51 2014
 15:22 < guildwar> 在 archlinux 上試了 xwayland, 現在有支援 drm-backend，基本上，除了 weston 使用上不習慣之外，其他程式大部份都可以跑，感覺上只是換了一個新的 window manager 而已
+15:24 < guildwar> 遇到幾個問題，無法用 wine 玩 diablo2，一玩就 crash，但可以玩 supertuxkart
