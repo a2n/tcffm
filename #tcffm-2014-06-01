@@ -2,3 +2,4 @@
 15:22 < guildwar> 在 archlinux 上試了 xwayland, 現在有支援 drm-backend，基本上，除了 weston 使用上不習慣之外，其他程式大部份都可以跑，感覺上只是換了一個新的 window manager 而已
 15:24 < guildwar> 遇到幾個問題，無法用 wine 玩 diablo2，一玩就 crash，但可以玩 supertuxkart
 15:31 < guildwar> 還有就是 firefox 在左鍵使用上怪怪的，在網頁中都沒問題，但在 firefox 本身介面上，如書籤，按左鍵點下去，卻不會動，有點像是 focus 跳掉了，解決方法是用鍵盤 Enter 來選擇
+15:33 < guildwar> 還有就是 firefox 標題上方中文變亂碼，但在網頁中的中文字是正常的，這個應該是 weston 的問題
