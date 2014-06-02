@@ -5,3 +5,4 @@
 12:02 < guildwar> http://www.meetup.com/Taichung-Python-Meetup
 12:02 < guildwar> Taichung.py的第一次聚會
 20:52 < guildwar> 哇，找到一個超好用的工具，叫 proot (http://proot.me)，拿來當 chroot 工具用，一般使用者即可，不用 root。最厲害的，可拿來在 x86 上直接 chroot 到 arm，如 rpi。
+20:54 < guildwar> 另一個特點，就是 proot 只要一般使用者即可執行，不用 root，而 chroot 一定要 root 權限才能跑
