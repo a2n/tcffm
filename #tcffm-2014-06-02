@@ -26,3 +26,4 @@
 21:36 < guildwar> 可是我 host 是 x86_64  3.14.4-1 glibc:2.19-5 而 rpi 裡是 armv7l 3.12.20+  libc6:2.13-38+rpi2+deb7u1 也可以
 21:36 < guildwar> ok, 改天來試 host 比較舊看看
 21:37 < hmchen> ha, 超有實驗精神的
+21:38 < guildwar> 不過我 arch 升太新了，沒幾個比他新的，要換 debian 測比較方便
