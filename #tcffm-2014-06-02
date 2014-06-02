@@ -12,3 +12,4 @@
 21:25 < hmchen> 很妙的工具, proot, 而且網站上說切換到 arm 系統中, 並不會使用到 arm 的 kernel
 21:26 < guildwar> 是用 qemu 模擬的吧
 21:26 < guildwar> 要下 -q qemu-arm 參數
+21:29 < guildwar> 不過有個問題，因為升級期間，sshd restart，結果在打 exit 要結束 proot 時會跳不出來，找到 qemu-arm 的 process 手動砍了，就會自動結束 proot，和 chroot 跳出來，結果無法 umount filesystem 一樣
