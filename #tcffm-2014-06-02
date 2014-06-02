@@ -19,3 +19,4 @@
 21:31 < hmchen> 這表示還是用 x86_64 的 linux 作最底層, 我比較好奇的是, 從 arm glibc 到 x86 kernel 的 system call 轉換方式
 21:32 < guildwar> PRoot translates their requests before sending them to the host kernel
 21:33 < hmchen> 對, 但這邊就會有 kernel 版本批配性問題了
+21:33 < guildwar> 什麼批配性問題?
