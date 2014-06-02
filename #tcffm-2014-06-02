@@ -10,3 +10,4 @@
 20:55 < guildwar> http://dktrkranz.wordpress.com/2013/11/19/cross-architecture-linux-containers-in-debian/
 21:00 < guildwar> 我在 x86_64 上，直接拿 rpi 的 raspbian image 來試，可以升級沒問題
 21:25 < hmchen> 很妙的工具, proot, 而且網站上說切換到 arm 系統中, 並不會使用到 arm 的 kernel
+21:26 < guildwar> 是用 qemu 模擬的吧
