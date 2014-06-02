@@ -16,3 +16,4 @@
 21:30 < hmchen> 雖是用 qemu 模擬跟執行 arm 的 binary, 但啟動 proot 並沒有給 linux kernel 對吧?
 21:30 < guildwar> 沒有 kernel 參數可下
 21:31 < guildwar> man　裡是說用 ptrace, an unprivileged system-call available in every Linux kernel.
+21:31 < hmchen> 這表示還是用 x86_64 的 linux 作最底層, 我比較好奇的是, 從 arm glibc 到 x86 kernel 的 system call 轉換方式
