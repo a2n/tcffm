@@ -27,3 +27,4 @@
 21:36 < guildwar> ok, 改天來試 host 比較舊看看
 21:37 < hmchen> ha, 超有實驗精神的
 21:38 < guildwar> 不過我 arch 升太新了，沒幾個比他新的，要換 debian 測比較方便
+21:39 < guildwar> proot 實在比 binfmt-support + qemu-static 方便多了
