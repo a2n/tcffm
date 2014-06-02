@@ -22,3 +22,4 @@
 21:33 < guildwar> 什麼批配性問題?
 21:33 < hmchen> 比如 arm glibc 是搭配 kernel 2.6.32, 但 x86 端是 3.13.0
 21:34 < hmchen> 兩者的 low-level system call 是否有完全對應
+21:35 < hmchen> 版本差異不大, 且 x86 (host) 的 kernel 較新時應該不會有問題
