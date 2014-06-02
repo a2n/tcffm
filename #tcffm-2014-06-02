@@ -24,3 +24,4 @@
 21:34 < hmchen> 兩者的 low-level system call 是否有完全對應
 21:35 < hmchen> 版本差異不大, 且 x86 (host) 的 kernel 較新時應該不會有問題
 21:36 < guildwar> 可是我 host 是 x86_64  3.14.4-1 glibc:2.19-5 而 rpi 裡是 armv7l 3.12.20+  libc6:2.13-38+rpi2+deb7u1 也可以
+21:36 < guildwar> ok, 改天來試 host 比較舊看看
