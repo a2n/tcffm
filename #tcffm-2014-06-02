@@ -29,3 +29,4 @@
 21:38 < guildwar> 不過我 arch 升太新了，沒幾個比他新的，要換 debian 測比較方便
 21:39 < guildwar> proot 實在比 binfmt-support + qemu-static 方便多了
 21:40 < guildwar> 而且在 archlinux 上, qemu-static 我還編不出來，結果去 debian 偷過來用 XD
+23:36 < hmchen> mint17 正式版 iso 發布了
