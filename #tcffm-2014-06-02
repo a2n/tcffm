@@ -20,3 +20,4 @@
 21:32 < guildwar> PRoot translates their requests before sending them to the host kernel
 21:33 < hmchen> 對, 但這邊就會有 kernel 版本批配性問題了
 21:33 < guildwar> 什麼批配性問題?
+21:33 < hmchen> 比如 arm glibc 是搭配 kernel 2.6.32, 但 x86 端是 3.13.0
