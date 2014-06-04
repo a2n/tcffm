@@ -9,3 +9,4 @@
 01:01 <@haroldwu> 以為是撿肥皂的貴族版 XD
 01:02 < darkx> git-cherry-pick - Apply the changes introduced by some existing commits
 01:02 < darkx> XD
+01:02 < darkx> 簡單說就是挑幾個 commit 抽取他們帶來的 diff (patch) 然後 apply 到指定的 branch 中
