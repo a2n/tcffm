@@ -1,3 +1,4 @@
 --- Log opened 四  6月 05 00:00:57 2014
 00:07 <@haroldwu> 對
 00:09 <@haroldwu> 大意就是把所有變更改成 patch，然後砍掉自己的 master，一次性的把那些 patch 貼到另一隻 master XD
+00:09 <@haroldwu> git 真是 TMD 太強大了，Linus 超級牛人另一個不朽神作啊 :P
