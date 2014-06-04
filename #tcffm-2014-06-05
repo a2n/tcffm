@@ -12,3 +12,4 @@
 01:02 < darkx> 簡單說就是挑幾個 commit 抽取他們帶來的 diff (patch) 然後 apply 到指定的 branch 中
 01:02 <@haroldwu> 恩，也就是不是全部 merge
 01:03 < darkx> 是的
+01:03 <@haroldwu> 我這邊的狀況比較像是 pull request 的問題
