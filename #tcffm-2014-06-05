@@ -14,3 +14,4 @@
 01:03 < darkx> 是的
 01:03 <@haroldwu> 我這邊的狀況比較像是 pull request 的問題
 01:04 <@haroldwu> 因為我上次 PR 的東西他用一種不知道是什麼反正不是 merge 的動作併進去
+01:04 <@haroldwu> 所以遺留 commit 在那邊，其實 code 是一樣的
