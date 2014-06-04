@@ -16,3 +16,4 @@
 01:04 <@haroldwu> 因為我上次 PR 的東西他用一種不知道是什麼反正不是 merge 的動作併進去
 01:04 <@haroldwu> 所以遺留 commit 在那邊，其實 code 是一樣的
 01:22 < guildwar> 哇，威爾史密斯的車，好想弄一台 http://www.teepr.com/威爾史密斯的the-heat
+07:59  * a2n git rebase - branch merge, git cherry-pick commit merge
