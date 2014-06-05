@@ -25,3 +25,4 @@
 21:03 < petercommand> haroldwu: 有些是kernel exploit
 21:03 < petercommand> 寫C就可以了XD
 21:04 < haroldwu> 唔，也沒學過嵌入式 XD 算了，原廠也不是排斥，單純想試試而已
+21:05 < haroldwu> 不過我好奇的是，很多人一點資安概念也沒有，就貿然的用別人寫的軟體 root/ 刷來路不明的 ROM，完全都不感到危險哦...@@
