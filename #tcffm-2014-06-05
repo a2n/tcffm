@@ -28,3 +28,4 @@
 21:05 < haroldwu> 不過我好奇的是，很多人一點資安概念也沒有，就貿然的用別人寫的軟體 root/ 刷來路不明的 ROM，完全都不感到危險哦...@@
 21:12 < petercommand> haroldwu: 像這個連嵌入式都不用XD https://intrepidusgroup.com/insight/2010/09/android-root-source-code-looking-at-the-c-skills/
 21:15 < petercommand> flood到adb setuid失敗XD
+--- Log closed 五  6月 06 00:00:58 2014
