@@ -31,3 +31,4 @@
 23:35 < guildwar> 等等
 23:35 < guildwar> 用 timedatectl 看看
 23:36 < guildwar> 原來我一直是用 UTC
+23:36 < guildwar> RTC in local TZ: yes
