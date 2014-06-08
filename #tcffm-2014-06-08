@@ -36,3 +36,4 @@
 23:39 < guildwar> 若是設成 localtime，則執行 timedatectl 會有警告訊息
 23:46 <@haroldwu> RTC in local TZ: no
 23:46 <@haroldwu> 所以我應該 ok
+23:48 < guildwar> 結果我改成 localtime，然後 mkinitcpio  xxxx，再用新的 initramfs 開機，也沒問題咧
