@@ -12,3 +12,4 @@
 22:59 < guildwar> 和 clock
 23:00 < guildwar> 我習慣都是設 localtime
 23:02 < guildwar> 打 date 指令可看到 CST or UTC
+23:02 < guildwar> 不過看那些 bug 回報，archlinux 只 support UTC 就是
