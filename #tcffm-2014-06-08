@@ -35,3 +35,4 @@
 23:37 < guildwar> 我剛 timedatectl set-local-rtc true 後就變 yes，原本是 no
 23:39 < guildwar> 若是設成 localtime，則執行 timedatectl 會有警告訊息
 23:46 <@haroldwu> RTC in local TZ: no
+23:46 <@haroldwu> 所以我應該 ok
