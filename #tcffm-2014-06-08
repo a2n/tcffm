@@ -2,3 +2,4 @@
 14:11 < guildwar> archlinux 又爆了，使用 localtime 而不是 UTC 的要小心，升級 systemd 到 213-5 會開不了機，至少我遇到了
 14:11 < guildwar> https://bugs.archlinux.org/task/40706
 14:45 < guildwar> https://bbs.archlinux.org/viewtopic.php?id=182445
+14:47 < guildwar> 不過我的狀況不大一樣，是用 suspend 及 resume 的方式，在開機時， grub 就無法開進 archlinux 了，進入 grub shell 後，用補字方式無法讀取 archlinux partition 中的任何檔案，當然也就無法開進去
