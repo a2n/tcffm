@@ -1,0 +1,2 @@
+--- Log opened 日  6月 08 00:00:01 2014
+14:11 < guildwar> archlinux 又爆了，使用 localtime 而不是 UTC 的要小心，升級 systemd 到 213-5 會開不了機，至少我遇到了
