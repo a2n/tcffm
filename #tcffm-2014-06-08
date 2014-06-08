@@ -18,3 +18,4 @@
 23:13 <@haroldwu> 這什麼情況啊 =.=
 23:14 < guildwar> 所以你應該也是用 localtime 吧
 23:15 < guildwar> 我也搞到有點亂，像我的 /etc/adjtime 裡面又寫 UTC，真奇怪
+23:17 < guildwar> 不管啦，如果你有重開機，然後沒事就好，不然有可能會遇到 bug，說什麼時間在未來之類的
