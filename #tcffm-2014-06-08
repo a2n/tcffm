@@ -39,3 +39,4 @@
 23:48 < guildwar> 結果我改成 localtime，然後 mkinitcpio  xxxx，再用新的 initramfs 開機，也沒問題咧
 23:49 < guildwar> 那我之前不能開機的狀況，不是這個，應該是和 suspend 及 resume 有關，不研究
 23:50 <@haroldwu> 好 XD
+--- Log closed 一  6月 09 00:00:03 2014
