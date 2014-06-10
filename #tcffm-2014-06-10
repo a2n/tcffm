@@ -6,3 +6,4 @@
 19:26 < guildwar> Continuous Integration server Tinderbox 歷史， http://oduinn.com/blog/2014/06/04/farewell-to-tinderbox/
 23:03 <@haroldwu> http://www.vpsee.com/2014/06/install-and-run-os-x-mavericks-with-kvm-under-linux/ # 在 Linux 的 KVM 上安装 Mac OS X Mavericks 虚拟机
 23:04 <@haroldwu> 可惜筆電 CPU 不支援 KVM XDD
+23:22 < guildwar> 裝 xen 啊，用 para virtualization 不用 kvm
