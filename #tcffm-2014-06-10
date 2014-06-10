@@ -12,3 +12,4 @@
 23:35 < guildwar> 喔，看錯，是在虛擬機器上裝 Mac OS X  :)
 23:40 <@haroldwu> xen 有什麼要求嗎？
 23:41 < guildwar> 看模式，cpu 有 vmx 就和 kvm 類似，沒 vmx 用 para virt mode 就 guest 只能用 linux 或 netbsd 而已
+23:43 < guildwar> 要求就是 guest 的 kernel 要 patch 過，而 linux 的 kernel 隨便我們 patch，而 windows、mac os X 就無法 patch
