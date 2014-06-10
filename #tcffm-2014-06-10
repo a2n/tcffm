@@ -11,3 +11,4 @@
 23:23 < guildwar> 你又不是用 Mac OS X，怎麼在看 Mac OS X 的東東
 23:35 < guildwar> 喔，看錯，是在虛擬機器上裝 Mac OS X  :)
 23:40 <@haroldwu> xen 有什麼要求嗎？
+23:41 < guildwar> 看模式，cpu 有 vmx 就和 kvm 類似，沒 vmx 用 para virt mode 就 guest 只能用 linux 或 netbsd 而已
