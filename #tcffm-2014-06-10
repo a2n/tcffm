@@ -7,3 +7,4 @@
 23:03 <@haroldwu> http://www.vpsee.com/2014/06/install-and-run-os-x-mavericks-with-kvm-under-linux/ # 在 Linux 的 KVM 上安装 Mac OS X Mavericks 虚拟机
 23:04 <@haroldwu> 可惜筆電 CPU 不支援 KVM XDD
 23:22 < guildwar> 裝 xen 啊，用 para virtualization 不用 kvm
+23:22 < guildwar> 不用 vmx 才對
