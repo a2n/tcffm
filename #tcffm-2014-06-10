@@ -8,3 +8,4 @@
 23:04 <@haroldwu> 可惜筆電 CPU 不支援 KVM XDD
 23:22 < guildwar> 裝 xen 啊，用 para virtualization 不用 kvm
 23:22 < guildwar> 不用 vmx 才對
+23:23 < guildwar> 你又不是用 Mac OS X，怎麼在看 Mac OS X 的東東
