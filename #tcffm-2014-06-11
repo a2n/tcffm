@@ -31,3 +31,4 @@
 21:15 < haroldwu^> 他那個確實有點舊了
 21:20 < guildwar> 我正在試 arch 到 usb 碟
 21:27 < guildwar> 稍微看了一下，好像沒什麼大問題，要注意的是將 ext4 的 journal 給關掉就好
+21:27 < guildwar> https://wiki.archlinux.org/index.php/Installing_Arch_Linux_on_a_USB_key
