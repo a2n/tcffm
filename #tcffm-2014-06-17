@@ -18,3 +18,4 @@
 21:27 < guildwar> ok
 21:27 <@haroldwu> shaarli 第一次啟動也要等一下他回覆
 21:31 < guildwar> 好像幾天沒存取就會進入 stop 的狀態
+21:31 < guildwar> 應該可以用  urlwatch 來使他不 stop
