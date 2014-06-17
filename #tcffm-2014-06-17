@@ -11,3 +11,4 @@
 21:13 < guildwar_> 你不會自己架個 openshift 來當測試用
 21:14 < guildwar> 叫 OpenShift Origin
 21:15 < guildwar> https://github.com/openshift/origin-server
+21:16 < guildwar> 這裡有 virtualbox 的 image 比較方便 https://openshift.github.io/
