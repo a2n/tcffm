@@ -10,3 +10,4 @@
 21:12 <@haroldwu> 剛剛 push 上去竟然是給我 404，氣死了，只好砍掉 git commit
 21:13 < guildwar_> 你不會自己架個 openshift 來當測試用
 21:14 < guildwar> 叫 OpenShift Origin
+21:15 < guildwar> https://github.com/openshift/origin-server
