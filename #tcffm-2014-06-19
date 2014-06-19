@@ -3,3 +3,4 @@
 10:57 < erhandsome>  0.0
 10:57 < erhandsome> 这么久吗
 10:57 < guildwar> 本以為是軟體的問題，但切換到 debian 也一樣只能到 1024x768，dmesg 有看到 ACPI error 什麼的，看來是硬體的某部份掛了，六年的 notebook 還是不要這樣操 XD
+10:57 < guildwar> 一邊學一邊編啊 :)
