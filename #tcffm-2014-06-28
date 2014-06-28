@@ -4,3 +4,4 @@
 00:15 < hmchen> 尤其是 qt 後來也從善如流提供 LGPL 版權 , 早期只有 GPL 跟商業版權 (當時為了這點選擇了 gtk 開發第一個 gui project, 吃了不少苦頭)
 09:04 < guildwar> 感覺上要跨平台還是要 qt 比較好，lxde 不是就這樣轉了，雖然沒在開發程式 XD
 09:09 < guildwar> 對了，順便問一下，在 android 上試了 sip 使用 cSipSimple + ostel，結果只有 wifi 可用，3G 連不上，這樣正常嗎?
+09:39 < guildwar> 很神奇的發現之前變成 1024x768 解析度的外接螢幕又回到 1280x1024，拿來開 desktop 機器 1280x1024，之後再接回 notebook，很神奇的就還原了，真詭異
