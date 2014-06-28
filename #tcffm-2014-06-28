@@ -3,3 +3,4 @@
 00:12 < hmchen> 入門難度的話, gtk + glade 還是比 qt + creator/designer 簡單一點, 但花點時間投資 qt 還是值得的
 00:15 < hmchen> 尤其是 qt 後來也從善如流提供 LGPL 版權 , 早期只有 GPL 跟商業版權 (當時為了這點選擇了 gtk 開發第一個 gui project, 吃了不少苦頭)
 09:04 < guildwar> 感覺上要跨平台還是要 qt 比較好，lxde 不是就這樣轉了，雖然沒在開發程式 XD
+09:09 < guildwar> 對了，順便問一下，在 android 上試了 sip 使用 cSipSimple + ostel，結果只有 wifi 可用，3G 連不上，這樣正常嗎?
