@@ -28,3 +28,4 @@
 10:44 < hmchen> 從 spa3000 轉接時, 只有 g.711 可以用... 64kbps + udp, 3G 收訊不好時品質還蠻慘的
 10:46 < hmchen> spa3000 只有 g.711, g.726, g.279 三種 codec ; g.729 最省頻寬, 但專利期應該還沒過, 付費版的 app 才會有
 11:54 < guildwar> 發現 android 2.3 以後內建 sip client, 可裝 SIP Switch Widget 來切換，滿方便的
+--- Log closed 日  6月 29 00:00:27 2014
