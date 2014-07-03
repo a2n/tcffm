@@ -53,3 +53,4 @@
 22:15 < hmchen> 如果都是 armhf, 特地包一份 raspbian 的用意何在? 難道是 arm9 vs arm11
 22:15 < guildwar> dpkg wheezy 的版本是 2.13-38+deb7u1
 22:16 < guildwar> 就是不知道為什麼 RPi 都要包另外一個版本
+22:16 < hmchen> 基礎版號相同不會有相容性問題
