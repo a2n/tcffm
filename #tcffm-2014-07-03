@@ -113,3 +113,4 @@
 22:42 < guildwar> xen 可以配合 osv 來達到 light weight，因為 linux 太容易被取得 root，所以很危險
 22:43 < guildwar> xen 和 kvm 可以配合 OSv 或 MirageOS
 22:54 < hmchen> raspbian-2014-01-07 + apt-get update / upgrade 成功
+22:54 < hmchen> 晚安
