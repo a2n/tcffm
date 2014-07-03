@@ -104,3 +104,4 @@
 22:36 < guildwar> 是
 22:36 < guildwar> 若自己手動下 lxc-start  lxc-stop lxc-xxx 的，很麻煩
 22:37 <@haroldwu> 還可以連結容器的 Port 至 Host 的 Port
+22:37 < guildwar> 而且 docker 配 aufs 做到 snapshot 的功能，很方便
