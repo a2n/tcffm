@@ -68,3 +68,4 @@
 22:21 < guildwar> haroldwu: 類似，但 kernel 共用
 22:21 < hmchen> open stack ?
 22:21 < guildwar> lxc 的 frontend
+22:22 < guildwar> 和 vagrant 很像，可直接網上下載別人準備好的 image，直接用，當然也可自己準備
