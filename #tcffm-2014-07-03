@@ -41,3 +41,4 @@
 22:10 < hmchen> 是無聲無息的掛點嗎?
 22:10 < hmchen> 沒有特別的錯誤訊息?
 22:11 < guildwar> 就 dpkg 升級後，執行 dpkg 就錯誤，所以再也無法安裝舊版的軟體了
+22:11 < hmchen> raspbian 跟 debian official package 記得是差在 hardfloat
