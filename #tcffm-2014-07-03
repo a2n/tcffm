@@ -4,3 +4,4 @@
 17:35 < guildwar> 不過我不是直接 dd，因為還有其他 partition 有資料，所以掛起來用 tar 的
 17:41 < hmchen> guildwar: 你的 Pi 上面的 DDR 廠牌是 Hynix 或 Samsung ?
 17:41 < guildwar> Samsung
+17:42 < hmchen> 我查到資料, 有可能因為 DDR 廠牌不同, soc firmware (in fat32 partition) 要用不同的版本 (對應不同的 DDR timing 值)
