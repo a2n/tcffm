@@ -19,3 +19,4 @@
 21:04 < hmchen> guildwar: 你的 notebook 應該是內置式的 usb card reader 吧? 我的桌機有內建 usb card reader, 如果用移除上層裝置, 就再也抓不到 sd card, 得要重開機; 如果只是 umount , sync , 拔卡片重插則沒問題
 21:05 < hmchen> 這就好像 windows 下,  usb disk 安全移除裝置後, 不重插就抓不到是一樣狀況
 21:42 < guildwar> ok, 來重開機看看
+21:52 < guildwar> 沒用耶，重開還是沒動靜
