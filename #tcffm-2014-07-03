@@ -58,3 +58,4 @@
 22:16 < guildwar> 但是無法跑
 22:19 < hmchen> 應該中獎了
 22:19 < hmchen> https://wiki.debian.org/ArmPorts
+22:19 < hmchen> 照上面說的, armhf 應該是給 armv7 (cortex-A5, A7, A8, A9) 用的
