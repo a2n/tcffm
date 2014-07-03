@@ -87,3 +87,4 @@
 22:28 < guildwar> 是的
 22:28 <@haroldwu> 真不錯，不過不知道在開發上有甚麼優勢呢
 22:28 < guildwar> 不過 linux 常常會有 kernel 漏洞，一般 user 能取得 root 權限，要小心
+22:29 <@haroldwu> 我之前是看過有 python 開發者拿 docker 取代 visualenv
