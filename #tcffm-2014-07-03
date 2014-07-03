@@ -34,3 +34,4 @@
 22:06 < hmchen> 我今天有接 serial console 嘗試找錯誤訊息,  但一個字也沒看到, 上電後 act (綠燈) 閃了一下就沒反應了
 22:06 < hmchen> pwr (紅)有過電
 22:08 < hmchen> 估計是 GPU firmware 有改了什麼東西, 如果有把 linux kernel 載入到 ram 執行, serial console 會有 kernel message 輸出
+22:08 < guildwar> 不過我之前遇到另一個問題，就是 dpkg 不會動，因為前陣子 debian 有安全更新，但用 debian security 的 dpkg 會掛點，從此無法再裝任何東東
