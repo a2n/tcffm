@@ -8,3 +8,4 @@
 17:42 < hmchen> 啊啊... 我也是 samsung
 17:42 < hmchen> 但同一張卡跑 2013 的 raspbiam image 是沒問題的, 跟之前聚會時 demo 用的是同一張卡
 17:43 < guildwar> 真奇怪，我是正常，但有另一個鳥問題
+17:44 < guildwar> 有二張 microSD，另外有二個 microSD -> SD 轉接卡，其中一個接到 notebook 的 SD 卡插槽不能讀，另一個就可以，但二個轉接卡接到 RPi 上都可以用
