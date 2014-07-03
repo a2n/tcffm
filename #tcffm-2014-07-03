@@ -78,3 +78,4 @@
 22:25 < guildwar> 可有不同 network, memory, hostname 等等，比 chroot 強多了
 22:25 <@haroldwu> 看起來包裝一下 chroot 不是也有一樣的效果?
 22:25 <@haroldwu> 喔喔
+22:25 < guildwar> 但 chroot 無法切 memory 吧
