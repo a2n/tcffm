@@ -82,3 +82,4 @@
 22:25 <@haroldwu> 你是指說限定虛擬機只能用多少記憶體嗎
 22:26 < guildwar> 是的
 22:26 < guildwar> 把他想像成一台虛擬機器，但是 kernel 和 host 共用
+22:27 < guildwar> 不用 vmx 或 svm
