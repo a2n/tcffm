@@ -15,3 +15,4 @@
 17:47 < hmchen> u-boot 還好, 有 source code 可以改
 17:47 < hmchen> 有事要先下線了
 17:48 < guildwar> 可是現在是插到 RPi 沒問題，在 notebook 要讀資料卻在 /proc/partition 看不到 partition，看 syslog 也沒有裝置出現
+17:48 < guildwar> ok, bye
