@@ -62,3 +62,4 @@
 22:20 < guildwar> 了解，RPi 是 v6
 22:20 <@haroldwu> 有人用過 docker 嗎?
 22:20 < hmchen> 雖然 rpi 的 arm11 也有 hardfloat,   但 debian  的 armhf 應該開了 -march=armv7
+22:21 < guildwar> 右
