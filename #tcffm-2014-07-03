@@ -98,3 +98,6 @@
 22:32 < guildwar> 不過聽說 vagrant 也要支援 lxc 了
 22:33 < hmchen> 目標是可以把 docker 放到其他 cloud service 的主機上
 22:34 <@haroldwu> docker 可以寫程部署腳本，挺方便的呢
+22:34 <@haroldwu> 玩完官網教學了，繼續看 codedata 的文章
+22:35 < guildwar> hmchen: 應該是自己架一台 cloud 主機，自己用 docker 來管，那個 push 只是用來將你準備的 image 分享給別人用的吧
+22:36 < hmchen> 了解, 所以 docker 是 container 的管理器?
