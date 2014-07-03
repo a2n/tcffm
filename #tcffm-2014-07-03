@@ -43,3 +43,4 @@
 22:11 < guildwar> 就 dpkg 升級後，執行 dpkg 就錯誤，所以再也無法安裝舊版的軟體了
 22:11 < hmchen> raspbian 跟 debian official package 記得是差在 hardfloat
 22:12 < guildwar> debian 的 armhf 也是 hardfloat 啊
+22:12 < hmchen> 喔喔~~
