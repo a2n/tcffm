@@ -49,3 +49,4 @@
 22:12 < guildwar> 我目前至少找到二個， 一個是 dpkg, 另一個是 openssl
 22:13 < hmchen> raspbian  跟 debian 的 glibc 有同版本嗎?
 22:13 < guildwar> 都要裝 RPi 版本才能跑，但問題是，目前 RPi 還沒出 dpkg 安全更新 XD
+22:14 < guildwar> libc6 也是 rpi 版本 2.13-38+rpi2+deb7u1
