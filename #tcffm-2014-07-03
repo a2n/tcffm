@@ -110,3 +110,4 @@
 22:39 < guildwar> 通常一台 lxc 只跑一個 job，如 apache 一台，mysql 一台.....
 22:41 < guildwar> 不過有人反對，xen 的人對 docker 沒信心就是，看看
 22:41 < guildwar> http://open.citrix.com/blog/328-are-containers-the-right-answer-to-the-wrong-question.html
+22:42 < guildwar> xen 可以配合 osv 來達到 light weight，因為 linux 太容易被取得 root，所以很危險
