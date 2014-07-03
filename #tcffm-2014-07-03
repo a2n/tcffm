@@ -36,3 +36,4 @@
 22:08 < hmchen> 估計是 GPU firmware 有改了什麼東西, 如果有把 linux kernel 載入到 ram 執行, serial console 會有 kernel message 輸出
 22:08 < guildwar> 不過我之前遇到另一個問題，就是 dpkg 不會動，因為前陣子 debian 有安全更新，但用 debian security 的 dpkg 會掛點，從此無法再裝任何東東
 22:09 < guildwar> debian 的版本是 1.16.15，而 RPi 的是 1.16.14+rpi1，所以我得手動將 dpkg hold 在 1.16.14+rpi1 才行
+22:09 < hmchen> 這狀況應該是軟體層級
