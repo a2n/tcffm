@@ -94,3 +94,4 @@
 22:30 < guildwar> 同樣一台機器，假設 kvm 可跑 10 台，用 lxc 可能可以跑 15 或 20 台
 22:31 <@haroldwu> 唔，精確的說更像 heroku 的管理器，還有自己的 ps
 22:31 < guildwar> haroldwu: 有點類似
+22:31 < hmchen> light weight 還有快速佈署
