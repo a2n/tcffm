@@ -38,3 +38,4 @@
 22:09 < guildwar> debian 的版本是 1.16.15，而 RPi 的是 1.16.14+rpi1，所以我得手動將 dpkg hold 在 1.16.14+rpi1 才行
 22:09 < hmchen> 這狀況應該是軟體層級
 22:10 < guildwar> 但是很討厭，為什麼很多 package 都無法用 debian 官方的，一定要 RPi 的才能 run 呢?
+22:10 < hmchen> 是無聲無息的掛點嗎?
