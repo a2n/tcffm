@@ -7,3 +7,4 @@
 17:42 < hmchen> 我查到資料, 有可能因為 DDR 廠牌不同, soc firmware (in fat32 partition) 要用不同的版本 (對應不同的 DDR timing 值)
 17:42 < hmchen> 啊啊... 我也是 samsung
 17:42 < hmchen> 但同一張卡跑 2013 的 raspbiam image 是沒問題的, 跟之前聚會時 demo 用的是同一張卡
+17:43 < guildwar> 真奇怪，我是正常，但有另一個鳥問題
