@@ -1,3 +1,4 @@
 --- Log opened 四  7月 03 00:00:33 2014
 16:02 < hmchen> 有人試過 RPi + Raspbian 2014-06-20 的 image 嗎? 我的 Pi 開不起來, ADATA class 6 8GB, 換 riscos 的 image 可以開機
 17:33 < guildwar> 我現在試了，可以開機沒問題 創見 class 10 16G
+17:35 < guildwar> 不過我不是直接 dd，因為還有其他 partition 有資料，所以掛起來用 tar 的
