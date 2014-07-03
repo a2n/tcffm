@@ -95,3 +95,4 @@
 22:31 <@haroldwu> 唔，精確的說更像 heroku 的管理器，還有自己的 ps
 22:31 < guildwar> haroldwu: 有點類似
 22:31 < hmchen> light weight 還有快速佈署
+22:32 < guildwar> 不過聽說 vagrant 也要支援 lxc 了
