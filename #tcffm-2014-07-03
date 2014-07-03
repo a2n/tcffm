@@ -102,3 +102,4 @@
 22:35 < guildwar> hmchen: 應該是自己架一台 cloud 主機，自己用 docker 來管，那個 push 只是用來將你準備的 image 分享給別人用的吧
 22:36 < hmchen> 了解, 所以 docker 是 container 的管理器?
 22:36 < guildwar> 是
+22:36 < guildwar> 若自己手動下 lxc-start  lxc-stop lxc-xxx 的，很麻煩
