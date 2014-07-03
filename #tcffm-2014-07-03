@@ -90,3 +90,4 @@
 22:29 <@haroldwu> 我之前是看過有 python 開發者拿 docker 取代 visualenv
 22:29 <@haroldwu> 先把官網的教學玩完
 22:29 < guildwar> 和 xen 或 kvm 比，常然就是耗的系統資源比較少
+22:30  * haroldwu 我覺得 docker 的指令有點像 openshift 的 rhc
