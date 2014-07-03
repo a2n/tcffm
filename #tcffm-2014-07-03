@@ -60,3 +60,4 @@
 22:19 < hmchen> https://wiki.debian.org/ArmPorts
 22:19 < hmchen> 照上面說的, armhf 應該是給 armv7 (cortex-A5, A7, A8, A9) 用的
 22:20 < guildwar> 了解，RPi 是 v6
+22:20 <@haroldwu> 有人用過 docker 嗎?
