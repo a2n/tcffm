@@ -32,3 +32,4 @@
 22:05 < hmchen> 但 rpi 討論區有人說 online update 後有開機失敗的問題
 22:05 < guildwar> 是喔，我剛才是還沒升級
 22:06 < hmchen> 我今天有接 serial console 嘗試找錯誤訊息,  但一個字也沒看到, 上電後 act (綠燈) 閃了一下就沒反應了
+22:06 < hmchen> pwr (紅)有過電
