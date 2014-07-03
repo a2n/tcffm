@@ -74,3 +74,4 @@
 22:23 < hmchen> 第一次聽到有 kernel namespace 這功能
 22:24 < guildwar> docker 的 image 不是完整的 os image，有改過，很多都有提供 docker 專用 image，之前聽 redhat 說也會提供
 22:24 < hmchen> 共用同一個 kernel ,   卻可以把 resource 區隔開來
+22:24 < guildwar> yes
