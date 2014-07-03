@@ -97,3 +97,4 @@
 22:31 < hmchen> light weight 還有快速佈署
 22:32 < guildwar> 不過聽說 vagrant 也要支援 lxc 了
 22:33 < hmchen> 目標是可以把 docker 放到其他 cloud service 的主機上
+22:34 <@haroldwu> docker 可以寫程部署腳本，挺方便的呢
