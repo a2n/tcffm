@@ -3,3 +3,4 @@
 17:33 < guildwar> 我現在試了，可以開機沒問題 創見 class 10 16G
 17:35 < guildwar> 不過我不是直接 dd，因為還有其他 partition 有資料，所以掛起來用 tar 的
 17:41 < hmchen> guildwar: 你的 Pi 上面的 DDR 廠牌是 Hynix 或 Samsung ?
+17:41 < guildwar> Samsung
