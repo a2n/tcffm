@@ -108,3 +108,4 @@
 22:37 <@haroldwu> 難怪可以用來做主機的快速部署了
 22:37 < guildwar> 不過玩 docker 硬碟要夠大
 22:39 < guildwar> 通常一台 lxc 只跑一個 job，如 apache 一台，mysql 一台.....
+22:41 < guildwar> 不過有人反對，xen 的人對 docker 沒信心就是，看看
