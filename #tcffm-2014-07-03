@@ -75,3 +75,4 @@
 22:24 < guildwar> docker 的 image 不是完整的 os image，有改過，很多都有提供 docker 專用 image，之前聽 redhat 說也會提供
 22:24 < hmchen> 共用同一個 kernel ,   卻可以把 resource 區隔開來
 22:24 < guildwar> yes
+22:25 < guildwar> 可有不同 network, memory, hostname 等等，比 chroot 強多了
