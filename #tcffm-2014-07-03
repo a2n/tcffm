@@ -10,3 +10,4 @@
 17:43 < guildwar> 真奇怪，我是正常，但有另一個鳥問題
 17:44 < guildwar> 有二張 microSD，另外有二個 microSD -> SD 轉接卡，其中一個接到 notebook 的 SD 卡插槽不能讀，另一個就可以，但二個轉接卡接到 RPi 上都可以用
 17:44 < guildwar> 轉接卡還會挑
+17:46 < hmchen> sd 卡開機的板子就會有 boot time 相容性問題
