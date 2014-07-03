@@ -107,3 +107,4 @@
 22:37 < guildwar> 而且 docker 配 aufs 做到 snapshot 的功能，很方便
 22:37 <@haroldwu> 難怪可以用來做主機的快速部署了
 22:37 < guildwar> 不過玩 docker 硬碟要夠大
+22:39 < guildwar> 通常一台 lxc 只跑一個 job，如 apache 一台，mysql 一台.....
