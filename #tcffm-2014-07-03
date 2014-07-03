@@ -39,3 +39,4 @@
 22:09 < hmchen> 這狀況應該是軟體層級
 22:10 < guildwar> 但是很討厭，為什麼很多 package 都無法用 debian 官方的，一定要 RPi 的才能 run 呢?
 22:10 < hmchen> 是無聲無息的掛點嗎?
+22:10 < hmchen> 沒有特別的錯誤訊息?
