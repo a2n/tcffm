@@ -1,0 +1,2 @@
+--- Log opened 五  7月 04 00:00:34 2014
+11:57 < hmchen> guildwar: 太大意了, RPi upgrade 後用 reboot 雖然沒問題, 但真的斷電再來就掛了, 我猜 warm reboot 並沒有真的 release firmware 或作對應的 hardware 初始化
