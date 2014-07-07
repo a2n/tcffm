@@ -41,3 +41,4 @@
 17:10 < guildwar> 最主要是想將我姊的手機資料備份，因為她們常在換手機，麻煩的要死
 17:11 < guildwar> cozy 有支援 webdav
 17:19 < guildwar> source code:  https://github.com/cozy/
+17:26 < guildwar> damn it, 目前只支援 CardDAV 及 CalDAV，還不支援 WebDAV，再等等吧
