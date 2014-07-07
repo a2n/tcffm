@@ -72,3 +72,4 @@
 21:28 < hmchen> 來試一下
 21:28 < hmchen> 確實 unity 改用 indicator 搞了很多麻煩出來
 21:30 < guildwar> 原來是預設關掉了喔
+21:30 < hmchen> apt source 已經加了一堆 ppa 的東西了, 每次手動 update 都等好久
