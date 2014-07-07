@@ -24,3 +24,4 @@
 16:15 < guildwar> 真麻煩
 16:18 < guildwar> 看了 winhq 的 appDB，目前也只有五筆記錄，看來用 .net 4.5 的很少，不過其中有一行說要先裝 4.0
 16:18 < guildwar> Install with winetricks and install .NET 4.0 first.
+16:23 < hmchen> 如果用 winetricks 先裝 dotnet40 會跟 dotnet45 衝突
