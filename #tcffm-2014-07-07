@@ -14,3 +14,4 @@
 11:40 < hmchen> 用 wine 掛 win7 partition / driver_c ?
 11:54 < guildwar> 將 windows 7 掛起來， 再做個連結到   ~/.wine/drive_c
 11:55 < hmchen> 剛剛查了 winehq 的討論, 這樣似乎很危險
+11:55 < hmchen> 以前有試過用 VMWare 掛 winxp 的實體 partition
