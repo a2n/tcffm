@@ -77,3 +77,4 @@
 21:30 < hmchen> 以前有個 whitelist
 21:30 < hmchen> 但現在把 whitelist 設成 'all' 也沒用
 21:31 < guildwar> 那能不能自己再手動跑另一個 systray 的軟體算了
+21:31 < guildwar> 像 cairo-dock 之類的
