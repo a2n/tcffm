@@ -78,3 +78,4 @@
 21:30 < hmchen> 但現在把 whitelist 設成 'all' 也沒用
 21:31 < guildwar> 那能不能自己再手動跑另一個 systray 的軟體算了
 21:31 < guildwar> 像 cairo-dock 之類的
+21:31 < hmchen> 剛剛裝了 ppa:timekiller/unity-systrayfix
