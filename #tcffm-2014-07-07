@@ -56,3 +56,4 @@
 21:16 < hmchen> 神奇的是只有 xchat 會這樣, skype, dropbox 跟其他軟體都很正常
 21:17 < hmchen> 有裝了 xchat-indicator 但沒作用
 21:17 < guildwar> 了解，可能是 xchat 的 bug 吧
+21:18 < hmchen> 只在 unity 下如此, 跑 mint17, 或切換成 xfce, lxde 都很正常
