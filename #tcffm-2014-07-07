@@ -7,3 +7,4 @@
 09:42 < hmchen> '看起來' 很美好.... 但我要跑的軟體還是不行, 出現了我沒看過得 error message
 09:42 < hmchen> 今天要再換新一點的 wine 1.7 試試看
 09:44 < hmchen> 平常開 virtualbox/win7 就只是為了某個 .net 寫的 test tool, 覺得這樣實在很瞎
+11:10 < hmchen> 換了 wine1.7 還是一樣, 看錯誤訊息不像是 wine 或安裝 dotnet 的問題
