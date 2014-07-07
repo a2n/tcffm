@@ -75,3 +75,4 @@
 21:30 < hmchen> apt source 已經加了一堆 ppa 的東西了, 每次手動 update 都等好久
 21:30 < hmchen> 不只是這樣
 21:30 < hmchen> 以前有個 whitelist
+21:30 < hmchen> 但現在把 whitelist 設成 'all' 也沒用
