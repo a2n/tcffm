@@ -17,3 +17,4 @@
 11:55 < hmchen> 以前有試過用 VMWare 掛 winxp 的實體 partition
 11:55 < guildwar> 是，有可能以後開不了 windows 7，我之前是 copy 一份過來
 11:55 < hmchen> 但 vmware 相對安全一點
+11:56 < guildwar> 反正試試而已，copy 一份過來，不行就砍掉，才能確定是不是 wine 的問題
