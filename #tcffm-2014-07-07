@@ -28,3 +28,4 @@
 16:23 < hmchen> 我是用 WINEARCH=win32, 直接 winetricks dotnet45 安裝到好
 16:24 < hmchen> 我猜 wine 或許比較適合跑舊版的 win32 app
 16:28 < guildwar> 看來太新還是沒辦法
+16:31 < guildwar> 你應該有設定成 windows 7 mode 吧，預設是 window XP
