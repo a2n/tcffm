@@ -1,3 +1,8 @@
 --- Log opened 一  7月 07 00:00:38 2014
 09:40 < hmchen> 用最新版的 winetricks 安裝 M$ 版的 .net 4.5 成功
 09:40 <@haroldwu> 讚
+09:41 < hmchen> wget http://winetricks.org/winetricks
+09:41 <@haroldwu> 運作的如何？
+09:41 < hmchen> bash winetricks dotnet45
+09:42 < hmchen> '看起來' 很美好.... 但我要跑的軟體還是不行, 出現了我沒看過得 error message
+09:42 < hmchen> 今天要再換新一點的 wine 1.7 試試看
