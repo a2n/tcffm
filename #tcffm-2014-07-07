@@ -10,3 +10,4 @@
 11:10 < hmchen> 換了 wine1.7 還是一樣, 看錯誤訊息不像是 wine 或安裝 dotnet 的問題
 11:10 < hmchen> Inner exception: The method or operation is not implemented.
 11:12 < hmchen> 應該是用到了某個還未安裝的元件 , 在真正的 windows 下已經預先安裝的那種, 但 wine 沒有提供
+11:30 < guildwar> 那不要用虛擬的 windows 啊，直接將 windows 7 掛起來當 drive_c 就好
