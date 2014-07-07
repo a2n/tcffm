@@ -12,3 +12,4 @@
 11:12 < hmchen> 應該是用到了某個還未安裝的元件 , 在真正的 windows 下已經預先安裝的那種, 但 wine 沒有提供
 11:30 < guildwar> 那不要用虛擬的 windows 啊，直接將 windows 7 掛起來當 drive_c 就好
 11:40 < hmchen> 用 wine 掛 win7 partition / driver_c ?
+11:54 < guildwar> 將 windows 7 掛起來， 再做個連結到   ~/.wine/drive_c
