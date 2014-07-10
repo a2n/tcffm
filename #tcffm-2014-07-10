@@ -1,0 +1,2 @@
+--- Log opened 四  7月 10 00:00:43 2014
+14:57 < guildwar> CVE-2014-4699 kernel ptrace 重大漏洞，一般使用者有可能取得 root 權限，但這篇文裡的附件的驗證碼，只能讓系統當機(一般使用者)，在 gentoo 及 debian 試了都可生效
