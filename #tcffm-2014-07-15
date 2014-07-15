@@ -1,3 +1,4 @@
 --- Log opened 二  7月 15 00:00:50 2014
 21:28 < guildwar> RPi 改版，出了 model B+，規格大致上和 model B 一樣，差別如下:
 21:28 < guildwar> 1.GPIO 由原本 26 pins變 40 pins
+21:28 < guildwar> 2.USB 2.0 孔由二個變四個
