@@ -13,3 +13,4 @@
 13:51 < guildwar> google 要出 android one 的低價手機，完全不給其他手機有生存的空間，希望 firefox os 要撐住啊
 13:51 < guildwar> http://www.theverge.com/2014/6/25/5841976/android-one-hardware-reference-program
 13:55 < guildwar> ok, 將 X 重啟後，字型就正常了
+13:58 < hmchen> 不過照理說是不用重啟 X, 我是用 ubuntu 的 font viewer, 會安裝到 .local/share/fonts/ 下
