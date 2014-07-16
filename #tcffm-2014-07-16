@@ -15,3 +15,4 @@
 13:55 < guildwar> ok, 將 X 重啟後，字型就正常了
 13:58 < hmchen> 不過照理說是不用重啟 X, 我是用 ubuntu 的 font viewer, 會安裝到 .local/share/fonts/ 下
 13:59 < hmchen> 再去改 /etc/fonts/conf.d/69-language-selector-zh-tw.conf 的優先順序, 馬上就生效了
+14:01 < hmchen> android one 的 100 USD 很有殺傷力啊
