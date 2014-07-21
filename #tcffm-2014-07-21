@@ -11,3 +11,4 @@
 20:09 <@haroldwu> 這個 abc 我想弄一個長字串，那我要怎麼做呢？
 20:10 <@haroldwu> 應該不是單純的 < 或 | ... 吧
 20:29 < guildwar> 應該是說 shell 吧，一般我會先將字串放到暫存檔中，再從這裡 --content $(cat /tmp/XXXX)
+20:37 <@haroldwu> 能直接 pipe 過去嗎？
