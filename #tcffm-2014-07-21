@@ -27,3 +27,4 @@
 20:58 <@haroldwu> 因為他參數蠻多的
 20:59 <@haroldwu> 啊，有了，我看到教學了，原來在 --content 後面接大寫的 WRITE 會自動開啟 EDITOR
 20:59 <@haroldwu> 而且副檔名是 markdown，程式會再把內容取出送去
+21:00 < guildwar> 原來如此，讚喔
