@@ -15,3 +15,4 @@
 20:37 <@haroldwu> 或者開啟一個 界面一類的 orz
 20:37 <@haroldwu> 我其實是在玩這個 http://www.geeknote.org
 20:37 <@haroldwu> http://www.geeknote.me <- 這個才對
+20:45 < guildwar> pipe 行不通吧，我都是再寫另一個 script 來呼叫這個 foo 指令，自然就可以在 script 中帶參數了
