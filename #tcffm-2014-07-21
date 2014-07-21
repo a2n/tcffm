@@ -13,3 +13,4 @@
 20:29 < guildwar> 應該是說 shell 吧，一般我會先將字串放到暫存檔中，再從這裡 --content $(cat /tmp/XXXX)
 20:37 <@haroldwu> 能直接 pipe 過去嗎？
 20:37 <@haroldwu> 或者開啟一個 界面一類的 orz
+20:37 <@haroldwu> 我其實是在玩這個 http://www.geeknote.org
