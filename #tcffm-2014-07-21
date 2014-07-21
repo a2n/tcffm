@@ -22,3 +22,4 @@
 20:53 <@haroldwu> http://www.chengxuyuans.com/Python/63586.html
 20:53 <@haroldwu> Geeknote 語法高亮與 bash 下自動補全
 20:55 < guildwar> bash_completion 大部份是用來補參數的(--content, --title 之類的固定參數)，你要代換的是字串，不適用
+20:57 <@haroldwu> 哦不是，這是另外的 tips 順便貼的 XDD
