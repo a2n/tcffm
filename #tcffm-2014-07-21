@@ -17,3 +17,4 @@
 20:37 <@haroldwu> http://www.geeknote.me <- 這個才對
 20:45 < guildwar> pipe 行不通吧，我都是再寫另一個 script 來呼叫這個 foo 指令，自然就可以在 script 中帶參數了
 20:46 < guildwar> 譬如 start-geeknote   "your long messages"
+20:48 <@haroldwu> 恩...好
