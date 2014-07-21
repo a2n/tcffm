@@ -36,3 +36,4 @@
 21:02 <@haroldwu> 沒有 license
 21:03 <@haroldwu> 不過是開源的，所以暫時沒啥問題
 21:03 < guildwar> 不過沒寫好 license，對 debian 之類的就沒辦法進去
+21:05 < guildwar> 不管，改天有 debian DD 想包 geeknote, 自然會去和作者問清楚
