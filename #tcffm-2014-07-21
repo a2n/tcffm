@@ -38,3 +38,4 @@
 21:03 < guildwar> 不過沒寫好 license，對 debian 之類的就沒辦法進去
 21:05 < guildwar> 不管，改天有 debian DD 想包 geeknote, 自然會去和作者問清楚
 21:06 <@haroldwu> 可以安裝在 local，挺棒的工具。不過他還是有個缺點，就是他不能離線使用
+21:06 < guildwar> 那官方的能離線使用?
