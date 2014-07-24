@@ -1,3 +1,4 @@
 --- Log opened 四  7月 24 00:00:02 2014
 19:31 < guildwar> eff.org 推出一個 Open Wireless Router project (像 fon project，但沒限制使用者，大家都能用)，讓大家將自己 wifi 對所有人開放，使用 CeorWRT (OpenWRT 分支)，目前僅針對 Netgear WNDR3800 最佳化
 19:31 < guildwar> http://linuxgizmos.com/project-fosters-free-open-secure-public-hotspots/
+19:33 < guildwar> 這個 project 目的在於讓任何人都能用別人的 wifi 上網，來讓 NSA 之類的單位監控人民變得更困難，來達到保護個人隱私的目的
