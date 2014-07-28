@@ -38,3 +38,4 @@
 23:46 < hmchen> drm/dri 是指 2d 加速的部份嗎? 純
 23:46 < guildwar> glamor 就是 Glamor is a 2D rendering acceleration implementation that's based upon OpenGL
 23:47 < guildwar> 是，2D 加速部份
+23:47 < guildwar> 不對啊，drm/dri 的是 3D
