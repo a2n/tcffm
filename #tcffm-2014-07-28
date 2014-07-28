@@ -41,3 +41,4 @@
 23:47 < guildwar> 不對啊，drm/dri 的是 3D
 23:47 < hmchen> 所以之前的是 open source 3D driver, 現在是補上 open source 版 2D driver drm
 23:49 < guildwar> 但是 glamor 是直接用 OpenGL 來顯示 2D，之前 2D 和 3D 是不同方式達成，現在都改用 OpenGL
+23:49 < guildwar> 滿複雜的，我也搞不大清楚 XD
