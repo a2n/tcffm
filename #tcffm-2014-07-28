@@ -25,3 +25,4 @@
 23:39 < hmchen> 應該是之前 RPi 辦的一個比賽, 把另一顆 broadcom bcm21553 的 vc4 source code 移植到 bcm2835
 23:39 < hmchen> 有 10,000 USD 獎金
 23:40 < guildwar> 你試試那個 script，會從最小排列到最大，一目瞭然
+23:40 < hmchen> phoronix 應該是追蹤後續進度, 不過我記得這個獎金已經被領走了
