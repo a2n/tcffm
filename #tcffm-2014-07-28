@@ -35,3 +35,4 @@
 23:43 < guildwar> hmchen: 那個是之前舊 news，對 X 的速度沒什麼作用；現在新的是要改 drm code，對我們來說比較有用
 23:44 < guildwar> 可是那要每套軟體都修改，比較麻煩
 23:45 < guildwar> 現在 drm 直接支援，就所以程式都加速到了 (用 glamor)
+23:46 < hmchen> drm/dri 是指 2d 加速的部份嗎? 純
