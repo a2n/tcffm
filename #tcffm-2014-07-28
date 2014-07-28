@@ -43,3 +43,4 @@
 23:49 < guildwar> 但是 glamor 是直接用 OpenGL 來顯示 2D，之前 2D 和 3D 是不同方式達成，現在都改用 OpenGL
 23:49 < guildwar> 滿複雜的，我也搞不大清楚 XD
 23:50 < hmchen> 因為我想說獎金都被領走了, 這次是改了那一塊?
+23:51 < hmchen> RPi 現在的 2D 真的爆弱...
