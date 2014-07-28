@@ -39,3 +39,4 @@
 23:46 < guildwar> glamor 就是 Glamor is a 2D rendering acceleration implementation that's based upon OpenGL
 23:47 < guildwar> 是，2D 加速部份
 23:47 < guildwar> 不對啊，drm/dri 的是 3D
+23:47 < hmchen> 所以之前的是 open source 3D driver, 現在是補上 open source 版 2D driver drm
