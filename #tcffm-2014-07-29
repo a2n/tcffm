@@ -1,0 +1,5 @@
+--- Log opened 二  7月 29 00:00:05 2014
+--- Day changed 二  7月 29 2014
+00:00 < hmchen> 有些卡片則是時有時無
+00:00 < hmchen> 結果 u-boot 初始化 SD 界面加一點時間延遲就好了
+00:01 < hmchen> 所以這種沒有 on-board flash 的板子有好有壞
