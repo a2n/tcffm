@@ -33,3 +33,4 @@
 23:42 < haroldwu> 清了一下，瞬間從 99% 變 78% XD
 23:43 < hmchen> 當時的條件記得是用 open source 的 driver 跑 quake 就算過關了
 23:43 < guildwar> hmchen: 那個是之前舊 news，對 X 的速度沒什麼作用；現在新的是要改 drm code，對我們來說比較有用
+23:44 < guildwar> 可是那要每套軟體都修改，比較麻煩
