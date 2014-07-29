@@ -10,3 +10,4 @@
 14:27 < guildwar> http://en.wikipedia.org/wiki/Glamor_%28software%29
 14:37 < hmchen> 所以就是用 openGL 方式完全取代傳統 2d 加速?
 14:38 < hmchen> 現代的 gpu, 3d 發展速度的都比 2d 快
+14:53 < guildwar> 應該是吧，不過 Glamor 還很新，可能問題還不少
