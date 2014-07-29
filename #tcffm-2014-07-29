@@ -97,3 +97,4 @@
 23:32 < guildwar> 之前就有人建議在 sdcard 上用 ext4，但將 journal 關掉，才不會一直想寫資料，慢死了
 23:32 < guildwar> 在 RPi 上
 23:32 < hmchen> 不是很妥當
+23:33 < guildwar> 是哦，有什麼大問題?
