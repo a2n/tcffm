@@ -8,3 +8,4 @@
 14:26 < guildwar> 簡化了一堆東東，最終目的是取代 XAA、EXA、UXA、SNA 之類的
 14:27 < guildwar> 另外，Glamor 也支援 Xephyr，現在也支援 2D 加速
 14:27 < guildwar> http://en.wikipedia.org/wiki/Glamor_%28software%29
+14:37 < hmchen> 所以就是用 openGL 方式完全取代傳統 2d 加速?
