@@ -78,3 +78,4 @@
 23:24 < hmchen> 用 initramfs (ramdisk) 開機後, 用 usb fileback gadget 把 eMMC 變成 PC 上的隨身碟
 23:25 < hmchen> 這樣不管 image 多大都能燒, 就算板子接 hdd  都可透過 pc 燒
 23:25 < guildwar> ok，沒用過這種方式就是
+23:26 < hmchen> freescale 從很早以前就用這種方式, 方便廠商量產燒 firmware
