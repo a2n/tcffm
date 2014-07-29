@@ -55,3 +55,4 @@
 23:12 < guildwar> 噗，好慘
 23:12 < hmchen> 居然是直接把另一張 samsung S5PV210 cortex a8 的 filesystem 直接放光碟
 23:12 < hmchen> 因為多數 hw 相關的 driver 都是 build 在 zImage 中, 不是 module, 所以週邊都還正常
+23:12 < hmchen> 但顯然品管有問題啊
