@@ -85,3 +85,4 @@
 23:28 < guildwar> 好複雜 :)
 23:28 < hmchen> 只能跑 ext4 這種 hdd / sdcard 用的 file system
 23:29 < guildwar> ok
+23:29 < hmchen> wear-leveling 就是上次講 SSD 作寫入次數平衡用的演算法
