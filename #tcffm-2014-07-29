@@ -74,3 +74,4 @@
 23:21 < hmchen> freescale 就出了很妙的工具
 23:21 < guildwar> 不能插到電腦用嗎？
 23:23 < hmchen> 算是, 用 usb 線接 pc, 有個模式可以跳過 u-boot, 直接從 usb port 灌 u-boot, linux kernel, init ram disk 到板子上
+23:23 < guildwar> 了解，還好不需要用到 serial console 之類的
