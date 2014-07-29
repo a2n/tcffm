@@ -104,3 +104,4 @@
 23:35 < hmchen> 如果用 ext2 加大容量 SD card, 斷電時就慘了
 23:35 < hmchen> recovery 要掃很久
 23:35 < guildwar> 對啊，等到花兒也謝了
+23:36 < hmchen> 如果是要偷快, norelatime 應該就不錯用了
