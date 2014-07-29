@@ -32,3 +32,4 @@
 15:08 < hmchen> 作為教育目的是不錯
 15:08 < hmchen> 要商業量產應該沒人會選 bcm2835 這顆 soc 吧
 15:12 < guildwar> 對啊
+15:12 < guildwar> 發現 Glamor 很慢的樣子，不過今年 GoC 有人在做 Glamor Performance Tuning
