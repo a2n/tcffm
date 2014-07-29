@@ -39,3 +39,4 @@
 19:22 < guildwar> Glamor 是一種 2D 加速 driver，將指令轉成 OpenGL 動作，來達到 2D 加速，好處是不用針對不同顯卡來寫不同的 driver，缺點是目前速度還沒有很快的樣子
 19:22 < guildwar> http://en.wikipedia.org/wiki/Glamor_%28software%29
 19:23 < guildwar> X 及 wayland 都支援
+22:56 < hmchen> 奮戰一整天總算把 i.mx6 + tslib + qt 搞定
