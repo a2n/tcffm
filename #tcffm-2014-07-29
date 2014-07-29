@@ -91,3 +91,4 @@
 23:30 < guildwar> 了解
 23:30 < guildwar> 將 ext4 的 journal 關掉 :)
 23:31 < hmchen> 你說退回到 ext2 模式嗎?
+23:31 < guildwar> 差不多，但用 ext4 功能比 ext2 多吧
