@@ -7,3 +7,4 @@
 14:24 < guildwar> 大致研究了一下，原本舊的是 DDX (Device Dependent X) 來做 2D，但每家硬體要有不同 driver，後來新的改成 Glamor 後，不管是什麼顯卡(open source or properietary)，只要支援 OpenGL 就好，Glamor 從 OpenGL 來生出 2D
 14:26 < guildwar> 簡化了一堆東東，最終目的是取代 XAA、EXA、UXA、SNA 之類的
 14:27 < guildwar> 另外，Glamor 也支援 Xephyr，現在也支援 2D 加速
+14:27 < guildwar> http://en.wikipedia.org/wiki/Glamor_%28software%29
