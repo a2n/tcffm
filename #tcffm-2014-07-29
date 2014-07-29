@@ -77,3 +77,4 @@
 23:23 < guildwar> 了解，還好不需要用到 serial console 之類的
 23:24 < hmchen> 用 initramfs (ramdisk) 開機後, 用 usb fileback gadget 把 eMMC 變成 PC 上的隨身碟
 23:25 < hmchen> 這樣不管 image 多大都能燒, 就算板子接 hdd  都可透過 pc 燒
+23:25 < guildwar> ok，沒用過這種方式就是
