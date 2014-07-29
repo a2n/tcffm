@@ -89,3 +89,4 @@
 23:29 < hmchen> ext4 這種給硬碟用的才不管 wear-leveling
 23:30 < hmchen> 所以長期使用下來, eMMC 的耐用度可能會有問題
 23:30 < guildwar> 了解
+23:30 < guildwar> 將 ext4 的 journal 關掉 :)
