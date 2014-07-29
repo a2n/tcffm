@@ -81,3 +81,4 @@
 23:26 < hmchen> freescale 從很早以前就用這種方式, 方便廠商量產燒 firmware
 23:26 < hmchen> 把一個臨時性的 linux 系統載入板子當燒錄工具用
 23:27 < hmchen> 不過 eMMC 有個弱點, 不能當 MTD 使用
+23:28 < hmchen> 所以像是 ubifs, yaffs, jffs2 這種有考量 wear-leveling 的 flash file system 都沒得用
