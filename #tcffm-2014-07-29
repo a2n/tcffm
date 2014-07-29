@@ -15,3 +15,4 @@
 15:00 < hmchen> http://www.hardkernel.com/main/products/prdt_info.php?g_code=G140610189490
 15:00 < guildwar> 我那個講法有問題，應該是說，Glamor 是將 2D 轉換成 OpenGL 指令之類的 XD
 15:00 < hmchen> hardkernel 出的 RPi 相容品
+15:00 < guildwar> Glamor is a generic 2D acceleration driver for the X server that works translating the X render primitives to OpenGL operations, taking advantage of any existing 3D OpenGL drivers
