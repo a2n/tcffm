@@ -9,3 +9,4 @@
 14:27 < guildwar> 另外，Glamor 也支援 Xephyr，現在也支援 2D 加速
 14:27 < guildwar> http://en.wikipedia.org/wiki/Glamor_%28software%29
 14:37 < hmchen> 所以就是用 openGL 方式完全取代傳統 2d 加速?
+14:38 < hmchen> 現代的 gpu, 3d 發展速度的都比 2d 快
