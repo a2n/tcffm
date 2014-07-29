@@ -98,3 +98,4 @@
 23:32 < guildwar> 在 RPi 上
 23:32 < hmchen> 不是很妥當
 23:33 < guildwar> 是哦，有什麼大問題?
+23:34 < hmchen> journal 的目的不就是寫入會花時間, 避免系統異常時資料遺失, 還有加快 recovery 速度嗎?
