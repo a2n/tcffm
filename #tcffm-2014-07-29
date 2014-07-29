@@ -68,3 +68,4 @@
 23:18 < hmchen> 然後還遇到有趣的狀況
 23:19 < hmchen> 通常開發版的 ram 都比 flash 大
 23:20 < hmchen> 所以 u-boot 可以透過 tftp 把 firmware 搬到 ram, 再燒到 flash
+23:20 < guildwar> ok
