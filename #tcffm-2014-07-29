@@ -59,3 +59,4 @@
 23:12 < guildwar> 那有 kernel config 檔嗎？
 23:13 < hmchen> 有
 23:13 < guildwar> 最怕遇到沒有 config file 的，想重編也有難度
+23:13 < hmchen> 目前 kernel 跟 filesystem 都自己重做了
