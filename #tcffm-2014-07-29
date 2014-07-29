@@ -70,3 +70,4 @@
 23:20 < hmchen> 所以 u-boot 可以透過 tftp 把 firmware 搬到 ram, 再燒到 flash
 23:20 < guildwar> ok
 23:20 < hmchen> 但這板子是 2G ram, 8G eMMC, 還附 ubuntu 11.12 image
+23:21 < hmchen> image 就比 ram 還大了, 這要怎樣燒 firmware ?
