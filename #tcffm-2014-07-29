@@ -58,3 +58,4 @@
 23:12 < hmchen> 但顯然品管有問題啊
 23:12 < guildwar> 那有 kernel config 檔嗎？
 23:13 < hmchen> 有
+23:13 < guildwar> 最怕遇到沒有 config file 的，想重編也有難度
