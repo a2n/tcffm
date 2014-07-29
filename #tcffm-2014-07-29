@@ -105,3 +105,4 @@
 23:35 < hmchen> recovery 要掃很久
 23:35 < guildwar> 對啊，等到花兒也謝了
 23:36 < hmchen> 如果是要偷快, norelatime 應該就不錯用了
+23:41 < guildwar> ok, 趕快來改，將 noatime 改成 relatime，這樣對吧，應該沒搞錯
