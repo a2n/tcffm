@@ -100,3 +100,4 @@
 23:33 < guildwar> 是哦，有什麼大問題?
 23:34 < hmchen> journal 的目的不就是寫入會花時間, 避免系統異常時資料遺失, 還有加快 recovery 速度嗎?
 23:34 < hmchen> 這個對 sd card 應該還是有用
+23:34 < guildwar> 所以注意不要斷電了 XD
