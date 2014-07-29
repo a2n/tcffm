@@ -93,3 +93,4 @@
 23:31 < hmchen> 你說退回到 ext2 模式嗎?
 23:31 < guildwar> 差不多，但用 ext4 功能比 ext2 多吧
 23:32 < hmchen> 完全無感啊...
+23:32 < hmchen>  arm 上頭不會用到啥 fs 的特異功能
