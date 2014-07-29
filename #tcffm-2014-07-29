@@ -84,3 +84,4 @@
 23:28 < hmchen> 所以像是 ubifs, yaffs, jffs2 這種有考量 wear-leveling 的 flash file system 都沒得用
 23:28 < guildwar> 好複雜 :)
 23:28 < hmchen> 只能跑 ext4 這種 hdd / sdcard 用的 file system
+23:29 < guildwar> ok
