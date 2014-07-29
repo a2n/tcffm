@@ -71,3 +71,4 @@
 23:20 < guildwar> ok
 23:20 < hmchen> 但這板子是 2G ram, 8G eMMC, 還附 ubuntu 11.12 image
 23:21 < hmchen> image 就比 ram 還大了, 這要怎樣燒 firmware ?
+23:21 < hmchen> freescale 就出了很妙的工具
