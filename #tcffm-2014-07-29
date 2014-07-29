@@ -40,3 +40,4 @@
 19:22 < guildwar> http://en.wikipedia.org/wiki/Glamor_%28software%29
 19:23 < guildwar> X 及 wayland 都支援
 22:56 < hmchen> 奮戰一整天總算把 i.mx6 + tslib + qt 搞定
+22:57 < hmchen> tslib 果然對 multi-touch LCD panel 支援能力不太好啊
