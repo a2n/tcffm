@@ -108,3 +108,4 @@
 23:41 < guildwar> ok, 趕快來改，將 noatime 改成 relatime，這樣對吧，應該沒搞錯
 23:46 < hmchen> 啊啊,  是 relatime , 不是 norelatime
 23:46 < hmchen> guildware 說的才對
+23:46 < guildwar> 收到
