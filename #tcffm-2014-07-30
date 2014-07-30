@@ -6,3 +6,4 @@
 12:36 < guildwar> 哪一點不懂，rootless 表示之前啟動 X 都要用 root，但是現在配合 systemd-logind 可以用一般使用者來啟動 X，更安全了，但只能用 startx 來啟動 X 才行，但從 gdm, kdm 登入就一定是用 root 來啟動。
 12:37 < guildwar> 另外， xorg-server-xwayland 安裝之後，就可以在進入 wayland 環境時，跑舊的 X 的 app，不然現在 wayland 的 app 還不多
 12:38 < guildwar> 試過 xwayland，大部份程式都可以跑，目前遇到二個不行，一個是 osd_cat，另一個是 wine，會讓 weston 整個 crash 掉，回到命令列
+13:02 < haroldwu> xwayland 速度如何
