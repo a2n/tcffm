@@ -8,3 +8,4 @@
 12:38 < guildwar> 試過 xwayland，大部份程式都可以跑，目前遇到二個不行，一個是 osd_cat，另一個是 wine，會讓 weston 整個 crash 掉，回到命令列
 13:02 < haroldwu> xwayland 速度如何
 13:07 < guildwar> 沒真正去測，因為 firefox 怪怪的，所以沒用很久 XD
+13:07 < guildwar> 沒 firefox 就等於斷手斷腳啦  XD
