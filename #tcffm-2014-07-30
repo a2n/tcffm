@@ -32,3 +32,4 @@
 23:28 < guildwar> 那若輸入 keyid 就能寄出了嗎?
 23:28 < haroldwu> 可是 keyid 不是應該系統有嗎 @@
 23:28 < haroldwu> 沒辦法，我複製你的 2018/7C 什麼的也不行
+23:30 < guildwar> 你先不管 mutt, 先用 gpg 來加密個檔案看 gpg 正不正常
