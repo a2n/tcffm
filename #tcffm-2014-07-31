@@ -17,3 +17,4 @@
 00:19 < guildwar> 不然用 root 執行 chattr +a ~/.gnupg 這樣就只能附加，不能刪除，試試
 00:19 < haroldwu^> 好 XD
 00:25 < guildwar> 檔案無法刪除，但是能清空 ( $ cp /dev/null filename ) XD
+00:29 < haroldwu^> 好悲劇 QQ
