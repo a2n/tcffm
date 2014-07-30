@@ -39,3 +39,4 @@
 23:34 < haroldwu^> No (valid) certificate found for louie23@gmail.com.
 23:35  * haroldwu^ 這是什麼狀況呢 ... orz
 23:35 < guildwar> 你的 muttrc 都沒動過?
+23:36 < guildwar> 可以設這個 set pgp_sign_as=7C7A1971 ，但我是沒設拉
