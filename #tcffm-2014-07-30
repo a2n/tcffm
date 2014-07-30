@@ -23,3 +23,4 @@
 23:23 < guildwar> 好慘 :)，確定你的 private key 還在
 23:23 < haroldwu> 怎麼確定
 23:24 < guildwar> gpg --list-keys your@email
+23:25 < guildwar> gpg --list-secret-keys
