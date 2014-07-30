@@ -3,3 +3,4 @@
 10:00 < haroldwu> https://www.archlinux.org/news/xorg-server-116-is-now-available/
 10:00 < haroldwu> guildwar: 這是什麼意思呀？
 10:00 < haroldwu> 研究了一下，不太懂
+12:36 < guildwar> 哪一點不懂，rootless 表示之前啟動 X 都要用 root，但是現在配合 systemd-logind 可以用一般使用者來啟動 X，更安全了，但只能用 startx 來啟動 X 才行，但從 gdm, kdm 登入就一定是用 root 來啟動。
