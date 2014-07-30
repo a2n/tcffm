@@ -25,3 +25,4 @@
 23:24 < guildwar> gpg --list-keys your@email
 23:25 < guildwar> gpg --list-secret-keys
 23:27 < guildwar> 或是 ~/.muttrc 不見了
+23:27 < hmchen> 慘
