@@ -41,3 +41,4 @@
 23:35 < guildwar> 你的 muttrc 都沒動過?
 23:36 < guildwar> 可以設這個 set pgp_sign_as=7C7A1971 ，但我是沒設拉
 23:36 < guildwar> 應該是 send-hook 及 send2-hook 後有指定 email ，然後會自動找到
+23:44 < guildwar> 那 louie23@gmail.com 的 public key 還正常?
