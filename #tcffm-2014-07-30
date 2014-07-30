@@ -44,3 +44,4 @@
 23:44 < guildwar> 那 louie23@gmail.com 的 public key 還正常?
 23:46 < haroldwu^> 是
 23:47 < guildwar> 那 ~/.muttrc 裡有 source /etc/Muttrc.gpg.dist ?
+23:48 < haroldwu^> 改用 gnus 寄了
