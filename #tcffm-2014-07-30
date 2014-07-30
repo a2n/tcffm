@@ -35,3 +35,4 @@
 23:30 < guildwar> 你先不管 mutt, 先用 gpg 來加密個檔案看 gpg 正不正常
 23:30 < haroldwu> 好
 23:32 < haroldwu^> 功能應該正常 gpg -se 可以運作
+23:33 < haroldwu^> 我知道了，userid 不需要前面那個
