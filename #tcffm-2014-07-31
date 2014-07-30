@@ -9,3 +9,4 @@
 00:04 < guildwar> /etc/profile.d/local.sh
 00:04 < haroldwu^> 好
 00:05 < haroldwu^> 把 .gnupg 什麼的設 660 好了 =.=
+00:06 < guildwar> chattr +i .gnupg 呢
