@@ -21,3 +21,4 @@
 23:17 < haroldwu> guildwar: 我想嘗試發加密信給你，可是 mutt 一直問我 keyid
 23:17 < haroldwu> 我 gpg -k 看，都還在啊，少了什麼嗎?
 23:23 < guildwar> 好慘 :)，確定你的 private key 還在
+23:23 < haroldwu> 怎麼確定
