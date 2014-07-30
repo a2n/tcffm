@@ -11,3 +11,4 @@
 00:05 < haroldwu^> 把 .gnupg 什麼的設 660 好了 =.=
 00:06 < guildwar> chattr +i .gnupg 呢
 00:06 < guildwar> 不行，要 root
+00:13 < haroldwu^> 設 660 還是會被刪 ？
