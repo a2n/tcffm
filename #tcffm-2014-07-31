@@ -30,3 +30,4 @@
 13:56 < haroldwu> 叫啥呢？
 15:51 < guildwar> 發現 trash-cli 超好用的，支援 -rf 參數，因此直接用 alias rm='trash' 即可
 15:51 < guildwar> https://github.com/andreafrancia/trash-cli
+--- Log closed 五  8月 01 00:00:14 2014
