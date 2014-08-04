@@ -8,3 +8,4 @@
 11:56 < haroldwu_> 也失敗了，connection time out
 13:10 < guildwar> 那透過 tor 呢?
 13:11 < guildwar> 不過經過 tor 不建議登入自己的帳號就是，純粹想說能不能連到網站而已 :)
+13:12 < guildwar> 或是家裡的 ssh port 改成 443 或 80 port 看看
