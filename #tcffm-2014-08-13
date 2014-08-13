@@ -8,3 +8,4 @@
 19:02 < guildwar> 對了，上次提到的 lionfree 免費主機，現在可以申請了，我還沒搞清楚如何用就是，不是一整台 vps 給你，比較像是 openshift 那樣，系統已 ready，再讓你選擇一些常用的 CMS、forum、blog 等等
 19:02 < guildwar> http://lionfree.net/free-hosting.php
 19:03 <@haroldwu> 好像不錯也！
+19:03 < guildwar> 看來彈性沒 heroku 及 openshift 那麼大
