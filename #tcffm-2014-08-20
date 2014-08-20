@@ -2,3 +2,4 @@
 10:22 <@haroldwu> 遇到麻煩的事兒，npm (nodejs package manager) 需要 python2
 10:22 <@haroldwu> arch 把 python -> python3 =.=
 10:22 <@haroldwu> 搞了半天發現是這個問題，只好開 virtualenv XDD
+18:34 < guildwar> 在 debian 或 redhat  還可以使用 update-alternatives 來切換，不過 archlinux　沒有
