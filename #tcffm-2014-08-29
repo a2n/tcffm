@@ -9,3 +9,4 @@
 17:23 -!- Irssi: Join to #tcffm was synced in 57 secs
 19:29 < guildwar_> 在 archlinux 上試了那個 deepin 編好的版本，都會 segfault，無法使用
 19:29 < guildwar_> dde-launcher[8730]: segfault at 100010b ip 00007fec634a7989 sp 00007fffae2820f0 error 4 in libglib-2.0.so.0.4000.0[7fec6346f000+105000]
+19:30 < guildwar_> 看來還是自己編比較實在 :)
