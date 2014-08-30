@@ -4,3 +4,4 @@
 08:54 <@haroldwu> 還不如 xfce4，而且我不喜歡仿 mac 的界面 XDD
 09:16 < guildwar> 唉，最近很背吧，用 archlinux 官方 kernel，OpenGL 都不會動，log 裡寫 Detected a hung GPU, disabling acceleration.
 09:17 < guildwar> 但開到 gentoo 或 debian 又很正常，結果拿 gentoo 自己編的 kernel 來 archlinux 用也正常，有空再來慢慢比對看是不是少了什麼模組
+09:18 <@haroldwu> 自己開 abs 編譯優化了 XD
