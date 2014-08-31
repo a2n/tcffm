@@ -13,3 +13,4 @@
 21:51 < dclee9> 所以目前只敢用ssh 做tunnel 翻牆用
 21:51 < dclee9> 連PPTP都不太敢裝
 21:52 < guildwar> 那應該就沒問題了，之前遇過，用 linux 當 router, 當機之後，在 console 無法登入，但 nat 都還是很正常 :)
+21:52 < dclee9> 但是很想試，如果可以PPTP所有的裝置都可以支援了，包含iOS
