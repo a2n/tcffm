@@ -16,3 +16,4 @@
 11:21 < haroldwu_cloud> 但是學校圖書館是win呀XD
 11:22 < guildwar>  putty 也可以用
 11:22 < haroldwu_cloud> 我個人電腦是用 pubkey login 沒錯
+11:28 < guildwar> 以前試過用 puttygen 產生 key, 將 public key 放到 server 也一樣可以連
