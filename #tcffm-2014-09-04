@@ -26,3 +26,4 @@
 19:24 < guildwar> 這樣不賺到了
 19:25 < guildwar> 找到了，在這裡 /sys/class/power_supply/BAT0/
 19:26 < guildwar> /sys/class/power_supply/BAT0/charge_full_design
+19:27 <@haroldwu> dclee9: 啊，batmon 還要裝 gnustep 的模組跟 gcc-objc ....
