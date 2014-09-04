@@ -13,3 +13,4 @@
 19:18 <@haroldwu> guildwar: 我買了個筆電新電池
 19:18 <@haroldwu> 我要怎麼查看電池資訊呢 /proc/acpi/ 裡面沒有 batter 這個目錄
 19:19 < guildwar> 可用 acpi -V
+19:20 < dclee9> batmon
