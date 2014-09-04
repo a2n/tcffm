@@ -12,3 +12,4 @@
 19:05 < dclee9> http://www.哪裡去.com/index.php/food/chinese-cuisine/taiwanese-food/2014-04-26-22-04-59
 19:18 <@haroldwu> guildwar: 我買了個筆電新電池
 19:18 <@haroldwu> 我要怎麼查看電池資訊呢 /proc/acpi/ 裡面沒有 batter 這個目錄
+19:19 < guildwar> 可用 acpi -V
