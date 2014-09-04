@@ -28,3 +28,4 @@
 19:26 < guildwar> /sys/class/power_supply/BAT0/charge_full_design
 19:27 <@haroldwu> dclee9: 啊，batmon 還要裝 gnustep 的模組跟 gcc-objc ....
 19:28 < guildwar> 這個 batterymon-clone
+19:29 < guildwar> 或這個也不錯 valabattery2-git
