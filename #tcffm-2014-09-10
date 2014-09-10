@@ -14,3 +14,4 @@
 09:41 < hmchen> wayland 也可以在 console mode 使用?
 09:43 < guildwar> 不行，但和 console 有什麼不同，又不用多啟動一個 X，配合 XWayland 目前大部份的 X apps 都能用
 09:43 < hmchen> 不過說真的, console mode + dual monitor 真的很罕見
+10:22 < guildwar> 目前看起來比較有可能是用 directfb，不過我一直搞不定就是 http://www.directfb.org/
