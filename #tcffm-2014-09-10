@@ -13,3 +13,4 @@
 09:39 < guildwar> 不過以後改用 wayland 就好了，方便多了，目前就支援雙螢幕，而且用不到可以關掉 XD
 09:41 < hmchen> wayland 也可以在 console mode 使用?
 09:43 < guildwar> 不行，但和 console 有什麼不同，又不用多啟動一個 X，配合 XWayland 目前大部份的 X apps 都能用
+09:43 < hmchen> 不過說真的, console mode + dual monitor 真的很罕見
