@@ -4,3 +4,4 @@
 07:35 <@haroldwu> 我想在雙螢幕使用，不過好像沒找到方法
 08:35 < guildwar> 在 console 下使用雙螢幕，難度好像滿高的
 09:13 < hmchen> http://www.tldp.org/HOWTO/Framebuffer-HOWTO/x1010.html
+09:14 < hmchen> 有個 con2fb 的工具可以把 ttyX 綁定在指定的 fbdev
