@@ -6,3 +6,4 @@
 09:13 < hmchen> http://www.tldp.org/HOWTO/Framebuffer-HOWTO/x1010.html
 09:14 < hmchen> 有個 con2fb 的工具可以把 ttyX 綁定在指定的 fbdev
 09:15 < guildwar> 可是那是要二個 framebuffer 時的狀況才行吧，像我的 notebook 只有一個 /dev/fb0
+09:36 < hmchen> 這跟 GPU 有關了
