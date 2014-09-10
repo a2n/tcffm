@@ -10,3 +10,4 @@
 09:37 < hmchen> 如果是 TI OMAP3/4 , 會有 /dev/fb0, fb1, fb2
 09:38 < hmchen> intel/nvidia 或許要專用 driver 才有多螢幕輸出
 09:38 < guildwar> ok, 了解
+09:39 < guildwar> 不過以後改用 wayland 就好了，方便多了，目前就支援雙螢幕，而且用不到可以關掉 XD
