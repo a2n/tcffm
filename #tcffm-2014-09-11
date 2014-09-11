@@ -32,3 +32,4 @@
 21:55 < guildwar>        Pre-Invoke  { "mount /usr -o remount,rw" };
 21:55 < guildwar>        Post-Invoke { "mount /usr -o remount,ro" };
 21:55 < guildwar>      };
+21:55 < guildwar> 那個 /usr 改成 /
