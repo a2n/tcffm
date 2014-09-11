@@ -25,3 +25,4 @@
 21:48 < hmchen> 新版的 raspistill 有新增 busrt mode (-bm), jpeg 最大連拍速度可以到 4~5fps
 21:51 <@haroldwu> https://www.youtube.com/watch?v=kTusHHjRCAM
 21:52 <@haroldwu> 通過 xdotool + xypher + scrot 弄了一個按鍵自動執行 + 錄製器
+21:53 <@haroldwu> * xephyr
