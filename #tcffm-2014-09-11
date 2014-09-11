@@ -33,3 +33,4 @@
 21:55 < guildwar>        Post-Invoke { "mount /usr -o remount,ro" };
 21:55 < guildwar>      };
 21:55 < guildwar> 那個 /usr 改成 /
+22:00 < guildwar> 之前是用在 /usr 是 readonly 時用的，變成 / readonly 不知道會不會出問題就是
