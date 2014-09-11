@@ -29,3 +29,4 @@
 21:54 < guildwar> apt 本身可以在安裝 package 前自動 remount 成 read write, 裝好再變 readonly
 21:55 < guildwar> 在 apt.conf 中加上     DPkg
 21:55 < guildwar>     {
+21:55 < guildwar>        Pre-Invoke  { "mount /usr -o remount,rw" };
