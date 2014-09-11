@@ -30,3 +30,4 @@
 21:55 < guildwar> 在 apt.conf 中加上     DPkg
 21:55 < guildwar>     {
 21:55 < guildwar>        Pre-Invoke  { "mount /usr -o remount,rw" };
+21:55 < guildwar>        Post-Invoke { "mount /usr -o remount,ro" };
