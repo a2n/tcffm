@@ -20,3 +20,4 @@
 20:58 < guildwar> 我二個 gmail 中一個 XD
 20:59 < guildwar> 反正我二個密碼都改好了，以防萬一 :)
 21:46 < hmchen> 最近在幫客戶用 RPi 做一個案子, 但操作情境可能會隨時把電源關閉, SD + ext4 這樣胡搞久了難免有風險, 所以 read-only rootfs 是免不了的
+21:47 < hmchen> http://blog.pi3g.com/2014/04/make-raspbian-system-read-only/
