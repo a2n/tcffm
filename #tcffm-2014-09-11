@@ -27,3 +27,4 @@
 21:52 <@haroldwu> 通過 xdotool + xypher + scrot 弄了一個按鍵自動執行 + 錄製器
 21:53 <@haroldwu> * xephyr
 21:54 < guildwar> apt 本身可以在安裝 package 前自動 remount 成 read write, 裝好再變 readonly
+21:55 < guildwar> 在 apt.conf 中加上     DPkg
