@@ -1,2 +1,3 @@
 --- Log opened 二  9月 16 00:00:19 2014
 18:38 < guildwar> 在試有二條網路出去時（一條為 ethernet，另一為 wireless），指定某個應用程式走特定路線出去，不過出了些狀況，無法成功
+18:39 < guildwar> 預設是走 ethernet(比較快)，假設要讓 apt 更新時走 wlan0，而不影響到目前網路
