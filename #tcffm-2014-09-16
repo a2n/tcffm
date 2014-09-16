@@ -3,3 +3,4 @@
 18:39 < guildwar> 預設是走 ethernet(比較快)，假設要讓 apt 更新時走 wlan0，而不影響到目前網路
 18:39 < guildwar> ip netns exec slow aptitude safe-upgrade
 18:40 < guildwar> 做法如下: http://www.evolware.org/?p=293
+18:40 < guildwar> 若有人試出來，麻煩分享一下做法 XD
