@@ -1,2 +1,3 @@
 --- Log opened 三  9月 17 00:00:21 2014
 09:54 -!- ServerMode/#tcffm [+o haroldwu] by sinisalo.freenode.net
+21:53 < guildwar> 結果有試出來了，看這篇比較清楚，不過由於我的 wifi 不支援 bridge，所以只能用 nat 模式，所以這個比較適合用在 server 電腦，多張 ethernet 的狀況下用
