@@ -2,3 +2,4 @@
 09:54 -!- ServerMode/#tcffm [+o haroldwu] by sinisalo.freenode.net
 21:53 < guildwar> 結果有試出來了，看這篇比較清楚，不過由於我的 wifi 不支援 bridge，所以只能用 nat 模式，所以這個比較適合用在 server 電腦，多張 ethernet 的狀況下用
 21:53 < guildwar> http://blog.scottlowe.org/2013/09/04/introducing-linux-network-namespaces/
+--- Log closed 四  9月 18 00:00:22 2014
