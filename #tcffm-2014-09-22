@@ -4,3 +4,4 @@
 20:18 < haroldwu> hmchen: 你的生產環境有什麼要求嘛？
 20:21 < hmchen> virtualbox, eclipse, office, gcc, qt-devel, nfs, tftp, ...
 20:21 < hmchen> 一堆啊~~~
+20:24 < hmchen> 目前最大的問題在於不熟悉,一時之間找不到對應的軟體安裝/系統設定工具
