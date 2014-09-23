@@ -6,3 +6,4 @@
 14:44 < guildwar> 所以是用什麼方式存取 owncloud， android 還是 pc，用 app 還是 webdav ?
 14:49 < hmchen> client server 都是 linux
 14:50 < hmchen> server 端搭配 lighttpd + sqlite
+14:50 < hmchen> 沒開 webdav
