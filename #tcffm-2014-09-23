@@ -10,3 +10,4 @@
 14:52 < guildwar> 看了一下，好像說 owncloud 的 sync processes 方式是不管如何，只要有檔案動過，就會同步到另一邊，沒有分 server 或 client，可能是這個原因吧
 14:53 < guildwar> http://doc.owncloud.org/desktop/1.5/architecture.html 的 "The Sync Process" 部份
 14:54 < hmchen> 這個是合理,  一個檔案 copy 前面數 MB 就會觸發同步
+14:54 < hmchen> 但後面還沒 copy 完的, 持續寫入反而會打斷 sync
