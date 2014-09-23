@@ -14,3 +14,4 @@
 14:55 < guildwar> 所以應該無解，只能手動 resync 了
 14:56 < hmchen> 總之先用看看, 如果不行就把 dropbox 的一些東西搬到 owncloud
 14:56 < hmchen> 會有這種狀況的應用, 就繼續放 dropbox
+15:07 < guildwar> 對了，你 gstreamer 比較熟，前陣子 betaradio 出了 1.6 版，現在竟然無法聽 ICRT，原本 1.5 版是用 gstreamer-0.10，而現在 1.6 版改用 gstreamer-1.0，你有用 betaradio？
