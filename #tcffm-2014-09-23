@@ -18,3 +18,4 @@
 15:08 < guildwar> 經過我研究，問題出在 gstreamer，和 betaradio 無關，https://github.com/fourdollars/betaradio/issues/2
 15:09 < guildwar> 用 0.10 版可以聽
 15:09 < guildwar> $ gst-launch-0.10 playbin uri=mmsh://bcr.media.hinet.net/RA000038
+15:09 < guildwar> 但改用 1.0 版就會卡住，永遠沒聲音，但網路有在動
