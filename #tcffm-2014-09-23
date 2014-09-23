@@ -38,3 +38,4 @@
 15:17 < hmchen> 我試一下
 15:18 < guildwar> 這個是我回報 bug 的過程 https://github.com/fourdollars/betaradio/issues/2
 15:18 < guildwar> 但後來發現不是 betaradio 的問題，我就將他 close 了
+15:20 < hmchen> 似乎是 asf demuxer 的問題
