@@ -13,3 +13,4 @@
 14:54 < hmchen> 但後面還沒 copy 完的, 持續寫入反而會打斷 sync
 14:55 < guildwar> 所以應該無解，只能手動 resync 了
 14:56 < hmchen> 總之先用看看, 如果不行就把 dropbox 的一些東西搬到 owncloud
+14:56 < hmchen> 會有這種狀況的應用, 就繼續放 dropbox
