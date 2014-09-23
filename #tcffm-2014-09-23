@@ -63,3 +63,4 @@
 23:33 < hmchen> 我是有把 mail 分類的習慣, 所以 thunderbird 會把收件夾切成好幾個檔案, 不然砍一封 mail, 就要重新 sync 2GB 的 file 不就吐血了
 23:34 < guildwar> 說用 move 取代 rename 就好了，owncloud 可以 handle move
 23:34 < hmchen> 有另外一套 open source 的 private cloud, 叫 seafile 據說有 delta sync
+23:35 < hmchen> http://seafile.com/home/
