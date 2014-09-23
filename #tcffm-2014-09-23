@@ -26,3 +26,4 @@
 15:12 < hmchen> 1.0 感覺比較不穩定
 15:12 < guildwar> 反正問題不在 betaradio，就是去呼叫 gstreamer 而已
 15:13 < hmchen> 像 totem media player 底層也是 gstreamer, 改成 1.0 也是有些問題
+15:13 < hmchen> mp4 (quicktime demuxer) 不能用
