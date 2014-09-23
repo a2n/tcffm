@@ -1,0 +1,2 @@
+--- Log opened 二  9月 23 00:00:29 2014
+14:34 < hmchen> dropbox 快滿了, 裝了 owncloud 試用看看, 但 client 工具有個怪問題, 當正在 sync 的檔案內容有改變時, sync 就停止了, 而且似乎要手動 resync
