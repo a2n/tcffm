@@ -4,3 +4,4 @@
 14:38 < hmchen> 光是 copy  一個檔案到 local folder 的過程就會打斷 sync 了
 14:38 < hmchen>  檔案比較大一點就是
 14:44 < guildwar> 所以是用什麼方式存取 owncloud， android 還是 pc，用 app 還是 webdav ?
+14:49 < hmchen> client server 都是 linux
