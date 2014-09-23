@@ -43,3 +43,4 @@
 15:20 < hmchen> 如果有其他 asf 的檔案, 試看看能不能撥
 15:21 < guildwar> 大部份都可以，就少數電台不行，如 ICRT
 15:21 < guildwar> gst-launch-1.0 playbin uri=mmsh://bcr.media.hinet.net/RA000038
+19:25 < guildwar> systemd 越來越肥，包山包海，有人出來抵制了，叫做 uselessd，將 journal files 和一些只能在 linux 上使用的東東拿掉，我覺得這真是太好了，不用強制被綁架，讓大家有所選擇，總是好事
