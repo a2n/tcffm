@@ -15,3 +15,4 @@
 14:56 < hmchen> 總之先用看看, 如果不行就把 dropbox 的一些東西搬到 owncloud
 14:56 < hmchen> 會有這種狀況的應用, 就繼續放 dropbox
 15:07 < guildwar> 對了，你 gstreamer 比較熟，前陣子 betaradio 出了 1.6 版，現在竟然無法聽 ICRT，原本 1.5 版是用 gstreamer-0.10，而現在 1.6 版改用 gstreamer-1.0，你有用 betaradio？
+15:08 < guildwar> 經過我研究，問題出在 gstreamer，和 betaradio 無關，https://github.com/fourdollars/betaradio/issues/2
