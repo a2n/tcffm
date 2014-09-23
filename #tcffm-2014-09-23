@@ -28,3 +28,4 @@
 15:13 < hmchen> 像 totem media player 底層也是 gstreamer, 改成 1.0 也是有些問題
 15:13 < hmchen> mp4 (quicktime demuxer) 不能用
 15:14 < guildwar> ok, 看來只好先退回用 betaradio 1.5 囉
+15:14 < hmchen> 目前只能靠 0.10 跟 1.0 並存
