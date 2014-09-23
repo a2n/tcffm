@@ -30,3 +30,4 @@
 15:14 < guildwar> ok, 看來只好先退回用 betaradio 1.5 囉
 15:14 < hmchen> 目前只能靠 0.10 跟 1.0 並存
 15:14 < guildwar> 因為 betaradio 1.6 只支援 gstreamer 1.0 版 :)
+15:15 < hmchen> 有試過開 gstreamer 的 debug message 嗎?
