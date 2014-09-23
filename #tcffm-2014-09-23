@@ -2,3 +2,4 @@
 14:34 < hmchen> dropbox 快滿了, 裝了 owncloud 試用看看, 但 client 工具有個怪問題, 當正在 sync 的檔案內容有改變時, sync 就停止了, 而且似乎要手動 resync
 14:36 < guildwar> 沒真正架 owncloud 來用過 :)
 14:38 < hmchen> 光是 copy  一個檔案到 local folder 的過程就會打斷 sync 了
+14:38 < hmchen>  檔案比較大一點就是
