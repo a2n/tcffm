@@ -42,3 +42,4 @@
 15:20 < guildwar> 不過也不用試 betaradio 了，因為問題又不在 betaradio，直接用 gst-launch 指令試就知道
 15:20 < hmchen> 如果有其他 asf 的檔案, 試看看能不能撥
 15:21 < guildwar> 大部份都可以，就少數電台不行，如 ICRT
+15:21 < guildwar> gst-launch-1.0 playbin uri=mmsh://bcr.media.hinet.net/RA000038
