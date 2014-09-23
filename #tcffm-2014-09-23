@@ -17,3 +17,4 @@
 15:07 < guildwar> 對了，你 gstreamer 比較熟，前陣子 betaradio 出了 1.6 版，現在竟然無法聽 ICRT，原本 1.5 版是用 gstreamer-0.10，而現在 1.6 版改用 gstreamer-1.0，你有用 betaradio？
 15:08 < guildwar> 經過我研究，問題出在 gstreamer，和 betaradio 無關，https://github.com/fourdollars/betaradio/issues/2
 15:09 < guildwar> 用 0.10 版可以聽
+15:09 < guildwar> $ gst-launch-0.10 playbin uri=mmsh://bcr.media.hinet.net/RA000038
