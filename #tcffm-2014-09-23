@@ -7,3 +7,4 @@
 14:49 < hmchen> client server 都是 linux
 14:50 < hmchen> server 端搭配 lighttpd + sqlite
 14:50 < hmchen> 沒開 webdav
+14:52 < guildwar> 看了一下，好像說 owncloud 的 sync processes 方式是不管如何，只要有檔案動過，就會同步到另一邊，沒有分 server 或 client，可能是這個原因吧
