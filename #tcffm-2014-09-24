@@ -3,3 +3,4 @@
 10:24 < guildwar> 倒是沒做過，AFWall+ 好像只記錄擋掉的封包，看來只能自己手動下 iptables 指令
 20:28 < guildwar> 若從本機去 sniff，firmware 中的動作應該抓不到，所以還是要從別台來，找到 mitmproxy 及 paros，有空來試試
 20:28 < guildwar> http://blog.teamtreehouse.com/detect-what-a-mobile-app-is-sending-to-its-servers
+--- Log closed 四  9月 25 00:00:32 2014
