@@ -1,3 +1,4 @@
 --- Log opened 三  9月 24 00:00:30 2014
 08:07 < a2n> 有人真把手機的網路連線分析過嗎？好奇傳了多少東西出去？
 10:24 < guildwar> 倒是沒做過，AFWall+ 好像只記錄擋掉的封包，看來只能自己手動下 iptables 指令
+20:28 < guildwar> 若從本機去 sniff，firmware 中的動作應該抓不到，所以還是要從別台來，找到 mitmproxy 及 paros，有空來試試
