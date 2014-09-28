@@ -3,3 +3,4 @@
 02:44 < guildwar> 有了 mobiwol 就不用一定要 root 手機了
 02:45 < guildwar> 看了 FAQ，好像還不錯，不會危險 http://www.mobiwol.com/faqs.html
 23:21 < guildwar> 最近 linux bash 的 bug 鬧很大，這裡有檢查的 shell script，看看你的系統是否更新了還是依然有漏洞
+23:21 < guildwar> https://github.com/hannob/bashcheck
