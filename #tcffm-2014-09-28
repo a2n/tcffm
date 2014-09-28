@@ -2,3 +2,4 @@
 02:43 < guildwar> 有一個滿有趣的防火牆軟體 mobiwol，不用 root 就可以用，是以 vpn 方式接管所有網路，然後做控管，很神奇，有試過，不錯用，還有 log 功能，也可限制 app 不能在背景傳資料，只能前景，不過不知道安不安全就是 http://www.mobiwol.com/
 02:44 < guildwar> 有了 mobiwol 就不用一定要 root 手機了
 02:45 < guildwar> 看了 FAQ，好像還不錯，不會危險 http://www.mobiwol.com/faqs.html
+23:21 < guildwar> 最近 linux bash 的 bug 鬧很大，這裡有檢查的 shell script，看看你的系統是否更新了還是依然有漏洞
