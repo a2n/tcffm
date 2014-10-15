@@ -4,3 +4,4 @@
 09:02 < guildwar_> http://googleonlinesecurity.blogspot.de/2014/10/this-poodle-bites-exploiting-ssl-30.html
 09:02 < guildwar_> https://www.openssl.org/~bodo/ssl-poodle.pdf
 09:04 < guildwar_> 看來最好的方法是將 ssl 3.0 disable
+09:27 < guildwar_> firefox 的話，將 ssl 3.0 disable 改 security.tls.version.min 原本為 0 改成 1 即可 disable
