@@ -7,3 +7,4 @@
 09:27 < guildwar_> firefox 的話，將 ssl 3.0 disable 改 security.tls.version.min 原本為 0 改成 1 即可 disable
 09:33 < guildwar_> https://wiki.mozilla.org/Security/Server_Side_TLS     這篇有寫如何將 apache 或 nginx 及一些常用的 proxy 的 sslv3 給 disable
 10:15 < guildwar_> 科科，有趣的 bug    https://bugzilla.mozilla.org/show_bug.cgi?id=1081688
+--- Log closed 四 10月 16 00:00:10 2014
