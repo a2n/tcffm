@@ -12,3 +12,4 @@
 12:37 < guildwar_> 若是 startx 的話，之前可下 startx >/dev/null 2>/dev/null，現在 Xorg 1.16 後不行，只能下 startx 才進得去 X
 13:32 < haroldwu_> 恩我是用 startx 進去的
 13:32 < haroldwu_> 不過早上在 console 下跑過ㄧ次 Syu
+13:33 < haroldwu_> 晚上回去再試試看
