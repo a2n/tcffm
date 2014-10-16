@@ -9,3 +9,4 @@
 12:03 < haroldwu_> 留下 .ssh .gnupg 這兩個目錄足矣
 12:34 < guildwar_> 好慘，還好有多重開機 :)
 12:36 < guildwar_> 等等，你怎麼跑 X 的? startx or 什麼 dm 的?
+12:37 < guildwar_> 若是 startx 的話，之前可下 startx >/dev/null 2>/dev/null，現在 Xorg 1.16 後不行，只能下 startx 才進得去 X
