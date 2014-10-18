@@ -21,3 +21,4 @@
 22:26 < guildwar> 應該是說目前 systemd 只支援 linux
 22:37 < guildwar> 在想說，用 systemd 是趨勢，但若 debian 的 systemd 能只開啟最單純的功能，其他的東東全部是選擇性的那就好了
 23:19 < guildwar> 呵呵，我推這篇，最好表決通過讓所有軟體都要和 "任何 window manager 相容" 包括 awesome WM :)
+23:19 < guildwar> https://lists.debian.org/debian-vote/2014/10/msg00037.html
