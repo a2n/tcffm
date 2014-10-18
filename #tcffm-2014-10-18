@@ -16,3 +16,4 @@
 22:21 <@haroldwu> systemd 到底是要幹嘛，爭議搞的這麼大
 22:22 < guildwar> 本來玩 debian 的人就比較不受控制，大家只想裝想裝的軟體，但現在 systemd 很多強制的東東，包山包海，我第一個就不爽了 XD
 22:23 < guildwar> 作法應該要讓 systemd，sysinit，openrc 等等能隨時作切換，才能讓大家接受 :)
+22:24 <@haroldwu> 嗯嗯原來如此
