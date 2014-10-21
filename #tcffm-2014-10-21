@@ -1,2 +1,3 @@
 --- Log opened 二 10月 21 00:00:17 2014
 19:59 < haroldwu> http://brew.sh/linuxbrew/ 感覺不錯 XD 不過是我的話改成自己寫 PKGBUILD 就夠了 XD
+20:00 < haroldwu> brew 特點是免 sudo，不過我看了看安裝腳本 (Ruby DSL) 都是 for mac 的，可能用到 linuxbrew 上會有一些問題
