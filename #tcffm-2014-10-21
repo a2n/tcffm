@@ -5,3 +5,4 @@
 20:56 < guildwar> 可到這裡來搜尋你要的軟體有沒有 http://braumeister.org/，不過這是 MacOS X 的列表，應該都一樣吧
 21:19 < haroldwu> 覺得還是 aur 強 XDD
 21:20 < guildwar> 可是 homebrew 可用在所有 unix 上吧
+21:26 < haroldwu> 我覺得不行耶？他很多編譯指令調用的庫都是 Mac 才有的？
