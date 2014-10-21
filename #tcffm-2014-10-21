@@ -6,3 +6,4 @@
 21:19 < haroldwu> 覺得還是 aur 強 XDD
 21:20 < guildwar> 可是 homebrew 可用在所有 unix 上吧
 21:26 < haroldwu> 我覺得不行耶？他很多編譯指令調用的庫都是 Mac 才有的？
+21:26 < haroldwu> 而且他哪些套件規定（formula）的驗證什麼都只有 Mac 的 :P 他這樣搞不會成功啦
