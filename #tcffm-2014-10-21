@@ -9,3 +9,4 @@
 21:26 < haroldwu> 而且他哪些套件規定（formula）的驗證什麼都只有 Mac 的 :P 他這樣搞不會成功啦
 21:27 < guildwar> 所以弄了個 linuxbrew 啊，不是原本的 homebrew
 22:50 < haroldwu> 用的還是 homebrew 哪些腳本
+22:50 < haroldwu> 沒有獨立一個庫
