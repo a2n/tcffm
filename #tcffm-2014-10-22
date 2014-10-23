@@ -1,0 +1,16 @@
+--- Log opened 三 10月 22 00:00:19 2014
+--- Log opened 三 10月 22 14:07:24 2014
+14:07 -!- Topic for #tcffm: 臺中自由軟體愛好者聚會 TcFFM 郵件列表: http://bit.ly/tcffm-forum | IRC-log：https://github.com/a2n/tcffm/ | 論壇：http://tcffm.twgogo.org/
+14:07 -!- Topic set by haroldwu [~haroldwu@unaffiliated/haroldwu] [Fri Jan  3 11:35:31 2014]
+14:07 [Users #tcffm]
+14:07 [ a2n    ] [ darkx   ] [ hmchen    ] [ op_logbot_  ] [ whitglint] 
+14:07 [ aksatac] [ guildwar] [ NewCliCker] [ petercommand] 
+14:07 -!- Irssi: #tcffm: Total of 9 nicks [0 ops, 0 halfops, 0 voices, 9 normal]
+14:07 -!- Channel #tcffm created Fri Aug  9 21:35:26 2013
+14:07 -!- Irssi: Join to #tcffm was synced in 8 secs
+20:37 -!- mode/#tcffm [+o haroldwu] by ChanServ
+22:39 < guildwar> 功能強大又好用的系統工具 sysdig (GPLv2), 基本上是 strace + tcpdump + lsof
+22:39 < guildwar> http://xmodulo.com/monitor-troubleshoot-linux-server-sysdig.html
+22:40 < guildwar> source code: https://github.com/draios/sysdig
+22:48 < guildwar> spy_users 如果機器被入侵了，可以 live 看 hacker 正在下什麼指令 :)
+--- Log closed 四 10月 23 00:00:24 2014
