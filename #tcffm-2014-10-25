@@ -8,3 +8,4 @@
 00:25 < guildwar> 指在 debian 上，在 archlinux 上就只能用啦
 00:32 < alex_lu> （市場？）主流轉用systemd之後 繼續用sysvinit不會變麻煩？
 00:34 < guildwar> 會啊，對 debian 來說 debian developer 要維護 package 同時支援三個 init system
+00:35 < guildwar> 不過至少是慢慢淘汰，漸漸的 sysvinit 和 upstart 會越來越難用，人就會轉移到 systemd，而不是強制要你換，不然不能用
