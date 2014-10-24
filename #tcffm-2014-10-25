@@ -6,3 +6,4 @@
 00:21 < alex_lu> 為什麼不要systemd？極簡主義？
 00:25 < guildwar> 我個人是不喜歡包山包海的 systemd 啦，若是只開基本功能還可接受 :)
 00:25 < guildwar> 指在 debian 上，在 archlinux 上就只能用啦
+00:32 < alex_lu> （市場？）主流轉用systemd之後 繼續用sysvinit不會變麻煩？
