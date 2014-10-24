@@ -3,3 +3,4 @@
 00:15 < guildwar_> http://www.vitavonni.de/blog/201410/2014102101-avoiding-systemd.html
 00:16 < guildwar_> 這才是 debian 啊，讚
 00:17 < guildwar_> 可由 systemd-sysv | sysvinit-core | upstart 三選一
+00:21 < alex_lu> 為什麼不要systemd？極簡主義？
