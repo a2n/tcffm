@@ -10,3 +10,4 @@
 00:34 < guildwar> 會啊，對 debian 來說 debian developer 要維護 package 同時支援三個 init system
 00:35 < guildwar> 不過至少是慢慢淘汰，漸漸的 sysvinit 和 upstart 會越來越難用，人就會轉移到 systemd，而不是強制要你換，不然不能用
 00:36 < guildwar> 就像之前由 devfs 轉成 udev，也有好幾年陣痛期
+22:41 < guildwar> 本來都用 betaradio 來聽線上廣播，結果最近發現好多站都不能聽了，像 icrt, kiss radio 等等，應該是 hichannel 那邊停掉了，因為看到訊息 Error: Could not connect to streaming server.
