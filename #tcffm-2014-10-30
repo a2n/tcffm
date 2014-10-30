@@ -110,3 +110,4 @@
 21:47 <@haroldwu> 怎麼做啊，好久沒試過了 orz
 21:48 < guildwar> 跟防火牆沒關係，只要 ssh port 有開即可
 21:54 < guildwar> 在實驗室，將本地的 tcp 22 導到外面 port 2222(因為不是 root)
+21:54 < guildwar> ssh -R 2222:localhost:22 your_internet_host
