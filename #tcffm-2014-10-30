@@ -22,3 +22,4 @@
 19:19 < hmchen> 當時所裡有一套 PC cluster, 16 rocks x dual xeon, 上面安裝了一套叫 PBSPRo 的管理程式, 其中一個 node 跑 NFS server 掛 /home folder, 或者甚至是 root over NFS 開機, 有點忘了
 19:21 < hmchen> 然後寫一個簡單的 shell script, 設定執行擋路徑, 需要幾個 nodes, 然後丟給 PBS 管理, 只要任何 compute node 有空, 就會把 job 自動丟進去跑
 19:23 < hmchen> PBS Pro 要錢, 後來有自己試著用 Sun Grid Engine 架出相同功能的環境, 不是 open source 但不用錢, 現在變成 Oracle Grid Engine 了
+19:24 < hmchen> 剛剛找一下,現在有類似的 projects, 有 Torque 跟 open grid engine
