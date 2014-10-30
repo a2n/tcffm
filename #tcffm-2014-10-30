@@ -118,3 +118,4 @@
 21:57 < guildwar>  ssh -t user@server "ssh user@workstation"
 21:58 < hmchen> 我之前是做 protein-ligand docking的, 應該會有類似執行狀況
 21:59 < hmchen> 如果是同一個程式要跑很多次, 那就是 pbs 這類的系統比較合用
+22:00 < guildwar> 就算 porting 到 opencl 或 openmp，還是要用 job scheduler 來 submit 程式啊
