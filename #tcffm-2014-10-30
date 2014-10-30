@@ -212,3 +212,4 @@
 23:45 <@haroldwu> XDDDDD 我問問看
 23:45 <@haroldwu> 我那個同學是擔心被抓 :P 不過我看 uname
 23:46 <@haroldwu> 2009 年的核心，超級老 bash，我相信一定沒有在 upgrade 的，直接漏洞提權就有 root 了 orz 記錄在消掉就好啦 XD
+23:46 <@haroldwu> 或者偵測到其他使用者活躍就調低 CPU level
