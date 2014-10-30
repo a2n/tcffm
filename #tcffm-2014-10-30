@@ -23,3 +23,4 @@
 19:21 < hmchen> 然後寫一個簡單的 shell script, 設定執行擋路徑, 需要幾個 nodes, 然後丟給 PBS 管理, 只要任何 compute node 有空, 就會把 job 自動丟進去跑
 19:23 < hmchen> PBS Pro 要錢, 後來有自己試著用 Sun Grid Engine 架出相同功能的環境, 不是 open source 但不用錢, 現在變成 Oracle Grid Engine 了
 19:24 < hmchen> 剛剛找一下,現在有類似的 projects, 有 Torque 跟 open grid engine
+19:29 < hmchen> 如果是要跑單一任務的平行運算程式, 這年頭用 PC cluster + MPI 架構不太划算, 改學 cuda 或 OpenCL 搭配顯示卡 GPU, 說不定程式開發跟實際執行速度還比較快
