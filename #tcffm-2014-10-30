@@ -47,3 +47,4 @@
 20:01 < hmchen> 這個是把 cuda/opencl 包裝成 mpi 的架構去寫程式嗎?
 20:01 < guildwar> 這個 cuda-aware mpi 好像就會自動分配 cpu 及 gpu
 20:01 < guildwar> 我不懂，剛剛才看到 :)
+20:03 < hmchen> 剛剛看文件寫的, 是說當資料量大到 {單一 node + 多 GPU} 無法處理時, 搭配 mpi變成 {多node + 多 GPU)
