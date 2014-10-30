@@ -68,3 +68,4 @@
 20:31 < hmchen> 所以應該是簡化程式設計的 MPI 版本
 20:32 < hmchen> 當年也是因為論文的模擬程式要跑很久才看 MPI, 看一看就放棄了 XD
 20:33 < guildwar> 所以應該學 openmpi 就好，不管 cpu 或 gpu 通吃 XD
+20:33 < hmchen> 畢業後看到我用的模擬程式居然出了 cuda 版
