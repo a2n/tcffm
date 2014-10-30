@@ -45,3 +45,4 @@
 20:00 < guildwar> http://devblogs.nvidia.com/parallelforall/how-build-gpu-accelerated-research-cluster/
 20:00 < guildwar> Tune GPU and CPU load balancing for your application
 20:01 < hmchen> 這個是把 cuda/opencl 包裝成 mpi 的架構去寫程式嗎?
+20:01 < guildwar> 這個 cuda-aware mpi 好像就會自動分配 cpu 及 gpu
