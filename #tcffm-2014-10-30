@@ -53,3 +53,4 @@
 20:07 < hmchen> 而 GPU 的浮點運算效能進展速度, 比CPU快的多, 也便宜的多
 20:08 < hmchen> 如果沒有特殊考量, 直接用 cuda 比較快, 因為程式設計跟除錯的時間也要算進去
 20:08 < guildwar> ok,了解，就看 haroldwu 要投資多少心力了 :)
+20:09 < guildwar> 不過記得要買 nvidia 的顯卡 XD
