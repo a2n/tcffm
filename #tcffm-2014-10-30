@@ -74,3 +74,4 @@
 20:33 < hmchen> 雖然語法很囉唆
 20:34 < hmchen> AMD顯卡上的 core 比較多, 玩遊戲不一定強, 但跑程式贏面就大多了, 但只能用 opencl 開發
 20:35 < guildwar> 對啊，學 opencl 才是王道，不過相對要花更多時間
+20:35 < hmchen> 後來 intel 內建 GPU 的 HD3000, HD4000 也開始支援 opencl
