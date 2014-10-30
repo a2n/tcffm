@@ -11,3 +11,4 @@
 15:08 < guildwar> 那是你 coding 的問題，程式裡要改寫成呼叫 mpi 或 cuda 之類的，才會在跑時同時由多台一起跑
 15:11 < guildwar> 若是程式不想改，那只能改用 ssi 的方式，不過通常這種方式不能太多台，可能頂多４台而已
 15:11 < guildwar> http://kerrighed.org/wiki/index.php/Main_Page
+15:41 < guildwar> 如果沒寫過 mpi 程式，這個應該可以參考 http://www.linux-mag.com/id/5759/
