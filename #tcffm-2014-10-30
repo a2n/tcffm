@@ -161,3 +161,4 @@
 22:26 < hmchen> 這樣就不用跟其他實驗室的人搶 cpu time
 22:27 < hmchen> 其實每個學生座位上都有一台主機, 平常也就是 coding, 寫論文打報告, cpu time 幾乎都閒置
 22:28 < hmchen> 後來試著用其中幾台跑 colinux, 一個很有趣的專案, 然後把串起來當 virtual cluster 用
+22:29 < hmchen> colinux 很有意思, win32 下的 user mode linux 系統
