@@ -7,3 +7,4 @@
 13:50 < guildwar> 這裡有篇鳥哥用 centos 6.3 和 drbl 架設的 pc-cluster 可參考看看
 13:50 < guildwar> http://linux.vbird.org/somepaper/20130521-build_pc_cluster_using_drbl_in_centos_6.3.pdf
 14:53 <@haroldwu> 好
+15:01 <@haroldwu> 我來研究看看，就是不知道 cluster 建起來以後，計算任務也要能分散到各個 node 才行啊 XDD
