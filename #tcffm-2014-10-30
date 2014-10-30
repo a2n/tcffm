@@ -25,3 +25,4 @@
 19:24 < hmchen> 剛剛找一下,現在有類似的 projects, 有 Torque 跟 open grid engine
 19:29 < hmchen> 如果是要跑單一任務的平行運算程式, 這年頭用 PC cluster + MPI 架構不太划算, 改學 cuda 或 OpenCL 搭配顯示卡 GPU, 說不定程式開發跟實際執行速度還比較快
 19:31 < hmchen> 網路版的MPI平行化程式光是要除錯就會出人命了, cuda + gpu 起碼還是在單機上跑, 有 tool 可以即時除錯, 監看變數或中斷點之類的
+19:36 < guildwar> 可是一開始就說硬體是 10 台機器囉，當然用 mpi 最合用
