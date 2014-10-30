@@ -120,3 +120,4 @@
 21:59 < hmchen> 如果是同一個程式要跑很多次, 那就是 pbs 這類的系統比較合用
 22:00 < guildwar> 就算 porting 到 opencl 或 openmp，還是要用 job scheduler 來 submit 程式啊
 22:01 < hmchen> yes
+22:02 < hmchen> 但是因為執行的 jobs 總量很大
