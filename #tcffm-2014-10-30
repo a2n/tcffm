@@ -35,3 +35,4 @@
 19:57 < hmchen> 窮人的 cluster 則是用多網卡 + channel bounding 倍增流量
 19:57 < guildwar> 有看到這個，若 nvidia GPU 在機器上，就可以用 CUDA-Aware MPI
 19:57 < guildwar> http://devblogs.nvidia.com/parallelforall/introduction-cuda-aware-mpi/
+19:57 < hmchen> 但 GPU 跟 CPU 之間的頻寬遠大於網路卡
