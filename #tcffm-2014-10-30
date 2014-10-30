@@ -88,3 +88,4 @@
 21:10 < guildwar> 內建顯卡是哪一張，搞不好直接就支援了
 21:15 < guildwar> 那看看你的 cpu 有沒有支援 AVE 指令集，有的話可能要用 opencl 比較快
 21:15 < guildwar> https://en.wikipedia.org/wiki/Advanced_Vector_Extensions
+21:16 < guildwar> 錯了，不是 AVE，是 AVX
