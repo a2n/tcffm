@@ -103,3 +103,4 @@
 21:41 <@haroldwu> 等於我要先 proxy 在 VPN 之類的 XDDD
 21:41 <@haroldwu> 機器在另外一所大學
 21:44 < guildwar> 反正你在外面不是有別人的機器可 ssh 進去，以那台當跳板，在實驗室時，ssh 並將 port forwarding 到外面那台，以建立通道，等回到家後，再由你家 ssh 到外面那台，就可以經由通道進入實驗室
+21:46 <@haroldwu> 喔喔喔 好像也是一個辦法 好邪惡 XDD
