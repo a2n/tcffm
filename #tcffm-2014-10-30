@@ -70,3 +70,4 @@
 20:33 < guildwar> 所以應該學 openmpi 就好，不管 cpu 或 gpu 通吃 XD
 20:33 < hmchen> 畢業後看到我用的模擬程式居然出了 cuda 版
 20:33 < hmchen> opencl
+20:33 < hmchen> 最終 opencl 還是會勝出
