@@ -56,3 +56,4 @@
 20:09 < guildwar> 不過記得要買 nvidia 的顯卡 XD
 20:10 < hmchen> 如果真的是學校要用的, 顯示卡算小錢
 20:11 < hmchen> 也不用買到頂級的卡
+20:12 < hmchen> 其實用 gpu 也有好處, 廠商為了推廣 GPGPU 技術, 都有開發 optimized libraray (fft,線性代數,矩陣運算,...)
