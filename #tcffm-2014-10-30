@@ -38,3 +38,4 @@
 19:57 < hmchen> 但 GPU 跟 CPU 之間的頻寬遠大於網路卡
 19:58 < guildwar> 畢竟要用 opencl 應該難度還是滿高的吧，光 porting code 就很慘了
 19:59 < hmchen> cuda 語法比 opencl 簡單
+19:59 < hmchen> 可惜就是 nvidia 限定
