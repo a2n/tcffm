@@ -87,3 +87,4 @@
 21:09 <@haroldwu> 那些機器都沒有 GPU 啦 XD
 21:10 < guildwar> 內建顯卡是哪一張，搞不好直接就支援了
 21:15 < guildwar> 那看看你的 cpu 有沒有支援 AVE 指令集，有的話可能要用 opencl 比較快
+21:15 < guildwar> https://en.wikipedia.org/wiki/Advanced_Vector_Extensions
