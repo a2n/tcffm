@@ -89,3 +89,4 @@
 21:15 < guildwar> 那看看你的 cpu 有沒有支援 AVE 指令集，有的話可能要用 opencl 比較快
 21:15 < guildwar> https://en.wikipedia.org/wiki/Advanced_Vector_Extensions
 21:16 < guildwar> 錯了，不是 AVE，是 AVX
+21:17 < guildwar> 剛才那個 97 -> 27 秒就是差在 AVX 指令集
