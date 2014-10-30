@@ -108,3 +108,4 @@
 21:47 < guildwar> 不然還有 pagekite 可用咧
 21:47 < guildwar> 不用 root
 21:47 <@haroldwu> 怎麼做啊，好久沒試過了 orz
+21:48 < guildwar> 跟防火牆沒關係，只要 ssh port 有開即可
