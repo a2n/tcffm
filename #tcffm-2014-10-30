@@ -84,3 +84,4 @@
 21:07 < guildwar> 有個時間差異比較， "單cpu", "openmp 4cpu", "opencl 4cpu", "opencl amd gpu"
 21:07 < guildwar> http://streamcomputing.eu/blog/2013-12-20/simple-sum-cpu-openmp-opencl-gpu/
 21:07 < guildwar> 沒想到 openmp 4cpu 和 opencl 4cpu 差這麼多, 97.672 -> 27.325 秒
+21:09 <@haroldwu> 那些機器都沒有 GPU 啦 XD
