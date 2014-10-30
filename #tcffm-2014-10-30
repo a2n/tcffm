@@ -41,3 +41,4 @@
 19:59 < hmchen> 可惜就是 nvidia 限定
 20:00 < hmchen> opencl 則可以 cpu + gpu 同時混合執行
 20:00 < guildwar> 對啊，所以用 mpi 比較快上手
+20:00 < guildwar> How to Build a GPU-Accelerated Research Cluster
