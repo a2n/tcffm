@@ -32,3 +32,4 @@
 19:55 < hmchen> 因為 MPI 平行計算的瓶頸, 其實是卡在 data 的分散與再蒐集
 19:56 < hmchen> node 之間得靠高速網路連接減少資料交換的等待時間
 19:57 < hmchen> 以前沒有 gigabit ethernet 時, 還得用特殊網路卡
+19:57 < hmchen> 窮人的 cluster 則是用多網卡 + channel bounding 倍增流量
