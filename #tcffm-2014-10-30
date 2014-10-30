@@ -65,3 +65,4 @@
 20:29 < hmchen> cuda-aware MPI 語法則是讓 MPI 程式直接抓取 gpu 中的資料, 簡單來說就是把 cudaMemcpy 藏起來
 20:30 < hmchen> 因為網路卡 driver 不可能讀取到顯示卡中的 memory, 還是得搬到 host memory
 20:30 < hmchen> 這樣 MPI 才能用網路傳資料到其他 node
+20:31 < hmchen> 所以應該是簡化程式設計的 MPI 版本
