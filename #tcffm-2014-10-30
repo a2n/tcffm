@@ -115,3 +115,4 @@
 21:55 < guildwar> ssh your_internet_host
 21:55 < guildwar> ssh -p2222 localhost
 21:56 < guildwar> 或用 -t 串起來
+21:57 < guildwar>  ssh -t user@server "ssh user@workstation"
