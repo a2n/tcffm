@@ -114,3 +114,4 @@
 21:55 < guildwar> 回家後，先登入外面機器，再登入實驗室
 21:55 < guildwar> ssh your_internet_host
 21:55 < guildwar> ssh -p2222 localhost
+21:56 < guildwar> 或用 -t 串起來
