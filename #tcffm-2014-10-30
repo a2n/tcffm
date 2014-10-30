@@ -91,3 +91,4 @@
 21:16 < guildwar> 錯了，不是 AVE，是 AVX
 21:17 < guildwar> 剛才那個 97 -> 27 秒就是差在 AVX 指令集
 21:26 <@haroldwu> 我現在沒辦法碰到機器 orz 要從實驗室走 VPN
+21:27 < guildwar> 看了一下，openmp 4.0 也支援 AMD FirePro™ S9150 server card 了
