@@ -4,3 +4,4 @@
 13:24 < guildwar> 基本上設定好第一台 frontend node, 可再額外設幾台 storage nodes, 其他的都當做 compute nodes
 13:29 < guildwar> 當然要自己從頭搞也可以，不過就工程浩大了
 13:32 < guildwar> 不然用 drbl server 也行，不過要手動的地方比較多
+13:50 < guildwar> 這裡有篇鳥哥用 centos 6.3 和 drbl 架設的 pc-cluster 可參考看看
