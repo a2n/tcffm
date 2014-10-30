@@ -63,3 +63,4 @@
 20:28 < guildwar> 可是剛剛我 post 的文章中，有提到 openmp 是有支援 cuda-aware 的 mpi
 20:28 < hmchen> 傳統 MPI + GPU 混合設計, 是利用 MPI 在傳送到 host memory, 然後再呼叫 cudaMemcopy 把資料搬到 GPU
 20:29 < hmchen> cuda-aware MPI 語法則是讓 MPI 程式直接抓取 gpu 中的資料, 簡單來說就是把 cudaMemcpy 藏起來
+20:30 < hmchen> 因為網路卡 driver 不可能讀取到顯示卡中的 memory, 還是得搬到 host memory
