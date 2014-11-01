@@ -28,3 +28,4 @@
 23:21 < guildwar> 也不是，是習慣問題，很多東東到時想轉換地方，結果資料倒不出來，而 shaarli 至少我可以自己用 sqlite3 來將資料弄出來
 23:22 < guildwar> 話說有一陣子沒連我的 shaarli，結果昨天要用連不上，應該是太久沒用，那台 shaarli 被砍了，現在要重架 XD
 23:24 < guildwar> 看來還得弄個 cron 來提醒自己去連 openshift 的機器，不然會被砍了
+23:26 <@haroldwu> 那個服務可以 import / export 啦 XD
