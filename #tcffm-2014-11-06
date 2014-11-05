@@ -4,3 +4,4 @@
 00:09 < haroldwu> 研究了一下，要設爬網站的 agent ，可以做輸出，然後由別的 agent 去捕捉
 00:31 < guildwar> 不錯的樣子
 00:31 < haroldwu> 設定的部分是 json
+00:31 < haroldwu> 資料的話理論上不會累計，條件到了就寄信這樣
