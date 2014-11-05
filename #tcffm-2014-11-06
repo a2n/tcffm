@@ -2,3 +2,4 @@
 00:07 < haroldwu> 應該架在 openshift 上
 00:07 < haroldwu> heroku 速度太慢了
 00:09 < haroldwu> 研究了一下，要設爬網站的 agent ，可以做輸出，然後由別的 agent 去捕捉
+00:31 < guildwar> 不錯的樣子
