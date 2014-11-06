@@ -9,3 +9,4 @@
 11:07 < dclee9> 晚上tch4轉去夢種子，參加前台開發聚會
 20:03 < guildwar> haroldwu: 試裝 huginn, 裝不起來，照著 README.md 的步驟做，到了 foreman start 這步，我沒有 foreman 這指令，所以我裝 foreman package，裝好要啟動失敗，systemctl start foreman，log 如下連結:
 20:03 < guildwar> http://paste2.org/NWGVfdOD
+20:04 < guildwar> 用 bundle 指令查看，目前裝的是 rails 4.1.7，那要如何用 bundle 裝上 rails = 3.2.18 呢?
