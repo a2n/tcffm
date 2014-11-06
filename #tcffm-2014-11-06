@@ -12,3 +12,4 @@
 20:04 < guildwar> 用 bundle 指令查看，目前裝的是 rails 4.1.7，那要如何用 bundle 裝上 rails = 3.2.18 呢?
 20:21 < haroldwu> gem 不能指定版本安裝嗎？
 20:21 < haroldwu> 喔你不是用 gem
+20:25 < guildwar> 要用 gem 裝喔，我以為用 bundle 裝
