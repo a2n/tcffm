@@ -19,3 +19,4 @@
 22:47 < hmchen> http://wiki.gentoo.org/wiki/Zram
 22:49 < hmchen> zram跟我想要的用法不太一樣, zram 是把指定的 memory size 變成 block device, 然後就可掛成 swap 或 ext4 等其他 fs
 22:51 < hmchen> 缺點是... ram 就真的直接挖走了,
+22:52 < guildwar> 好像一樣要 swap，　So, 1G of swap uses only 333MB of ram on average
