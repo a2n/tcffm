@@ -44,3 +44,4 @@
 23:18 < guildwar> 我猜一開始就用 lz4 壓了
 23:19 < hmchen> 恩, 這個實驗不好試, 因為只有從 swap 效能變化或 cpu loading 才能觀察
 23:26 < hmchen> http://lwn.net/Articles/545244/
+23:27 < hmchen> guildwar 應該說中了, page 一進 zram 就壓了
