@@ -9,3 +9,4 @@
 15:58 < guildwar> cat /tmp/debug/zswap/pool_limit_hit
 15:58 < guildwar> 我不大懂運作原理，你這個好像可以用來 debug
 22:34 < hmchen> 剛剛掛上了 swap, 有看到數值變化了, 看起來 zswap 還是得要搭配 swap 使用才行
+22:38 < guildwar> 應該也是，都叫 zswap，不然應該叫 zram 之類的 :)
