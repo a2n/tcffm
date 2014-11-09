@@ -5,3 +5,4 @@
 15:57 < guildwar> A debugfs interface is provided for various statistic about pool size, number
 15:57 < guildwar> of pages stored, and various counters for the reasons pages are rejected.
 15:57 < guildwar> mkdir /tmp/debug
+15:57 < guildwar> mount -t debugfs debugfs /tmp/debug
