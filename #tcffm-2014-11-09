@@ -39,3 +39,4 @@
 23:05 < hmchen> 當 disk i/o 時不要馬上寫入 hdd 或是丟棄 data, 如果是 cache 以外的就一定會導致 swap 了
 23:06 < hmchen> 不過剛剛說 zram 初期資料先不壓縮的可能性應該很高
 23:07 < guildwar> 但是我用 modinfo zram，用 lz4
+23:07 < guildwar> depends:        lz4_compress
