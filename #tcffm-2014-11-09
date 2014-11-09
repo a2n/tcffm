@@ -21,3 +21,4 @@
 22:51 < hmchen> 缺點是... ram 就真的直接挖走了,
 22:52 < guildwar> 好像一樣要 swap，　So, 1G of swap uses only 333MB of ram on average
 22:54 < hmchen> 舉個例子來說, 8G 的 ram 切程 6G + 2G zram, 當配置記憶體超過 6G 但還沒到達 8G, 理論上空間還有剩, 但因為 swap 在 zram 上, 超過 6G 就會開始觸發 page fault/swap 跟壓縮了
+22:55 < guildwar> 那這樣 ok 啊，沒用到 disk
