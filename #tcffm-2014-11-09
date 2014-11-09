@@ -7,3 +7,4 @@
 15:57 < guildwar> mkdir /tmp/debug
 15:57 < guildwar> mount -t debugfs debugfs /tmp/debug
 15:58 < guildwar> cat /tmp/debug/zswap/pool_limit_hit
+15:58 < guildwar> 我不大懂運作原理，你這個好像可以用來 debug
