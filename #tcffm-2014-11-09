@@ -16,3 +16,4 @@
 22:41 < hmchen> 對 hdd 或 ssd 都有幫助, cpu 壓縮比較 disk i/o 快, 而減少 i/o 次數可以延長 ssd 壽命
 22:41 < hmchen> 確實有 zram , 我還在看
 22:43 < hmchen> 我的目的是, 不掛 swap partition 但某種程度上仍可以稍微用超過實體記憶體大小
+22:47 < hmchen> http://wiki.gentoo.org/wiki/Zram
