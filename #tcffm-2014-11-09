@@ -32,3 +32,4 @@
 23:00 < hmchen> 找時間再來測試看看
 23:01 < hmchen> 最近 nb 也改換 ssd 了, 想說 ram 加多一點, swap 就不開了
 23:01 < hmchen> 但早晚總是會遇到 ram 不夠用的情況
+23:02 < guildwar> 還是要調 swapiness 來配合
