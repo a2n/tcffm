@@ -1,3 +1,4 @@
 --- Log opened 一 11月 10 00:00:50 2014
 00:58 < guildwar> 發現 kernel config 中, CONFIG_ZRAM=m, CONFIG_ZRAM_LZ4_COMPRESS=y, 所以理論上將 CONFIG_ZRAM_LZ4_COMPRESS=n 重編 kernel 應該可以
 01:10 < guildwar> ok，看來是只有 lzo [lz4]
+01:10 < guildwar> 二選一，無法不壓縮
