@@ -25,3 +25,4 @@
 22:56 < hmchen> 對,但是對 6-8G 這段來說, 開 zram 效能反而下降
 22:57 < guildwar> 那就不要壓縮行不行
 22:57 < hmchen> 我以為會有種理想的 swap 機制, 當真的吃超過8G才啟動壓縮, 然後完全不需要 swap partition
+22:58 < hmchen> 你的意思是, zram 裡頭的資料先不壓縮, 等到 pool 滿的時候才開始壓?
