@@ -27,3 +27,4 @@
 22:57 < hmchen> 我以為會有種理想的 swap 機制, 當真的吃超過8G才啟動壓縮, 然後完全不需要 swap partition
 22:58 < hmchen> 你的意思是, zram 裡頭的資料先不壓縮, 等到 pool 滿的時候才開始壓?
 22:58 < guildwar> 直接 /proc/sys/vm/swappiness   設成 0 呢?
+22:59 < guildwar> 不是，看 zram 有沒有支援不壓縮的方式 :)
