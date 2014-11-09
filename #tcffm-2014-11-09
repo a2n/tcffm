@@ -41,3 +41,4 @@
 23:07 < guildwar> 但是我用 modinfo zram，用 lz4
 23:07 < guildwar> depends:        lz4_compress
 23:17 < hmchen> 假設 zram 使用 2G 當 swap, 當 linux 記憶體用量接近 6G 實際會開始往 zram 丟 swap page, 假設 pool 還沒滿 2G 就不壓縮, 那 swap 的速度應該幾乎沒有延遲
+23:18 < guildwar> 我猜一開始就用 lz4 壓了
