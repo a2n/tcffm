@@ -6,3 +6,4 @@
 15:57 < guildwar> of pages stored, and various counters for the reasons pages are rejected.
 15:57 < guildwar> mkdir /tmp/debug
 15:57 < guildwar> mount -t debugfs debugfs /tmp/debug
+15:58 < guildwar> cat /tmp/debug/zswap/pool_limit_hit
