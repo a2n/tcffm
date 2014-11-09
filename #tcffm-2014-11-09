@@ -13,3 +13,4 @@
 22:39 < hmchen> zswap應該視為 main memory 跟 swap partition 之間的緩衝+壓縮器
 22:40 < hmchen> 當 pool 不夠用時還是會寫回 swap partition
 22:40 < hmchen> 優點是減少 swap parition 的 i/o 次數
+22:41 < hmchen> 對 hdd 或 ssd 都有幫助, cpu 壓縮比較 disk i/o 快, 而減少 i/o 次數可以延長 ssd 壽命
