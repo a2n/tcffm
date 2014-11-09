@@ -29,3 +29,4 @@
 22:58 < guildwar> 直接 /proc/sys/vm/swappiness   設成 0 呢?
 22:59 < guildwar> 不是，看 zram 有沒有支援不壓縮的方式 :)
 22:59 < hmchen> 我覺得應該會有滿了才壓縮的機制, 理論上不難實作
+23:00 < hmchen> 找時間再來測試看看
