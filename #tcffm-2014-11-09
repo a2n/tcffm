@@ -34,3 +34,4 @@
 23:01 < hmchen> 但早晚總是會遇到 ram 不夠用的情況
 23:02 < guildwar> 還是要調 swapiness 來配合
 23:02 < guildwar> If it's close to 0, Linux will prefer to keep applications in RAM and not grow the caches.
+23:02 < hmchen> 不然就是遇到時, 再建個 swap.img 檔案臨時檔一下
