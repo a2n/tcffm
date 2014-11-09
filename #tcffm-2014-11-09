@@ -12,3 +12,4 @@
 22:38 < guildwar> 應該也是，都叫 zswap，不然應該叫 zram 之類的 :)
 22:39 < hmchen> zswap應該視為 main memory 跟 swap partition 之間的緩衝+壓縮器
 22:40 < hmchen> 當 pool 不夠用時還是會寫回 swap partition
+22:40 < hmchen> 優點是減少 swap parition 的 i/o 次數
