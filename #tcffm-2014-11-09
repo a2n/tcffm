@@ -1,3 +1,4 @@
 --- Log opened 日 11月 09 00:00:48 2014
 10:55 < hmchen> 有人用過 zswap 嗎? 是否要搭配 hdd swap 才有效?
 10:59 < hmchen> 剛剛寫了個程式, 每次吃 2GB 記憶體. 系統 RAM 8GB, 結果 run 到第 4 個 process 時 malloc 就要不到記憶體了
+15:57 < guildwar> 有試過用 debugfs 裡的資訊來 debug 嗎?
