@@ -24,3 +24,4 @@
 22:55 < guildwar> 那這樣 ok 啊，沒用到 disk
 22:56 < hmchen> 對,但是對 6-8G 這段來說, 開 zram 效能反而下降
 22:57 < guildwar> 那就不要壓縮行不行
+22:57 < hmchen> 我以為會有種理想的 swap 機制, 當真的吃超過8G才啟動壓縮, 然後完全不需要 swap partition
