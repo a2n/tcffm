@@ -18,3 +18,4 @@
 22:43 < hmchen> 我的目的是, 不掛 swap partition 但某種程度上仍可以稍微用超過實體記憶體大小
 22:47 < hmchen> http://wiki.gentoo.org/wiki/Zram
 22:49 < hmchen> zram跟我想要的用法不太一樣, zram 是把指定的 memory size 變成 block device, 然後就可掛成 swap 或 ext4 等其他 fs
+22:51 < hmchen> 缺點是... ram 就真的直接挖走了,
