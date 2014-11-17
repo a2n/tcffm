@@ -10,3 +10,4 @@
 00:19 <@haroldwu> 就是我一個指令可以開啓一個已經多個畫面的 tmux
 00:20 <@haroldwu> 我如果開常駐 tmux 固定會有一個 jekyll 跟一個 wifi XD 可以用這個代替
 00:22 < guildwar> 看起來不錯，不過我通常都只用一個畫面，只會切 pane 來用
+21:43 < guildwar> 原來現在 firefox 也可用 pepper flash，有人寫外掛，由 ppapi to npapi
