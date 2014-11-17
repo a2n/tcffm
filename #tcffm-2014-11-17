@@ -40,3 +40,4 @@
 23:18 < guildwar> log 裡寫我 9/2 從 firefox 31 -> 32，所以應該是 firefox 32 後就自動裝 cisco h264 外掛
 23:19 < guildwar> 只好手動關掉了 about:config -> media.gmp-gmpopenh264.provider.enabled
 23:46 < guildwar> 不對，libgmpopenh264.so 是 9/3 沒錯，但那個目錄 gmp-gmpopenh264/ 是 10/24 00:52，而我在 10/23 23:23 升級 firefox 32 -> 33，所以是 firefox 33 之後才會下載這個外掛
+--- Log closed 二 11月 18 00:00:00 2014
