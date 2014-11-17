@@ -36,3 +36,4 @@
 22:49 < guildwar> 現在 fedora 打算要將 firefox 給移除的樣子
 22:51 < guildwar> 我剛才看了一下，發現果然我的 firefox 33  ~/.mozilla 裡有 libgmpopenh264.so
 22:52 < guildwar> 可從 about:plugins 中看到
+23:13 < guildwar> 看了 libgmpopenh264.so 時間， 9/3 就已經進來了，都沒注意到 :)
