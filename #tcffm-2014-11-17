@@ -12,3 +12,4 @@
 00:22 < guildwar> 看起來不錯，不過我通常都只用一個畫面，只會切 pane 來用
 21:43 < guildwar> 原來現在 firefox 也可用 pepper flash，有人寫外掛，由 ppapi to npapi
 21:43 < guildwar> https://github.com/i-rinat/freshplayerplugin
+21:43 < guildwar> arch aur 中有 freshplayerplugin
