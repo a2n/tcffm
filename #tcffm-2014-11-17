@@ -38,3 +38,4 @@
 22:52 < guildwar> 可從 about:plugins 中看到
 23:13 < guildwar> 看了 libgmpopenh264.so 時間， 9/3 就已經進來了，都沒注意到 :)
 23:18 < guildwar> log 裡寫我 9/2 從 firefox 31 -> 32，所以應該是 firefox 32 後就自動裝 cisco h264 外掛
+23:19 < guildwar> 只好手動關掉了 about:config -> media.gmp-gmpopenh264.provider.enabled
