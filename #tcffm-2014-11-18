@@ -49,3 +49,4 @@
 21:50 < hmchen> 多了 openh264  plugin 才會有 h.264
 21:51 < hmchen> 在還沒有 openh264 前, 我是裝了 ppa 版 gst-ffmpeg , youtube 才會顯示支援 h.264
 21:51 < guildwar> 但是我在 firefox 不裝任何外掛時，去看 youtube.com/html5 就有支援
+21:51 < guildwar> 第一排中間的 H.264 是藍的
