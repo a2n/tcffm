@@ -64,3 +64,4 @@
 22:07 < hmchen> https://www.archlinux.org/packages/extra/x86_64/firefox/
 22:07 < hmchen> 我在猜會不會是使用 gstreamer-ffmpeg 當 backend
 22:08 < hmchen> Dependencies 中有  gst-plugins-good (optional) - h.264 video ,  gst-libav (optional) - h.264 video
+22:08 < guildwar> 這個就有可能
