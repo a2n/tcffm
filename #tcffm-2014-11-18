@@ -152,3 +152,4 @@
 22:49 <@haroldwu> 所以他們很多人是在上面維護自己想用的包，然後安裝的時候就不需要重新編譯了
 22:49 < hmchen> 你說有機器專門把 AUR 的 package 直接 makepkg ?
 22:49 < hmchen> 不用自己 build AUR ?
+22:50 < hmchen> 一直黏在 ubuntu / ppa 就是因為不用自己 build packages
