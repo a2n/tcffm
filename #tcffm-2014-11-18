@@ -67,3 +67,4 @@
 22:08 < guildwar> 這個就有可能
 22:14 < hmchen> bingo! 我得裝 gst-libav / gst-plugins-good 上排的 h.264 才會是藍色
 22:15 < hmchen> 另外, 似乎沒有辦法強制 youtube 的 player 頁面強制送 h.264
+22:15 < guildwar> 所以有 gstreamer 就好幹嘛要 cisco openh264，支援比較好嗎?
