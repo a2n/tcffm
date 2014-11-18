@@ -60,3 +60,4 @@
 21:56 < hmchen> 感覺這表格有點舊
 22:04 < hmchen> guildwar: 你是直接把 .mozilla/firefox/xxxx.default/gmp-gmpopenh264 移走嗎?
 22:04 < guildwar> 不是，從 about:config 中 disable
+22:06 < guildwar> 我試了 debian 的 iceweasel 31，開 html5test.com，裡面 H.264 support 有打抅， firefox 31 根本還沒有 cisco openh264 支援
