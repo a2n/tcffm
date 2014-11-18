@@ -66,3 +66,4 @@
 22:08 < hmchen> Dependencies 中有  gst-plugins-good (optional) - h.264 video ,  gst-libav (optional) - h.264 video
 22:08 < guildwar> 這個就有可能
 22:14 < hmchen> bingo! 我得裝 gst-libav / gst-plugins-good 上排的 h.264 才會是藍色
+22:15 < hmchen> 另外, 似乎沒有辦法強制 youtube 的 player 頁面強制送 h.264
