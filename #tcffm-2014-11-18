@@ -77,3 +77,4 @@
 22:18 < hmchen> 一般 user 不知道要去裝 gst + ffmpeg
 22:18 < hmchen> 如果是 windows 平台就更麻煩了
 22:19 < guildwar> 應該是方便沒錯
+22:19 < hmchen> 像是 chrome 應該就是直接所有平台硬上自己的 h.264 decoder
