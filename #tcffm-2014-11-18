@@ -153,3 +153,4 @@
 22:49 < hmchen> 你說有機器專門把 AUR 的 package 直接 makepkg ?
 22:49 < hmchen> 不用自己 build AUR ?
 22:50 < hmchen> 一直黏在 ubuntu / ppa 就是因為不用自己 build packages
+22:51 < guildwar> 應該是 Archlinuxcn 社群自已分享的吧，不是 archlinux 官方
