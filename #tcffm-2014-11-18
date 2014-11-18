@@ -169,3 +169,4 @@
 23:00 < guildwar> 不過若要更新 aur 中的 xxx-git 的 package 要加 --devel 參數才會更新 git 的版本
 23:00 < hmchen> ok
 23:01 < guildwar> 對啊，管不到，沒辦法更新
+23:01 < hmchen> 手動的話, 就無法區分來源是不是從 AUR 來的對吧
