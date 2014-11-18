@@ -75,3 +75,4 @@
 22:17 < hmchen> ffmpeg 搞 h.264 decode 已經很多年
 22:17 < hmchen> 唯一合理解釋是方便
 22:18 < hmchen> 一般 user 不知道要去裝 gst + ffmpeg
+22:18 < hmchen> 如果是 windows 平台就更麻煩了
