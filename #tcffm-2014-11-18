@@ -174,3 +174,4 @@
 23:02 < hmchen> 只要有 PKGBUILD 的 source pack 都能用 makepkg 打包
 23:02 < guildwar> 是
 23:02 < hmchen> yaourt -Syua  出現 Foreign packages: \ 11 / 11
+23:03 < guildwar> ok, 有出現那非常好 :)
