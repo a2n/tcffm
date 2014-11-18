@@ -184,3 +184,4 @@
 23:08 < guildwar> 使用 adobe 的 pepper api 之類的
 23:08 < hmchen> 只是 npaapi vs ppapi 的差別嗎?
 23:09 < hmchen> 仍然都是 adobe flash ?
+23:09 < hmchen> 因為我記得 adobe flash for linux 自 v11 之後, 就不支援 hardware h.264 解碼了
