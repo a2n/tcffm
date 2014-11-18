@@ -3,3 +3,4 @@
 14:35 <@haroldwu> 這樣的話只能用 debian 那個 icewessel
 14:35 <@haroldwu> 這個總不會被污染了吧 XD
 15:17 < guildwar> debian 暫時還不用擔心，因為目前即將要 release 的 jessie 只有 31.2.0esr，而 33 的版本只有在 experimental 裡才有
+15:18 < guildwar> 而且依照過去 debian 的作法，應該會 patch 將自動下載的部份拿掉
