@@ -158,3 +158,4 @@
 22:53 < hmchen> 話說還是習慣有 gui frontend 管 package, 現在是用 octopi
 22:56 < guildwar> 沒用過，改天來試試
 22:56 < hmchen> yaourt 可以像 pacman 升級已安裝套件嗎?
+22:57 < guildwar> 用法一模一樣啊，我都用 yaourt -Syua
