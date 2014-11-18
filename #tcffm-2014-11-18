@@ -63,3 +63,4 @@
 22:06 < guildwar> 我試了 debian 的 iceweasel 31，開 html5test.com，裡面 H.264 support 有打抅， firefox 31 根本還沒有 cisco openh264 支援
 22:07 < hmchen> https://www.archlinux.org/packages/extra/x86_64/firefox/
 22:07 < hmchen> 我在猜會不會是使用 gstreamer-ffmpeg 當 backend
+22:08 < hmchen> Dependencies 中有  gst-plugins-good (optional) - h.264 video ,  gst-libav (optional) - h.264 video
