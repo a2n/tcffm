@@ -149,3 +149,4 @@
 22:47 <@haroldwu> 大概是這樣，abs 其實就是一個官方版的 yaourt XDD 他只下載 pkgbuild 回來 所以我覺得 arch 靈活度其實在 gentoo 上
 22:48 < hmchen> 20% 需要 rebuild 我是覺得沒關係
 22:48 <@haroldwu> Archlinuxcn 社區管理員組建了編譯機說...把腳本丟上去就會編譯好了
+22:49 <@haroldwu> 所以他們很多人是在上面維護自己想用的包，然後安裝的時候就不需要重新編譯了
