@@ -168,3 +168,4 @@
 22:59 < hmchen> 如果是手動從 AUR 下載 source pack, mkimag, pacman -U xxx, 這種的就管不到?
 23:00 < guildwar> 不過若要更新 aur 中的 xxx-git 的 package 要加 --devel 參數才會更新 git 的版本
 23:00 < hmchen> ok
+23:01 < guildwar> 對啊，管不到，沒辦法更新
