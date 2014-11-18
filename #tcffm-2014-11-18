@@ -147,3 +147,4 @@
 22:47 < hmchen> AUR 我是覺得還 ok, 畢竟是新套件
 22:47 < guildwar> 不過 debian 用久了，用 archlinux 還是要配 aur，否則 packages 不夠用 :)
 22:47 <@haroldwu> 大概是這樣，abs 其實就是一個官方版的 yaourt XDD 他只下載 pkgbuild 回來 所以我覺得 arch 靈活度其實在 gentoo 上
+22:48 < hmchen> 20% 需要 rebuild 我是覺得沒關係
