@@ -124,3 +124,4 @@
 22:38 < hmchen> 話說我正用 nb 的 ssd 裝了 arch, 速度快到逆天
 22:39 < guildwar> 怎麼個快法?
 22:39 < guildwar> 開機要幾秒? 之類的
+22:39 < hmchen> grub enter 後, 進 login < 5sec
