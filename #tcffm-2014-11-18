@@ -110,3 +110,4 @@
 22:31 < guildwar> 是喔，好慘
 22:31 < hmchen> 還是得用 apple hls 那種切片段串接方式
 22:32 < hmchen> apple 用的不算是標準 html5, 而是 m3u8 清單
+22:32 < hmchen> 另一陣營的 MPEG-DASH 就是用標準的 html5 video tag 了
