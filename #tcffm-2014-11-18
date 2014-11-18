@@ -132,3 +132,4 @@
 22:41 < hmchen> 如果順利的話就會從 ubuntu 移過來
 22:42 < guildwar> 讚啦，反正版上有滿多人用 archlinux 的 :)
 22:42 < hmchen> 最大的學習門檻應該是 pacman 跟 systemd 吧
+22:42 < guildwar> 你有用 systemd-analyze blame 來看看嗎?
