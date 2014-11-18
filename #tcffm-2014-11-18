@@ -178,3 +178,4 @@
 23:04 < guildwar> 可是 aur package 常常在動，有時會被移出 aur，到時就會顥示 foreign packages
 23:04 < hmchen> 在裝 yaourt 前手動搞了幾個
 23:06 < guildwar> 對了，常用的 aur 中的 packages，可去投票，人夠多而且有人願意管理，就可能會移到 community 中
+23:07 < guildwar> 若 aur 中的 package 太舊，過期，可到 aur.archlinux.org 頁面去通知維護者更新
