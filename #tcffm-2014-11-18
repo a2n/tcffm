@@ -171,3 +171,4 @@
 23:01 < guildwar> 對啊，管不到，沒辦法更新
 23:01 < hmchen> 手動的話, 就無法區分來源是不是從 AUR 來的對吧
 23:02 < guildwar> 應該是吧
+23:02 < hmchen> 只要有 PKGBUILD 的 source pack 都能用 makepkg 打包
