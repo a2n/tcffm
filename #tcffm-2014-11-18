@@ -135,3 +135,4 @@
 22:42 < guildwar> 你有用 systemd-analyze blame 來看看嗎?
 22:43 < hmchen> ubuntu 應該也是改 systemd, 但有留下 scripts , 用起來跟 sysv init 不會差太多
 22:43 < hmchen> arch 就沒有了, 得直接下 systemctl
+22:44 < guildwar> systemd 一直在進化，功能越來越多，現在連 pppoe 都支援（systemd-networkd)
