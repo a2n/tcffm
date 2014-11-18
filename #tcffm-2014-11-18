@@ -115,3 +115,4 @@
 22:33 < hmchen> 所以即便是號稱 live video 至少都仍會有一個 segment 的延遲
 22:34 < hmchen> 大約是 10~30sec 左右
 22:34 < guildwar> ok
+22:34 < hmchen> 切太短就對 http server 端的負擔太大
