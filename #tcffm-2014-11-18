@@ -42,3 +42,4 @@
 21:43 < hmchen> 我剛剛也把 flash 移掉了
 21:46 < hmchen> http://www.webupd8.org/2014/03/get-firefox-and-phonon-gstreamer-to.html
 21:47 < guildwar> 我看 youtube.com/html5 頁面，不管有沒有 openh264 外掛，第一排三個都是藍的，第二排都是紅的
+21:47 < hmchen> 如果是 ubuntu, 裝了某個 ppa 版本的 gst-ffmpeg 就會有支援
