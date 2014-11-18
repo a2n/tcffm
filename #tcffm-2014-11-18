@@ -109,3 +109,4 @@
 22:31 < hmchen> 很可惜並沒有
 22:31 < guildwar> 是喔，好慘
 22:31 < hmchen> 還是得用 apple hls 那種切片段串接方式
+22:32 < hmchen> apple 用的不算是標準 html5, 而是 m3u8 清單
