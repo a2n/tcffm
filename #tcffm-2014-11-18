@@ -98,3 +98,4 @@
 22:26 < hmchen> yes
 22:26 < guildwar> 可能之前 firefox 不支援 h264 時，怕有人不能看吧
 22:26 < hmchen> 變成只對其他網站的 html5 + h.264 頁面有用
+22:27 < hmchen> 因為 html5 video tag 允許  webm, h.264 跟 theora
