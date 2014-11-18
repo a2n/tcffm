@@ -58,3 +58,4 @@
 21:54 < hmchen> 這邊有整理各家 browser 對 html5 video 支援的列表
 21:54 < hmchen> 我當時裝的應該是 26.0
 21:56 < hmchen> 感覺這表格有點舊
+22:04 < hmchen> guildwar: 你是直接把 .mozilla/firefox/xxxx.default/gmp-gmpopenh264 移走嗎?
