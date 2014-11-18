@@ -35,3 +35,4 @@
 21:39 < guildwar> 那為什麼我只能看到 360p?
 21:39 < hmchen> 我試一下
 21:39 < guildwar> 不知是不是因為 noscript、requestpolicy 之類的在做怪
+21:43 < hmchen> 我這邊 youtube/html5 顯示 h.264 也是不支援, 但確實有 openh264
