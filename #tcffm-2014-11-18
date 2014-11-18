@@ -100,3 +100,4 @@
 22:26 < hmchen> 變成只對其他網站的 html5 + h.264 頁面有用
 22:27 < hmchen> 因為 html5 video tag 允許  webm, h.264 跟 theora
 22:27 < guildwar> 其實現在一定要用 flash 的網站不多了，上次看到說全世界只賸下 12% 之類的
+22:28 < hmchen> 如果遇到某站台只有h.264, 但 browser 不支援, 就沒畫面了
