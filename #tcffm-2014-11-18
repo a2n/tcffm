@@ -104,3 +104,4 @@
 22:28 < hmchen> 這種玩法比較經典的應該是 Apple 的 http-live-streaming
 22:29 < guildwar> 不過一些直播的，像 twitchtv, ustream, youtube live 都還是要
 22:30 < hmchen> 沒辦法啊, html5 video 一開始就不是為了 live 設計的, 只是處理一般錄製好的檔案
+22:30 < guildwar> 最近不是 html5 完成規格，不知有沒有加入 live 的東東?
