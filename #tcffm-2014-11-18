@@ -46,3 +46,4 @@
 21:47 < hmchen> 那你的browser應該已經有 h.264 了
 21:49 < guildwar> 所以我疑惑的是，本來就支援，那何必要再裝一個 cisco openh264??
 21:50 < hmchen> 原本的 firefox 應該沒沒有 h.264, 但是有 webm
+21:50 < hmchen> 多了 openh264  plugin 才會有 h.264
