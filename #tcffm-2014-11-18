@@ -26,3 +26,4 @@
 21:34 < hmchen> 如果有裝 flashplugin , flv 跟 video codec 就全都包了
 21:35 < guildwar> 都沒有裝
 21:35 < hmchen> 所以你要試 browser 內建解碼的話, 就得在沒裝 flash 的情況下, 開 youtube html5 版本頁面
+21:35 < guildwar> http://keepvid.com/?url=https%3A%2F%2Fwww.youtube.com%2Fwatch%3Fv%3Dog7luABovbw
