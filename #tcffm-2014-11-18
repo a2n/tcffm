@@ -175,3 +175,4 @@
 23:02 < guildwar> 是
 23:02 < hmchen> yaourt -Syua  出現 Foreign packages: \ 11 / 11
 23:03 < guildwar> ok, 有出現那非常好 :)
+23:04 < guildwar> 可是 aur package 常常在動，有時會被移出 aur，到時就會顥示 foreign packages
