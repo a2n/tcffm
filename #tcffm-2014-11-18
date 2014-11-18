@@ -15,3 +15,4 @@
 20:06 <@haroldwu> 哦哦 直播 open264 好像也不行
 20:07 < guildwar> 對啊，我試也不行
 20:07 < guildwar> 要怎麼讓 youtube 用 h264 來看呢? 我有裝 plugin 和沒有看到的都一樣
+21:28 < hmchen> guildwar: youtube 用的 flv 封裝, video codec 有支援 h.263, vp6(7/8?), h.264
