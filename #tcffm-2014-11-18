@@ -70,3 +70,4 @@
 22:15 < guildwar> 所以有 gstreamer 就好幹嘛要 cisco openh264，支援比較好嗎?
 22:16 < hmchen> 對 html5 來說是同一個 <video> tag, 後端會是 Theora,WebM,或h.264 , user 無從得知
 22:16 < guildwar> ok，我在 debian 上將所有 gstreamer 全移除，現在 H.264 也是紅的 :)
+22:17 < hmchen> gst 會接上 ffmpeg, 理論上應該比 cisco 的強
