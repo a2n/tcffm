@@ -137,3 +137,4 @@
 22:43 < hmchen> arch 就沒有了, 得直接下 systemctl
 22:44 < guildwar> systemd 一直在進化，功能越來越多，現在連 pppoe 都支援（systemd-networkd)
 22:45 < hmchen> 還沒, 所有 systemd 的一切都在摸索中
+22:45 <@haroldwu> 我覺得 pacman 的威力在於 abs 這個底層 XDD
