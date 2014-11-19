@@ -29,3 +29,4 @@
 15:48 < guildwar> 那從 ubuntu 跑 rpcinfo -p arch_host 都正常嗎？
 15:51 < hmchen> 看起來正常, 有列出 mountd, nfs, portmapper, status, nlockmgr
 15:52 < guildwar> 對了，用 archlinux 最好每次升級前都來看一下官方 news，不然有時候會更新失敗
+15:52 < guildwar> https://www.archlinux.org/news/
