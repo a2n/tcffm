@@ -46,3 +46,4 @@
 17:01 < guildwar> 看到一篇文章，作者用 awesome window manager，想出一個方法讓目前不在眼前(unfocus)的 firefox 視窗暫停(SIGSTOP)，等到手動將視窗切回眼前(focus)，才讓這個視窗恢復(SIGCONT)，真是有創意，這麼好的想法到現在才知道
 17:02 < guildwar> 有設定 10 秒為 delay，也就是 unfocus 10秒後才會停止
 17:02 < guildwar> 不過我在想，若是正在下載東東到一半不就卡住，有點小問題
+17:03 < guildwar> https://blog.mister-muffin.de/2014/11/07/automatically-suspending-cpu-hungry-applications/
