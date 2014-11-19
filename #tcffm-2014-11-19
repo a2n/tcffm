@@ -69,3 +69,4 @@
 22:05 <@haroldwu> 我這幾天才想要弄一個監視我某個上傳軟體 XD
 22:08 <@haroldwu> 哈它那個 demo　就是自己 nginx 輸出的畫面
 22:08 <@haroldwu> 這下子誰來看都一清二處了
+22:18 < guildwar> 不過通常 log 都要 root 才能看，要同時能看多種 log，要有滿大的權限，有點危險
