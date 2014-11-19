@@ -7,3 +7,4 @@
 15:39 < guildwar> 那系統上有沒有　rpc-gssd.service
 15:39 < guildwar> https://bbs.archlinux.org/viewtopic.php?pid=1312879
 15:40 < guildwar> 再不行就沒輒了　XD
+15:41 < guildwar> 將　rpc.statd port 固定後，firewall 有開那幾個　ports？
