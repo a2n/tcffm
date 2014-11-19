@@ -30,3 +30,4 @@
 15:51 < hmchen> 看起來正常, 有列出 mountd, nfs, portmapper, status, nlockmgr
 15:52 < guildwar> 對了，用 archlinux 最好每次升級前都來看一下官方 news，不然有時候會更新失敗
 15:52 < guildwar> https://www.archlinux.org/news/
+15:52 < guildwar> 像前一陣子的 java 就要手動更新
