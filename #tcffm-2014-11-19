@@ -19,3 +19,4 @@
 15:41 < hmchen> 3) A unit may be started when needed via activation (socket, path, timer,
 15:41 < hmchen>    D-Bus, udev, scripted systemctl call, ...).
 15:42 < hmchen> 似乎有問題
+15:42 < guildwar> 要不要先將 firewall down 下來再試
