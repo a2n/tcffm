@@ -36,3 +36,4 @@
 15:53 < hmchen> rolling update 如果出包怎麼辦?
 15:53 < hmchen> 可以 rollback 嗎?
 15:54 < guildwar> 有 package 叫 downloader 或是 downgrade 可做 rollback
+15:54 < hmchen> nice
