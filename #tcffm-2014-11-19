@@ -4,3 +4,4 @@
 15:34 < guildwar> 要不要試試將 rpc.statd 固定　port 看看 STATD_OPTS="-p 32765 -o 32766 -T 32803"
 15:35 < guildwar> https://wiki.archlinux.org/index.php/NFS
 15:39 < hmchen> 沒有改善
+15:39 < guildwar> 那系統上有沒有　rpc-gssd.service
