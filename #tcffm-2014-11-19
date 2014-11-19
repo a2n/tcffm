@@ -23,3 +23,4 @@
 15:42 < guildwar> 看來 rpc-gssd 好像過時了
 15:43 < hmchen> 我沒有裝 firewall
 15:43 < guildwar> ok :)
+15:45 < hmchen> rpc-gssd 不用特地 enable, 已經包在 nfs-server.service 裡頭了
