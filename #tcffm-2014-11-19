@@ -39,3 +39,4 @@
 15:54 < hmchen> nice
 15:55 < guildwar> 不然手動去 http://seblu.net/a/arm/ 或 ftp://seblu.net/archlinux/arm/ 抓回來裝
 15:56 < guildwar> 平常 -Syu 完，在 /var/cache/pacman/pkg 裡會存一份下載的 package 檔，若更新失敗，可立刻裝回舊版
+15:57 < guildwar> 若更新成功沒問題，可下 pacman -Sc 來清除不需要的檔案
