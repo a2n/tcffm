@@ -34,3 +34,4 @@
 15:52 < hmchen> nfs 難道會有類似 sshd 的反查功能嗎?
 15:52 < guildwar> 可能吧
 15:53 < hmchen> rolling update 如果出包怎麼辦?
+15:53 < hmchen> 可以 rollback 嗎?
