@@ -9,3 +9,9 @@
 15:40 < guildwar> 再不行就沒輒了　XD
 15:41 < guildwar> 將　rpc.statd port 固定後，firewall 有開那幾個　ports？
 15:41 < hmchen> sudo systemctl enable rpc-gssd.service
+15:41 < hmchen> The unit files have no [Install] section. They are not meant to be enabled
+15:41 < hmchen> using systemctl.
+15:41 < hmchen> Possible reasons for having this kind of units are:
+15:41 < hmchen> 1) A unit may be statically enabled by being symlinked from another unit's
+15:41 < hmchen>    .wants/ or .requires/ directory.
+15:41 < hmchen> 2) A unit's purpose may be to act as a helper for some other unit which has
