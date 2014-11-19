@@ -42,3 +42,4 @@
 15:57 < guildwar> 若更新成功沒問題，可下 pacman -Sc 來清除不需要的檔案
 15:58 < hmchen> 了解
 15:59 < guildwar> 這裡有個 NFS/Troubleshooting
+15:59 < guildwar> https://wiki.archlinux.org/index.php/NFS_Troubleshooting
