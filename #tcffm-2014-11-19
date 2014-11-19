@@ -15,3 +15,4 @@
 15:41 < hmchen> 1) A unit may be statically enabled by being symlinked from another unit's
 15:41 < hmchen>    .wants/ or .requires/ directory.
 15:41 < hmchen> 2) A unit's purpose may be to act as a helper for some other unit which has
+15:41 < hmchen>    a requirement dependency on it.
