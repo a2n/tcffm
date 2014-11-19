@@ -27,3 +27,4 @@
 15:47 < guildwar> ok, 了解
 15:48 < hmchen> 在慢慢查了
 15:48 < guildwar> 那從 ubuntu 跑 rpcinfo -p arch_host 都正常嗎？
+15:51 < hmchen> 看起來正常, 有列出 mountd, nfs, portmapper, status, nlockmgr
