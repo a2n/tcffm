@@ -2,3 +2,4 @@
 14:28 < hmchen> arch 主機上裝了 nfs server, 但從 ubuntu 端執行 mount 卻等 16 秒才完成
 14:28 < hmchen> mount 參數 -o nolock,tcp
 15:34 < guildwar> 要不要試試將 rpc.statd 固定　port 看看 STATD_OPTS="-p 32765 -o 32766 -T 32803"
+15:35 < guildwar> https://wiki.archlinux.org/index.php/NFS
