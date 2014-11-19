@@ -71,3 +71,4 @@
 22:08 <@haroldwu> 這下子誰來看都一清二處了
 22:18 < guildwar> 不過通常 log 都要 root 才能看，要同時能看多種 log，要有滿大的權限，有點危險
 22:34 <@haroldwu> 你說這個程式嗎？ XD
+22:38 < guildwar> 對啊，我之在 archlinux 上有試了一下，要以 root 身份跑才能看到大部份 log
