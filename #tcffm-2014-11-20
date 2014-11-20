@@ -1,2 +1,3 @@
 --- Log opened 四 11月 20 00:00:03 2014
 11:47 < hmchen> 上次提到 mount 很慢這件事, 確認是 NFSv4 + rpc-gssd 的問題
+11:48 < hmchen> mount 時下 -o vers=3 就很快, 應該是 client 這端沒有 rpc-gssd 設定
