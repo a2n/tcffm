@@ -1,0 +1,2 @@
+--- Log opened 四 11月 20 00:00:03 2014
+11:47 < hmchen> 上次提到 mount 很慢這件事, 確認是 NFSv4 + rpc-gssd 的問題
