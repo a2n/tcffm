@@ -14,3 +14,4 @@
 16:38 < guildwar> :)
 16:39 < hmchen> 但 ibus 有點鳥啊, 中英文切換會有點延遲, 打字太快會錯
 16:39 < guildwar> 對啊，很煩
+16:41 < hmchen> 會是因為沒有 qt5 的 immodule 嗎? 我是先在 ubuntu 裡頭試, 有 gcin-qt4-immodule, 但沒有 qt5
