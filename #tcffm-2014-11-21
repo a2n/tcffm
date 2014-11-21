@@ -1,0 +1,2 @@
+--- Log opened 五 11月 21 00:00:04 2014
+13:17 < hmchen> ibus 無法在 firefox 中打中文, 要改環境變數為 GTK_IM_MODULE="xim"
