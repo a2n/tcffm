@@ -2,3 +2,4 @@
 13:17 < hmchen> ibus 無法在 firefox 中打中文, 要改環境變數為 GTK_IM_MODULE="xim"
 13:21 < guildwar> 是喔，我設 GTK_IM_MODULE=ibus 可以用
 13:22 < hmchen> ibus版本呢? 我查到有人 1.5.2 也是不行, rollback 到 1.5.1 就正常
+13:23 < guildwar> 最新的 1.5.9-4
