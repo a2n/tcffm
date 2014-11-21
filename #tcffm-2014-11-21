@@ -9,3 +9,8 @@
 13:24 < hmchen> 33.1.1-1
 13:24 < guildwar> 在 ibus 裡就含 gtk-2.0 及 gtk-3.0 的 im-ibus.so 了，我也是 firefox 33.1.1-1
 13:26 < hmchen> .xprofile 設定
+13:26 < hmchen> export GTK_IM_MODULE=xim
+13:26 < hmchen> export QT_IM_MODULE=ibus
+13:26 < hmchen> export XMODIFIERS="@im=ibus"
+13:26 < hmchen> #export XIM_PROGRAM=/usr/bin/ibus-daemon
+13:26 < hmchen> ibus-daemon -drx
