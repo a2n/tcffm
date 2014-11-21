@@ -14,3 +14,4 @@
 13:26 < hmchen> export XMODIFIERS="@im=ibus"
 13:26 < hmchen> #export XIM_PROGRAM=/usr/bin/ibus-daemon
 13:26 < hmchen> ibus-daemon -drx
+13:26 < guildwar> 只差 GTK_IM_MODULE=xim 這個而已
