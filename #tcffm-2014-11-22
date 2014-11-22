@@ -1,3 +1,4 @@
 --- Log opened 六 11月 22 00:00:06 2014
 16:36 < guildwar> 現在 firefox 預設
 16:56 < guildwar> 剛看到有人在討論 fedora 打算在 fedora 23~25 將 firefox 改成非預設，討論串中看到有人說 firefox 會自動加入 google 的 cookie，結果我檢查了一下我的 profile 中，果然有一個 google 的 cookie，也是唯一一個，因為我都是用 "Always use private browsing mode"
+16:58 < guildwar> 所以果然有偷渡的狀況，只是我還搞不清楚是什麼時候改的，在猜是和那個 h264 外掛同樣方式吧，再來研究看看
