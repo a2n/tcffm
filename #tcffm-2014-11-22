@@ -17,3 +17,4 @@
 17:58 < guildwar> 放棄，改首頁沒用，還要改 privacy 的東東，很麻煩
 18:16 < guildwar> ok，終於知道了，只要將 Accept third-party cookies 設成 Never，就不會再自動加 google 那個了
 18:25 < guildwar> 所以應該不是 firefox 設定的，而是開啟了 firefox 有自動連去 google 時，google 才設定的
+--- Log closed 日 11月 23 00:00:07 2014
