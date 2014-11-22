@@ -10,3 +10,4 @@
 17:07 < guildwar> 問題是，要用 safebrowsing 功能一定要加這個 cookie 嗎? 還是順便偷渡的
 17:10 < guildwar> 不對，不管 safebrowsing 有沒有開都會有那個 cookie
 17:22 < guildwar> 這裡有 google 的人出來解釋，在 comment 34   https://bugzilla.mozilla.org/show_bug.cgi?id=368255
+17:27 < guildwar> ok, 應該不是中間偷渡的，而是將 ~/.mozilla 完全砍掉，第一次執行 firefox 時就會內建 google cookie 在裡面，若手動砍掉，可能就不會再加進去
