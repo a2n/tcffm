@@ -14,3 +14,4 @@
 17:39 < guildwar> 發現將 cookie 砍掉後，只要再將設定中 Privacy -> History 改成 "Remember History"，接著立刻關掉 firefox 再開，cookie 又回來了
 17:39 < guildwar> 應該是 firefox 直接設定的
 17:56 < guildwar> ok，我搞懂了，將 cookie 刪除後，只要將首頁設定是 Show my home page，開啟頁面後就會自動連上 google serarch，設定 cookie 了，所以首頁改掉後應該就好
+17:58 < guildwar> 放棄，改首頁沒用，還要改 privacy 的東東，很麻煩
