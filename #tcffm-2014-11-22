@@ -13,3 +13,4 @@
 17:27 < guildwar> ok, 應該不是中間偷渡的，而是將 ~/.mozilla 完全砍掉，第一次執行 firefox 時就會內建 google cookie 在裡面，若手動砍掉，可能就不會再加進去
 17:39 < guildwar> 發現將 cookie 砍掉後，只要再將設定中 Privacy -> History 改成 "Remember History"，接著立刻關掉 firefox 再開，cookie 又回來了
 17:39 < guildwar> 應該是 firefox 直接設定的
+17:56 < guildwar> ok，我搞懂了，將 cookie 刪除後，只要將首頁設定是 Show my home page，開啟頁面後就會自動連上 google serarch，設定 cookie 了，所以首頁改掉後應該就好
