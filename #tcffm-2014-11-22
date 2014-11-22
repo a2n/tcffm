@@ -12,3 +12,4 @@
 17:22 < guildwar> 這裡有 google 的人出來解釋，在 comment 34   https://bugzilla.mozilla.org/show_bug.cgi?id=368255
 17:27 < guildwar> ok, 應該不是中間偷渡的，而是將 ~/.mozilla 完全砍掉，第一次執行 firefox 時就會內建 google cookie 在裡面，若手動砍掉，可能就不會再加進去
 17:39 < guildwar> 發現將 cookie 砍掉後，只要再將設定中 Privacy -> History 改成 "Remember History"，接著立刻關掉 firefox 再開，cookie 又回來了
+17:39 < guildwar> 應該是 firefox 直接設定的
