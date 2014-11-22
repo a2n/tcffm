@@ -15,3 +15,4 @@
 17:39 < guildwar> 應該是 firefox 直接設定的
 17:56 < guildwar> ok，我搞懂了，將 cookie 刪除後，只要將首頁設定是 Show my home page，開啟頁面後就會自動連上 google serarch，設定 cookie 了，所以首頁改掉後應該就好
 17:58 < guildwar> 放棄，改首頁沒用，還要改 privacy 的東東，很麻煩
+18:16 < guildwar> ok，終於知道了，只要將 Accept third-party cookies 設成 Never，就不會再自動加 google 那個了
