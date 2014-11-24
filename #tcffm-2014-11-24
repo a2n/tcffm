@@ -10,3 +10,4 @@
 15:05 < hmchen> debug1: kex: client->server aes128-ctr hmac-sha1 none
 15:05 < hmchen> no kex alg
 15:05 < hmchen> 比較關鍵的幾行
+16:13 < hmchen> arch + owncloud server 弄老半天還是不會動
