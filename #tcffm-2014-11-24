@@ -2,3 +2,4 @@
 13:07 < guildwar> 滿屌的，用麵包板插了一台 Motorola 68008 CPU 的機器， 1M RAM，重點是上面還跑 linux
 13:08 < guildwar> http://www.bigmessowires.com/2014/11/17/68-katy-68000-linux-on-a-solderless-breadboard/
 15:02 < hmchen> 從 buffalo nas (openssh 3.7.1p2) 連線到 arch (openssh 6.7p1) 出現 no kex alg
+15:03 < hmchen> key exchange 失敗
