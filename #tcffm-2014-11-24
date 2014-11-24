@@ -35,3 +35,4 @@
 21:18 < haroldwu> 搞不好就會有人去改了 XD
 21:21 < guildwar> 反正明年才會上市，而且價格也還未知，太貴也買不起 :)
 22:07 < hmchen> 把 owncloud 後端的 database 換成 mysql (mariadb) 照文件設定後 ok 了
+22:08 < guildwar> 不然你原來用什麼? (postgresql?)
