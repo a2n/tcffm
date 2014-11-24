@@ -15,3 +15,4 @@
 17:42 < guildwar> 當 server 的確比較麻煩，感覺上由於太新，和別的 distribution (如 debian 或 nas) 中的程式版本差滿多的，比較會出問題就是
 17:43 < guildwar> 若是二台都 archlinux 應該比較沒問題 XD
 17:56 < guildwar> 應該是 nas 支援的現在新版的 sshd 預設是關掉的，在 archlinux 中 Ciphers 只有 aes 開頭的 5 個外加 chacha20-poly1305@openssh.com 而已
+17:57 < guildwar> 可能加個 Ciphers aes128-xxxx, ..., 3des-cbc 看看
