@@ -13,3 +13,4 @@
 16:13 < hmchen> arch + owncloud server 弄老半天還是不會動
 16:14 < hmchen> 當工作機沒啥問題, 怎覺得當 server 反而設定比較麻煩?
 17:42 < guildwar> 當 server 的確比較麻煩，感覺上由於太新，和別的 distribution (如 debian 或 nas) 中的程式版本差滿多的，比較會出問題就是
+17:43 < guildwar> 若是二台都 archlinux 應該比較沒問題 XD
