@@ -5,3 +5,7 @@
 15:03 < hmchen> key exchange 失敗
 15:04 < guildwar> 沒遇過耶，用 ssh -vv 能看到什麼嗎?
 15:05 < hmchen> debug2: mac_init: found hmac-sha1
+15:05 < hmchen> debug1: kex: server->client aes128-ctr hmac-sha1 none
+15:05 < hmchen> debug2: mac_init: found hmac-sha1
+15:05 < hmchen> debug1: kex: client->server aes128-ctr hmac-sha1 none
+15:05 < hmchen> no kex alg
