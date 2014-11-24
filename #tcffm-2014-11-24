@@ -50,3 +50,4 @@
 22:14 < hmchen> 我想的比較單純, sqlite 其實只是 file 架構
 22:15 < hmchen> 理論上比較好換 distribution
 22:15 < guildwar> ok, 但 mariadb 也還好啦，dump 出來倒過去
+22:15 < hmchen> 我想說把系統裝好後, folder 指定過去應該就 ok 了
