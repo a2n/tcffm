@@ -19,3 +19,4 @@
 18:04 < guildwar> 看了一下 debian jessie(8)，和 archlinux 的一樣，但舊的 wheezy(7) 則是多開了 arcfour256,arcfour128,3des-cbc,blowfish-cbc,cast128-cbc,arcfour
 18:08 < guildwar> 我看你升級 nas 比較實際(若有新的 firmware 的話)
 20:17 < guildwar> 原來是 openssh 6.7 之後，將 cbc 及 arcfour 關掉了，因為安全性的考量
+20:17 < guildwar> http://www.openssh.com/txt/release-6.7
