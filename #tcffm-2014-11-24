@@ -48,3 +48,4 @@
 22:14 < guildwar> 而且到時想轉移，sqlite 不好轉移吧，還是 mariadb 比較方便
 22:14 < guildwar> 還是說那個 db 檔 copy 過去就好了
 22:14 < hmchen> 我想的比較單純, sqlite 其實只是 file 架構
+22:15 < hmchen> 理論上比較好換 distribution
