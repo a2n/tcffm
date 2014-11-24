@@ -37,3 +37,4 @@
 22:07 < hmchen> 把 owncloud 後端的 database 換成 mysql (mariadb) 照文件設定後 ok 了
 22:08 < guildwar> 不然你原來用什麼? (postgresql?)
 22:08 < hmchen> sqlite3
+22:08 < guildwar> ok
