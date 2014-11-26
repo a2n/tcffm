@@ -14,3 +14,4 @@
 22:07 < guildwar> 不對，叫做 Debian GNU/Hurd 才對
 22:07 < haroldwu> 安裝順序是，先把配置寫成設定檔，然後執行安裝指令，就完成了 XD
 22:08 < haroldwu> http://www.gnu.org/software/guix/manual/html_node/System-Installation.html
+22:09 < haroldwu> 載好了，可惜我還是得用 virtualbox
