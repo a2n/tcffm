@@ -1,3 +1,4 @@
 --- Log opened 四 12月 04 00:00:22 2014
 11:20 < hmchen> https://bbs.archlinux.org/viewtopic.php?pid=1472139
 11:21 < hmchen> 最近踩到這個問題了, cupsd 啟動時 cpu 使用率飆高
+11:22 < hmchen> https://bugs.archlinux.org/task/42666
