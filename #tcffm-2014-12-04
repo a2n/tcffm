@@ -7,3 +7,4 @@
 11:35 < guildwar> 不知道自己用 abs 重編後會不會改善，之前在 debian 中遇到 screen 一執行後即 cpu 100%，重編後再裝上就沒問題了
 11:58 < guildwar> 我試了  sudo systemctl start org.cups.cupsd 後，並不會有 cpu 100% 的狀況
 12:01 < guildwar> 好像要實際列印才會變 cpu 100%，我沒法試，因為 cups 不支援我的印表機 XD
+13:31 < hmchen> 我是啟動後沒多久就會 cpu 100%, 連印表機都還沒加
