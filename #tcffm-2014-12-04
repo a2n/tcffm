@@ -3,3 +3,4 @@
 11:21 < hmchen> 最近踩到這個問題了, cupsd 啟動時 cpu 使用率飆高
 11:22 < hmchen> https://bugs.archlinux.org/task/42666
 11:23 < hmchen> 似乎還沒解掉, 12/03 都還有人持續回報
+11:34 < hmchen> 奇妙的是, restart cupsd 後居然就好了
