@@ -8,3 +8,4 @@
 11:58 < guildwar> 我試了  sudo systemctl start org.cups.cupsd 後，並不會有 cpu 100% 的狀況
 12:01 < guildwar> 好像要實際列印才會變 cpu 100%，我沒法試，因為 cups 不支援我的印表機 XD
 13:31 < hmchen> 我是啟動後沒多久就會 cpu 100%, 連印表機都還沒加
+13:39 < guildwar> 只好自己重編看看囉
