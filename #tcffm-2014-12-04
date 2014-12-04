@@ -10,3 +10,4 @@
 13:31 < hmchen> 我是啟動後沒多久就會 cpu 100%, 連印表機都還沒加
 13:39 < guildwar> 只好自己重編看看囉
 14:48 < guildwar> 剛啟動 cupsd 時沒問題，用 web 介面按下 Add Printer 後，立刻 cpu 飆到 100%，試著用 abs 重編了 cups 及 libcups 後，狀況依然沒改善，看來還是要等 bug 修正才行
+--- Log closed 五 12月 05 00:00:23 2014
