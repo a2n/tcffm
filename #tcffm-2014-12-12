@@ -14,3 +14,4 @@
 11:29 < hmchen> 那 intel-ucode 就先不裝好了
 11:30 < guildwar> 像可以用 tpm 來做產生 ssh public key，但若 tpm 有後門，那不管你如何產生，都可以登入，像之前 debian 在約 2008 年時的 ssl 漏洞
 11:30 < guildwar> https://people.debian.org/~stapelberg//2014/02/19/SSH-keys-in-your-TPM.html
+11:34 < guildwar> https://en.wikipedia.org/wiki/Random_number_generator_attack#Debian_OpenSSL
