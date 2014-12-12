@@ -127,3 +127,4 @@
 19:13 < guildwar> 所以 route 不用設?
 19:13 < hmchen> 我 android 版的在 account 裡有 outbound proxy
 19:14 < guildwar> ok, 那我再試試 linux 版不要設 route 看看
+19:14 < hmchen> outbound proxy 是當兩個clients 都躲在 symmetric nat 後面, 又沒有 port forwarding 時用的
