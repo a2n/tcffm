@@ -149,3 +149,4 @@
 19:28 < hmchen> 沒 console 就 pass XD
 19:36 < guildwar> 看來 redphone 不是傳統的 sip protocol，是另一種 Signaling Protocol，Like SIP, however, both endpoints are simultaneously server and client
 19:37 < guildwar> The call is encrypted using SRTP. The key material is negotiated using ZRTP.
+19:38 < guildwar> 所以整段語音是 SRTP 加密，而 ZRTP 只用在 key 方面
