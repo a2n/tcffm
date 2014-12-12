@@ -5,3 +5,4 @@
 09:39 < hmchen> rom 裡頭如果還藏 backdoor, 也不可能獨自把資料用 tcp/ip 送出去, 顯然要依賴 OS, 但正常的 OS 不會執行 on-chip rom 中的程式碼
 09:41 < hmchen> 無論是 OS 從遠端被 hack 進去, 或是官方提供的 OS 就有帶啟動工具, 從 on-chip rom 執行 backdoor 似乎是多此一舉
 09:44 < hmchen> 我覺得比較可能藏 backdoor 是 OS/SDK 中 binary only 的 driver 跟 library
+10:21 < hmchen> 請問有人用 intel microcode update 嗎?
