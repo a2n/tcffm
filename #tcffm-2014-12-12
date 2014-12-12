@@ -25,3 +25,4 @@
 11:39 < guildwar> 是不是那個 Allow choose their own font 選項沒開?
 11:39 < guildwar> ok, 我搞錯了，不是 firefox
 11:41 < hmchen> 感覺是預測字體的優先序, 例如 Monosapce, 其實系統中並沒有 Monosapce.ttf 的檔案
+11:41 < hmchen> 而是 fontconfig 有替換優先序
