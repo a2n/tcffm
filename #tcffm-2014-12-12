@@ -120,3 +120,4 @@
 19:11 < hmchen> 找時間改 ekiga 試試看
 19:11 < guildwar> sip proxy: sip.linphone.org
 19:11 < hmchen> 如果開了 outbound proxy, 那 data flow 就會繞到 sip server 再出來
+19:12 < guildwar> 問題是不設會動喔?
