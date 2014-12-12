@@ -12,3 +12,4 @@
 11:25 < guildwar> 就 if it's not broken, don't fix it 的概念 XD
 11:27 < guildwar> 那顆 ic 也有做 tpm, 所以 tpm 也有問題吧 http://www.zdnet.com/article/dont-let-paranoia-over-the-nsa-and-tpm-weaken-your-security/
 11:29 < hmchen> 那 intel-ucode 就先不裝好了
+11:30 < guildwar> 像可以用 tpm 來做產生 ssh public key，但若 tpm 有後門，那不管你如何產生，都可以登入，像之前 debian 在約 2008 年時的 ssl 漏洞
