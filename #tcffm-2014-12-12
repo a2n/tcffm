@@ -136,3 +136,4 @@
 19:20 < hmchen> android / linux 用 ZRTP 互通 ok
 19:21 < hmchen> 用 sip.linphone.org
 19:21 < guildwar> 可惡，CSipSimple 也是，一執行就掛，奇怪了
+19:21 < hmchen> 兩頭都有出現 ZRTP 的 security token 字串
