@@ -103,3 +103,4 @@
 19:01 < hmchen> 但 key exchange 的部份還沒定案
 19:01 < guildwar> 有啦，RFC 6189  https://tools.ietf.org/html/rfc6189
 19:02 < hmchen> IPCamera 是透過 RTSP (session) RTP (audio/video data)
+19:02 < hmchen> 被客戶問過幾次影像內容加密的事
