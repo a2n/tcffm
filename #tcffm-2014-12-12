@@ -163,3 +163,4 @@
 19:54 < guildwar> ok, line 官方在 2014/03/11 有出聲明，全部有加密  http://developers.linecorp.com/blog/?p=2709
 19:55 < guildwar> 所以有改了，至於中國那邊是如何審查的就不知道了
 19:59 < hmchen> 照第一篇文章說法, 是在 app 中過濾關鍵字
+19:59 < hmchen> 當手機所在地區為中國時下載關鍵字清單
