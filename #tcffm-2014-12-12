@@ -139,3 +139,4 @@
 19:21 < hmchen> 兩頭都有出現 ZRTP 的 security token 字串
 19:21 < guildwar> ok，我換 samsung s2 來試
 19:23 < hmchen> 但 zrtp 應該只是 prefer option, 我想只有當兩端 client 都支援時才會使用
+19:23 < guildwar> 對
