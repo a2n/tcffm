@@ -22,3 +22,4 @@
 11:38 < guildwar> 所以之前 debian 有 package 叫 openssl-blacklist, 裡面有所有的列表，這些 public key 列為黑名單
 11:38 < guildwar> 我是沒調整
 11:39 < hmchen> 我用 evince 或 browser 開 pdf 也有類似問題, 感覺都只有一種字體
+11:39 < guildwar> 是不是那個 Allow choose their own font 選項沒開?
