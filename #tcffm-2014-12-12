@@ -19,3 +19,4 @@
 11:36 < guildwar> 應該不是，而是像 debian 那個漏洞，因為亂數太少，所以再怎麼產生，也只有固定那幾組，我記得只能產生幾百組而已，所以從頭試過一遍一定中
 11:36 < hmchen> 喔喔
 11:37 < hmchen> 對了, arch 裝完後需要調整 font 設定嗎? 我開 Google Doc, 選字形結果都沒有變化
+11:38 < guildwar> 所以之前 debian 有 package 叫 openssl-blacklist, 裡面有所有的列表，這些 public key 列為黑名單
