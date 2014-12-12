@@ -7,3 +7,4 @@
 09:44 < hmchen> 我覺得比較可能藏 backdoor 是 OS/SDK 中 binary only 的 driver 跟 library
 10:21 < hmchen> 請問有人用 intel microcode update 嗎?
 10:21 < hmchen> https://wiki.archlinux.org/index.php/Microcode#Enabling_Intel_Microcode_Updates
+11:03 < guildwar> 前一陣子 arch mailing 討論得很兇，我不敢更新 :)
