@@ -141,3 +141,4 @@
 19:23 < hmchen> 但 zrtp 應該只是 prefer option, 我想只有當兩端 client 都支援時才會使用
 19:23 < guildwar> 對
 19:25 < hmchen> 接通的時候, android linphone 右上角會出現  ? , 點下去會顯示 secure token
+19:25 < hmchen> 用 spa3000 播進來的就沒有
