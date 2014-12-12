@@ -134,3 +134,4 @@
 19:18 < guildwar> 科科，zenfone 6 上的 linphone 一執行就掛了，猜想是 intel cpu 的關係吧
 19:20 < hmchen> 有耶
 19:20 < hmchen> android / linux 用 ZRTP 互通 ok
+19:21 < hmchen> 用 sip.linphone.org
