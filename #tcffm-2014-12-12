@@ -27,3 +27,9 @@
 11:41 < hmchen> 感覺是預測字體的優先序, 例如 Monosapce, 其實系統中並沒有 Monosapce.ttf 的檔案
 11:41 < hmchen> 而是 fontconfig 有替換優先序
 11:42 < hmchen> <alias>
+11:42 < hmchen>                 <family>monospace</family>
+11:42 < hmchen>                 <prefer>
+11:42 < hmchen>                         <family>Bitstream Vera Sans Mono</family>
+11:42 < hmchen>                         <family>DejaVu Sans Mono</family>
+11:42 < hmchen>                         <family>Inconsolata</family>
+11:42 < hmchen>                         <family>Andale Mono</family>
