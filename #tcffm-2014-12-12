@@ -153,3 +153,4 @@
 19:43 < hmchen> sip.lingphone.org 這種 free sip server 應該不受商業營運規範吧?
 19:44 < guildwar> 不知道咧 :)
 19:44 < hmchen> 剛剛查 srtp key exchange 看到一段文字, 如果是政府認可的 sip service provider, 通話內容必須要能被監聽
+19:44 < hmchen> 電信法規的問題
