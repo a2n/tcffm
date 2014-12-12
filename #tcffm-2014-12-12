@@ -17,3 +17,4 @@
 11:34 < guildwar> https://en.wikipedia.org/wiki/Random_number_generator_attack#Debian_OpenSSL
 11:34 < hmchen> 啟動後門讓 tmp 繞過該做的驗證?
 11:36 < guildwar> 應該不是，而是像 debian 那個漏洞，因為亂數太少，所以再怎麼產生，也只有固定那幾組，我記得只能產生幾百組而已，所以從頭試過一遍一定中
+11:36 < hmchen> 喔喔
