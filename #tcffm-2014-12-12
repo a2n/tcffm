@@ -131,3 +131,4 @@
 19:14 < hmchen> 只能靠 sip proxy 當 relay
 19:15 < hmchen> 但是這會增加 sip server 的流量
 19:15 < guildwar> ok
+19:18 < guildwar> 科科，zenfone 6 上的 linphone 一執行就掛了，猜想是 intel cpu 的關係吧
