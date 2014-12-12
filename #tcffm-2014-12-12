@@ -147,3 +147,4 @@
 19:27 < guildwar> 也是 XD
 19:27 < hmchen> 如果有 uart console 可以切進 bootloader 模式, 那還有機會刷回舊版 fw
 19:28 < hmchen> 沒 console 就 pass XD
+19:36 < guildwar> 看來 redphone 不是傳統的 sip protocol，是另一種 Signaling Protocol，Like SIP, however, both endpoints are simultaneously server and client
