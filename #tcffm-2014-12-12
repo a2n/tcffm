@@ -104,3 +104,4 @@
 19:01 < guildwar> 有啦，RFC 6189  https://tools.ietf.org/html/rfc6189
 19:02 < hmchen> IPCamera 是透過 RTSP (session) RTP (audio/video data)
 19:02 < hmchen> 被客戶問過幾次影像內容加密的事
+19:03 < hmchen> 看起來是定案了
