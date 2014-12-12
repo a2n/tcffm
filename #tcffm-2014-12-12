@@ -40,3 +40,5 @@
 11:42 < hmchen>                         <family>Courier</family>
 11:42 < hmchen>                 </prefer>
 11:42 < hmchen>         </alias>
+11:42 < guildwar> 用 fc-list | grep -i mono
+11:42 < hmchen> 我猜要就我少裝了某些字體, 不然就是優先序要改
