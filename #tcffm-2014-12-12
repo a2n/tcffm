@@ -69,3 +69,4 @@
 17:43 < guildwar> 實在還是搞不大清楚，能做到若有人打市內電話給我，轉到手機上的 sip，那能不能別人打 sip 給我，讓市內電話響?
 17:45 < hmchen> 可以
 17:46 < hmchen> 看是要直接讓Line1話機響,或是再從PSTN轉成市話 (VoIP-to-PSTN Gateway)都做的到
+17:47 < hmchen> 可以找關鍵字, SPA3000 上車 下車
