@@ -145,3 +145,4 @@
 19:26 < guildwar> 了解 spa3000 沒支援，搞不好有新版 firmware :)
 19:27 < hmchen> 這個我心臟不夠大, 萬一刷成磚頭怕救不回來
 19:27 < guildwar> 也是 XD
+19:27 < hmchen> 如果有 uart console 可以切進 bootloader 模式, 那還有機會刷回舊版 fw
