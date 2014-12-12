@@ -2,3 +2,4 @@
 09:32 < hmchen> http://blog.richliu.com/2014/12/11/1711/
 09:33 < hmchen> 平衡報導一下, 我是認為 soc 的 backdoor 頂多是 debug 用, 裡頭的 rom/flash 頂多也才 32kb
 09:35 < hmchen> 通常是放 1st stage 的 bootloader, 例如從 sdcard 啟動 u-boot, 總是要有 code 先把 u-boot 從 fat32 找檔案搬到 ram 吧?
+09:39 < hmchen> rom 裡頭如果還藏 backdoor, 也不可能獨自把資料用 tcp/ip 送出去, 顯然要依賴 OS, 但正常的 OS 不會執行 on-chip rom 中的程式碼
