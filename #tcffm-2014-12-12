@@ -129,3 +129,4 @@
 19:14 < guildwar> ok, 那我再試試 linux 版不要設 route 看看
 19:14 < hmchen> outbound proxy 是當兩個clients 都躲在 symmetric nat 後面, 又沒有 port forwarding 時用的
 19:14 < hmchen> 只能靠 sip proxy 當 relay
+19:15 < hmchen> 但是這會增加 sip server 的流量
