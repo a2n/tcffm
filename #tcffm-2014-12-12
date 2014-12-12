@@ -112,3 +112,4 @@
 19:06 < hmchen> 不曉得是不是走 sip
 19:07 < hmchen> ekiga 的 sip server 有支援 zrtp 耶
 19:07 < hmchen> https://guardianproject.info/2012/02/22/free-sip-providers-with-zrtp-support/
+19:08 < guildwar> 有啊，linphone client 也有支援的樣子，但我試了，有點怪怪的
