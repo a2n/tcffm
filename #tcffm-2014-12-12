@@ -1,3 +1,4 @@
 --- Log opened 五 12月 12 00:00:33 2014
 09:32 < hmchen> http://blog.richliu.com/2014/12/11/1711/
 09:33 < hmchen> 平衡報導一下, 我是認為 soc 的 backdoor 頂多是 debug 用, 裡頭的 rom/flash 頂多也才 32kb
+09:35 < hmchen> 通常是放 1st stage 的 bootloader, 例如從 sdcard 啟動 u-boot, 總是要有 code 先把 u-boot 從 fat32 找檔案搬到 ram 吧?
