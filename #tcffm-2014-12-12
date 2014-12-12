@@ -126,3 +126,4 @@
 19:13 < guildwar> linphone client 裡沒看到 outbound proxy 耶，不過有 route
 19:13 < guildwar> 所以 route 不用設?
 19:13 < hmchen> 我 android 版的在 account 裡有 outbound proxy
+19:14 < guildwar> ok, 那我再試試 linux 版不要設 route 看看
