@@ -77,3 +77,4 @@
 17:52 < guildwar> 因為手機沒有一直開 wifi，sip 要用才有打開
 17:53 < hmchen> 我現在是使用 sip.linphone.org, 應該可以改成自己架 sip server
 17:55 < hmchen> 我的 nas 有裝 nslu2 optware, 但內付的 siproxd 會  segfault, 在找時間自己 build 其他的 sip server 測看看
+17:56 < hmchen> 沒有穿 firewall / relay 需求, 對系統幾乎沒有 loading, 不太想用 rpi 去跑
