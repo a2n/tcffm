@@ -79,3 +79,4 @@
 17:55 < hmchen> 我的 nas 有裝 nslu2 optware, 但內付的 siproxd 會  segfault, 在找時間自己 build 其他的 sip server 測看看
 17:56 < hmchen> 沒有穿 firewall / relay 需求, 對系統幾乎沒有 loading, 不太想用 rpi 去跑
 18:00 < guildwar> 我也有 linphone.org 的帳號，不過比較用 ZRTP 連不起來，用 ostel.co 的帳號就可以
+18:49 < hmchen> 還要加密啊?
