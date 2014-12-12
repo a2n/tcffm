@@ -114,3 +114,4 @@
 19:07 < hmchen> https://guardianproject.info/2012/02/22/free-sip-providers-with-zrtp-support/
 19:08 < guildwar> 有啊，linphone client 也有支援的樣子，但我試了，有點怪怪的
 19:09 < hmchen> 兩端的 sip client 都是 linphone 嗎?
+19:09 < guildwar> 對，一個 android，另一個 linux
