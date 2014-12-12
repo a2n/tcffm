@@ -48,3 +48,4 @@
 11:53 < guildwar> ok, 找到了， debian 那個 openssl 漏洞，只能產生 65536 組 key，所以用暴力破解很快就中了 http://www.gossamer-threads.com/lists/fulldisc/full-disclosure/61666
 12:05 < guildwar> 查著查著看到一篇不錯的 openssh 文章，Conditional SSH Connections，在不同 user 或 ip 來對應不同狀況，例如在公司內能用 password 登入，但從 Internet 就只能用 public key 等等
 12:05 < guildwar> http://blog.rootshell.be/2010/09/02/configuring-conditional-ssh-connections/
+12:18 < guildwar> 世界瀏覽器版圖表, firefox 好慘，只賸菲律賓和歐洲幾個小國
