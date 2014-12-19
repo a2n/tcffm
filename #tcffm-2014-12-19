@@ -1,2 +1,3 @@
 --- Log opened 五 12月 19 00:00:42 2014
 17:53  * guildwar 發現 bsdtar 可以解開 zip 檔，以後不用裝 unzip 了
+18:32 < guildwar> 原來用 iptables 來管理黑名單，可配合 ipset 來達到一行 iptables 指令就足夠
