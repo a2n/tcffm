@@ -1,3 +1,4 @@
 --- Log opened 六 12月 20 00:00:44 2014
 17:36 < hmchen> arch 的 remmina 沒有 vnc plugin 嗎?
 17:42 < hmchen> 解決, 從 aur 裝了 git 版就有 vnc 了
+--- Log closed 日 12月 21 00:00:45 2014
