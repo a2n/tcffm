@@ -27,3 +27,4 @@
 19:17 < guildwar> ok, 那應該是 package 過期了，維護者沒弄好，可以到網頁去留言
 19:18 < guildwar> 最後更新是 2014/10/20
 19:19 < hmchen> 了解, foo2zjs 這包應該會常常出問題, source tarball 檔名並沒有版號或日期, foo2zjs 最後更新則是 2014/12/22
+19:20 < hmchen> 應該建議 foo2zjs 的作者 release source tarball 時檔名壓日期
