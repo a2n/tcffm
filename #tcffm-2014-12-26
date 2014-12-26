@@ -3,3 +3,4 @@
 13:50 < hmchen> 之前 cupsd 啟動會吃 cpu 的問題應該是有解了 https://bbs.archlinux.org/viewtopic.php?pid=1482856#p1482856
 13:51 < hmchen> 把預設的 unix domain socket 改成 localhost:631 本機 tcp socket 就好了
 13:53 < hmchen> 不過 printer driver 還是有問題, 我的是 HP LaserJet M1120 MFP, 接在 NAS 上用 LPD 分享出來
+13:54 < hmchen> 得用 foomatic/foo2xqx 才能正常列印, hplip (hpcups) 的 driver 只對本機 usb printer 或 HP JetDirect 網路印表機有效
