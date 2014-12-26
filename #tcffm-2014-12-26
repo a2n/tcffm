@@ -24,3 +24,4 @@
 19:12 < hmchen> 印出來了.... 感動
 19:12 < guildwar> 恭禧啊，我的都要手動印，不支援　cups :)
 19:14 < hmchen> foo2zjs 跟 foomatic-db-foo2zjs 兩包有檔案重複, pacman 安裝 foo2zjs 加了 --force
+19:17 < guildwar> ok, 那應該是 package 過期了，維護者沒弄好，可以到網頁去留言
