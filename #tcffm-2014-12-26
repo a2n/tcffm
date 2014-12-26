@@ -7,3 +7,4 @@
 13:56 < hmchen> arch 找不到 foomatic/foo2xqx, 後來裝了 aur/foomatic-db-foo2zjs , 據說是有含 foo2xqx 但是清單中沒有發現 M1120 MFP, 可能是 foo2zjs 版本問題
 13:57 < hmchen> ubuntu/mint17 中的 foomatic-db 似乎也是基於 foo2zjs 製作的, 有找到 M1120 MFP, 列印結果正常
 16:12 < guildwar> foo2xqx 在 archlinux 包含在 foo2zjs，有裝過嗎?
+16:18 < guildwar> foomatic-db-foo2zjs 好像要配合 foo2zjs 才會動的樣子
