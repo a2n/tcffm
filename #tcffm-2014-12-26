@@ -14,3 +14,5 @@
 19:00 < hmchen>     destdir-support-20140329-1.patch ... Passed
 19:00 < hmchen>     gen-fixes-20140329-1.patch ... Passed
 19:00 < hmchen>     firmware-loader-20130602-1.patch ... Passed
+19:00 < hmchen>     udev-firmware-loading-ruleset-20130601-1.patch ... Passed
+19:00 < hmchen> ==> ERROR: One or more files did not pass the validity check!
