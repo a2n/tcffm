@@ -30,3 +30,4 @@
 19:20 < hmchen> 應該建議 foo2zjs 的作者 release source tarball 時檔名壓日期
 19:20 < guildwar> 有人在 aur 的 foo2zjs 上留言說 md5sum 不對，該更新，但到目前為止還沒更新
 19:21 < guildwar> 如果更新那麼顏繁，乾脆弄個  foo2zjs-git 的好了，連 md5sum 都省了
+19:23 < guildwar> 看你囉，若不想讓別人也遇到同樣問題，可以登入 aur 網頁，按 “過期"，來通知維護者
