@@ -21,3 +21,4 @@
 19:07 < guildwar> 預設應該在 /tmp/makepkg
 19:08 < hmchen> 改好了, 手動 makepkg 中
 19:08 < guildwar> 另外，可用 updpkgsums 來代替手動修改 md5sum
+19:12 < hmchen> 印出來了.... 感動
