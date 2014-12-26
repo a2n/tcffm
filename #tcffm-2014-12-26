@@ -16,3 +16,4 @@
 19:00 < hmchen>     firmware-loader-20130602-1.patch ... Passed
 19:00 < hmchen>     udev-firmware-loading-ruleset-20130601-1.patch ... Passed
 19:00 < hmchen> ==> ERROR: One or more files did not pass the validity check!
+19:05 < hmchen> 看起來這種情況常出現, 網路上建議的方式自己下載 AUR 的 tarball, 手動修改 checksum
