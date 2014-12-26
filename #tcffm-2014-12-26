@@ -9,3 +9,8 @@
 16:12 < guildwar> foo2xqx 在 archlinux 包含在 foo2zjs，有裝過嗎?
 16:18 < guildwar> foomatic-db-foo2zjs 好像要配合 foo2zjs 才會動的樣子
 19:00 < hmchen> yaourt 可以忽略 md5sum 嗎?
+19:00 < hmchen> ==> Validating source files with md5sums...
+19:00 < hmchen>     foo2zjs-20141008.tar.gz ... FAILED
+19:00 < hmchen>     destdir-support-20140329-1.patch ... Passed
+19:00 < hmchen>     gen-fixes-20140329-1.patch ... Passed
+19:00 < hmchen>     firmware-loader-20130602-1.patch ... Passed
