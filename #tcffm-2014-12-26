@@ -5,3 +5,4 @@
 13:53 < hmchen> 不過 printer driver 還是有問題, 我的是 HP LaserJet M1120 MFP, 接在 NAS 上用 LPD 分享出來
 13:54 < hmchen> 得用 foomatic/foo2xqx 才能正常列印, hplip (hpcups) 的 driver 只對本機 usb printer 或 HP JetDirect 網路印表機有效
 13:56 < hmchen> arch 找不到 foomatic/foo2xqx, 後來裝了 aur/foomatic-db-foo2zjs , 據說是有含 foo2xqx 但是清單中沒有發現 M1120 MFP, 可能是 foo2zjs 版本問題
+13:57 < hmchen> ubuntu/mint17 中的 foomatic-db 似乎也是基於 foo2zjs 製作的, 有找到 M1120 MFP, 列印結果正常
