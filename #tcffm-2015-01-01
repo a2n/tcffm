@@ -22,3 +22,4 @@
 23:43 < erhandsome> 太久没重装，结果每次都不会装了...
 23:47 < guildwar> 希望這次活久些 :)
 23:47 < haroldwu> 其實也就幾個步驟 分區、格式化 => 掛載、pacstrap 裝包 => fstab => chroot 進去改 locale / passwd => mkinitcpio / grub-install / grub-mkconfig
+23:47 < guildwar> 我這個從 2012-03-23 撐到現在
