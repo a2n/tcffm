@@ -16,3 +16,4 @@
 20:58 < haroldwu> 在官方修復前得自己編譯重裝
 21:02 < guildwar> 試試吧，我的 package-query 有重裝過
 21:03 < guildwar> 另外，也有手動做 pacman-db-upgrade
+21:04 < haroldwu> pacman-db-upgrade 我試過
