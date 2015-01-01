@@ -7,3 +7,4 @@
 01:02 < erhandsome> 网络不好的话会是这个样子的...
 18:28 < guildwar_> haroldwu: 可能要看看 /etc/pacman.d/mirrorlist，mirror site 常常在變動，若有 mirrorlist.pacnew，將他整合到 mirrorlist 裡
 20:26 < haroldwu> 這個改過了，沒用 orz
+20:27 < haroldwu> erhandsome 網速尚可 2333
