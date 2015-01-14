@@ -51,3 +51,4 @@
 13:19 <@haroldwu> 只好這樣了 orz 我試試看
 15:33 <@haroldwu> 結果用 arch iso 開機進去也砍不掉 QQ
 15:38 < guildwar> 為什麼? 那其他檔案都可以刪除？
+15:39 < guildwar> 你的 /home 在掛載時有下什麼參數?
