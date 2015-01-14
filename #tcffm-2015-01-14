@@ -22,3 +22,4 @@
 13:06 <@haroldwu> 我 /home 是自己一個分割區
 13:06 < guildwar> 那看看有沒有 gpg 或　gpg-agent 正在背景跑
 13:07 <@haroldwu> 有，但是我 kill 掉沒有用
+13:07 < guildwar> 那將 ~/.gnupg/.gpg-v21-migrated.lock 砍了呢？
