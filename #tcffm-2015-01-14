@@ -11,3 +11,4 @@
 12:39 <@haroldwu> 可是我也沒辦法改動寫入 chattr
 12:54 < guildwar> 那先看看是不是 disk full，再用 lsattr 檢查屬性
 12:58 <@haroldwu> 好
+12:58 <@haroldwu> disk 才 70%
