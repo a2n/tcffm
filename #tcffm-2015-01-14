@@ -29,3 +29,4 @@
 13:10 <@haroldwu> 目前沒有
 13:11 < guildwar> 那怎麼會砍不掉呢? 見鬼了
 13:11 <@haroldwu> 我 ls 一下權限
+13:11 <@haroldwu> -rw-r--r-- 3 haroldwu haroldwu 16 Jan 14 01:47 .gpg-v21-migrated.lock
