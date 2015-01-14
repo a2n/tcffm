@@ -17,3 +17,4 @@
 13:04 <@haroldwu> 有個  ~/.gnupg/.gpg-v21-migrated.lock
 13:04 <@haroldwu> 刪了他？
 13:05 <@haroldwu> 連 root 也移動不得 XD
+13:05 < guildwar> 是不是你的檔案系統變 read-only 之類的
