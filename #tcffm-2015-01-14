@@ -25,3 +25,4 @@
 13:07 < guildwar> 那將 ~/.gnupg/.gpg-v21-migrated.lock 砍了呢？
 13:08 <@haroldwu> 沒有任何權限動他...
 13:09 <@haroldwu> 連 root 也動不得 XD
+13:09 < guildwar> 好奇怪，感覺上有某個 process 正在用他，用　lsof 或 fuser 檢查是哪個 process
