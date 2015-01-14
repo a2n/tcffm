@@ -23,3 +23,4 @@
 13:06 < guildwar> 那看看有沒有 gpg 或　gpg-agent 正在背景跑
 13:07 <@haroldwu> 有，但是我 kill 掉沒有用
 13:07 < guildwar> 那將 ~/.gnupg/.gpg-v21-migrated.lock 砍了呢？
+13:08 <@haroldwu> 沒有任何權限動他...
