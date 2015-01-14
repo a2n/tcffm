@@ -9,3 +9,4 @@
 07:40 <@haroldwu> http://pastebin.com/F63CTDKL
 11:51 < guildwar_> haroldwu: 感覺上你的 ~/.gnupg/ 是無法寫入的??
 12:39 <@haroldwu> 可是我也沒辦法改動寫入 chattr
+12:54 < guildwar> 那先看看是不是 disk full，再用 lsattr 檢查屬性
