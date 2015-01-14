@@ -62,3 +62,4 @@
 15:47 < guildwar> 要不要對 /home partition 做個 fsck 之類的
 15:47 <@haroldwu> 好
 15:48 <@haroldwu> 啊啊 要先 umount
+15:51 < guildwar> 如果能先 remount 成　read-only 也行
