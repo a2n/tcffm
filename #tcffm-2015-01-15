@@ -12,3 +12,4 @@
 23:26 <@haroldwu> 什麼新功能？
 23:27 <@haroldwu> 回溯？
 23:30 < guildwar> 就是 use of extents rather than the old, inefficient indirect block mechanism used by earlier Unix file systems，好處之一好像是比較不會檔案分散到各處，就不用 defrag
+23:31 <@haroldwu> 哦哦，這實在太深奧了XD
