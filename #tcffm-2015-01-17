@@ -2,3 +2,4 @@
 10:43 < guildwar> 有用 usb 無線鍵盤的要小心囉，尤其是微軟的，有人用 arduino 做了個很像 usb 充電器的 keylogger，裡面用插 sim 卡，可將記錄到的按鍵用 SMS 傳出去
 10:43 < guildwar> http://thehackernews.com/2015/01/KeySweeper-Arduino-Keyboard-Keylogger.html
 10:44 < guildwar> 如何 DIY    https://github.com/samyk/keysweeper
+22:36 < haroldwu> 這個 rm -rf /* 真是太誇張了 orz
