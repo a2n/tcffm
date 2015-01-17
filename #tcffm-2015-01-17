@@ -1,0 +1,2 @@
+--- Log opened 六  1月 17 00:00:46 2015
+10:43 < guildwar> 有用 usb 無線鍵盤的要小心囉，尤其是微軟的，有人用 arduino 做了個很像 usb 充電器的 keylogger，裡面用插 sim 卡，可將記錄到的按鍵用 SMS 傳出去
