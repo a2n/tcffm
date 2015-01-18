@@ -2,3 +2,4 @@
 23:10 < haroldwu> ssh -qnfNT -g -R 3389:localhost:3389 test@1.2.3.4
 23:11 < haroldwu> guildwar: 這句的意思，是不是我可以從 1.2.3.4:3389 登 localhost ？
 23:23 < guildwar> 將本機的 3389 port 轉到 1.2.3.4 的 3389 port
+23:23 < guildwar> 若在 1.2.3.4 用 rdp client 連 localhost:3389 即可連到另一台機器去
