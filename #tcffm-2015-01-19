@@ -5,3 +5,4 @@
 17:08 < guildwar> 註冊時會要求二組密碼，一組是登入，另一組是解 email 用，滿不錯的，可設定信件到期時間，時間過了就會消失吧，若二邊都 protonmail，會自動加密
 17:08 < guildwar> PM → PM (encrypted)    二邊都是 protonmail
 17:08 < guildwar> Gmail → PM (unencrypted)
+17:09 < guildwar>  → Gmail (unencrypted by default, can be encrypted)   可手動設定加密
