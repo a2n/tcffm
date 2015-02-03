@@ -21,3 +21,4 @@
 00:52 < hmchen> 當時的心態也是想說反正很便宜, 被騙就算了, 然後就戴了一年 XD
 00:52 < hmchen> 先撤退了,
 00:52 < guildwar> 收到，感謝
+00:54 < guildwar> 用 lxc 可以玩 dota2 沒問題，準備完成，除了 /sys、/proc，還要連 /dev/shm、/dev/snd、/dev/dri 都要進入才能玩
