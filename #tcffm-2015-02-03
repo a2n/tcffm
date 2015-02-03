@@ -69,3 +69,4 @@
 22:56 < hmchen> 不過開機很快真的
 22:56 < guildwar> 和 firefox os 類似吧，都基於 browser
 22:57 < hmchen> yes
+22:58 < guildwar> 正在將 steam 弄到 lxc 中去跑，以免再遇到上次家目錄被清空的狀況
