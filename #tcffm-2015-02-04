@@ -22,3 +22,4 @@
 00:52 < hmchen> 先撤退了,
 00:52 < guildwar> 收到，感謝
 00:54 < guildwar> 用 lxc 可以玩 dota2 沒問題，準備完成，除了 /sys、/proc，還要連 /dev/shm、/dev/snd、/dev/dri 都要進入才能玩
+--- Log closed 四  2月 05 00:00:13 2015
