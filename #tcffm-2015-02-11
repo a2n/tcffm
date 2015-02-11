@@ -2,3 +2,4 @@
 21:10 < guildwar> 這個 SlimPort 裝置滿屌的,能將手機直接投到大螢幕,不用再裝 app 及配合軟體有的沒有的,不過支援的手機有點少就是
 21:10 < guildwar> https://www.youtube.com/watch?v=EhLsemE2Thk
 21:11 < guildwar> http://www.slimportconnect.com/
+22:10 < guildwar> 有重大隱私洩露, 就算用 vpn 或 tor, 都一樣會讓網站得知你的真實 ip, 不論是 chrome 或 firefox 都中, 可修改 about:config 中的 media.peerconnection.enabled 成 false 來避免, 文章中說好像只有 windows 機器才會, 可是我用 linux 試也一樣能得到真實 ip
