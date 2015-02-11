@@ -3,3 +3,4 @@
 21:10 < guildwar> https://www.youtube.com/watch?v=EhLsemE2Thk
 21:11 < guildwar> http://www.slimportconnect.com/
 22:10 < guildwar> 有重大隱私洩露, 就算用 vpn 或 tor, 都一樣會讓網站得知你的真實 ip, 不論是 chrome 或 firefox 都中, 可修改 about:config 中的 media.peerconnection.enabled 成 false 來避免, 文章中說好像只有 windows 機器才會, 可是我用 linux 試也一樣能得到真實 ip
+22:10 < guildwar> http://torrentfreak.com/huge-security-flaw-leaks-vpn-users-real-ip-addresses-150130/
