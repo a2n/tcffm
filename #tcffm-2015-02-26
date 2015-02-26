@@ -1,2 +1,3 @@
 --- Log opened 四  2月 26 00:00:43 2015
 20:50 < hmchen> 各位有沒有碰過新款NB常見的 Synaptics Clickpad (沒有實體左右鍵) 功能異常現象?
+20:57 < hmchen> 3.13 可以抓到 left/right button, 但升級到 3.18 後, 左右兩鍵都變成 left button
