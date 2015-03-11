@@ -4,3 +4,4 @@
 20:31 < guildwar> http://googleprojectzero.blogspot.tw/2015/03/exploiting-dram-rowhammer-bug-to-gain.html
 20:33 < guildwar> 有人說測 72 回就出問題, 有人說他 784 回才遇到, 放著給他測一個晚上
 20:34 < guildwar> 我的目前 250 次還沒遇到的樣子
+20:34 < guildwar> 可能 notebook 機率比較大
