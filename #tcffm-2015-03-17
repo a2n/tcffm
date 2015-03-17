@@ -10,3 +10,4 @@
 22:40 <@haroldwu> 恩，其實 rhc 這隻程式有提供一個能力，就是把 openshift 上的資料庫綁定到 localhost 的某個端口
 22:40 < guildwar> 就啊, 就是用 ssh 的 port forwarding 功能
 22:41 <@haroldwu> 依然在練習寫爬蟲 XD
+22:42 <@haroldwu> 不然就直接用那個好了 :P 只是速度很慢 XD
