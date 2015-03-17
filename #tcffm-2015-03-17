@@ -8,3 +8,4 @@
 22:39 < guildwar> 是說平常不啟動, 要用再啟動?
 22:39 <@haroldwu> 喔 因爲是在本機測試拉，到時候部署到 openshift 上
 22:40 <@haroldwu> 恩，其實 rhc 這隻程式有提供一個能力，就是把 openshift 上的資料庫綁定到 localhost 的某個端口
+22:40 < guildwar> 就啊, 就是用 ssh 的 port forwarding 功能
