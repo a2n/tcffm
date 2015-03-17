@@ -6,3 +6,4 @@
 22:38 <@haroldwu> 我想試試 postgresql 跟 mangoDB
 22:39 < guildwar> 別在背景跑, 不然要怎麼跑?
 22:39 < guildwar> 是說平常不啟動, 要用再啟動?
+22:39 <@haroldwu> 喔 因爲是在本機測試拉，到時候部署到 openshift 上
