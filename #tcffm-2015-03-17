@@ -2,3 +2,4 @@
 21:47 <@haroldwu> 這裏有個問題想問 假如我想要學習資料庫 又不想「污染」到系統 有什麼好辦法嗎？ docker 之類的？
 22:22 < guildwar> 建另一個 database 就好了啊
 22:23 < guildwar> 要用 docker, qemu 當然也可以啦
+22:38 <@haroldwu> 我的意思是，我希望它別在背景跑拉...
