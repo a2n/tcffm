@@ -4,3 +4,4 @@
 22:23 < guildwar> 要用 docker, qemu 當然也可以啦
 22:38 <@haroldwu> 我的意思是，我希望它別在背景跑拉...
 22:38 <@haroldwu> 我想試試 postgresql 跟 mangoDB
+22:39 < guildwar> 別在背景跑, 不然要怎麼跑?
