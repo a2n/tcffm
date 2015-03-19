@@ -11,3 +11,4 @@
 00:59 < guildwar> xfce 是用 network-manager ?
 00:59 < guildwar> 還是 wicd
 01:05 <@haroldwu> 應該無關？
+01:05 <@haroldwu> xfce 有個 widget 可以呼叫 network-manager
