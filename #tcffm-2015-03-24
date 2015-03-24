@@ -2,3 +2,4 @@
 21:58 < guildwar> redhat 也出槌了, rhel 6.7 pre beta 在重新啟動 squid 後, 會將 / 全砍掉
 21:58 < guildwar> 還好是 pre beta, 尚未 release, 不然就完蛋
 21:59 < guildwar> https://bugzilla.redhat.com/show_bug.cgi?id=1202858
+--- Log closed 三  3月 25 00:00:15 2015
