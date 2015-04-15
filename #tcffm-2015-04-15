@@ -10,3 +10,4 @@
 15:24 < guildwar> 另外, 開機預設就是 ondemand, 如沒必要, 實在不需要手動調整
 17:23 < haroldwu> 好哦 那就沒甚麼問題了
 19:46 < haroldwu> 想試試看 syslinux 跟 urtrfs
+21:17 < guildwar> syslinux 很容易啊, 比 grub 簡單多了, urtrfs 我就沒聽過
