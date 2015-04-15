@@ -5,3 +5,4 @@
 15:03 < guildwar> https://www.kernel.org/doc/Documentation/cpu-freq/governors.txt
 15:04 < guildwar> ondemand 大致上就是平常是保持最低 clock, 有需要大一點的 cpu 時, 會 "立即" 自動提升 cpu clock
 15:05 < guildwar> 你講的 cpufrequtils 是命令列的工具吧, 要 GUI 的好像沒幾個
+15:06 < guildwar> 一般那幾個大的整合桌面都會有想對應的 gui 工具
