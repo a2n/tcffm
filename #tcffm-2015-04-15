@@ -4,3 +4,4 @@
 12:53 < haroldwu> 我有查了一下知道基本工具組是 cpufrequtils
 15:03 < guildwar> https://www.kernel.org/doc/Documentation/cpu-freq/governors.txt
 15:04 < guildwar> ondemand 大致上就是平常是保持最低 clock, 有需要大一點的 cpu 時, 會 "立即" 自動提升 cpu clock
+15:05 < guildwar> 你講的 cpufrequtils 是命令列的工具吧, 要 GUI 的好像沒幾個
