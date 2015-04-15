@@ -3,3 +3,4 @@
 12:53 < haroldwu> ondaemon 是甚麼意思 需要額外設定嗎？
 12:53 < haroldwu> 我有查了一下知道基本工具組是 cpufrequtils
 15:03 < guildwar> https://www.kernel.org/doc/Documentation/cpu-freq/governors.txt
+15:04 < guildwar> ondemand 大致上就是平常是保持最低 clock, 有需要大一點的 cpu 時, 會 "立即" 自動提升 cpu clock
