@@ -10,3 +10,4 @@
 00:32 < haroldwu> 好像是 intel 內顯得問題
 00:32 < haroldwu> 進去之後要用 gdisk 會預留 GPT 開頭的一塊空間這一
 01:05 < guildwar> ok, btrfs 了解
+--- Log closed 五  4月 17 00:00:47 2015
