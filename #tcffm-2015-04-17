@@ -1,3 +1,4 @@
 --- Log opened 五  4月 17 00:00:47 2015
 21:46 < alex_lu> 剛剛把kernel升到3.19就卡在初始化ramdisk
 21:51 < alex_lu> 有啥debug的方法嗎？kernel參數加了verbose跟debug都沒有反應
+--- Log closed 六  4月 18 00:00:48 2015
