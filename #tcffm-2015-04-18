@@ -4,3 +4,4 @@
 01:20 < alex_lu> fallback一樣卡住，然後我就先降回3.18了
 01:21 < guildwar> 好慘, 我這裡用 3.19.3-3-ARCH 很正常, 有看到別人用 intel 出了些問題的樣子
 01:22 < guildwar> 我的是 nouveau 的沒問題
+01:25 < guildwar> 有 audio 不會動的, 有 sdcard 讀不到的都有 XD
