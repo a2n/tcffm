@@ -1,0 +1,2 @@
+--- Log opened 日  4月 26 00:00:00 2015
+15:19 < guildwar> 有人最近升級了系統, 結果 emacs segfault, 經過追查是因為升級到 glibc-2.21-3, 但 bug 不在 glibc, 而是在 intel cpu firmware
