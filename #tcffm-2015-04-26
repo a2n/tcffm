@@ -4,3 +4,4 @@
 15:20 < guildwar> vlc 會 segfault, 因此, 若你常常有 segfault 狀況, 又是 intel cpu, 搞不好升級 firmware 就沒事了
 15:20 < guildwar> http://archlinux.2023198.n4.nabble.com/Intel-CPUs-and-glibc-2-21-3-td4704974.html
 15:21 < guildwar> 我這陣子最常出狀況的是 firefox, 想說升個 firmware 搞不好就不會了 XD
+15:24 < guildwar> https://www.reddit.com/r/archlinux/comments/33laqv/segmentation_fault_in_vlccachegen_after_updating/
