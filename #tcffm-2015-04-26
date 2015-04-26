@@ -2,3 +2,4 @@
 15:19 < guildwar> 有人最近升級了系統, 結果 emacs segfault, 經過追查是因為升級到 glibc-2.21-3, 但 bug 不在 glibc, 而是在 intel cpu firmware
 15:19 < guildwar> 另有人則是
 15:20 < guildwar> vlc 會 segfault, 因此, 若你常常有 segfault 狀況, 又是 intel cpu, 搞不好升級 firmware 就沒事了
+15:20 < guildwar> http://archlinux.2023198.n4.nabble.com/Intel-CPUs-and-glibc-2-21-3-td4704974.html
