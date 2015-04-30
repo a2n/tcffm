@@ -9,3 +9,4 @@
 23:48 < guildwar> systemctl list-jobs
 23:49 < guildwar> 完成後重新開機, 別忘了解決後, 要將 debug-shell.service 關掉
 23:49 < guildwar> http://permalink.gmane.org/gmane.linux.arch.general/53837
+--- Log closed 五  5月 01 00:00:43 2015
