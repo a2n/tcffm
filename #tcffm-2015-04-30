@@ -2,3 +2,4 @@
 23:46 < guildwar> 發現在 archlinux  下若 kernel 開機失敗, 可以試的 debug 方法
 23:46 < guildwar> systemctl enable debug-shell.service
 23:46 < guildwar> 重新開機
+23:47 < guildwar> 在開機失敗時, 按 Ctrl-Alt-F9 切換到 debugging shell
