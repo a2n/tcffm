@@ -1,3 +1,4 @@
 --- Log opened 四  4月 30 00:00:42 2015
 23:46 < guildwar> 發現在 archlinux  下若 kernel 開機失敗, 可以試的 debug 方法
 23:46 < guildwar> systemctl enable debug-shell.service
+23:46 < guildwar> 重新開機
