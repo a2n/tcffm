@@ -4,3 +4,4 @@
 23:46 < guildwar> 重新開機
 23:47 < guildwar> 在開機失敗時, 按 Ctrl-Alt-F9 切換到 debugging shell
 23:48 < guildwar> 檢查出錯在哪裡
+23:48 < guildwar> systemctl status systemd-logind.service
