@@ -6,3 +6,4 @@
 23:48 < guildwar> 檢查出錯在哪裡
 23:48 < guildwar> systemctl status systemd-logind.service
 23:48 < guildwar> journalctl
+23:48 < guildwar> systemctl list-jobs
