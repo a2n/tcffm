@@ -2,3 +2,4 @@
 12:37 < haroldwu> 昨天開始試裝 arch
 12:38 < haroldwu> 結果會卡住，照說明設了 acpi=off 後，鍵盤與網卡都不會動了 XD 只有 enp3f1
 12:41 -!- mode/#tcffm [+o haroldwu] by ChanServ
+12:45 <@haroldwu> 不過看起來可行性蠻高的，只要有有線網路就好，回台中再試試看
