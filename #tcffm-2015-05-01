@@ -1,2 +1,3 @@
 --- Log opened 五  5月 01 00:00:43 2015
 12:37 < haroldwu> 昨天開始試裝 arch
+12:38 < haroldwu> 結果會卡住，照說明設了 acpi=off 後，鍵盤與網卡都不會動了 XD 只有 enp3f1
