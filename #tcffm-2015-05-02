@@ -6,3 +6,4 @@
 23:23 < guildwar> 你的 notebook bios 不能將 uefi 給關掉嗎?
 23:27 <@haroldwu> 可以，可是好像會讀不到甚麼裝置的樣子
 23:34 <@haroldwu> 剛剛看網路上討論，好像把 /boot/efi/ubuntu 的東西移到 /boot/efi/boot 再把 grubx64.efi 改成 bootx64.efi 即可
+23:34 <@haroldwu> 不過失敗了 XDD
