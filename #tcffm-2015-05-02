@@ -3,3 +3,4 @@
 23:16 <@haroldwu> 可是用 boot-repair 會自動把 windows boot image 放到 /boot/efi 結果我每次開機都會被問
 23:17 <@haroldwu> windows not found，然後再選 unknown boot image (grub)
 23:20 < guildwar> 也是, 先試試 ubuntu 再說
+23:23 < guildwar> 你的 notebook bios 不能將 uefi 給關掉嗎?
