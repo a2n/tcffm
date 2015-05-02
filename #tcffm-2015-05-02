@@ -1,3 +1,4 @@
 --- Log opened 六  5月 02 00:00:45 2015
 23:16 <@haroldwu> 真心覺得挫折 XDD 現在先嘗試裝 ubuntu，裝好之後 uefi 設定是有問題的，需要用 boot-repair
 23:16 <@haroldwu> 可是用 boot-repair 會自動把 windows boot image 放到 /boot/efi 結果我每次開機都會被問
+23:17 <@haroldwu> windows not found，然後再選 unknown boot image (grub)
