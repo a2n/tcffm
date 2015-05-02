@@ -8,3 +8,4 @@
 23:34 <@haroldwu> 剛剛看網路上討論，好像把 /boot/efi/ubuntu 的東西移到 /boot/efi/boot 再把 grubx64.efi 改成 bootx64.efi 即可
 23:34 <@haroldwu> 不過失敗了 XDD
 23:35 <@haroldwu> 只好等周日回去用 arch 了，我想這應該是比較沒問題的
+--- Log closed 日  5月 03 00:00:46 2015
