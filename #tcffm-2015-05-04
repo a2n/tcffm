@@ -1,3 +1,4 @@
 --- Log opened 一  5月 04 00:00:48 2015
 22:28 < guildwar> 發現另一個免費的 dynamic dns 服務, cloudns.net, 可免費註冊使用
 22:28 < guildwar> http://www.cloudns.net
+22:30 < guildwar> 申請出來的為 xxx.yyy.cloudns.asia, 其中 xxx 為 host name, yyy 為 domain name
