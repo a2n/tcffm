@@ -3,3 +3,4 @@
 22:28 < guildwar> http://www.cloudns.net
 22:30 < guildwar> 申請出來的為 xxx.yyy.cloudns.asia, 其中 xxx 為 host name, yyy 為 domain name
 22:31 < guildwar> ddns 要更新沒有 client 可下載, 要用 wget 之類的工具, 還在研究中
+--- Log closed 二  5月 05 00:00:49 2015
