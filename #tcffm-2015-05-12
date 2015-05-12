@@ -1,1 +1,2 @@
 --- Log opened 二  5月 12 00:00:59 2015
+10:52 < a2n> 請教 iptables 設定的問題，我的需求是阻擋所有 input tcp dport 80，只開放特定 ip range。我測試的 ip 121.127.10.50 卻能開啟機器的 web server。以下是我的設定檔案，那個規則漏了？ http://pastebin.com/WWshKmZu
