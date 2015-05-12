@@ -2,3 +2,7 @@
 10:52 < a2n> 請教 iptables 設定的問題，我的需求是阻擋所有 input tcp dport 80，只開放特定 ip range。我測試的 ip 121.127.10.50 卻能開啟機器的 web server。以下是我的設定檔案，那個規則漏了？ http://pastebin.com/WWshKmZu
 10:55 -!- Topic for #tcffm: 臺中自由軟體愛好者聚會 TcFFM 郵件列表: http://bit.ly/tcffm-forum | IRC-log：https://github.com/a2n/tcffm/ | 論壇：http://tcffm.twgogo.org/
 10:55 -!- Topic set by haroldwu [~haroldwu@unaffiliated/haroldwu] [Fri Jan  3 11:35:31 2014]
+10:55 [Users #tcffm]
+10:55 [@haroldwu] [ alex_lu] [ erhandsome] [ NewCliCker  ] [ whitglint] 
+10:55 [ a2n     ] [ darkx  ] [ guildwar  ] [ petercommand] 
+10:55 -!- Irssi: #tcffm: Total of 9 nicks [1 ops, 0 halfops, 0 voices, 8 normal]
