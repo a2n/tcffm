@@ -9,3 +9,4 @@
 11:49 < guildwar> 還沒仔細 iptables 內容, 我先試了 121.127.10.50, 從我這裡連不到 80 port
 12:00 < a2n> guildwar: 那是我的 client ip, not server ip.
 12:07 < guildwar> ok, 我看看 rules 有沒有問題
+12:36 < guildwar> 我將那個 iptables rules 套用在我的 A 機器上, 再從 B 機器 telnet 80 port 無法連, 並在 A 機器 log 中可看到 iptables: Invalid INPUT, 所以是無法連線的, 懷疑是事後手動加的 rule
