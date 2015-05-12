@@ -8,3 +8,4 @@
 10:55 -!- Irssi: #tcffm: Total of 9 nicks [1 ops, 0 halfops, 0 voices, 8 normal]
 11:49 < guildwar> 還沒仔細 iptables 內容, 我先試了 121.127.10.50, 從我這裡連不到 80 port
 12:00 < a2n> guildwar: 那是我的 client ip, not server ip.
+12:07 < guildwar> ok, 我看看 rules 有沒有問題
