@@ -5,3 +5,4 @@
 10:03 < haroldwu_> 2. 指定為 efi boot partion
 10:03 < haroldwu_> 3. 安裝的時候指定將 boot loader 裝在那裏
 10:04 < haroldwu_> 4. 安裝完畢後去 uefi 設定那邊選取 efi file，應該是 /boot/ubuntu/grub64.fi
+10:04 < haroldwu_> * .efi
