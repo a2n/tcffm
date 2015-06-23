@@ -7,3 +7,4 @@
 10:04 < haroldwu_> 4. 安裝完畢後去 uefi 設定那邊選取 efi file，應該是 /boot/ubuntu/grub64.fi
 10:04 < haroldwu_> * .efi
 19:02 < guildwar> 查了一下, 還真麻煩, archlinux 只支援有 EFI System Partition (ESP) 的方式, 我的電腦不是 uefi 的不用 vfat partition, 只要有一個 BIOS boot 模式的就好
+--- Log closed 三  6月 24 00:00:05 2015
