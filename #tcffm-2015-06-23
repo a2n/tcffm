@@ -3,3 +3,4 @@
 10:03 < haroldwu_> 這樣的話其實安裝上算是蠻順利的，大概就是：
 10:03 < haroldwu_> 1. 除了 / /home 等 partion 外，建立一個 /boot 分割區
 10:03 < haroldwu_> 2. 指定為 efi boot partion
+10:03 < haroldwu_> 3. 安裝的時候指定將 boot loader 裝在那裏
