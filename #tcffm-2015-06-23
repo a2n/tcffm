@@ -1,3 +1,4 @@
 --- Log opened 二  6月 23 00:00:03 2015
 10:02 < haroldwu_> 結果我後來發現只要在 uefi 設定區指定 efi 檔案位址
 10:03 < haroldwu_> 這樣的話其實安裝上算是蠻順利的，大概就是：
+10:03 < haroldwu_> 1. 除了 / /home 等 partion 外，建立一個 /boot 分割區
