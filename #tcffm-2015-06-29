@@ -9,3 +9,4 @@
 13:36 < guildwar> 若是蓋上電腦卻不會休眠, 可試著改 /etc/systemd/logind.conf
 13:36 < guildwar> HandleLidSwitch=ignoreHandleLidSwitch=ignore
 13:36 < guildwar> HandleLidSwitch=ignore
+13:38 < guildwar> 你的基本準備工作都完成了嗎? 如在 grub 加上 resume=UUID=xxx ?
