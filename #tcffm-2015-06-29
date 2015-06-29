@@ -25,3 +25,4 @@
 14:22 < haroldwu> 唔 這樣是不是要重分割 orz
 14:28 < guildwar> 拜託, 沒 swap XD
 14:29 < guildwar> 你是用 lvm ?
+14:31 < guildwar> 若沒多的 partition, 最簡單是用 parted live 光碟開機, 縮小 partition, 割出另一個 swap
