@@ -28,3 +28,4 @@
 14:31 < guildwar> 若沒多的 partition, 最簡單是用 parted live 光碟開機, 縮小 partition, 割出另一個 swap
 14:31 < guildwar> 只是不知道 parted live cd 有沒有支援 uefi
 14:31 < guildwar> http://gparted.org/livecd.php
+14:33 < haroldwu> 應該可以
