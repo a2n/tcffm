@@ -14,3 +14,4 @@
 13:42 < haroldwu> 我還沒改過 grub 上的參數
 13:42 < haroldwu> 之前有改過顯示卡的 XD
 13:42 < haroldwu> 應該說我改上去之後 就打不開了 QQ
+13:44 < guildwar> suspend 重開後, 要有這行才會做 resume 的動作, 不然只會做正常開機
