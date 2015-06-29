@@ -7,3 +7,5 @@
 13:35 < guildwar> 對了, 你是手動 suspend 有問題, 還是蓋上電腦卻不會休眠?
 13:35 < haroldwu> 都有問題
 13:36 < guildwar> 若是蓋上電腦卻不會休眠, 可試著改 /etc/systemd/logind.conf
+13:36 < guildwar> HandleLidSwitch=ignoreHandleLidSwitch=ignore
+13:36 < guildwar> HandleLidSwitch=ignore
