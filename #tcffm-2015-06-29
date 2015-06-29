@@ -33,3 +33,4 @@
 14:33 < haroldwu> 那我找機會重灌好了 我也想開成 antegros
 14:33 < guildwar> 不會影響, 和 windows 的 partition magic 差不多
 14:33 < haroldwu> manjaro 是自己的源 不喜歡
+14:35 < guildwar> 最好弄 lvm, 這樣以後要加要減都比較方便
