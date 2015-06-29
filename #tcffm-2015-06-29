@@ -12,3 +12,4 @@
 13:38 < guildwar> 你的基本準備工作都完成了嗎? 如在 grub 加上 resume=UUID=xxx ?
 13:42 < haroldwu> 好，我來試試
 13:42 < haroldwu> 我還沒改過 grub 上的參數
+13:42 < haroldwu> 之前有改過顯示卡的 XD
