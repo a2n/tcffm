@@ -19,3 +19,4 @@
 13:47 < guildwar> 另外, 若你的 swap partition 比 RAM 小, 則要檢查看看 suspend 的大小是否放得進 swap partition
 13:47 < guildwar> cat /sys/power/image_size
 13:48 < guildwar> 我的 ram 4G, 現在 cat 這個檔約 1.6G, 隨著你開程式多少而變動
+13:51 < guildwar> 可參考 wiki 裡的 https://wiki.archlinux.org/index.php/Suspend
