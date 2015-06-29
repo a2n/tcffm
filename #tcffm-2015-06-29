@@ -16,3 +16,4 @@
 13:42 < haroldwu> 應該說我改上去之後 就打不開了 QQ
 13:44 < guildwar> suspend 重開後, 要有這行才會做 resume 的動作, 不然只會做正常開機
 13:44 < guildwar> 改完記得 mkinitcpio
+13:47 < guildwar> 另外, 若你的 swap partition 比 RAM 小, 則要檢查看看 suspend 的大小是否放得進 swap partition
