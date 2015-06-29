@@ -34,3 +34,4 @@
 14:33 < guildwar> 不會影響, 和 windows 的 partition magic 差不多
 14:33 < haroldwu> manjaro 是自己的源 不喜歡
 14:35 < guildwar> 最好弄 lvm, 這樣以後要加要減都比較方便
+14:35 < haroldwu> 恩，可是新增分區，不就要重設 fstab
