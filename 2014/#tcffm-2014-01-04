@@ -1,0 +1,100 @@
+--- Log opened 六  1月 04 00:00:58 2014
+15:06 < ronmi> 說好的 steamos 安裝 http://blog.rmi.twbbs.org/2014/01/steamos.html
+15:33 < guildwar> 不是很懂，為什麼要用這種方式的安裝，不能直接裝在現有的糸統上，一定要裝另一個 chroot 才行嗎?
+15:33 < guildwar> 那如果像這個頁面的呢? http://store.steampowered.com/about/
+15:42 < guildwar> 對了，你的 notebook 還好吧 :)
+17:29 -!- ServerMode/#tcffm [+o haroldwu] by asimov.freenode.net
+19:39 < maxwux> http://i.imgur.com/J8p36EB.png ctlug_tw 的 IRC 居然沒掛人了
+19:39 < guildwar> 人都跑來這裡了吧 XD
+19:40 < maxwux> XDDDD
+19:41 < guildwar> 不過說真的，台中的沒幾個人，再弄二個 irc 似乎也沒有非常必要 :)
+19:41 < guildwar> 除非主題不一樣
+19:56 < ronmi`> guildwar > 裝現有的系統那就不叫裝 SteamOS 了啊XD
+19:56 < ronmi`> debian repository 裡就有 steam 程式了
+19:57 < guildwar> ronmi: 了解 :)
+19:59 < ronmi`> maxwu > 不是 #ctlug.tw 嗎？ XD
+20:02 < maxwux> 囧，我打錯了
+20:02 < guildwar> pu, 原來串錯門子 XD
+20:02 < ronmi`> 跑錯棚XD
+20:05 < guildwar> 現在 tcffm mumble server 正在 streaming icrt，有興趣的進來看看 XD
+20:08 < guildwar> maxwux: 有聽到聲音?
+20:10 < maxwux> 有
+20:10 < maxwux> 我在看流量
+20:10 < guildwar> ok
+20:11 < guildwar> 55k 上下吧
+20:11 < guildwar> 所以用 modem 撥接都夠用 XD
+20:31 < maxwux> 真的流量蠻小的
+20:32 < maxwux> 就算 10 個人也才5、600 K
+20:32 < maxwux> 不錯不錯
+20:32 < guildwar> 對啊，滿實用的
+20:32 < guildwar> 我是看這篇 http://de.mcbf.net/david/guide-for-music-in-mumble-using-a-linux-server/
+20:34 < guildwar> 我沒有 mpd， icrt 是用 mplayer -ao pulse 去放，所以只建立一個　mumble_null sink，並將 mumble 中的 audio output 改成 mumble_null sink 而已
+20:36 < guildwar> 另外，用 mumble -m 二次，可以開啟二個 mumble，一個 streaming，另一個用麥克風講話
+20:38 < guildwar> 可惜 mumble client 一定要 X，所以有人在 server 上開了 vnc server，然後再開 mumble client 來 24 小時 streaming audio.
+20:39 < maxwux> 不過我覺得你剛剛的音質還挺不好的耶
+20:39 < maxwux> 就像透過麥克風錄音進去的
+20:39 < maxwux> 不是串流
+20:40 < guildwar> 應該是 pulse audio 的問題，還要再研究
+20:40 < guildwar> 原本的 icrt　　mplayer -vo null -ao pulse -prefer-ipv4 -cache 500 -cache-min 99 http://bcr.media.hinet.net/RA000038
+20:41 < guildwar> 若不用 pulse, 而改用 alsa 應該就 ok 吧，我來試試
+20:43 < guildwar> 不知道怎麼用 alsa streaming，來研究一下
+22:01 < hmchen_> debian 那種不便利的感覺又回來了, 試著要編譯 mumble, 結果找不到 slice2cpp 套件
+22:03 < guildwar> 在 ice34-translators 或 icee-translators
+22:03 < hmchen_> stable 跟 unstable 都有,  偏偏在我用的 testing 跳過
+22:03 < guildwar> 是喔，了解
+22:04 < hmchen_> 我習慣用 testing, 感覺 stable 套件都有點舊
+22:04 < hmchen_> testing 的穩定性也夠
+22:05 < guildwar> 可是我現在找testing 有耶, 叫 ice35-translators 或 icee-translators
+22:06 < guildwar> 是這個 ice35-translators
+22:07 < hmchen_> 有? http://packages.debian.org/jessie/icee-translators
+22:07 < guildwar> ok, 看來被移除了
+22:07 < guildwar> 那搞不好直接拿 unstable 的來裝也可以 :)
+22:09 < guildwar> 奇怪，剛移除的樣子，用 apt-file 還可以找得到
+22:09 < guildwar> ok, 我不知道什麼時候加了 unstable 的 source list ＸＤ
+22:10 < hmchen_> 果然啊
+22:11 < guildwar> 不過這個 package 沒差，可以裝在 testing
+22:11 < guildwar> 直接抓 deb 裝起來
+22:14 < guildwar> 要抓四個 package，果然有點麻煩 :)
+22:22 < hmchen_> slice2cpp --checksum -I/usr/local/share/Ice -I/usr/share/Ice/slice -I/usr/share/slice -I/usr/share/Ice-3.4.1/slice/ -I/usr/share/Ice-3.3.1/slice/ -I/usr/share/Ice-3.4.2/slice/ Murmur.ice
+22:22 < hmchen_> /home/hmchen/tmp/mumble-1.2.4/src/murmur/Murmur.ice:9: error: Can't open include file "Ice/SliceChecksumDict.ice"
+22:22 < hmchen_> 有點麻煩了
+22:23 < guildwar> 好慘
+22:24 < guildwar> 是用 debian 裡的 mumble source 還是　mumble 官方的？
+22:25 < hmchen_> http://mumble.sourceforge.net/BuildingLinux
+22:25 < hmchen_> 應該也是 stable 跟 unstable 適用
+22:27 < guildwar> ok, 那直接用 unstable 的來編看看好了，我來試試
+22:28 < guildwar> 你是要 mumble client 吧
+22:30 < guildwar> 哇，好慘，一堆 -dev 的 package 也都沒了
+22:31 < hmchen_> yes
+22:31 < hmchen_> 加 backports 有救?
+22:31 < guildwar> 要看看有沒有 package
+22:32 < hmchen_> 原來已經開了... @@
+22:33 < hmchen_> 我看找 static binary 好了
+22:33 < guildwar> 直接來裝 unstable 的 mumble 看看能不能用
+22:35 < guildwar> 可以耶，先打開 unstable 裝好再關掉 XD
+22:36 < hmchen_> 好樣的
+22:36 < guildwar> 有要加什麼編譯參數嗎？ 若沒有，直接從 unstable 中抓 deb 裝就好
+22:36 < hmchen_> 當然沒有
+22:37 < hmchen_> 只是想說, 如果下次開始就要 mumble 語音直播, 應該先來裝 client
+22:37 < guildwar> 那就好，先拿 unstable 的撐著 XD
+22:38 < hmchen_> 想說如果PC不行, 就要裝 android 版
+22:38 < hmchen_> 不然就開回 ubuntu 了
+22:38 < guildwar> ok
+22:39 < hmchen_> 平常都有灌雙系統
+22:39 < hmchen_> 共用 /home 就是了
+22:40 < guildwar> 了解，我也是，但沒共用 /home，因為設定不大一樣，只共用 share
+22:42 < hmchen_> 主要目的是升級系統時, 萬一出包還可以退回去原來的版本, 才不會影響工作進度
+22:43 < hmchen_> 這種跳槽的過程也很好用
+22:44 < guildwar> 對啊，我的 arch 常常在更新完 kernel 後開不起來，就得開回 debian 來救援 XD
+22:51 < guildwar> 現在 linux 間的程式版本差異滿大的，像在 arch 中的 libreoffice 編的試算表，拿到 debian 來開，就會有些錯誤訊息，不過還是可以開就是
+22:54 < hmchen_> 瞎密
+22:55 < hmchen_> 是因為 debian 的 libreoffice 版本比較舊嗎?
+22:55 < guildwar> 對啊
+22:56 < guildwar> 所以 /home 共用會有不少問題
+22:56 < hmchen_> 那就沒辦法了
+22:56 < hmchen_> 如果是升級問題比較不大
+22:56 < guildwar> 了解
+22:57 < hmchen_> 應用程式的設定檔, 或是文件格式, 都有一定的向後相容性
+22:57 < hmchen_> 也是這樣一路從 ubuntu 8.04 升到 12.04
+22:59 < guildwar> 舊升到新沒什麼問題，但若像我一下切 debian，一下切 arch，新舊交替就不行了
+--- Log closed 日  1月 05 00:00:59 2014

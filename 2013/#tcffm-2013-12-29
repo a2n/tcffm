@@ -1,0 +1,26 @@
+--- Log opened 日 12月 29 00:00:49 2013
+02:07 < guildwar> 試了好幾個播放 youtube 的程式都沒成功，不過最後終於有一個可以，是 console 下的，叫 whitey，是一個 mplayer 及 omxplayer 的 UI，有些 bug, 但最後還是能播就是，做法如下:
+02:07 < guildwar> http://pastie.org/8583023
+02:08 < guildwar> 按 s 可搜尋，但不支援中文就是
+11:43 <@haroldwu> guildwar: 收到~
+11:44 <@haroldwu> 不過這個mumble server 我們可以自己開頻道？
+11:45 <@haroldwu> hmchen: 話說 luakit 我用了一陣子，他有一些渲染方面的問題，例如你開任一個 github 的頁，標題會怪怪的
+11:51 < hmchen> 看來 pi 上的 browser  仍是痛腳...
+11:54 < hmchen> 解析度從 1920x1080 降到 1280x720 似乎好一點
+12:05 <@haroldwu> https://tcffm.hackpad.com/
+12:05 <@haroldwu> 弄了一個這個
+13:27 < guildwar> haroldwu: 算啦，別人的 mumble server，還是不要用，昨天進去開了一個頻道，結果沒多久就被踢出去 XD
+13:29 < guildwar> 公開的頻道，不就要給人家用的，去看了他們的 g+，也沒說不給用，結果用了又被踢走 :)
+13:31 < guildwar> 看 max大大那裡能不能架一個，mumble server (umurmur）很小，不怎麼耗系統資源
+13:35 < guildwar> 另外，raspberrypi 除了console 下播 youtube 之外，也試了 midori 來播，照著 http://lin.jojen.de/play-html-5-video-raspberry-pi-in-midori-chrome 的作法，可以成功的播放 youtube 的影片，雖然在開影片前要等一下，但在播放時就很正常，比起要手動用 youtube-dl 下載回來再自已播，已經算是方便的了
+14:08 < guildwar> 發現一個問題，在 midori 播放了第一個影片後，再播第二個時，頁面上是第二個影片，但影片卻是第一個 XD，解決方法，將影片開在新分頁即可
+14:21 < guildwar> 做法大致如下:  http://pastie.org/8584334
+14:53 < guildwar> 呵呵，試了 hackpad，還不錯用耶，滿新奇的，剛編完頁面找不到儲存按鈕，才突然想到不用按儲存 :)
+14:53 < guildwar> https://tcffm.hackpad.com/Play-html5-video-with-midori-on-raspberrypi-pjRl34okyXg
+18:34 < guildwar> 還不錯玩的遊戲 http://thepond.zolmeister.com/
+19:34 <@haroldwu> hackpad 目前看來的營利模式跟 github 類似
+19:34 <@haroldwu> 公開內容的話就免費
+19:34 <@haroldwu> 不過個別pad 可以鎖定不修改
+19:35 <@haroldwu> 所以到是還好。我把 welcome to hackpad 改成我們的一些資訊好了
+19:54 < guildwar> ok
+--- Log closed 一 12月 30 00:00:51 2013

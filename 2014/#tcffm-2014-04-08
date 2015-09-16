@@ -1,0 +1,58 @@
+--- Log opened 二  4月 08 00:00:36 2014
+11:37 [Users #tcffm]
+11:37 [@haroldwu] [ brli ] [ dominicletz_] [ hmchen    ] [ petercommand11] 
+11:37 [ a2n     ] [ darkx] [ guildwar    ] [ op_logbot_] 
+11:37 -!- Irssi: #tcffm: Total of 9 nicks [1 ops, 0 halfops, 0 voices, 8 normal]
+13:51 < guildwar> 趕快更新 openssl 喔，出了大漏洞，私鑰有可能會洩露 https://www.openssl.org/news/secadv_20140407.txt
+13:52 < guildwar> http://seclists.org/oss-sec/2014/q2/22
+14:28 < macint0sh> 没找到更新呢
+14:29 < guildwar> 那個 linux，我的 debian 有更新了耶
+14:29 < guildwar> 你用哪種 linux
+14:29 < macint0sh> gentoo
+14:29 < guildwar> ok, 再等看看吧 :)
+14:30 < macint0sh> 恩
+14:30 < macint0sh> 我更新一下
+14:31 < guildwar> 我搞錯，debian 的也還沒有更新
+14:31 < macint0sh> 我刚刚看到有bug 检查了一下发现没有提示
+14:33 < macint0sh> http://www.solidot.org/story?sid=39042
+14:34 < guildwar> 有啦，debian 有更新 http://www.debian.org/security/2014/dsa-2896
+14:42 < macint0sh> gentoo好像也有
+14:42 < macint0sh> 上班走了
+15:10 < guildwar> 看起來 gentoo 應該還沒更新 openssl，  http://www.gentoo.org/security/en/glsa/ 最新到 2014-04-05
+15:45 < hmchen> 各位有遇過 traceroute 會到, 但 ping 跟實際連線卻不通的狀況嗎?
+15:46 < hmchen> 有個國外站台網頁打不開, 但透過國外 proxy 則可以
+15:47 < guildwar> 會不會是有次數限制?
+15:47 < hmchen> http://developer.onvif.org
+15:48 < guildwar> 不能連
+15:48 < hmchen> 這個我有請別的朋友也試過, 同樣不通
+15:48 < hmchen> 有報給網站管理人員了, 不太像是 web server 端 deny 的問題
+15:49 < guildwar> 我來試試 jondo
+15:49 < hmchen> 這狀況要報給中華電信嗎?
+15:50 < guildwar> 透過 jondo 的確可以連了
+15:50 < hmchen> 我是覺得台灣區的 ISP 都連不上
+15:50 < guildwar> 該不會是台灣開始封鎖某些網站了 XD
+15:51 < hmchen> 這狀況還蠻困擾的... 我不太想透過第3方 proxy
+15:52 < hmchen> 因為登入論壇要帳號密碼
+15:52 < hmchen> 還是有那種標榜安全的 proxy ?
+15:53 < guildwar> 了解，那只能問你的 ISP 看看了，除非有朋友的，不然無法信任吧
+15:56 < guildwar> 還是說中間跳太多台機器，不是有個機制，超過 16 或多少個 hup 就算不通還什麼的?
+15:56 < guildwar> 16 hup
+17:39 -!- Topic for #tcffm: 臺中自由軟體愛好者聚會 TcFFM 郵件列表: http://bit.ly/tcffm-forum | IRC-log：https://github.com/a2n/tcffm/ | 論壇：http://tcffm.twgogo.org/
+17:39 -!- Topic set by haroldwu [~haroldwu@unaffiliated/haroldwu] [Fri Jan  3 11:35:31 2014]
+17:39 [Users #tcffm]
+17:39 [ a2n ] [ darkx       ] [ guildwar] [ Luxun     ] [ petercommand11] 
+17:39 [ brli] [ dominicletz_] [ hmchen  ] [ op_logbot_] 
+17:39 -!- Irssi: #tcffm: Total of 9 nicks [0 ops, 0 halfops, 0 voices, 9 normal]
+17:39 -!- Channel #tcffm created Fri Aug  9 21:35:26 2013
+17:39 -!- Irssi: Join to #tcffm was synced in 17 secs
+17:43 < hmchen> 18 hups
+17:45 < hmchen> 不過最大值應該到 30 hops
+23:07 -!- Topic for #tcffm: 臺中自由軟體愛好者聚會 TcFFM 郵件列表: http://bit.ly/tcffm-forum | IRC-log：https://github.com/a2n/tcffm/ | 論壇：http://tcffm.twgogo.org/
+23:07 -!- Topic set by haroldwu [~haroldwu@unaffiliated/haroldwu] [Fri Jan  3 11:35:31 2014]
+23:07 [Users #tcffm]
+23:07 [ a2n ] [ darkx   ] [ haroldwu] [ Luxun     ] [ petercommand11] 
+23:07 [ brli] [ guildwar] [ hmchen  ] [ op_logbot_] 
+23:07 -!- Irssi: #tcffm: Total of 9 nicks [0 ops, 0 halfops, 0 voices, 9 normal]
+23:07 -!- Channel #tcffm created Fri Aug  9 21:35:26 2013
+23:07 -!- Irssi: Join to #tcffm was synced in 17 secs
+--- Log closed 三  4月 09 00:00:38 2014

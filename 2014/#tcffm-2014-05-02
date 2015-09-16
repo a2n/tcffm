@@ -1,0 +1,87 @@
+--- Log opened 五  5月 02 00:00:09 2014
+00:10 <@haroldwu> 不是，是能夠讓別人知道我的書籤有那些的
+00:11 <@haroldwu> 以前有個 delicious 什麼的
+00:11 < guildwar> delicious 現在還是有吧
+00:12 < erhandsome> haroldwu: xmarks是同步书签的，不过也可以分享自己的书签
+00:15 <@haroldwu> 之前有裝，結果同步混亂了，我把其中一套刪掉，結果另一個瀏覽器的全部不見了=.=後來就不用了
+00:15 < guildwar> 乾脆和朋友共用 firefox account 就好 :)
+00:17 < erhandsome> haroldwu: 因为是同步的啊...
+00:18 <@haroldwu> XD
+00:18 <@haroldwu> guildwar: 不是，我是想把蒐藏的一些書籤如不錯的教學秀出來這樣 :P
+00:19 < guildwar> 那就將要分享的送去 shaarli，再讓朋友看網頁就好 XD
+00:19 <@haroldwu> 咦，你的這個 shaari 是類似 twitter 那種看完分享嗎？
+00:20 <@haroldwu> 還是你 firefox 加書籤之後自動送上去？
+00:21 < guildwar> 我現在的方式是拉一個按鈕到 firefox bookmark bar，然後讀到某個網頁要保留，直接按按鈕，即會記錄到 shaarli 去
+00:22 <@haroldwu> 好像不錯，我也來弄一個 shaarli
+00:23 < guildwar> 還不錯用
+00:24 < guildwar> 有正妹牆可看(如果記錄一堆正妹相片的話 XD) https://poche-guildwar.rhcloud.com/shaarli/?do=picwall
+00:25 < guildwar> 另外，shaarli 支援 rss，可讓朋友直接訂閱，就知道有新書籤
+00:27 <@haroldwu> shaarli 怎麼放到 openshift 上 @@
+00:27 <@haroldwu> 完全沒有碰過 php
+00:29 < guildwar> php 寫的，我是直接用 rhc 上傳的吧，有點忘了，查一下
+00:34 < guildwar> 應該是類似這樣吧 rhc app create -a shaarli -t php-5.3 --from-code=https://github.com/sebsauvage/Shaarli.git
+00:52 <@haroldwu> 不用 mysql 嗎？
+00:52 < guildwar> 不用
+00:53 < guildwar> 直接放在 datastore.php 檔中，有編碼過吧
+00:54 <@haroldwu> 都不知道 XD 我完全沒有 LAMP 部署的經驗
+00:55 < guildwar> 反正用 openshift 就不用管 LAMP 啦，直接上傳，設定好就可以開始用了 :)
+00:57 <@haroldwu> 今天本來想試著弄一個 reddit 的複製品，但是沒有成功
+00:57 <@haroldwu> reddit 的網站是開源的
+00:57 < guildwar> 話說 open source 的 twitter 替代方安已經 alpha 版了，有人開始用了說 http://home.trsst.com/
+00:57 <@haroldwu> 就是 postgresql 配置那邊不太好弄
+00:58 <@haroldwu> trsst 的運作原理是什麼啊
+00:58 <@haroldwu> 不過我用 twitter 主要是 follow 一些特殊的組織或個人，幾乎不是社交用的
+00:58 <@haroldwu> trsst 沒有吸引力呀 :P
+00:58 < guildwar> 就功能和 twitter 差不多，但是分散式的，可加密等等
+00:59 <@haroldwu> http://shaarli-yfw.rhcloud.com/ 耶，有了 :)
+00:59 < guildwar> 分散式，我自己架 server 可以和別人 server 溝通
+01:00 < guildwar> 這麼快，加個書籤看看吧
+01:02 <@haroldwu> 有了
+01:03 < guildwar> 有了，讚
+01:03 < guildwar> 你有拉到 bookmark bar? 還是用 Add link 做的?
+01:05 <@haroldwu> 我用一個套件叫 custom button
+01:05 <@haroldwu> 把javascript 變成 toolbar button
+01:05 <@haroldwu> 我的 bookmarks bar 只有在新分頁才會顯示
+01:05 < guildwar> 是喔，不錯的樣子
+01:06 <@haroldwu> 還是喜歡 firefox，自定性太高了
+01:06 <@haroldwu> chrome 完全不能比呀，而且速度現在也不慢。我問過對岸搞前端的朋友，他們說
+01:06 < guildwar> 我是不喜歡 bookmark bar，來試 custom buttons :)
+01:07 <@haroldwu> 除了要跑大量 js 的場合外，firefox HTML 渲染的速度比 chrome 快
+01:07 <@haroldwu> https://code.google.com/p/hide-bookmarksbar/ 推薦你搭配這個
+01:08 <@haroldwu> 可以設置成 新分頁才會出現 bookmarks bar
+01:08 < guildwar> ok，感謝
+01:08  * haroldwu 也是開源的
+01:21 <@haroldwu> Ps: Here's a tutorial: tinyurl.com/k2ufnq8
+01:21 <@haroldwu> 因為需要一個 loadURI() 的撇步
+12:02 < guildwar> 試了 custom buttons，依照 loadURI 範例寫好，真的超好用的。一開始搞不定，按了沒反應，後來才發現必須暫時將 noscript 將目前網頁 temporarily allow 才能用，不過原本 bookmarklet 上的按鈕不需要就是。
+12:11 <@haroldwu> 喔對，你有 noscript
+12:11 <@haroldwu> 我也來裝個 noscript 用好了 -> 其實一般網頁應該用 w3m 之類的開，連 CSS 載入都省了 XD 反正只是要看字而已
+12:51 < guildwar> 發現為什麼你說昨天的 mumble 沒聲音了，因為我之前調成將線上 radio 的音樂廣播到 mumble server 去，而不是麥克風，抱歉啦 XD
+12:55 <@haroldwu> XD 下次再試
+13:24 < guildwar> 預設 presefy 免費帳號只能上傳一個簡報，要上傳另一個得先將舊的給移除，剛發現裡面有個 refer 功能，推薦給朋友加入的話，二個人都各加一個 slot for free，有在用的人趕快衝吧 XD
+13:27 <@haroldwu> 哇，來不及了，我已經註冊了
+13:28 < guildwar> 再去拉你朋友加入啊 XD
+13:28 < guildwar> 預設一個實在太少了，至少三個比較堪用吧 :)
+13:32 < guildwar> 對喔，有那種10分鐘就失效的 email 不知道能不能註冊 XD
+13:41 < guildwar> 見鬼了，不知道是 firefox 29 還是不支援 firefox，填好資料 Sign up 的按鈕按不下去，可惜
+13:46 <@haroldwu> .xresources 跟 .xdefaults
+13:46 <@haroldwu> 差在哪啊，我 urxvt 設定檔放 .xresources 然後 xrdb，無效
+13:46 <@haroldwu> 放 .xdefaults 就可以
+13:47 <@haroldwu> 色彩主題越改越差，氣死人了
+13:47 < guildwar> 也不知道咧，反正弄一個，另一個用 soft link 就好
+13:48 <@haroldwu> 我兩個都放，不管了 =.=
+13:48 < guildwar> 大小寫也有差吧
+13:48 <@haroldwu> 應該沒有，設定檔兩邊的都會生效
+13:48 < guildwar> ~/.Xresources 和 ~/.Xclients
+13:48 <@haroldwu> 是 xrdb 的問題
+13:48 < guildwar> ok
+13:49 <@haroldwu> 據寫 Mac app 的開發者說，Cocca 的架構比 X 稍微清晰一點
+13:49 <@haroldwu> 是因為 X 可以拿來服務很多用戶，所以架構比較龐大嗎 XD
+13:50 < guildwar> 考慮比較多吧，像早期的 terminal client 連到別台 terminal server 機器去跑程式
+13:51 < guildwar> XDMCP 之類的
+13:51 <@haroldwu> 對啊，我也是這樣想
+13:52 <@haroldwu> 歷史包袱也蠻大的，舊有的 code 不好重寫啊，疊床架屋
+13:53 < guildwar> 沒錯，不過以後大家都改 wayland 後，底層的 X 就比較可以動了吧 :)
+13:54 < guildwar> 聽說 X.org 1.16 直接支援 xwayland，到時任何程式都可以直接跑了，不用再各別支援 wayland 了(應該是這樣解讀吧，不是很懂 XD)
+13:56 <@haroldwu> 換了一個幾乎是黑白灰階的主題，這樣就沒有問題了 :P
+--- Log closed 六  5月 03 00:00:10 2014

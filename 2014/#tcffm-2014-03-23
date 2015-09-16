@@ -1,0 +1,51 @@
+--- Log opened 日  3月 23 00:00:55 2014
+11:00 < haroldwu_> guildwar: 哈，機器人還沒好，我是要把他送上 heroku，昨天是本機測試而已
+11:47 < haroldwu_> test
+11:47 < haroldwu_> harobot: tet
+11:48 < haroldwu_> http://www.google.com
+11:48 < haroldwu_> 不迴應...
+11:50 < harobot> http://www.microlink.lt
+11:50 < harobot> http://www.freenode.net
+11:50 < harobot> http://www.fosscon.org
+11:50 < harobot> http://www.geeknic.org
+11:50 < harobot> https://www.privateinternetaccess.com/
+11:50 < harobot> http://blog.freenode.net/2010/11/be-safe-out-there/
+11:50 < harobot> http://bit.ly/tcffm-forum
+11:51 < haroldwu_> 應該讓他忽略登入的時候 freenode 發給他的訊息 XD
+11:51 < haroldwu_> 就個之前那隻會打招呼的，也會跟自己的登入訊息打招呼
+11:51 < haroldwu_> http://www.google.com
+11:51 < harobot> http://www.google.com
+11:52 < haroldwu_> 不錯嘛，抓的到網址 http://clojure.github.io/clojure/clojure.string-api.html
+11:52 < harobot> http://clojure.github.io/clojure/clojure.string-api.html
+11:53 < haroldwu_> 參考： http://nakkaya.com/2010/02/10/a-simple-clojure-irc-client/ 原始程式碼，其實跟我上一隻 python 的差不多架構
+11:53 < harobot> http://nakkaya.com/2010/02/10/a-simple-clojure-irc-client/
+11:59 < haroldwu_> 回臺中後在把之前寫的 parser 挪過來，應該蠻容易的
+14:40 < brli> gpg加密的壓縮檔一般而言應該很安全？
+14:41 < brli> 在私鑰確定安全的情況下
+16:24 < guildwar> brli: 應該是吧，但是麻煩了些，所以普及不起來，不過像我的，由於是 2007 年建立，是用 1024bits，已經不夠了，可參考這篇文章裡的注意事項
+16:24 < guildwar> https://we.riseup.net/debian/openpgp-best-practices
+16:31 < guildwar> 若沒有常在加密，速度不是重點的話，最好一次上 4096R，不然過年５年又要再換一次，到時又要給每佪人重簽署一次
+16:32 < brli> 呵呵
+16:32 < brli> 其實只是加密以後放到雲端硬碟而已XD
+16:34 < guildwar> 了解，自己用而己就隨便啦 :)
+16:38 < brli> :D
+17:46 < guildwar> 奇怪了，為什麼我連 www.gamebase.com.tw 都會自動導到 88pk.88pk9.com？
+17:47 < guildwar> 是我的問題嗎？換了 dns 也是一樣
+19:20 < a2n> guildwar: 我這邊正常
+19:21 < guildwar> 那怎麼辦，問題出在哪裡?
+19:21 < guildwar> 用 w3m 也一樣會導過去
+19:23 < guildwar> 該不會是我的 ISP 吧
+19:26 < a2n> guildwar: curl -I www.gamebase.com.tw 貼來看看
+19:26 < guildwar> X-XRDS-Location: http://www.gamebase.com.tw/etc/api/ibo_openod_xrds.php
+19:27 < a2n> 第一行是 HTTP/1.1 200 OK ?
+19:27 < guildwar> HTTP/1.1 200 OK
+19:27 < guildwar> Date: Sun, 23 Mar 2014 11:26:30 GMT
+19:27 < guildwar> Server: Apache
+19:27 < guildwar> X-XRDS-Location: http://www.gamebase.com.tw/etc/api/ibo_openod_xrds.php
+19:27 < guildwar> Vary: Accept-Encoding
+19:28 < guildwar> Connection: close
+19:28 < guildwar> Content-Type: text/html; charset=UTF-8
+19:28 < a2n> guildwar: 我這邊也是這個結果。
+19:30 < guildwar> 好吧，再研究，吃飯去 :)
+21:42 < guildwar> 奇怪的是，直接進入某個板就可以，不會被導走，如 http://www.gamebase.com.tw/forum/2442
+--- Log closed 一  3月 24 00:00:56 2014

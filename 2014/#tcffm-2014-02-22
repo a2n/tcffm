@@ -1,0 +1,254 @@
+--- Log opened 六  2月 22 00:00:31 2014
+00:08 < guildwar> 剛看到一個新的 distribution openSuSE + GNOME 3 = Evolve OS
+00:10 < guildwar> http://is.gd/4PTnVi
+00:36 < brli> guildwar: X正常使用中？
+00:36 < brli> 居然沒有直接fail dump?xD
+00:37 < guildwar> 一開始先用 xephyr 試，下 /usr/bin/gnome-session --session=deepin 有啟動，但沒有 window manager
+00:38 < guildwar> 所以想說直接用 lightdm 開看看，但現在 lightdm 起不來 XD
+00:39 < guildwar> 是不是要配 gnome-shell 或什麼?
+00:40 < guildwar> 看來 deepin 是配 compiz
+00:40 < guildwar> 先手動跑好了，不管 lightdm
+00:41 <@haroldwu> ch成功了嗎[7~[3~[3~
+00:44 < brli> com....piz.....
+00:46 < guildwar> 有進來了，但怪怪
+00:47 < guildwar> 滑鼠看不到啦，真機車
+00:51 < guildwar> 直接下 gnome-session --session=deepin 即可，會自動呼叫 compiz，不過怪怪的，滑鼠看不到，但會動，可能少裝了什麼東東　
+00:52 <@haroldwu> 自己編譯就是麻煩:P
+00:53 < guildwar> 對啊，不過在 xephyr 中是可以看到滑鼠的
+00:53 < guildwar> 3D 的問題吧
+00:53 -!- mode/#tcffm [+o haroldwu] by ChanServ
+00:54 < guildwar> 他的 launcher 不錯用
+00:57 < guildwar> 要不要試，我將編好的 packages 直接給你用 :)
+00:59 <@haroldwu> 你是64bit的嗎
+00:59 < guildwar> 不對啊， aur 編好裝完好像將 package 給砍了，找不到
+00:59 < guildwar> 64bit 沒錯
+01:00 < guildwar> 不見了 XD
+01:04 <@haroldwu> 好吧XD
+01:05 < guildwar> 那個 *.xz 砍了，只賸下 $pkgdir 中未包成 tar.xz　檔的
+01:15 < guildwar> 有了，先用 yaourt -G deepin-session 抓回 PKGBUILD, 再用 makepkg --repackage 包成 .tar.xz
+01:15 < guildwar> 還是直接用 tar 包起來比較快
+01:16 < brli> 用packer的話會留安裝包
+01:17 < brli> 或許pacaur是放在/var/cache/pacman/pkg裡？
+01:17 < guildwar> ok,本來也用 packer, 但後來出了個 packer.io 硬把 packer 給弄掉 XD
+01:18 < guildwar> 現在換來不及，一換又要編 3　小時 XD
+01:19 < guildwar> package 叫 packer-io
+01:19 < brli> 把PKGBUILD抓回來makepkg -R就好了
+01:19 < guildwar> 對啊，但有好幾個 packages，正在找
+01:20 < brli> :#
+01:20 < brli> :3
+01:20 < guildwar> 理論上直接用 tar Jcvf 打包起來應該也可以吧
+01:20 < brli> 你會缺.PKGINFO跟.MFTREE
+01:20 < guildwar> 我去 $pkgdir 底下看有 .PKGINFO 及 .MTREE
+01:21 < brli> 那應該可以
+01:21 < brli> 不過反正其實你可以先把檔案co出來
+01:21 < brli> 然後叫pacaur去抓
+01:21 < brli> 然後Ctrl+C斷法
+01:21 < brli> wwww
+01:22 < brli> *把pkgdir整個co出來
+01:22 < guildwar> 算了，用 yaourt + makepkg 好了，比較熟 XD
+01:22 < brli> w
+01:24 < guildwar> 用 tar Jcvf ../aa.tar.xz * .PKGINFO  .MTREE 弄出來的，可以用 yaourt -U aa.tar.xz 來安裝，不錯
+01:26 < brli> 同學遇到ntfs磁區全檔案變成唯讀模式
+01:26 < brli> 不知道要怎麼修
+01:26 < guildwar> 用 ntfs-3g
+01:27 < brli> 就是用了ntfs-3g掛資料碟
+01:27 < brli> 我試想live進去看看能不能改
+01:27 < guildwar> 強制 remount,rw 呢
+01:27 < brli> 可是他後來強制在Windows下也是無法= =
+01:27 < brli> 現在已經變成隔空抓要了
+01:28 < guildwar> 是不是 filesystem 沒有正常 umount 才會如此呢?
+01:28 < brli> 因為他閒煩，搞備份以後就直接刷掉重建@@
+01:28 < brli> 我也覺得是
+01:28 < guildwar> 我記得有個指令可以在 linux check ntfs
+01:28 < guildwar> ntfsck 吧
+01:28 < brli> 我也記得有XD
+01:28 < brli> ntfsfix
+01:29 < guildwar> 對，應該是 ntfsfix
+01:36 < guildwar> 想要試 deepin 的人，到這裡 http://tcffm.rr.nu:8080/irclog/  抓回 8 個  .xz 檔
+01:37 < guildwar> 可能還會有滿些相依性，不過應該都是 package 了，直接裝，不用再自己編吧
+01:41 < guildwar> 我只裝了 deepin-desktop-environment deepin-session deepin-webkit 可能這樣，所以才會怪怪的，因為用 yaourt 找大概有 30 個 deepin- 開頭的 XD
+01:42 < brli> 64包？
+01:42 < brli> 不曉得Chakra合不合用wwww
+01:44 < guildwar> 試看看囉 XD
+01:53 <@haroldwu> 來惹~
+01:53 <@haroldwu> 看到了，現抓，明天在來裝
+01:53 < guildwar> 其實最久的是那個 deepin-webkit
+01:54 <@haroldwu> 有一個nodejs，一個coffce-script？對嗎
+01:55 < guildwar> 對啊，共 8 個
+01:56 < brli> lubuntu在512M單核心之下(雖然是VM)居然飛快@@
+01:57 < guildwar> 應該會有點麻煩，因為檔名被我改過，所以無法用 yaourt 直接裝，要用 yaourt -U，但 yaourt -U 好像只吃一個參數
+01:57 <@haroldwu> 抓好了~
+01:57 < guildwar> brli: 是用 docker ?
+01:57 <@haroldwu> 喔還有一個webkit的
+01:57 < guildwar> 用 kvm 的話，因為有 virtio ，所以效能不錯
+01:57 < brli> guildwar: vbox
+01:58 < guildwar> vbox 現在支援 virtio 了嗎?
+01:58 < brli> 直接在live模式下pacman好了XD
+01:58 < brli> 這樣不知道有沒有用@@
+01:58 < guildwar> 可以吧，明天再來驗收即可 :)
+11:51 < maxwux> 關於實體聚會......我想暫停了，雖然有個實體聚會可以跟大家聊聊天很開心，不過感覺就像是上次 louie 講的，好像帶不起熱度、回應，所以我想，現在先暫停，不知道大家怎麼想
+14:26 < guildwar> 我沒意見，尊重你的決定，這陣子辛苦你了 :)
+14:35 < guildwar> 社群本來就是由大家撐起來的，既然大家都不在乎，也就沒有一定繼續存在的必要性
+15:01 <@haroldwu> QQ
+15:02 <@haroldwu> 谷
+15:02 < Luxun> QQ
+15:02 <@haroldwu> guildwar: yaourt -U 可以一次跑多個參數喔
+15:02 <@haroldwu> 不過依賴有點多
+15:03 <@haroldwu> @@
+15:11 <@haroldwu> 共 53 個包，gnome 相依性蠻重的 :P
+15:14  * brli 完全沒有gnome
+15:20 <@haroldwu> brli: chakra...
+15:21 <@haroldwu> 我後來受不了了，把驅動從 nouveau 換成 nvidia
+15:21 <@haroldwu> openjdk 換成 oracle java
+15:21 <@haroldwu> minecraft 變的很順，電腦也不會過熱 QQ，只能說閉源廠商 f*ck you
+15:32 < guildwar> 了解，因為我之前就裝很多 packages，所以裝 deepin 時不用再裝，那跑起來如何，有看到滑鼠游標?
+15:38 <@haroldwu> 唔，gnome-session --session=deepin 不會動
+15:38 <@haroldwu> 卡住了
+15:38 <@haroldwu> 要放在 .xinitrc 裏面？
+15:38 <@haroldwu> 那我再試一次
+15:41 < guildwar> 對，在 .xinitrc 中，前面要加 exec
+15:41 <@haroldwu> 有了，一樣沒有滑鼠
+15:42 <@haroldwu> 你一定是少編了什麼 @@ icon 也怪怪的
+15:43 <@haroldwu> deepin-cursor-theme
+15:43 <@haroldwu> 應該是這個
+15:43 <@haroldwu> 我試試
+15:43 < guildwar> 科科，了解 :)
+15:44 <@haroldwu> 不過其實桌面環境大同小異啊 =.=
+15:44 <@haroldwu> 感覺起來也就那個 panel 不一樣而已 :P 不知道有沒有比較輕
+15:44 < guildwar> 使用感覺不同啊，和 gnome 3 的操作方式就完全不一樣
+15:45 <@haroldwu> cinnamon 呢？
+15:45 < guildwar> 沒用過 cinnamon 和 mate，不過這都是 gtk2 的不是
+15:45 < guildwar> gnome2
+15:46 <@haroldwu> cinnamon 是 gtk3 喔
+15:47 < guildwar> 我記得 cinnamon 和 mate 都是由 gnome2 fork 出去的不是
+15:48 <@haroldwu> 只有 mate XD 兩個桌面環境都是 linuxmint 那個社羣的人弄出來的
+15:49 < guildwar> 哦，查了一下 Cinnamon 是由 gnome3 fork 出去的
+15:49 < guildwar> 那就不知道 Cinnamon 和 deepin 有什麼不同了
+15:52 <@haroldwu> deepin 似乎比較 light-weight
+15:54 < guildwar> 看來 cinnamon 是偏向保留傳統 gnome2 的操作方法，而 deepin 則是比較直覺 https://wiki.archlinux.org/index.php/Desktop_environment
+15:55 < guildwar> 訴求不同，因為很多人受不了新的 gnome 3 的操作方式，才會有 cinnamon
+15:55 <@haroldwu> gnome3 倒是很適合平板耶我覺得
+15:57 < guildwar> 對啊，他們也是這樣想，但是一般 desktop 使用者無法接受 XD
+16:19 < brli> KDE表示平板桌面兩相宜CF
+16:21 <@haroldwu> kde 需要新一點的設備 QQ
+16:30 < guildwar> 不是有一台 KDE 平板嗎?
+16:30 < maxwux> gnome 3 的設計確實是為了 平板設計的，不過有更多人表示「誰用 gnome 平板？」
+16:30 < maxwux> KDE 平板有商業考量問題，所以推不出來
+16:31 < maxwux> 這段時間謝謝大家的支持了，雖然實體聚會暫停，不過網路上的活動我們還是可以繼續的 :)
+16:33 < guildwar> tcffm is dead, long live tcffm :)
+16:35 < maxwux> 能認識大家，我真的很開心
+16:35 <@haroldwu> tcffm is dead, long live tcffm :)
+16:36 <@haroldwu> 哎呀，別講的那麼哀傷，可以改成機動聚 XD
+16:37 < guildwar> 對啊，哪天有人學到某個東東，實在忍不住不分享出來會悶死，就出來號召個單次聚會 XD
+16:38 < guildwar> 不然線上用 mumble+presefy 分享也行
+16:38 < maxwux> guildwar: 讚！！！！那就是一定要參加的啦
+16:41 < guildwar> 話說前幾天看到一台華碩投影機，有點心動，http://shopping.pchome.com.tw/DPAE16-A82814153
+16:41 < guildwar> 這樣就不用換 27 吋 LCD，直接改投影機
+16:47 < maxwux> 有人玩過 MPEG-DASH 嗎？ http://en.wikipedia.org/wiki/Dynamic_Adaptive_Streaming_over_HTTP
+16:49 < guildwar> 沒聽過 :)
+16:50 < maxwux> 好像是可以動態調整 stream 流的東西
+16:50 < guildwar> 現在 linux 下有軟體支援?
+16:57 < maxwux> 有找到這個 http://www.bitmovin.net/libdash.html
+16:57 < maxwux> 只是我也沒什麼研究
+16:58 < maxwux> 上次在FB上看到有人發問 https://www.facebook.com/groups/ubuntu.zh.hant/permalink/622781724443820/?stream_ref=2
+16:59 < maxwux> 底下的討論串有提到這個東西
+16:59 < guildwar> 了解
+17:07 < maxwux> 剛看到這個，好像用 ffmpeg 就可以做到了 https://trac.ffmpeg.org/wiki/StreamingGuide#HTTPLiveStreamingandStreamingwithmultiplebitrates
+17:12 < guildwar> 不錯喔，你是想有自己的 video streaming server 嗎? 線上教學?
+17:13 < guildwar> 不然直接用 ustream tv 或 twitch tv 不就好了
+17:17 < maxwux> 沒有，只是因為看到 FB 上有人問，剛好我們公司又在做跟電視節目有關的服務，再加上之前有碰過 wowza 這個東西
+17:17 < guildwar> 這個 MPEG-DASH 只要 server 及 client 有支援就好吧，會自己依網路狀況去調整，我們應該不用手動調整?
+17:18 < maxwux> 但我不知道有沒有 linux open source 的解決方案
+17:18 < guildwar> 了解，這是很好的解決方法
+17:18 < maxwux> 對，是自動的，所以我才在想有沒有這種東西的解決方案
+17:22 < guildwar> vlc 有支援 client site    https://forum.videolan.org/viewtopic.php?f=4&t=114468
+17:22 < guildwar> client side
+17:23 < maxwux> 其實比較麻煩的是 server 端
+17:23 < guildwar> 可是 ffmpeg 都支援 server 端了，還有問題?
+17:26 < maxwux> server 端除了自動 encode 各種 bitrate 的影片之外，應該還需要 drm 的保護
+17:27 < guildwar> ok
+17:52 < guildwar> 對了，有人知道為什麼我開 github 網頁時都會有奇怪的圖示嗎？要怎麼解決，像最左上角那個 F092
+17:52 < guildwar> http://imagebin.org/294980
+17:59 < maxwux> 那些都是 unicode 吧
+18:00 < guildwar> 畫面這樣是正常的?
+18:00 < maxwux> 我的顯示都正常
+18:00 < maxwux> 應該是缺字集
+18:01 < guildwar> 不知道少了什麼字型 XD
+18:01 < maxwux> 我找找看
+18:04 < guildwar> 這是我目前的字型  http://pastie.org/8758032
+18:05 < guildwar> ttf-unifont 嗎?
+18:10 < op8867555___> http://support.mozilla.org/zh-TW/questions/947228
+18:14 < maxwux> GitHub icons are font icons, using a custom Octicons font face. Below are the classes to use for triggering the icons as well as their UTF codes. We use the Private Use (Unicode) range to avoid conflicts with actual letters.
+18:16 < maxwux> https://github.com/styleguide/css/7.0
+18:19 < guildwar> 看了這些連結，還是不懂如何解決。為什麼你們都不會遇到?
+18:22 < brli> guildwar: 怎麼了？
+18:23 < guildwar> http://imagebin.org/294980 就 github 上字怪怪的，無法顯示，上面連線說要 unchecked "allow sites to use their own fonts"，可是我在 firefox 裡找不到這選項
+18:24 < brli> guildwar: http://susepaste.org/69181087.png 八成是在講這個按鈕
+18:25 < guildwar>  http://susepaste.org/69181087.png ?? 404 Page Not Found
+18:26 < maxwux> 試試看，在 firefox 中的 偏好設定>內容>進階>優先使用網頁指定的字型
+18:27 < maxwux> 勾起來後字型就看得到了
+18:27 < guildwar> 沒有這個選項耶
+18:27 < maxwux> 不勾，就會像你的狀況一樣
+18:28 < maxwux> http://i.imgur.com/Czqk5Xg.png
+18:28 < guildwar> 見鬼了，我的怎麼沒有 XD
+18:29 < brli> guildwar: Arch?
+18:29 < brli> 一定有的吧XDD
+18:29 < guildwar> 可能是外掛在作怪，我關掉試試
+18:29 < maxwux> 我的是 27.0.1
+18:29 < maxwux> 不過這應該已經很久以前就有了
+18:29 < brli> 這很古老了
+18:33 < guildwar> XD，抓到了，是 noscript 在作怪
+18:34 < guildwar> 有一個 Forbid @font-face 有打抅
+18:34 < maxwux> good job
+18:35 < guildwar> 但奇怪的是，就是沒有你們說的那個選項，怎麼找到沒有 XD
+18:35 < guildwar> extra/firefox 27.0.1-1
+18:37 < maxwux> 你先備份你的 .mozilla 然後再開 firefox 看看有沒有
+18:37 < maxwux> 備份 .mozilla 然後移除 .mozilla 再開 firefox
+18:38 < guildwar> 全砍了 rm -rf .mozilla 然後 firefox --no-remote --safe-mode 還是沒有
+18:38 < guildwar> 在想可能是 tiling WM 在作怪，換一個 blackbox 試試
+18:38 < maxwux> 這麼神奇？
+18:38 < guildwar> 可能一部份看不到
+18:40 < brli> @@
+18:40 < brli> guildwar: 螢幕解析度太小？
+18:41 < guildwar> 看，果然是 herbstluftwm 在作怪，只看到上半部
+18:42 < guildwar> 不會小 1280x1024
+18:42 < guildwar> 來換 awesome 看看
+18:43 < guildwar> awesome 就很正常 XD
+18:44 < guildwar> 呵呵，感謝大家，一次解決二個問題 :)
+18:48 < guildwar> 在 herbstluftwm 要手動再將那個視窗最大化，才看得到完整的頁面，否則只有一半
+18:48 < guildwar> 難怪都看不到 XD
+18:49 < guildwar> 因為剛好是一半，所以才會沒察覺到下面還有東東
+21:13 < guildwar> 看看你的無線 ap 有沒有中標 http://www.ithome.com.tw/node/84622
+21:13 < guildwar> 現在廠商都很喜歡植入後門
+21:24 < guildwar> 這個要怎麼玩啊，用 github 發聲音 https://choir.io/player/beachmonks/github
+21:42 < maxwux> 我的 asus rt-n66u 就中了
+21:42 < maxwux> 不過還好不是太嚴重的漏洞
+21:43 < maxwux> http://www.solidot.org/story?sid=38383
+22:01 < guildwar> 不會吧，"人人都可以訪問你的路由器" 這還不算太嚴重的漏洞 XD
+22:11 < maxwux> ㄟ......也可以說很嚴重啦！只是你必須啟用那個 aicloud 的功能，沒啟用就不會有事，預設是不啟用
+22:14 < guildwar> ok, 預設是不啟動的，不過廠商實在要改變心態，現在大家都比較有概念了，不再是隨他們亂搞的年代
+22:50 -!- Topic for #tcffm: 臺中自由軟體愛好者聚會 TcFFM 郵件列表: http://bit.ly/tcffm-forum | IRC-log：https://github.com/a2n/tcffm/ | 論壇：http://tcffm.twgogo.org/
+22:50 -!- Topic set by haroldwu [~haroldwu@unaffiliated/haroldwu] [Fri Jan  3 11:35:31 2014]
+22:50 [Users #tcffm]
+22:50 [@haroldwu] [ brli ] [ dominicletz] [ maxwux    ] [ petercommand11] 
+22:50 [ a2n     ] [ darkx] [ guildwar   ] [ op_logbot_] 
+22:50 -!- Irssi: #tcffm: Total of 9 nicks [1 ops, 0 halfops, 0 voices, 8 normal]
+22:51 -!- Channel #tcffm created Fri Aug  9 21:35:26 2013
+22:52 -!- Irssi: Join to #tcffm was synced in 113 secs
+23:05 -!- Topic for #tcffm: 臺中自由軟體愛好者聚會 TcFFM 郵件列表: http://bit.ly/tcffm-forum | IRC-log：https://github.com/a2n/tcffm/ | 論壇：http://tcffm.twgogo.org/
+23:05 -!- Topic set by haroldwu [~haroldwu@unaffiliated/haroldwu] [Fri Jan  3 11:35:31 2014]
+23:05 [Users #tcffm]
+23:05 [@haroldwu] [ brli ] [ dominicletz] [ maxwux    ] 
+23:05 [ a2n     ] [ darkx] [ guildwar   ] [ op_logbot_] 
+23:05 -!- Irssi: #tcffm: Total of 8 nicks [1 ops, 0 halfops, 0 voices, 7 normal]
+23:05 -!- Channel #tcffm created Fri Aug  9 21:35:26 2013
+23:07 -!- Irssi: Join to #tcffm was synced in 114 secs
+23:35 -!- Topic for #tcffm: 臺中自由軟體愛好者聚會 TcFFM 郵件列表: http://bit.ly/tcffm-forum | IRC-log：https://github.com/a2n/tcffm/ | 論壇：http://tcffm.twgogo.org/
+23:35 -!- Topic set by haroldwu [~haroldwu@unaffiliated/haroldwu] [Fri Jan  3 11:35:31 2014]
+23:35 [Users #tcffm]
+23:35 [@haroldwu] [ brli ] [ dominicletz] [ op8867555___] [ petercommand  ] 
+23:35 [ a2n     ] [ darkx] [ guildwar   ] [ op_logbot__ ] [ petercommand11] 
+23:35 -!- Irssi: #tcffm: Total of 10 nicks [1 ops, 0 halfops, 0 voices, 9 normal]
+23:35 -!- Channel #tcffm created Fri Aug  9 21:35:26 2013
+23:37 -!- Irssi: Join to #tcffm was synced in 113 secs
+--- Log closed 日  2月 23 00:00:32 2014

@@ -1,0 +1,55 @@
+--- Log opened 一  5月 12 00:00:23 2014
+12:42 <@haroldwu> 這裡有沒有人有在用一些書籤整理工具？
+12:55 < guildwar> 你直接說你想要什麼功能，搞不好比較快 :)
+13:01 <@haroldwu> 恩...能夠把書籤變成地圖的東西...
+13:06 < guildwar> 每個書籤出現在這個網站的座標上? 這樣好用嗎?
+13:09 < guildwar> 這個不知道是什麼功能，看看吧 http://help.arcgis.com/en/arcgisexplorer/help/index.html#/Find_geographic_entities/01560000001w000000/
+13:16 < guildwar> 其實想想，這種客製化需求，可能你自己開發比較能完全符合需求
+13:30 <@haroldwu> 有點類似 graphviz 那種 feel，只是更動態這樣
+13:44 < guildwar> 你是要像制服地圖這種方式的書籤地圖嗎？　http://uniform.wingzero.tw/
+13:47 <@haroldwu> 不是，比較像那種反追蹤網站的那種網狀圖
+13:48 < guildwar> ok
+13:50 < guildwar> lightbeam 你稍微看看 https://addons.mozilla.org/en-US/firefox/addon/lightbeam/
+13:50 < guildwar> 不是書籤，是針對網站
+14:23 <@haroldwu> 對，就這個 feel
+14:24 <@haroldwu> 但是沒有書籤的...看來暑假考完在自己弄一個了
+14:25 <@haroldwu> 有個 javascript 庫叫 D3，蠻好玩的樣子 => 剛好學弟在搞 nodejs，順便來看看
+16:54 < guildwar> http://neovim.org/   Vim's rebirth for the 21st century
+17:26 <@haroldwu> 這個我知道，不過不知道效果如何？
+17:27 <@haroldwu> emacs 25 看來要換核心，應該也是 rebirth
+19:50 < guildwar> 宅宅專用，偷拍神器 http://www.inside.com.tw/2014/04/25/spy-cam-peek-i
+20:28 <@haroldwu> http://www.labnol.org/internet/auto-forward-gmail-messages/20665/ #一次轉寄大量信件
+20:28 <@haroldwu> 好用的 google script
+20:28 <@haroldwu> 開源的哦~
+20:34 <@haroldwu> 阿，guildwar 不用 google 服務
+20:35 <@haroldwu> 對學生來講，蠻好用的。另外學校有買 apps，所以其實跟同學協作報告，可以用學校買的帳號
+22:43 < guildwar> 不懂，本身 gmail 不是就可以 forward 到別的 email 帳號，為什麼還要靠這個?
+22:59 <@haroldwu> 一次大量的寄阿
+22:59 <@haroldwu> 要一次轉寄一堆信件
+22:59 <@haroldwu> 他會針對有某個 tag 的信件做轉寄 => 因為我同學忘記他學校信箱的密碼，沒辦法看重要通知，但是我不是每封信都要轉給他
+23:00 <@haroldwu> 我把要給他的標上某個標籤，這個腳本會幫我寄那些有標籤的 XDD
+23:12 < guildwar> ok
+23:25 <@haroldwu> 再整理音樂...
+23:25 <@haroldwu> 這時候覺得如果有錢，應該直接上 itunes 之類的買 XDD
+23:25 <@haroldwu> 光是 tag 就搞不定了
+23:26 < guildwar> 不是有很多 media server 可管理嗎?
+23:27 <@haroldwu> 是哦？！
+23:27 <@haroldwu> 舉個例子，挺需要的
+23:27 <@haroldwu> 最近抓了一堆專輯下來
+23:28 <@haroldwu> 我的手機有個智能辨識音樂的，不過那些服務應該沒辦法跟 amarok 連用
+23:28 < guildwar> 我看看，平常沒在用這類的，都是直接線上聽，grooveshark 之類的
+23:29 <@haroldwu> 因為網路很慢，所以以離線居多啦 XD
+23:29 < guildwar> http://www.subsonic.org/pages/index.jsp
+23:30 < guildwar> 架在自己電腦上，連 localhost 聽 :)
+23:32 < guildwar> https://github.com/Mach5/supersonic
+23:33 <@haroldwu> 但還是要整理阿 XD
+23:34 <@haroldwu> 是在找提供 mp3tag 校正服務的
+23:34 < guildwar> ok
+23:37 < guildwar> 這類的嗎? http://code.google.com/p/trizen/downloads/detail?name=auto-mp3tags
+23:39 <@haroldwu> 恩也不太是...找不到沒差啦，畢竟這種服務做免費的會被告吧 XD
+23:39 < guildwar> foobar2000 can query the the Freedb, and the basic tags like artist, album, genre and such can be edited quickly.
+23:39 < guildwar> ok
+23:45 <@haroldwu> freedb...來研究一下
+23:45 <@haroldwu> 可是大部分是西洋的吧 XD
+23:45 < guildwar> 應該是吧
+--- Log closed 二  5月 13 00:00:24 2014

@@ -1,0 +1,19 @@
+--- Log opened 一  6月 09 00:00:03 2014
+--- Log opened 一  6月 09 07:18:59 2014
+07:19 -!- Topic for #tcffm: 臺中自由軟體愛好者聚會 TcFFM 郵件列表: http://bit.ly/tcffm-forum | IRC-log：https://github.com/a2n/tcffm/ | 論壇：http://tcffm.twgogo.org/
+07:19 -!- Topic set by haroldwu [~haroldwu@unaffiliated/haroldwu] [Fri Jan  3 11:35:31 2014]
+07:19 [Users #tcffm]
+07:19 [ a2n  ] [ erhandsome] [ guildwar] [ mosiwang  ] [ petercommand] 
+07:19 [ darkx] [ fntsrCloud] [ ltroot_ ] [ op_logbot_] 
+07:19 -!- Irssi: #tcffm: Total of 9 nicks [0 ops, 0 halfops, 0 voices, 9 normal]
+07:19 -!- Channel #tcffm created Fri Aug  9 21:35:26 2013
+07:19 -!- Irssi: Join to #tcffm was synced in 8 secs
+07:51 -!- mode/#tcffm [+o haroldwu] by ChanServ
+14:33 <@haroldwu> http://wodefang22.blog.163.com/blog/static/132306220144832134125/ #
+14:33 <@haroldwu> sfewfesfs/sfewfesfsh 坑爹的病毒
+18:00 < guildwar> 不知道病毒怎麼進去的，還有 root 權限咧
+18:02 <@haroldwu> 對啊，不過看來也沒幹什麼事就是了
+18:04 < guildwar> 有些蟲進去後不會引起注意，時間未到吧，或是要用時遠端控制
+18:21 < guildwar> 發現新版的 mkfs 變人性化了，之前就直接 format 下去了，現在還會跟你說 contains a ext3 file system, last mounted on /mnt on Sun May  4 00:19:50 2014 Proceed anyway? (y,n)
+18:23 < guildwar> 之前曾不小心要 format 隨身碟 /dev/sdb1 弄成 /dev/sda1 的，死得很慘
+--- Log closed 二  6月 10 00:00:00 2014

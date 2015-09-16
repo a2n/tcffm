@@ -1,0 +1,39 @@
+--- Log opened 四  9月 11 00:00:12 2014
+14:24 < hmchen> 請問今晚 h4tc 有辦聚會嗎?
+17:51 < dclee9> yes
+17:51 < dclee9> 今天有h4tc
+19:18 < dclee9> 先開始好了，隨便聊
+19:31 < dclee9> 在隔壁聊聊，
+19:39 < guildwar> 看來要來改 gmail 的密碼比較安全，最近有 500萬筆資料被公佈
+19:39 < guildwar> http://chinese.engadget.com/2014/09/11/5-million-gmail-passwords-leaked/?ncid=rss_truncated
+19:42 < hmchen> 今天太晚到家,不過去了
+19:46 < dclee9> http://www.bluestacks.com/
+19:46 < dclee9> android emulator for windows
+19:51 < dclee9> https://dolphin-emu.org/
+19:51 < dclee9> wii emulator for windows/osx
+20:39 < guildwar> 可惡，我的 gmail 在被公佈的名單中 XD
+20:39 < guildwar> https://mega.co.nz/?_escaped_fragment_=rgFDDRSD!QyyLxZNnR8i9fF_aNkKI-wUIUV3fjX5o0dxdl-bE3zQ#!rgFDDRSD!QyyLxZNnR8i9fF_aNkKI-wUIUV3fjX5o0dxdl-bE3zQ
+20:43 < dclee9> 那是什麼名單阿？
+20:45 < guildwar> 就蘇聯的網站有公佈 500 萬筆 gmail 資料，可能是帳密洩漏名單，不是很確定
+20:46 < guildwar> 但這個連結的名單中只有 email，沒有密碼
+20:57 <@haroldwu> guildwar: 我沒中獎 XD
+20:58 < guildwar> 我二個 gmail 中一個 XD
+20:59 < guildwar> 反正我二個密碼都改好了，以防萬一 :)
+21:46 < hmchen> 最近在幫客戶用 RPi 做一個案子, 但操作情境可能會隨時把電源關閉, SD + ext4 這樣胡搞久了難免有風險, 所以 read-only rootfs 是免不了的
+21:47 < hmchen> http://blog.pi3g.com/2014/04/make-raspbian-system-read-only/
+21:47 < hmchen> 目前是用這篇的方法作的, unionfs
+21:48 < hmchen> 新版的 raspistill 有新增 busrt mode (-bm), jpeg 最大連拍速度可以到 4~5fps
+21:51 <@haroldwu> https://www.youtube.com/watch?v=kTusHHjRCAM
+21:52 <@haroldwu> 通過 xdotool + xypher + scrot 弄了一個按鍵自動執行 + 錄製器
+21:53 <@haroldwu> * xephyr
+21:54 < guildwar> apt 本身可以在安裝 package 前自動 remount 成 read write, 裝好再變 readonly
+21:55 < guildwar> 在 apt.conf 中加上     DPkg
+21:55 < guildwar>     {
+21:55 < guildwar>        Pre-Invoke  { "mount /usr -o remount,rw" };
+21:55 < guildwar>        Post-Invoke { "mount /usr -o remount,ro" };
+21:55 < guildwar>      };
+21:55 < guildwar> 那個 /usr 改成 /
+22:00 < guildwar> 之前是用在 /usr 是 readonly 時用的，變成 / readonly 不知道會不會出問題就是
+22:03 < guildwar> 按鍵自動執行就想到前幾年不是很流行 http://www.clickclickclick.com 在和別國比誰的滑鼠點最多下 :)
+22:05 < guildwar> 到後來都不是人工的，而是寫 bot 來點
+--- Log closed 五  9月 12 00:00:13 2014

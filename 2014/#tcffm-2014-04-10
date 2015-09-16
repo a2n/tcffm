@@ -1,0 +1,30 @@
+--- Log opened 四  4月 10 00:00:39 2014
+00:51 < guildwar> 那個 hardware 工具，pydf 沒用過，還不錔，不過 ncdu 更好用 :)
+00:54 < guildwar> 原來 tmux 可以設定 xterm-keys，害我目前做法是在最後面 unbind Up，將上下左右 unbind，來試試 xterm-keys
+00:56 < erhandsome> inxi很棒的
+01:02 < erhandsome> guildwar: 这个xterm-keys有什么用
+01:02 < guildwar> erhandsome: 還在研究中 XD
+01:03 < guildwar> 試不出個所以然 :)
+01:03 < erhandsome> guildwar: 看英文没看懂...
+01:03 < erhandsome> If you enable xterm-keys in your tmux.conf, then you need to build a custom terminfo to declare the new escape codes or applications will not know about them.
+07:53 [Users #tcffm]
+07:53 [ a2n ] [ darkx   ] [ haroldwu  ] [ petercommand11] 
+07:53 [ brli] [ guildwar] [ op_logbot_] 
+07:53 -!- Irssi: #tcffm: Total of 7 nicks [0 ops, 0 halfops, 0 voices, 7 normal]
+07:55 < a2n> 英譯：如果在 tmux.conf 打開 xterm-keys，還需要建立一個客制的 terminfo，否則程式無法得知終端資訊。
+09:21 -!- Topic for #tcffm: 臺中自由軟體愛好者聚會 TcFFM 郵件列表: http://bit.ly/tcffm-forum | IRC-log：https://github.com/a2n/tcffm/ | 論壇：http://tcffm.twgogo.org/
+09:21 -!- Topic set by haroldwu [~haroldwu@unaffiliated/haroldwu] [Fri Jan  3 11:35:31 2014]
+09:21 [Users #tcffm]
+09:21 [ a2n ] [ darkx      ] [ guildwar] [ op_logbot_    ] 
+09:21 [ a2n_] [ dominicletz] [ haroldwu] [ petercommand11] 
+09:21 -!- Irssi: #tcffm: Total of 8 nicks [0 ops, 0 halfops, 0 voices, 8 normal]
+09:21 -!- Channel #tcffm created Fri Aug  9 21:35:26 2013
+09:21 -!- Irssi: Join to #tcffm was synced in 23 secs
+13:47 [Users #tcffm]
+13:47 [ a2n  ] [ dominicletz] [ haroldwu] [ Luxun     ] [ petercommand11] 
+13:47 [ darkx] [ guildwar   ] [ hmchen  ] [ op_logbot_] 
+13:47 -!- Irssi: #tcffm: Total of 9 nicks [0 ops, 0 halfops, 0 voices, 9 normal]
+14:27 < haroldwu> 是，所以好像還要指定 vt100
+14:31 < haroldwu> ? 好像不是這個意思
+14:32 < haroldwu> 但是用其他的終端也會遇到類似的問題，所以應該是 tmux 的狀況
+--- Log closed 五  4月 11 00:00:41 2014

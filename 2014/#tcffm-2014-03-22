@@ -1,0 +1,19 @@
+--- Log opened 六  3月 22 00:00:54 2014
+22:01 -!- Topic for #tcffm: 臺中自由軟體愛好者聚會 TcFFM 郵件列表: http://bit.ly/tcffm-forum | IRC-log：https://github.com/a2n/tcffm/ | 論壇：http://tcffm.twgogo.org/
+22:01 -!- Topic set by haroldwu [~haroldwu@unaffiliated/haroldwu] [Fri Jan  3 11:35:31 2014]
+22:01 [Users #tcffm]
+22:01 [ a2n ] [ darkx   ] [ hmchen] [ op_logbot_    ] 
+22:01 [ brli] [ haroldwu] [ Luxun ] [ petercommand11] 
+22:01 -!- Irssi: #tcffm: Total of 8 nicks [0 ops, 0 halfops, 0 voices, 8 normal]
+22:01 -!- Channel #tcffm created Fri Aug  9 21:35:26 2013
+22:01 -!- Irssi: Join to #tcffm was synced in 17 secs
+22:10 < haroldwu_> 耶， clojure 機器人上線咯～
+22:11 < haroldwu_> harobot: 尚未提供迴應功能，不過看來很簡單
+22:12 < harobot> 手動發送訊息
+22:13 < haroldwu_> 成功，只要加上一個filter就能送上 heroku
+22:31 [Users #tcffm]
+22:31 [ a2n ] [ darkx   ] [ haroldwu] [ Luxun     ] [ petercommand11] 
+22:31 [ brli] [ guildwar] [ hmchen  ] [ op_logbot_] 
+22:31 -!- Irssi: #tcffm: Total of 9 nicks [0 ops, 0 halfops, 0 voices, 9 normal]
+22:59 < guildwar> harobot: 網址呢?
+--- Log closed 日  3月 23 00:00:55 2014

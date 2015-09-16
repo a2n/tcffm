@@ -1,0 +1,42 @@
+--- Log opened 三  2月 19 00:00:26 2014
+13:54 < a2n> guildwar: 是不是介紹做物業保險的朋友給你哥，比較受用？ :P
+14:11 < guildwar> 保險不實在，有二個不賠，這個不賠、那個不賠 XD
+17:47 <@haroldwu> XDD
+18:06 < Luxun> XDDDD
+19:54 <@haroldwu> 想說 firefox 開了幾十個分頁捨不得關掉，不知道速度有沒有受到影響，就試用看看 midori，結果開了一堆分頁的 firefox 還比 一個 tab 的 midori 快 XDD
+19:54 <@haroldwu> firefox 有個什麼預先不載入，還不錯~！
+20:11 < guildwar> 唉，現在由於一些外掛（如 noscript, adblock)，已經無法用那些小的瀏覽器了
+20:12 < erhandsome> vimperator
+20:12 < guildwar> 之前有用，但效能變很差耶
+20:13 < guildwar> 很久沒再去試了
+20:13 < brli> qupzilla內建adb喔~~XD
+20:16 <@haroldwu> midori 內建有 noscript 跟陽春的 adb，還有 userscript 志願:P
+20:16 <@haroldwu> *支援
+20:17 < guildwar> 是喔，那還不錯，在 rpi 上也沒多少選擇，就用 midori
+20:20 <@haroldwu> 我開了 noscript 結果所有網站都跑不起來XD gmail 跟 facebook 什麼的都直接停在 loading 畫面 :P
+20:22 <@haroldwu> midori 還有管理個別 cookie 功能（翻譯叫餅訊管理員）
+20:22 < guildwar> 對啊，就是如此 :) 變得比較麻煩，可以弄成 whitelist，以後這個網站就直接允許
+20:23 < guildwar> 這樣就算有時連到不明惡意網站也不會直接中標，不過相對麻煩了些
+20:29 <@haroldwu> 現在是有裝一個 no-trace-me，看他的記錄，好像攔截的還不錯...
+20:29 <@haroldwu> guildwar: 你之前有貼過一個什麼測瀏覽器安全的網站，叫什麼啊？
+20:30 <@haroldwu> tor + no-flash + no-script + adb ... 夠不夠呢
+20:30 < guildwar> http://ip-check.info/?lang=en
+20:31 < guildwar> 再加個 https-everywhere, cookie monster
+20:32 < guildwar> 若還不夠，可再加 RequestPolicy, Smart Referer
+20:32 < guildwar> 不過這樣會煩死人 XD
+20:33 <@haroldwu> XD 光開白名單就夠累了...
+20:33 < guildwar> 我是習慣了，一直都是這麼麻煩 :)
+20:36 < guildwar> 白名單就遇到時，按 Allow xxxxx 即可，遇到再手動加一次就好
+20:38 < guildwar> 這樣最明顯的好處是，大部份到一個網站，都看不到廣告，只看到文字，不受廣告干擾，而且省了些頻寬吧，要看圖或其他東東再手動開
+20:42 < guildwar> 對了，tor 有內建 http proxy?? 你是配哪一套?
+20:43 < guildwar> 我是配合 polipo
+20:48 <@haroldwu> 其實沒什麼用 tor :P 速度太慢了...
+20:49 < guildwar> tor 本來就不會快啊
+20:50 < guildwar> 我也是有需要才會開 tor，平常是不開的
+20:51 <@haroldwu> 恩，我若用 tor ，是用他提供的瀏覽器...@@
+20:52 < guildwar> 了解，那個 tor bundle 有支援 http proxy
+20:57 < guildwar> 另外有一個叫 jondo 的，功能和 tor 有點類似，拿來和 tor 交互用
+21:22 < guildwar> 買車要買這種小車 :) https://www.youtube.com/watch?v=yzdSjA3XzVY
+22:18 < guildwar> 以後要衣服自己織，open source 的喔 http://chinese.engadget.com/chinese.engadget.com/2014/02/18/openknit/
+23:23 < guildwar> 耶，這個 freenet 好像不錯喔，正在研究中 https://freenetproject.org/
+--- Log closed 四  2月 20 00:00:28 2014

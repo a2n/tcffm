@@ -1,0 +1,18 @@
+--- Log opened 四  2月 06 00:00:08 2014
+08:48 < a2n> haroldwu_: 這次不是漏聽，而是推不出去，更新防火牆規則就補齊了。
+17:25 < haroldwu_> 想問一個問題：就是有時候登入學校網路
+17:26 < haroldwu_> 有個界面可以輸入帳號密碼
+17:26 < haroldwu_> 那個是怎麼做到的呢？
+17:26  * haroldwu_ 我絕對不是要玩 man in the middle
+20:58 < a2n> haroldwu_: apache htaccess ?
+21:24 < petercommand> hmchen: web portal?
+21:24 < petercommand> 錯人了
+21:24 < petercommand> haroldwu_: web portal?
+21:24 < hmchen> ha
+21:24 < petercommand> haroldwu_: 以前玩untangle的時候也用過呢
+23:52 < haroldwu_> 不是喔，是無線網路，連上之後，進到web畫面，會跳出一個輸入帳號密碼的畫面
+23:52 < haroldwu_> 類似 iTaiwan 那樣
+23:58 < petercommand> http://markit.serveblog.net/wordpress/wp-content/uploads/2010/05/image014.jpg
+23:58 < petercommand> 之前用的是長這樣
+23:59 < petercommand> 不知道他怎麼做的
+--- Log closed 五  2月 07 00:00:09 2014

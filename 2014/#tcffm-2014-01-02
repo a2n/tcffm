@@ -1,0 +1,173 @@
+--- Log opened 四  1月 02 00:00:55 2014
+00:16 <@haroldwu> http://sealedabstract.com/code/nsa-proof-your-e-mail-in-2-hours/#comments
+00:16 <@haroldwu> 不懂這篇是要表示「就算自架mail server 也會被監控」
+00:16 <@haroldwu> 還是「自架server就很安全」
+00:17 <@haroldwu> 不過我覺得如果把郵件內文寫成小篆文言文圖片
+00:17 <@haroldwu> NSA破解大概也頭大吧XDD
+00:20 < brli> haroldwu: 花錢買個漢學博士來就沒問題惹
+00:30 <@haroldwu> 也是 QQ
+00:31 <@haroldwu> 自製暗語、詩之類的XD
+00:32 <@haroldwu> 話說手機壞了，老母竟然去弄了一隻 htc desire 200 給我 @@
+00:33 <@haroldwu> 雖然性能、熒幕蠻 low 的，不過也只是原本那隻智障型的替代品，還能接受 :P
+00:37 < guildwar> 不錯啊，desire 200 還滿新的耶，才半年而已
+00:40 < ronmi> 他是說自架比較安全 但實際上，如果別人是從GMAIL寄來或是你寄到GMAIL去，那一樣沒用
+00:41 < guildwar> 當然，都自己架了，就不能再和 gmail 通，不然就白搭
+00:41 < ronmi> 以前smtp的s2s一般是plaintext transpot，國家要從中讀取也不是很難的事，現在的我不清楚有沒有加ssl或tls
+00:42 <@haroldwu> 如果雙方都用mutt類的東西讀，經過 gmail 應該還好？
+00:43 <@haroldwu> 還是GnuPG 對NSA來說家常便飯
+00:43 < ronmi> 沒吧，GPG雖然不是不可能破，但NSA應該不是從connection下手
+00:43 < guildwar> pgp 目前來說是安全的
+00:44 < ronmi> 要看你用多長的KEY 4096bit目前應該是沒辦法解 但是用2048以下就難講了
+00:45 < guildwar> 那倒是，現在都是 cluster 時代了
+00:45 <@haroldwu> 恩，不過咱討論的東西也還不是恐怖分子等級的，應該不會無聊到監控我們吧XD
+00:45 <@haroldwu> 現在的監視是過濾器類的嗎？
+00:46 <@haroldwu> 測試下：我要對總統府和立法院丟汽油彈
+00:46 < guildwar> 不見得是針對我們，但是每個人都留下記錄
+00:46 <@haroldwu> 哦懂了
+00:46 < ronmi> 應該是 搞個執行許可之後裝在google的data center或是定期去filter之類的
+00:47 <@haroldwu> 真麻煩 :(
+00:47 < guildwar> haroldwu: 像這種千萬不要說，如果過二天真的有人做這件事，你就等著被傳吧
+00:47 < ronmi> 台灣政府沒像USA花這麼多錢搞電信警察 safe啦
+00:48 <@haroldwu> 政治工具而已吧我猜
+00:48 < guildwar> 只要是 google 抓得出來就好
+00:48 <@haroldwu> http://kkovacs.eu/cool-but-obscure-unix-tools
+00:48 < ronmi> 台灣電信警察的永算都丟去買設備比較多
+00:51 <@haroldwu> 我現在在跑 youtube 下載，發現總流量可到 4MB/s
+00:51 <@haroldwu> 那平常那麼慢是爲什麼呢QQ
+00:52 < guildwar> 其實大家不需要自己去收集資料，因為各大廠商都已經將資料準備好了，只要想辦法從各大廠商去 "取用" 就好
+00:52 < guildwar> 這也是為什麼教主說讓 google 他們不要去收集個人資料
+00:53 < guildwar> 因為昨天累了一天，今天狂睡，沒人跟你搶頻寬 XD
+00:54 <@haroldwu> 教主都用fsf.org的機器收發信吧
+00:54 <@haroldwu> 哈哈也是XD 還是他會限制單一連線的速度之類的？
+00:54 <@haroldwu> 因爲我是十幾個youtube影片下載速度的綜合
+00:54 < guildwar> 不知道耶
+00:56 <@haroldwu> 好吧，睡覺了，大家晚安~！
+00:57 < guildwar> 晚安
+00:58 < brli> 教主？
+00:58 < guildwar> gnu 教 XD
+01:02 < guildwar> http://www.linuxpilot.com/industry/news/201212100101Richard-Stallman-Ubuntu
+01:03 < guildwar> 這篇有講到教主 :)
+01:07 <@haroldwu> 剛剛試了下一個叫tpp的文字投影片工具
+01:08 <@haroldwu> 好用！ aur 有包
+01:08 < guildwar> 可以開 pdf?
+01:08 <@haroldwu> 噢不是，他是用來做簡報的
+01:08 < guildwar> ok
+01:08 <@haroldwu> http://synflood.at/tpp.html
+01:08 <@haroldwu> 下次你要做ppt
+01:08 <@haroldwu> 就在tcffm報告，可以考慮用這個工具
+01:08 <@haroldwu> 超讚
+01:19 < guildwar> 剛你給的連結看到 rsyncrypto，讚喔，來試試
+01:23 < guildwar> 竟然要將 gzip 移除，換上 gzip-rsyncable，那這個要考慮一下了
+01:24 <@haroldwu> 改下pkgbuild就好啦
+01:25 < guildwar> 不用，直接安裝會自動替換，是說有點擔心其他程式的相容問題
+01:29 < guildwar> 理論上應該要完全相容才行
+01:33 <@haroldwu> http://tcffm.twgogo.org/forum/node/64
+01:39 < guildwar> 你有試中文？ 好像不支援耶
+01:40 < guildwar> 睡覺去也，明天再研究
+01:41 <@haroldwu> 中文噢，倒是還沒試:P
+01:44 <@haroldwu> 試了，我的可以
+01:45 <@haroldwu> 首頁大標題的部分會不至中
+01:56 < brli> Notice: Undefined variable: uris in openid_complete() (line 378 of /home/u739897258/public_html/forum/modules/openid/openid.module).
+01:56 < brli> Warning: in_array() expects parameter 2 to be array, null given in openid_complete() (line 378 of /home/u739897258/public_html/forum/modules/openid/openid.module).
+01:56 < brli> OpenID 登入失敗
+01:56 < brli> 嘖嘖XD
+01:57 < guildwar> 我可以登入
+02:02 < brli> 還是失敗
+02:02 < brli> 換個帳號登入@@
+02:08 < brli> Service Temporarily Unavailable
+02:08 < brli> 被我玩壞了？
+02:09  * guildwar 睡著了，我現在還是可以登入，看來你被暫時擋了
+02:10 < guildwar> 有看到 brli 在上面
+02:10 < brli> guildwar: 別死撐著身體，晚上就是要睡覺@@
+02:10 < brli> 我發現我又上線惹XD
+02:11 < guildwar> 閃人 XD
+02:11 < brli> 晚安
+19:21 < hmchen> 今天心血來潮, 又把 nb 裝上了 debian testing
+19:22 < hmchen> 距離上次裝 debian 應該隔了快五年了吧
+19:27 < guildwar> 水喔，還是 debian 好啦 :)
+19:29 < hmchen> 有那種不自由毋寧死的感覺
+19:30 < hmchen> wifi 還是得改 apt source list 手動上, 然後 firefox 跟 thunderbird 一樣還是 icexxx
+19:31 < guildwar> 沒辦法，debian 有他的堅持，不會變的
+19:31 < hmchen> 關於 debian 的作法完全可以理解
+19:32 < guildwar> 對啊，需要的可以自己手動來
+19:33 < hmchen> 就好像上次看到 facebook 上的小故事, 雖然沒直接關係, => 做個善良的人(debian), 要比做一個聰明的人 (ubuntu?) 困難得多
+19:33 < guildwar> 是喔，有這種比喻 XD
+19:33 < hmchen> 那個比喻是我加的
+19:34 < guildwar> 那 mint 是什麼人 :)
+19:34 < hmchen> XD
+19:34 < guildwar> 受不了 debian 的，可以去用 mint XD
+19:34 < hmchen> 原本的小故事, 是在講amazon創辦人的童年
+19:35 < hmchen> 就自以聰明, 講話傷害了他的祖母, 後來他祖父講了這句話, 將來你會理解, 做個善良的人, 要比做一個聰明的人困難得多
+19:36 < guildwar> ok, 了解
+19:36 < hmchen> 不過最近 ubuntu 的作法, 有些讓人不愉快
+19:37 < hmchen> 包含了 gui 配置, 跟上次提到的隱私問題
+19:37 < guildwar> gui 的配置怎麼了?
+19:37 < hmchen> 就那個 unity 跟 dash hud
+19:38 < hmchen> 雖然用了一陣子
+19:38 < guildwar> ok, 那 gnome 3 的呢? 有什麼意見?
+19:38 < hmchen> 但每次要找一些比較不常用的 application 時, 如果不知道名字, 會很難操作
+19:39 < hmchen> gnome3 不是很喜歡,我寧願用 LXDE
+19:39 < hmchen> 愛用國貨
+19:39 < guildwar> 原本改變就有很大的風險，人是習慣的動物
+19:39 < hmchen> 倒是對以前的 gnome2 沒啥意見
+19:40 < guildwar> 我不會說他們不好，只是我不習慣用，所以我不用 :)
+19:41 < hmchen> unity 有好有壞, 把常用的 application 放在左邊是不錯的作法, 尤其是現在都是寬螢幕
+19:41 < guildwar> 因為包括現在手機也都是如此啊，先打個頭，就幫你補其餘的
+19:41 < brli> 可是不支援多國語言輸入的東西...
+19:41 < hmchen> hud 也不錯, 但不知道正確名字時很麻煩
+19:41 < guildwar> 若連頭都不記得，那只好用眼睛慢慢從幾百個連絡人或 app 裡找
+19:42 < guildwar> 其實我覺得這樣滿有效率的
+19:42 < hmchen> 他的應用程式分類的界面設計, 反而沒有傳統選單方便
+19:42 < hmchen> 多數時間很有效率
+19:43 < hmchen> 確實多數的應用程式都知道 command line 名稱
+19:43 < guildwar> 但對沒用過的人就會找不到應用程式在哪裡
+19:43 < hmchen> 但剩下的 20% 實在是很頭大
+19:43 < hmchen> 比如說, 常用的計算機, N 年來從不知道執行叫啥
+19:44 < guildwar> 了解，反正我是覺得，不管你再如何改變，只要留下讓人選擇的餘地，就還好，不喜歡的人就自己換成 LXDE 或其他的
+19:44 < hmchen> 後來換到 hud 叫不出來, 最後去查 ps 才知道叫 gcal
+19:45 < guildwar> 不要強制切換，又不支援舊的，那就很討厭
+19:45 < hmchen> 我是覺得沒有 100 分的啦, 但上次試裝 ubuntu 13.10 後, 我是沒有打算再裝的意願
+19:45 < guildwar> 了解
+19:45 < hmchen> 不喜歡被人在背後胡搞的感覺
+19:46 < brli> ...還有萬惡的appindicator
+19:47 < brli> gcin/hime完全爆死
+19:47 < brli> 更別說一堆傳統的gtk程式都被打臉
+19:47 < guildwar> 光在背後亂搞這一點，就列為拒絕往來戶了 :)
+19:48 < hmchen> 我是覺得搞一次就黑了
+19:48 < guildwar> 其實看起來還好耶，會用 ubuntu 的還是會用
+19:49 < hmchen> 如果下一版的 LTS 沒放這些東西, 或許會再考慮吧
+19:50 < guildwar> 比較難 XD
+19:50 < brli> 反正一定會有熱血憤青做排毒版:p
+19:50 < brli> 到時候再去用用看
+19:51 < guildwar> 可是就算都拿掉了，難免趁著下次更新的時間又裝上奇怪的東東，所以還是不要想了比較好
+19:51 < hmchen> LTS 對工作用機器算是不錯的選擇, 也是當時換 ubuntu 的原因之一
+19:51 < brli> debian系的KDE除了本家以外，還有哪家做的好的阿？
+19:52 < brli> kubuntu是動不動就神奇崩潰，netrunner是不明所以的肥大(之前還抄襲Windows的視窗裝飾)，Mint用起來也是雜七雜八的預載軟體
+19:52 < hmchen> kubuntu? XD
+19:53 < hmchen> ha...
+19:53 < brli> 所以似乎還是跟本家往來最安全了？XD
+19:54 < brli> 不過現在是使用Chakra就是了
+19:54 < hmchen> 所以這世界還是需要 debian, 總還是有個安全的依靠
+19:55 < brli> 之前聽到的負面傳聞是ubuntu總體對上游貢獻的patch少到讓人覺得自私
+19:56 < brli> 相對於他塑造出來開放自由的形象
+19:56 < guildwar> 是沒錯，ubuntu 現在主力是在製造和別的 linux 的差異性，不然別人怎麼會選擇 ubuntu 呢?
+19:57 < guildwar> 之前 google 也是 don't be evil，現在呢? 這是商業公司的必經的吧
+19:57 < brli> 說無論是debian或者gnome或是翻譯上游都看的到吃不到
+19:57 < hmchen> 如果目標是打造讓非資訊從業人員也能用的 linux, 至少 ubuntu 做的還不錯
+19:57 < brli> 之類的
+19:57 < brli> 可是他跟社群生態悖離阿
+19:58 < hmchen> 你應該說, geek 跟普通人的使用習慣也是背離的 XD
+19:58 < brli> FOSS界對於企業責任這種事情似乎反應都很激烈就是了...
+19:58 < brli> 說的也是齁
+19:58 < brli> 等等等！我覺得我很普通人耶？XD
+19:59 < guildwar> 無法照顧到每一個人，只要大方向還沒違反，就閉隻眼吧
+19:59 < hmchen> 如果是我老爸這類的, 裝 debian 會出人命
+19:59 < guildwar> 像 mir ，雖然是他們自己的，但至少還是 GPL 啊
+19:59 < brli> 潛移默化中已經被改造成geek了？
+19:59 < hmchen> 裝 ubuntu 或是 mint 說不定還好
+20:00 < guildwar> ubuntu 本來就是想給初學者用的，拉 windows 的人過來
+20:01 < hmchen> "普通人"是不會開 terminal / console 的
+20:02 < guildwar> 對，所以 ubuntu 還做得不夠好啊
+23:02 < guildwar> 好像不錯用，緩解眼睛疲勞  https://play.google.com/store/apps/details?id=jp.ne.hardyinfinity.bluelightfilter.free
+23:03 < guildwar> android app
+--- Log closed 五  1月 03 00:00:56 2014

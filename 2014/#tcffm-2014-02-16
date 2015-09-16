@@ -1,0 +1,39 @@
+--- Log opened 日  2月 16 00:00:22 2014
+01:16 < haroldwu_phone> 測試測試
+01:16 < haroldwu_phone> 來自手機
+14:08 <@haroldwu> 不知不覺 irssi 開的頻道越來越多了...
+14:08 <@haroldwu> 而且到處都會看到同樣的人 XD 例如 jjhuang
+14:11 <@haroldwu> guildwar: 可以來弄個 awebuntu 之類的 XD
+15:23 < brli> 有辦法做到本機server嗎？
+15:24 < brli> 像是nginx或apache只開放讓本機的應用程式連線，外部進來的一律拒絕？
+16:10 < guildwar> brli: 以前是要用 L7-filter，不知道現在是否整合到 iptables 中了 http://l7-filter.sourceforge.net/
+16:11 < guildwar> 現在好像直接用 firewalld 就可以直接控制哪個應用程式可連出去  http://fedorahosted.org/firewalld
+16:12 < brli> 看起來還是得靠其他設定呢
+16:13 < guildwar> haroldwu: 我對 buntu 沒興趣啦，不過最近改用你之前介紹的 herbstluftwm，配合 trayer 還不錯用，目前遇到唯一困難是在遊戲進入全螢幕模式後，若再切回一般視窗，再也回不去遊戲了，只能 kill 再重啟遊戲
+16:15 < guildwar> brli: 我 man 了一下 firewalld，可以直接設定吧
+16:22 < guildwar> 又看了一下你的問題，只本機連不就 listen 127.0.0.1 就好，外面的也連不進來
+16:29 < brli> 對！
+16:29 < brli> 好主意耶！
+22:20 <@haroldwu> guildwar: 沒有中文顯示問題嗎？
+22:20 < guildwar> 有吧，但不影響使用啊
+22:22 <@haroldwu> 有點受不了 XD
+22:22 < guildwar> 了解
+22:22 <@haroldwu> 其實之前 alan 大大講的什麼 dwm 使用方式完全類似 herbstluftwm
+22:22 <@haroldwu> 而且有 utf-8 patch 可以打
+22:23 < guildwar> 不過我試了 i3 也一樣有 fullscreen game  回不來的問題
+22:23 < guildwar> 來試試 dwm + fullscreen 好了
+22:24 <@haroldwu> fullscreen game 那款？
+22:24 <@haroldwu> openarena 可以耶？
+22:24 < guildwar> wine 的 diablo2
+22:24 <@haroldwu> XDDDD
+22:25 <@haroldwu> 搞不好是 wine 的 bug
+22:25 < guildwar> openarena 可以喔，我來試試
+22:51 < guildwar> 我試 openarena 回不來耶，該不會你不是設定 fullscreen mode
+22:53 < guildwar> 按 super + tab 沒反應，就算設成 fullscreen off，一旦滑鼠點進 openarena 視窗，focus 就再也出不來，除非關閉 openarena
+22:54 <@haroldwu> focus在所有 DE 跟 WM 下都會出不來...
+22:54 <@haroldwu> 測過了
+22:55 < guildwar> 所以 openarena 不能玩到一半跳出來
+22:59 <@haroldwu> 對...
+23:00 < guildwar> 那就不用試 openarena 了，我要的是遊戲還在進行中，出來一下再回去繼續
+23:03 < guildwar> dwm 也回不來，目前只試到 awesome 可以
+--- Log closed 一  2月 17 00:00:23 2014

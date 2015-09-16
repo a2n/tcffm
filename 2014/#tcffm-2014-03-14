@@ -1,0 +1,18 @@
+--- Log opened 五  3月 14 00:00:42 2014
+00:06 < guildwar> 用 gpg-key2ps 做出一張就長這樣 http://imagebin.org/299132
+00:07 < guildwar> 所以可以跟 28 人交換 pgp key XD
+00:20 < haroldwu> key 跟 fingerprint
+00:22 < haroldwu> 這是什麼版本管理啊？怎麼編譯 gpg-key2ps
+00:27 < guildwar> 不用編，直接抓回來，加上可執行權限即可(在 arch 上先安裝 signing-party-svn，就會將相依性補足，否則可能無法 run)
+00:27 < guildwar> http://anonscm.debian.org/viewvc/pgp-tools/trunk/gpg-key2ps/gpg-key2ps?revision=519&view=co
+18:03 < guildwar> 對了，另外有一點要注意，通常要簽署 pgp key 前，不是都會核對身份證明，之前遇到外國人不幫我簽，因為我 email 上用的名字，和身份證上的中文字不符，就算護照也不同，對方沒辦法確定這個就同一個人，因此，要省麻煩的話，在建立 pgp key 時，最好依照護照上的英文名字來設定
+21:47 < haroldwu> XD 還有這樣的，真龜毛
+21:53 < guildwar> 必要的吧，假如是 debian 的 DD，若是無法確認是這個人，那一般人怎會放心使用他所包出來的 package 呢?
+21:54 < haroldwu> 也是..我pgpkey 是用中文啦，肯定跟護照一樣
+21:54 < guildwar> 用中文就帶身份證即可 :)
+23:00 < guildwar> 最近試用了 cinnamon 及 gnome3，發現他們都不受 xrandr 控制了，譬如我用小 WM 時，在 notebook 外接一個螢幕，平常都用 xrandr --output LVDS1 --off 來將原本 notebook 的螢幕關閉，只使用外接的
+23:01 < guildwar> 但在 cinnamon 及 gnome3 下，無法用 xrandr 來將螢幕關掉，真是滿討厭的
+23:02 < guildwar> 這樣逼得大家一定要用他們提供的工具才行
+23:48 < haroldwu> xfce 還是聽 xrandr 的話 XD
+23:59 < brli> kde 好像也聽 :p
+--- Log closed 六  3月 15 00:00:44 2014

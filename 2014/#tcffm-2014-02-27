@@ -1,0 +1,66 @@
+--- Log opened 四  2月 27 00:00:21 2014
+00:02 < guildwar> 沒用 postgresql 耶 XD
+00:05 < haroldwu> 好吧 @@ 那若是 mysql 類似的語法是？
+00:13 < guildwar> 我看看筆記有沒有，沒什麼機會加欄位 XD
+00:14 < haroldwu> 初次用 資料庫
+00:14 < haroldwu> 膽戰心驚
+00:15 < guildwar> https://dev.mysql.com/doc/refman/5.1/en/alter-table-examples.html 參考看看吧
+00:20 < guildwar> 看起來你的指令應該沒問題
+00:25 < haroldwu> 不知道有沒有更好的表格設計，我目前的表格是張這樣：
+00:25 < haroldwu> date | 股票名稱 | 股票名稱 | ....
+00:26 < haroldwu> date 是 yy/mm/dd
+00:26 < haroldwu> 股票名稱是 TW+號碼，例如中鋼 TW2002
+00:27 < guildwar> 看你的需求去設計吧
+00:29 < haroldwu> 第一次用資料庫，不知道所謂關聯式到底是什麼意思
+00:33 < guildwar> 我也搞不懂 :)
+00:33 < guildwar> 通常我用都是直接修改內容而已，沒去做其他複雜的動作
+00:34 < haroldwu> 剛剛看，沒有看到新增加的欄位
+00:35 < haroldwu> 不過竟然沒有報錯，怪怪的
+00:35 < haroldwu> 啊，因爲沒有 commit :P
+00:38 < guildwar> 這個是關聯吧 http://note.tc.edu.tw/267.html
+00:44 < haroldwu> 看起來成功了
+00:45 < haroldwu> 速度蠻快的。我剛剛寫程式把某隻股票2013-2009的所有當日收盤價拉下來
+00:58 < Luxun> 有人有試過讓PHP去跑java嗎？我現在是用exec去作，可是只有辦法執行java myjava，沒辦法執行javac myjava.java，有人有辦法嗎？
+01:09  * haroldwu 完全不會 php 也不會 java QAQ
+01:13 < guildwar> 取代 google hangout 的 jitmeet  https://www.youtube.com/watch?v=x-YGw3bgB_s
+01:20 < haroldwu> 嘖嘖，忘記加 index，資料庫一團糟 XD
+07:38 < a2n> guildwar: 原來還要 ^^. 退出啊，難怪昨天斷了就不易連上
+07:39 < a2n> haroldwu_: 把表結構製成 google spreadsheet 來看看
+07:41 < a2n> Luxun 把代碼貼出來看
+07:47 < a2n> haroldwu_: http://goo.gl/vuD0q8 這是我的 db scheme
+07:49 < a2n> haroldwu_: http://goo.gl/8rbKzz 當初的爬蟲筆記
+07:50 < a2n> 我用 sqlite 裝資料 http://sqlite.org/speed.html
+09:23 < haroldwu_> 等等喔我貼一下
+09:23 < haroldwu_> 話說用 postgresql 的原因是因爲倒是這批資料想連同程式放在 redhat 的 openshift 上，
+09:24 < haroldwu_> 似乎沒有支援 sqlite
+09:24 -!- mode/#tcffm [+o haroldwu] by ChanServ
+10:01 <@haroldwu> http://goo.gl/lhQmYD 目前的設計
+10:21 < a2n> haroldwu: StockInfo 的資料看起來挺好的，但是和股價的關聯是？能預測未來走勢嗎？
+10:27 <@haroldwu> 恩，作指標的時候會用到
+10:29 <@haroldwu> 現在是 crawler 都沒問題了，單純是想要存下來離線用而已。話說什麼是 transaction
+10:31 < a2n> haroldwu: 批次處理，一次新增十萬筆資料，比十萬次一筆快上很多。
+10:31 < a2n> 還有其他的優點，例如 roll back
+10:32 < a2n> 資料錯誤可以復原
+13:56 <@haroldwu> a2n: 在嗎
+13:56 <@haroldwu> 兩個問題
+13:57 <@haroldwu> foreign key 可以之後再設嗎？還是那個母表必須一開始就存在？
+14:15 < a2n> haroldwu: 母表要存在
+14:15 <@haroldwu> ok，那我先建一個母表。
+14:15 <@haroldwu> CREATE TABLE Profile ( No INTEGER PRIMARY KEY, MarketNo TEXT, MarketName TEXT,
+14:15 <@haroldwu> );
+14:16 <@haroldwu> 他說我語法錯了，哪裏錯了？
+14:17 <@haroldwu> 喲，最後一個 column 多了一個 ","
+14:28 <@haroldwu> http://yfwu.logdown.com/posts/181207-postgresql-stock-database-records <-- 目前的筆記，持續更新，求建議
+15:16 < a2n> haroldwu: 我看了筆記，深深體會什麼叫「資料保存」的重點。因為 twse 的資料也是很糟... :( 所以現在我都把 raw data 塞在 db
+15:16 < a2n> haroldwu: highlight 是自己標？還是自動？
+15:17 < a2n> haroldwu: 「給學弟妹們的建議」觀點有趣！ :D
+16:19 <@haroldwu> 哎呀，你竟然往前點 XD
+16:19 <@haroldwu> 你說 syntax highlight 嗎，是他自動的，github 風格的 markdown
+20:29 <@haroldwu> 今天有學弟問我說 他用的某個發行板(kali)軟體版本號落後很多，他想要比較新版的軟體，能不能添加 ubuntu 的源。我查了一下這樣回答他：
+20:30 <@haroldwu> 你只要把ubuntu的源直接加進去就好，源的順序只有在當兩個以上的源有相同名稱相同版本號的包時，才有影響。如果兩個源有相同名稱但是是不同版本號包，除非有特殊設定 apt 不要更新，不然一律以最新的為主。
+20:30 <@haroldwu> 這樣講對嗎？
+20:48 < brli> kali→debian stable
+20:48 < brli> 最好不要混下游，免得水質汙濁恕不負責w
+20:48 < Luxun> 我們的聚會時間還被掛在上面，要反應一下嗎？
+20:48 < Luxun> http://www.openfoundry.org/index.php?option=com_content&task=view&id=9180&Itemid=115
+--- Log closed 五  2月 28 00:00:22 2014

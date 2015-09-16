@@ -1,0 +1,276 @@
+--- Log opened 一 12月 16 00:00:31 2013
+09:43 <@haroldwu> guildwar: 今天晚上又要麻煩你載咯~
+09:50 <@haroldwu> 來試試dwm
+09:50 <@haroldwu> 晚上一邊聽網樂通，一邊把 irc bot 重構下@@
+13:04 < guildwar> haroldwu: ok
+13:53 < guildwar> haroldwu: 為什麼你的三句話的 nick 部份，第一句我看起來和第二、三句的顏色不同?
+13:56 <@haroldwu> 因爲我有tag 你啊
+13:56 <@haroldwu> guildwar: 這是會變色的部分
+13:56 < guildwar> yes
+13:56 < guildwar> 怎麼 tag?
+13:57 <@haroldwu> 有沒有東西可以記錄每個process的歷程曲線？
+13:57 < guildwar> sar 之類的吧
+13:57 <@haroldwu> 你剛剛就tag我兩次了啊
+13:58 < guildwar> ok，我了解 :)
+13:58 <@haroldwu> 我想用i3可是有時會突然卡死
+13:58 < guildwar> atop 也不錯
+13:58 <@haroldwu> 只看到load狂升，但是我想知道是什麼造成的
+13:59 < guildwar> atop 會在 cron 中，每十分鐘記錄一次，事後可以直接拿來播放
+14:01 < guildwar> 其實最簡單用 cron 每一分鐘跑一次 top -n 1 即可
+14:06 < guildwar> 通常在 ~/.xsession-error 中可以看到一些訊息
+14:06 <@haroldwu> 好
+14:06 < guildwar> .xsession-errors 才對
+14:06 <@haroldwu> 誒，可是跑top -n 1總是要存到什麼地方呀
+14:06 <@haroldwu> 所以是要寫過腳本的意思了@@
+14:10 < guildwar> 就在 cron 中放入  top -n1 > $(date +%Y%m%d-%H%M.txt)
+14:11 <@haroldwu> 速度真快...
+14:11 < guildwar> 然後自已多個檔來比較，用 atop 會省事一點
+14:16 <@haroldwu> 放到cron中了
+14:17 <@haroldwu> 應該會把結果存到/tmp下，我把你的指令改成  top -n 1 > /tmp/$(date +%Y%m%d-%H%M.txt)
+14:17 < guildwar> ok
+14:17 < guildwar> 多久跑一次?
+14:18 < guildwar> 應該要 1 分鐘才抓得到東東吧
+14:19 <@haroldwu> 前面是 */60 * * * *
+14:19 < guildwar> 這樣是 60 分跑一次 XD
+14:20 < guildwar> * * * * * 才是一分鐘
+14:20 <@haroldwu> 哦~！
+14:20 <@haroldwu> XD
+14:20 <@haroldwu> 難怪都沒東西
+14:22 <@haroldwu> 奇怪，沒有東西生成也
+14:24 < guildwar> 有下完整路徑嗎?
+14:24 <@haroldwu> * * * * * top -n 1 > /tmp/$(date +%Y%m%d-%H%M.txt)
+14:24 <@haroldwu> 難道top都要指定哦XD
+14:24 < guildwar> /usr/bin/top
+14:24 < guildwar> 在 cron 中是沒任何路徑的
+14:26 < guildwar> 不然算了，直接用 top, 不要用 cron
+14:26 < guildwar> top -b -d5 | tee /tmp/top.txt
+14:26 < guildwar> 每 5 秒會寫一次到 /tmp/top.txt
+14:27 <@haroldwu> * * * * * /usr/bin/top -n 1 > /tmp/$(date +%Y%m%d-%H%M.txt)
+14:28 <@haroldwu> 還是沒有
+14:28 <@haroldwu> ok
+14:28 < guildwar> 你是用 crontab -e 還是放在 /etc/crontab 中
+14:28 < brli_> 怎嚜從XP的guset帳戶探查USER帳戶的密碼?有可能嗎??
+14:28 < guildwar> 若是在 /etc/crontab 中，要加上 user
+14:29 <@haroldwu> crontab -e 哦
+14:33 < guildwar> 那要看看 log 寫什麼了
+14:35 <@haroldwu> 好吧...@@
+14:52 < brli_> 不曉得有沒有理解錯誤: ftp除了頻寬以外，對於電腦速度來講主要是瓶頸在硬碟I/O能力?
+14:54 < guildwar> 應該是吧，我也不是很懂 :)
+14:56 < guildwar> 通常家裡的光纖，上傳都不大，所以硬碟速度大於網路，硬碟好壞就還好吧，但若是宿網可能就另當別論了
+14:56 < brli_> 學網應該不用擔心網路問題XD
+14:57 < guildwar> 所以硬碟就要買快一點的 XD
+14:57  * brli_ 看著傻大姐被騙去買入NAS中...
+14:57 < guildwar> 了解 :)
+14:59 < brli_> 好難搞...
+14:59 < brli_> 看起來他快被說服了....
+15:01 < guildwar> 要看需求耶，若你姊要的是方便，有何不可，因為若要搞到方便使用，你得去幫他架個 freenas　什麼的，還要教她使用，有時花點錢買方便也是 ok 的啦　
+15:02 < brli_> 不是我姐
+15:02 < brli_> 是我上司
+15:03 < brli_> 直接上owncloud其實就夠用了(?
+15:03 < guildwar> 我有時幫我姊搞了一些東東讓她用，但是步驟有好幾個，她們根本記不起來，後來我就放棄了
+15:03 < brli_> 行政系統很有趣...為了要活絡，只好找外包廠商來稿電腦
+15:04 < brli_> 但是...對於這種紋書為主的祕書推薦一堆高科技迷之產品好像真的很有用
+15:04 < guildwar> 這個又牽涉到另一個事情
+15:04 < brli_> [關係]
+15:05 < guildwar> 若是自己架，出問題要自己負責，若是買廠商產品，出問題就可以責任完全推給廠商，一般人都會選擇買產品，反正錢國家會出 XD
+15:06 < guildwar> 很少人會沒事找事幹的啦 :)
+15:07 < brli_> 就是這樣...
+15:07 < guildwar> 自己架弄得好就好，也沒什麼績效，弄得不好，還要被括一頓
+15:07 < guildwar> 所以，習慣就好
+15:08 < brli_> 只是這超級花錢，淘汰掉的電腦又抱緊緊的堆在角落不用///
+15:08 < brli_> 假如知道我心裡對那堆電腦多癢他大概會炒了我吧XD
+15:09 < guildwar> 所以囉，學習睜一隻眼閉一隻眼，除非你是那個決策的人，能改變什麼
+15:09 < brli_> 規格在現在都還是中高XD
+15:09 < guildwar> 不然日子很難過下去的
+15:09 < brli_> 也是XDD
+15:11 < brli_> 不過...到底該學著"先"睜眼閉眼呢，還是"永遠"睜眼閉眼XD
+15:11 < brli_> 也可以想辦法去說服做決策的人XD
+15:12 < guildwar> 那你要先準備好，譬如先架好 owncloud 起來，讓他當場比較，才有辦法說服
+15:14 < guildwar> 每個環境不同，自己去判斷什麼時候該睜眼閉眼 :)
+15:15 < brli_> ;)
+15:17  * brli_ 雖然工作用電腦只給了guest帳號登入，但居然瞬間因為Administrator密碼為空而被我破了@@
+15:18 < guildwar> 是喔，好像也是，若是 root 沒密碼，su - root 就可以直接變 root 啦
+15:19 < guildwar> 但是 guest 就......
+15:19 < brli_> 這種超級低階的破解手法應該會被職業的駭客嘲笑吧XD
+15:19 < brli_> 不過取得權限的目的達成了(X
+15:19 < guildwar> 低調......
+15:21 < brli_> 很低調喔XD
+15:21 < brli_> 安裝完ircclient順便幫忙更新所有軟體以後就登出了
+15:22 < brli_> 現在也很安逸的待在guest帳號下面
+15:22 < guildwar> good guy :) 不過不是應該要通知他們改嗎？不然下次別人有沒有這麼 good 就不得而知了 XD
+15:23 < brli_> 大老闆現在在國外
+15:23 < brli_> 直屬上司目前正在被說服中
+15:23 < brli_> 所以...XDD
+15:23 < guildwar> 當做沒看到吧 :)
+15:23 < brli_> 對啊")
+15:24 < brli_> 希望不要被愚蠢的行政體系究責Orz
+15:24 < brli_> 我只是一介草民ㄚ
+15:24 < guildwar> XD
+15:27 < brli_> 嘛~這種灰色地帶上的豆知識就當作是自我內心良善的証明吧
+15:27 < brli_> XD
+15:28 < guildwar> 看你能撐多久.... 而不被同化....... XD
+15:30 < brli_> 現在連使用家裡電腦都是開自己的隨身碟裡幾乎等於大補帖的可攜版FOSS在用Orz
+15:30 < brli_> 完全不想再被說搞的人家電腦壞掉了
+15:32 < guildwar> 這麼慘，家裡沒有自己的電腦喔，也是，沒住家裡幹嘛留一台，浪費
+16:02 < hmchen> 今天要載小女去看醫生, 今天就不能過去了
+16:04 < hmchen> 果然討論區發言後不能刪除的問題, 馬上就遇到了...
+16:06 < guildwar> :)
+16:16 < hmchen> 最近在測試 ustream, justin.tv, 以後聚會可以搞線上直撥
+16:16 < guildwar> 問題是，那裡的 wifi 撐得住嗎？ 會不會以後不給用 wifi 了 XD
+16:17 < hmchen> bitrate 別設太高
+16:17 < guildwar> 還有另一家 bambuser　可試
+16:17 < hmchen> 256kbps 應該還好
+16:18 < hmchen> 正常情況, 對外應該有 2~6Mbps 吧
+16:18 < guildwar> 有吧
+16:18 < hmchen> 所以佔個 256~512k, 應該還不至於影響到其他客人
+16:18 < brli_> justintv已經有成功在Linux執行過了(擷取桌面)
+16:19 < hmchen> 推 640x480, 10fps 應該夠用
+16:19 < brli_> 但是不曉得可不可以順利擷取視訊鏡頭
+16:19 < hmchen> 可以
+16:19 < brli_> lol
+16:19 < hmchen> 我是打算弄到 RPi 上, 今天在 build ffmpeg
+16:19 < hmchen> 不過 RPi 沒 audio input ...
+16:20 < brli_> 笑倒
+16:20 < hmchen> 如果是 PC, 接 usb webcam 是很容易, 不用寫 code
+16:21 < hmchen> ffmpeg 也有現成可用的版本
+16:21 < guildwar> 弄另一個 mumble server，聚會中一個人收音 XD
+16:22 < hmchen> RPi 上面, 用 raspbain 預先提供的 ffmpeg 套件似乎有問題
+16:23 < hmchen> 用 raspivid --> ffmpeg --> ustream, 只有第1張畫面,  後面不會動
+16:24 < hmchen> 打算更新 ffmpeg 到 2.1, 但直接在 RPi 上編譯 C code 真是噩夢一般的慢...
+16:24 < guildwar> 還是 cross 比較快啦
+16:25 < hmchen> 恩, 應該找時間準備一下 cross compiler
+16:26 < guildwar> 我之前有試過， http://guildwar23.blogspot.tw/2012/11/debian-wheezy-amd64-cross-compile.html
+16:26 < guildwar> 差了不少時間
+16:27 < hmchen> 速度天差地遠啊...
+16:27 < guildwar> 153 分　－> 30 分
+16:28 < hmchen> 你這是用 debian 提供的 cross compiler 的 .deb 包吧?
+16:28 < guildwar> 不是，是 rpi 提供的
+16:28 < hmchen> 喔喔喔~
+16:28 < guildwar>  https://github.com/raspberrypi/tools
+16:28 < hmchen> 那我用 ubuntu 應該也吃
+16:29 < guildwar> 應該沒問題
+16:29 < hmchen> 所以這個有跟 raspbian 的版本同步更新?
+16:29 < guildwar> 應該有吧，我後來就沒再 follow 了 :)
+16:29 < hmchen> 感覺不像...
+16:29 < guildwar> 應該 rpi 上有內建了吧
+16:30 < hmchen> 似乎是 Linaro 版本的 toolchain
+16:30 < hmchen> 更新日期是一年前
+16:30 < guildwar> 科科
+16:31 < hmchen> raspbian 應該會用沒強化過的 gcc toolchain
+16:31 < guildwar> ok
+16:31 < hmchen> Linaro 跟 CodeSoucery 一樣會補上一堆 patch
+16:32 < hmchen> 試試看好了, 頂多是弄個 VM 裝同版本的 debian
+16:33 < guildwar> https://launchpad.net/gcc-linaro/4.8 這個好像也是
+16:35 < hmchen> 最近在想怎樣弄出像 dropcam 一樣的東西, 但不用自己搞 service 營運
+16:35 < hmchen> ustream 這種不用錢的好像最簡單
+16:36 < hmchen> 但時間延遲很長
+16:36 < guildwar> 我之前試 bambuser 好像慢了三秒吧
+16:37 < hmchen> 3秒很快, dropcam 也是 3 秒左右
+16:37 < guildwar> ok
+16:39 < guildwar> 改天應該來試試 webrtc，不知道現在 1 對多的功能有沒有了
+16:40 < guildwar> 聽說現在的 android 都直接支援 webrtc 了
+16:40 < hmchen> 會搞這個也算是客戶提的需求
+16:41 < guildwar> https://www.webrtc-experiment.com/RecordRTC/
+16:41 < hmchen> 最近也在 ipcam 裡頭加了 ssh reverse tunneling, 開宗明義就是後門
+16:41 < hmchen> 讓工程師可以遠端除錯
+16:42 < guildwar> 要客戶手動開啟?
+16:42 < hmchen> sure
+16:42 < guildwar> ok
+16:43 < hmchen> 這麼危險的東西
+16:43 < hmchen> 當然不會自動開
+16:43 < guildwar> 對啊 XD
+16:44 < hmchen> 同樣的方法, 能不能做成 IPcam : port 80 <---> ssh tunnel <---> Internet Host : port 8080 ?
+16:46 < hmchen> 這樣即使躲在 firewall  後頭, 連網頁都可以開, 前題是 tunnel 要從 ipcam 主動跟外面建立
+16:48 < guildwar> 應該都沒問題吧
+16:49 < guildwar> 有點搞不懂你的需求
+16:50 < hmchen> 比如有 10 隻躲在 firewall 後頭的 ipcam
+16:51 < guildwar> 只要連得到你公司的 server 就沒問題了啊
+16:51 < hmchen> 一台 internet 上的主機, 讓 port 8080 ~ 8089 , 對應到 firewall 內部的 10 隻 ipcam 網頁 (port 80)
+16:52 < hmchen> 建 reverse tunneling 時, 指定 -L 8080:localhost:80 這樣的?
+16:53 < guildwar> 由客戶端 ssh -R localhost:80:0.0.0.0:8080   internet_host_ip
+16:53 < guildwar> 然後你那個 8080 只要 localhost 存取嗎?
+16:54 < guildwar> 若是，則 localhost:80:localhost:8080
+16:54 < hmchen> 當然 0.0.0.0
+16:54 < hmchen> 開 gateway 模式
+16:54 < guildwar> yes
+16:54 < hmchen> 穿防火牆是每個搞 IPCam 廠商的目標啊
+16:54 < guildwar> 了解 :)
+16:54 < hmchen> 不然就不用搞出 dropcam 這種東西了
+16:55 < hmchen> 然後我的目的是讓各地方防火牆裡頭的 ipcam, 用 internet 上的主機 relay 出去
+16:56 < guildwar> 了解
+16:56 < hmchen> dropcam 跟 ustream 雖然方便,  但只能看
+16:56 < hmchen> 不能變更設備組太
+16:56 < hmchen> 組態
+16:56 < guildwar> 是說改解析度等等
+16:57 < hmchen> 是的
+16:57 < guildwar> ok
+16:57 < hmchen> 如果可以網 port 80 relay 出去, 那就所有功能都可以控制
+16:58 < hmchen> 包含 audio/video 也可以 http tunneling
+17:05 < hmchen> 出門了, 謝啦~
+17:05 < guildwar> bye
+17:05 < guildwar> ls
+17:50 < guildwar> 哇，網樂通刷機刷死了，晚上沒東西玩，慘了
+19:05 <@haroldwu> 開始了，直播中~
+19:14 <@haroldwu> 測試~！訊息測試~！
+19:18 < hmchen> 瞎密~~~
+19:19 < hmchen> 剛回來坐下就聽到杯具
+19:21 <@haroldwu> 啥悲劇？你說死機嗎
+19:21 <@haroldwu> guildwar 救活了
+19:22 <@haroldwu> 準備中。我有 twitch 的帳號，可是 twitch 沒有 Linux
+19:28 < hmchen> USB 的系統應該好救多了
+19:35 <@haroldwu> 正在講解如何刷機中
+19:36 <@haroldwu> telnet 進去網樂通機器，得到韌體的 root
+19:37 <@haroldwu> 講解內建韌體的分割中
+19:45 <@haroldwu> 網樂通抓 ip 中
+19:51 <@haroldwu> dropbar
+20:23 <@haroldwu> sh4twbox
+21:10 < hmchen> 大家還在嗎?
+21:11 < hmchen> http://www.ustream.tv/channel/live-ipcam
+21:11 < hmchen> live video from raspberry pi on ustream
+21:13 < hmchen> 640x360 h.264 256kbps, 畫質尚可
+21:19 -!- haroldwu changed the topic of #tcffm to: 部落格：郵件列表: http://bit.ly/tcffm-forum | IRC-log：http://bit.ly/tcffm-irc-logs | 論壇：http://tcffm.twgogo.org/
+22:13 < guildwar> 簡報我整理一下，明天再弄上去論譠上 :)
+22:13 <@haroldwu> 好喔~
+22:29 < ronmi> 各位安全到家了嗎XD
+22:30 < guildwar> 溼了 XD
+22:37 < brli> hmchen: 現在在直播招財貓0w0
+22:57 <@haroldwu> hmchen: 結束直播了哦？@@
+23:07 < hmchen> 這種招財貓之類的小玩意, 常拿來測試
+23:07 < guildwar> 是喔，之前看都是用時鐘而已，現在比較先進了 :)
+23:07 < hmchen> 如果拍不會動的物體, 攝影機當了都不知道
+23:08 < guildwar> 要有秒針的那種
+23:08 < hmchen> 時鐘不流暢
+23:08 < guildwar> ok, 看不出來
+23:08 < hmchen> 只知道有動, ipcam 有時候會 lose frame
+23:08 < hmchen> 要拍這種的才看的出來
+23:09 < hmchen> 轉個方向 XD
+23:09 < guildwar> ok, 了解
+23:09 < hmchen> 大概 10 秒後會看到
+23:10 < hmchen> 等把這個放進 ipcam 裡頭, 勉強算是窮人版的 dropcam 吧
+23:11 < hmchen> 下回弄個 usb audio device 接 mic, 聚會就可以用這個直撥了
+23:12 < hmchen> 其實 anroid 手機也有 app 啦
+23:14 < guildwar> 有看到人了 :)
+23:14 < guildwar> 不錯耶，頻寬還滿小的
+23:14 < guildwar> 我要 firefox app 啦.......
+23:14 < guildwar> firefox os app XD
+23:15 < hmchen> h.264 的優勢
+23:16 < guildwar> 所以啊，mozilla 也不得不支援 h.264 :)
+23:16 < hmchen> 以後還會有 h.265 (HEVC), 號稱同畫質頻寬只要 h.264 的一半
+23:17 < hmchen> html5 的 video tag 有規範到這塊, 但 codec 有三種, vp6, h.264, theora, 支援哪幾種就看各家瀏覽器的 road map 了
+23:18 < hmchen> 記得之前有個列表
+23:19 < hmchen> 避免看到我的大鼻孔, 還是轉到招財貓好了
+23:19 < guildwar> XD
+23:20 < hmchen> http://en.wikipedia.org/wiki/HTML5_video
+23:20 < hmchen> wiki上有整理, 未來這一兩年 h.264 應該還是獨霸吧
+23:21 <@haroldwu> 有沒有什麼好玩的XD
+23:21 <@haroldwu> 招財貓不好玩:P
+23:22 < brli> 意外的看了覺得HP在回復XD
+23:22 < hmchen> 我那亂七八糟的桌子有啥好玩的
+23:23 < hmchen> 而起我把 camera module 用膠帶黏在 rpi 外殼上, 要喬整個機殼站好, 意料之外的困難
+23:24 < hmchen> 這支貓是日本旅遊買回來的大陸貨.......
+23:25 < hmchen> 除了我還有兩個觀眾~~ 應該是 brli 跟 haroldwu 了吧
+23:38 <@haroldwu> 沒錯~
+23:38 <@haroldwu> 不然拿些什麼來鏡頭前面晃下XD
+23:44 < hmchen> 我看還是讓這頻道下線好了 XD
+23:44 < hmchen> 老狗變不出新把戲
+--- Log closed 二 12月 17 00:00:33 2013

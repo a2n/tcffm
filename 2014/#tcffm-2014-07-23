@@ -1,0 +1,30 @@
+--- Log opened 三  7月 23 00:00:01 2014
+01:21 <@haroldwu> google app password 真好用 :P 完全不用去處理 authinfo 一類的
+01:21 <@haroldwu> 只有一個應用程式可以用，而且只限定進入某個服務 XDD
+02:44 < guildwar> 看來是 one time password, 讚，而且最適合用在第一次登入的裝置
+09:34 -!- Topic for #tcffm: 臺中自由軟體愛好者聚會 TcFFM 郵件列表: http://bit.ly/tcffm-forum | IRC-log：https://github.com/a2n/tcffm/ | 論壇：http://tcffm.twgogo.org/
+09:34 -!- Topic set by haroldwu [~haroldwu@unaffiliated/haroldwu] [Fri Jan  3 11:35:31 2014]
+09:34 [Users #tcffm]
+09:34 [@haroldwu] [ alexlu_] [ erhandsome] [ mosiwang  ] [ s8321414] 
+09:34 [ a2n     ] [ darkx  ] [ guildwar  ] [ NewCliCker] 
+09:34 -!- Irssi: #tcffm: Total of 9 nicks [1 ops, 0 halfops, 0 voices, 8 normal]
+09:34 -!- Channel #tcffm created Fri Aug  9 21:35:26 2013
+09:35 -!- Irssi: Join to #tcffm was synced in 54 secs
+16:26 -!- mode/#tcffm [+o haroldwu] by ChanServ
+16:28 -!- mode/#tcffm [+o haroldwu] by ChanServ
+16:32 <@haroldwu> 唔，搞定了用 irssi 連兩個 server
+16:32 <@haroldwu> 可是 autojoin 怎麼不會動呢... 還要手動 /j
+16:33 <@haroldwu> mozilla-taiwan 的 nick 都不認識 XDD
+16:41 < erhandsome> /channel add -auto #orz,#linuxbar,#archlinux-cn,#opensuse-cn,#fedora-zh,#gentoo-cn,#linuxdeepin freenode
+16:41 < erhandsome> 这样自动加入的吧
+16:42 <@haroldwu> 我寫在 ~/.irssi/config
+16:43 < erhandsome> 在irssi里面运行后
+16:43 < erhandsome> 再 /save
+16:43 <@haroldwu> 有進入 irc.mozilla.org，可是沒自動進入頻道。 freenode 的有
+16:45 < erhandsome> /server 命令输出的mozilla完整信息是什么啊
+16:46 < erhandsome> 还是你没有自动登录mozilla的irc服务器？
+16:47 < haroldwu> 不確定 XD
+16:47 -!- mode/#tcffm [+o haroldwu] by ChanServ
+16:48 < haroldwu> 欸有了，我剛剛重開了一次就有了
+16:54 -!- mode/#tcffm [+o haroldwu] by ChanServ
+--- Log closed 四  7月 24 00:00:02 2014

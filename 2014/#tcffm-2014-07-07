@@ -1,0 +1,109 @@
+--- Log opened 一  7月 07 00:00:38 2014
+09:40 < hmchen> 用最新版的 winetricks 安裝 M$ 版的 .net 4.5 成功
+09:40 <@haroldwu> 讚
+09:41 < hmchen> wget http://winetricks.org/winetricks
+09:41 <@haroldwu> 運作的如何？
+09:41 < hmchen> bash winetricks dotnet45
+09:42 < hmchen> '看起來' 很美好.... 但我要跑的軟體還是不行, 出現了我沒看過得 error message
+09:42 < hmchen> 今天要再換新一點的 wine 1.7 試試看
+09:44 < hmchen> 平常開 virtualbox/win7 就只是為了某個 .net 寫的 test tool, 覺得這樣實在很瞎
+11:10 < hmchen> 換了 wine1.7 還是一樣, 看錯誤訊息不像是 wine 或安裝 dotnet 的問題
+11:10 < hmchen> Inner exception: The method or operation is not implemented.
+11:12 < hmchen> 應該是用到了某個還未安裝的元件 , 在真正的 windows 下已經預先安裝的那種, 但 wine 沒有提供
+11:30 < guildwar> 那不要用虛擬的 windows 啊，直接將 windows 7 掛起來當 drive_c 就好
+11:40 < hmchen> 用 wine 掛 win7 partition / driver_c ?
+11:54 < guildwar> 將 windows 7 掛起來， 再做個連結到   ~/.wine/drive_c
+11:55 < hmchen> 剛剛查了 winehq 的討論, 這樣似乎很危險
+11:55 < hmchen> 以前有試過用 VMWare 掛 winxp 的實體 partition
+11:55 < guildwar> 是，有可能以後開不了 windows 7，我之前是 copy 一份過來
+11:55 < hmchen> 但 vmware 相對安全一點
+11:56 < guildwar> 反正試試而已，copy 一份過來，不行就砍掉，才能確定是不是 wine 的問題
+11:57 < hmchen> ok
+16:04 < hmchen> guildwar: 放棄了, 我把 win7 的 disk c 複製出來, run time 找不到 .Net, 應該是 wine 的 reg 機碼跟 win7 實體不共用, wine 認為系統中沒有安裝 .Net
+16:05 < hmchen> 只能期待未來 (遠目...)
+16:15 < guildwar> 真麻煩
+16:18 < guildwar> 看了 winhq 的 appDB，目前也只有五筆記錄，看來用 .net 4.5 的很少，不過其中有一行說要先裝 4.0
+16:18 < guildwar> Install with winetricks and install .NET 4.0 first.
+16:23 < hmchen> 如果用 winetricks 先裝 dotnet40 會跟 dotnet45 衝突
+16:23 < hmchen> 我是用 WINEARCH=win32, 直接 winetricks dotnet45 安裝到好
+16:24 < hmchen> 我猜 wine 或許比較適合跑舊版的 win32 app
+16:28 < guildwar> 看來太新還是沒辦法
+16:31 < guildwar> 你應該有設定成 windows 7 mode 吧，預設是 window XP
+16:46 < hmchen> win7 跟 winxp 都試過
+17:00 < guildwar> 發現一個像 owncloud 的軟體，有 RPi 版本，功能還滿多的，叫 cozy，demo 頁面 https://demo.cozycloud.cc/
+17:01 < guildwar> homepage:  https://www.cozycloud.cc/
+17:03 < brli_mS> guildwar: ++
+17:03 < brli_mS> 是直接上嗎?還是仍然要配合LAMP?
+17:06 < guildwar> 直接 dd 整個 image 到 sd 卡開機就好 :)
+17:08 < hmchen> http://cozy.io/host/install.html#raspberry-pi-image
+17:09 < hmchen> 還有其他板子用的 image
+17:09 < hmchen> RPi 512MB 算最低門檻了
+17:10 < guildwar> 最主要是想將我姊的手機資料備份，因為她們常在換手機，麻煩的要死
+17:11 < guildwar> cozy 有支援 webdav
+17:19 < guildwar> source code:  https://github.com/cozy/
+17:26 < guildwar> damn it, 目前只支援 CardDAV 及 CalDAV，還不支援 WebDAV，再等等吧
+20:30 -!- Topic for #tcffm: 臺中自由軟體愛好者聚會 TcFFM 郵件列表: http://bit.ly/tcffm-forum | IRC-log：https://github.com/a2n/tcffm/ | 論壇：http://tcffm.twgogo.org/
+20:30 -!- Topic set by haroldwu [~haroldwu@unaffiliated/haroldwu] [Fri Jan  3 11:35:31 2014]
+20:30 [Users #tcffm]
+20:30 [@haroldwu] [ a2n_  ] [ darkx     ] [ fntsrCloud_] [ macint0sh] [ op_logbot_  ] 
+20:30 [ a2n     ] [ alexlu] [ erhandsome] [ guildwar   ] [ mosiwang ] [ petercommand] 
+20:30 -!- Irssi: #tcffm: Total of 12 nicks [1 ops, 0 halfops, 0 voices, 11 normal]
+20:30 -!- Channel #tcffm created Fri Aug  9 21:35:26 2013
+20:30 -!- Irssi: Join to #tcffm was synced in 53 secs
+21:15 < hmchen> ubuntu unity 的 indicator 真的很惱人, xchat 的 icon 沒辦法顯示在 panel  上
+21:15 < guildwar> 所有的 icon 都不行喔，還是只有 xchat 不行?
+21:16 < hmchen> 有時後按到視窗的 [ X ] 後, xchat 跑在背景, 但沒任何方法可以讓 window 再 show 回來
+21:16 < hmchen> 神奇的是只有 xchat 會這樣, skype, dropbox 跟其他軟體都很正常
+21:17 < hmchen> 有裝了 xchat-indicator 但沒作用
+21:17 < guildwar> 了解，可能是 xchat 的 bug 吧
+21:18 < hmchen> 只在 unity 下如此, 跑 mint17, 或切換成 xfce, lxde 都很正常
+21:18 < hmchen> 很痛苦啊, 經常要 killall xchat 然後重再開個新的
+21:21 < guildwar> 這個 indicator 是 system tray 的功能?
+21:21 < hmchen> yes
+21:21 < guildwar> 看來只能回報 bug 了
+21:22 < hmchen> 2014/04 就有人回報了
+21:22 < guildwar> stardict 或 betaradio 會這樣嗎? 我比較常用這個而已
+21:23 < hmchen> 不知何時, 我已經被左邊那排啟動列給同化了, 用 mint 還不太順手
+21:24 < guildwar> 習慣了就不容易變，沒辦法
+21:24 < guildwar> 我現在實在也離不開 awesome XD
+21:25 < hmchen> stardict ... 完全看不到 icon.....
+21:26 < guildwar> 那應該就是 indicator 的問題了吧
+21:28 < hmchen> http://www.webupd8.org/2013/05/how-to-get-systray-whitelist-back-in.html
+21:28 < hmchen> 來試一下
+21:28 < hmchen> 確實 unity 改用 indicator 搞了很多麻煩出來
+21:30 < guildwar> 原來是預設關掉了喔
+21:30 < hmchen> apt source 已經加了一堆 ppa 的東西了, 每次手動 update 都等好久
+21:30 < hmchen> 不只是這樣
+21:30 < hmchen> 以前有個 whitelist
+21:30 < hmchen> 但現在把 whitelist 設成 'all' 也沒用
+21:31 < guildwar> 那能不能自己再手動跑另一個 systray 的軟體算了
+21:31 < guildwar> 像 cairo-dock 之類的
+21:31 < hmchen> 剛剛裝了 ppa:timekiller/unity-systrayfix
+21:31 < hmchen> 重新 login 試一下
+21:32 < guildwar> 哪有人都還要外加一些 PPA 才能讓系統 "正常" 運作的，滿奇怪
+21:33 < hmchen> 喔喔喔~~~ 淚流滿面
+21:33 < hmchen> 千呼萬喚終於給拎背死出來了
+21:35 < guildwar> 真是討厭，搞得那麼複雜
+21:35 < hmchen> 為何 ubuntu 從以前到現在都一直以人寫 10 things to do after installing ubuntu xx.xx
+21:35 < hmchen> 一直有人寫
+21:35 < guildwar> 是說 ubuntu 以後不直接支援 systray 嗎?
+21:36 < hmchen> 很久以前就不支援了
+21:36 < guildwar> ok
+21:36 < hmchen> 這也是 unity 為人詬病的其中一項
+21:37 < guildwar> 這樣搞，怎麼給初學者用呢? 真是的
+21:40 < hmchen> 請愛用 lubuntu 或 kubuntu XD
+21:42 < guildwar> 或 gnobuntu :)
+21:42 < hmchen> 我比較不能理解的是,  這個應該都是很常用, 一眼就看見的問題, 為何正式 release 的時候還是沒解掉?
+21:43 < hmchen> gnome3 就敬謝不敏了 ha ha
+21:43 < guildwar> 我覺得故意的吧，現在一版都只有 9 個月壽命，他們只重視 LTS 版本
+21:44 < hmchen> 是啊, 問題現在用的 14.04 就是 LTS 版,  還是搞這飛機
+21:44 < guildwar> 好吧 XD
+21:44 < hmchen> 用久了火氣都上來了, 才會灌 mint 想搞雙系統
+21:45 < guildwar> 等改天 lubuntu 改成用 lxqt 應該可以試試
+21:46 < guildwar> 說真的，用多重開機到後來也都固定用一種，只有偶爾出槌才會切去別的 XD
+21:46 < hmchen> 都是搞掛的時候才切到另一組當備援
+21:47 < hmchen> 一直以來都是 root partition x 2 + home partition x 1
+21:48 < hmchen> 剛升級都會遇到怪事, 工作要緊的時候就切回前一版用
+21:48 < guildwar> 對啊，不要太早升級，過個半個月再看看 XD
+21:49 -!- mode/#tcffm [+o haroldwu] by ChanServ
+--- Log closed 二  7月 08 00:00:40 2014

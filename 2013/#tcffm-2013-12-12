@@ -1,0 +1,43 @@
+--- Log opened 四 12月 12 15:55:22 2013
+15:56 < a2n> haroldwu: 可以開啟 /log open -targets #tcffm ~/irclogs/Freenode/#tcffm-%Y-%m-%d
+15:57 <@haroldwu> 啊，原來如此:P
+15:58 < a2n> 一次 git push 不知道耗多少 bytes 溝通
+15:58 < guildwar> 都純文字的還好吧
+15:59 < maxwux> a2n: 我想，現在先用 boxhost.me 的服務做官網吧！如果都用 rss 訂閱，server load 的部份應該是很OK的
+16:01 < a2n> guildwar: github 走 ssh，好奇背後的流量數字，像我們這樣來往，用 on-changes hooks 的話，也是可觀的，而且 github 速度反應挺慢的
+16:01 < a2n> maxwux: 好的，先撐著用。
+16:02 < guildwar> a2n: ok, 了解
+16:03  * guildwar 玩 irc 多人群聊果然要訓練，現在竟然可以容易的在一堆訊息中看出東東 XD
+16:04 < a2n> guildwar: 貌似早期社會顯學：速讀！ XD
+16:05 < a2n> 記得小時候學速讀，書上說的優點是：上公車快速找到位置。 -___-" 真是好技能！
+16:05 < guildwar> 剛開始用 irc 時根本來不及看，亂七八糟的，經過幾個月訓練，已經沒問題了 :)
+16:06 < maxwux> 我在玩線上遊戲的時候也是一樣
+16:06 < maxwux> 又要打怪又要喝水又要打字
+16:06 < maxwux> 還要看懂什麼訊息是重要的
+16:06 < guildwar> 對啊，那個才厲害，我沒辦法 XD
+16:06 < maxwux> 簡直.......
+16:07 < guildwar> 逃跑都來不及了，哪還有辦法打字 XD
+16:07 < maxwux> 難怪我們這輩的幾乎都還是愛玩單機遊戲
+16:07 < maxwux> 對了，steam os 明天要出了
+16:08 < maxwux> linux 離 遊戲世界 愈來愈近了
+16:08  * a2n 昨天和大陸同事聊天，按鍵精靈居然已經商業化了，反觀 vgod sikuli 是走向社群性質。大陸的市場很怪異啊啊
+16:09 <@haroldwu> 現在只玩...minecraft
+16:09 <@haroldwu> 電腦什麼都跑不動了
+16:09 < maxwux> 也許是按鍵精靈名氣大吧
+16:14  * a2n 剛才用 tcpdump 錄下 ssh 連上切斷，產生 24 bytes 而已，意外的小。github 主要都在網路等待。
+16:15 < a2n> haroldwu: minecraft 效果開啟太多也是會卡的，我的筆電風扇轉的很大聲
+16:16 < a2n> haroldwu: fog effect 還需要 64-bits cpu 呢～～ 好強大 XD
+16:36 <@haroldwu> 沒開他自己的特效...
+16:36 <@haroldwu> 我用額外的模組開光影~！:P
+17:08 <@haroldwu> 剛剛 CPU 每分鐘負荷爬到22
+17:08 <@haroldwu> 嚇死我了
+17:10 <@haroldwu> 現在回到 0.5多
+17:51 <@haroldwu> 禍首是chrome =。= 好棒棒
+17:52 < brli> 瀏覽器不意外...
+17:57 <@haroldwu> 才開兩個分頁...
+17:58 <@haroldwu> 1 min load average 從 0.5 爬到 22
+18:20 < brli> 出現了！！max大大跑去ubuntu洗宣傳文XDD
+18:20 <@haroldwu> 哪裏啊？！
+18:22 < brli> 原來是誤會XDD
+18:22 < brli> 正在熟悉akregator的介面XDDD
+--- Log closed 五 12月 13 00:00:27 2013

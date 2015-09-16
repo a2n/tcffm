@@ -1,0 +1,79 @@
+--- Log opened 日  4月 27 00:00:01 2014
+13:23 < brli> hi
+13:23 < guildwar> hi
+13:23 < brli> 問gpg問題：要怎麼加密檔案傳給別人？
+13:24 < guildwar> gpg -e
+13:24 < brli> 應該說，機制？
+13:24 < brli> 用對方的公鑰加密，對方用他的私鑰解密？
+13:25 < guildwar> 這種就不是 -e 了
+13:26 < guildwar> 沒錯，用對方公鑰加密，對方用私鑰解
+13:26 < brli> 例子：我有一個資料夾，要確保彌封到對方手上，中途沒人能知道資料夾內容
+13:26 < brli> 而不是大家都能看到，鑰匙只是拿來比對確認說這個檔案是我發的
+13:27 < guildwar> 先 tar 起來
+13:27 < brli> 那種比較像是Arch的repo的方法
+13:27 < guildwar> 資料夾乾脆用 encfs
+13:28 < guildwar> 不過要讓別人也能存取，要再用其他方式 export 出去(如 nfs, sshfs 之類的)
+13:28 < brli> 我覺得tar感覺不錯
+13:29 < brli> 現在有試著產生一個.zip.sig
+13:29 < brli> 要用我的phrase才能解壓縮
+13:29 < brli> 看來我還是沒能很理解這個機制
+13:30 < brli> 繼續讀文件先
+13:31 < macint0sh> 大家好
+13:31 < macint0sh> 我的没有gpg命令
+13:31 < macint0sh> 在什么软件包里边呢？
+13:32 < guildwar> macint0sh: 應該是 gnupg
+13:32 < guildwar> brli: http://jedi.org/blog/archives/002592.html#p9
+13:33 < macint0sh> guildwar: 没有这个包
+13:33 < brli> http://wiki.utshop.tw/doku.php/linux:encrypt:gpg
+13:33 < brli> 看來Arch那個比較像是簽名而不是加密！
+13:33 < macint0sh> guildwar: 找到了 谢谢
+13:34 < brli> macint0sh: ls -Al /usr/bin/gpg
+13:34 < macint0sh> 有的 app-crypt/gnupg
+13:34 < macint0sh> brli: 我还没安装
+13:35 < brli> 嗯
+13:35 < guildwar> brli: gnupg 可做二種加密方式，用 -e 加密配合 passphrase 是對稱式的，另外一種非對稱式的就是用對方公鑰加密，對方用私鑰解密
+13:36 < guildwar> 應該是吧，我再看仔細一點 XD
+13:37 < guildwar> 錯了，-e 是非對稱式，-c 是對稱式才對 XD
+13:37 < brli> 對稱式的兩者都要一樣的私鑰，which is security thread!
+13:38 < brli> guildwar: :P
+13:38 < guildwar> 對稱式的就不用私鑰了，直接給對方 passphrase 就好
+13:38 < brli> 能想到這步（公私鑰對）的加密技術，我覺得已經很極限了w
+13:38 < guildwar> 不過 passphrase 的傳遞就要用另外管道比較安全
+13:39 < brli> 例如口語傳送w
+13:39 < guildwar> yes
+13:39 < brli> 雖然聲波的保密性很低
+13:39 < guildwar> 這真是偉大的發明啊 :)
+13:40 < brli> 以前科舉時代的彌緘其實也是類似的概念，不過沒有鑰匙，只利用揮發性的有機毒物
+13:40 < brli> 亂開封會死人這樣wwww
+13:40 < guildwar> 好狠
+13:40 < brli> 為了確保閱卷的公平性阿w
+13:41 < brli> (刪除線)雖然在文章裡面暗藏密文還是能破解
+13:41 < guildwar> 太深奧了 :)
+13:45 < brli> 舊科舉中，閱卷官/正式官員是收件人有passphrase/私鑰，考生是發件人，彌封官是gpg軟體，負責簽署並加密考卷，中間人/駭客就是政府，要怎麼確保考生能順利中舉而不依賴文章功力，就是在文章裡面再另外附一份簽名檔（藏頭或特定關鍵字）讓閱卷官能順利辨識考生身份
+13:45 < brli> 說錯：中間人是其他所有任何人
+13:45 < brli> 確保考卷運送途中不會被竄改w
+13:45 < guildwar> 果然高招 :)
+13:46 < brli> 否則一般而言，閱卷官是無法知道考生身份的（會黏起來或者是另外有名冊（印象中
+13:47 < brli> 說實話，古中國一直以來各種駭客攻防其實很好拿來現在借鏡，只是要用不同語言描述而已w
+13:48 < brli> 加密技術從三次元現實轉換成虛擬數據
+13:48 < brli> 也難怪現在大陸各種奇葩的讓人無法理解的間諜或病毒軟體...以及防毒軟體wwwwww
+13:49 < guildwar> 完全沒有想到可以套用到那邊 XD
+13:50 < guildwar> 那是不是要設計成若三次密碼錯誤，format 硬碟 XD
+13:51 < guildwar> 不然怎麼對應到中毒死亡那招 XD
+13:52 < brli> 喔，不用當心，彌封通常使用的是蠟，所以容易嵌入有機毒，解封除了正常的先中和有機物以外就是用熱融化蠟，稍微不注意就會燒掉考卷了～XDD
+13:52 < guildwar> 原來如此
+13:52 < brli> 物理性的破壞密文的方法（無誤wwww
+13:53 < brli> 換句話說，私鑰其實是正確中和毒素的配方以及步驟w
+13:53 < guildwar> 沒錯
+13:53 < brli> 不過也只有一次性效果，eg 先找替死鬼解封，過幾天以後再去偷考卷w
+13:54 < brli> 反正有機物揮發幾天濃度就會降到無毒性
+13:55 < guildwar> 了解
+13:58 < brli> 也都只是歷史而已，現在誰還在那邊玩這種遊戲阿wwww訂書機訂起來或者直接叫閱卷機讀卡就好了wwww
+13:58 < brli> 或許這跟我們常被灌輸的刻板印象：「中國人超會抓bug」有關？為了找出不憑實力就能順利通過考試的方法XD
+13:58 < guildwar> 比較會鑽漏洞 XD
+14:00 < brli> yes XD
+14:11 < guildwar> 若是只想確保東西是由你寄出，沒有被動過，也不是別人冒名的，東西內容不重要，可以用 --clearsign 即可
+16:29 < guildwar> s3ql 滿有意思的 http://people.skolelinux.org/pere/blog/S3QL__a_locally_mounted_cloud_file_system___nice_free_software.html
+21:43 -!- mode/#tcffm [+o haroldwu] by ChanServ
+21:52 -!- mode/#tcffm [+o haroldwu] by ChanServ
+--- Log closed 一  4月 28 00:00:03 2014

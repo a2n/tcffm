@@ -1,0 +1,94 @@
+--- Log opened 五  1月 17 00:00:16 2014
+05:31 < brli> http://bone.twbbs.org.tw/blog/2012-05-10-BroadcastWithChatroom.html
+05:31 < brli> 可惜是java
+14:00 < guildwar> maxwux: https://drupal.org/SA-CORE-2014-001   安全漏洞又來了，這次是 OpenID 相關，Security risk: Highly critical
+14:04 < guildwar> CVE-2014-1475
+19:59 <@haroldwu> guildwar: 之前的 log 可以壓縮、寄給我一份嗎~
+20:00 < guildwar> ok
+20:04 < guildwar> 已寄出
+20:14 <@haroldwu> 感謝~
+20:15 < guildwar> 你要弄一個 irclog 網站?
+20:15 <@haroldwu> 沒，我剛剛本來以爲你的網站下線了...想說要一份之前的可以看 @@
+20:16 <@haroldwu> 剛剛想到，檢查下才發現你還有在記錄XD
+20:16 < guildwar> 了解，我是從 irssi 的 log 去轉的，但是若網路出問題，則會有缺少某部份
+20:17 < guildwar> 新的 log 就可以看了啊，還是你要找以前舊的訊息?
+20:28 <@haroldwu> 恩，我又想打包東西，找以前的記錄看下XD
+20:28 <@haroldwu> 哦，懂了，原來是從irssi轉的，用什麼腳本呢
+20:31 < guildwar> 自己寫的 script， txt to rdf
+21:54 < guildwar> haroldwu: 有沒有空要不要再來測 WebRTC?
+22:51 <@haroldwu> 現在嗎？
+22:51 <@haroldwu> ok哦
+22:51 < guildwar> 那我要打了
+22:51 <@haroldwu> 等，我打開
+22:54 <@haroldwu> 唔，竟然當了
+22:56 <@haroldwu> guildwar: OK
+22:56 <@haroldwu> 請撥
+22:57 < guildwar> 有通嗎?
+22:57 <@haroldwu> 沒看到東西
+22:58 < guildwar> 我也只看到自己的畫面
+22:58 < guildwar> 那掛斷我再撥一次
+22:59 < guildwar> 不行，there is no answer
+23:00 < guildwar> 看來只能你撥給我了
+23:00 <@haroldwu> 我剛剛試過了
+23:00 <@haroldwu> 也不同
+23:00 <@haroldwu> 會不會是防火牆？
+23:00 < guildwar> 可是我剛才有收到你撥來的耶
+23:00 <@haroldwu> 是哦？！
+23:01 <@haroldwu> 那怎麼不會同
+23:01 < guildwar> 你再撥一次看看
+23:01 <@haroldwu> 通
+23:01 <@haroldwu> 好
+23:01 <@haroldwu> 聽得到我碼
+23:01 < guildwar> 有了，但你的畫面是上下顛倒的 XD
+23:01 <@haroldwu> 嗎
+23:03 <@haroldwu> 額，這個不知道怎麼處理，似乎是驅動問題
+23:03 <@haroldwu> 我可以聽到你的聲音
+23:03 < guildwar> ok，那有聲音嗎?
+23:03 <@haroldwu> 你能聽到我的聲音嗎
+23:03 < guildwar> 我都沒聽到你的
+23:04 <@haroldwu> 唔，我看一下設備是那個
+23:04 <@haroldwu> 好像要重開才能改設備
+23:04 < guildwar> 對耶
+23:05 < guildwar> 那為什麼你打我可以接，我打你接不到，真奇怪
+23:05 <@haroldwu> 等一下，我可能得重開
+23:05 <@haroldwu> 因爲啓動的時候有指定設備
+23:05 < guildwar> ok
+23:05 <@haroldwu> 可能那時沒選對
+23:07 < guildwar> 這次沒看到你的畫面
+23:07 <@haroldwu> 再試試
+23:08 <@haroldwu> 我麥克風那邊列出了十來項東西...
+23:08 < guildwar> 是喔，我用預設的
+23:09 < guildwar> 我撥沒用，there was no answer
+23:09 < guildwar> 我的 mic 只有一個好選，還好 :)
+23:09 < guildwar> 你有看到我的畫面?
+23:10 <@haroldwu> 沒，什麼都沒有
+23:10 <@haroldwu> 現在怎麼撥不同了？
+23:11 < guildwar> 還沒斷線耶，那我掛掉
+23:11 < guildwar> 掛了，再撥
+23:12 <@haroldwu> 好
+23:12 < guildwar> 有畫面了
+23:13 <@haroldwu> 喲，可以接你的了
+23:13 < guildwar> 但是沒聲音，看來還不好用，畫面 lag 滿嚴重的耶
+23:14 <@haroldwu> 有聽到你的聲音啊
+23:14 <@haroldwu> 是哦
+23:14 <@haroldwu> 聽得到你
+23:15 < guildwar> 好吧，先這樣，可能是硬體 ram 512M 大小了吧
+23:15 < guildwar> 至少可以撥號了 :)
+23:15 < guildwar> 你的 notebook 是用 firefox ?
+23:16 <@haroldwu> 是
+23:16 < guildwar> 我用 notebook firefox 登入 persona 後都會立刻登出
+23:16 < guildwar> 所以才沒辦法一邊手機，一邊 notebook 試
+23:17 <@haroldwu> 懂了...
+23:17 <@haroldwu> 聲音很順
+23:17 <@haroldwu> 唔，你沒別台電腦？
+23:18 <@haroldwu> 哦好吧XD
+23:18 < guildwar> 沒 webcam
+23:18 <@haroldwu> 關掉咯
+23:18 < guildwar> ok, 謝了
+23:18 <@haroldwu> 這個沒很吃CPU啊
+23:18 <@haroldwu> 還可
+23:18 < guildwar> 你可以找你同學有 android 手機的試試，滿方便的，比 notebook 還方便多了
+23:21 <@haroldwu> 真的嗎
+23:22 <@haroldwu> 我看看
+23:23 < guildwar> 手機上要用 firefox，內建瀏覽器我測是會自動登出，而 chrome 沒試過
+--- Log closed 六  1月 18 00:00:17 2014

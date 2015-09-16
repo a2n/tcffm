@@ -1,0 +1,28 @@
+--- Log opened 五  1月 10 00:00:06 2014
+00:57 < brli> boxhost穩定度如何？
+00:57 < brli> 絨布容易被砍帳號？
+01:25 < darkx> 絨布XDD
+13:00 < guildwar> http://is.gd/9NCwdl   Ya, 今年有更多廠商支援 firefox os
+13:01 < guildwar> http://is.gd/PSU5r0 鴻海的 10 吋平板規格
+13:04 < guildwar> http://is.gd/rGafHE   via 的 apc 也開始要支援 firefox os 了
+13:07 < guildwar> http://is.gd/i5clxF    若想得到 via apc ，可到這裡幫忙修復 bug 即有機會獲得 :)
+13:13 < guildwar> http://is.gd/n8QU04    panasonic 要出 firefox os smart TV
+13:33 < hmchen> apc 只有後來的 rock  跟 paper 才能裝, 我手上的是第一代
+13:34 < guildwar> 原來如此
+13:34 < hmchen> 晾很久了, 因為幾乎是 android 2.3 限定
+13:34 < hmchen> 沒啥搞頭 蠻失望的 =.=
+13:36 < guildwar> 看了一下，GPU 是整合的，效能應該不好
+13:37 < hmchen> 有人做 raspbian 版的 boot image, 但我猜 media acceleration driver 沒整進去, 也就是當成沒有多媒體功能的 RPi
+13:37 < guildwar> 這種版本有什麼作用?
+13:37 < hmchen> 翻桌... 早知道買 beaglebone black 還強大的多
+13:38 < hmchen> 就 very low end android 桌機
+13:38 < guildwar> 了解
+13:38 < hmchen> 對, 你一定要接螢幕鍵盤滑鼠才能用  @@
+13:39 < hmchen> rock 跟 paper 比較有搞頭, 起碼是單核心 A9 的
+13:39 < guildwar> 有剪刀嗎?
+13:41 < hmchen> 直接絞了?
+13:41 < guildwar> 有 paper, rock，當然要有剪刀 XD
+13:42 < hmchen> 好樣的
+13:54 < hmchen> 連 apc io forum 都掛了
+13:54 < hmchen> 孤兒 ev board 啊...
+--- Log closed 六  1月 11 00:00:07 2014

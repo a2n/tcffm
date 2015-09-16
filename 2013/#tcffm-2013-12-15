@@ -1,0 +1,26 @@
+--- Log opened 日 12月 15 00:00:30 2013
+11:51 < haroldwu_> valve 那個 steamOS 竟然是基於debian
+11:51 < haroldwu_> valve 有眼光 XDD
+13:11 < guildwar> 是啊，千錘百鍊，不容易出問題吧，沒事不想給自己找麻煩
+13:30 < brli> title要不要加個論壇地址阿XD
+13:31 < brli> 順便廢掉ml?
+13:58 < guildwar> ml 是 google group？
+14:10 < brli> 黑，mail list 簡稱XD
+14:47 < brli> boxhost上的cron要怎麼使用？
+14:49 < guildwar> 這個要問 max 了，我沒用過 boxhost :)
+15:33 < guildwar> http://debian-administration.org/users/dkg/weblog/105  現在 pgp 似乎不大能用了
+15:42 < brli> guildwar: 只是說不要隨便把人可讀的東西變成只有機器可讀的東西而已阿？
+15:52 < guildwar> 可是那篇中有另外連結寫出 short keyid  和 long keyid 都有問題耶
+15:52 < guildwar> http://www.asheesh.org/note/debian/short-key-ids-are-bad-news.html
+15:52 < guildwar> https://www.ietf.org/mail-archive/web/openpgp/current/msg07195.html
+19:59 < guildwar> 看起來 pgp key 本身是沒問題，但是我們一般存取 key 所用的 short id 0xXXXXXXXX 或 long id 0xXXXXXXXXXXXXXXXX 是可以被偽造的，所以有可能在 key server 上有二個一模一樣的 id
+20:01 < guildwar> 但是我們一般使用 pgp 不都是這樣用，不然以後該用什麼方法使用 pgp key 呢? 用 email 或什麼? 現在都是用 gpg --recv-keys 0xXXXXXXXX 來匯入 pgp key
+20:05 < guildwar> 目前 gnupg 好像沒這功能，可能要等改版了
+20:05 < brli> 那篇文章後面就說了，用userid或日期
+20:05 < guildwar> 可是 gnupg 有支援??
+20:07 < guildwar> 感覺目前是沒法用的，沒看到什麼參數可以用 email 匯入
+20:08 < brli> 恩恩
+20:08 < brli> 也是呢...
+20:09 < guildwar> 所以在還沒解決之前，靠 pgp key 是有風險的 XD
+21:54 -!- mode/#tcffm [+o haroldwu] by ChanServ
+--- Log closed 一 12月 16 00:00:31 2013

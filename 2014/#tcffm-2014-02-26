@@ -1,0 +1,30 @@
+--- Log opened 三  2月 26 00:00:20 2014
+00:37 < haroldwu> ?!
+00:37 < haroldwu> 怎麼沒發現？
+02:27 < guildwar> 呵呵，保護眼睛的　https://www.youtube.com/watch?v=2cLZQ_CalPQ&feature=youtube_gdata_player
+02:28 < guildwar> 邪神大法 XD
+21:40 < haroldwu> 弄爬蟲
+21:40 < haroldwu> 被牆了 QAQ
+21:48 < guildwar> 哪裡，中國大陸?
+21:49 < haroldwu> 沒，一個叫 goodinfo 的股票網站
+21:51 < haroldwu> 看來是恢復了
+21:51 < guildwar> 了解，話說現在 archlinux 沒辦法更新耶，似乎 mirror 還沒完全準備好
+21:51 < guildwar> 通常會擋都是擋個幾分鐘就會再開啟，管理員不會給自己找麻煩的
+21:53 < haroldwu> 喔？
+21:55 < haroldwu> 他又開放了。不過爲了阻止他繼續牆我，開始寫 tor 的 wrapper XD
+21:55 < haroldwu> 恩，把掃下來的資訊存起來 =.= 不要一直存取他
+21:56 < guildwar> 對啦，能存下來就存下來比較好 :)
+22:02 < a2n> haroldwu: 要抓台股資訊嗎？ twse 不夠好？
+22:04  * a2n 
+22:04  * a2n 之前寫過 twse crawler，挺輕鬆的。
+22:18 < haroldwu> 沒，下午是在寫抓 twse 的，也就是我那篇 xpath 的指涉對象XD
+22:18 < haroldwu> 我還要抓股利及除權息等資訊
+22:26 < a2n> haroldwu: 公司揭露那個複雜多了，沒寫過
+22:28 < haroldwu> 來土法鍊鋼 postgresql 資料庫
+22:53  * a2n 菲律賓網路慢到耐心全無，裝了 mosh 明顯改善
+23:10 < guildwar> mosh 讚
+23:11 < guildwar> 不過有個滿麻煩的缺點，若是 client 沒正常結束，就再也連不上了，還得 ssh 進去 kill mosh 才行 XD
+23:58 < haroldwu> guildwar: 我像問一下，要在 postgresql 新增一個欄位，假設叫 foo，格式是單浮點
+23:59 < haroldwu> ALTER TABLE stockdb ADD foo REAL
+23:59 < haroldwu> 這樣對嗎？
+--- Log closed 四  2月 27 00:00:21 2014

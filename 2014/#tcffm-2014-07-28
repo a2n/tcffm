@@ -1,0 +1,58 @@
+--- Log opened 一  7月 28 00:00:08 2014
+09:51 < haroldwu> XD 所以你又能回去看貓圖了
+13:17 < guildwar> 不看了，都被 google 鎖一年沒用，表示我不需要 g+ 也能活得好好的，做人要有點志氣，不能招之即來、揮之即去 XD
+16:48 < guildwar> 科科，搞錯，是骨氣，不是志氣 XD
+18:22 < haroldwu> 有個 學生社群 Sinta Design 來留言 :P
+18:22 < haroldwu> 看起來比較像推銷 XD
+18:22 < haroldwu> 組成份子好像都是高中生一類的，跟 SITCON 又是另一批了
+18:47 < guildwar> 看了一下，一直強調是學生，那以後畢業了就一定要退出嗎? :)
+18:48 < haroldwu> 畢業了變學長，要捐錢
+18:49 < haroldwu> 對了，用什麼指令查一個指令他的本尊在哪裡？今天要找一個 softlink 的源頭找好久
+18:50 < guildwar> readlink
+19:03 < guildwar> 原來有免費的虛擬主機可申請(不過目前暫停中，7/30 遷到新主機再看看) http://lionfree.net/free-hosting.php
+19:19 < haroldwu> lionfree 我以前就聽說了
+19:19 < haroldwu> 不過不知道穩定度如何...不如問問 daniel 有沒有多打一點折，跟他買虛擬主機
+19:19 < haroldwu> XD
+22:07 < guildwar> http://talky.io/  改天再來試試另一個免費的 webrtc server，不用註冊、不用登入就可使用說
+23:34 < guildwar> 有人在開發 RPi 上 GPU 的 VC4 graphics driver 了，期待啊 http://www.phoronix.com/scan.php?page=news_item&px=MTc0Nzc
+23:35 < haroldwu> 如何列出安裝的檔案中最大的幾個呢？...@@
+23:36 < haroldwu> dropbox 更新又失敗了，原來是根目錄快滿了
+23:37 < guildwar> http://pastie.org/9426930
+23:38 < guildwar> 你根目錄開幾G? 我開了 15G 都不夠用（packages 及 aur 的東東都另外放)
+23:38 < haroldwu> 27
+23:39 < haroldwu> 唔，我還有一些遊戲的，urbanterror 什麼的
+23:39 < haroldwu> 來刪掉好了
+23:39 < hmchen> 應該是之前 RPi 辦的一個比賽, 把另一顆 broadcom bcm21553 的 vc4 source code 移植到 bcm2835
+23:39 < hmchen> 有 10,000 USD 獎金
+23:40 < guildwar> 你試試那個 script，會從最小排列到最大，一目瞭然
+23:40 < hmchen> phoronix 應該是追蹤後續進度, 不過我記得這個獎金已經被領走了
+23:41 < haroldwu> 有，果然 urbanterror 最大
+23:41 < guildwar> 可是這篇文章是說這個人這個月才加入 broadcom，才開始改的耶
+23:41 < haroldwu> 下次自己在家目錄自己編譯好了
+23:41 < hmchen> http://news.slashdot.org/story/14/02/28/1937251/broadcom-releases-source-for-graphics-stack-raspberry-pi-sets-bounty-for-port
+23:42 < haroldwu> 清了一下，瞬間從 99% 變 78% XD
+23:43 < hmchen> 當時的條件記得是用 open source 的 driver 跑 quake 就算過關了
+23:43 < guildwar> hmchen: 那個是之前舊 news，對 X 的速度沒什麼作用；現在新的是要改 drm code，對我們來說比較有用
+23:44 < guildwar> 可是那要每套軟體都修改，比較麻煩
+23:45 < guildwar> 現在 drm 直接支援，就所以程式都加速到了 (用 glamor)
+23:46 < hmchen> drm/dri 是指 2d 加速的部份嗎? 純
+23:46 < guildwar> glamor 就是 Glamor is a 2D rendering acceleration implementation that's based upon OpenGL
+23:47 < guildwar> 是，2D 加速部份
+23:47 < guildwar> 不對啊，drm/dri 的是 3D
+23:47 < hmchen> 所以之前的是 open source 3D driver, 現在是補上 open source 版 2D driver drm
+23:49 < guildwar> 但是 glamor 是直接用 OpenGL 來顯示 2D，之前 2D 和 3D 是不同方式達成，現在都改用 OpenGL
+23:49 < guildwar> 滿複雜的，我也搞不大清楚 XD
+23:50 < hmchen> 因為我想說獎金都被領走了, 這次是改了那一塊?
+23:51 < hmchen> RPi 現在的 2D 真的爆弱...
+23:52 < guildwar> 所以改天用 GPU 來顥示 2D 應該效能會好很多
+23:52 < hmchen> http://blog.barisione.org/2014-04/maynard/
+23:52 < hmchen> 這個還沒時間試
+23:55 < hmchen> http://raspberrypi.collabora.co.uk/maynard.html
+23:55 < guildwar> 目前只試 weston，其他的也都還沒試，還有 orbital 之類的 https://github.com/giucam/orbital
+23:56 < guildwar> 有現成的就比較方便，改天來試試 :)
+23:56 < hmchen> 已經可以實際安裝在 rpi 的版本了
+23:57 < hmchen> 話說上次 2014-06-20 的 raspbian 果真是挑 SD card, Adata class 6 開不了, 創見 class 4 就可以
+23:57 < guildwar> 是喔，真麻煩，還挑卡
+23:58 < hmchen> 應該是 sd 硬體初始化的時序問題
+23:59 < hmchen> 之前在 s3c2440 上也有類似問題,  某些卡片 reboot 後第二次 u-boot 居然抓不到
+--- Log closed 二  7月 29 00:00:05 2014

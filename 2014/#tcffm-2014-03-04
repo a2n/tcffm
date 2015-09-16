@@ -1,0 +1,49 @@
+--- Log opened 二  3月 04 00:00:28 2014
+11:56 <@haroldwu> 在更新 scheme48 鏈接的包
+11:56 <@haroldwu> https://db.tt/4arY34mF <--PKGBUILD
+11:56 <@haroldwu> 遇到一些問題 :P 求救
+12:02 <@haroldwu> 好吧，先來拿 scheme48-hg 來改
+12:26 <@haroldwu> 遇到問題是
+12:26 <@haroldwu> scheme48-1.9.1/c/scheme48write-barrier.h: Can't create 'scheme48-1.9.1/c/scheme48write-barrier.h'
+12:26 <@haroldwu> bsdtar: Error exit delayed from previous errors.
+13:42 < a2n> haroldwu: 這裡除了你會 scheme，是對誰求救？ :P
+14:01 <@haroldwu> 不是喔，在問 arch 的 pkg 打包問題
+14:22 < a2n> haroldwu: 這樣啊... :P
+14:29 <@haroldwu> 查了一下，好像是要改用什麼 GNU tar
+15:59 < guildwar> 奇怪的是，為什麼會去呼叫 bsdtar 而不是 tar 呢?
+16:08 < guildwar> 看了其他 package 也是用 bsdtar 來解，沒問題，但那個 scheme48-1.9.1.tgz 就無法用 bsdtar 來解
+16:09 < guildwar> 解到一半會失敗，這就是原因吧
+17:14 <@haroldwu> 搞不好是我裝的tar不一樣？
+17:27 < guildwar> 不是，看來是 www.s48.org 官方的 tarball 有問題，無法用 bsdtar 解出來，但 makepkg 又找不到參數可以改用 gnu tar
+17:31 <@haroldwu> 這個有點麻煩...來寫信問一下好了 QQ
+17:32 < guildwar> 對啊，也只能如此了
+18:08 <@haroldwu> guildwar: 你試試看 scheme48-hg
+18:08 <@haroldwu> 似乎有一樣的問題
+18:35 < guildwar> ok，我試試
+18:38 < guildwar> 我這邊不一樣耶，是 hg 指令出問題，找到到 s48 repository
+18:38 < guildwar> 找不到 s48 repository
+18:53 <@haroldwu> 恩，看來問題挺多的
+19:51 < guildwar> haroldwu: 你還想裝 scheme48-hg 嗎?
+19:52 < guildwar> 只要改 PKGBUILD 中，hg clone 那行 改成 hg clone "$_hgroot/$_hgrepo" build ，再將 patch 那行去掉，新版的不用 patch 了
+19:59 <@haroldwu> 好，我試試
+20:06 <@haroldwu> 有人回答了
+20:07 <@haroldwu> 因爲它在包裏面用了 soft link 的關係
+20:09 <@haroldwu> makepkg 有個參數 noextract
+20:09 <@haroldwu> 唔，但是這個要怎麼隨着 pkgbuild 發佈呢@@
+20:09 < guildwar> 若用 noextract 那要怎麼編，要手動來?
+20:10 < guildwar> 手動解開嗎？這樣太不人性化了啊 XD
+20:12 <@haroldwu> 對啊，我在問問
+20:13 < guildwar> 應該是想辦法讓 s48.org 將 tarball 不要用 soft link
+20:14 < guildwar> 不然對其他 bsd 的 os 都還得裝 gnu tar 才能解，這很機車
+20:20 <@haroldwu> 各種衝突...
+20:20 <@haroldwu> https://wiki.archlinux.org/index.php/PKGBUILD#noextract
+20:20 <@haroldwu> 這裏有解決辦法啦，來試試
+20:27 <@haroldwu> 好了，但是編譯時出錯了=.=
+20:30 <@haroldwu> https://gist.github.com/yfwu/9345663
+20:32 <@haroldwu> 看來又要幫他打patch了？QQ
+20:33 <@haroldwu> make: *** No rule to make target 'c/scheme48write-barrier.h', needed by 'c/scheme48vm-64.o'.  Stop.
+20:34 <@haroldwu> 奇怪，手動 ./configure --pre=/usr 就沒問題啊
+23:23  * haroldwu 已經改好了~！成功
+23:25 <@haroldwu> guildwar: 剛剛去 aur 傳新包，發現 scheme48-hg 之前變成孤兒也是被我撿來維護...
+23:43 <@haroldwu> 不過 scheme48-hg 人氣不旺，先擺著:P
+--- Log closed 三  3月 05 00:00:30 2014

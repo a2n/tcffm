@@ -1,0 +1,21 @@
+--- Log opened 一  9月 01 00:00:58 2014
+11:00 < haroldwu_cloud> 測試測試
+11:07 < guildwar> 最近發現　gmail 也會被退信，本來以為只有我，結果別人也說他也被退信
+11:07 < guildwar> http://www.openwall.com/lists/oss-security/2014/08/31/1
+11:14 < haroldwu_cloud> 又拿回了irccloud
+11:14 < guildwar> 可以一直免費用下去喔
+11:15 < haroldwu_cloud> 昨天問了g0v的人，他們說一個server就不會被趕走
+11:15 < guildwar> 了解
+11:15 < haroldwu_cloud> 因為預設有一個他們自己的srver
+11:16 < haroldwu_cloud> 刪掉他就不會被鎖
+11:16 < haroldwu_cloud> 重設密碼可以解鎖
+11:17 < guildwar> 還真麻煩　:)
+11:18 < haroldwu_cloud> 因為我這個irssi掛在a2n的機器上，在外面登ssh進去不安全
+11:18 < haroldwu_cloud> 怕側錄一類的
+11:21 < guildwar> 用 public key 就比較好
+11:21 < haroldwu_cloud> 但是學校圖書館是win呀XD
+11:22 < guildwar>  putty 也可以用
+11:22 < haroldwu_cloud> 我個人電腦是用 pubkey login 沒錯
+11:28 < guildwar> 以前試過用 puttygen 產生 key, 將 public key 放到 server 也一樣可以連
+21:45 -!- mode/#tcffm [+o haroldwu] by ChanServ
+--- Log closed 二  9月 02 00:00:59 2014

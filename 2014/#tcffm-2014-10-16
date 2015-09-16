@@ -1,0 +1,18 @@
+--- Log opened 四 10月 16 00:00:10 2014
+09:43 < guildwar_> firefox 關了 ssl 3.0 後，竟然不能看 youtube html5 版本，但 flash 版可以，真是麻煩
+11:59 < haroldwu_>  我的 Arch 開不動 X 了 =.=
+11:59 < haroldwu_> 好像是 kernal 載不動新的 nvidia 顯卡驅動
+12:00 < haroldwu_> 可惡我又沒有裝 roll back machine.... @@
+12:00 < haroldwu_> 怎麼辦呢 (話說我載了 ubuntu 14.10 想要玩玩看 XDDD
+12:02 < haroldwu_> 暫時換回去好了
+12:03 < haroldwu_> 順便把家目錄清ㄧ清...從我開始用 ubuntu 到現在都沒清過 XD 搞不好可以找到多年前的某軟體設定檔
+12:03 < haroldwu_> 留下 .ssh .gnupg 這兩個目錄足矣
+12:34 < guildwar_> 好慘，還好有多重開機 :)
+12:36 < guildwar_> 等等，你怎麼跑 X 的? startx or 什麼 dm 的?
+12:37 < guildwar_> 若是 startx 的話，之前可下 startx >/dev/null 2>/dev/null，現在 Xorg 1.16 後不行，只能下 startx 才進得去 X
+13:32 < haroldwu_> 恩我是用 startx 進去的
+13:32 < haroldwu_> 不過早上在 console 下跑過ㄧ次 Syu
+13:33 < haroldwu_> 晚上回去再試試看
+13:36 < haroldwu_> 我現在只剩下用 firefox 跟 emacs 了，而且這兩個我也都是自己編譯的....所以其實用哪個發行版我都沒差拉 XDDD
+14:06 < guildwar_> 了解，我這陣子因為在 arch 中 3D 都跑不起來，現在換成 fedora 了 :)
+--- Log closed 五 10月 17 00:00:12 2014

@@ -1,0 +1,166 @@
+--- Log opened 四 12月 26 00:00:45 2013
+00:01 <@haroldwu> 自己的好像可以
+00:01 <@haroldwu> 用 CPU 挖看看 feel 如何
+00:03 < guildwar> XD
+00:03 <@haroldwu> 唔，連官方的程式都跑不起來 QQ
+00:03 < guildwar> 本來就應該啊，用 cpu 跑到死喔
+00:04 <@haroldwu> 我是看這篇，不過我得先跑一次官方的好取得錢包:P
+00:04 <@haroldwu> http://www.linuxde.net/2013/12/15514.html
+00:14 < guildwar> 還不錯耶，不用註冊
+00:15 < guildwar> 有挖到記得上來閃一下 XD
+00:26 <@haroldwu> 如果有成功的話QQ
+00:26 <@haroldwu> 剛剛沒試成
+00:31 <@haroldwu> polkitd 這個程序是幹嘛的呢？
+00:33 < guildwar> 我也不是很了解，但知道要做某些事，要有在 polkit 設定 rule 才可以用
+00:38 <@haroldwu> 我用pstree 畫出系統現在的狀態，程序還蠻少的（所有的firefox算成一個的話XD）
+00:39 <@haroldwu> 但是有些我叫不出名字，其中一個是 plokitd，另一個是 at-spi-bus-laun
+00:39 <@haroldwu> 其他都知道 XD
+00:39 <@haroldwu> crond、sshd、dhcpcd、upowerd 諸如此類的
+00:41 < guildwar> 這個我也都有，我只知道，應該是替代以前 "使用某些裝置，就必須加入某個群組" 的功能
+00:44 <@haroldwu> 哦，原來如此
+00:44 <@haroldwu> 會有什麼程序可以逃過 pstree 嗎
+00:45 <@haroldwu> 高強駭客植入的什麼東西...應該會掛在某個程序上面跑吧，例如，zsh 的漏洞之類的
+00:45 < guildwar> 應該沒有吧
+00:45 < guildwar> 要是進入了，直接換掉 pstree 就好 XD
+00:47 < guildwar> 其實 arch 的 aur 還滿危險的，隨便找一個包動手腳還比較方便，加上 patch 之類的
+00:48 < guildwar> 最好是找直接從 git 或 svn 來的
+00:51 <@haroldwu> 來看看到底裝了什麼來自aur的包
+00:52 < guildwar> 我裝了一拖拉庫 :)
+00:52 <@haroldwu> check 了下，一半以上是python包，一半的一半是字體
+00:53 <@haroldwu> 剩下的都是編輯器或檔案管理員的擴充，如 thunar-dropbox 之類的...
+00:53 < guildwar> 我裝了 302 個 aur 的
+00:54 < guildwar> 因為 debian 用慣了，需要很多很多 packages :)
+00:56 <@haroldwu> 我少多了...wc 出來的數字有三個耶！？
+00:56 <@haroldwu>      60     127    1875
+00:56 < guildwar> 第一個
+00:56 <@haroldwu> 應該是 60 行（個包）。後面是什麼？
+00:56 <@haroldwu> 最後面字數？
+00:56 < guildwar> bytes 及 chars
+00:58 < guildwar> 錯了，是 lines, words, chars
+00:58 <@haroldwu> 瞭解 :)
+00:59 <@haroldwu> 我數數我電腦共有幾個包。上次刪了一批掉...
+00:59 <@haroldwu> 唔，1072...
+00:59 <@haroldwu> 昨天裝了一個 soundconverter，有多了七個包XD
+01:00 < guildwar> 我 1729
+01:02 <@haroldwu> 好多XD
+01:02 <@haroldwu> 果然是玩家XD
+01:02 < guildwar> 沒去整理，一直裝
+01:03 < guildwar> 沒硬碟了才會想去整一下
+01:07 <@haroldwu> 我已經遇到滿了的狀況了XD
+01:07 <@haroldwu> 後來才發現我開給/ 25G
+01:08 < guildwar> 我的 / 才 15G，所以編 aur 要用額外 partition XD
+13:36 <@haroldwu> 裝完然後ln ?
+13:36 <@haroldwu> 你的aur partition
+13:52 < guildwar> 用 mount --bind
+13:52 < guildwar> 寫在 /etc/fstab 中自動掛載
+13:53 < guildwar> 另一種是直接改 aur 路徑，我是用 yaourt，是去讀 /etc/makepkg.conf
+13:54 < guildwar> 改 BUILDDIR=/media/share/arch/tmp/makepkg 及 TMPDIR=/media/share/arch/tmp
+13:55 < guildwar> 還有 PKGDEST SRCDEST SRCPKGDEST，所以直接用 mount --bind 會比較方便，不用改那麼多
+15:03 <@haroldwu> 瞭解~！
+17:13 < bluekant> Hello everyone.
+17:13 <@haroldwu> hi
+17:16 <@haroldwu> bluekant: 第一次來這個頻道？
+17:17 < bluekant> 是丫!!一樣是住台中看到相關的訊息就來看看
+17:17 < bluekant> 對ubunt也用了一段時間了
+17:17 < bluekant> ubuntu
+17:38 < guildwar> bluekant: hi, 歡迎啊
+17:40 < bluekant> 謝謝囉!!!想說來看看有什麼寶可以挖!!呵~~~
+17:40 < guildwar> 常常上來應該就可以 XD
+17:43 < guildwar> 對了，知道這個 irc 的 log 網址嗎?
+17:43 < brli> 樓上有
+17:44 < guildwar> haroldwu: 要麻煩你改一下 title，新的網址為 https://github.com/a2n/tcffm/
+17:44 < guildwar> 那個已經廢了 XD
+17:46 < brli> guildwar: http://tcffm.rr.nu:8080/irclog/tcffm/2013-12-26.html
+17:46 < brli> 錯覺？@
+17:46 < guildwar> 你沒看最近 tcffm_logger_bot 及 tcffm_new_bot 都沒掛上來了 XD
+17:47 < guildwar> 現在的是我目前的 irssi client 產生的 log 所變出來的，但我的網路很不穩定，可能會漏掉，因此現在以新的為主
+17:48 < brli> XD
+18:05 < guildwar> brli: 我找到解決你的 wordpress 和 owncloud 相衝的方法了 :)
+18:05 < brli> ?!
+18:05 < guildwar> 你昨天不是說那個 wordpress 和 owncloud 相衝
+18:07 < guildwar> 我先搞清楚，你的主機上已有 443 port，是 owncloud，你的 vbox 中有 443 port，是 wordpress　？
+18:07 < guildwar> 好啦，"假設" 你的狀況是如此
+18:07 < bluekant> 想請教一下!! irc 這個除了可以聊天之外還有其他好用的功能嗎???沒研究過 irc !! 以前的印象都是聊天室為主!!還是說有沒有什麼好用功能介紹的網址可以參考呢???麻煩各位指點一下!!謝謝!!
+18:08 < guildwar> 要從外面連到 owncloud, 佔掉 443，所以 vbox 裡的就必須跳開，無法共同一個 port
+18:08 < brli> bluekant: Internet Relay Chat, 期望他能有什麼其他好用的功能呢^^？
+18:09 < guildwar> 解決方法，只要在主機上的 apache　設定檔中加上 proxy 及 proxy_http 模組，設定好 virtualhost 就可以
+18:10 < guildwar> http://www.linuxjournal.com/content/protect-your-ports-reverse-proxy
+18:10 < brli> guildwar: 是，host 443是標準的https port, 應該多少會有軟體/人走這條路，vbox裡也是，但因為我有用server，所以變成拿來走https的wordpress
+18:10 < bluekant> 了解!!!
+18:11 < brli> btw, vbox為了單純點，已經把DM關掉了，現在是開機直接進tty
+18:12 < brli> bluekant: 不過他本身就已經有點複雜了，有很多/開頭的指令可以玩，也有幾個freenode提供的service機器人可以玩，各個軟體也會有自己的plugin可以玩
+18:13 < guildwar> 我已設定好了，你可以試試     http://manstalk.rr.nu:8080 及 http://tcffm.rr.nu:8080 二個，用 host 解析其實是同一台機器，但用不同的 virtualhost 連，可將他導向不同機器
+18:14 < brli> 前面那個網址~科科XDD
+18:15 < guildwar> 那個是 mans talk 啦，別想歪 XD
+18:15 < brli> 主機因為是個人工作用電腦，為了單純即安全的理由，不想動apache(webserver)
+18:15 < brli> Orz
+18:15 < guildwar> 沒有說要你一定要用，只是告知有這個方法 :)
+18:16 < guildwar> 因為剛好你昨天遇到的狀況，還滿適合用這種方式
+18:17 < guildwar> 原來英文也有逗點逗錯地方的問題 :)
+18:17 < brli> virtualhost本來好像就是為了解決這種問題的樣子(歷史不熟
+18:17 < brli> 不過他有用是必然的
+18:17 < brli> 否則就不會存在
+18:18 < guildwar> 但光原本的 virtualhost 只能在同一台主機上，要配合 proxy module 才可以到別台吧
+18:18 < guildwar> 不確定
+18:19  * brli 眼前飄過一隻吃太飽悠哉飛的蚊子...揮到桌面上以後開始虐待牠
+21:47 -!- haroldwu changed the topic of #tcffm to: 部落格：郵件列表: http://bit.ly/tcffm-forum | IRC-log：https://github.com/a2n/tcffm/ | 論壇：http://tcffm.twgogo.org/
+21:47 <@haroldwu> guildwar: 改咯
+21:48 < guildwar> 謝啦
+21:58 < guildwar> 有沒有人拿到 ubuntu phone，多重開機耶
+21:58 < guildwar> http://www.engadget.com/2013/12/23/canonical-dual-boot-android-ubuntu-developer-preview/
+22:00 <@haroldwu> 出了哦~！
+22:01 < guildwar> 沒有，developer phone
+22:01 < guildwar> 先給開發者寫 app 用 :)
+22:48 < hmchen> 心臟得很強, 亂搞可能變磚頭
+22:51 < guildwar> 但是有很多人就是喜歡玩啊 :)
+22:55 < guildwar> 我的目前能裝 firefox os 及 android 4.0.4 但是無法多重開機，要用刷的才行 :)
+23:01 < hmchen> 你需要第二隻手機
+23:01 < hmchen> 刷掛就有一陣子沒電話能打了
+23:02 < hmchen> RMS 要來台中?
+23:02 < guildwar> 是喔，我之前在新竹有見過他本人 :)
+23:02 < hmchen> 今天看到相當令人驚訝的訊息
+23:02 <@haroldwu> 應該是要來臺灣吧？不知道去哪
+23:02 <@haroldwu> XD
+23:02 < guildwar> 應該又是國網中心邀請來的吧
+23:03 < hmchen> https://www.facebook.com/groups/ctlug.tw/permalink/385575638245787/
+23:03 <@haroldwu> 我想看看他本人耶，是教主！怎能不去朝拜一下
+23:03 < hmchen> 五月啊~~
+23:04 <@haroldwu> 不過他不喜歡 ctlug，因爲全名不是 GNU/linux
+23:04 < guildwar> 想要簽名的，記得要帶東東，之前用身上穿的 T 恤給他簽，結果幾個月後就不見了 XD
+23:04 < hmchen> 正解
+23:04 <@haroldwu> 我想想什麼東西好？電腦+白色簽字筆之類的？
+23:04 < hmchen> 真正偉大的是GNU
+23:05 <@haroldwu> 我個人是平常稱 Linux，不過我也是支持用 GNU/Linux來稱呼的XD
+23:05 < hmchen> 純粹是為了少打幾個字
+23:06 < guildwar> 不過先說，有個底子，之前要簽名前，他會要你贊助 NT100 元，現在不知道還會不會，不要到時被嚇到 XD
+23:06 < guildwar> 忘了是 100 還 200 :)
+23:07 < hmchen> 應該是還蠻樂意的, 沒 GNU 我就沒飯吃了
+23:07 < guildwar> 對啊，所以先說，不然到現場拿不出 100 :)
+23:07 < hmchen> 哈~
+23:12 <@haroldwu> 沒查，肯定要贊助的XD
+23:13 <@haroldwu> 長期靠 emacs 辦事的... :P
+23:13 < guildwar> 一定要的，難得來一趟台灣
+23:15 <@haroldwu> 到時再一起去好了。不知道會不會來臺中XD 有沒有可能約來咱 tcffm 聚會，那就太屌了
+23:17 < guildwar> 別鬧了 XD
+23:19 < bluekant> Ubuntu Phone 用啥語言開發app 啊!! 一樣是java嗎??
+23:20 < guildwar> 不知道耶，好像什麼 QML 之類的，我找一下
+23:20 < hmchen> Qt ?
+23:21 < bluekant> qt 是介面吧
+23:21 < bluekant> 那是搭Python囉????
+23:21 < hmchen> http://zh.wikipedia.org/zh-tw/QML
+23:21 < hmchen> javascript
+23:22 < hmchen> 原本的專案有打算從 GTK 逃命到 QT
+23:23 < hmchen> 不知為何 GTK+DirectFB 在比較 low-end 的 arm 平台效能不彰
+23:23 < bluekant> http://qt-project.org/
+23:23 < hmchen> 在看 Qt 的時候有喵到 QML
+23:23 < bluekant> 是這個 QT 吧
+23:23 < hmchen> yes
+23:23 < guildwar> 應該是資料沒公開吧，無法完全驅動
+23:25 < bluekant> 最近才把Moto Atrix ME860的手機刷上去4.2.2
+23:26 < bluekant> 終於可以在上面玩一些app
+23:26 < guildwar> bluekant: 不然原本官方支援到哪一版?
+23:26 < bluekant> 2.3
+23:27 < bluekant> Moto 已經放棄台灣市場了
+23:28 < guildwar> https://lwn.net/Articles/532801/
+23:29 < guildwar> ok，就自己刷吧 :)
+--- Log closed 五 12月 27 00:00:47 2013

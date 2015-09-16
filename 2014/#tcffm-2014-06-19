@@ -1,0 +1,39 @@
+--- Log opened 四  6月 19 00:00:13 2014
+10:55 < guildwar> 好慘，最近跳到 gentoo，狂編 packages，陸陸續續編了二、三天，晚上沒關機放到編到白天，可能因為天氣變熱，中間有一次編到自動關機，後來發現，原本外接螢幕的解析度為 1280x1024，現在只能看到 1024x768，很詭異
+10:57 < erhandsome>  0.0
+10:57 < erhandsome> 这么久吗
+10:57 < guildwar> 本以為是軟體的問題，但切換到 debian 也一樣只能到 1024x768，dmesg 有看到 ACPI error 什麼的，看來是硬體的某部份掛了，六年的 notebook 還是不要這樣操 XD
+10:57 < guildwar> 一邊學一邊編啊 :)
+10:57 < erhandsome> 用gentoo还是找台性能好点的机器...
+10:58 < guildwar> 也是
+11:00 < guildwar> erhandsome: 有個問題問一下，在 archlinux 中，使用 exim 當 localhost 的 mail 傳送，另外，對外則是用 msmtp 透過 gmail 寄信，但在 gentoo 中，msmtp 和 exim 是相衝的，不知道你是如何解決， nullmailer ?
+11:00 < erhandsome> guildwar: 我用网页版gmail...
+11:01 < guildwar> 好吧 :)
+11:04 < guildwar> 因為是用 mutt，所以能配合的不多，來試試 nullmailer 或 esmtp + procmail 看看
+11:05 < erhandsome> 最近打算学习一下mutt
+11:06 < guildwar> 一旦設定完成，超級好用的  :)
+11:07 < guildwar> dclee9: 今天就去湊熱鬧啊 :)
+11:51 < guildwar> ok, 將 msmtp 加上 -mta USE，就不會和 exim 相沖了
+13:29 < hmchen> dclee9: h4 是暫停嗎?
+13:30 < hmchen> 出國進修是短期嗎?
+13:31 < guildwar> 說到 8 月底，該不會是小朋友遊學吧
+13:54 < dclee9> 小孩去遊學，我是書僮
+13:55 < hmchen> 真準
+13:56 < guildwar> :)
+13:56 < dclee9> 順便去看看客戶，我們的老師都是google
+13:57 < dclee9> 進修就是上google
+13:57 < dclee9> o.0
+19:13 < guildwar> 到了，目前只有我一人，結果帶錯條變壓器，可能再過十分鐘就沒電了 XD
+19:36 < guildwar1> /names
+19:55 < hmchen> 慘~
+19:55 < hmchen> 還在趕案子, 今天不能過去
+20:42 < dclee9> http://youtu.be/4ibe8JzA8SM
+20:42 < dclee9> youtube sharing
+20:48 < hmchen> 今天在咖啡廳~
+20:56 < hmchen> 話說 guildwar2 的 nb 真的是有歷史悠久
+21:08 < dclee9> https://plus.google.com/hangouts/_/ytl/vjVQa1PpcFMju5ydqqtF50L7IOKPtWFjc67cW-7v5Co=
+22:18 < guildwar> 就是舊才需要裝 gentoo 來提升效能吧，結果操壞了，應該裝 distcc 的說 XD
+22:37 < guildwar> 剛在咖啡店裡播 flash 影片，約 65度C，結果現在試在家裡播是 93度C，難怪隨便動二下就過熱了 XD
+23:45 < dclee9> 冷氣房有差
+23:52 < guildwar> 對啊，差了30度耶
+--- Log closed 五  6月 20 00:00:14 2014

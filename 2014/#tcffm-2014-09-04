@@ -1,0 +1,62 @@
+--- Log opened 四  9月 04 00:00:02 2014
+18:02 < dclee9> 今天晚上有人要來聚會嗎？
+18:02 < dclee9> ？？？
+18:03 < guildwar> 奇怪，harold 消失了 :)
+18:24 < dclee9> 好像會冷場，有道的人來隔壁敲門，還是打我手機吧 0934-252-599
+18:24 < guildwar> 不怕收到詐騙電話喔，直接貼上電話 XD
+19:03 <@haroldwu> 啊原來今天有聚會了
+19:03 <@haroldwu> 下週會到 XD
+19:04 < dclee9> 哈，有人要叫便當嗎？
+19:04 < dclee9> 我們現在有人去買
+19:04 < dclee9> 團購中
+19:05 < dclee9> http://www.哪裡去.com/index.php/food/chinese-cuisine/taiwanese-food/2014-04-26-22-04-59
+19:18 <@haroldwu> guildwar: 我買了個筆電新電池
+19:18 <@haroldwu> 我要怎麼查看電池資訊呢 /proc/acpi/ 裡面沒有 batter 這個目錄
+19:19 < guildwar> 可用 acpi -V
+19:20 < dclee9> batmon
+19:20 <@haroldwu> 沒有 acpi 這個指令
+19:20 < dclee9> 恭喜買新電池，
+19:21 < guildwar> package 也叫 acpi
+19:21 < dclee9> batmon 是一個app
+19:21 < dclee9> http://www.nongnu.org/gap/batmon/
+19:22 <@haroldwu> 好，我試試
+19:23 < dclee9> debian/ubuntu/mint software center 裡有
+19:23 <@haroldwu> 其實我是要看他的容量到底是多少。賣家說 4400 ，但是電池上寫 5200
+19:23 < guildwar> acpi -i 有寫
+19:24 < guildwar> 這樣不賺到了
+19:25 < guildwar> 找到了，在這裡 /sys/class/power_supply/BAT0/
+19:26 < guildwar> /sys/class/power_supply/BAT0/charge_full_design
+19:27 <@haroldwu> dclee9: 啊，batmon 還要裝 gnustep 的模組跟 gcc-objc ....
+19:28 < guildwar> 這個 batterymon-clone
+19:29 < guildwar> 或這個也不錯 valabattery2-git
+19:29 <@haroldwu> 看了看是 4600 啦
+19:30 <@haroldwu> 賣家跟電池廠都亂標
+19:30 <@haroldwu> cycle 數是 0 XDD
+19:30 <@haroldwu> 應該來看看我的舊電池的 cycle 數
+19:30 <@haroldwu> 搞不好有 1000 多
+19:30 < guildwar> 我的也是 0，都悚用爛了說 XD
+19:32 < guildwar> 其他的都正確，除了 cycle_count 以外 :)
+19:35 < dclee9> made in china 要小心
+19:36 < dclee9> 但是每個都是MIC   所以也是沒有什麼選擇
+19:37 <@haroldwu> XD
+19:46 < erhandsome> 233
+19:50 < guildwar> erhandsome: 你的 cycle_count 233 次? 哪個廠牌的，我的是 HP 的，次數為 0
+19:50 < erhandsome> guildwar: 我的也是0...
+19:50 < erhandsome> 华硕的笔记本
+19:50 < guildwar> 噗，那 233 是啥 :)
+19:51 < erhandsome> guildwar: 就是 XD 的意思 XD
+19:51 < guildwar> 靠，我落伍了 XD
+19:53 < guildwar> 這幾天將 samsung galaxy s2 改裝成 ubuntu touch，由於沒有官方正式 support，只能裝到 13.10
+19:55 < guildwar> 使用了一個下午，感覺有點不好用，很不順手，不知道若是官方支援的會不會好用點，剛才用 apt-get dist-upgrade 升級，結果重開機後就 GG 了，全黑畫面
+20:03 <@haroldwu> guildwar: 2333 其實是噗噗的意思...XD
+20:04 <@haroldwu> 2 是屁股 33 是屁 XD 跟 orz 的意思類似
+20:04 <@haroldwu> Orz333 這樣比較具體啦
+20:04 < guildwar> 呵呵，超出我的腦容量的負載 :)
+20:06 < erhandsome> 0.0
+20:07 < erhandsome> 不是猫扑的第233号表情么
+20:07 < erhandsome> http://zh.moegirl.org/233
+20:09 < guildwar> 那真的是難度很高，背號碼，台灣流行的大部份都是用形狀來看的
+20:19 <@haroldwu> erhandsome: 那這個具體化的是我們臺灣自己發展出來的解讀了 XD
+20:19 <@haroldwu> 欸用法還真的跟我們的 XDD 一模一樣
+20:34 < erhandsome> XDDDDD
+--- Log closed 五  9月 05 00:00:03 2014

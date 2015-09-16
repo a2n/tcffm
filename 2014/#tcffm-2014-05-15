@@ -1,0 +1,58 @@
+--- Log opened 四  5月 15 00:00:27 2014
+15:49 < dclee9> 今天有聚會
+15:49 < dclee9> 歡迎參加
+15:49 < dclee9> 7：00
+17:04 < guildwar> linux kernel 漏洞又來了，一般 user 可取得 root 權限
+17:04 < guildwar> http://www.openwall.com/lists/oss-security/2014/05/12/3
+17:05 < guildwar> 我在 archlinux 3.14.0 上測試，可取得 root 沒問題
+17:06 < guildwar> 不過影響的不多才對，因為 Linux kernel <= v3.15-rc4 >= v3.14-rc1
+17:50 < darkx> 人在新竹無法阿 ~~
+17:59 < guildwar> 到時 daniel 應該會開 hangout 直播吧
+19:40 < hmchen> 今天這種下大雨的日子... daniel  會開 hangout 嗎?
+20:06 < dclee9> 好阿來hangout
+20:07 < dclee9> hangout 一定要有google+
+20:07 < dclee9> 先說明
+20:09 < dclee9> https://plus.google.com/hangouts/_/ytl/vjVQa1PpcFM5aCFEVlCnzubQ_8YRnoAv2CzD2HZt3Jk=
+20:09 < dclee9> 要hangout 的人來吧
+20:15 < dclee9> 忘了說我在隔壁29號一樓，如果你們有來聚會，我在辦公室裡
+20:23 < hmchen> 安裝 plugin 中
+20:25 < hmchen> 我 join 了
+20:25 < dclee9> hello
+20:25 < dclee9> 你好
+20:25 < dclee9> 沒有聲音，
+20:26 < hmchen> 嗯... 上回搞 skype 也是沒聲音
+20:26 < hmchen> 我的 pulseaudio 怪怪的
+20:28 < dclee9> 是ubuntu?
+20:28 < dclee9> OS?
+20:28 < hmchen> 14.04 64bits
+20:28 < hmchen> 好像沒其他人？
+20:29 < hmchen> 今天第一次用 hangout
+20:30 < dclee9>   p, li { white-space: pre-wrap; }  http://askubuntu.com/questions/132440/headphone-jack-not-working
+20:30 < dclee9> 我的也有問題
+20:30 < dclee9> 13的時候，後來降級到12.04
+20:30 < dclee9> 12.04就全部正常
+20:31 < dclee9> 有聽到了
+21:04 < hmchen> https://www.skywatch24.com/tw/
+21:05 < hmchen> https://www.dropcam.com/
+22:52 <@haroldwu> http://www.omgubuntu.co.uk/2014/05/stunt-rally
+22:52 <@haroldwu> 好像很讚
+22:52 <@haroldwu> 比 supertuxkart 好一點
+22:52 <@haroldwu> 不過看來是純賽車，不是道具戰一類的
+22:52 <@haroldwu> 在 arch repo community 內
+23:06 < guildwar> 這種的越野賽車，難度滿高的，都玩不來，這邊還有一個
+23:06 < guildwar> http://sourceforge.net/projects/trigger-rally/
+23:11 < guildwar> http://sourceforge.net/projects/torcs/ 還有 torcs
+23:29 <@haroldwu> torcs 很難操控...
+23:30 < guildwar> 對我來說，通通難，好像只有跑跑卡丁車那種還 ok :)
+23:32 <@haroldwu> supertuxkart ？XD
+23:32 < guildwar> 這個就 ok
+23:32 <@haroldwu> 下次可以來雙人模式 pk 一下 XD
+23:33 <@haroldwu> supertuxkart 地圖製作說明文件太少了...
+23:33 < guildwar> 是喔，沒玩過多人的
+23:34 <@haroldwu> 跟單人一樣，就畫面切割...我的電腦跑不太動
+23:42 < JoeyXiao_> 請問debian 8 64bity怎摸安裝i386的包？？
+23:43 < JoeyXiao_> 找不到ia32-libs* 只有lib32z1 lib32ncurses5 lib32bz2-1.0
+23:43 < guildwar> 改了，要用新方法
+23:45 < guildwar> https://wiki.debian.org/Multiarch/HOWTO
+23:50 < JoeyXiao_> thanks 把libc6-i386  lib32z1 就可以了
+--- Log closed 五  5月 16 00:00:28 2014

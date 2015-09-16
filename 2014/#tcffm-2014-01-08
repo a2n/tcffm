@@ -1,0 +1,31 @@
+--- Log opened 三  1月 08 00:00:03 2014
+09:54 <@haroldwu> 這裏有人用git管理自己的dotfiles嗎？
+09:57 < ronmi> ._./
+09:58 < ronmi> https://github.com/Ronmi/25h
+09:59 <@haroldwu> 如果有私人訊息，怎麼辦呢？
+10:00 <@haroldwu> ...還是扔到bitbucket，可以不公開XDD
+10:02 < ronmi> github也可以不公開啊
+10:02 < ronmi> 不過要錢XD
+10:02 < ronmi> 不然自架吧 (煙
+10:05 <@haroldwu> XD
+10:06 <@haroldwu> 來搬遷 ing
+10:15 < darkx> ._.
+10:16 < darkx> haroldwu: 可是 BB 很慢... 一直不是很喜歡用
+10:18 <@haroldwu> 喔！原來還有這樣的。我先把一些沒有個人隱私的送上去好了
+10:19 < darkx> haroldwu: 我自己習慣是都丟 github 有私人信息的只在自己各機器的 .bashrc 內
+10:19 < darkx> 當然每次有更新的時候都要比較麻煩的自己 vimdiff merge 啦..
+10:20 < darkx> 但是要 deploy 到其他機器就方便很多，因為有一份是 public 可以直接看的裡面也沒有秘密
+10:36  * ronmi gitolite萬歲
+10:43 < darkx> XDD
+14:26 <@haroldwu> 本來要刪除 rm bla*，手殘太快打成 rm bla *
+14:26 <@haroldwu> 現在悲劇搶救中=.=
+14:30 < darkx> @@
+14:34 <@haroldwu> 還好是在download下...
+14:34 <@haroldwu> 反正裏面的東西本來就是download來的....QQ
+14:34 < darkx> @@
+14:34 < darkx> 辛苦惹
+15:06 <@haroldwu> 寫了一個python的multithread腳本，一次跑30個aria2c XDD
+15:06 <@haroldwu> 把失去的載回來
+21:08 -!- Topic for #tcffm: 臺中自由軟體愛好者聚會 TcFFM 郵件列表: http://bit.ly/tcffm-forum | IRC-log：https://github.com/a2n/tcffm/ | 論壇：http://tcffm.twgogo.org/
+21:08 -!- Topic set by haroldwu [~haroldwu@unaffiliated/haroldwu] [Fri Jan  3 11:35:31 2014]
+--- Log closed 四  1月 09 00:00:05 2014

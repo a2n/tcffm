@@ -1,0 +1,48 @@
+--- Log opened 日 11月 09 00:00:48 2014
+10:55 < hmchen> 有人用過 zswap 嗎? 是否要搭配 hdd swap 才有效?
+10:59 < hmchen> 剛剛寫了個程式, 每次吃 2GB 記憶體. 系統 RAM 8GB, 結果 run 到第 4 個 process 時 malloc 就要不到記憶體了
+15:57 < guildwar> 有試過用 debugfs 裡的資訊來 debug 嗎?
+15:57 < guildwar> A debugfs interface is provided for various statistic about pool size, number
+15:57 < guildwar> of pages stored, and various counters for the reasons pages are rejected.
+15:57 < guildwar> mkdir /tmp/debug
+15:57 < guildwar> mount -t debugfs debugfs /tmp/debug
+15:58 < guildwar> cat /tmp/debug/zswap/pool_limit_hit
+15:58 < guildwar> 我不大懂運作原理，你這個好像可以用來 debug
+22:34 < hmchen> 剛剛掛上了 swap, 有看到數值變化了, 看起來 zswap 還是得要搭配 swap 使用才行
+22:38 < guildwar> 應該也是，都叫 zswap，不然應該叫 zram 之類的 :)
+22:39 < hmchen> zswap應該視為 main memory 跟 swap partition 之間的緩衝+壓縮器
+22:40 < hmchen> 當 pool 不夠用時還是會寫回 swap partition
+22:40 < hmchen> 優點是減少 swap parition 的 i/o 次數
+22:41 < hmchen> 對 hdd 或 ssd 都有幫助, cpu 壓縮比較 disk i/o 快, 而減少 i/o 次數可以延長 ssd 壽命
+22:41 < hmchen> 確實有 zram , 我還在看
+22:43 < hmchen> 我的目的是, 不掛 swap partition 但某種程度上仍可以稍微用超過實體記憶體大小
+22:47 < hmchen> http://wiki.gentoo.org/wiki/Zram
+22:49 < hmchen> zram跟我想要的用法不太一樣, zram 是把指定的 memory size 變成 block device, 然後就可掛成 swap 或 ext4 等其他 fs
+22:51 < hmchen> 缺點是... ram 就真的直接挖走了,
+22:52 < guildwar> 好像一樣要 swap，　So, 1G of swap uses only 333MB of ram on average
+22:54 < hmchen> 舉個例子來說, 8G 的 ram 切程 6G + 2G zram, 當配置記憶體超過 6G 但還沒到達 8G, 理論上空間還有剩, 但因為 swap 在 zram 上, 超過 6G 就會開始觸發 page fault/swap 跟壓縮了
+22:55 < guildwar> 那這樣 ok 啊，沒用到 disk
+22:56 < hmchen> 對,但是對 6-8G 這段來說, 開 zram 效能反而下降
+22:57 < guildwar> 那就不要壓縮行不行
+22:57 < hmchen> 我以為會有種理想的 swap 機制, 當真的吃超過8G才啟動壓縮, 然後完全不需要 swap partition
+22:58 < hmchen> 你的意思是, zram 裡頭的資料先不壓縮, 等到 pool 滿的時候才開始壓?
+22:58 < guildwar> 直接 /proc/sys/vm/swappiness   設成 0 呢?
+22:59 < guildwar> 不是，看 zram 有沒有支援不壓縮的方式 :)
+22:59 < hmchen> 我覺得應該會有滿了才壓縮的機制, 理論上不難實作
+23:00 < hmchen> 找時間再來測試看看
+23:01 < hmchen> 最近 nb 也改換 ssd 了, 想說 ram 加多一點, swap 就不開了
+23:01 < hmchen> 但早晚總是會遇到 ram 不夠用的情況
+23:02 < guildwar> 還是要調 swapiness 來配合
+23:02 < guildwar> If it's close to 0, Linux will prefer to keep applications in RAM and not grow the caches.
+23:02 < hmchen> 不然就是遇到時, 再建個 swap.img 檔案臨時檔一下
+23:04 < hmchen> swapiness 應該是讓 i/o cache 跟 swap 之間折衷的控制
+23:05 < hmchen> 當 disk i/o 時不要馬上寫入 hdd 或是丟棄 data, 如果是 cache 以外的就一定會導致 swap 了
+23:06 < hmchen> 不過剛剛說 zram 初期資料先不壓縮的可能性應該很高
+23:07 < guildwar> 但是我用 modinfo zram，用 lz4
+23:07 < guildwar> depends:        lz4_compress
+23:17 < hmchen> 假設 zram 使用 2G 當 swap, 當 linux 記憶體用量接近 6G 實際會開始往 zram 丟 swap page, 假設 pool 還沒滿 2G 就不壓縮, 那 swap 的速度應該幾乎沒有延遲
+23:18 < guildwar> 我猜一開始就用 lz4 壓了
+23:19 < hmchen> 恩, 這個實驗不好試, 因為只有從 swap 效能變化或 cpu loading 才能觀察
+23:26 < hmchen> http://lwn.net/Articles/545244/
+23:27 < hmchen> guildwar 應該說中了, page 一進 zram 就壓了
+--- Log closed 一 11月 10 00:00:50 2014

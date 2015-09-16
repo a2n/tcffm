@@ -1,0 +1,69 @@
+--- Log opened 一  2月 17 00:00:23 2014
+00:44 <@haroldwu> 根目錄已滿...
+00:45 <@haroldwu> 有什麼是可以清掉的嗎？
+00:47 <@haroldwu> 喔不是，原來是太久沒升級（一週），緩存的包文件超過硬碟剩餘大小
+00:56 < guildwar> yaourt -Sc
+01:05 <@haroldwu> 感謝...QQ
+01:14 < guildwar> :)
+10:36 <@haroldwu> 有點悲劇，我的 dropbox 怎麼都不會動
+11:10  * a2n 機器的日誌最近顯示 dns attack
+11:18 <@haroldwu> dns attack 是什麼？
+11:22 < a2n> @haroldwu dns 查詢請求時可以指定返回的位址，對眾多 dns server 請求，返回到同一部機器，形成 dns attach。有的站台已經補了這個洞，不給 by-pass。
+11:22 < a2n> 最近流行的是 ntp attack
+11:24 < brli> ntp也能attck= =這什麼世道
+11:24 < brli> 純粹服務性質的東西也要打
+11:26 < a2n> brli: 有好洞不打嗎？技術樂趣，不考慮道德。 :P
+11:26 < a2n> http://blog.cloudflare.com/technical-details-behind-a-400gbps-ntp-amplification-ddos-attack 放大器
+11:30 < a2n> 這些 udp 的協定普遍存在這種瑕疵設計
+14:56 < guildwar> 在我的 rpi 上試了指令 ntpq -c rv 192.0.2.1 ，沒回應，還好沒中標
+15:12 < a2n> guildwar: rv 192.0.2.1 的意思是回覆給 192.168.2.1 嗎？
+15:15 < guildwar> 不是耶，我是看你那個連結再連到 openntpproject.org，裡面寫的
+15:15 < guildwar> http://openntpproject.org/
+15:15 < guildwar> 測試自己的 ntp server 是否中標的方法
+15:16 < guildwar> 一般我們的因為沒對外開放，應該不致於中標
+15:18 < guildwar> 喔，我誤會你的意思，我不清楚 rv 的用意，我講的"不是" 是因為 ip 是 192.0.2.1，不是 192.0.2.1
+15:19 < guildwar> 是 192.0.2.1 不是 192.168.2.1 XD
+15:30 < guildwar> 另外，剛看到這個軟體 spoofer(http://spoofer.cmand.org/)，看看自己到 Internet 的路徑上的機器，是否允許 spoofed source address，手癢很想跑，不過會不會被網管罵啊?
+15:38 < a2n> guildwar: 公用的 ntp service 都是大水管，不小心就會成為幫兇，而且真的很兇啊！ 400Gbps
+15:39  * a2n 我 ip 打錯 :D
+17:59 < petercommand> brli: 不是打服務，是用服務打別人阿XD
+18:01 < brli> petercommand: 原來是我誤解了
+22:14 <@haroldwu> archlinux.org  連不上？
+22:24 < guildwar> 是啊，一直失敗 :)
+22:24 <@haroldwu> 剛剛重灌，想要裝ｙａｏｕｒｔ
+22:25 <@haroldwu> 結果連不上...orz
+22:25 < guildwar> 懶得動，改成台灣以外的應該就可以吧
+22:25 <@haroldwu> 什麼意思？
+22:25 < guildwar> 不是改 mirrorlist 就好
+22:25 < guildwar> /etc/pacman.d/mirrorlist
+22:26 <@haroldwu> 不是，那個是 mirror site
+22:26 <@haroldwu> pacman 用的
+22:26 <@haroldwu> 我是要載 aur 上的包...QQ
+22:26 < guildwar> 一樣不是
+22:27 < guildwar> 改成美國還是不行 XD
+22:29 < guildwar> 連去 alderaan.archlinux.org
+22:30 < guildwar> ok, https://aur.archlinux.org/ 連不上
+22:31 <@haroldwu> wiki 也不行
+22:31 <@haroldwu> 都死了
+22:31 < guildwar> 是不是被 hack 啦 XD
+22:31 <@haroldwu> 問問 #archlinux-cn 的人
+22:31 <@haroldwu> 我
+22:32 < guildwar> 看來是例行性維護吧
+22:36 < guildwar> ok, 維護時發現 "several disk read failures" 所以決定換硬碟 https://bbs.archlinuxcn.org/viewtopic.php?pid=9437#p9437
+22:37 < guildwar> 不對啊，那是舊聞，科科 XD
+22:39 <@haroldwu> 滾掛了
+22:39 <@haroldwu> archlinux.org 運行的是 archlinux ....
+22:39 <@haroldwu> XDDDD 管理組這次糗大了
+22:39 < guildwar> 噗....
+22:39 <@haroldwu> 他們有說他們對 arch 很有信心 :P
+22:40 < guildwar> 沒關係啦，經過這一次，功力又升級了 :)
+22:44 <@haroldwu> 不知道是什麼掛了
+22:44 <@haroldwu> 挺好奇的
+22:44 <@haroldwu> 可以 ping 耶
+22:44 < guildwar> 到時候應該會有報告出現 :)
+22:45 < guildwar> https 吧
+23:46 < guildwar> yaourt 可以用了
+23:51 <@haroldwu> 讚！~
+23:52 <@haroldwu> arch 管理組處理滾掛的 arch 速度一流 XDD
+23:52 < guildwar> 習慣就好 :)
+--- Log closed 二  2月 18 00:00:25 2014

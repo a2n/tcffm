@@ -1,0 +1,58 @@
+--- Log opened 四  3月 13 00:00:41 2014
+13:24 < haroldwu> 竟然支援 tiling mode XDD
+13:25 < haroldwu> cinnamon 不是跟 gnome 用同一個 wm？
+22:01 < haroldwu> 話說如果某個人可以回覆以GPG密鑰寄給他的信，是不是差不多可以看成這支密鑰是該人的
+22:01 < haroldwu> 上 key server 也能看到認證XD 我去看我的，就有 guildwar 大大的認證
+22:27 < guildwar> 好像不大對，怪怪的，是不是應該為：我用我的私鑰＋你的公鑰加密－》寄給你，只能用你的私鑰來解開，全世界只有你擁有你的私鑰，所以也只有你能解開
+22:29 < guildwar> 那你再回信時，用你的私鑰＋我的公鑰來加密這封回信，也只有我能解
+22:29 < guildwar> 可能是這樣吧，我也不是很懂 XD
+23:05 < haroldwu> 喔對，因爲有人要成立一個 PGP 聯絡簿（不知道他要幹嘛），然後他要驗證我是誰，於是他就用我的公鑰加密一段訊息寄給我
+23:05 < hmchen> 用法怪怪的
+23:06 < haroldwu> 要求我把那段信息用他的公鑰加密寄回給他，好驗證我是該公鑰對應的私鑰的持有人
+23:06 < hmchen> 如果訊息要保密, 用收件者的 public key 加密即可
+23:06 < haroldwu> 差不多是這樣 :P
+23:07 < hmchen> 再來是簽章, 目的是證明信件內容未經變造
+23:07 < hmchen> 簽章不會對整個 mail 做加密
+23:07 < guildwar> ok, 那我搞錯了，不用我的私鑰＋你的公鑰 XD
+23:08 < haroldwu> arch 的包管理有時有 keyring 更新
+23:08 < hmchen> 而是先用 SHA 或 MD5 先得到資料量少的 hash 值, 再用個人的 private key 加密放到信尾
+23:08 < haroldwu> 但是我自己 local 也有一份 list，這個 keyring 是存在哪裏呢？
+23:09 < guildwar> ~/.gnupg/pubring.gpg
+23:09 < hmchen> 信件本文 + signed (加密過的 hash) , 整段用收件人的 public key 加密一次
+23:10 < guildwar> 不是啦，arch 的不是放在 ~
+23:11 < guildwar> arch 的放在 /etc/pacman.d/gnupg/
+23:12 < haroldwu> 所以加密不一定簽署就對了
+23:12 < haroldwu> 兩回事
+23:12 < guildwar> 對，是二回事
+23:13 < guildwar> 加密是不想讓別人看到，簽署是確保由正確的人寄來的
+23:14 < haroldwu> mutt 操作真方便，不過怎麼處理標籤的問題呢 @@
+23:14 < guildwar> 標籤??
+23:14 < haroldwu> 我 gmail 那邊有不少 filter 會歸類郵件
+23:15 < guildwar> save-hook
+23:15 < guildwar> 讀完後依 save-hook 歸檔
+23:16 < guildwar> save-hook   '~f arch-security@archlinux.org' +arch-security
+23:16 < haroldwu> 不太一樣 @@ 唔，這個不好形容，算了 XD
+23:16 < haroldwu> 我之前想大家 imap offline server
+23:16 < haroldwu> *搭建
+23:17 < haroldwu> 結果失敗了 :P 哪天有空在來試
+23:17 < hmchen> 話說回來, RSA 發明的 public/private key 演算法真的是超有趣的
+23:17 < guildwar> 在未讀信件之前就要分類，可用 procmail
+23:18 < haroldwu> 有點猛，PSA 核心程式碼複雜嗎？
+23:18 < haroldwu> guildwar: 因爲有時會用網頁版開，所以分類是在伺服器就讓他分了
+23:18 < guildwar> 了解
+23:24 < guildwar> 對喔，我們改天也應該弄個 pgp signing party :)
+23:27 < haroldwu> 這裏實際在用 pgp 的不多吧XD 沒有什麼需要加密的
+23:27 < haroldwu> 不過辦一個也很好玩耶 XDD
+23:30 < guildwar> 要實際見過面，核對身分證或護照後，才能做簽署的動作，之前有聚會時都忘了做 XD
+23:39 < guildwar> https://wiki.debian.org/Keysigning  這裡有參加 signing party 前的準備
+23:47 < haroldwu> 註：直接看 step 4 即可
+23:47 < haroldwu> 從 step 4 開始看起 :P
+23:49 < guildwar> 不過在 arch 上 signing-party-svn 編不出來，而 caff-svn 跑不起來，真慘
+23:52 < haroldwu> 還有這種套件XD
+23:54 < guildwar> 就那個 gpg-key2ps 指令在裡面
+23:56 < guildwar> 直接下載回去用即可 http://anonscm.debian.org/viewvc/pgp-tools/trunk/gpg-key2ps/
+23:56 < haroldwu> gpg --armor --output 00AA11BB-signedBy-1A2B3C4D.asc --export 00AA11BB <=== 這個是什麼意思？
+23:57 < guildwar> 就是將 00AA11BB key 匯出到 00AA11BB-signedBy-1A2B3C4D.asc  檔案，格式是文字檔吧
+23:58 < guildwar> 這是在沒有 key server 的狀況直接可以用 email 寄 public key 給對方
+23:59 < haroldwu> 喔，懂了
+--- Log closed 五  3月 14 00:00:42 2014

@@ -1,0 +1,113 @@
+--- Log opened 三  3月 26 00:00:59 2014
+00:35 < haroldwu> RMS 5/7-5/10 在臺北
+00:35 < haroldwu> 而且他求住宿...嗚嗚，好像讓 RMS 來我家住喔
+00:36 < haroldwu> *想
+08:14 < guildwar> 不好吧，太遠了，住台北比較方便，話說主辦單位邀請人來沒安排人家住嗎?
+09:59 < haroldwu> 沒啦，我講好玩的
+10:00 < haroldwu> 我應該會看他的場次跑去見見他
+15:15 < haroldwu> 用了一會兒 KDE....電腦已老，跑不動了呀！
+15:15 < brli> haroldwu: 關特效！
+15:22 < a2n> haroldwu: rms 到台灣是私人行程嗎？ https://www.fsf.org/events/rms-speeches.html 沒見到
+15:23 < haroldwu> brli: 特效已關...當初買的就已經是最低水準的筆電啦 XD
+15:24 < haroldwu> a2n: 應該沒有計劃出席什麼會議的吧，不過看起來 ctlug 那邊有人有負責接待
+17:55 < guildwar> 呵呵，看 mozilla-taiwan 在討論
+17:55 < guildwar> "據五年前招待他的積丹尼說教主有點難搞，而且很容易丟掉，一刻都不能離開視線XD"
+17:56 < guildwar> 看來教主也是路癡 XD
+18:01 < guildwar> haroldwu: KDE 跑不動，先用 razor-qt 撐著
+18:02 < guildwar> 前陣子試了 lxqt，還不到可用的地步
+18:14 < haroldwu> 教主有點難搞 XD 沒關係，我打算奉獻 500 給教主
+18:14 < haroldwu> 感謝他發明 GNU emacs
+18:15 < guildwar> 聽說除了台北、新竹，好像還會去暨南
+18:22 < haroldwu> 喔？你實在郵件列表還是頻道看到的？
+18:22 < guildwar> 頻道
+18:23 < guildwar> 我有 log
+18:23 < guildwar> http://tcffm.rr.nu:8080/irclog/mozilla-taiwan/2014-03-26.html
+18:27 < haroldwu> 好哦，我也加頻道看看
+18:28 < guildwar> 不過 server 不同喔
+18:29 < guildwar> irc.mozilla.org:6667
+18:29 < haroldwu> ok
+21:25 < guildwar> 哇，剛試了 firefox 29 beta，介面改了不少，變得滿好看的，最重要的是整合了 firefox account，直接在不同地方的 firefox 用一個帳號登入即可同步書籤、設定、外掛等等，不用再麻煩的配對了
+21:26 < guildwar> hmchen: 現在的 firefox 29 正好適合你用 :)
+21:37 < erhandsome> 听起来不错
+21:37 < guildwar> 直接試了就知道，用過的都說讚 XD
+21:40 < brli> ff29 ++
+21:58 < guildwar> RPi 上更新的 daemon 卡住，而且卡死了，用 kill -9 也砍不掉，試了 -1, -3, -8, -9, -15 都砍不掉，導致目前無法自動更新及用 apt-get 安裝新 package，除了重開機外，還有沒有其他方法呢?
+21:58 < guildwar> root     12785     1  0 Mar22 ?        00:00:00 /usr/bin/python /usr/bin/unattended-upgrade
+21:58 < guildwar> 其實本來有二個 unattended-upgrade processes，但其中一個被我用 -9 砍了，這一個就砍不掉
+22:00 < guildwar> 下 apt-get update 最後會出現
+22:00 < guildwar> E: Could not get lock /var/lib/dpkg/lock - open (11: Resource temporarily unavailable)
+22:01 < brli> rm /var/lib/dpkg/lock ?
+22:01 < guildwar> 試試
+22:02 < erhandsome> gentoo稳定版firefox最高还是27...
+22:02 < guildwar> 直接 mozilla.org 下載，裝在家目錄下試就好 XD
+22:04 < guildwar> brli: 砍了 lock 檔後，apt-get 就可以用了，不過那個 zombie process 還卡在那裡，砍不掉有點不爽 XD
+22:04 < erhandsome> 改进也不是太大，没多大必要
+22:04 < guildwar> erhandsome: 了解
+22:07 < haroldwu> erhandsome: 我是用 aurora 美國版，放在家目錄下，會自動更新蠻不錯的 :P
+22:08 < erhandsome> haroldwu: 总觉得用包管理器心里舒服...
+22:10 < haroldwu> XDD 我各種脫離包管理了，像 python 我都是在 virtualenv 下辦事
+22:11 < haroldwu> 包管理缺點就是都要等人更新，好處是有測試過的源比較穩定
+22:30 < haroldwu> guildwar: 上次你說像 lol 的遊戲是什麼呀？
+22:30 < guildwar> 我看看
+22:32 < erhandsome> hon？
+22:32 < guildwar> HoN  Heroes of Newerth, 不過沒單機版，只能線上跟網友打，一直被幹譙，因為沒辦法先練習 XD
+22:32 < erhandsome> 我倒是想在linux下玩lol 0.0
+22:33 < guildwar> 所以現在不敢上去玩了 XD
+22:33 < guildwar> 另外，在 steam 上有 dota2 可玩，我沒玩過就是
+22:34 < erhandsome> 我之前玩hon延迟好高...
+22:34 < haroldwu> 歐好吧...不能離線玩我肯定被罵翻 XD
+22:34 < erhandsome> 我玩的lol台服很少遇到骂人的
+22:34 < erhandsome> 比大陆环境好太多的
+22:34 < haroldwu> lol 似乎一開始訴求好一點 XD
+22:35 < haroldwu> dota 聽說蠻殘暴的，什麼查你 IP 燒你全家 XD
+22:35 < guildwar> 不會吧
+22:36 < haroldwu> 我朋友講的 XD
+22:36 < erhandsome> 怎么会 0.0
+22:36 < erhandsome> 骗人的吧
+22:36 < haroldwu> 沒有啦，罵人的話
+22:36 < erhandsome> 哈哈 这骂人的话好好玩
+22:36 < haroldwu> 就互罵的句子 XDD
+22:37 < haroldwu> 聽說 steam 要移植 L4D 到 Linux
+22:37 < erhandsome> 我记得谁上次说的windows linux双系统会有linux没声音的问题
+22:37 < haroldwu> 我~
+22:37 < haroldwu> 還是沒解決，反正是耳機孔，我用筆電的喇叭聽也可
+22:38 < erhandsome> 我的刚好相反，是退出linux后进入windows，windows没声音
+22:38 < haroldwu> 我就算從 win 過來也是這樣...
+22:38 < erhandsome> 我在网上搜了下，windows关机，断电，开机进入win就好了
+22:38 < guildwar> 沒道理啊，同一個孔不是嗎?
+22:38 < haroldwu> 但是耳機孔是好的，沒壞
+22:38 < haroldwu> win下很正常
+22:39  * haroldwu 沒轍
+22:39 < erhandsome> ubuntu论坛有人说内核设置什么部位加一行命令，我试了没用...
+22:40 < guildwar> 話說有一個暴雪的 lol like 的遊戲，好像叫暴雪英雄什麼的，好像快出來了
+22:40 < guildwar> 不過沒 linux 版就是
+22:40 < erhandsome> 风暴英雄？
+22:40 < erhandsome> 记不清了
+22:41 < guildwar> 叫暴雪英霸 :)
+22:41 < haroldwu> 不敢碰內核，沒學過
+22:41 < guildwar> http://www.heroesofthestorm.com/zh-tw
+23:26 < haroldwu> 問一下，一些檔案管理器可以把硬碟分割區掛到 /media
+23:26 < haroldwu> 這個服務叫什麼名字呀？
+23:27 < erhandsome> udev?
+23:27 < erhandsome> 我用udev规则挂载usb
+23:33 < haroldwu> 對，就是 udev
+23:33 < haroldwu> 感謝
+23:35 < guildwar> udisks
+23:36 < guildwar> udev 要用 root 才能掛，udisks 或 udisksctl 用一般 user 即可
+23:37 < erhandsome> udev可以写规则，普通用户也能用
+23:38 < guildwar> 但是寫規則要用 root 寫 XD
+23:39 < erhandsome> 哈哈
+23:39 < erhandsome> http://paste.ubuntu.com/7157354/
+23:39 < erhandsome> 我的规则
+23:41 < guildwar> 了解，很清楚，用一個自己覺得好用的 :)
+23:44 < guildwar> 看到一個 flash 參數，做用是?
+23:44 < haroldwu> 恩，目前我學弟的意思是他有兩個 user ，要存取同一個隨身碟
+23:44 < guildwar> 看錯，是 flush　XD
+23:44 < haroldwu> 用 ubuntu 的 nautilus 掛的話，另外一個無法存取
+23:45 < guildwar> 用 users 參數，應該任何人都能存取
+23:48 < erhandsome> flush - The vfat option to flush data more often, thus making copy dialogs or progress bars to stay up until all data is written.
+23:49 < erhandsome> 其实我是google抄来的，然后自己改了几个参数 0.0
+23:55 < haroldwu> guildwar: udisks 的 user 參數嗎？
+23:55 < guildwar> 不是，mount 的，不過我剛試了 vfat ，用 users 好像沒效果
+23:56 < guildwar> 要多人共用，還是用 udev 寫好 rules, mode 改成 755 之類的比較方便，udisks 比較適合自己用
+--- Log closed 四  3月 27 00:00:01 2014

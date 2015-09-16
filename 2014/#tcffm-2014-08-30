@@ -1,0 +1,34 @@
+--- Log opened 六  8月 30 00:00:55 2014
+08:54 <@haroldwu> 我的有開起來也
+08:54 <@haroldwu> 可是速度很慢很卡
+08:54 <@haroldwu> 還不如 xfce4，而且我不喜歡仿 mac 的界面 XDD
+09:16 < guildwar> 唉，最近很背吧，用 archlinux 官方 kernel，OpenGL 都不會動，log 裡寫 Detected a hung GPU, disabling acceleration.
+09:17 < guildwar> 但開到 gentoo 或 debian 又很正常，結果拿 gentoo 自己編的 kernel 來 archlinux 用也正常，有空再來慢慢比對看是不是少了什麼模組
+09:18 <@haroldwu> 自己開 abs 編譯優化了 XD
+09:18 <@haroldwu> 在中研院參加資料科學年會 XD
+09:18 < guildwar> 讚喔
+09:19 <@haroldwu> 希望開學還有 h4tc 聚會哩，我終於有時間參加了
+09:19 < guildwar> 有啦，到時 daniel 會再找的
+09:20 <@haroldwu> 好哦
+09:21 <@haroldwu> 後來決定玩資料科學了，資安、移動 app 開發什麼的就不玩了 :P
+09:22 < guildwar> 也好啦，資安很難玩耶 :)
+09:22 <@haroldwu> 對啊...而且我也沒有 C 的基礎
+09:23 <@haroldwu> 玩一玩頂多還是 scripting boy XDD
+09:23 < guildwar> 可是開發 firefox os app 不是都 javascript 而已，不用 C 吧
+09:24 <@haroldwu> 也沒打算走前端啦 XD
+09:24 <@haroldwu> CSS 什麼的好麻煩 =.=
+09:25 < guildwar> 不然用 apache cordova 來開發，大部份平台都支援 XD
+09:27 <@haroldwu> XD 如果 qt 支援手機的話倒是不錯
+09:28 < guildwar> 有吧，到時候 ubuntu touch 就有支援吧
+09:39 < guildwar> 最近我姊換新手機，跟他拿了舊的 samsung s2 想來裝 ubuntu touch，看看好不好用
+09:45 <@haroldwu> 好哦~~
+09:46 <@haroldwu> 感覺其實不錯啦 XD
+22:50 -!- Topic for #tcffm: 臺中自由軟體愛好者聚會 TcFFM 郵件列表: http://bit.ly/tcffm-forum | IRC-log：https://github.com/a2n/tcffm/ | 論壇：http://tcffm.twgogo.org/
+22:50 -!- Topic set by haroldwu [~haroldwu@unaffiliated/haroldwu] [Fri Jan  3 11:35:31 2014]
+22:50 [Users #tcffm]
+22:50 [@haroldwu] [ a2n_    ] [ darkx   ] [ NewCliCker] [ petercommand] 
+22:50 [ a2n     ] [ aksatac_] [ guildwar] [ op_logbot_] 
+22:50 -!- Irssi: #tcffm: Total of 9 nicks [1 ops, 0 halfops, 0 voices, 8 normal]
+22:50 -!- Channel #tcffm created Fri Aug  9 21:35:26 2013
+22:51 -!- Irssi: Join to #tcffm was synced in 63 secs
+--- Log closed 日  8月 31 00:00:56 2014

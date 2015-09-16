@@ -1,0 +1,144 @@
+--- Log opened 一  4月 14 00:00:45 2014
+00:16 < haroldwu> 發現有個超級強人叫 唐鳳 XD
+00:17 < haroldwu> 用 haskell 實現 perl 6 解釋器
+00:18 < brli> 暱稱是au嘛？
+00:21 < haroldwu> 應該是，臺灣 perl 社羣的 IRC 是？
+00:21 < haroldwu> 好空 #perl.tw
+00:22 < haroldwu> 不怎麼熱絡...QQ
+00:25 < haroldwu> 查了一下，是 au 沒錯
+00:40 < brli> haroldwu: 這一次在立法院擺攤，它一個人就能調控全場阿宅，應該是實力輩分都很高的大大（拜
+00:44 < erhandsome> 好像是个lisp黑客？
+01:15 < haroldwu> erhandsome: 應該不是，但是是個超強 perl + haskell 黑客無誤 XD
+01:16 < haroldwu> brli: 我光看 wiki 簡介就想下跪了 XD
+01:16 < brli> haha :D
+08:58 < darkx> brli: au 是超超超超超強大師...
+09:13 < a2n> 以前大學時候也曾崇拜她，讀了「成長戰爭」才知道資優生得來不易。
+09:20 < darkx> a2n: 他不只是資優生啊 XDDD
+09:20 < a2n> 那時 c9s 崇拜的程度遠過於我，連她洗澡還在看 #perl6 都知道 XDDD
+09:20 < darkx> 而是真正的天才，真正的軟體大師
+09:20 < darkx> a2n: 他不只是洗澡在看 #perl6 ，還會用牙刷打字 XDD
+09:21 < a2n> darkx: 看來你也了解她 XD
+09:21 < a2n> 有的天才自視甚高，孤僻的個性。但是她待人極為親切
+09:21 < darkx> 真的
+09:22 < a2n> 她偶而會研究大腦，不知道是不是想改進自己的大腦否？ :P
+09:23 < darkx> brain hacking 嗎 XD
+09:24 < a2n> indeed. :D
+12:33 -!- Topic for #tcffm: 臺中自由軟體愛好者聚會 TcFFM 郵件列表: http://bit.ly/tcffm-forum | IRC-log：https://github.com/a2n/tcffm/ | 論壇：http://tcffm.twgogo.org/
+12:33 -!- Topic set by haroldwu [~haroldwu@unaffiliated/haroldwu] [Fri Jan  3 11:35:31 2014]
+12:33 [Users #tcffm]
+12:33 [ a2n ] [ darkx     ] [ guildwar] [ hmchen] [ mosiwang  ] [ petercommand  ] 
+12:33 [ brli] [ erhandsome] [ haroldwu] [ Luxun ] [ op_logbot_] [ petercommand11] 
+12:33 -!- Irssi: #tcffm: Total of 12 nicks [0 ops, 0 halfops, 0 voices, 12 normal]
+12:33 -!- Channel #tcffm created Fri Aug  9 21:35:26 2013
+12:33 -!- Irssi: Join to #tcffm was synced in 27 secs
+14:28 < haroldwu> 但是我在 #haskell.tw 和 #perl.tw 都沒看到 au 啊
+14:30 < haroldwu> (還是太強了所以懶的掛 XD)
+20:24 < macint0sh> .
+20:49 < darkx> 應該是www
+22:45 < haroldwu> 來問一下 lib32 + nvidia + opengl 要怎麼弄
+22:46 < haroldwu> lib32-nvidia-304xx-utils 已裝
+22:46 < guildwar> 64bit 的也要裝
+22:47 < haroldwu> 64 bit 的我有 extra/nvidia 334.21-4
+22:47 < haroldwu> extra/nvidia-libgl 334.21-7
+22:47 < haroldwu> extra/nvidia-utils 334.21-7
+22:48 < guildwar> 核心模組 nvidia.ko 有了嗎?
+22:48 < guildwar> nvidia-dkms ??
+22:49 < guildwar> 我沒在 arch 裝過 nvidia 就是，試試看 XD
+22:49 < haroldwu> nvidia.ko 怎麼看？
+22:50 < guildwar> find /lib/modules/`uname -r`/ -name "nvidia.ko*"
+22:50 < haroldwu> 沒有這東西耶 @@
+22:51 < guildwar> 那就要裝 nvidia-dkms ，然後編出 nvidia.ko.gz
+22:52 < haroldwu> 我只是想玩個 steam 呀... QQ
+22:53 < guildwar> 那用 nouveau 就好啊
+22:53 < haroldwu> 那個效能有點差 :P
+22:53 < guildwar> 我目前也是用 nouveau 就可以玩了說
+22:53 < haroldwu> 好吧，dkms aur 有包
+22:54 < guildwar> 要用 nvidia driver, 那就一定要編 nvidia.ko 才行啦
+22:54 < guildwar> 很簡單, dkms 下個指令就編好了
+22:55 < haroldwu> 今天才更新、打補丁的 aur
+22:55 < haroldwu> 熱騰騰 XD
+22:56 < guildwar> 水喔
+22:59 < haroldwu> nvidia-dkms 跟 nvidia 衝突 @@
+22:59 < guildwar> 那就應該不用了，我想位置放不同地方
+22:59 < guildwar> find /lib/modules/ -name "nvidia.ko*"
+23:00 < guildwar> 搞不好已經掛了  lsmod |grep nvidia
+23:00 < haroldwu> 也沒有
+23:00 < haroldwu> lsmod 我應該預期看到什麼？
+23:01 < haroldwu> nvidia              10736308  41
+23:01 < haroldwu> drm                   237667  2 nvidia
+23:01 < haroldwu> i2c_core               24824  4 drm,nvidia,i2c_nforce2,videodev
+23:01 < haroldwu> 這是輸出
+23:01 < guildwar> 有啊 nvidia 就是
+23:01 < guildwar> 已經有掛載了，那問題在哪裡?
+23:01 < guildwar> 是遊戲不能開，還是很慢?
+23:02 < haroldwu> 不能開
+23:02 < haroldwu> 他說沒有 opengl 志願
+23:02 < guildwar> post /var/log/Xorg.0.log
+23:03 < haroldwu> 我瞧瞧
+23:04 < haroldwu> 我直接貼了喔，不另開 pastebin
+23:04 < haroldwu> -> % tail /var/log/Xorg.0.log
+23:04 < haroldwu> [    71.541] (II) NVIDIA(0): Setting mode "NULL"
+23:04 < haroldwu> [    72.661] (II) NVIDIA(0): Setting mode "VGA-0: nvidia-auto-select @1920x1080 +0+0 {ViewPortIn=1920x1080, ViewPortOut=1920x1080+0+0}"
+23:04 < guildwar> 你查一下 nvdia 所有的包，要有 64 bit 的，然後要有相對應的 32 bit 的包
+23:04 < haroldwu> [ 17556.403] (II) NVIDIA(GPU-0): Display (Acer P236HL (CRT-0)) does not support NVIDIA 3D
+23:04 < guildwar> 很大耶
+23:04 < haroldwu> [ 17556.403] (II) NVIDIA(GPU-0):     Vision stereo.
+23:04 < haroldwu> [ 17556.403] (II) NVIDIA(GPU-0): Display (Chi Mei Optoelectronics corp. (DFP-0)) does not
+23:04 < haroldwu> [ 17556.404] (II) NVIDIA(GPU-0):     support NVIDIA 3D Vision stereo.
+23:04 < haroldwu> [ 21519.923] (II) NVIDIA(GPU-0): Display (Acer P236HL (CRT-0)) does not support NVIDIA 3D
+23:04 < haroldwu> [ 21519.923] (II) NVIDIA(GPU-0):     Vision stereo.
+23:04 < haroldwu> [ 21519.924] (II) NVIDIA(GPU-0): Display (Chi Mei Optoelectronics corp. (DFP-0)) does not
+23:04 < haroldwu> [ 21519.924] (II) NVIDIA(GPU-0):     support NVIDIA 3D Vision stereo.
+23:04 < haroldwu> XDD
+23:05 < guildwar> 弄到 pastebin 去啦，
+23:05 < haroldwu> 來不及了.... :P 下次會注意
+23:05 < guildwar> 在猜應該是少了某些 32bit 的包
+23:06 < haroldwu> 好，我看看
+23:06 < guildwar> 我想到了，在跑 steam 時，不是會有 log 可看?
+23:07 < haroldwu> 把這兩個裝起來看看，沒裝 lib32-nvdia-libgl lib32-nvidia-utils
+23:07 < guildwar> 對
+23:07 < haroldwu> 我有看，只是叫我去網路的什麼地方找說明看而已=.=
+23:09 < erhandsome> 我的steam打开dota2一片红...(intel驱动
+23:09 < guildwar> 科科, intel 不能玩吧
+23:10 < erhandsome> intel官方说是能跑的
+23:11 < guildwar> 那也要新的 intel 卡，像我的 notebook 舊的是跑不動的
+23:12 < erhandsome> 恩，我的i卡是够格了，不过还是一片红...
+23:13 < guildwar> 真慘，是幾版的 driver 呢? 在 arch 上最新的是用 2.99 版
+23:13 < guildwar> 使用最新的 SNA
+23:14 < guildwar> SNA 效能據說比之前的 UXA 和 EXA 好了不少
+23:15 < guildwar> (II) intel(0): SNA initialized with Eaglelake (gen4.5) backend
+23:15 < erhandsome> 我也不知道现在版本是多少...
+23:16 < haroldwu> 我也是要打 dota XD
+23:16 < erhandsome> (II) intel(0): SNA initialized with Ivybridge (gen7, gt2) backend
+23:16 < erhandsome> 这个应该是最新版本吧
+23:17 < guildwar> 那應該也滿新的了，不然改到 UXA 呢？　搞不好就不會紅了
+23:17 < erhandsome> gentoo不知道怎么该...
+23:18 < erhandsome> 我现在倒是能进入dota，就是整个屏幕都是灰色的...
+23:18 < erhandsome> 人物只有鼠标移到身上时才有绿色
+23:19 < guildwar> https://wiki.archlinux.org/index.php/Intel_Graphics 裡面有
+23:19 < guildwar> Option      "AccelMethod"  "uxa"
+23:23 < erhandsome> gentoo 只要加个uxa的use就好了 0.0
+23:23 < guildwar> 了解，可是要重編滿久的吧 :)
+23:25 < haroldwu> 我放棄了 XD 要玩的話只能回 win 下玩
+23:26 < erhandsome> guildwar: xf86-video-intel倒是不用编译太久
+23:27 < guildwar> haroldwu: 不會吧，這樣就放棄，沒那麼複雜啦，你的 ~/.steam/error.log 裡寫什麼?
+23:27 < erhandsome> 我都放弃好多次了...
+23:28 < guildwar> 好吧，因為我沒有 windows 可切回去，只要搞到會動為止 XD
+23:28 < guildwar> "只好" 搞到會動為止才能玩 :)
+23:35 < haroldwu> 我的 steam 沒有 error log XD
+23:36 < guildwar> 好吧，先切回去 win 吧，我目前是在 debian 上裝 steam，我改天裝個 arch 然後再裝 nvidia 試試
+23:44 < erhandsome> guildwar: 你以前玩过dota么
+23:44 < guildwar> 沒有咧，這二天才裝 steam 試過 dota2 而已 :)
+23:45 < guildwar> 之前只玩 diablo 類的
+23:45 < haroldwu> 我室友是 dota 高手 XD 我則完全對這種戰鬥塔防沒天分
+23:45 < erhandsome> 我也只玩过英雄联盟
+23:46 < guildwar> 我也沒天份，純粹是新鮮而已，反應不過來 XD
+23:46 < erhandsome> 玩的多了就好了
+23:46 < erhandsome> 我们可以互加好友啊
+23:47 < guildwar> 拜託，人物那麼多，每個人的特性都不一樣，光想到就頭痛
+23:47 < erhandsome> 我的steam id是erhandsome1
+23:47 < guildwar> 我的是 guildwar23 吧
+23:47 < erhandsome> 哈哈，其实也没那么多
+23:48 < erhandsome> 有时候不同英雄的技能也觉得挺好玩的
+23:49 < guildwar> 對啊，人物多種可選，比較不會那麼快就玩膩了
+--- Log closed 二  4月 15 00:00:46 2014

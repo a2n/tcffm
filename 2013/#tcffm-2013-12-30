@@ -1,0 +1,461 @@
+--- Log opened 一 12月 30 00:00:51 2013
+00:41 < ronmi> 香港朋友來沒空了兩天，來報告一下steamOS的安裝已經解析好了，但來不及做投影片，不過要當場live install的關係，所以請容許我後補完整installation guide
+00:42 < ronmi> 為保證安裝時不會破壞現有的partition，所以明天分享的安裝方式會是解析steam installer裡的各項設定後，用debootstrap手動完成安裝
+01:16 -!- Topic for #tcffm: 部落格：郵件列表: http://bit.ly/tcffm-forum | IRC-log：https://github.com/a2n/tcffm/ | 論壇：http://tcffm.twgogo.org/
+01:16 -!- Topic set by haroldwu [~haroldwu@unaffiliated/haroldwu] [Thu Dec 26 21:47:38 2013]
+01:16 [Users #tcffm]
+01:16 [ a2n  ] [ erhandsome] [ Luxun     ] [ OtomeSound] 
+01:16 [ darkx] [ guildwar  ] [ op_logbot_] 
+01:16 -!- Irssi: #tcffm: Total of 7 nicks [0 ops, 0 halfops, 0 voices, 7 normal]
+01:16 -!- Channel #tcffm created Fri Aug  9 21:35:26 2013
+01:17 -!- Irssi: Join to #tcffm was synced in 102 secs
+09:30 < haroldwu> 大家早安~
+09:47 < hmchen> 今天帶台 ipcam 去搞 ustream live 直播, nb 跟手機的鏡頭都太弱了
+09:57 < haroldwu> 好哦~！我今天只能在家裏看你們了orz
+09:58 < hmchen> 先來建立個頻道
+12:20 < hmchen> 今天晚上就連這個吧http://www.ustream.tv/channel/tcffm
+12:21 < hmchen> 640x480 h.264
+12:22 < hmchen> 不過麥克風不是很敏感, 我已經把 gain 調到最大了, 希望今晚能正常收音
+12:24 < haroldwu> ok！
+12:24 < haroldwu> 測試中 XD 沒有 flash，應該學 guildwar 裝個 chroot 下的 firefox 來用
+12:26 < haroldwu> 有批域名好便宜
+12:26 < haroldwu> .com .net .org 域名一年只要495
+12:27 < hmchen> 你輸了, 我去 acsite 申請 domain name 不用 400
+12:27 < hmchen> .com 的
+12:27 < hmchen> .com.tw 還比較貴
+12:27 < hmchen> https://www.acsite.net/tw/
+12:29 < OtomeSound> 如果要有點國際觀(?)的話，.com就夠了ww
+12:29 < OtomeSound> 剩下的仰賴subdomain或是子資料夾的設定即可...
+12:32 < haroldwu> hmchen: 是哦@@ 被忽悠了XD 還沒買啦，只是有點心動
+12:33 < hmchen> 我辦 ACSite 超過三年了, 還蠻便宜的
+12:33 < haroldwu> 應該也來申請個給部落格用，不然直接用 github.io 就暴露底細了
+12:34 < hmchen> 我是連虛擬主機也跟他買, 加上網域一年也還不到 700
+12:35 < hmchen> 這行業的利潤不知道怎麼來的...
+12:55 < haroldwu> 我看了，DDos防禦還要額外買哦...
+12:55 < haroldwu> 這樣如果有人惡意存取網站，流量用完了網站不就GG？
+12:56 < haroldwu> 唔，一年 350，可以拿到 .net 域名，還能1G 硬碟，10G 流量，拿來架 blog 好像不錯耶
+13:00 < OtomeSound> blog太浪費了，wiki比較實在(?
+13:01 < haroldwu> wiki已經有了，在openshift上
+13:02 < haroldwu> 好吧，反正暫時沒需求，先放著...
+13:02 < haroldwu> 其實是想找個可靠點的域名購買商 XD
+13:41 < guildwar> haroldwu: 你可以設多個 profile，一個有 flash, 一個沒有，然後裝 profile manager 來切換
+13:50 < haroldwu> 什麼意思？
+13:51 < haroldwu> 其中一個 profile 不讓他載入這個 plugin 的意思嗎XD
+13:51 < guildwar> 對，因為我的 flash plugin 是放在 ~/.mozilla 中，所以可以
+13:51 < guildwar> 放在 /usr/lib 的話，都會讀到
+13:54 < haroldwu> 你是怎麼裝的？
+13:54 < haroldwu> 自己下載、解壓縮？
+13:55 < guildwar> 對啊，下載 .tgz 解開 libflashplayer.so 就好
+13:56 < guildwar> 放在 ~/.mozilla/firefox/your_profile_name/plugins/
+13:56 < haroldwu> 好
+13:56 < haroldwu> 來試試
+14:05 -!- mode/#tcffm [+o haroldwu] by ChanServ
+16:51 < ronmi> haroldwu > 我六點下班，要先回家拿筆電，可以會晚點到，大學6：45～7：00之間
+16:52 < ronmi> 手殘錯字一堆請見諒XD
+16:52 < guildwar> ronmi: ok, 不要急，慢慢來
+16:53 < ronmi> 我有試載了一兩個比較不吃硬體的小遊戲來玩，steam比想像中順暢
+16:54 < guildwar> 了解 :)
+17:21 <@haroldwu> 今天不會到orz 我會連線看你們 :)
+17:27 < guildwar> 收到，看看 wifi ap 撐得住嗎
+17:30 <@haroldwu> 應該可以吧！hmchen 說他會開頻道？我可能是看直播咯，電腦跑不動視訊 XD
+17:31 < guildwar> 試看看才知道咧
+17:33 < hmchen> 有這樣弱嗎? h.264 640x480
+17:33 < hmchen> 應該很好解
+17:33 < hmchen> 難道你用 rpi 當桌機?
+17:34 < hmchen> 我會把 bitrate 設低一點
+17:36 <@haroldwu> 不是，我指的是 google hangout 一類的
+17:37 <@haroldwu> 再等我一會兒，從朋友哪兒 copy 電影，CPU 現在超高的 QQ 電腦好卡
+17:37 < hmchen> 如果今天直撥有斷訊再通知一下
+17:38 < hmchen> 我預計今天會手忙腳亂... 有一堆線要接
+17:42 < hmchen> 先出發了, 順便辦些事, 等會見
+17:42 <@haroldwu> 好
+17:43 <@haroldwu> XDD 今天看來滿刺激的啊，那個店員小姐看到應該會嚇一跳吧
+17:43 <@haroldwu> （還是我們已經黑很久了XD）
+17:43 < ronmi> 黑了嗎？ 那我要考慮脫隊了 /flee
+17:45 < guildwar> 也不是啦，是怕操掛 match_cafe 的 wifi 或影響到別的使用者 XD
+17:46 < ronmi> live install 網路吃很重XD
+17:47 < guildwar> 了解，不過我想他們的 app 不容易掛才對
+17:48 < guildwar> 搞不好他們有流量控管，那就沒差了
+17:55 <@haroldwu> 我試過更新arch，可以下載速度可達 2MB/s
+18:06 <@haroldwu> firefox 成功，不過原本的profile 就不能跑了不是嗎 QQ 不能兩個實體真悲劇
+18:06 < guildwar> 可以啊，你高興用哪個就用哪個
+18:06 < guildwar> firefox -P profile_name
+18:06 < guildwar> 或裝 profile manager 來切換
+18:07 < guildwar> 理論上有二個 profile 以上時，啟動 firefox 會出現 profile 選擇視窗
+18:07 <@haroldwu> 不是，我的意思是同時跑XD
+18:07 < guildwar> 可以，用 profile manager extension
+18:08 < guildwar> 錯了，叫 profile switcher
+18:09 <@haroldwu> 好
+18:09 < guildwar> 會變二個 firefox 視窗
+18:11 <@haroldwu> firefox 的搜尋好爛@@ 一定要打全稱 profilemanager 纔會出現，如果只打 profile 就什麼都沒有=.=
+18:13 <@haroldwu> 有了，爽！！
+18:14 < guildwar> 對啊，那個搜尋真的滿爛的
+18:31 <@haroldwu> 登入頻道啦，等你們直播咯
+19:28 < guildwar> 快好了，再等一下
+19:29 < guildwar> 因為設備設定很麻煩
+19:31 < guildwar> 有人在看 ustream 嗎?
+19:31 < guildwar> 設定好了，直接開畫面就可看
+19:34 <@haroldwu> 正在看
+19:35 <@haroldwu> 略卡
+19:35 <@haroldwu> hmchen 可能要再調低點解析度？
+19:35 < guildwar> 已經是 640x480 了耶
+19:36 <@haroldwu> 好吧XD 那是我這邊網速慢了QQ
+19:36 < guildwar> 我問看看
+19:38 < guildwar> 本地的人有二個都有開，不會 lag 耶，是不是你家網路太慢
+19:39 < guildwar> 那聲音呢？正常嗎?
+19:40 <@haroldwu> 與影像一起卡住了
+19:40 < guildwar> 現在調 fps 成 15 個 frame
+19:40 < guildwar> 你看看有沒有好一些
+19:40 <@haroldwu> 順了
+19:40 < guildwar> 只能這樣了
+19:41 <@haroldwu> 哈哈
+19:41 <@haroldwu> 聲音還慢好的
+19:41 <@haroldwu> *蠻
+19:41 <@haroldwu> 順啦，很不錯
+19:41 < guildwar> 畫面清楚吧
+19:42 <@haroldwu> 還不錯啊
+19:42 <@haroldwu> 現在熒幕上的字都ok
+19:43 <@haroldwu> 臉書「facebook」的字都清楚
+19:46 <@haroldwu> 今天hmchen大大開講，怎麼看起來粉絲沒來很多 orz
+19:48 <@haroldwu> 卡住啦！！！
+19:48 < op8867555__> 還在卡嗎？
+19:49 <@haroldwu> ok了@@
+19:50 <@haroldwu> 時好時壞
+19:56 <@haroldwu> 是nano XDD
+19:56 < guildwar> 連 hmchen 共七人
+19:58 < guildwar> http://www.ustream.tv/channel/live-ipcam
+19:59 < guildwar> 現在在試這個網址
+20:02 <@haroldwu> 轉換過去看看
+20:02 <@haroldwu> see nothing
+20:03 < guildwar> 現在呢?
+20:03 < guildwar> 大概有 15 秒的 delay
+20:04 < guildwar> 哈囉，有在看 live-ipcam 嗎?
+20:04 <@haroldwu> 有點lag
+20:04 < guildwar> 關了
+20:04 <@haroldwu> 看得到熒幕上的字@@
+20:05 <@haroldwu> 有啊
+20:05 <@haroldwu> 聽到hmchen 問我有沒有再看
+20:05 < guildwar> 了解
+20:06 <@haroldwu> 關掉了
+20:06 <@haroldwu> live-ipcam 關掉了
+20:10 <@haroldwu> 我發現一個神奇的點：隨着連書按讚數的上升，可以觀看的人數也會上升XD
+20:22 < guildwar> 殘念，原本要說 steamOS 的，現在 notebook 掛了，所以沒有後續
+20:22 <@haroldwu> 我要聽聲音就好
+20:22 < guildwar> 要將 cam down 了喔
+20:22 <@haroldwu> 切掉可以
+20:22 < guildwar> 二個是一起的
+20:22 <@haroldwu> 唔QQ
+20:22 <@haroldwu> 還是你們誰開 hangout 然後不要開視訊？
+20:23 < guildwar> 等一下會試 ustream 手機，連結會用同一個
+20:23 <@haroldwu> 好XD
+20:24 <@haroldwu> 換別的軟體憋...
+20:24 <@haroldwu> 阿斯其他人應該有加我google ？開hangout啦！
+20:24 < guildwar> 要測試 ustream 手機 client
+20:28 <@haroldwu> 視訊失敗XD 再試一次
+20:28 < guildwar> 還沒
+20:30 <@haroldwu> 手機很順耶=。=
+20:30 < guildwar> ok, 看看 tcffm channel 的
+20:30 <@haroldwu> 頭暈了
+20:30 <@haroldwu> XDD
+20:30 < guildwar> 有畫面?
+20:30 <@haroldwu> 有啊
+20:30 <@haroldwu> 有畫面，有聲音
+20:31 <@haroldwu> 等下，卡了
+20:31 < guildwar> 那聲音呢?
+20:31 <@haroldwu> 有了
+20:31 <@haroldwu> 都有
+20:31 <@haroldwu> 很好
+20:31 <@haroldwu> 不過畫質比pi的差
+20:31 <@haroldwu> 很讚
+20:31 <@haroldwu> 清楚咯
+20:31 <@haroldwu> 有啊
+20:31 < op8867555__> 剛剛那個不是pi的相機說
+20:31 <@haroldwu> 對
+20:31 <@haroldwu> 哦是哦XD 不是pi的相機
+20:32 <@haroldwu> 來測試延遲？
+20:32 < guildwar> 現在是手機
+20:32 <@haroldwu> 你講句話
+20:32 <@haroldwu> 我來看多久才聽到
+20:32 <@haroldwu> 好順XD
+20:32 < guildwar> 現在 hmchen 在說話
+20:32 <@haroldwu> 要一個標的XD
+20:32 <@haroldwu> 很順耶
+20:33 <@haroldwu> 好像駭入監視器偷窺的feel
+20:33 < brli> 沒網址XD
+20:34 < brli> 求之
+20:36 <@haroldwu> 上面有
+20:36 <@haroldwu> 我貼下
+20:36 <@haroldwu> http://www.ustream.tv/channel/tcffm
+20:36 <@haroldwu> 有了
+20:36 <@haroldwu> 科科
+20:39 < brli> 視角真的頗工口(工口的是你的心
+20:41 < guildwar> XD
+20:41 < brli> 科科
+20:42 <@haroldwu> XD
+20:42 <@haroldwu> 我一開始直播就關bt了吼
+20:42 < brli> Win7開basic主題不知道會不會比較強
+20:42 < brli> 不過很醜...
+20:44 < brli> 有喔~^0^/
+20:45 <@haroldwu> 實況很順啊
+20:45 <@haroldwu> 下次都這樣開實況了
+20:45 <@haroldwu> 應該可以炒紅我們的聚會
+20:46 < brli> 哈哈
+20:47 < brli> 不曉得會不會apt-get upgrade 搞到steambox掛掉？
+20:49 < guildwar> 只要不要外加 source list 應該不會
+20:49 < brli> 哈哈
+20:52 < brli> ibus....chewing....
+20:53 < guildwar> 要收了 XD
+20:53 < brli> offair
+20:53 < brli> 晚安安
+20:54 <@haroldwu> ok
+20:56 <@haroldwu> 網速太慢，連到學校proxy解決...
+20:58 <@haroldwu> 穩定保證有速度400kb/s...雖然跟以前6MB/s的爽感不可同日而語，但是看到我這邊網路速度不到10kb/s
+20:58 <@haroldwu> 滿足了QQ
+22:11 < hmchen> 今天直播收音還算清楚嗎?
+22:12 < brli> 很清楚XD
+22:12 < hmchen> 以後可以用手機或是usb camera 接 nb 直播
+22:12 < hmchen> ustream 還蠻順的
+22:13 < hmchen> 試過用 pi 開 1920x1080, 4Mbps 都還撐的住
+22:13 < hmchen> 不過在默契還是別把人家的頻寬吃滿
+22:14 < hmchen> 因為我也沒辦法每次都參加, 有直播的話就可以在家加減看
+22:15  * brli 永遠的鍵盤參加者XDD
+22:16 <@haroldwu> 手機效果比較好
+22:17 <@haroldwu> 直播可以衝高人氣啊~！不過如果默契知道我們越搞越大會生氣吧
+22:20 < maxwux> 我也是有在擔心默契的頻寬問題
+22:20 < guildwar> 到時百人響應，一人到場，XD (只有 max 一人到)
+22:21 < maxwux> guildwar: 這點我也很擔心，哈哈哈
+22:21 < hmchen> 除了分享主題的人到場以外 其他人都龜在家裡嗎?
+22:21 < maxwux> 大家都在家裡看直播，我一個人演獨角戲
+22:21 < brli> 真˙視訊聚會
+22:21 < guildwar> 天氣這麼冷，當然要窩在棉被裡上網啊 :)
+22:21 < hmchen> 那乾脆全視訊好了~
+22:21 < hmchen> 躲在家裡分享主題
+22:22 < maxwux> 那也不用到場了，直接在加廣播桌面就好了
+22:22 < brli> 哈哈哈
+22:22 < brli> google hangout表示：計劃通
+22:22 < hmchen>  記得 hangout 有人數限制
+22:22 < hmchen> 但可以多對多人通訊
+22:23 < hmchen> ustream 算是廣播, 1 對多, 但是只能單向, 可以配合網頁即時留言, 但是現場分享互動的氣氛還是比較好的
+22:24 < brli> 現場跟真人互動還是有必要的
+22:24 < hmchen> 頻寬問題應該是我帶的 axis 低照度時, bitrate 壓不下來, ustream 官方的說法, android app 大約是 300~ 500kbps 跳動
+22:25 < hmchen> 根據會面內容而定
+22:25 < hmchen> 如果是白天, pi camera 640x360, 256kbps 畫質就蠻不錯的了
+22:26 < maxwux> 其實我也覺得真人互動是必要的，我也喜歡現場的氣氛
+22:26 < maxwux> 還是說要試辦直播看看？
+22:27 < hmchen> 我只擔心聊的太 high 吵到樓上
+22:27 < maxwux> 如果會減少 member 來的意願，也許就停止不直播？
+22:27 < guildwar> 其實技術上從來就不是問題，只是考慮到最後大家都會從網路參加就是 :)
+22:27 < hmchen> 反正直播不保證全程看得到, 聽的清楚
+22:28 < hmchen> 以後把直播解析度降到 320x240 霧裡看花
+22:28 < hmchen> 讓投影片看不見 XD
+22:28 < maxwux> 哈哈哈
+22:28 < maxwux> 這樣好賤
+22:28 < guildwar> 何苦呢?
+22:28 < hmchen> 我是覺得直播是個推廣的方式
+22:29 < brli> 樓上各種惡意wwwww
+22:29 < hmchen> 我相信對這團體有興趣的人遠大於出席人數
+22:29 < maxwux> 從推廣的角度來看，確實是不錯
+22:29 < hmchen> 但各種不便導致無法出席
+22:30 < hmchen> 興大的彰師大的學生, 對他們來說都很不方便
+22:30 < hmchen> 我是覺得會出席的還是會出席, 跟有沒有直播無關
+22:31 < maxwux> 確實在出席上有地域性的限制
+22:31 < maxwux> 那麼.......應該是可以試試看
+22:32 < maxwux> 不過.....有人有閒置的手機嗎？
+22:32 < hmchen> 就弄個 ipcam
+22:32 < hmchen> sorry,  usb webcam
+22:32 < hmchen> 應該有那種照度低還堪用的產品
+22:33 <@haroldwu> 超出我的能力範圍了:P 完全對cam 沒研究
+22:33 < hmchen> 就跟挑喇叭一樣,  口徑大的就對了
+22:34 < maxwux> 有人願意準備嗎？
+22:34 < hmchen> 用 pi 直播的問題出在沒 mic in
+22:34 < hmchen> 如果有需要我可以準備 usb cam
+22:35 < hmchen> 但 nb 就看當次出席的人支援了
+22:35 < maxwux> 用nb+cam+script嗎？
+22:36 < hmchen> 是啊
+22:36 < hmchen> ffmpeg 就搞定了
+22:36 < hmchen> 用 ipcam 太麻煩了
+22:37 < hmchen> 設定一堆
+22:37 < hmchen> 是今天講一下玩法才帶去接
+22:37 < maxwux> 不知道大家對於自己說得話會被LIVE廣播出去的事，感覺怎麼樣？
+22:38 < guildwar> 在 twgogo 上弄個投票看看 :)
+22:38 < hmchen> 隱私問題確實要看出席者意願
+22:38 < maxwux> 可是就像 senio 說的，投票大家都嘛說好，因為也不是他們做
+22:39 < maxwux> 恩.....
+22:39 < guildwar> 但至少你能掌握哪幾個人對語音隱私的要求
+22:40 <@haroldwu> 對吼，直播必須考慮觀看者
+22:40 <@haroldwu> 如果限定頻道觀看的人不能是遊客呢？
+22:40 <@haroldwu> 能嗎？
+22:40 < hmchen> 可以
+22:40 < hmchen> ustream 可以設密碼保護
+22:41 < guildwar> 不然就訂一個規則，只要來參加，就得接受語音放上 youtube :)
+22:41 < hmchen> free account 就可以加保護功能了
+22:41 < hmchen> 我是覺得會來的就還是固定班底了
+22:41 < guildwar> 這種自由軟體的聚會，還上鎖，不是很諷刺
+22:41 < hmchen> 上鎖是比較不妥
+22:42 < maxwux> 語音放上youtube這個部份，可以靠後製修掉不想被公開的言論
+22:42 < maxwux> 但LIVE就不行了
+22:42 < hmchen> 我是覺得與會者如果有意見, 可以暫時停止 live
+22:42 < hmchen> 所以這些軟體都會有個 mute 鍵
+22:43 < hmchen> 可以靜音, 或者直接關掉
+22:43 < brli> haha
+22:43 < hmchen> 只是, 很難想像這種聚會裡頭會有啥問題不能拿出來講的
+22:43 < hmchen> 除了 max 今天說的部份 XD
+22:43 < maxwux> 囧
+22:43 < hmchen> 捅刀
+22:44 < maxwux> 不過換個角度想
+22:44 < maxwux> 也許正因為有LIVE不能後製的原因
+22:44 < maxwux> 搞不好會更加謹言慎行
+22:45 < maxwux> 結果每個人說話都跟政治人物一樣慢 XD
+22:45 < brli> 豬公們都不....
+22:45 < brli> 沒事
+22:46 < maxwux> brli: 你沒參加過，你會想看LIVE嗎
+22:46 < brli> 開著聽別人聊天也好
+22:47 < maxwux> 沒有人，只有投影頻幕
+22:47 < hmchen> 法律上會出事應該只有人身攻擊, 或是洩密之類的, 但這個本來就不該在聚會的場合上講
+22:47 < brli> 總比過聽鍵盤聲XD
+22:47 < hmchen> 只拍布幕＋聲音其實很好
+22:47 < hmchen> 打死不認帳
+22:47 < brli> maxwux: 對阿，反正我也是當收音機在聽就是了...除非要看「真相」XDD
+22:48 < brli> lol
+22:48 < maxwux> 例如「我從來沒說過放無薪假可以得諾貝爾獎這種話」
+22:48 < hmchen> live + irc 其實就很好玩了
+22:48 < hmchen> 讓其他人也有參與的感覺
+22:48 < brli> 嘛~甭想太多，覺得好就做，覺得不妙就收，大概吧？
+22:49 < hmchen> 玩一兩次看看吧
+22:49 < maxwux> 嗯嗯
+22:49 < maxwux> 好阿！
+22:49 < maxwux> 那就來做吧
+22:49 < maxwux> 也許會有有趣的東西出現
+22:49 < maxwux> 哈哈哈
+22:49 < hmchen> 成效不好, 或是覺得有疑慮頂多照以前方法進行
+22:49 < brli> 感覺會變得很假思丁實況XDD
+22:50 < maxwux> 真的覺得這個聚會進化好多
+22:50 < maxwux> 愈來愈酷了
+22:50 < brli> this is a hackers' home-made JustinTV channel lol
+22:51 < hmchen> 正港 home made 就要架 red5 或是 crtmpserver 了
+22:51 < hmchen> 不過人多頻寬就撐不住了,  頻寬這種燒錢的東西, 還是讓 ustream / justin.tv 去搞好了
+22:52 < maxwux> 下次我會跟默契的老闆打聲招呼
+22:52 < maxwux> 說會搞直撥
+22:52 <@haroldwu> 唔，他會不會生氣XD
+22:52 < maxwux> 希望不會
+22:52 < hmchen> 嗯, 別用太多頻寬應該還好
+22:52 < brli> hacker的優點有一項就是會竭盡所能擷取最低成本最高效益的工具來為己用阿XD
+22:53 < maxwux> 不過如果亂搞到讓對方的網路掛掉，又沒告知，我猜他會更生氣
+22:53 < hmchen> 我是沒上網吃到飽, 不然就用 3G 直播出去
+22:53 <@haroldwu> XD 應該沒那麼容易壞吧...
+22:53 <@haroldwu> 地下室3G應該不太行？...
+22:53 < hmchen> 今天流量算是失策了
+22:53 < maxwux> 畢竟都是跟人家借免費的
+22:53 < maxwux> 打聲招呼是應該的
+22:53 <@haroldwu> 不過我決定還好，不然下次統計下流量啊？每秒多少啊今天
+22:54 < hmchen> 已經把 bitrate 設成 1Mbps, 還是被 ipcam 拉上 2M
+22:54 <@haroldwu> *決定/覺得
+22:54 <@haroldwu> 哦...QQ
+22:54 < hmchen> 用 pc 跑 bitrate 應該比較精準
+22:55 < maxwux> hmchen: 你可以幫我試試看512k，低光源，webcam，直播，效果怎麼樣嗎
+22:55 < hmchen> 只拍布幕的話, 亮度夠用 512k 應該沒問題
+22:56 < hmchen> 我現在用 usb 拍螢幕看看
+22:56 < maxwux> upload 512k 應該還好，應該不會弄掛對方的無線網路
+22:56 <@haroldwu> 如果512 k 應該不用知會了，因爲我每次都到那邊跑驢子跟bt(小聲...
+22:57 < maxwux> haroldwu: 你.....
+22:57 < hmchen> 真帶種
+22:57 < guildwar> 讚
+22:57 < brli> 夠狠
+22:58 < maxwux> guildwar: 你覺得怎麼樣呢
+22:59 < maxwux> 有沒有什麼考量？
+22:59 < guildwar> 我只要不要限制參加身份，其他沒意見
+22:59 <@haroldwu> 因爲那邊是我目前能接觸到網路最快的地方...QQ
+22:59 < maxwux> 你是說live的頻道不要鎖，是嗎
+23:00 < guildwar> 我不參加一個封閉的社群 XD
+23:00 < hmchen> 我也是覺得不要鎖 password
+23:00 < hmchen> 沒什麼不能攤在陽光下的
+23:00 <@haroldwu> 那就跟與會的人說有mute的權力這樣
+23:00 < guildwar> 但若你們一定要鎖，當然沒問題，那我只好不參加了 :)
+23:00 < maxwux> 我也是認同不鎖
+23:01 <@haroldwu> ok
+23:02 < hmchen> 桌機的 ffmpeg 要重編
+23:02 < hmchen> 等我一下
+23:02 < hmchen> 開 nb 好了
+23:02 < maxwux> 我有一種，tcffm要跨入全世界的感覺了
+23:02 < maxwux> (肖想)
+23:03 < hmchen> 想太多
+23:03 < maxwux> ㄎㄎㄎ
+23:03 < guildwar> 想太多 :)
+23:03 < maxwux> 做作夢嘛
+23:03 < hmchen> 不過可以把社群搞大搞熱的方式, 我是都不排斥
+23:03 < hmchen> 別跟錢扯上關係就是
+23:03 < brli> 搞大搞熱就得小心其中產生縫隙...
+23:04 < maxwux> 話說.....台灣有任何社群像我們這樣搞LIVE的嗎
+23:04 < guildwar> brli: 這個是難免會遇到的，社群本來就是這樣運作
+23:04 < brli> QAQ
+23:04 < hmchen> 讓我想到 ffmpeg 跟 libav 分家的故事
+23:05 < hmchen> 還又 divx 跟 xvid
+23:05 < maxwux> 也許那天 guidwar 不爽我，就跳走了 QQ
+23:05 < hmchen> 還"有"
+23:05 < brli> ffmpeg現在還真的分的很徹底...
+23:05 < guildwar> 沒錯，什麼都不奇怪 XD
+23:05 < brli> 現在gst居然偏頗libav...搞得我好煩
+23:07 < guildwar> 本來參加社群就是如此，隨時都有人加入，也隨時都有人離開，這沒什麼好奇怪的 :)
+23:07 < maxwux> erhandsome: 你是聚會的成員嗎？
+23:07 < maxwux> 社群如此，公司也如此
+23:07 < maxwux> 人生也是如此
+23:07 < erhandsome> maxwux: 不是...只是见到有人在google+上贴这个频道就加进来看看...
+23:08 < maxwux> erhandsome: 中國人？
+23:08 < hmchen> http://www.ustream.tv/channel/live-ipcam
+23:08 < erhandsome> maxwux: 恩
+23:08 < hmchen> 512kbps
+23:08 <@haroldwu> 是怎麼看到的XD
+23:08 < hmchen> 很穩定
+23:08 < brli> erhandsome: 瞬間讓我發現我的字體沒有簡體字...XD
+23:08 < erhandsome> ...
+23:08 <@haroldwu> brli: 你啥字體啊...wqy 應該都有啊
+23:09 < brli> haroldwu: 就是不用wqy阿XD
+23:09 < maxwux> hmchen: 讓我看一下文字
+23:09 < hmchen> 等一下
+23:09 < hmchen> 我開 nb 的網頁
+23:11 < hmchen_> 覺得拍布幕的話應該 ok 了
+23:11 < maxwux> 看起來，應該OK
+23:11 < hmchen_> 連這種夜市贈品級 web cam 都堪用
+23:12 < maxwux> 收音會是webcam在收嗎
+23:12 < maxwux> 還是電腦？
+23:12 < hmchen_> 通常是 pc/nb 收音
+23:12 < hmchen_> 有些 webcam 也有附帶 uva (audio) 功能
+23:13 < hmchen_> 但 nb 的收音應該比較好
+23:13 < hmchen_> 原本的設計就是稍微有點距離的情況下收音
+23:14 < hmchen_> 拍這種投影片內容的東西, 不用多少頻寬
+23:14 < hmchen_> 我開 128k 給你看看
+23:14 < maxwux> hmchen_: 那......你要提供 webcam 嗎？
+23:15 < hmchen_> 小意思, 如果你覺得這隻都能用, 完全不痛不癢, 夜市玩具級的
+23:15 < hmchen_> 128kbps 來的
+23:15 < hmchen_> 因為幾乎是靜態畫面
+23:16 < hmchen_> 對頻寬沒有要求
+23:16 < hmchen_> 這樣match的老闆應該不會太在意
+23:17 < maxwux> 看起來128好像也OK
+23:17 < maxwux> 那麼，下次聚會，就來用webcam直撥吧
+23:17 < maxwux> 電腦的部份就用我的
+23:17 < hmchen_> 要的話這隻就捐出來吧
+23:18 < maxwux> 感謝 hmchen_ 大大
+23:18 < hmchen_> 這隻還有白光 led
+23:18 < hmchen_> 主動照明
+23:19 < guildwar> 帳號呢？ max 要再請一個嗎?
+23:19 < maxwux> 對，我再申請一個
+23:19 < guildwar> ok
+23:19 < hmchen_> live 我先切掉了喔
+23:20 < hmchen_> 收 nb
+23:20 < maxwux> 下次來玩看看
+23:20 < hmchen> 先去洗澡
+23:20 < maxwux> 不過手機比較方便
+23:21 < maxwux> 但是沒有空閒的手機就是了
+23:22 < guildwar> 對啊，可惜，我提供腳架，可夾 4.3 吋以下的 :)
+23:22 < maxwux> 現在可以夾 webcam
+23:23 < guildwar> 不能夾 webcam
+23:23 < guildwar> 反正那支腳架我都會帶著，到時再看看
+23:23 < maxwux> 好像沒有任何社群像我們這樣搞直撥的吧？
+23:24 < guildwar> 不對啊，下次 hmchen 好像沒有要來，那 webcam 怎麼拿 XD
+23:24 < maxwux> 我再去跟他拿
+23:24 < guildwar> ok
+23:31 < maxwux> 我剛看到 ustream 有支援 apple 耶
+23:31 < maxwux> 我有 ipad 可以試試看
+23:35 < hmchen> nice
+23:40 < hmchen> 投影片連結我貼到討論區了
+--- Log closed 二 12月 31 00:00:52 2013

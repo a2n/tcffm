@@ -1,0 +1,20 @@
+--- Log opened 六 11月 22 00:00:06 2014
+16:36 < guildwar> 現在 firefox 預設
+16:56 < guildwar> 剛看到有人在討論 fedora 打算在 fedora 23~25 將 firefox 改成非預設，討論串中看到有人說 firefox 會自動加入 google 的 cookie，結果我檢查了一下我的 profile 中，果然有一個 google 的 cookie，也是唯一一個，因為我都是用 "Always use private browsing mode"
+16:58 < guildwar> 所以果然有偷渡的狀況，只是我還搞不清楚是什麼時候改的，在猜是和那個 h264 外掛同樣方式吧，再來研究看看
+17:01 < hmchen> 意思是早就被賣給 google 了?
+17:01 < guildwar> 我在猜是的，但是還不確定，你要不要看看你的有沒有
+17:04 < hmchen> 我是很早以前就把自己賣了  XD
+17:05 < guildwar> 這裡有，我還在，要等 10-15 分鐘 https://stackoverflow.com/questions/6301114/how-pref-cookie-google-com-appears-in-firefox
+17:06 < guildwar> ok, 因為會去下載 google safebrowsing 的東東，順便加的
+17:07 < guildwar> 問題是，要用 safebrowsing 功能一定要加這個 cookie 嗎? 還是順便偷渡的
+17:10 < guildwar> 不對，不管 safebrowsing 有沒有開都會有那個 cookie
+17:22 < guildwar> 這裡有 google 的人出來解釋，在 comment 34   https://bugzilla.mozilla.org/show_bug.cgi?id=368255
+17:27 < guildwar> ok, 應該不是中間偷渡的，而是將 ~/.mozilla 完全砍掉，第一次執行 firefox 時就會內建 google cookie 在裡面，若手動砍掉，可能就不會再加進去
+17:39 < guildwar> 發現將 cookie 砍掉後，只要再將設定中 Privacy -> History 改成 "Remember History"，接著立刻關掉 firefox 再開，cookie 又回來了
+17:39 < guildwar> 應該是 firefox 直接設定的
+17:56 < guildwar> ok，我搞懂了，將 cookie 刪除後，只要將首頁設定是 Show my home page，開啟頁面後就會自動連上 google serarch，設定 cookie 了，所以首頁改掉後應該就好
+17:58 < guildwar> 放棄，改首頁沒用，還要改 privacy 的東東，很麻煩
+18:16 < guildwar> ok，終於知道了，只要將 Accept third-party cookies 設成 Never，就不會再自動加 google 那個了
+18:25 < guildwar> 所以應該不是 firefox 設定的，而是開啟了 firefox 有自動連去 google 時，google 才設定的
+--- Log closed 日 11月 23 00:00:07 2014

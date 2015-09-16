@@ -1,0 +1,24 @@
+--- Log opened 日  2月 23 00:00:32 2014
+03:51 -!- Topic for #tcffm: 臺中自由軟體愛好者聚會 TcFFM 郵件列表: http://bit.ly/tcffm-forum | IRC-log：https://github.com/a2n/tcffm/ | 論壇：http://tcffm.twgogo.org/
+03:51 -!- Topic set by haroldwu [~haroldwu@unaffiliated/haroldwu] [Fri Jan  3 11:35:31 2014]
+03:51 [Users #tcffm]
+03:51 [@haroldwu] [ darkx     ] [ guildwar  ] [ petercommand11] 
+03:51 [ a2n     ] [ Guest34090] [ op_logbot_] 
+03:51 -!- Irssi: #tcffm: Total of 7 nicks [1 ops, 0 halfops, 0 voices, 6 normal]
+03:51 !orwell.freenode.net [freenode-info] channel flooding and no channel staff around to help? Please check with freenode support: http://freenode.net/faq.shtml#gettinghelp
+03:51 -!- Channel #tcffm created Fri Aug  9 21:35:26 2013
+03:52 -!- Irssi: Join to #tcffm was synced in 113 secs
+19:47 < guildwar> http://fourdollars.blogspot.tw/2013/12/debianubuntu.html   Debian/Ubuntu 無人值守的系統更新
+22:39 <@haroldwu> https://www.firebase.com/docs/hosting.html firebase hosting
+22:48 <@haroldwu> https://mail.gnome.org/archives/gnome-announce-list/2014-February/msg00054.html visual diff porting to GTK3
+22:56 < guildwar> emacs 沒有這種功能嗎？ 為什麼還要 meld
+22:58 <@haroldwu> 沒啊，看到了轉貼下XD emacs 有 ediff 可用
+22:58 < guildwar> ok :)
+23:06 <@haroldwu> a2n: 可以問你 github 自動 push 是怎麼辦到的嗎？@@ 是設一個空白的 ssh 密鑰對？
+23:15 < guildwar> 理論上也可以用 expect
+23:36 < guildwar> a2n 沒看到人，我講我知道的方法好了，不要產生空白的 ssh key，而是配合 ssh-agent 來使用
+23:41 < guildwar> 或 keychain 之類的工具
+23:47 <@haroldwu> 喔，好我研究看看
+23:48 <@haroldwu> 不過不知道能不能只有一個 repo 接受那個 pub key
+23:49 < guildwar> 這個要看 github 有沒有這功能
+--- Log closed 一  2月 24 00:00:33 2014

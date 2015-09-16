@@ -1,0 +1,95 @@
+--- Log opened 四  1月 16 00:00:14 2014
+07:13 -!- Topic for #tcffm: 臺中自由軟體愛好者聚會 TcFFM 郵件列表: http://bit.ly/tcffm-forum | IRC-log：https://github.com/a2n/tcffm/ | 論壇：http://tcffm.twgogo.org/
+07:13 -!- Topic set by haroldwu [~haroldwu@unaffiliated/haroldwu] [Fri Jan  3 11:35:31 2014]
+07:13 [Users #tcffm]
+07:13 [@haroldwu] [ a2n_ ] [ guildwar] [ op8867555__] [ OtomeSound  ] [ s8321414] 
+07:13 [ a2n     ] [ darkx] [ Luxun   ] [ op_logbot_ ] [ petercommand] 
+07:13 -!- Irssi: #tcffm: Total of 11 nicks [1 ops, 0 halfops, 0 voices, 10 normal]
+07:13 -!- Channel #tcffm created Fri Aug  9 21:35:26 2013
+07:14 -!- Irssi: Join to #tcffm was synced in 107 secs
+11:23 < guildwar> 在 #mozilla-taiwan 看到的 http://is.gd/cm4PK0，便宜的七吋平板
+14:48 < hmchen_> MT6577 雙核 A9, 這顆可以買
+14:48 < hmchen_> 上頭寫 4.9 折好康價 $2870 耶
+14:49 < guildwar> 不過不知道螢幕耐不耐刮，不然一下子就一堆痕跡
+14:49 < hmchen_> 512M RAM 跑 ICS 略少, 螢幕就買個東西來貼
+17:15 <@haroldwu> 我的dolphin昨天更新後不會動了@@
+17:20 < guildwar> 家目錄裡的設定檔砍了看看
+17:25 <@haroldwu> 其實不是不動，而是跟我說什麼protocol error
+17:25 <@haroldwu> thunar/pcmanfm則正常的很
+17:25 < guildwar> 那直接忽略吧
+17:26 < guildwar> gtk 也是有一堆有的沒的訊息
+17:26 <@haroldwu> 設定檔是整個.kde4 吧
+17:27 < guildwar> 用改名的也滿方便的
+17:28 <@haroldwu> 恩，沒效，難道不是這個資料夾嗎？！
+17:39 < Luxun> 剛剛sudo apt-get upgrade -f ，整個系統被卸載光了！
+17:39 < Luxun> TAT
+17:44 < guildwar> 慘，要不要砍掉重練 XD
+17:45 < brli> Luxun: 別隨便force阿
+17:45 < brli> xD
+17:53 < guildwar> 對了，有人玩過 WebRTC 嗎？ 要不要和我測看看 :)
+17:59 < guildwar> http://tincan.ryanseys.com/    直接在這裡用瀏覽器打開，以 persona 登入就可以用了
+18:00 < guildwar> 當然也可以自己架 tincan server
+18:00 < guildwar> https://github.com/mozilla/tincan
+18:08 < petercommand> 登入完直接被登出@@
+18:09 < petercommand> 不能講被登出，而是回到和登入前一樣的畫面
+18:11 <@haroldwu> 唔，我的kde整個壞了...來重灌好了QQ
+18:13 <@haroldwu> 換別的帳號也是一樣的問題:P
+18:14 < brli> haroldwu: 用什麼發行版阿？
+18:15 <@haroldwu> arch啊，所有kde系軟體都壞了kbuildsycoca4
+18:15 <@haroldwu> kbuildsycoca4 看來是這個東西出問題
+18:15 <@haroldwu> 剛剛跑了一次Syu，確定都是最新的
+18:15 < guildwar> petercommand: 奇怪，我用 desktop firefox 登入也是立刻被登出，但用手機的 browser 則沒問題
+18:16 < guildwar> 會不會是沒 webcam 的關係?
+18:22 <@haroldwu> 我進去了~
+18:23 <@haroldwu> guildwar: 你要試試嗎
+18:23 < guildwar> 進去哪裡了，要負責嗎? XD
+18:23 <@haroldwu> XD
+18:23 < guildwar> 直接打我的 email
+18:24 < guildwar> haroldwu: 你是用手機?
+18:24 <@haroldwu> guxxxxxxxx@gmail.com
+18:24 < guildwar> yes
+18:24 <@haroldwu> 筆電喔
+18:25 < guildwar> 所以筆電有 webcam
+18:25 < guildwar> 我在猜若沒 webcam 可能會直接跳出
+18:25 <@haroldwu> no answer 耶
+18:25 <@haroldwu> 你在線上嗎
+18:25 < guildwar> 有　
+18:25 <@haroldwu> 不然你call我試試
+18:25 < guildwar> ok
+18:25 <@haroldwu> wennyxxxxxxxx@gmail.com 那個
+18:27 < guildwar> 可能手機太爛，按下 call 就沒反應 XD
+18:29 <@haroldwu> 唔，好吧QQ
+18:30 < guildwar> 等我有 webcam 再研究吧 :)
+18:31 <@haroldwu> ok
+18:31 <@haroldwu> 你的筆電沒有嗎？
+18:31 < Luxun> brli: 真的整個炸了，連Grub上都沒看見Ubuntu了
+18:37 < petercommand> Luxun: 甚麼OS?
+18:38 < brli> ubuntu?
+18:38 < guildwar> 我的筆電沒 webcam
+18:41 < petercommand> guildwar: 我用mobile也是直接登出
+18:41 < Luxun> 是Ubuntu 13.10
+18:46 < petercommand> guildwar: 有webcam的mobile也是一樣
+20:16 < guildwar> petercommand: 是喔，奇怪了，我的 firefox os 手機不會自動登出，我等一下刷 android 後再來試試
+20:50 < guildwar> petercommand: 刷成 android 4.0.4 後，用內建 browser，登入 persona 後會自動登出，而改用 firefox 登入就正常，也可以撥號
+20:51 < guildwar> haroldwu: 有空再來試 WebRTC 啊 :)
+21:22 < petercommand> guildwar: XD
+21:32 < guildwar> petercommand: 你的 mobile 有裝 firefox ??
+21:33 < guildwar> 有趣的桌球比賽 https://www.youtube.com/watch?v=pMHkO8cdSDk
+22:24 < petercommand> guildwar: 沒有耶
+22:24 < guildwar> ok, 了解
+23:41 < hmchen_> http://learn.adafruit.com/adafruit-pitft-28-inch-resistive-touchscreen-display-raspberry-pi/overview
+23:41 < hmchen_> 有 Pi 用的 320x240 LCD
+23:43 < guildwar> 看起來不錯耶，不知道要多少錢 :)
+23:43 < hmchen_> 略貴, 走 SPI 介面所以畫面更新率應該不高, 但畫質比類比的好很多
+23:43 < hmchen_> http://www.adafruit.com/products/1601#Learn
+23:43 < hmchen_> 34.95 USD
+23:44 < hmchen_> http://www.adafruit.com/category/105_160
+23:44 < hmchen_> 這邊有很多類比的 LCD
+23:45 < guildwar> 還是直接用舊的 15吋淘汰的 LCD 就好 :)
+23:47 < hmchen_> 如果要做到 demo 影片中, 自帶電池+cam+LCD+wifi, 尺寸跟電源就很重要
+23:47 < guildwar> 了解
+23:48 < hmchen_> 之前做過一個類似的案子, 用別家的 soc, 但改成 usb 3G 網卡, 變成手持行動 ip camera
+23:49 < hmchen_> 當時 LCD 就很難找
+23:49 < hmchen_> 小尺寸幾乎都是類比NTSC/PAL輸入的
+23:50 < guildwar> 現在就比較多選擇了
+--- Log closed 五  1月 17 00:00:16 2014

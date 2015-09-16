@@ -1,0 +1,13 @@
+--- Log opened 四 12月 04 00:00:22 2014
+11:20 < hmchen> https://bbs.archlinux.org/viewtopic.php?pid=1472139
+11:21 < hmchen> 最近踩到這個問題了, cupsd 啟動時 cpu 使用率飆高
+11:22 < hmchen> https://bugs.archlinux.org/task/42666
+11:23 < hmchen> 似乎還沒解掉, 12/03 都還有人持續回報
+11:34 < hmchen> 奇妙的是, restart cupsd 後居然就好了
+11:35 < guildwar> 不知道自己用 abs 重編後會不會改善，之前在 debian 中遇到 screen 一執行後即 cpu 100%，重編後再裝上就沒問題了
+11:58 < guildwar> 我試了  sudo systemctl start org.cups.cupsd 後，並不會有 cpu 100% 的狀況
+12:01 < guildwar> 好像要實際列印才會變 cpu 100%，我沒法試，因為 cups 不支援我的印表機 XD
+13:31 < hmchen> 我是啟動後沒多久就會 cpu 100%, 連印表機都還沒加
+13:39 < guildwar> 只好自己重編看看囉
+14:48 < guildwar> 剛啟動 cupsd 時沒問題，用 web 介面按下 Add Printer 後，立刻 cpu 飆到 100%，試著用 abs 重編了 cups 及 libcups 後，狀況依然沒改善，看來還是要等 bug 修正才行
+--- Log closed 五 12月 05 00:00:23 2014

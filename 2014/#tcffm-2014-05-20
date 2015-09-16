@@ -1,0 +1,11 @@
+--- Log opened 二  5月 20 00:00:34 2014
+20:07 < a2n> haroldwu: 如果是我的機器，可以用 rsync -ae ssh user@host:REMOTE_PATH LOCAL_PATH
+20:44 < haroldwu> 哦哦！這臺有跑 rsync 呀！
+20:44 < haroldwu> a2n: thx
+21:30 < haroldwu> 額，不會動耶 QQ
+21:30 < haroldwu> 完全沒同步
+21:51 < a2n> haroldwu: 我給的那個指令是在 ssh 之上傳輸。都沒動靜嗎？ 加 --progress 看看
+21:51 < a2n> haroldwu: rsync -ae ssh --progress user@host:REMOTE_PATH LOCAL_PATH
+22:09 < haroldwu> 好
+22:10 < haroldwu> 有了，原來是沒動靜，以為它壞掉了
+--- Log closed 三  5月 21 00:00:35 2014

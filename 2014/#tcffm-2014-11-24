@@ -1,0 +1,56 @@
+--- Log opened 一 11月 24 00:00:09 2014
+13:07 < guildwar> 滿屌的，用麵包板插了一台 Motorola 68008 CPU 的機器， 1M RAM，重點是上面還跑 linux
+13:08 < guildwar> http://www.bigmessowires.com/2014/11/17/68-katy-68000-linux-on-a-solderless-breadboard/
+15:02 < hmchen> 從 buffalo nas (openssh 3.7.1p2) 連線到 arch (openssh 6.7p1) 出現 no kex alg
+15:03 < hmchen> key exchange 失敗
+15:04 < guildwar> 沒遇過耶，用 ssh -vv 能看到什麼嗎?
+15:05 < hmchen> debug2: mac_init: found hmac-sha1
+15:05 < hmchen> debug1: kex: server->client aes128-ctr hmac-sha1 none
+15:05 < hmchen> debug2: mac_init: found hmac-sha1
+15:05 < hmchen> debug1: kex: client->server aes128-ctr hmac-sha1 none
+15:05 < hmchen> no kex alg
+15:05 < hmchen> 比較關鍵的幾行
+16:13 < hmchen> arch + owncloud server 弄老半天還是不會動
+16:14 < hmchen> 當工作機沒啥問題, 怎覺得當 server 反而設定比較麻煩?
+17:42 < guildwar> 當 server 的確比較麻煩，感覺上由於太新，和別的 distribution (如 debian 或 nas) 中的程式版本差滿多的，比較會出問題就是
+17:43 < guildwar> 若是二台都 archlinux 應該比較沒問題 XD
+17:56 < guildwar> 應該是 nas 支援的現在新版的 sshd 預設是關掉的，在 archlinux 中 Ciphers 只有 aes 開頭的 5 個外加 chacha20-poly1305@openssh.com 而已
+17:57 < guildwar> 可能加個 Ciphers aes128-xxxx, ..., 3des-cbc 看看
+18:04 < guildwar> 看了一下 debian jessie(8)，和 archlinux 的一樣，但舊的 wheezy(7) 則是多開了 arcfour256,arcfour128,3des-cbc,blowfish-cbc,cast128-cbc,arcfour
+18:08 < guildwar> 我看你升級 nas 比較實際(若有新的 firmware 的話)
+20:17 < guildwar> 原來是 openssh 6.7 之後，將 cbc 及 arcfour 關掉了，因為安全性的考量
+20:17 < guildwar> http://www.openssh.com/txt/release-6.7
+20:18 < guildwar> http://www.kb.cert.org/vuls/id/958563
+20:21 < guildwar> 終於有廠商出高檔筆電是以 "自由及隱私" 為訴求，而且還不錯看
+20:22 < guildwar> https://www.crowdsupply.com/purism/librem-laptop
+20:23 < guildwar> 趁現在集資時買更便宜 (1449 美金)，不過只有OS及軟體是 free，但 firmware 及 hardware 還是 close 就是
+20:30 < guildwar> 對比之下，OS、軟體、硬體及 firmware 都 open 的筆電 novena 就長得有點...... XD
+20:30 < guildwar> https://www.crowdsupply.com/kosagi/novena-open-laptop
+21:06 < haroldwu> XD
+21:11 < guildwar> 對了，推薦這台螢幕，有用 tiling window manager 的人應該會喜歡 :)
+21:11 < guildwar> http://chinese.engadget.com/2014/11/21/eizo-brings-square-monitor/?ncid=rss_truncated
+21:13 < guildwar> 永遠都覺得螢幕不夠.....長
+21:14 < guildwar> 只不過怕 xorg 不支援就是 XD
+21:18 < haroldwu> 優先賣到歐美國家
+21:18 < haroldwu> 搞不好就會有人去改了 XD
+21:21 < guildwar> 反正明年才會上市，而且價格也還未知，太貴也買不起 :)
+22:07 < hmchen> 把 owncloud 後端的 database 換成 mysql (mariadb) 照文件設定後 ok 了
+22:08 < guildwar> 不然你原來用什麼? (postgresql?)
+22:08 < hmchen> sqlite3
+22:08 < guildwar> ok
+22:09 < hmchen> 過程中還把原本 ubuntu 環境裝的  owncloud data folder 搞爛
+22:10 < hmchen> 還好有備份
+22:10 < hmchen> 現在是用 LAMP
+22:11 < hmchen> 但其實我比較喜歡 lighttpd, apach 感覺有點癰腫
+22:12 < guildwar> 對啊，不小心會開太多用不到的功能
+22:12 < hmchen> 用 sqlite 也是同樣的原因, 不過有發現到效能確實有差. 看起來不單純只是檔案數量多影響效能
+22:12 < hmchen> 檔案大似乎也會
+22:14 < guildwar> 而且到時想轉移，sqlite 不好轉移吧，還是 mariadb 比較方便
+22:14 < guildwar> 還是說那個 db 檔 copy 過去就好了
+22:14 < hmchen> 我想的比較單純, sqlite 其實只是 file 架構
+22:15 < hmchen> 理論上比較好換 distribution
+22:15 < guildwar> ok, 但 mariadb 也還好啦，dump 出來倒過去
+22:15 < hmchen> 我想說把系統裝好後, folder 指定過去應該就 ok 了
+22:16 < guildwar> ok
+22:16 < hmchen> 結果就掛了 XD
+--- Log closed 二 11月 25 00:00:10 2014

@@ -1,0 +1,80 @@
+--- Log opened 日  1月 05 00:00:59 2014
+11:46 < darkx> guildwar: 問一下，您的 Arch 是否有裝額外的驅動?
+13:01 < guildwar> darkx: 驅動什麼，音效卡？使用用建 snd_hda_intel
+13:06 < darkx> 我的意思是，有動到額外的東西
+13:06 < darkx> 就我自己的經驗，kernel 本身直接一直升上去的話沒出過問題
+13:06 < darkx> 有的話都是 dkms 額外掛的東西出包
+13:06 < guildwar> 了解，有用 lvm
+13:07 < darkx> mkinitcpio.conf 裏面有 hook 他嘛?
+13:09 < darkx> https://wiki.archlinux.org/index.php/LVM#Add_lvm_hook_to_mkinitcpio.conf
+13:09 < guildwar> HOOKS="base udev archlogo plymouth autodetect modconf block lvm2 resume filesystems keyboard fsck"
+13:10 < darkx> 對，那應該沒問題
+13:10 < darkx> kernel option 有加上 dolvm 嘛?
+13:11 < darkx> 我印象中某些時候 update grub 的時候會不小心把這個選項幹掉然後就 load 不到 lvm
+13:11 < guildwar> 開不起來的狀況，我看訊息是沒抓到硬碟，不知道 sata 的硬碟有沒有像 usb 一樣的 boot delay 參數之類的
+13:11 < darkx> 對，就是我的意思是 開機的時候沒有去找 root=/dev/volum
+13:12 < darkx> * root=/dev/mapper/vg-lv
+13:12 < darkx> 之類的東西
+13:12 < guildwar> grub 是我手動維護的，沒什麼問題
+13:13 < guildwar> 開機一次起不來，有時多開幾次就起來了
+13:13 < darkx> 真是神奇，沒遇過類似的情況
+13:13 < guildwar> 還是說老了，硬碟快掛了也說不定 :)
+13:13 < darkx> smart 有噴信息嘛
+13:15 < guildwar> smart 五年前剛買來就有訊息了，到現在都不理他 XD
+13:15 < darkx> 這XDDDDD
+13:16 < darkx> 我自己沒有很多用 lvm ，手邊機器用 md 比較多
+13:16 < darkx> 不過一般常見的問題都是 initramfs 沒生好 (沒 hook) 、kernel option 和 root 找不到
+13:18 < guildwar> 在 archlinux 會多一個問題，就是升級，之前遇到好幾次，一次是全部 binary 搬到 /usr/bin 那次，就要用 debian 來修復
+13:20 < darkx> 喔喔，之前那個我的經驗是升級前記得看一下公告XD
+13:20 < darkx> 官方解沒出過包(目前大概救援過超過 30 臺不同的 Arch)
+13:20 < guildwar> 那就不行啦，不能要求使用者每天要升級前都得去看公告，這是不人性化的 XD
+13:21 < darkx> guildwar: 不對阿，沒有人說你需要每天升級阿XDD
+13:21 < darkx> https://wiki.archlinux.org/index.php/Enhancing_Arch_Linux_Stability
+13:21 < guildwar> 可是我有看，archlinux 要使用者在安裝 package 前都要做升級，因為我幾乎每天都有裝新的 package
+13:22 < darkx> 這篇教學寫的不錯，很多建議是很有幫助的
+13:22 < darkx> guildwar: 一般說來，有 dependency 的才有影響，不過這個 pacman 照理說會幫你處理好好的
+13:22 < darkx> 我自己的升級頻率大約是 1/week
+13:23 < guildwar> 我是只要有裝 package 前就一定升級，官方說只支援這種 :)
+13:24 < darkx> 不過是有什麼需求需要每天都裝新的 package 阿
+13:24 < guildwar> 因為有看到什麼功能的 package 就裝起來用看看啊，debian 用習慣了，需要大量的 package :)
+13:25 < guildwar> 找新的、好用的 packages 來用是我玩 linux 的樂趣之一
+13:25 < darkx> Arch 是走 KISS 的XD
+13:25 < darkx> 很好阿XD
+13:28 < guildwar> 有時候找到一個好用的小工具就興奮好久 :)
+13:29 < darkx> 用到後來發現，我自己的需求是很簡單，系統很乾淨，所以沒有出過包
+13:30 < darkx> 當然也常常亂裝東西，不過會定期找時間整理，可能只是拿來玩玩看但是後來沒有實際用的東西就會清掉了
+13:50 < guildwar> 至於清硬碟，我都用 ncdu 或 xdiskusage，有沒有那種工具，如某個 package 已經三個月沒使用了的列表，表示我可以刪除他
+13:52 < darkx> 沒想過耶，我是 pacman -Qqen 去找
+13:52 < guildwar> ok, 了解
+13:58 < guildwar> 最近又遇到一個問題，就是要試 virtualbox 的 vnc，有人用過嗎? 有裝了 virtualbox-ext-vnc，但是找不到地方啟動他 XD
+14:03 < darkx> 沒用過耶
+14:07 < guildwar> 了解，感謝
+15:13 < guildwar> 找到一個 lupac，會產生一個列表，依使用 package 時間來排序，不過不知道準不準確就是，可參考看看
+15:13 < guildwar> http://pastie.org/8602752
+16:20 < darkx> wow cool!
+20:26 <@haroldwu> guildwar: 我想到了，沒有sshd也沒關係....
+20:26 <@haroldwu> http://pentestmonkey.net/cheat-sheet/shells/reverse-shell-cheat-sheet (好邪惡）
+20:27 <@haroldwu> 不過，還需要有一個第三方轉接器，因爲我沒 public ip。考完來寫個轉接的程式扔在 openshift 上
+20:29 < guildwar> debian 上的 bash 預設 tcp 是關閉的，除非你重新 compile
+20:30 <@haroldwu> mac 上的不知道如何
+20:30 < guildwar> 看起來用 python 最方便了，幾乎都會裝，不然依我來說，用 nc 最方便
+20:30 <@haroldwu> 沒，我可能用 python 來寫
+20:30 <@haroldwu> perl 應該才是都會裝的？
+20:30 <@haroldwu> arch 的 meta 包 base 裏面就有 perl，但是沒 python
+20:32 < guildwar> 但 mac 上會有 python ?
+20:32 < guildwar> debian 有 perl
+20:32 <@haroldwu> mac 上有 python 喔，不過我不確定版本
+20:33 <@haroldwu> mac 自帶太多東西了，連 emacs 都有帶
+20:33 <@haroldwu> 很肥
+20:33 < guildwar> 那 perl 還滿方便的
+20:33 <@haroldwu> 不過是殘缺的 emacs，版本還在 23的樣子，而且沒有GUI界面，只能從 terminal 開
+20:34 < guildwar> 可能用 mac 的人不大用 emacs XD
+20:34 <@haroldwu> 沒記錯的話，還是GNU emacs 23.3，24.4都要發佈了說XDD
+20:34 <@haroldwu> 上面的 bash 聽說也是萬年不更新的
+21:29 < darkx> mac 上面的 bash 是遠古時代的東西 XD
+21:41 <@haroldwu> 其實我很好奇，mac 作爲開發工具，究竟有什麼優勢？（純疑惑，求解答，xcode 我知道是重點之一）
+22:47 < darkx> 我也好好奇
+22:47 < darkx> 我自己拿 Air 都是連到其他 Linux 上面去 :P
+22:48 < brli> darkx: $o$
+22:55 < darkx> @@
+--- Log closed 一  1月 06 00:00:00 2014

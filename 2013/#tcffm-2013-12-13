@@ -1,0 +1,63 @@
+--- Log opened 五 12月 13 00:00:27 2013
+08:04 <@haroldwu> i3 竟然遠比用python 執行的 qtile 卡...昨天差點掛掉好幾次...@@
+08:04 <@haroldwu> 這樣看來，可能還是得搞一下 awesome 了哈哈，唯一還沒試過的 wm
+09:08 < a2n> haroldwu: 有試過 dwm 嗎？ :D
+12:06 <@haroldwu> 那個也太...XDD
+12:06 <@haroldwu> 聽說有些對齊的問題？
+12:10 <@haroldwu> 配置方式也太蛋疼了dwm...
+13:16 < guildwar> 將 arch 的 kernel 改成 linux-lts (Long Term Support), 不然一天到晚在升級 kernel 還滿麻煩的, 不過要等到下次才知道 lts 是怎麼升級的
+13:17 < guildwar> 有的是寫 long term support, 有的是 long time support
+13:30 < a2n> haroldwu: 親身試用過才知道 :D
+14:47 < guildwar> 我試了 dwm, 真的很小，不過有幾個問題: 1.一樣沒有 applet 支援，使用 pidgin 或 stardict 時，沒地方叫出 stardict。   2. 多螢幕支援方面沒問題，但很多功能都要滑鼠配合才能達到功能，如 focus 在不同螢幕間切換，也就是沒滑鼠似乎無法完全使用，不過能不能 tuning 就要再研究了 :)
+15:10 < a2n> guildwar: apple 是指 java applet？
+15:13 < guildwar> a2n: 不是耶，一直不知道那個怎麼稱呼，是 stardict 或 pidgin 啟動後，將主畫隱藏，只賸下右上角一個小圖示，想用時再點擊小圖示打開主畫面
+15:14 < guildwar> 沒有這個功能，還滿不好用的
+15:14 < brli> guildwar: 額外裝panel搞定他吧XD
+15:15 < brli> tint2(bang用的)感覺不錯
+15:15 < guildwar> ok, 試試 tint2　去
+15:17 < guildwar> 然後那個到底叫什麼東東，不然每次都不知道如何形容
+15:22 < guildwar> brli: 不行啊，那個 tint2 會擋住我的 terminal 最下方一行，看不到如何打字，有解嗎?
+15:22 < brli> guildwar: 用什麼wm?
+15:23 < brli> 有點印象久遠，好像能調成自動縮小XD
+15:23 < brli> 得去找wiki來看設定檔的配置方法
+15:24 < brli> https://github.com/uranusjr/Qelly 看到一個新的ptt軟體
+15:26 < guildwar> 調成 autohide 好像有點可以，不過有點詭異，還要再研究
+15:38 < guildwar> brli: 我現在是用 awesome
+15:41 < a2n> guildwar: pannel or task bar?
+15:42 < guildwar> a2n: ok
+15:44 < guildwar> http://standards.freedesktop.org/systemtray-spec/systemtray-spec-latest.html  在 freedesktop.org 叫做 system tray
+15:45 < guildwar> 我現在選擇的 wm 一定要有這功能，否則會用不習慣 :)
+15:46 < a2n> 我的習慣都是瀏覽器內工作，少用 system tray
+15:47 < a2n> 所以我能接受 dwm :P
+15:51 < guildwar> ok, 我有用 stardict, pidgin, redshift, ibus (這還好，不看也行)
+15:51 < guildwar> 都要用 system tray 的
+15:51 < guildwar> 其實滿多程式都有用到 system tray
+15:53 < guildwar> 如果能有像 tint2 這種軟體，然後能配合各種 wm，那就無敵了，就不會被綁住 XD
+16:08 < guildwar> 對了，有人對 n2n vpn 有興趣嗎? 有興趣一起來研究啊 :)
+16:11 < guildwar> http://www.ntop.org/products/n2n/
+16:14 < guildwar> 最近跟一個歐洲的斯洛伐克人(Slovakia)在研究，還滿不錯用喔，可以直接存取到他家裡的機器，然後 firewall 完全不用設定，當然，使用不當就相對危險
+16:15 < guildwar> 這個滿適合一個小團體一起分享東東，而不被 ISP、NSA or someone 所監督
+16:23 < guildwar> tint2 配合 dwm 在 floating mode + autohide 還滿不錯，但切成 tiling mode 就完全不行 XD
+16:46 < guildwar> haroldwu: 你可以和大陸那邊用 n2n vpn 連線，就可以直接連 minecraft server 了，也不用建立通道再設定什麼 proxy 的，而且什麼 firewall, NAT 什麼的都不用管 :)
+16:51 <@haroldwu> guildwar: 但是要有主機可連吧？
+16:52 <@haroldwu> a2n: 下週來試試 dwm，下週一又要考試了
+16:52 < guildwar> 就要有一台 supernode，就是我昨天說的那台就是
+16:52 <@haroldwu> 但是得連進大陸阿？
+16:53 < guildwar> supernode 也可以自己架, 大家都連到 supernode 去
+16:54 < guildwar> 你連到捷克的 supernode，大陸人也連到捷克的 supernode，然後找到了應該就會直接連了吧 :)
+16:54 <@haroldwu> 有點複雜，再來找文件讀...
+16:54 <@haroldwu> 唔，這要那個服的管理員這要做才行阿
+16:54 < guildwar> 對
+16:55 < guildwar> 你可以介紹他用 n2n 啊，搞不好他也想用 :)
+16:55 <@haroldwu> 海盜灣掛了=.=
+16:55 < guildwar> 大陸最需要這種東東
+16:56 <@haroldwu> 有了
+16:56 <@haroldwu> 現在海盜灣在 thepiratebay.pe
+16:56 <@haroldwu> google 給出的 .sx 已經掛了
+16:57 < guildwar> 耶，LiteCoin 是什麼東東?
+17:03 <@haroldwu> 回家啦，週日纔會再上來噢。中間會以短暫的連線 + log 輔助
+17:03 < guildwar> bye
+17:29 < a2n> guildwar: LiteCoin 是另一種虛擬幣，類似 BitCoin
+17:33 < guildwar> 真是的，那以後不就一托拉庫虛擬貨幣了，那我們也來弄個 TcffmCoin XD
+17:35 < guildwar> 看來現在挖 LiteCoin 是比較划算的 http://www.hardcoreware.net/litecoin-the-mining-alternative-to-bitcoin/
+--- Log closed 六 12月 14 00:00:29 2013

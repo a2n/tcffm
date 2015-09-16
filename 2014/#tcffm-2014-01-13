@@ -1,0 +1,263 @@
+--- Log opened 一  1月 13 00:00:10 2014
+00:05 < guildwar> oh，yes，成功啟動 debian 的 openssh server :)
+15:35 < guildwar> http://packages.debian.org/search?keywords=docker.io    docker.io 進入 debian sid 了
+15:43 < guildwar> 有人試過 tin can? 是個 WebRTC Video chat，使用 persona 來登入，直接用 email 就可以和對方視訊聊天
+15:43 < guildwar> http://tincan.ryanseys.com/
+17:05 < ronmi`> 不好意思，今天家裡臨時有事，今天不會到場了
+17:06 < guildwar> 收到，這個聚會是自由參加，沒關係的 :)
+17:10 < guildwar> 話說今天剛好有線上直播，有空可以試試，不過不知道效果如何就是
+17:13 < guildwar> haroldwu: 你最喜歡的自製後門 http://c0decstuff.blogspot.tw/2011/06/creating-13-line-backdoor-worry-free-of.html
+17:18 < guildwar> 不過通常這種自製後門，對有在管理系統的管理者來說，馬上就被查出來了，有很多工具都可以偵測到不尋常的 process 並回報，如 ossec hids, tiger 之類的
+17:20 < guildwar> 之前會使用 sshd 的用意就在此，因為 sshd 這個 process 通常是允許執行的，而且是系統上的檔案，很多管理者會忽略，不覺得有異樣
+17:40 < guildwar> 晚上除了 max 大大 ustream 直播外，我會連到 mumble server 也來個語音直播，有興趣的可以連進來
+17:41 < guildwar> mumble.tcffm.twgogo.org port 64738
+18:55 < guildwar> 有人在嗎？ 看看 ustream 的畫面有沒有
+18:56 < hmchen> 有
+18:56 < hmchen> nb 螢幕擋到
+19:00 < hmchen> 有直播超歡樂的
+19:00 < hmchen> 5名觀眾
+19:04 < guildwar> 有聲音嗎?
+19:04 < hmchen> 有
+19:04 < hmchen> 很清楚
+19:04 < guildwar> ok
+19:10 < hmchen> mumble 聲音的 jitter 還蠻明顯的
+19:12 < hmchen> 這個我要補充一下
+19:12 < guildwar> 你要發言? 用 mumble XD
+19:12 < hmchen> 60fps 應該是 intel 內顯的 driver, 可能預設啟用了垂直同步
+19:13 < hmchen> 那邊聽的到嗎?
+19:14 < darkx> 聽得到！
+19:14 < hmchen> 怎麼 mumble 沒聲音?
+19:14 < guildwar> 應該可以，不過算了，可能會干擾講者 :)
+19:14 < darkx> 有聲音，感覺現在是 max 吧
+19:15 < guildwar> 對，是 max
+19:16 < darkx> 字似乎有點小
+19:19 < brli> 鍵盤參與中！
+19:20 < hmchen> 我還是用鍵盤好了, mumble 就聽就好
+19:21 < guildwar> ok
+19:22 < hmchen> http://www.geforce.com.tw/hardware/technology/adaptive-vsync/technology
+19:23 < hmchen> 垂直同步鎖定, 會限制 3D 效能到 60fps, 因為通常 LCD 沒辦法超過該更新速率, 二來可以避免刷新畫面的破圖
+19:24 < hmchen> 會像是畫面上下兩半不連續
+19:24 < hmchen> 關閉垂直同步鎖定,  會拉上去
+19:24 < darkx> 基金賺 40% 快來回饋社群！
+19:25 < hmchen> 有聽到
+19:29 < hmchen>  會破圖
+19:30 < hmchen> http://www.tweakguides.com/Graphics_9.html
+19:30 < hmchen> 這邊有範例
+19:31 < hmchen> 通常是 vsync 鎖定成螢幕更新率同步
+19:32 < hmchen> 有啊
+19:32 < hmchen> 我在聽
+19:32 < guildwar> 有聽到我的?
+19:32 < hmchen> 我 ustream 只開畫面
+19:32 < hmchen> 聲音關了
+19:32 < guildwar> 你開一下聲音聽看看
+19:33 < hmchen> mumble 聲音開著
+19:33 < guildwar> 我有 stream 我 local 聽的音樂，你沒聽到?
+19:34 < hmchen> mumble 嗎? 只聽到一般語音
+19:34 < hmchen> 突然出現類似 icrt 英文
+19:34 < guildwar> ok，就是 XD
+19:35 < guildwar> 應該開個音樂頻道 :)
+19:35 < hmchen> 會全部混音在一起嗎?
+19:35 < guildwar> 現在有 icrt 嗎？
+19:35 < hmchen> no
+19:35 < guildwar> 所以要調整是 mic 或 other stream
+19:36 < hmchen> 第一次用
+19:36 < hmchen> 現在聲音消失了
+19:38 < brli> Solitare
+19:43 < hmchen> 我是小米 2S !!!
+19:43 < brli> 馬力歐系列也很好玩
+19:44 < hmchen> 紅米是連發科 4 core, A7
+19:44 < hmchen> 小米 2S 是 Snapdragon 600 (A9 等級) 4 核
+19:45 < hmchen> 紅米是 1G RAM, 4GB ROM, 可外加 SD
+19:45 < hmchen> 2S 只有 16G / 32G 內建, 不能加 SD
+19:46 < hmchen> MTK 8 核不推
+19:46 < hmchen> 可以喬一下 camera 嗎?
+19:47 < op8867555__> 現在投影機是關的
+19:47 < hmchen> 已經進入聊天模式了
+19:48 < brli> 閒聊中wwwww
+19:49 < brli> ←死宅
+19:50 < guildwar> 呵呵，因為今天只分享一個主題 :)
+19:52 < hmchen> line + wine 還會挑版本
+19:52 < brli> hmchen: ++
+19:54 < brli> irc本來就是geeky在用的阿wwww
+19:54 < Luxun> WWWW
+20:00 < brli> 別想太多了啦~~~
+20:00 < brli> Windows跟Mac還是有在更新flash
+20:02 < brli> poke @darkx
+20:02 < brli> wwwwwww
+20:02 < hmchen> 沒有 chroot jail...
+20:03 < hmchen> ustream 還不少人看
+20:03 < brli> apache預設有jail.....
+20:04 < brli> 超爽的
+20:04 < brli> 你關了就是我的後門~~~~
+20:04 < hmchen> 正在講遠通自幹的事
+20:04 < brli> 那是舊的！！！
+20:04 < brli> 很古老的OS，硬體規格
+20:05 < hmchen> http://www.mobile01.com/topicdetail.php?f=397&t=3716891&r=2&p=1
+20:06 < brli> 就不准重標阿！
+20:06 < darkx> brli: 阿宅安安
+20:07 < brli> darkx: 拍拍
+20:07 < guildwar> bye
+20:19 < brli> 一群網管在黑化中wwwwww
+20:22 < darkx> command & control
+20:27 < s8321414> 每個月第二個禮拜二
+20:37 < darkx> grub-mkconfig
+20:38 < darkx> 基本上就 initramfs 和 kernel 找到就 ok 惹 @@
+20:38 < darkx> maxwux: sudo grub-mkconfig -o /boot/grub/gurb.cfg
+20:39 < darkx> bios lagency mode?
+20:40 < brli> poke darkx lol
+20:41 < darkx> ㄅ要給你戳 QQ
+20:41 < brli> LTS飯wwwww
+20:42 < darkx> grub 救援也其實就他問你說你的 root 在哪邊，之後 insmod normal 開 normal 就好惹 XD
+20:42 < s8321414> 跟我一樣XD
+20:42 < darkx> 更新狂來用 Arch 阿 \o/
+20:42 < brli> 一堆更新狂Wwwwww
+20:42 < brli> 被Windows養壞了wwwwwww
+20:42 < petercommand> 去用fedora XDD
+20:43 < s8321414> 我是Chakara XDD
+20:43 < darkx> 訂閱 mailing list 阿XD
+20:43 < s8321414> 幾乎都是KDE升版的news吧XD
+20:43 < darkx> pacman 預設的行為是官方會有問題的都會 hold 住不讓你動，那這時候就該去看 news 惹 XD
+20:45 < brli> 就會有conflict
+20:45 < darkx> no
+20:45 < darkx> maxwux: /me = xatier
+20:45 < brli> 然後預設是[y/N]
+20:45 < darkx> brli: 願意接受祝福嗎 [Y/n]
+20:45 < brli> darkx: 就是那個../../紅人(X
+20:46 < brli> hahahaha
+20:46 < darkx> 不要講八卦！！！！
+20:46 < brli> (拉拉鍊)
+20:47 < darkx> 你知道太多惹(X
+20:47 < darkx> brli 跟我同學校阿XD
+20:47 < brli> 查水表
+20:47 < darkx> 他跟我在某 channel 熟(?
+20:47 < s8321414> #hime
+20:47 < darkx> Y
+20:48 < brli> G+好像滿冷清的？
+20:48 < brli> boxhost.me被WOT認為是危險站台
+20:49 < brli> 可能有很多釣魚網站寄生吧
+20:49 < s8321414> 紅圈圈討厭(X)
+20:49 < darkx> maxwux: FYI https://mailman.archlinux.org/mailman/listinfo
+20:50 < s8321414> .idv?
+20:50 < brli> .cc?
+20:50 < darkx> .us 或是 .info 其實都還蠻便宜的
+20:50 < s8321414> .gov(X)
+20:50 < darkx> hea1thcare.gov (X
+20:52 < darkx> maxwux: tcffm.org 在 godaddy 上只要 10 米耶XD
+20:52 < brli> 沒阿
+20:52 < brli> 是忘記網址wwwww
+20:52 < darkx> brli: 你看看你
+20:52 < s8321414> XDD
+20:52 < brli> 是openid的問題啦><
+20:52 < brli> fc2?
+20:52 < brli> lol
+20:53 < brli> 用手機打指令...太克難了吧
+20:54 < darkx> 其實不介意一點點 latency 的話，digital ocean 美西還行
+20:54 < darkx> 一個月五米
+20:54 < darkx> 不過我現在是用免錢的啦 /flee
+20:54 < petercommand> digital ocean有免費?
+20:55 < darkx> petercommand: 之前拿到 thanks giving 隔天 black friday 的 coupon
+20:55 < petercommand> XD
+20:55 < darkx> 一人無十米超爽的
+20:56 < darkx> 比如說某公司，out going 只有 100M lol
+20:57 < brli> 又要馬兒好，又要馬兒不吃草
+20:57 < brli> 那就只能吃馬屍體了
+20:57 < darkx> 實體 hosting，世方大樓表示
+20:57 < brli> webhost通常不給ssh
+20:57 < darkx> brli: webshell (誤
+20:58 < darkx> VPS
+20:58 < brli> 這叫作dedicated server
+20:58 < brli> ?
+20:58 < brli> darkx: VPS是虛擬雞？
+20:58 < darkx> brli: 就這些 hosting 都是 VPS 阿，linode 也是，DO 也是
+20:59 < darkx> 當然有實體租主機的啦... 我知道的價格是 100米/月
+20:59 < brli> 不過Dedicated貴很多
+20:59 < brli> Chakra似乎就是用dedicated
+20:59 < brli> lol
+20:59 < darkx> 不過這是強者我朋友的友情價啦，一般市價是更高
+20:59 < darkx> 大約 150 上下
+20:59 < brli> 40Eu/月
+21:00 < brli> 是唉
+21:00 < darkx> g2.nctu /flee
+21:00 < brli> 可是好像就沒了
+21:02 < petercommand> darkx: 我也拿到coupon了XD
+21:02 < darkx> 十米的?
+21:03 < petercommand> 嗯
+21:03 < petercommand> 不過我沒信用卡wwwww
+21:03 < darkx> 是說 IRC 和實體互動好像沒有接起來 QQ
+21:04 < s8321414> gmail跟google drive是同一個空間啦XD
+21:04 < brli> 因為沒有jtv-lime那種東西自動彈幕wwww
+21:04 < darkx> wwwwwww
+21:04 < brli> 趕快較大大寫個小bot做這個事情阿Wwwww
+21:07 < brli> 大陸喔...儲存上去還會審查咧
+21:07 < petercommand> darkx: 你用的時候需要信用卡嗎?
+21:07 < darkx> 有阿
+21:08 < brli> 一堆...駭客
+21:08 < darkx> 這不就只是改 UA XD
+21:08 < brli> 我只有13GB
+21:09 < brli> 手機的現在變免費+捐贈了...
+21:11 < s8321414> 不是有nevernote?
+21:12 < darkx> maxwux: https://aur.archlinux.org/packages/nixnote/
+21:12 < darkx> (逃
+21:12 < s8321414> 非官方的....
+21:13 < s8321414> debian arm wwwww
+21:13 < brli> 太麻煩了吧
+21:14 < brli> 居然要開3個OSwwwwwww
+21:14 < s8321414> arch arm wwww
+21:14 < darkx> 可以玩  nethack 惹(誤
+21:18 < darkx> 偽 big.LITTLE XD
+21:18 < brli> ?
+21:20 < brli> 斷線！
+21:20 < guildwar> 下課
+21:20 < darkx> 完全沒有畫面！
+21:20 < petercommand> offline...
+21:53 < maxwux> hello
+21:53 < maxwux> 今天直撥還清楚嗎？
+21:53 < maxwux> 畫面、聲音
+21:54 < brli> 畫面很微妙w
+21:54 < brli> 其他都很棒
+21:55 < maxwux> 微妙？？？
+21:56 < brli> 一直看著白布幕這樣
+21:56 < maxwux> 哈哈哈哈
+21:56 < maxwux> 因為大家不想被照到臉
+21:56 < brli> 沒差啦
+21:56 < maxwux> 所以聽聲音而已
+21:56 < brli> 或許可以加個justintv-lime那樣的小東西
+21:57 < brli> 就可以自動放irc的彈幕
+21:57 < maxwux> 彈幕...........WWWWWWW
+21:57 < maxwux> 有趣
+21:58 < petercommand> 聲音很清楚呢
+21:58 < maxwux> petercommand: 你好，請問你是我噗浪上的朋友嗎？
+21:59 < petercommand> 你的plurk是?
+22:00 < maxwux> petercommand: 喔，不是，我以為你是我噗浪的朋友，我們認識嗎？
+22:00 < maxwux> 因為看到你的ID很陌生
+22:00 < petercommand> 不認識
+22:00 < maxwux> soga，第一次參加 TCFFM 的活動？
+22:01 < maxwux> 還是你有來過？
+22:01 < petercommand> 聽直撥而已XD
+22:01 < maxwux> 你是在G+看到網址的嗎？
+22:01 < petercommand> 第一次來這個channel
+22:01 < petercommand> 對
+22:01 < maxwux> 嗯嗯，歡迎你阿
+22:02 < maxwux> 沒想到 ipad 的收音這麼好
+22:02 < petercommand> ipad呀
+22:02 < maxwux> 那投影的字幕有看得到嗎？
+22:02 < petercommand> 剛開始的?
+22:03 < maxwux> 我這次是用 ipad 來開 ustream 的直撥
+22:03 < petercommand> 有一點點不清楚就是了
+22:03 < petercommand> 畫面
+22:05 < maxwux> 看起來，直撥的畫面還是有極限
+22:05 < maxwux> 沒錢可以買更好的攝影機了
+22:05 < maxwux> 囧
+22:26 < petercommand> maxwux: 把螢幕畫面直接放成source可以嗎?
+22:34 < maxwux> 之前好像有試過，不過有點麻煩
+22:34 < maxwux> 用ffmpeg+juting TV
+22:35 < maxwux> 聲音的部份好像不會進去
+22:53 < hmchen> 果然直播會吸引到一些人氣
+22:53 < maxwux> 原來有 nixnote 阿！這真不錯
+22:54 < maxwux> hmchen: 是阿！感覺還不錯
+22:54 < maxwux> irc也變熱鬧了，哈哈
+23:08 < hmchen> 晚安囉~
+23:08 < maxwux> 晚安
+23:13 < Luxun> 大家晚安！
+23:16 < maxwux> 晚安
+--- Log closed 二  1月 14 00:00:12 2014

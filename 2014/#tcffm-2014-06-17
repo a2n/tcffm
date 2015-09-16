@@ -1,0 +1,28 @@
+--- Log opened 二  6月 17 00:00:10 2014
+10:56 [Users #tcffm]
+10:56 [@haroldwu] [ darkx      ] [ fntsrCloud_] [ mosiwang  ] [ petercommand] 
+10:56 [ a2n     ] [ dominicletz] [ guildwar   ] [ op_logbot_] 
+10:56 -!- Irssi: #tcffm: Total of 9 nicks [1 ops, 0 halfops, 0 voices, 8 normal]
+21:06 < JoeyXiao> XD
+21:11 <@haroldwu> 抽風啦
+21:11 <@haroldwu> 組建 emacs tw 啦
+21:12 <@haroldwu> openshift 真好用，不知道有沒有什麼 local 測試的方法
+21:12 <@haroldwu> 剛剛 push 上去竟然是給我 404，氣死了，只好砍掉 git commit
+21:13 < guildwar_> 你不會自己架個 openshift 來當測試用
+21:14 < guildwar> 叫 OpenShift Origin
+21:15 < guildwar> https://github.com/openshift/origin-server
+21:16 < guildwar> 這裡有 virtualbox 的 image 比較方便 https://openshift.github.io/
+21:20 <@haroldwu> 好，我來試試
+21:26 < guildwar> 還是你的 application 被砍了，最近有收到信說規則有改，三個月沒動的就會被砍掉
+21:27 <@haroldwu> 沒，改了一部分 push 上去結果掛了
+21:27 < guildwar> ok
+21:27 <@haroldwu> shaarli 第一次啟動也要等一下他回覆
+21:31 < guildwar> 好像幾天沒存取就會進入 stop 的狀態
+21:31 < guildwar> 應該可以用  urlwatch 來使他不 stop
+21:34 < guildwar> 是 24 小時會進入 idled 狀態 https://www.openshift.com/faq#t2n17705
+21:39 <@haroldwu> 算了，等一點時間無法
+21:39 <@haroldwu> 讓他一直跑製造二氧化碳啊 XD
+21:40 < guildwar> 也是 :)
+23:38 < guildwar> 微軟多年來一直跟 android 廠商收保護費，一直恨得牙癢癢的，終於被中國政府給抖出有 310 項專利
+23:38 < guildwar> http://arstechnica.com/tech-policy/2014/06/chinese-govt-reveals-microsofts-secret-list-of-android-killer-patents/
+--- Log closed 三  6月 18 00:00:11 2014

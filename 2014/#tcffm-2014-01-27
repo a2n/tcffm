@@ -1,0 +1,42 @@
+--- Log opened 一  1月 27 00:00:54 2014
+10:19 < maxwux> hmchen: mint 算是解決了 ubuntu 的 bug 而產生出來的衍生發行版，桌面有 4 種 cinnamon, mate, kde, xfce ，主要支援會落在 cinnamon
+10:20 < maxwux> 用過的感覺還不錯，幾乎不太需要 tuning 就可以用了，相當穩定，所以更新也相對較慢
+10:21 < maxwux> 對於需要穩定桌面使用環境又不想麻煩的人，是很不錯的選擇
+15:08 < hmchen> RPi 的 raspmbc (xmbc) 好卡...
+15:09 < hmchen> 打錯字, raspbmc
+15:10 < hmchen> 裝了幾個 plugins (PPTV, PPS, 迅雷...) 很多內容也不能撥, 只有 youtube 比較正常, 但即便是大水管的 youtube 還是很卡啊.....
+17:01 < guildwar> 好卡是指播放影片會卡，還是介面操作時會卡，理論上播放應該沒問題，介面的話，還有另一套可試 OpenELEC
+17:04 < hmchen> 影片播放本身當然是很流暢, 但其他的都很卡, 滑鼠移動, 影片清單, 播放啟動延遲等等都是
+17:05 < hmchen> 晚點換 OpenELEC 試試看
+17:06 < hmchen> 家裡有一組海美迪 HD300A, Realtek MIPS 晶片, 感覺兩者半斤八兩, 介面操作都很不流暢
+17:09 < guildwar> 好慘，想拿來客廳當播放機還真不容易
+17:11 < hmchen> 這些 plugins 似乎是 python 寫的, 用 arm11 跑不太夠力
+17:19 < guildwar> 我之前試 raspbmc 時，連 youtube 的 plugin 都不會動，還要去論譠找 patch 才會動
+17:20 < guildwar> 滿麻煩的
+17:21 < guildwar> 基本上，我個人認為他們主要都是拿來播放本地自己的影片或音樂吧，其他線上的就滿多問題
+17:23 < hmchen> 但不能連網路的話, 海美迪這類的 set-top-box 很多啊, 還有 android 版, RPi + xbmc 就沒有太大吸引力
+17:24 < hmchen> 最近老是在想, RPi 還可以做什麼應用
+17:25 < guildwar> 對啊，所以我也搞不清楚為什麼不將那些 plugin 弄好些
+17:25 < hmchen> 不搞多媒體的話, BeagleBone Black 要強大的多
+18:01 < hmchen> OpenELEC 比較流暢
+18:04 < guildwar> 應該也是，因為剛看了官方網站，說 raspbmc 是一個完整 distribution, 但 openelec 則是只有需要的元件，應該比較省資源
+22:11 <@haroldwu> https://github.com/Katee/quietnet
+22:11 <@haroldwu> 透過超聲波傳遞資訊的程式...測試中 @@
+22:11 <@haroldwu> 未知是真是假
+22:25 < hmchen> 理論上可行, 人耳可聽到的頻率範圍約 20Hz ~ 20kHz, AC97 音效卡的Mic取樣頻率與Speaker輸出頻率理論值可達 48KHz
+22:26 < hmchen> 剩下的就是設備的有效響應頻率了
+22:27 < hmchen> 找好一點的耳機/喇叭跟麥克風應該是沒問題
+22:29 < hmchen> 以前還有人寫驅蟲的手機 App, 其實就是發出高頻音; 而且手機用的單體小, 高頻的響應延展性會比好 (低音就弱掉了)
+22:33 <@haroldwu> 下次聚會可以試試...
+22:33 <@haroldwu> 有人有兩臺可以運作python2的設備就可試試了，一臺是可以，不過想研究信號強度
+22:34 <@haroldwu> 另外作者似乎不見了，有一個會顯示頻率的pull request...
+22:37 < hmchen> 不過我猜不可能完全聽不到, 應該會漏一點到 20kHz 以下
+22:41 < hmchen> http://www.ultrasonic-ringtones.com/ 測試你的聽力
+22:44 < hmchen> 我的極限到 14.9kHz, 算不上 "聽見", 只能察覺播放時跟播放前有些微的不同
+22:57 <@haroldwu> 我可以到16.7
+22:58 <@haroldwu> 喔不對，再網上測，我，18.8也可以...耳機算作弊嗎XD
+23:12 < hmchen> 每個人聽力不同啊
+23:12 < hmchen> 另外就是設備差異了
+23:16 < hmchen> http://www.armygroup.com.tw/shop/goods-6249.html 裡面某耳機的響應頻率圖
+23:29 <@haroldwu> 我很少用耳機，所以可能聽力還不錯...XD
+--- Log closed 二  1月 28 00:00:55 2014

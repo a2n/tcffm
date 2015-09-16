@@ -1,0 +1,110 @@
+--- Log opened 一  5月 19 00:00:33 2014
+00:31 < hmchen> https://www.kickstarter.com/projects/1598272670/meet-otto-the-hackable-gif-camera
+00:32 < hmchen> hackable camera powered by Raspberry Pi
+06:19 -!- ServerMode/#tcffm [+o haroldwu] by dickson.freenode.net
+18:19 < guildwar> 查了一下，是用新版的　compute module，難怪能做成相機大小，不過這 module 還太新吧，資料還真少
+18:19 < guildwar> http://www.raspberrypi.org/raspberry-pi-compute-module-new-product/
+18:38  * darkx 小廣告一下，這週末我們社群有聚會喔！ https://ctlug.hackpad.com/2014-05-24-CTLUG--pC0XzjdUK6y
+18:50 < petercommand> darkx: 你們要做甚麼東西呀?
+18:51 < petercommand> 是im之類的嗎XD
+18:58 < hmchen> 有在看 hackpad 的更新, 有 hexbase 現況的照片嗎? 似乎很有趣
+19:09 < darkx> petercommand: 有個 LINE replacement 叫做  Telegram ，我們打算 fork 出來做出台灣版XD
+19:10 < darkx> hmchen: 有的！照片在這邊！# https://drive.google.com/?tab=wo#folders/0B0mYUVR4EslyaDNlVWNxd1d1NGc
+19:10 < hmchen> darkx: nice!
+19:11 < hmchen> 一打開就是食物, 還好我吃飽了
+19:12 < darkx> hmchen: 5/10 還有一些更新的照片我正在整理 XD
+19:12 < darkx> 我們目前進度是已經大體整理好空間整體，正在作傢俱和裝潢的擺設
+19:13 < darkx> ok 5/10 照片好了！
+19:14 < darkx> hmchen: 可以的話，希望 5/24 過來一起參與啊 :D
+19:14 < hmchen> 當天或許有時間, 希望老婆放人
+19:16 < darkx> 歡迎帶家人一起來啊！XD
+19:25 < petercommand> darkx: 贊!
+19:29 < darkx> petercommand: hmchen 有任何建議歡迎到 https://github.com/lug-tw/HexBase 送 PR
+19:29 < darkx> 我們的 wish_list 可以寫下任何想要的願望
+19:29 < darkx> 不過不一定會實現就是 XDD
+19:34 < petercommand> darkx: 目標是甚麼呀?
+19:36 < darkx> petercommand: 就是台中在地的社群亞
+19:38 < petercommand> 喔喔，原來如此XD
+19:39 < petercommand> server可以考慮這樣做XD https://protonmail.ch/pages/security_details.php (雖然這個是email的XD)
+19:40 < hmchen> 不知道參加的年齡層如何, 那邊離一中很近, 有出現過一中電研社的學生嗎?
+19:41 < darkx> 有社友  XDDDD
+19:41 < darkx> <- 社友一號
+19:42 < darkx> 年齡層大概是 under 40 XD
+19:42 < darkx> 不過我們都非常歡迎各界的前輩或是小朋友前來玩耍啦~
+19:42 <@haroldwu> darkx => 所以你跟 dylandy 的關係是...?
+19:42 < petercommand> 那很廣阿
+19:42 < darkx> haroldwu: 我高中社團學長 XD
+19:42 < darkx> petercommand: 快來 (?
+19:43 < hmchen> 我承認我也是電研社老人...
+19:43 <@haroldwu> XD dylandy 是我現在死黨某人的高中同學
+19:43 <@haroldwu> dylandy 一隻是網路交流...從沒見過本人 orz
+19:44  * haroldwu 一中電研出人才
+19:44 < darkx> 喔喔喔 XDDD
+19:44 < darkx> hmchen: 喔喔！學長是幾屆的 XD
+19:44 <@haroldwu> 金大陳鍾誠老師似乎很喜歡你們的模式呢 XD
+19:45 < hmchen> 第幾屆早忘了~ 我 66 年次的
+19:45 < darkx> wow!
+19:45 < darkx> 我是 27 屆，現在大三
+19:46 < darkx> hmchen: 很歡迎學長來參觀啊！
+19:46 <@haroldwu> 27 ? 社團年齡嗎
+19:46 < darkx> 就 CIRC 27th XD
+19:46 < darkx> haroldwu: 開源模式啊 XD
+19:47 < darkx> haroldwu: dylandy 我跟他很熟 XDDD 他只跟我差一屆而已 lol
+19:47 <@haroldwu> dylandy 以前會出沒在這個頻道
+19:47 <@haroldwu> 他也是 tcffm 創辦人之一
+19:47 < darkx> haroldwu: 我知道，不過因為他人都在台北啊 orz
+19:47 <@haroldwu> 下次上臺北再去找他玩哈了
+19:48 < darkx> :D
+19:48  * haroldwu 輸入法的學習炸裂
+19:48 < darkx> haroldwu: 哪套?
+19:48  * darkx 萬年注音
+19:48 <@haroldwu> fcitx + rime，最近學習功能突然有點異常
+19:49 <@haroldwu> darkx 你們電研社近況如何？
+19:49 <@haroldwu> 沒有對外網頁嗎 XDD
+19:50 < darkx> haroldwu: 這要問學弟惹，我都是老屁股啦，脫離高中生活好久惹XDD
+19:50 < darkx> 近況應該就跟以往一樣吧 (?
+19:52 < darkx> hmchen: 學長是否認識  Clay Chang (張志豪)？
+19:52 < hmchen> 認識, 大我一屆的學長
+19:52 < hmchen> 應該是大一屆吧
+19:52 < darkx> 喔喔！那學長就是 11 屆的了 :D
+19:54 < darkx> https://www.facebook.com/groups/tcfsh.circ/ 有比我大的學長建立這個社團，說不定可以找到更多學長認識的人?
+19:55 <@haroldwu> circ :P
+19:56 <@haroldwu> darkx 有部落格嗎
+19:57 < darkx> haroldwu: 你說我自己嗎?
+20:00 <@haroldwu> yes
+20:03 < darkx> http://xatierlike.blogspot.com/ 有小筆記廢紙婁一篇XD
+20:05 <@haroldwu> superbil bbastov prelude
+20:06 <@haroldwu> bbastov 強大也，他也是 clojure-mode 和 cider 的維護人
+20:06 < darkx> haroldwu: 我知道 XD
+20:08 <@haroldwu> 你用 ipython notebook 嗎？
+20:08 <@haroldwu> 他有 emacs-mode XD
+20:08 < darkx> haroldwu: 有用啊
+20:09 <@haroldwu> 可以用 emacs 去連
+20:09 < darkx> 酷
+22:37 <@haroldwu> 22:09 < abcdddddd> 我把源设置成sid，然后更新就挂了
+22:37 <@haroldwu> 剛剛在 #archlinux-cn 看到的 XD
+22:38 <@haroldwu> 正在推學弟把 jessie 改 sid
+22:38 < guildwar> 噗，剛好而已 XD
+22:38 <@haroldwu> 應該來開個 testing，豪刺激啊
+22:39 < guildwar> 搞不好他的 testing 沒先升到最新，再改成 sid
+22:39 < guildwar> 還是有一些細節要注意的
+22:45 <@haroldwu> 如果不要裝太多有的沒的話應該還好
+22:45 < guildwar> 太多太少不是重點吧，有問題就是 bug，就要修
+22:46 <@haroldwu> XD 也是
+22:46 < guildwar> 當然裝越多踩到 bug 的機率越大
+22:46 <@haroldwu> archlinux-class 什麼時候開始啊
+22:46 < guildwar> 是什麼東東?
+22:46 <@haroldwu> 不是你貼的嗎
+22:47 < guildwar> ok, 2014-06-01 0:00
+22:47 <@haroldwu> 還好幾天 XD
+22:48 <@haroldwu> 對了 guildwar，你那個 lftp 祕技裡面，有提到如何寫 sftp 的腳本嗎
+22:49  * haroldwu 不知道存到哪裡去了，厚著臉皮再要一次
+22:49 < guildwar> 沒有寫到，等等，我找一下
+22:54 < guildwar> http://tcffm.rr.nu:8080/irclog/lftp.txt
+23:00 < guildwar> 這文章是 2003 年寫的，應該有點過時了，看看就好 XD
+23:03 <@haroldwu> 亂碼啦！！
+23:03 < guildwar> 改 utf8 就好
+23:05 < guildwar> 看了一下 script，沒什麼特別的啊，就是將原本在 lftp 中能下的指令，直接寫成 script 而已
+23:05 < guildwar> http://www.howtoforge.com/forums/showthread.php?t=26556
+23:06 <@haroldwu> 其實是想把 irc log 同步會本機看
+--- Log closed 二  5月 20 00:00:34 2014

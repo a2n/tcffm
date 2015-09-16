@@ -1,0 +1,8 @@
+--- Log opened 五 10月 31 00:00:36 2014
+00:01 < guildwar> 可是舊版的 linux 要調整 cpu 比例滿困難的耶，新的用 cgroup 就可以，通常是以顆為單位，跑１顆就一顆滿載
+00:02 < guildwar> 滿容易就會被發現的
+20:39 [Users #tcffm]
+20:39 [@haroldwu] [ aksatac] [ darkx     ] [ guildwar  ] [ op_logbot_  ] [ whitglint] 
+20:39 [ a2n     ] [ alex_lu] [ erhandsome] [ NewCliCker] [ petercommand] 
+20:39 -!- Irssi: #tcffm: Total of 11 nicks [1 ops, 0 halfops, 0 voices, 10 normal]
+--- Log closed 六 11月 01 00:00:37 2014

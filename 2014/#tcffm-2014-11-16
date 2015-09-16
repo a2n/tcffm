@@ -1,0 +1,26 @@
+--- Log opened 日 11月 16 00:00:58 2014
+21:57 < guildwar> 發現 archlinux 有包波斯王子，小時候玩的那個，好懷念，用 dosbox 來玩，叫 prince XD
+21:58 < guildwar> 不過 license 不明就是
+22:01 < guildwar> 在 aur 中，不是 package
+22:31 < haroldwu_> O4~XD
+22:31 -!- mode/#tcffm [+o haroldwu] by ChanServ
+23:26 < guildwar> 有時想發個訊息，但帳號很多（如 facebook、twitter、diaspora），因此要一個個去發很麻煩，這時可用 friendica，發一次就好，會幫你處理其他帳號的發佈，好像滿方便的，可惜不支援 plurk
+23:26 < guildwar> 是自由軟體，採 AGPLv3
+23:26 < guildwar> http://friendica.com/
+23:27 < guildwar> 可自己架 server，若不想自己架，也有現成的 server 可申請帳號
+23:27 < guildwar> https://en.wikipedia.org/wiki/Friendica
+23:31 < guildwar> 支援 Facebook, Twitter, Diaspora, GNU social, App.net, Pump.io
+23:32 <@haroldwu> 有點類似聚合器？
+23:33  * haroldwu 在一個地方觀看所有動態 這樣嗎？
+23:35 < guildwar> 這部份我也不大瞭解，我沒用過 XD
+23:42 <@haroldwu> 媒體夠多了 XD 我現在 G+ 都是拿來跟大陸仔聯絡的
+23:42 <@haroldwu> G+ 幾個技術社區完全變新手問問題的地方了 =.=
+23:42 < guildwar> 就是太多很麻煩，才需要一個整合的軟體 :)
+23:42 <@haroldwu> 奇怪了，怎麼不去 stackoverflow 問，問的問題如果有價值也比較好收集
+23:43 < guildwar> 對啊，G+ 不適合問問題，不容易找舊的問題及答案
+23:44 < guildwar> 這裡有官方的介紹影片，不過要登入 youtube 才能看
+23:44 < guildwar> https://www.youtube.com/watch?v=fbBMLtmJKz0
+23:57 <@haroldwu> 最近 firefox dev edition 遇到一個輸入法問題，不知道爲啥...@@
+23:57 <@haroldwu> 就是臉書聊天室對話框輸入沒問題，可是動態沒辦法輸入 orz
+23:57 <@haroldwu> fcitx firefox 35.0a1 晚點等 ff 更新看看
+--- Log closed 一 11月 17 00:00:59 2014

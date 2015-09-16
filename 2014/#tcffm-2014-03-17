@@ -1,0 +1,147 @@
+--- Log opened 一  3月 17 00:00:47 2014
+05:18 < haroldwu> http://www.slideshare.net/chenkaie/tmux-rocks
+05:19 < haroldwu> 雖然比較喜歡用 GNU 授權的軟體...不過 tmux 看來比 screen 強太多了 XD
+05:21  * haroldwu emacs 操作完全有能力超越 tmux，不過有時候在跑一些東西時（如更新套件）會鎖住其他操作，故放棄
+06:42 < haroldwu> test
+06:42 -!- mode/#tcffm [+o haroldwu] by ChanServ
+06:43 <@haroldwu> irssi 跟 weechat 差別在哪？查了一下，irssi 好像比較多「實用」的功能，但 weechat 開箱即用
+09:42 < a2n> haroldwu: tmux & emacs 如何比較？
+12:24 <@haroldwu> 喔我指窗口切割的部分 :P
+12:24 <@haroldwu> 在 emacs 中可以開終端
+13:52 < guildwar> vim 也可以切割畫面啊，但因為還有很多其他程式要用，所以還是得用 screen 或 tmux 的功能
+14:15 < guildwar> 這篇 tmux-rocks 寫得真好，讚
+16:44 < guildwar> 這種電路貼紙還滿屌的耶 http://chibitronics.com/
+16:53 <@haroldwu> tmux powerline 蠻酷的...@@
+16:54 <@haroldwu> 對了，我裝了 byobu 結果他直接開 tmux...
+16:54 <@haroldwu> 殘念，似乎沒辦法讓他用自己的主題
+16:58 < guildwar> 是不是因為你已有自己設定檔的關係 ~/.tmux.conf
+17:01 < guildwar> 不對啊，我有 ~/.tmux.conf，但在跑 byobu 時，是會出現 byobu 的配置
+17:21 < guildwar> tmux powerline 是 vim 的外掛? 和 tmux 有關係嗎?
+17:24 < guildwar> 應該是沒寫 code 的關係，沒額外裝任何 vim 外掛，也沒有需求 XD
+18:28 <@haroldwu> 好像可以替換 tmux 底下的模樣？
+18:29 <@haroldwu> 我沒有 .tmux.conf
+18:29 < guildwar> 那本來 tmux status line 就可以自己調整，為什麼還需要 tmux powerline？
+18:30 < guildwar> 實在搞不清楚狀況
+18:30 <@haroldwu> 懶嘛
+18:30 < guildwar> ok，方便就是
+18:30 <@haroldwu> 配置起來漂亮啊~@@ 自己搞顏色什麼的有點頭痛 XD
+18:30 < guildwar> 了解
+18:31 < erhandsome> 我用的默认的颜色...
+18:40 <@haroldwu> 我想換用 screen 的說 XD
+18:40 <@haroldwu> guildwar: 對了問一下，GPG 裏面有個 sub key 一類的，那個是幹嘛的？
+18:41 <@haroldwu> 今天跟學弟研究如何互簽的時候注意到
+18:42 < guildwar> sub key 我也不是很懂 XD，只知道一個專門用來加密，一個用來認證之類的，之前研究 retroshare 時有看到，要再找一下
+18:47 < guildwar> ok，用 gpg --edit-key XXXXXXXX 可看到一個 pub usage: SC，第二個 sub usage: E
+18:50 < guildwar> S -> for signing  E -> for encrypting
+18:51 < guildwar> https://unix.stackexchange.com/questions/31996/how-are-the-gpg-usage-flags-defined-in-the-key-details-listing
+18:58 <@haroldwu> 喔，所以單純拿來加密的？
+18:59 <@haroldwu> 恩，那我的 pubkey 沒有 E，能夠加密的意思是？
+18:59 < guildwar> 不是，在你用 gpg 來做加密動作時，會自動以 sub 來做加密，若是簽署，則會用 pub
+19:00 < guildwar> gpg 會自己 handle
+19:10 <@haroldwu> http://www.wil.cx/~willy/keysigning/gnupg-exercises.html
+19:10 <@haroldwu> 發現不錯的教材
+19:11  * haroldwu 在換 id 裏的說明，當時寫的太中二了 XDD
+19:13 < guildwar> 為什麼他也是用 harold XD
+19:13 <@haroldwu> 哈不知道
+19:13 <@haroldwu> 原來要 revoke 舊的 id
+19:13 <@haroldwu> 還好沒 save
+19:14 <@haroldwu> 要先 revoke 才能 del 的樣子
+19:14 < guildwar> 要玩之前，先備份 ~/.gnupg
+19:14 <@haroldwu> 喔好
+19:16 < guildwar> revoke 是先建好 revoke key，改天若不小心 硬碟毀了，private key 不見時，就可以使用 revoke key 來將這個 key 廢止，所以 revoke key 要另外保存
+19:17 < guildwar> 若是純綷被 hack 或 key 被偷，因為 private key 還在，所以還可以產生出 revoke key
+19:18 <@haroldwu> 不是喔，是 revoke id
+19:18 <@haroldwu> 不是 revoke key
+19:18 < guildwar> 同樣的吧
+19:18 <@haroldwu> 怎麼說呢，有點像你換工作要換信箱，但是這個 key 並不是死綁信箱的
+19:18 <@haroldwu> 所以 revoke 之後上傳，大家就知道你換信箱了 XDD
+19:19 < guildwar> 最主要是那個 2EF2F6F8
+19:19 <@haroldwu> 還是可以用同樣的 public key 寄信到你新的信箱
+19:21 < guildwar> 那個都還好，最麻煩的是若換 gpg key 主 key，之前簽署過的都要再重新請別人再簽一次
+19:22 < guildwar> 若只換 sub key 就沒差
+19:22 <@haroldwu> 我查了，換 id 跟 key 無關唷
+19:23 <@haroldwu> 所以你就不用在 sign 我一次。不過我好奇，這訊息是要怎樣傳到整個世界呢？...
+19:24 < guildwar> 當然就送上去 key server 啦
+19:24 < guildwar> 再發封 email 請對方 refresh
+19:24 <@haroldwu> 恩，好了，我現在送上去
+19:24 <@haroldwu> 你等等看看會不會變
+19:25 < guildwar> gpg --refresh-keys
+19:25 <@haroldwu> 稍等喔，上傳 ing
+19:25 <@haroldwu> 好了
+19:25 < guildwar> 你改了什麼東東?
+19:26 < guildwar> 上傳到哪個 key server? server 間 sync 有時要好幾天
+19:27 < guildwar> 在 pgp.mit.edu 有看到你的 key
+19:28 < guildwar> 你吧你的 key 廢了?
+19:31 <@haroldwu> 沒啊？改 id 而已耶
+19:32 <@haroldwu> http://keys.gnupg.net/pks/lookup?op=vindex&search=0x5BE0B58A&fingerprint=on
+19:32 < guildwar> id 是 email ?
+19:32 <@haroldwu> 沒啊，改描述而已
+19:33 <@haroldwu> 不過看來實驗是失敗的...你得重新簽我了 QQ
+19:33 <@haroldwu> 恩，但是你的變了耶？
+19:34 <@haroldwu> http://keys.gnupg.net/pks/lookup?op=vindex&fingerprint=on&search=0xB5489BA37C7A1971 咦，我的消失了 QQ
+19:34 < guildwar> 這個不能亂玩耶，上了 key server 就生效
+19:34 <@haroldwu> 但是我學弟那邊變了？ http://keys.gnupg.net/pks/lookup?op=vindex&fingerprint=on&search=0x3EF011B69418D5E0
+19:34 < guildwar> 弄不好 key 就要換了
+19:35 <@haroldwu> 當初簽的時候是針對 uid 簽的樣子？
+19:35 <@haroldwu> 我看都集中在上一個 uid
+19:37 < guildwar> 好複雜，搞不懂
+19:42 <@haroldwu> 整個加密、解密都還 ok
+19:43 <@haroldwu> guildwar: 寄給你一封加密、簽署的信咯
+19:44 < guildwar> ok, 沒什麼問題，可以打開讀內容
+19:45 <@haroldwu> 恩，簽署的部分呢？
+19:45 < guildwar> 也正常
+19:46 < guildwar> Good signature from xxx
+19:46 <@haroldwu> @@ 所以你 key 頁面沒有我簽署...今天稍早看還有啊
+19:46 < guildwar> 還是不懂，就改個註解，幹嘛還要 revoke
+19:47 < guildwar> 而且那個 revoke 好像沒用，因為 key 還可以用?
+19:49 <@haroldwu> 不是 revoke key 嘛，是 revoke id
+19:49 <@haroldwu> 好像沒有改的選項啊？
+19:49 <@haroldwu> 只有 adduid / revuid / deluid
+19:50 < guildwar> ok，revoke id
+19:50 < guildwar> 以前只有 revoke key 而己 XD
+19:52 < guildwar> 用 revuid
+19:52 <@haroldwu> 還是我眼誤，其實沒有 sign 過你？
+19:53 <@haroldwu> 喔不對，確實 singkey 這個動作應該要定義爲 sign ID
+19:54 <@haroldwu> 所以得重新 sign 了的。至於其他我 sign 過的人則不變。還是我是用別的 sign 法？
+19:54 <@haroldwu> 我 sign 我學弟的時候，用的指令是 tsign，不是 sign
+19:55 < guildwar> 我的 key 的確沒看到你，因為去年你簽完並沒上傳到 key server 的樣子
+19:59 <@haroldwu> 恩？我看 debian key signing 的說明，我能上傳嗎？
+20:00 <@haroldwu> 這樣的話像 RMS 的不就好多人要 sign 他了 XDD
+20:00 < guildwar> 是啊，但是他應該不會每個都回簽吧 XD
+20:02 <@haroldwu> 應該是
+20:03 < guildwar> gpg --send-keys xxxxxx 就上傳了
+20:03 <@haroldwu> 喔原來是這樣
+20:03 <@haroldwu> 我試試
+20:03 < guildwar> --keyserver pgp.mit.edu
+20:06 <@haroldwu> 等他同步，我用預設的 keys.gnupg.net
+20:06 < guildwar> ok
+20:12 <@haroldwu> 有了
+20:12 <@haroldwu> 多了一個我的 sign
+20:12 < guildwar> ok :)
+20:12 <@haroldwu> 大致上懂了，這操作真神奇...:P
+20:13 <@haroldwu> 恩？所以你更新過我的 key 之後，trust 還在嗎？
+20:13 < guildwar> 不見了
+20:13 <@haroldwu> 似乎要重簽...QQ
+20:15 < guildwar> 不用吧，有簽就好，trust 等級又是另外一種信任機制吧
+20:16 <@haroldwu> 是哦？我以爲是相同的
+20:17 < guildwar> 譬如我的 key 有 RMS trust，那就更多人會相信這個 key 了吧
+20:19 < guildwar> 一般去 pgp signing party 回來剛認識的人，最好不要 trust，而是認識一陣子，再加等級
+20:22 < guildwar> 像我現在和你有在 tcffm 見過面，有在交流，這樣應該可以簽到等級 3 (I trust marginally)
+20:22 <@haroldwu> 喔，原來如此
+20:23 <@haroldwu> http://havee.me/internet/2013-07/joomla-administrator-password-hack-anti.html
+20:24 < guildwar> 暴力沒辦法啦，使用者密碼太簡單就能進入
+20:26 < guildwar> 直接用 fail2ban 或 ossec-hids 就好
+20:27 < guildwar> 而且那個 script 有點副作用 /etc/init.d/iptables restart
+20:27 < guildwar> 在重啟 iptables 的過程，會讓正在跑的 service 卡住
+20:28 < guildwar> 這個指令在 production run 的環境最好不要下，要的話只下要動的部份就好，或是更換成 firewalld
+20:32 <@haroldwu> 哦哦，原來是這樣
+20:32 <@haroldwu> 改規則也要重啓喔？
+20:35 < guildwar> 若是改 /etc/xxx 裡的 iptables rules，常然要重啟才會生效，若是直接下 iptables 指令就不用
+22:43 <@haroldwu> 問一下唷
+22:43 <@haroldwu> 假如我要從好幾個檔案裏面找出某個關鍵字，同時知道是那個檔案，怎麼作比較好？
+23:02 < guildwar> 就 grep
+23:06 < guildwar> grep -n 可看到行數
+23:07 < guildwar> 若是大量檔案，用 ack
+23:11 < guildwar> http://betterthangrep.com/
+23:42 <@haroldwu> 聽過 ack 但沒用過，來試試
+--- Log closed 二  3月 18 00:00:48 2014

@@ -1,0 +1,31 @@
+--- Log opened 四 12月 11 00:00:32 2014
+00:01 < hmchen> 讓我想起史上最長的 phrase password
+00:03 < guildwar> 有連結?
+00:04 < guildwar> 我現在 wordpress.com 的密碼是預設值, 37 碼, 不怕暴力攻擊 XD
+00:11 < hmchen> 明天再來寫筆記
+00:15 < hmchen> http://www.cnx-software.com/2014/12/10/hardkernel-odroid-c1-is-a-35-development-board-powered-by-amlogic-s805-quad-core-processor/
+00:16 < hmchen> 35 USD, 不過要另外加運費
+00:45 < guildwar> 讚喔，用 mali GPU，支援度好多了，不過耗電 10W 比 rpi 大多了
+00:46 < guildwar> 終於有一個可和 rpi 價格匹敵的產品
+11:08 < hmchen> odroid-c1 10W 是指接上一些 usb 週邊, cortex-a5 soc 本身應該很省電
+11:12 < guildwar> 對啦，有說平常 0.5A，有接 usb 週邊，最大到 2A :)
+18:08 < guildwar> 可惡，威盛的晶片有藏後門，為中國做事，真慘，現在沒什麼是安全的了
+18:08 < guildwar> http://n.yam.com/greatnews/politics/20141210/20141210739427.html
+20:56 < haroldwu> 裝了 skype for linux
+20:56 < haroldwu> 竟然可以正確捉到 mic 界面 XD
+20:57 < haroldwu> 太感動了
+20:57 < haroldwu> 在 windows 下的 skype 還沒有辦法
+20:59 < guildwar> 好久沒用 skype 了 XD
+21:01 < haroldwu> 其實應該推薦大家來跟著我用 firefox 那個
+21:02 < guildwar> 對啊，用 webrtc 才好啦 XD
+21:02 < haroldwu> 但是連 hangout 都沒人聽過了 firefox 那個 hellp 應該更少人敢用吧
+21:02 < guildwar> 就騙他們裝 firefox 就好，就可以直接用 :)
+21:04 < erhandsome> firefox hello试了下，还不错的样子
+21:20 < haroldwu> XD
+21:20 < haroldwu> 應該不需要 firefox
+21:20 < haroldwu> 之前 chrome 不是有互聯成功？
+21:27 < guildwar> 是啦，但多少有點小差異吧，要試連了才知道
+21:27 < haroldwu> 下次可以試試 :P
+21:27 < haroldwu> skype 需要 multilib
+21:27 < guildwar> 我沒有 webcam, 只有 mic ：）
+--- Log closed 五 12月 12 00:00:33 2014

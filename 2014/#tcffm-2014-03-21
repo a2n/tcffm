@@ -1,0 +1,99 @@
+--- Log opened 五  3月 21 00:00:52 2014
+20:57 < hmchen> 請問大家有在firefox下作多機書籤同步嗎? 內建的 Sync 用起來頗麻煩
+21:23 < guildwar> 沒有咧，都是將書籤匯出，拿到另一個匯入 :)
+21:37 < guildwar> https://support.mozilla.org/zh-TW/kb/share-bookmarks-tabs-and-more-your-other-computers
+21:37 < guildwar> 看起來的確滿麻煩的，還要先建立新帳號
+21:45 < guildwar> 不過現在建立一個 firefox account 好像也不錯，會有越來越多的 service 可用
+21:45 < guildwar> https://wiki.mozilla.org/Identity/Firefox_Accounts
+21:49 < guildwar> 以後就變成一個帳號全部服務都可以用，資料就可能會被 mozilla 給全部收集了，不過還好，因為至少 mozilla 目前還是很重視個人隱私的，而且 mozilla 是個自由軟體公司 :)
+21:49 < guildwar> https://bugzilla.mozilla.org/show_bug.cgi?id=949446
+22:10 < hmchen> 把 firefox 設定資料夾放到 dropbox ?
+22:11 < guildwar> 不好吧，這樣應該變很慢吧，一般不是都還將設定資料夾放到 /dev/shm 去來增加速度?
+22:12 < hmchen> 不是的, 只是放書籤這種小量資料
+22:13 < hmchen> 不過應該行不通, dropbox 使用原則是, 一次只有一台機器修改檔案
+22:13 < hmchen> 不然一定會內容衝突
+22:14 < guildwar> 而且現在不是一個書籤檔放進去就會動了吧，還得做匯入的動作，這樣更麻煩
+22:14 < guildwar> 直接用 firefox sync 比較方便
+22:15 < hmchen> 比較討厭的是配對這步驟
+22:15 < guildwar> ok
+22:15 < hmchen> 之前有用 xmarks
+22:16 < guildwar> 但我剛看了文件，說不一定要配對，直接登入帳號即可
+22:17 < hmchen> 要有救援金鑰
+22:18 < guildwar> 原來如此
+22:23 < hmchen> 通常另一台機器不在手邊, 所以這種同步方式還蠻麻煩的
+22:24 < guildwar> 只能將金鑰印出來放在皮夾中 :)
+22:24 < hmchen> 救援機器要從主控機器下載
+22:24 < guildwar> 是喔
+22:25 < guildwar> 看以後會不會改成不要那麼麻煩
+22:25 < hmchen> 我猜這也表示機器是不對等的
+22:25 < hmchen> master / slave 架構?
+22:25 < guildwar> 我看還是用 xmarks 好了 :)
+22:25 < hmchen> 希望是能再簡單點
+22:25 < hmchen> xmarks 傳出說要收費
+22:26 < guildwar> 不然像我用 shaarli，自己架一個，然後連上去 :)
+22:26 < guildwar> 我是弄在 openshift 上
+22:27 < guildwar> http://poche-guildwar.rhcloud.com/shaarli/
+22:27 < hmchen> 我看在沒好方法前手動匯出到 dropbox , 再匯入吧
+22:27 < guildwar> 也只能如此啦
+22:28 < hmchen> 內建的 sync, chrome 試做的不錯
+22:28 < hmchen> 全部都用單一帳號存取
+22:29 < hmchen> 但已經習慣用 firefox 了
+22:29 < hmchen> chrome 我總覺得有一種癡肥的感覺
+22:30 < brli> hmchen: 可以直接把那個sqlite放到dropbox然後軟聯結到profiles裡
+22:32 < hmchen> 嗯, 剛剛有查到這個方法
+22:32 < guildwar> brli: 是哪一個檔案? places.sqlite?
+22:32 < hmchen> yes
+22:32 < guildwar> ok
+22:32 < guildwar> 我的有 10M 了 :)
+22:32 < brli> 該不會...我密錯人了0.0?XD
+22:33 < guildwar> 沒錯，我亂入啦 :)
+22:33 < hmchen> 好肥... 我的有 20M
+22:34 < guildwar> 不會吧，積了 10 年嗎?
+22:34 < guildwar> 我的大概有 10 年了耶
+22:35 < hmchen> 啊栽, 這裡頭顯然不只書籤
+22:36 < guildwar> ok，我看了 bookmarkbackups/ 裡面的備份，只有 4.2M
+22:36 < guildwar> 可能是格式的關係吧
+22:36 < brli> 積了十年←瞬間想歪的我(ry
+22:37 < guildwar> 好樣的 XD
+22:39 < guildwar> 我的有 12276 行    sqlite3 places.sqlite "select * from moz_bookmarks" |wc -l
+22:42 < hmchen> 我還蠻吃驚的, 除了 google 以外還有其他軟體在默默的收集我資料
+22:42 < brli> ?
+22:42 < guildwar> 誰啊？
+22:42 < hmchen> places.sqlite ...
+22:42 < hmchen> 這到底放了啥東西可以這麼肥? 瀏覽紀錄?
+22:43 < guildwar> 這不是書籤嗎？　是你自己加記錄的
+22:44 < hmchen> 很難相信書籤可以這麼肥
+22:44 < guildwar> 這些都是 ok 的吧，像我查了我的 moz_historyvisits，裡面是空的，因為我都用 private mode，所以完全沒記錄
+22:44 < guildwar> 都有依照設定來記錄啊
+22:45 < hmchen> 所以真的只有書籤?
+22:45 < guildwar> 你自己用 sqlite3 指令來檢查 places.sqlite 的內容就知道
+22:46 < hmchen> ok
+22:47 < guildwar> 不過要裝 mozilla 版的就是，台灣分公司的就要再看看 XD
+22:52 < hmchen> 有大量的歷史紀錄
+22:52 < guildwar> 你的設定呢?
+22:52 < hmchen> 而且選擇關閉追蹤後, 舊紀錄還在
+22:53 < hmchen>  應該只是停止新增紀錄吧
+22:53 < guildwar> 對啊，在設定裡 clear 看看
+22:54 < hmchen> bingo!
+22:54 < hmchen> 清掉了, 但還是 20MB ... XD
+22:55 < hmchen> 應該是效能考量吧, 不會隨意增減檔案大小, 得重排才能減肥
+22:59 < guildwar> 耶，找到方法的樣子 sqlite3 places.sqlite ".backup /tmp/places.sqlite" 檔案由 10M 變 8M
+23:00 < hmchen> 這樣算手動重建是吧
+23:00 < guildwar> 應該算吧，不過不知會不會有後遺症
+23:02 < brli> 10M→1.2M
+23:02 < brli> 0.0
+23:02 < guildwar> 為什麼??
+23:02 < brli> 不知道
+23:02 < guildwar> 那 20M 的能變多少 :)
+23:02 < brli> 我的一變就變好小
+23:02 < guildwar> 可見你的行數不多吧
+23:04 < hmchen> 20M -> 16M
+23:04 < hmchen> .........
+23:04 < guildwar> 不錯了啦，減少 20%
+23:05 < hmchen> 我完全不在意這本機佔用的空間啊 @@
+23:06 < guildwar> 檔案小速度會快一些
+23:32 < guildwar> https://sqlite.org/faq.html#q12
+23:37 < guildwar> 看了半天，還是搞不懂 VACUUM 怎麼用 XD
+23:40 < guildwar> ok, 原來是在 sqlite> 命令列下跑
+23:42 < guildwar> 用 vacuum 由 10M -> 7.2M :)
+--- Log closed 六  3月 22 00:00:54 2014

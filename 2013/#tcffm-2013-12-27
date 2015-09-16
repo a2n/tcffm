@@ -1,0 +1,116 @@
+--- Log opened 五 12月 27 00:00:47 2013
+01:22 <@haroldwu> 使用 dwm :P
+01:23 <@haroldwu> 快捷跟 i3 預設類似，只是配置是用類C語法。有些地方不太懂
+01:23 <@haroldwu> 還有就是他的bar的部分，難弄啊~！
+01:24 <@haroldwu> 不能完美顯示中文是個問題:(
+01:32 < guildwar> 之前我試 tint2, 在 floating mode 沒問題 :)
+01:49 <@haroldwu> 與dwm結合？
+01:49 <@haroldwu> bar的部分，好像要用到正確的字體
+01:49 <@haroldwu> 才能顯示。一般的英文字體好像不行
+02:18 <@haroldwu> 有systray 跟xft patch，期末考完再來打上去...patch 跟diff還不太會用
+02:38 <@haroldwu> 補丁失敗，不能編譯=.= 寫下我的做法好了
+02:39 <@haroldwu> 1. 到官網載了補丁（這裏例子是dwm-6.0-xft.diff）
+02:40 <@haroldwu> 2. 因爲源碼我用abs 拉到/var/abs/community/dwm 在 cp 到家目錄（參考archwiki），所以原始碼在 ~/dwm/src/dwm-6.0 中
+02:40 <@haroldwu> 3. 把剛剛載的 diff 放到 ~/dwm/src/dwm-6.0/ 中
+02:40 <@haroldwu> 4. patch < dwm-6.0-xft.diff
+02:40 <@haroldwu> 步驟是這樣，是哪裏出錯了嗎？
+02:43 <@haroldwu> 哦對，露了5. 回到 ~/dwm，用makepkg -g >> PKGBUILD 修改 md5sum
+02:44 <@haroldwu> 6. makepkg -efi 安裝
+11:51 < guildwar> haroldwu: 有試過 dwm-pango 嗎?
+12:03 <@haroldwu> 沒，來看看
+13:04 <@haroldwu> 換回i3，沒時間折騰QQ
+13:05 < guildwar> XD
+15:56 < darkx> haroldwu: i3 不錯啊！我用 awesome
+18:34 < guildwar> 哇，冷死了
+19:20 < bluekant> 台中才十度左右!!又有風一直吹!!!好冷啊~~~~~~
+19:22 < guildwar> 對啊，咻咻一直叫
+19:25 < brli> 新竹寄居中，風(ry
+19:25 < brli> 鼻頭有點凍僵了....
+19:27 < guildwar> 保重啊，之前在新竹時，最低到 6,7 度吧，隔天去上班好慶幸自己還活著 XD
+19:28 < guildwar> 風城果然名不虛傳 :)
+20:24 < hmchen> 新版的 raspbain 的 X 有支援 hw 2D acceleration
+20:24 < hmchen> camera module 似乎也有 v4l2 driver
+20:25 < hmchen> 等等來試試看
+20:34 < guildwar> 那可以當 desktop 了嗎 :)
+20:35 < hmchen> 有 2d acceleration 應該就可以
+20:35 < hmchen> 有 v4l2 就不用外接 usb
+20:35 < hmchen> 一般的 video application 就可以直接吃 camera module 了
+20:35 < hmchen> http://www.linux-projects.org/modules/sections/index.php?op=viewarticle&artid=14
+20:36 < hmchen> http://www.linux-projects.org/modules/sections/index.php?op=viewarticle&artid=16
+20:36 < hmchen> 這兩篇, 先來裝 v4l2 driver
+20:39 < guildwar> 水喔，有 v4l2 支援，這下子大部份程式都可以用了
+20:39 < hmchen> 衰, 剛剛打翻咖啡... NB 差點中獎
+20:40 < hmchen> 看文章裡頭說的, 應該是類似 uvc
+20:40 < hmchen> /dev/video0  可以直接輸出 h.264 bitstream 的樣子
+20:40 < guildwar> 反正有 /dev/video0 就一堆程式可用了吧
+20:40 < hmchen> 這樣很嗨啊
+20:41 < hmchen> 對需要資料壓縮的 app 就不用再過 ffmpeg/libavcodec 靠 cpu 壓縮
+20:42 < guildwar> 看來可以來買個 pi camera 玩看看了，一直都還沒買
+20:43 < hmchen> pi camera 最大的問題是怎麼固定 XD
+20:44 < guildwar> 之前有一個 kickstart 有做說，我找一下
+20:44 < hmchen> 一塊小pcb在那晃啊晃的
+20:45 < hmchen> 像我之前是拿膠帶跟 pi 的透明外殼黏在一起
+20:45 < hmchen> 但這樣平常用時只能拍天花板
+20:47 < guildwar> 算啦，弄個鐵絲塑形一下，比較快 :)
+20:50 < hmchen> 原來還有 uv4l 這種東西 http://www.linux-projects.org/modules/sections/index.php?op=viewarticle&artid=9
+20:51 < hmchen> user space video4linux driver core
+20:51 < hmchen> 越來越多 driver 用 user space 實作, 很像 micro kernel
+20:53 < hmchen> 很妙啊, /dev/video0 出現了
+20:53 < guildwar> http://www.graspinghand.com/
+20:54 < hmchen> 感覺就是把 data flow 倒灌回 kernel 再從 /dev/video0 餵出來
+20:54 < guildwar> 對啊，有 /dev/video0 就 ok，原有的 app 都不用動吧
+20:55 < hmchen> yes
+20:55 < hmchen> 感覺這個 uv4l 用途還蠻廣的
+20:56 < hmchen> 做實驗很方便, 理論上可以用資料檔做成虛擬 camera
+20:57 < hmchen> 我們是下週一聚會嗎?
+20:57 < hmchen> 週末來玩玩, 下次帶去 demo
+20:59 < guildwar> 對啊，下週一聚會，期待喔 :)
+20:59 < hmchen> 先去洗澡~
+21:16 < guildwar> 原來新版的 X driver 要改用 xserver-xorg-video-fbturbo
+21:22 < hmchen> 我原本還以為會看到 wayland
+21:23 < hmchen> 畢竟之前都放出 demo  video 了
+21:24 < guildwar> 應該都有，不同的 project
+21:26 < guildwar> fbturbo 討論串在這 http://is.gd/Yl8dXv  直接拉到約中間再下面幾面，日期為 12/10 的
+21:33 < hmchen> 只靠 dma 效果應該有限
+21:34 < hmchen> 通常 dma 設計都很簡單, 設定 src, dest 跟 length, 複製完畢發中斷
+21:34 < hmchen> 有點像 memcpy
+21:35 < hmchen> 只是純 hw 驅動
+21:36 < hmchen> 但桌面的 window 畫素是不連續的, 比如 windows size = 400x300, 頂多用 dma 分 300 次搬
+21:37 < hmchen> cpu  其實會很忙碌的再處理中斷訊號
+21:38 < hmchen> 等一下試試實際效果
+21:40 < guildwar> 看討論串說，效能不錯喔
+21:43 < guildwar> 不過，還有另一個瀏覽器，可做 h.264 解碼，目前 beta， http://www.raspberrypi.org/archives/5535
+21:54 < hmchen> fbturbo 很順
+21:54 < hmchen> 但連續快速拖動 windows 的 cpu loading 還是有 50% 左右
+21:55 < hmchen> 純 fbdev 當然就卡卡的, cpu 100%
+21:55 < hmchen> 畢竟不是真的透過 gpu
+21:56 < hmchen> 只是開啟 dma 而已
+21:56 < guildwar> 了解
+22:16 < guildwar> 測試完畢，快了不少耶 :)
+22:18 < hmchen> 有這速度算是能當實用桌面系統了
+22:20 < guildwar> 對啊，再來測 beta 瀏覽看看
+22:30 < hmchen> 可以拿來接客廳電視了
+22:31 < guildwar> 對啊，看看 youtube 什麼的，滿不錯
+22:54 < hmchen> http://y12.tw/wp/2013/11/raspberry-pi-camera-lego-man/
+22:55 < guildwar> 樂高是有錢人的玩意兒啦 :)
+22:56 < guildwar> 我會拿粗點的鐵絲，用包裝紙捲一捲就很漂亮了 XD
+23:00 < hmchen> 這老兄玩 pi camera 玩很大
+23:04 < guildwar> 無法看  youtube 咧
+23:04 < hmchen> browser嗎?
+23:04 < guildwar> 對啊，進入 youtube.com/html5 說不支援
+23:05 < guildwar> 不過他網站上也沒寫說能播就是 XD
+23:05 < guildwar> 來試試 bbc
+23:07 < hmchen> flash 果然還是罩門
+23:07 < hmchen> html5要看運氣吧
+23:08 < guildwar> 也對，不過現在還是 beta 版，搞不好正式 release 就可以也說不定
+23:08 < hmchen> html5 + h.264 + hw decode 整個就很威
+23:08 < hmchen> 加上 rpi 也有 vp6 (webm)
+23:09 < hmchen> 解析度有限制就是了
+23:09 < guildwar> 我在想目前應該就可以播 webm 了吧
+23:09 < hmchen> rpi 有 gpu 加速的 webm decoder, 嚴格來說不算純硬解
+23:10 < hmchen> 是類似 gpgpu 方式, 讓 gpu 軟解的
+23:11 < hmchen> h.264 就是純 hw decode
+23:11 < hmchen> 今天太冷, 要去床上縮起來了
+23:12 < hmchen> 晚安
+23:26 < guildwar> 沒錯，這天氣就要抱棉被才對 :)
+--- Log closed 六 12月 28 00:00:48 2013

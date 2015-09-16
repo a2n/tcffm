@@ -1,0 +1,544 @@
+--- Log opened 三 12月 18 00:00:34 2013
+00:15 <@haroldwu> 發現 openshift 可以 login！！
+00:15 <@haroldwu> 不過還在研究不是用諸如 django 框架寫的 python 如何部署
+00:15 <@haroldwu> 誰有經驗呢？
+00:21 < harobot_return_t> brli 歡迎登入！！
+00:21 < brli> kik
+00:21 < brli> lol
+00:34 <@haroldwu> brli 嚇到嗎？XDD
+00:34 < brli> 有點XD
+00:34 < brli> 不過還算OK XD
+00:35 <@haroldwu> 其他功能測試中...這個詭異的問候會拿掉XD
+00:59 < harobot_return_t> op_logbot_ 歡迎登入！！
+01:01 < harobot_return_t> brli 歡迎登入！！
+01:01 < harobot_return_t> brli 歡迎登入！！
+02:14 < OtomeSound> haroldwu: 既然可以做歡迎登入，那有沒有辦法做解析網址的動作呢？
+02:14 < OtomeSound> 看到#g0v.tw的頻道就有這功能
+02:16 < OtomeSound> 還可以用python的# tag來決定要不要解析這網址(這點不見得需要）
+12:12 < guildwar> http://tcffm.rr.nu:8080/irclog/nextvod.pdf 網樂通改機簡報檔
+12:12 < guildwar> 先撐著，本想放上 drupal，但裝了 pdf 模組，找不到地方可上傳，求救 max大大中 XD
+12:13 < guildwar> drupal 真的不是人用的 :)
+15:14 < harobot_tcffm> 歡迎登入！！
+15:15 <@haroldwu> 我試試
+15:47 < harobot_tcffm> 歡迎登入！！
+15:47 < harobot_tcffm> 歡迎登入！！
+16:08 < harobot_tcffm> 歡迎登入！！
+19:31 < bot_tcffm> bot_tcffm歡迎登入！！
+19:34 < haroldwu_> 準備測試一些網址取得title的服務
+19:35 < haroldwu> nick怎麼變了@@
+19:35 -!- mode/#tcffm [+o haroldwu] by ChanServ
+19:35 < bot_tcffm> haroldwu歡迎登入！！
+19:36 < guildwar> http://is.gd/rG4aRj
+19:36 < guildwar> 沒有啊
+19:38 < guildwar> 用瀏覽器玩的 3D 遊戲
+19:40 <@haroldwu> 還在寫
+19:40 <@haroldwu> 我要知道 irc server 送來的訊息:P
+19:40 < guildwar> XD
+19:40 <@haroldwu> http://www.36kr.com/p/208480.html
+19:41 < guildwar> http://metamark.net/bot
+19:41 <@haroldwu> [13-12-18]/[19:38:34]:guildwar!~guildwar@ec2-54-242-237-115.compute-1.amazonaws.com PRIVMSG #tcffm :用瀏覽器玩的 3D 遊戲
+19:41 <@haroldwu> 先解讀出 PRIVMSG
+19:42 <@haroldwu> 知道是送往那個頻道，然後區分他的訊息，:後面那些
+19:42 < brli> https://github.com/ProgVal/Limnoria
+19:49 <@haroldwu> 恩，發現一個問題，就是如果在句子中使用 irc 訊息，如 PRIVMSG
+19:50 <@haroldwu> 我的程式會出錯
+19:50 < brli> haroldwu: ^^看下那個bot lol
+19:50 <@haroldwu> 因爲是單純用 split 來區分字串
+19:51 <@haroldwu> 看啦，但是我沒要那麼多功能的bot...
+19:51 < brli> haroldwu: 多的可以砍，少的不好加阿XD
+20:19 < bot_tcffm> bot_tcffm歡迎登入！！
+20:19 <@haroldwu> http://www.gnu.org/software/emacs/manual/html_node/emacs/Useless-Whitespace.html
+20:21 < bot_tcffm> bot_tcffm歡迎登入！！
+20:21 <@haroldwu> http://www.36kr.com/p/208494.html
+20:21 < bot_tcffm> 輸入的網址是http://www.36kr.com/p/208494.html
+20:22 <@haroldwu> http://pypix.com/tools-and-tips/python-functions/ 網址後加一些註解測試
+20:22 < bot_tcffm> 輸入的網址是http://pypix.com/tools-and-tips/python-functions/
+20:22 <@haroldwu> 網址前加一些註解測試 http://ergoemacs.org/emacs/emacs_macro_example.html
+20:22 < bot_tcffm> 輸入的網址是http://ergoemacs.org/emacs/emacs_macro_example.html
+20:23  * haroldwu 爽，兩行搞定，洗衣服去
+20:23  * haroldwu 回來再加上取得title的功能，拿 regexp 來做，這樣就不用裝什麼美麗湯了
+20:24 < guildwar> http://www.debian.org
+20:24 < bot_tcffm> 輸入的網址是http://www.debian.org
+20:24 < guildwar> :)
+20:24 < brli> haroldwu: 加個空白鍵吧？這樣 https不會被解析到耶
+20:24 < guildwar> www.debian.org
+20:24 < brli> s/https/通訊協定
+20:24 <@haroldwu> 噢豪
+20:24 <@haroldwu> 好
+20:25 <@haroldwu> 沒有 http 就不會動咯
+20:25 < guildwar> ok
+20:25 <@haroldwu> 我假設大家是從瀏覽器copy
+20:26 < bot_tcffm> bot_tcffm歡迎登入！！
+20:28  * a2n test
+20:30 <@haroldwu> https://www.facebook.com
+20:30 < bot_tcffm> 輸入的網址是https://www.facebook.com
+20:30 <@haroldwu> ok 了
+20:31 < bot_tcffm> op_logbot_歡迎登入！！
+20:32  * a2n test
+20:33 <@haroldwu> 不然就得多各自的，以免在文章中提到http也會跑出來
+20:33 < bot_tcffm> 輸入的網址是http也會跑出來
+20:34 <@haroldwu> 像這樣，略蠢XD
+20:34 < guildwar> http://www.debian.org
+20:34 < bot_tcffm> 輸入的網址是http://www.debian.org
+20:34 < bearlin> 那是？？？
+20:34 < guildwar> https://www.debian.org
+20:34 < bot_tcffm> 輸入的網址是https://www.debian.org
+20:35 < guildwar> 這樣 ok 𨹦
+20:35 < guildwar> 啊
+20:35 < guildwar> test http protocol
+20:35 < bot_tcffm> 輸入的網址是http
+20:35 <@haroldwu> https測試測試
+20:35 < bot_tcffm> 輸入的網址是https測試測試
+20:36 <@haroldwu> 懂了？我改下便行
+20:36 <@haroldwu> 這個容易
+20:37 < a2n> kcwu 拿首頁的 <title>%%%</title> 內容
+20:38 <@haroldwu> 我知道，我已經弄了一個 regexp 在試了
+20:38 < guildwar> bearlin: 在寫解析網址的 bot
+20:38 <@haroldwu> <title>([^<]+)</title>
+20:38 < bearlin> 嗯
+20:38 < bearlin> 哪個網址？？？
+20:38 < guildwar> 任何網址
+20:39 < bearlin> 嗯...
+20:39 < bearlin> 用途是？？？
+20:39 < guildwar> 有人輸入一個網址，bot 會去抓標題回來，這樣不用點進去就能知道是什麼連結
+20:40 < bearlin> 用於rss？？？
+20:40 <@haroldwu> 用於 irc 聊天室呀
+20:40 < a2n> haroldwu: regex 應該是 <title>(.*)</title> 然後取 \1
+20:40 < guildwar> 用於不要點到病毒或 NSFW 的東東 :)
+20:40 < a2n> back ref
+20:40 < bearlin> ...
+20:40 <@haroldwu> a2n 噢好
+20:40 < bearlin> 嗯
+20:40 < bearlin> 可以這樣搞喔
+20:40 < bearlin> ？？？
+20:40 < bearlin> 那不就跟fb一樣了
+20:41 < bearlin> 8
+20:41 < bearlin> 阿
+20:41 < a2n> bearlin: yes.
+20:41 < bearlin> 那irc可以傳檔案嗎？？？
+20:41 <@haroldwu> 理論上可以？
+20:41 < bearlin> ???
+20:41 < guildwar> yes, DCC 吧
+20:41 <@haroldwu> 如果沒有限制訊息長度的話，就可吧
+20:42 < bearlin> 嗯...
+20:42 < guildwar> 不過 dcc 應該會洩漏 ip 吧
+20:43 <@haroldwu> 我這邊urllib開網頁的速度很慢=.=
+20:43  * a2n https://github.com/a2n/tcffm/blob/master/%23tcffm-2013-12-18 inotifywait + git 已經開始運作了
+20:43 < bot_tcffm> 輸入的網址是https://github.com/a2n/tcffm/blob/master/%23tcffm-2013-12-18
+20:43  * a2n 需要測試下一天是否正常
+20:43 < a2n> git 沒有 onChanging hook.
+20:43 < bearlin> 嗯...
+20:44 < a2n> guildwar: 請問你用 docker.io 嗎？
+20:45 < guildwar> 有用過，但不是主要的，主要還是 libvirt+lxc 或 libvirt+kvm
+20:50 < a2n> 我搞不懂 docker & lxc 的差異在哪
+20:50 <@haroldwu> 寫好了
+20:50 <@haroldwu> 重啓一下機器人
+20:51 < bot_tcffm> bot_tcffm歡迎登入！！
+20:51  * a2n https://github.com/a2n/tcffm/blob/master/%23tcffm-2013-12-18 #test
+20:51 <@haroldwu> 他不收 /me
+20:51 [Users #tcffm]
+20:51 [@haroldwu] [ bearlin] [ guildwar] [ op_logbot_   ] [ tcffm_logger_bot] 
+20:51 [ a2n     ] [ brli   ] [ hmchen  ] [ OtomeSound   ] 
+20:51 [ a2n_    ] [ darkx  ] [ Luxun   ] [ tcffm_bot_new] 
+20:51 -!- Irssi: #tcffm: Total of 13 nicks [1 ops, 0 halfops, 0 voices, 12 normal]
+20:51 < a2n> https://github.com/a2n/tcffm/blob/master/%23tcffm-2013-12-18 #test
+20:51 < a2n> nono
+20:51 < guildwar> a2n: docker.io 底層就是 lxc 啊，docker 是用來簡化 lxc 的安裝、佈署
+20:51 <@haroldwu> 唔...@@
+20:52 <@haroldwu> 他死了 QQ
+20:52 < guildwar> 若手動跑 lxc 是非常麻煩的，就好像 libvirt 去跑 kvm 和手動跑 kvm 參數一堆的狀況
+20:53 < bot_tcffm> bot_tcffm tcffm 頻道熱烈歡迎您的登入！！
+20:53 < a2n> guildwar: docker.io guide 是 vagrant，只是去下載 VDI，然後控制 vbox 的參數。
+20:53 < a2n> https://github.com/a2n/tcffm/blob/master/%23tcffm-2013-12-18 #test
+20:53 < bot_tcffm> tcffm/#tcffm-2013-12-18 at master · a2n/tcffm · GitHub
+20:53 < a2n> 我反而覺得 lxc 挺簡單的
+20:54 < a2n> haroldwu: good job! 但是為何反應慢？
+20:54 < guildwar> 還是現在也支援 vbox 了，我記得一開始是有 lxc 的
+20:54 < bearlin> lxc可以執行程序嗎？？？
+20:54 <@haroldwu> 我剛剛說了，我電腦的 urllib2 好慢的
+20:54 <@haroldwu> 房東不收錢的便宜網路...
+20:54 < guildwar> bearlin: 可以
+20:55 < a2n> haroldwu: 放到我的機器測試看看呀 :)
+20:55 < bearlin> gui可嗎？？？
+20:55 < guildwar> bearlin: 可以，但你要準備好一個 chroot 環境
+20:55 <@haroldwu> a2n 我在處理一下，送上 github
+20:55 < a2n> haroldwu: 好的
+20:55 < bearlin> 嗯
+20:56 < a2n> guildwar: 我的需求想打造一個 osx 上使用 docker 開一個開發環境，和 production server 環境相同
+20:57 < guildwar> 這應該沒問題才對
+20:58 < guildwar> 很多公司都這麼做，要多一個 node 立刻生一個出來，環境都一致，回家也可以連上來
+21:00 < a2n> lxc 也能管理自己生成的 vm?
+21:00 < guildwar> 可以，就是一個 chroot 環境，加上一個設定檔
+21:01 < guildwar> 原本 chroot 只分隔 filesystem，現在 lxc 除了 filesystem 以外，還有 memory, network 等等，可有獨立 ip
+21:02 < guildwar> 還有 cpu
+21:03 < guildwar> 是使用 cgroup
+21:03 < bot_tcffm> bot_tcffm tcffm 頻道熱烈歡迎您的登入！！
+21:03 <@haroldwu> https://gist.github.com/yfwu/8021938
+21:03 < bot_tcffm> 簡易的IRC bot。原本的 socket 部分是抄自某網頁的範本（出處我再找）。取得網址分析的部分是我目前試作的成品。
+21:04 <@haroldwu> 有了
+21:04 < guildwar> http://guildwar23.blogspot.tw/2013/01/linux-control-group.html
+21:04 <@haroldwu> 要等一會兒 :P ...
+21:04 <@haroldwu> 移植到 a2n 的機器上看看會不會比較快
+21:04 < guildwar> 沒有，沒有
+21:05 <@haroldwu> no~他死了
+21:05 < guildwar> XDDD
+21:05 < a2n> cgroup 真的是好東西！
+21:05 < a2n> vps 廠商愛戴
+21:05 < guildwar> of course :)
+21:06  * guildwar cgroup 讚啦
+21:07 < a2n> guildwar: 用過 xen 嗎？底層是 libvirt？
+21:07 < guildwar> 有用 xen，底層就是 xen
+21:07 < guildwar> libvirt 是個 frontend 之類的
+21:07 < guildwar> libvirt 可以支援 kvm 或 xen 或 lxc
+21:08 < a2n> 喔喔
+21:08 < bot_tcffm> bot_tcffm tcffm 頻道熱烈歡迎您的登入！！
+21:08 < guildwar> xen 之前是效能最好的，號稱可以達到原本機器的 90% 效能
+21:08 < guildwar> 但那是理論值
+21:08 < guildwar> 現在 kvm 有追上來了，差別沒有很大
+21:09 <@haroldwu> http://guildwar23.blogspot.tw/2013/01/linux-control-group.html
+21:09 < guildwar> 但 xen 有一個 kvm 沒有的特點，就是機器不用支援 virtualization 就可以跑
+21:09 < bot_tcffm> <
+21:09 <@haroldwu> @@
+21:10 < a2n> xen 硬是用軟體模擬嗎？
+21:10 < guildwar> 叫 para-virtualization，效能比 full virtualization 好
+21:10 < a2n> 好厲害的技術！
+21:11 < guildwar> xen 的 para 不是模擬硬體，而是修改 linux kernel　來達到需求，所以 para 不支援不可改的 os,　如 windows
+21:11 < guildwar> 但 xen 也有 full virtualization mode,就和 kvm 差不多吧
+21:12 < guildwar> 但在 vt-d 的部份，kvm 好像還沒有很好
+21:13 < guildwar> vt-d 就是可將pci 或 pci-e　顯示卡弄到虛擬機器裡，並驅動他，達到 3D 或計算功能
+21:13 < a2n> 我看 xen 上面有支援 Solaris，商業版沒有開源，怎麼裝 xen kernel？
+21:14 < guildwar> solaris 我不確定，你之前有個 open 印地安那的 project 是 opensolaris 的
+21:14 < guildwar> 那個有支援 xen，可以改 kernel
+21:14 < brli> cgroup 到底是什麼阿@@
+21:14 < a2n> 找到了，的確是 open solaris :)
+21:14 < guildwar> brli: 那個簡報看一下
+21:14 < brli> 好
+21:15 < guildwar> http://guildwar23.blogspot.tw/2013/01/linux-control-group.html
+21:15 < a2n> 開源的力量真是太強大了，好東西就會拿去應用，直接改出來！
+21:15 < guildwar> 對啊
+21:15 < guildwar> 還有 netbsd 也有
+21:15 < guildwar> 不過，最近 xen 改變方向了
+21:16 < a2n> 商業化？
+21:16 < guildwar> 一直都有商業化 xen server 就是，以前要花錢買，現在開源，可直接下載(可能要註冊　）
+21:17 < guildwar> 我之前都是用 xen community 版
+21:17 < guildwar> xen server 是商業版
+21:17 < guildwar> 在 debian、ubuntu 裡的就是 community 版
+21:17 < bearlin> 想問個問題
+21:18 < bearlin> 有時候明明時間好好的
+21:18 < guildwar> 公司可以試試 xen server，滿不錯用的
+21:18 < bearlin> 突然變成utc
+21:18 < bearlin> 然後時間就錯了
+21:18 < bearlin> ...
+21:18 < a2n> guildwar: 不是只要 patch kernel 就能用啊？還要 xen server？
+21:18 <@haroldwu> 你常在win 跟linux 之間穿梭嗎
+21:18 <@haroldwu> 要去改 windows 機碼，讓他可以使用 BIOS 的 utc
+21:18 < bearlin> no
+21:19 <@haroldwu> 然後 linux 這邊設 local
+21:19 < bearlin> ...
+21:19 < bearlin> 我只有linux
+21:19 <@haroldwu> 我是這樣解決的
+21:19 < bearlin> 嗯
+21:19 <@haroldwu> 噢=.=那就不知道了
+21:19 < bearlin> ...
+21:19 < guildwar> xen community 版本只有命令列指令， xen server 有完整 ui 及一些軟體整合和 support
+21:20 < a2n> bearlin: echo $TZ
+21:20 < guildwar> 一般人不會想學 xen 的，入門有點難
+21:20 < guildwar> 直接用 xen server
+21:20 < a2n> guildwar: 有個同學學碩士班就是搞這個主題
+21:21 < guildwar> 但未來 xen 走向 full virtualization 去了,　以後會出 server 可以裝在 windows 上
+21:21 < bearlin> 嗯
+21:21 < bearlin> 又調回來了
+21:22 < bearlin> 對了
+21:22 < bearlin> 那xen可以裝win嗎
+21:22 < bearlin> ...
+21:22 < guildwar> guest 大部份都可以裝
+21:23 < bearlin> 我是想出現在grub上面的xen...
+21:23 < guildwar> 但 host 目前只有 linux, netbsd, openbsd(不確定)，但沒 windows
+21:23 < bearlin> 嗯...
+21:24 < guildwar> 反正公司要裝，建議用 xen server，不用花大錢買 vmware 或用效能不彰的 virtualbox　ＸＤ
+21:24 < bearlin> 嗯...
+21:24 < a2n> 今天在公司遇到一個怪問題，xen host, ntp server (client A), win2012 (client B)。client A 時間準確，xen & client B 都對 client A 校時，結果都慢了兩秒。原本假設是沒有 hwclock 寫入，導致 client B 後面數秒讀取 bios 時間錯誤導致。後來調整 host 時間加快，結果沒有出來。
+21:25 < bearlin> 所以要開linux server 建議用xen？？？
+21:25 < bearlin> xen的kernel會xen好嗎？？？
+21:26 < guildwar> a2n: 看看 host 的 xen.independent_wallclock=1
+21:26 < guildwar> 不確定，要試試
+21:27 < a2n> guildwar: 好，明天找 SA 繼續測。
+21:27 < guildwar> bearlin:　看用途，個人用 libvirt+lxc 已夠了
+21:27 < a2n> guildwar: 你的經驗會自己架設內部 ntp server 嗎？
+21:27 < guildwar> 會
+21:27 < bearlin> 嗯...
+21:27 < a2n> guildwar: 節省頻寬？
+21:28 < guildwar> 這樣至少內部機器比較同步，不然去連外面，會差不少
+21:28 < guildwar> 有時會差到一二秒
+21:29 < a2n> ntpdate 有秒差是正常嗎？比對台灣和菲律賓機器，秒數同步。
+21:29 < bot_tcffm> bot_tcffm tcffm 頻道熱烈歡迎您的登入！！
+21:29 < guildwar> 之前在測 samba 連 AD，好像差了 5 秒就不給連了
+21:29 < a2n> :D
+21:29 < guildwar> 有秒差是正常的
+21:29 <@haroldwu> http://guildwar23.blogspot.tw/2013/01/linux-control-group.html
+21:29 < bot_tcffm> 吉瓦小棧: Linux Control Group 介紹
+21:29 < maxwux> 多同步幾次就OK了
+21:30 <@haroldwu> http://tcffm.twgogo.org
+21:30 < bot_tcffm> TCFFM 台中自由軟體愛好者聚會 | 我們熱愛自由與技術分享
+21:30 < a2n> maxwux: hi~
+21:30 < guildwar> bot_tcffm: 好了哦
+21:30 <@haroldwu> 好了
+21:30 < maxwux> 我們的 youtube 頻道上線了
+21:30 <@haroldwu> 剛剛已經移到 a2n 的機器上了
+21:30 < maxwux> http://www.youtube.com/channel/UCJqQXTyGRAXTaNwyTDrh0Yg?feature=watch
+21:30 < bot_tcffm> TCFFM - YouTube
+21:30 < a2n> haroldwu: 格式可以「發言人 - 標題」嗎？ :)
+21:30 < maxwux> 以後有不想被錄音的，可以跟我說，我可以按暫停，哈哈
+21:31 < a2n> maxwux++
+21:31 <@haroldwu> 可~！
+21:31 <@haroldwu> 問下，gist 也能 git pull，對吧？
+21:31 < guildwar> maxwux: 讚喔
+21:31 < a2n> 錄音啊，以為是錄影。
+21:31 < bearlin> ...
+21:31 < a2n> 這樣可以丟到 sound cloud 專門收錄聲音的。
+21:31 < maxwux> 錄影太搞剛了
+21:32 < bearlin> 嗯
+21:32 < guildwar> 至少要有 pi camera  XD
+21:32 < maxwux> sound cloud 一個帳號只有 2hrs 的 quota
+21:32 < Vdragon> （已加入書籤）
+21:32 < Vdragon> 那 Google 雲端硬碟呢？
+21:32 < maxwux> Vdragon: 剛剛沒看到你在上面，哈
+21:33 < guildwar> maxwux: 有空幫我看看 pdf 模組怎麼用 :)
+21:33 < bot_tcffm> bot_tcffm tcffm 頻道熱烈歡迎您的登入！！
+21:33 <@haroldwu> http://www.youtube.com/channel/UCJqQXTyGRAXTaNwyTDrh0Yg?feature=watch
+21:33 < bot_tcffm> haroldwu - TCFFM - YouTube
+21:33 <@haroldwu> a2n: 你的預期是這樣嗎 XDD
+21:33 <@haroldwu> http://www.pythonregex.com/
+21:34 < maxwux> Vdragon: 其實我比較希望用串流的方式，而不是下載回去的方式，而且google文件的網址好醜
+21:34 < bot_tcffm> haroldwu - Python Regex Tool
+21:34  * a2n 剛才是怎麼回事？主機網路突然死掉，沒反應。 *sigh*
+21:34 < a2n> maxwux: sound cloud quota 也太少了
+21:34 < a2n> haroldwu: BINGO!!
+21:34 <@haroldwu> 好吧，暫時這樣，學期末結束後看大家需要怎樣的功能在改
+21:35 < maxwux> a2n: 就是阿！我其實找過幾個 podcast 的雲端服務，都是要收費的，所以想想還是用 youtube 免費的比較好用
+21:35 <@haroldwu> a2n: 以前有悄悄話跟離線留言功能 XDD 可是太 buggy 了我就刪了
+21:35 < maxwux> guildwar: 你說的 pdf module 是指什麼
+21:36 < a2n> haroldwu: bot 提供離線留言挺好的點子耶！登入一次發送，或是可以看歷史訊息。
+21:37 < guildwar> drupal 的模組，名叫 pdf，可開 pdf, odp, xxxxxx 一堆格式
+21:37 < a2n> 但是 irc /msg 是針對 id 的，要留言只能 /msg BOT User1 Hello
+21:37 < guildwar> 這樣就可以將簡報放在 tcffm.twgogo.org，不用放去 google docs
+21:38 <@haroldwu> 我源碼還留着，你可以去 haroldwu/ircbot 裏面看下，給點建議
+21:38 < a2n> haroldwu: copied that.
+21:38 <@haroldwu> 對，所以會被機器人記錄下
+21:38 < Vdragon> maxwux: Google 雲端硬碟有可以直接播音訊檔案的應用程式
+21:38 <@haroldwu> 不過對像 max 大這種不是掛着的人來說，挺有用的
+21:38 < guildwar> maxwux: 好像 pdf module 要會動，要放 pdf.js 到某個目錄下之類的，你才有權限
+21:39 < a2n> maxwux: https://github.com/haroldwu/ 404
+21:39 < a2n> maxwux: 發錯...
+21:39 < a2n> haroldwu: https://github.com/haroldwu/ 404
+21:39 <@haroldwu> .... 這個不是我的帳號XD
+21:39 <@haroldwu> https://github.com/yfwu
+21:39 < maxwux> Vdragon: 不過 google drive 沒有訂閱功能吧
+21:40 < maxwux> guildwar: 好，我再來研究看看
+21:40 < a2n> haroldwu: -_- 原來是 /home 底下，以為是 github 呢...
+21:40 <@haroldwu> 機器人遇到404 爆了
+21:40 < a2n> XDDDD
+21:40 <@haroldwu> 加個 on error
+21:40 < a2n> 測試案例太少
+21:40 <@haroldwu> 不是專業的程式設計師吼 QQ
+21:41 < a2n> haroldwu level from 0 to 1.
+21:41 < a2n> haroldwu levels up from 0 to 1.
+21:42 <@haroldwu> XDD
+21:43 < guildwar> 話說原本 mozilla 的 pdf.js，看中文 pdf 會變亂碼，最近的版本修好了，可以正確看中文
+21:43 <@haroldwu> 其實之前有人跟我講過要學測試，什麼 TDD 的
+21:43 <@haroldwu> 但是我覺得基本pdb除錯就很頭大了，還單元測試什麼的
+21:43 < Vdragon> maxwux: 共享資料夾可以加進自己帳號中
+21:44 < maxwux> 這樣感覺
+21:44 < bot_tcffm> bot_tcffm tcffm 頻道熱烈歡迎您的登入！！
+21:44 <@haroldwu> http://guildwar.loves.facebook
+21:44 < bot_tcffm> haroldwu - 發生錯誤，機器人不能處理
+21:44 < maxwux> Vdragon: 這樣感覺太麻煩了，而且google drive 的空間也有限
+21:44 <@haroldwu> http://guildwar.anti.microsoft
+21:44 < bot_tcffm> haroldwu - 發生錯誤，機器人不能處理
+21:44  * guildwar XD
+21:52 < Vdragon> bot_tcffm: Hi!
+21:57  * a2n_afk 台灣的雨下到菲律賓來了嗎？現在外面開始下雨了
+21:57 <@haroldwu> Vdragon: 怎麼再跟機器人打招呼 :P
+21:58 <@haroldwu> 話說我沒幫他加回應功能....nick 的部分應該夠明顯了，不會嚇到路人了吧 XD
+21:58 < Vdragon> haroldwu: 好奇它會不會回應而已 :P
+21:58 < guildwar> !weather taichung
+21:59 < guildwar> 台中這裡 14 度吧
+22:00 < bot_tcffm> PPyBot_guildwar tcffm 頻道熱烈歡迎您的登入！！
+22:00 [Users #tcffm]
+22:00 [@haroldwu] [ bearlin  ] [ darkx   ] [ Luxun     ] [ OtomeSound     ] [ tcffm_logger_bot] 
+22:00 [ a2n     ] [ bot_tcffm] [ guildwar] [ maxwux    ] [ PPyBot_guildwar] [ Vdragon         ] 
+22:00 [ a2n_    ] [ brli     ] [ hmchen  ] [ op_logbot_] [ tcffm_bot_new  ] 
+22:00 -!- Irssi: #tcffm: Total of 17 nicks [1 ops, 0 halfops, 0 voices, 16 normal]
+22:00 < guildwar> !weather taichung
+22:00 < PPyBot_guildwar> Taichung, Taiwan - 58° F (14° C) - Partly Cloudy - Provided by: Weather Underground, Inc.
+22:00 < Vdragon> !weather keelung
+22:00 < PPyBot_guildwar> Keelung, Taiwan - 57° F (14° C) - light rain - Provided by: Weather Underground, Inc.
+22:00 < guildwar> 差不多 :)
+22:01 < a2n> XD 成員 17，bot 5，都快 1/3 了
+22:01 < guildwar> 一個有雨，一個多雲
+22:01 < guildwar> a2n: 查一下你那裡天氣啊 :)
+22:01 < a2n> !weather makati
+22:01 < PPyBot_guildwar> Inexistent location: makati
+22:01 < a2n> PPyBot_guildwar: Damn!
+22:02 < guildwar> XD
+22:02 < a2n> !weather makati city
+22:02 < PPyBot_guildwar> Inexistent location: makaticity
+22:02 < a2n> !weather manila
+22:02 < PPyBot_guildwar> Manila, AR - 36° F (2° C) - Scattered Clouds - Provided by: Weather Underground, Inc.
+22:02 < guildwar> 不會吧
+22:02 < a2n> !weather manila, philippines
+22:02 < PPyBot_guildwar> Manila, Philippines - 82° F (28° C) - Scattered Clouds - Provided by: Weather Underground, Inc.
+22:02 < a2n> PPyBot_guildwar: that's what im talking about..
+22:03 < guildwar> ok，嚇死了，以為 2 度 XD
+22:03 < a2n> guildwar: 輸入的條件太模糊了，若要有座標比對，肯定不會有誤。
+22:03 <@haroldwu> !weather yunlin
+22:03 < PPyBot_guildwar> Inexistent location: yunlin
+22:04 <@haroldwu> 嗚嗚 QAQ 他找不到我家
+22:04 <@haroldwu> !twitter zaticwu
+22:04 < PPyBot_guildwar> This user doesn't exist!
+22:04 < a2n> guildwar: 想說 /msg nickserv info a2n 拿到 IP 反查國家，結果有 cloak XD
+22:04 <@haroldwu> !twitter ZaticWu
+22:04 < PPyBot_guildwar> This user doesn't exist!
+22:04 < a2n> !weather changhua
+22:04 < PPyBot_guildwar> Inexistent location: changhua
+22:04 < a2n> !weather changhua county
+22:04 < PPyBot_guildwar> Inexistent location: changhuacounty
+22:04 < a2n> !weather changhua, taiwan
+22:04 < PPyBot_guildwar> Inexistent location: changhua,taiwan
+22:04 < a2n> !help weather
+22:04 <@haroldwu> 這裏誰有 twitter？這個的 twitter 好像找不到 :P
+22:05 < a2n> haroldwu: @alan0098
+22:05 <@haroldwu> !twitter alan0098
+22:05 < maxwux> haroldwu: 對了， 你的朋友看到你畫的草圖，有沒有什麼想法呢
+22:05 < PPyBot_guildwar> This user doesn't exist!
+22:05 < a2n> PPyBot_guildwar: 屁啦，明明開的起來！ https://twitter.com/alan0098
+22:05 < bot_tcffm> a2n - Alan Lu (alan0098) on Twitter
+22:06 <@haroldwu> 他說，沒電繪板有難度 XDD
+22:06 < a2n> bot_tcffm: 你聰明
+22:06 <@haroldwu> XDDD
+22:06 < a2n> 明察秋毫
+22:06 < guildwar> !quit
+22:06 < PPyBot_guildwar> This command can be run only by the owners!
+22:06 < a2n> !quit
+22:06 < a2n> XD
+22:06 <@haroldwu> XDD 快把nick換成 guildwar_
+22:06 < Vdragon> !天氣 彰化
+22:06 < guildwar> 竟然不聽話，直接砍了 :)
+22:06 < a2n> 機器人好有趣啊
+22:07 <@haroldwu> guildwar: 你不是owner 設成 guildwar_？
+22:07 < guildwar> 對啊，現在改回來了
+22:07 < maxwux> haroldwu: 你把上次的草圖給我一下，我問問我朋友
+22:08 < bot_tcffm> PPyBot_guildwar tcffm 頻道熱烈歡迎您的登入！！
+22:08 < a2n> !quit
+22:08 < PPyBot_guildwar> This command can be run only by the owners!
+22:08 < guildwar_> !quit
+22:08 < PPyBot_guildwar> This command can be run only by the owners!
+22:09 < guildwar__> !quit
+22:09 < PPyBot_guildwar> This command can be run only by the owners!
+22:09 < a2n> XDDDDD
+22:09 <@haroldwu> XD不管用噢
+22:09 < a2n> 易容術
+22:09 <@haroldwu> 你換nick 我這邊 irssi 的顏色不會變:P
+22:10 < a2n> 如果 owner 下線了，就能偽造 XD
+22:10 < guildwar> !quit
+22:10 < PPyBot_guildwar> This command can be run only by the owners!
+22:10 < guildwar> 停不下來 :)
+22:10 < Vdragon> !kick
+22:11 <@haroldwu> guildwar: 可以幫你 kick 掉他XD
+22:11 < a2n> haha
+22:11 [Users #tcffm]
+22:11 [@haroldwu] [ bot_tcffm] [ guildwar] [ maxwux    ] [ tcffm_bot_new   ] 
+22:11 [ a2n     ] [ brli     ] [ hmchen  ] [ op_logbot_] [ tcffm_logger_bot] 
+22:11 [ a2n_    ] [ darkx    ] [ Luxun   ] [ OtomeSound] [ Vdragon         ] 
+22:11 -!- Irssi: #tcffm: Total of 15 nicks [1 ops, 0 halfops, 0 voices, 14 normal]
+22:11 < bot_tcffm> PPyBot_guildwar tcffm 頻道熱烈歡迎您的登入！！
+22:12 < guildwar> !quit
+22:12 < PPyBot_guildwar> This command can be run only by the owners!
+22:12 < guildwar> 放棄
+22:12 < a2n> 喔喔！不聽主人的話
+22:12 [Users #tcffm]
+22:12 [@haroldwu ] [ brli    ] [ hmchen] [ op_logbot_     ] [ tcffm_bot_new   ] 
+22:12 [ a2n      ] [ darkx   ] [ Luxun ] [ OtomeSound     ] [ tcffm_logger_bot] 
+22:12 [ bot_tcffm] [ guildwar] [ maxwux] [ PPyBot_guildwar] [ Vdragon         ] 
+22:12 -!- Irssi: #tcffm: Total of 15 nicks [1 ops, 0 halfops, 0 voices, 14 normal]
+22:13 <@haroldwu> 不是要設密碼嗎？
+22:13 <@haroldwu> a2n: 你的機器人是那隻？
+22:14 < a2n> haroldwu: none.
+22:14 < a2n> 正在思考要用 go 寫隻來玩
+22:15 < guildwar> 那個 github irc log 更新的還滿快的，不錯 :)
+22:16 < a2n> guildwar: 即時的呢～ :D
+22:16 < guildwar> cron ??
+22:16 < a2n> guildwar: no, inotifywait 監看
+22:16 < guildwar> 還是 irssi 有功能?
+22:16 < guildwar> ok
+22:16 < a2n> inotify-tools
+22:19 < a2n> k/wg 1
+22:20 < guildwar> 不懂
+22:21  * a2n 誤打指令。正在撰文，晚點公佈。
+22:21 < guildwar> :)
+22:29  * a2n http://a2n-work.blogspot.com/2013/12/irc.html 撰文完成。
+22:29 < bot_tcffm> a2n - Work note: IRC 紀錄即時推送
+22:29 < a2n> bot_tcffm: good job! 反應真快！
+22:34 < guildwar> a2n: 這方法真好用
+22:35 <@haroldwu> a2n 跑在你的機器上啊，你網速多快，機器人就多快 XD
+22:36 < guildwar> 那 https://github.com/a2n/tcffm/ 有要改嗎? 什麼 bit.ly 之類的，還是直接這樣?
+22:36 < bot_tcffm> guildwar - a2n/tcffm · GitHub
+22:37 < a2n> guildwar: 明早要驗收切日是否正常，正常後再說吧。
+22:37 < guildwar> ok
+22:38 < a2n> guildwar: 原以為用 git hook 能解決，結果沒有類似 onChanging hook，只好借助其他工具。
+22:39 < guildwar> 了解
+22:39 < guildwar> 你要用 swatch 也行啊 :)
+22:40 < guildwar> 不過有 inotify-tools 就夠了
+22:41  * a2n 今天看到 aws 要增加 .cn region 了，大家都在討論是不是長城內，機器要備案嗎？
+22:42 < bot_tcffm> bearlin tcffm 頻道熱烈歡迎您的登入！！
+22:44  * a2n 要睡了，晚安
+22:44 < guildwar> 晚安
+22:44 < bearlin> 晚安
+22:54 <@haroldwu> 晚安
+22:55 < guildwar> 哇，max大大下線了，本想推薦 qnetctl-git XD
+22:56 <@haroldwu> 這時發現離線留言的必要性！
+23:05 < bot_tcffm> ronmi tcffm 頻道熱烈歡迎您的登入！！
+23:08 < bot_tcffm> ronmi tcffm 頻道熱烈歡迎您的登入！！
+23:26 < bearlin> 哇
+23:26 < bearlin> 現在都有機器人歡迎登入
+23:26 < bearlin> ...
+23:33 <@haroldwu> 來把它取消XD 這個功能本來是試作離線留言的
+23:34 < bot_tcffm> dominicletz tcffm 頻道熱烈歡迎您的登入！！
+23:37 < bot_tcffm> ronmi tcffm 頻道熱烈歡迎您的登入！！
+23:37 < bot_tcffm> tcffm_madcow tcffm 頻道熱烈歡迎您的登入！！
+23:38 < guildwar> !notes haroldwu test note
+23:38 < guildwar> 這個 madcow 可以離線 note :)
+23:39 < guildwar> !weather taichung
+23:39 < tcffm_madcow> guildwar: Taichung, Taiwan - December 18, 11:39 PM CST: Conditions: Cloudy | Temperature: 57 F (14 C) | Humidity: 71% | Wind: From the West at 20 MPH
+23:40 <@haroldwu> 我剛剛把離線打開了
+23:40 < bearlin> 嗯
+23:40 <@haroldwu> 應該可以用了，我把用法po下
+23:40 < guildwar> ok
+23:42 <@haroldwu> 離線留言，使用方式： /msg botnick offm: user_id: Your_Message
+23:43 <@haroldwu> 例如，我要留言給guildwar ，使用方式： /msg bot_tcffm offm: guildwar: 上線的時候注意下 blablabla
+23:43 <@haroldwu> 可以先 /msg bot_tcffm 開一個新的聊天區塊，這樣的話，只要對他打 offm: guildwar: 上線的時候注意下
+23:44 <@haroldwu> 就可了
+23:44 < guildwar> ok
+23:44 <@haroldwu>    1. 注意本機器人是以「: 」半形冒號與空白區分字串
+23:44 <@haroldwu>    2. 出錯會返回警告訊息。
+23:49 < bot_tcffm> 有人要說: 隱祕訊息
+23:49 < bot_tcffm> 有人要說: 這是悄悄話
+23:49 < bot_tcffm> 有人要說: EMACS ROCKS!!!!
+23:50 < bot_tcffm> 有人要說: 悄悄話功能測試良好，不過目前唯一的問題是，可能會有人用這個當頻道外訊息轟炸機
+23:51 < bot_tcffm> 有人要說: 所以我才把這個功能關了。列入優先處理清單中
+23:52 <@haroldwu> 然後也許要加各服務，就是有人再 tcffm.twgogo.org 發文或回覆的時候，機器人能顯示給大家看 XD
+23:52 < bot_tcffm> 有人要說: 先撐幾天看看 :)
+23:53 < bot_tcffm> 有人要說: 沒人知道是誰發的言
+23:53 <@haroldwu> 我知道 XDD
+23:53 < bot_tcffm> 有人要說: XD
+23:53 <@haroldwu> 來測試下離線
+23:55 <@haroldwu> guildwar: 如果對方在線上，直接轉私訊
+23:56 <@haroldwu> 成功~！
+23:58 < haroldwu_home> http://imgur.com/nFJoQt8
+23:58 < bot_tcffm> haroldwu_home - 發生錯誤，機器人不能處理
+23:58 < guildwar> XD
+23:59 <@haroldwu> 沒辦法，imgur 似乎沒有 title
+23:59 <@haroldwu> 可以留多個言
+23:59 < guildwar> 有啊 imgur: the simple image sharer
+23:59 <@haroldwu> @@
+--- Log closed 四 12月 19 00:00:04 2013

@@ -1,0 +1,48 @@
+--- Log opened 二 12月 24 00:00:28 2013
+--- Day changed 二 12月 24 2013
+00:00 <@haroldwu> 奇怪，heroku跟我說，Push rejected, no Cedar-supported app detected
+00:00 <@haroldwu> 可是可以 local 執行啊
+00:04 <@haroldwu> 恩，似乎是缺少一個叫 requirements.txt 的東西
+00:06 <@haroldwu> 成功~！
+00:07 <@haroldwu> [A
+00:08 <@haroldwu> 上去了，可是怎麼沒出現勒...==a
+00:09 <@haroldwu> https://devcenter.heroku.com/articles/getting-started-with-python
+13:19 < guildwar> ttp://is.gd/vprjr4
+13:20 < guildwar> http://is.gd/vprjr4
+13:20 < guildwar> 關於工程師 59 條搞笑但卻真實無比的語錄
+13:52 < hmchen> guildwar: SPA3000 拿到了, 好小一台
+13:53 < hmchen> 10cm x 10cm x 3cm 吧
+14:20 < hmchen> 開發 win7 的 team 腦袋有問題, 我只是 clean install 然後補上 sp1 跟至今為止所有的 update 後, 就吃掉 18GB 磁碟
+14:23 < hmchen> 微軟花大錢請他們把系統變慢跟增肥後, 有比 xp  強多少嗎? 為何有科技一直在退步的感覺...
+15:03 < guildwar> 讚喔
+17:52 -!- mode/#tcffm [+o haroldwu] by ChanServ
+19:43 < hmchen> 我慘... SPA3000 買到機王的樣子
+19:44 < guildwar> 這麼倒霉 XD
+19:44 < hmchen> 接 10/100M switch 抓不到, 多串個 10M hub 就有亮燈
+19:45 < hmchen> 但還是沒好, 每 3 秒發一次 dhcp request, IP 分享器 assign IP 後, 燈滅掉又重來, 無窮迴圈中
+19:46 < guildwar> 是喔，那台能登進嗎? :)
+19:50 < hmchen> hub 燈都不會恆亮了, 你說咧
+19:51 < guildwar> XD
+19:51 < guildwar> 那和 notebook 或桌機對接呢?
+19:55 < hmchen> 還沒試, 但我看是不會好, 就算有通也不能用啊
+19:56 < guildwar> 了解
+20:00 < hmchen> 想說換個變壓器試試, 結果接頭中間那根心還是粗的
+20:00 < hmchen> 沒得換
+20:01 < guildwar> 看來直接換貨或退貨了
+20:02 < hmchen> 明天要跑一趟店家
+20:03 < guildwar> 還好是台中買的，不然網購的話還滿麻煩的
+20:03 < hmchen> 我還不是跟最低價的買家下標的
+20:03 < hmchen> 露天拍賣
+20:04 < guildwar> 就倒霉 XD
+20:04 < hmchen> 看到是台中的, 已經出貨 150 組了, 因此多花了 100 塊
+20:04 < guildwar> 若是有台中的我也寧願選台中，後續比較方便
+20:04 < hmchen> 這下連車馬費算下去就更虧了
+21:36 < hmchen> http://dr.waynehuang.cc/2013/12/nsa-rsa-backdoor.html?m=1
+21:36 < hmchen> 這則新聞還蠻驚悚的
+21:37 < hmchen> 不知道 openssh / openssl 預設的亂數演算法是哪個
+21:42 < guildwar> http://arstechnica.com/security/2013/12/we-cannot-trust-intel-and-vias-chip-based-crypto-freebsd-developers-say/
+21:42 < guildwar> 現在連硬體晶片都不被信任了
+23:24 <@haroldwu> http://torrents.fm/
+23:24 <@haroldwu> 新 torrent 王者 !!!
+23:24 <@haroldwu> 看來海盜灣日子不太好過了 XD
+--- Log closed 三 12月 25 00:00:44 2013

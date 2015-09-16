@@ -1,0 +1,78 @@
+--- Log opened 六  5月 10 00:00:20 2014
+00:59 < darkx> 昨天有看到日本 hacker 說他成功在 ubuntu 上面編出來
+01:01 < darkx> https://twitter.com/mattn_jp/status/464081231571738625/photo/1
+01:09 < guildwar> 執行 script/bootstrap 發現 python 版本不合，太新了 gyp ERR! stack Error: Python executable "python" is v3.4.0, which is not supported by gyp.
+01:09 < guildwar> 來試試 virtualenv 用 2.7 好了
+01:22 < guildwar> 算了，在 virtualenv 中編，但還是說 python3.4 不支援，放棄 XD
+12:36 <@haroldwu> 我昨天本來要編，結果一直抓不下包
+12:37 <@haroldwu> guildwar: aur 有檔喔，atom-editor 跟 atom-editor-git
+12:37 <@haroldwu> 似乎有稍微改過，不是直接弄官方的 repo
+12:41 < guildwar> 了解，昨天試 atom-editor，後來將 /usr/bin/python 直接連結成 python2 就不會說版本有問題，但最後還是卡在某些package 無法下載，github.com 連不上的訊息，想說過幾天再試，來試試 atom-editor-git 看看
+14:02 < guildwar> 直接裝 atom-editor-git 就 ok 了，也不用改 /usr/bin/python，不用 virtualenv，可能是 code 改好了吧
+14:07 < guildwar> 讚喔，看起來不錯，裝了 vim mode package，滿順手的，不過左邊的檔案瀏覽視窗看不到 soft link 的檔案
+14:12 < guildwar> 有啦，看得到 soft link，只是跑到最下面就是
+15:35 < guildwar> 唉，開個 6 萬行的文字檔就卡死了，永不回應 XD
+15:49 < hmchen> guildwar: 你開的應該是 log 檔吧?
+15:49 < guildwar> 不是，是我珍貴的私人 linux 筆記 :)
+15:49 < hmchen> 如果是寫程式寫到 6 萬行實在是有點誇張
+15:50 < guildwar> 畢竟都存了 10 幾年的小密技了 XD
+15:51 < guildwar> 重點是人家 vim 連哼都不哼一聲，沒感覺
+15:51 < hmchen> 以 editor for coder 的定位來說, 你這樣對待 atom 太殘忍了
+15:51 < guildwar> 是喔，所以若 vim 加了一堆外掛，再來開也會一樣?
+15:51 < hmchen> 平常用 eclipse 寫 code, 預設 5000 行以上, 就停用 index 功能了
+15:52 < guildwar> 了解，因為沒在 coding :)
+15:52 < hmchen> 如果外掛有支援變數/函數名稱 indexing,  我猜行數放大後效能都不會太好
+15:53 < guildwar> 好吧，就讓有在真正 coding 的人去試吧
+15:53 < hmchen> 每次 git 切換 branch 後, eclipse 重建變數 index 都要等老半天
+15:54 < hmchen> 等有好心人事編好套件後再來試
+15:54 < guildwar> 我純粹拿來當文字編輯器而已
+15:55 < guildwar> 有 ubuntu PPA 耶
+15:55 < hmchen> 我平常都用 eclipse + git 雖然方便,  但 eclipse 太肥了
+15:55 < hmchen> nice
+15:57 < hmchen> 安裝中
+15:58 < hmchen> http://www.webupd8.org/2014/05/install-atom-text-editor-in-ubuntu-via-ppa.html
+16:02 < hmchen> 一時之間 看不出有何特異功能
+16:04 < guildwar> 對啊，看來還要看 documentation 才行
+16:05 < hmchen> atom 正不斷的爬我的硬碟,  似乎在 indexing 某些東西, 按滑鼠右鍵有 'Goto Declairation' 但沒作用
+16:06 < hmchen> 不然就是不能跨 source files
+16:10 < hmchen> 我想他所謂 hackable editor 的特色, 應該是讓 user 追加/開發自己想要的 plugin
+16:10 < hmchen> 類似 zsh 吧, 剛裝玩的 atom 應該就像什麼都沒有的 zsh
+16:11 < guildwar> ok, 原來如此，難怪什麼都沒有
+16:11 < hmchen> plugin  可以用 javascript 開發
+16:12 < hmchen> node.js
+16:13 < hmchen> 很妙啊, 概念跟 eclipse 有點像, 都是可擴充的架構, eclipse 當然得用 java 寫外掛, atom 就用 node.js
+16:14 < hmchen> 顯然後者好入門多了
+16:16 < guildwar> 未來滿值得期待的
+16:27 < hmchen> haroldwu 喜歡走困難路線, 先是 emacs, zsh, 然後是 atom, 這種人才不唸工程科系太可惜了
+16:31 < guildwar> 他又不見得真的要用，只是好奇吧
+16:37 < hmchen> XD
+16:37 < hmchen> CTLUG 搞了一個 HexBase ?!!!
+16:37 < hmchen> HackPlace?
+16:38 < hmchen> HackSpace , sorry
+16:42 < hmchen> https://ctlug.hackpad.com/2014-05-24-CTLUG--pC0XzjdUK6y
+16:45 < guildwar> 他們現在都用 telegram，這裡有人用嗎? 最近好像滿流行的
+16:59 < hmchen> 通訊軟體實在是太多了
+17:00 < hmchen> 但最流行的幾個都不是 open protocol
+17:01 < hmchen> protocol 多沒關係, 但要開放才能整合. 我最想要的是單一軟體+多重 protocols
+17:05 < guildwar> 沒辦法啊，open protocol 沒辦法吸引大眾，沒有可愛貼圖 :)
+17:07 < guildwar> multi protocol 可試試 jitsi， https://download.jitsi.org/jitsi/nightly/android/
+17:07 < guildwar> 不過 alpha 版就是
+17:11 < guildwar> xabber 看起來比較成熟，GPL3  https://play.google.com/store/apps/details?id=com.xabber.android
+18:47 <@haroldwu> 阿其實 atom 的特色只有一個，就是他可以用 javascript 寫外掛
+18:48 <@haroldwu> 所以前端開發者會比較喜歡吧
+18:48 <@haroldwu> sublime text 是用 python ... 我覺得 atom 打從創造就是要出來吃 sublime 的地盤，不是 vim 跟 emacs
+18:49 <@haroldwu> 喔阿原來他們都用 telegram XD
+18:49 <@haroldwu> 我記得我學弟去 sitcon (學生計算機年會)
+18:50 <@haroldwu> 現場大概一半以上是 Mac
+18:50 <@haroldwu> 現代的年輕人似乎覺得酷、好看比較重要
+18:50 <@haroldwu> 自由隱私跟開放是老玩意了
+18:51 <@haroldwu> 也有一說是 sitcon 現場以寫 ruby 的居多，而大部分 ruby 開發者又都是用 Mac，工具鏈比較齊全
+19:10 <@haroldwu> hmchen: 我只是好奇 atom 廣告這麼大不知道有沒有名副其實 XD
+19:12 <@haroldwu> 我現在是 emacs + evil-mode (提供完整的 vim 模擬)，這樣到沒有 emcas 的地方也能順利操作
+20:04 < guildwar> 好奇的是，你都用習慣 emacs 了，怎麼還可以記 vim 的操作，我無法再習慣另一種操作模式了說
+20:07 < darkx> guildwar: 為什麼不行？我也是 vim / emacs 兩者都天天用
+20:08 < guildwar> 是喔，真強，可能是年紀吧，我現在連個英文單字看了 N 次都還背不起來 XD
+20:09  * darkx 常常被誤以為是研究生的大三生
+20:10 < darkx> haroldwu: 我們都用 telegram ，歡迎加入 :)
+20:11 < darkx> 不過 group 是邀請制的，所以希望能本人來參加實體聚會 XD
+--- Log closed 日  5月 11 00:00:21 2014

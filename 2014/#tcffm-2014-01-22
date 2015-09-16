@@ -1,0 +1,95 @@
+--- Log opened 三  1月 22 09:46:16 2014
+09:46  * a2n test
+09:47  * a2n 現在 log 已經恢復正常
+10:32 < haroldwu> a2n: 從昨天 22:26 到 09:05 都沒有交談記錄
+10:32 < haroldwu> 更之前要看 guildwar 那邊有沒有
+10:42 < haroldwu> 噢，應該說，都沒有人交談
+11:04 < codyliu> Hello ~
+11:25 < a2n> codyliu: hi
+13:06 < haroldwu> 來說各hi就消失了@@
+13:07 < haroldwu> 呼籲新人介紹下XD
+14:35 < guildwar> 太難為人了吧，拜託，舊人也都沒有自我介紹啊 XD
+14:36 < guildwar> 倒是建議 tcffm 弄個 planet 之類的，像 planet.debian.org.tw，將想分享的人的 blog 結合起來 :)
+14:41 < guildwar> 或是 planet.debian.org，台灣的好像沒在動了，是現在人都不寫 blog 嗎？
+14:42 < hmchen> 寫 blog 真的很花時間...
+14:42 < guildwar> 沒錯
+14:43 < hmchen> 我對 irc 的看法是, 有問題就上來問, 自我介紹就免了吧, 畢竟不是聚會這種直接面對面
+14:44 < guildwar> 也是，但是有些人上來問個問題，等 10 分鐘，沒人回答就消失了，從此不再上來，這種的滿可惜的
+14:45 < guildwar> 玩 irc 要有點耐心的 XD
+14:45 < hmchen> 畢竟這裡不是那種強強滾的 irc channel
+14:46 < guildwar> 不過還好，我們的有 log 可查，平時不用掛著，有問題再上來問即可
+14:46 < hmchen> 即便是人多的 channel, 很多有只是掛線而已, 發言的還是少數, 應該算是多數 channel 的常態吧
+14:46 < hmchen> +1 有 log 超方便
+14:49 < hmchen> 不過 log 沒有時間戳記
+14:50 < guildwar> 這個就比較麻煩了
+14:51 < guildwar> 看了一下，有時間耶
+14:52 < guildwar> 你看的 log 是哪裡的?
+14:52 < guildwar> https://github.com/a2n/tcffm/
+14:57 < hmchen> 我瞎眼了 XD
+14:57 < hmchen> 可以把上面的訊息刪掉嗎 (羞...)
+15:01 < guildwar> 呵呵，現在新的 log 不歸我管，我沒辦法弄掉 XD
+15:05 < hmchen> http://www.cnx-software.com/ 有人在看這個網站嗎? 會介紹很多新的 arm devices
+15:05 < guildwar> http://www.rowetel.com/blog/?page_id=440 看到一台 opensource 的 pbx 硬體，好像不錯，參考看看
+15:06 < hmchen> 居然是用 ADI 的 blackfin
+15:07 < guildwar> 太專業了，完全聽不懂 :)
+15:07 < hmchen> blackfin 當 dsp 被 TI C6000 打趴, 作 application processor 又缺 MMU, 只能跑 uclinux 架構
+15:08 < guildwar> ok, 所以難怪這台是用 uclinux
+15:08 < hmchen> 最直接的說法就是, blackfin 不支援 swap 功能, 記憶體管理也比較危險
+15:09 < guildwar> 了解
+15:09 < hmchen> 論計算能力是真的嚇嚇叫, 用純軟體就可以做 h.264 720x480 30 frames/sec
+15:11 < codyliu> 哈哈.. 剛才跑出去吃火鍋就忘了回。 我叫 Cody ~ 第一次來這個 IRC channel。目前在台北工作，之後想朝中部發展。google了一下台中的軟體相關資源，就找到這裡了。
+15:11 < hmchen> 當年算很強大, 但沒 mmu 這件事真的是很大條, 以前遇過要把 gspca (mjpeg webcam) 移植到 arm7 (一樣沒mmu) 就踢到鐵板了
+15:11 < codyliu> 各位前輩~應該都是在台中工作吧？
+15:11 < guildwar> codylin: 歡迎啊，改天有聚會時，有空就過來參加啊
+15:12 < codyliu> guildwar: 沒問題 :)
+15:13 < hmchen> codyliu: 是做那方面的工作?
+15:15 < codyliu> 我現在在趨 勢科技，剛服完研替三年。主要工作是用Python為主~
+15:16 < guildwar> 對了，打個廣告，現在官網在徵詢各位對下次 1/27 要不要聚會，目前都沒人留意見 http://tcffm.twgogo.org/forum/node/66
+15:16 < codyliu> hmchen: 有工作可以介紹嗎？ XD
+15:17 < codyliu> 各位前輩有聽說台中有關Python的工作機會嗎？
+15:17 < guildwar> 趨勢不錯啊，之前有收購 ossec，整合進產品應該滿厲害的
+15:19 < codyliu> TM的工作環境是還蠻不錯的。
+15:31 < guildwar> codylin: 對了，你是用哪個 linux distribution, 和什麼 DE?
+15:41 < codyliu> guildwar: 從 Ubuntu 12.04 開始用, 現在用 Ubuntu 13.04.  DE 是指？
+15:41 < guildwar> http://gitlab.org/    is a very active project with a monthly release cycle and ideal for businesses that want to keep their code private. 有人用過嗎? 好像跟 bitbucket 功能差不多
+15:41 < guildwar> Desktop Environment?
+15:41 < guildwar> 用 Ubuntu 13.04 那一定是用 unity 了
+15:42 < codyliu> 沒錯 ubuntu 預設 unity
+15:42 < guildwar> 了解，純粹好奇 :)
+15:42 < codyliu> 這邊比較多人用的是那一套呢？
+15:43 < codyliu> gitlab 我們公司內部有在用.
+15:43 < codyliu> 但是要出build 還是從 perforce 出。
+15:44 < codyliu> 平常開發用git，等要出build的時侯再推到perforce裡.
+15:44 < guildwar> 沒有比較多耶，因為沒有統計過，有人喜歡 KDE，有人用 LXDE，也有人只用 Window Manager
+15:45 < guildwar> 對 git 不是很熟，聽不懂 :)
+15:46 < codyliu> guildwar: perforce 是另一套 version control .
+15:46 < guildwar> 這麼複雜，有 git 幹嘛還要另一套
+15:48 < guildwar> ok，沒問題，因我不寫 code，所以沒什麼用到 :)
+15:49 < codyliu> guildwar:  公司是先有 perforce ，但是一些比較潮的team因為這幾年git很熱門，所以也開始用git開發。但是公司管build的部門只接受從perforce出build。 所以才會有兩套~
+15:49 < guildwar> 原來如此，了解
+15:50 < guildwar> 那跟 gitlab.org 有關係嗎?
+15:50 < codyliu> gitlab 是 clone github 的一個系統 ~
+15:51 < guildwar> ok，了解
+15:51 < codyliu> 聽說 github 本身沒有 open source ，所以就有人 clone 了一個 github 叫 gitlab :)
+15:51 < codyliu> 所以UI 什麼的都很像 ^^
+15:52 < guildwar> 大致了解，而且 gitlab 可以不公開 code
+16:03 < guildwar> 慘啦，最近 noscript 更新，現在無法用 persona 登入 http://tcffm.twgogo.org/forum/ 真是麻煩，來研究一下怎麼辦
+16:10 < guildwar> 真奇怪，多試幾次就成功了，有點詭異
+16:13 < haroldwu> codyliu: 哇噢是 python developer！！
+16:14 < haroldwu> 這樣有問題就有人問了 XD
+16:14 < codyliu> @@ || 我只是靠Python 糊口飯吃而已..
+16:15 < codyliu> haroldwu: 可以一起討論，我還在學習~
+16:15 -!- mode/#tcffm [+o haroldwu] by ChanServ
+16:16 <@haroldwu> 我也自我介紹下，我是 haroldwu，頻道管理員 XD 本業不是資訊相關的，我是來湊熱鬧的
+16:16 <@haroldwu> 平常就擺弄 emacs，寫 python 腳本，跟讀 scheme 課本學程設原理....
+16:17 < codyliu> scheme 耶..高手高手！
+16:21 <@haroldwu> 很基礎的 scheme...@@
+17:01 < hmchen> codyliu: 我是自己開公司搞 embedded linux 的
+17:03 < hmchen> 原本有聘人, 但現在得重新評估要不要聘人的問題, 請來的人不適任, 兩個月後就被我 layoff 了
+17:13 < codyliu> hmchen: 原來如此，這邊感覺很多高手 : )
+17:33 < petercommand> google好像也是用perforce的樣子
+23:48 <@haroldwu> https://play.google.com/store/apps/details?id=info.guardianproject.otr.app.im
+23:49 <@haroldwu> 裝了這個~
+23:49 <@haroldwu> open source xmpp chat + otr
+23:53 < guildwar> 對啊，原本舊的叫 gibberbot，現在改成 ChatSecure
+--- Log closed 四  1月 23 00:00:48 2014

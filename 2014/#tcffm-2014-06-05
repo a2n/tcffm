@@ -1,0 +1,31 @@
+--- Log opened 四  6月 05 00:00:57 2014
+00:07 <@haroldwu> 對
+00:09 <@haroldwu> 大意就是把所有變更改成 patch，然後砍掉自己的 master，一次性的把那些 patch 貼到另一隻 master XD
+00:09 <@haroldwu> git 真是 TMD 太強大了，Linus 超級牛人另一個不朽神作啊 :P
+01:00 < darkx> haroldwu: why not 撿櫻桃?
+01:00 <@haroldwu> 撿...櫻桃？
+01:00 < darkx> cherry-pick
+01:01 <@haroldwu> git 博大精深啊 @@ 沒聽過這東西 XD
+01:01 <@haroldwu> 以為是撿肥皂的貴族版 XD
+01:02 < darkx> git-cherry-pick - Apply the changes introduced by some existing commits
+01:02 < darkx> XD
+01:02 < darkx> 簡單說就是挑幾個 commit 抽取他們帶來的 diff (patch) 然後 apply 到指定的 branch 中
+01:02 <@haroldwu> 恩，也就是不是全部 merge
+01:03 < darkx> 是的
+01:03 <@haroldwu> 我這邊的狀況比較像是 pull request 的問題
+01:04 <@haroldwu> 因為我上次 PR 的東西他用一種不知道是什麼反正不是 merge 的動作併進去
+01:04 <@haroldwu> 所以遺留 commit 在那邊，其實 code 是一樣的
+01:22 < guildwar> 哇，威爾史密斯的車，好想弄一台 http://www.teepr.com/威爾史密斯的the-heat
+07:59  * a2n git rebase - branch merge, git cherry-pick commit merge
+20:52 < haroldwu> 有沒有什麼 android root 方法是不需要第三方軟體的...
+20:56 < petercommand> haroldwu: 自己寫XD
+21:02 < haroldwu> http://www.ithome.com.tw/news/88383 # GnuTLS 漏洞
+21:03 < haroldwu> petercommand: 連一行 java 都不會的人怎麼搞 root bootloaderXD
+21:03 < petercommand> haroldwu: 很多都不用java阿
+21:03 < petercommand> haroldwu: 有些是kernel exploit
+21:03 < petercommand> 寫C就可以了XD
+21:04 < haroldwu> 唔，也沒學過嵌入式 XD 算了，原廠也不是排斥，單純想試試而已
+21:05 < haroldwu> 不過我好奇的是，很多人一點資安概念也沒有，就貿然的用別人寫的軟體 root/ 刷來路不明的 ROM，完全都不感到危險哦...@@
+21:12 < petercommand> haroldwu: 像這個連嵌入式都不用XD https://intrepidusgroup.com/insight/2010/09/android-root-source-code-looking-at-the-c-skills/
+21:15 < petercommand> flood到adb setuid失敗XD
+--- Log closed 五  6月 06 00:00:58 2014
